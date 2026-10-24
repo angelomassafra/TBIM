@@ -84,5 +84,8 @@ def test_export_topologic_formats(tmp_path):
     for _, extension in export.FORMATS:
         out = export.export_model("InstanceBIM", path, extension, str(tmp_path))
         assert os.path.getsize(out) > 0
-    graph = json.load(open(str(tmp_path / "tbim_InstanceBIM_graph.json")))
-    assert len(graph["nodes"]) == 9 and graph["edges"]
+    adjacency = json.load(open(str(tmp_path / "tbim_InstanceBIM_adjacency_graph.json")))
+    assert adjacency["graph"] == "Adjacency graph" and len(adjacency["nodes"]) == 9 and adjacency["edges"]
+    passage = json.load(open(str(tmp_path / "tbim_InstanceBIM_passage_graph.json")))
+    kinds = set(e["kind"] for e in passage["edges"])
+    assert kinds <= {"door", "stair", "entrance"} and "door" in kinds

@@ -1,0 +1,2 @@
+title: "From Table"
+tooltip: "Step 3 - Assign the occupancy types (and the space names) of all the cells from the table of rooms of the project (json/tbim_Rooms.json): each cell takes the room whose point it contains."

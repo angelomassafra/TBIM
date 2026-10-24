@@ -1,0 +1,2 @@
+title: "Run"
+tooltip: "Run the whole workflow on the active project: Collectors (if the model has no TBIM spaces yet), Assignment (table of rooms, or the occupancy types of the spaces), Loads with thermal zones, Styles with layered Revit types, TopologicalBIM (if the project has rules), InstanceBIM and the exports."

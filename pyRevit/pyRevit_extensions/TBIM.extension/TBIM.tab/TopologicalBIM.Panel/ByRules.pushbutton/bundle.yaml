@@ -1,0 +1,2 @@
+title: "By Rules"
+tooltip: "Step 5 - TopologicalBIM: windows on the external faces and doors between cells, by occupancy type, from json/tbim_TopologicalBIM_Rules.json. Writes the TopologicalBIM and places the windows and doors in the walls of their faces (earlier TopologicalBIM apertures are replaced)."

@@ -1,11 +1,7 @@
 #! python3
-"""Apply the Informational Rule Sets (IRSs) to the faces of the CellComplex."""
-from tbim import irs, paths, styles, topo
-from tbim.revit import alert
+"""Apply the Informational Rule Sets (IRSs) to the faces and give the Revit elements their layered types."""
+from tbim import pipeline
+from tbim.revit import Context
 
-cc = topo.load_cellcomplex(paths.data_file(paths.CC_LOADS))
-rulesets = irs.load()
-styled = styles.run(cc, rulesets)
-path = topo.save_cellcomplex(cc, paths.data_file(paths.CC_STYLES))
-alert("Informational Styles",
-      "%d rule sets applied, %d faces styled.\n\nExported to:\n%s" % (len(rulesets), styled, path))
+ctx = Context(__revit__)  # noqa: F821
+pipeline.command("Informational Styles", lambda: pipeline.styles(ctx))

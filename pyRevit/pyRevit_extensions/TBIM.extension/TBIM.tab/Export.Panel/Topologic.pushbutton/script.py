@@ -1,5 +1,5 @@
 #! python3
-"""Export a Topologic model of the workflow to JSON, BREP, OBJ or as the dual graph of the cells."""
+"""Export a Topologic model of the workflow to JSON, BREP, OBJ or as the dual and passage graphs of the cells."""
 from tbim import export, revit, scene, ui
 
 models = scene.available_models()

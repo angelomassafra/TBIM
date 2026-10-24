@@ -49,12 +49,13 @@ from Autodesk.Revit.DB import (  # noqa: E402
 )
 from System.Collections.Generic import List  # noqa: E402
 
-from tbim import colors, revit  # noqa: E402
+from tbim import colors, revit, scene, topo, ui  # noqa: E402
 from tbim.units import cm_to_ft  # noqa: E402
 
 APPLICATION_ID = "TBIM"
 VIEW_PREFIX = "TBIM - "
 LEGEND_PREFIX = "TBIM Legend - "
+NODE_RADIUS_CM, EXTERIOR_RADIUS_CM, EDGE_RADIUS_CM = 30, 20, 8
 HOST_CATEGORIES = [BuiltInCategory.OST_Walls, BuiltInCategory.OST_Floors, BuiltInCategory.OST_Roofs,
                    BuiltInCategory.OST_Windows, BuiltInCategory.OST_Doors]
 
@@ -286,6 +287,54 @@ def legend(doc, title, entries, note=None):
         FilledRegion.Create(doc, filled_region_type(doc, rgb), view.Id, loops)
         TextNote.Create(doc, view.Id, XYZ(1.0 * m, y - 0.05 * m, 0), str(label), text_type)
     return view
+
+
+# --------------------------------------------------------------------------------------
+# Graphs
+def show_graph(ctx, kind, title):
+    """Visualize > Dual Graph / Passage Graph: the ``kind`` graph (scene.GRAPHS) of a Topologic model in the
+    3D view 'TBIM - <title>': nodes colored by thermal zone (or occupancy type), edges by kind, with a legend."""
+    models = scene.available_models()
+    if not models:
+        revit.alert("Visualize", "No Topologic model yet: run Collectors > CellComplex > Create first.")
+        return
+    label = ui.select("visualize_graph_model", "%s of the model" % title, [m[0] for m in models])
+    if not label:
+        return
+    path = dict(models)[label]
+    nodes, edges = scene.graph(topo.load_cellcomplex(path), scene.apertures(path), kind)
+    cells = [n for n in nodes if not n[0].startswith(scene.EXTERIOR)]
+    key = next((k for k in ("rl_HasLocation_tpZN", "pr_OccupancyType") if any(k in n[2] for n in cells)), "UID")
+    color_of, node_entries = colors.legend_for([n[2].get(key) for n in cells])
+    points = dict((uid, point) for uid, point, _ in nodes)
+    doc = ctx.doc
+    with revit.transaction(doc, "TBIM - Visualize %s" % title.lower()):
+        clear(doc, title)  # the DirectShapes of each graph are tagged with its title
+        view = view_3d(doc, title)
+        ghost(view, HOST_CATEGORIES, transparency=85)
+        for uid, point, props in nodes:
+            if uid.startswith(scene.EXTERIOR):
+                directshape(doc, sphere(point, EXTERIOR_RADIUS_CM, material(doc, colors.EXTERIOR_COLOR)),
+                            title, uid)
+            else:
+                directshape(doc, sphere(point, NODE_RADIUS_CM, material(doc, color_of(props.get(key)))),
+                            title, "%s (%s)" % (uid, props.get(key)))
+        for a, b, edge_kind in edges:
+            directshape(doc, cylinder(points[a], points[b], EDGE_RADIUS_CM,
+                                      material(doc, colors.GRAPH_EDGE_COLORS[edge_kind])),
+                        title, "%s-%s (%s)" % (a, b, edge_kind))
+        show_only(doc, view, title)
+        kinds = [k for k in colors.GRAPH_EDGE_COLORS if any(e[2] == k for e in edges)]
+        entries = [("Node: %s" % v, rgb) for v, rgb in node_entries]
+        if len(cells) < len(nodes):
+            entries.append(("Node: %s" % scene.EXTERIOR, colors.EXTERIOR_COLOR))
+        entries += [("Edge: %s" % k, colors.GRAPH_EDGE_COLORS[k]) for k in kinds]
+        legend(doc, title, entries, note="%s of %s - nodes by %s" % (title, label, key))
+    ctx.uidoc.ActiveView = view
+    counts = ", ".join("%s %d" % (k, sum(e[2] == k for e in edges)) for k in kinds) or "none"
+    note = "" if edges or kind != scene.PASSAGE else "\nNo doors yet: run TopologicalBIM > By Rules first."
+    revit.alert("Visualize", "%s of %s: %d nodes, %d edges (%s).\nView: '%s'.%s" % (
+        title, label, len(nodes), len(edges), counts, view.Name, note))
 
 
 def delete_all(doc):

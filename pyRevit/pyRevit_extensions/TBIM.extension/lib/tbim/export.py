@@ -18,7 +18,8 @@ FORMATS = [
     ("Topologic JSON (geometry, dictionaries and apertures)", ".json"),
     ("BREP (geometry)", ".brep"),
     ("OBJ (geometry)", ".obj"),
-    ("Dual graph JSON (cells and their connections)", "_graph.json"),
+    ("Adjacency graph JSON (cells sharing walls and slabs)", "_adjacency_graph.json"),
+    ("Passage graph JSON (doors, stairs and entrances between the cells)", "_passage_graph.json"),
 ]
 ALL_FORMATS = "All the formats"
 
@@ -37,11 +38,11 @@ def file_name(label, extension):
     return "tbim_" + "".join(ch for ch in "".join(words) if ch.isalnum()) + extension
 
 
-def graph_data(cc, path):
-    """Dual graph of the cells of ``cc`` as JSON-ready nodes and edges."""
-    apertures = [props for props, _ in scene.apertures(path)]
-    nodes, edges = scene.graph(cc, apertures)
+def graph_data(cc, path, kind=scene.ADJACENCY):
+    """Adjacency or passage graph of the cells of ``cc`` as JSON-ready nodes and edges."""
+    nodes, edges = scene.graph(cc, scene.apertures(path), kind)
     return {
+        "graph": kind,
         "units": "cm",
         "nodes": [{"id": uid, "x": p[0], "y": p[1], "z": p[2], "properties": props} for uid, p, props in nodes],
         "edges": [{"source": a, "target": b, "kind": kind} for a, b, kind in edges],
@@ -80,8 +81,9 @@ def export_model(label, path, extension, folder=None):
         ok = Topology.ExportToBREP(cc, out, overwrite=True, silent=True)
     elif extension == ".obj":
         ok = write_obj(cc, out)
-    elif extension == "_graph.json":
-        write_json(out, graph_data(cc, path))
+    elif extension in ("_adjacency_graph.json", "_passage_graph.json"):
+        kind = scene.ADJACENCY if extension.startswith("_adjacency") else scene.PASSAGE
+        write_json(out, graph_data(cc, path, kind))
         ok = True
     else:
         raise ValueError("Unknown export format: %s" % extension)

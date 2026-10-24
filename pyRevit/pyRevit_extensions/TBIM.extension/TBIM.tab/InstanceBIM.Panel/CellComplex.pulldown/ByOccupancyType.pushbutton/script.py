@@ -1,10 +1,7 @@
 #! python3
 """Add the instance data defined by occupancy type to the cells."""
-from tbim import instancebim, paths, topo
-from tbim.jsonio import read_json
-from tbim.revit import alert
+from tbim import pipeline
+from tbim.revit import Context
 
-cc = topo.load_cellcomplex(paths.data_file(paths.CC_IBIM))
-instancebim.by_occupancy_type(cc, read_json(paths.data_file(paths.IBIM_BY_OCCUPANCY_TYPE)))
-path = topo.save_cellcomplex(cc, paths.data_file(paths.CC_IBIM))
-alert("Instance BIM", "InstanceBIM exported to:\n%s" % path)
+ctx = Context(__revit__)  # noqa: F821
+pipeline.command("Instance BIM", lambda: pipeline.by_occupancy_type(ctx))

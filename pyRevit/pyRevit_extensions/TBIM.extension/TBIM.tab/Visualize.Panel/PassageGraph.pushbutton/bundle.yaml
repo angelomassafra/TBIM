@@ -1,0 +1,2 @@
+title: "Passage Graph"
+tooltip: "Show the passage graph of the cells in the 3D view 'TBIM - Passage graph': where people can go, through the doors placed by TopologicalBIM, the stairs (stacked vertical-circulation cells) and the entrances (external doors, to exterior nodes). Nodes colored by thermal zone (or occupancy type), edges by kind, with a legend."

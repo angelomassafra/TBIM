@@ -59,8 +59,20 @@ def _mean_key(coordinates, ndigits=1):
     return tuple(round(sum(c[i] for c in coordinates) / n, ndigits) for i in range(3))
 
 
+def _vertex_key(coordinates, ndigits=1):
+    """The rounded vertices themselves: a face with a hole and the face filling it share the vertex mean."""
+    return tuple(sorted(set(tuple(round(c, ndigits) for c in p) for p in coordinates)))
+
+
+def _keys(coordinates):
+    return _vertex_key(coordinates), _mean_key(coordinates)
+
+
 def _raw_dictionaries(records):
-    """{'Cell'|'Face': {vertex-mean key: dictionary}} from the raw JSON records."""
+    """{'Cell'|'Face': {key: dictionary}} from the raw JSON records, keyed by vertices and by vertex mean.
+
+    A vertex-mean key shared by two topologies (e.g. a ring face and the face inside it) is dropped.
+    """
     by_uuid = dict((r["uuid"], r) for r in records if "uuid" in r)
     children = {"Edge": "vertices", "Wire": "edges", "Face": "wires", "Shell": "faces", "Cell": "shells"}
     memo = {}
@@ -80,19 +92,23 @@ def _raw_dictionaries(records):
     out = {"Cell": {}, "Face": {}}
     for record in records:
         if record.get("type") in out and record.get("dictionary"):
-            out[record["type"]][_mean_key(list(vertices(record["uuid"])))] = record["dictionary"]
+            exact, mean = _keys(list(vertices(record["uuid"])))
+            out[record["type"]][exact] = record["dictionary"]
+            table = out[record["type"]]
+            table[mean] = None if mean in table else record["dictionary"]  # None: ambiguous mean
     return out
 
 
-def _topology_key(topology):
-    return _mean_key([Vertex.Coordinates(v) for v in Topology.Vertices(topology)])
+def _topology_keys(topology):
+    return _keys([Vertex.Coordinates(v) for v in Topology.Vertices(topology)])
 
 
 def restore(cc, dictionaries):
-    """Re-apply cell and face dictionaries to a rebuilt CellComplex (matched by geometry)."""
+    """Re-apply cell and face dictionaries to a rebuilt CellComplex (matched by their vertices)."""
     for kind, subtopologies in (("Cell", Topology.Cells(cc)), ("Face", Topology.Faces(cc))):
         for sub in subtopologies:
-            d = dictionaries[kind].get(_topology_key(sub))
+            exact, mean = _topology_keys(sub)
+            d = dictionaries[kind].get(exact) or dictionaries[kind].get(mean)
             if d is not None:
                 replace(sub, clean(d))
     return cc

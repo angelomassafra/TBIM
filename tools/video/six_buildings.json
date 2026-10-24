@@ -1,0 +1,78 @@
+{
+    "header": "Topological BIM - six buildings building themselves",
+    "output": "docs/video/tbim_six_buildings",
+    "opening": [
+        "Topological BIM",
+        "Six buildings, one workflow - TBIM for pyRevit",
+        "Massafra, Jabi, Gulli - Automation in Construction 166 (2024) 105628"
+    ],
+    "closing": [
+        "TBIM for pyRevit",
+        "6 buildings - 405 cells - 930 windows and doors",
+        "Residential 1960s, office tower, school, shopping centre, fortified farmhouse, town hall"
+    ],
+    "buildings": [
+        {
+            "frames": "Residential_1960s",
+            "label": "1960s residential building"
+        },
+        {
+            "frames": "Office_Tower",
+            "label": "Office tower, 20 storeys"
+        },
+        {
+            "frames": "School",
+            "label": "School, 2 storeys + gym"
+        },
+        {
+            "frames": "Shopping_Centre",
+            "label": "Shopping centre"
+        },
+        {
+            "frames": "Fortified_Farmhouse",
+            "label": "Fortified farmhouse (masseria)"
+        },
+        {
+            "frames": "Town_Hall",
+            "label": "Town hall with clock tower"
+        }
+    ],
+    "captions": {
+        "faces": [
+            "Step 1 - 3D Model",
+            "Massing models as CellComplexes: one cell per room, faces classified by topology"
+        ],
+        "controllers": [
+            "Step 2 - Informational Controllers",
+            "Storeys, walls, floors, roofs and spaces created in Revit from the faces"
+        ],
+        "cells": [
+            "Step 3 - Informational Loads",
+            "Occupancy, internal loads and thermal zones of every cell"
+        ],
+        "types": [
+            "Step 4 - Informational Styles",
+            "Layered Revit types with real materials, from tuff masonry to curtain walls"
+        ],
+        "apertures": [
+            "Step 5 - TopologicalBIM",
+            "Windows and doors placed on the faces by rules"
+        ],
+        "graph": [
+            "Visualize - Graph",
+            "Dual graph of the cells: door, wall and slab connections"
+        ],
+        "data": [
+            "Step 6 - InstanceBIM",
+            "Data back to Revit - here the U-values of the envelope"
+        ],
+        "orbit": [
+            "Six buildings, one workflow",
+            "Exported as Revit, IFC (with the TBIM property sets) and Topologic models"
+        ]
+    },
+    "gif": {
+        "fps": 6,
+        "width": 960
+    }
+}

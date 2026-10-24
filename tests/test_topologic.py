@@ -77,9 +77,12 @@ def test_styles(cc):
 def test_scene_graph_and_geometry(cc):
     topo.assign_face_types(cc)
     door_face = [topo.get(f, "UID") for t, faces in topo.face_groups(cc) if t == "intVer" for f in faces][0]
-    nodes, edges = scene.graph(cc, [{"pr_TopologicalType": "door", "rl_HasLocation_inFC": door_face}])
+    door = ({"pr_TopologicalType": "door", "rl_HasLocation_inFC": door_face}, [])
+    nodes, edges = scene.graph(cc, [door])
     assert sorted(n[0] for n in nodes) == ["Cell0", "Cell1", "Cell2"]
-    assert sorted(kind for _, _, kind in edges) == ["door", "slab"]  # Cell0-Cell1 by a door, Cell0-Cell2 by a slab
+    assert sorted(kind for _, _, kind in edges) == ["slab", "wall"]  # Cell0-Cell1 share a wall, Cell0-Cell2 a slab
+    _, passages = scene.graph(cc, [door], scene.PASSAGE)
+    assert [kind for _, _, kind in passages] == ["door"]  # the slab is not a passage
     faces = scene.faces(cc)
     assert len(faces) == len(CellComplex.Faces(cc)) and all(len(loop) == 4 for _, _, _, loop in faces)
     shrunk = scene.cells(cc, shrink=0.5)
@@ -101,7 +104,7 @@ def test_building_kit_writes_a_project(tmp_path):
     kit.write_project(str(tmp_path), "Test", "", rooms + [attic], 0, ilds, [], {}, {})
     cc = Topology.ByBREPPath(str(tmp_path / "3d" / "Block.brep"))
     assert len(Topology.Cells(cc)) == 3
-    data = json.load(open(str(tmp_path / "json" / "rooms.json")))
+    data = json.load(open(str(tmp_path / "json" / "tbim_Rooms.json")))
     assert [r["space"] for r in data] == ["A", "B", "R"]
     assert 300 < data[2]["center"][2] < 450  # inside the attic
     assert (tmp_path / "json" / "tbim_IRS_extVerFaces.json").exists()

@@ -3,14 +3,10 @@
     python examples/demo/make_demo.py     # inputs
     python examples/demo/run_offline.py   # all the TBIM models
 
-Each step mirrors a command of the TBIM ribbon; the Revit interactions are
-emulated from json/demo_layout.json (occupancy types and space names a user
-would set in Revit) and the Revit-side geometry is approximated from the cells.
-
-The "TopologicalBIM" step (apertures on the styled CellComplex) is a stand-in
-for the TopologicalBIM panel, which is not part of this release yet.
+Each step mirrors a command of the TBIM ribbon (Project > Run runs them all in Revit); the Revit-side
+geometry is approximated from the cells. Occupancy types and space names come from json/tbim_Rooms.json,
+windows and doors from json/tbim_TopologicalBIM_Rules.json, as in Revit.
 """
-import math
 import os
 import sys
 
@@ -20,15 +16,10 @@ os.environ["TBIM_HOME"] = HERE
 sys.path.insert(0, os.path.join(ROOT, "pyRevit", "pyRevit_extensions", "TBIM.extension", "lib"))
 
 from topologicpy.CellComplex import CellComplex  # noqa: E402
-from topologicpy.Face import Face  # noqa: E402
-from topologicpy.Topology import Topology  # noqa: E402
-from topologicpy.Vertex import Vertex  # noqa: E402
 
-from tbim import controllers, ibim, ild, instancebim, irs, loads, paths, styles, tbimjson, topo  # noqa: E402
+from tbim import apertures, controllers, ibim, ild, instancebim, irs, loads, paths, rooms, styles, tbimjson, topo  # noqa: E402,E501
 from tbim.jsonio import read_json, write_json  # noqa: E402
 
-WINDOW = (120.0, 150.0, 90.0)  # width, height, sill (cm)
-DOOR = (90.0, 210.0, 0.0)
 DEMO_MOVE_CM = 100.0  # the first door is "moved in Revit" by this amount
 
 
@@ -36,61 +27,7 @@ def step(title):
     print("\n== %s" % title)
 
 
-def room_of(cell, layout):
-    c = Vertex.Coordinates(topo.interior_point(cell))
-    return min(layout, key=lambda r: sum((a - b) ** 2 for a, b in zip(c, r["center"])))
-
-
-def opening(face, width, height, sill):
-    """Rectangular face centred on the bottom edge of a vertical face, ``sill`` above it."""
-    pts = [Vertex.Coordinates(v) for v in Topology.Vertices(face)]
-    zmin = min(p[2] for p in pts)
-    bottom = [p for p in pts if abs(p[2] - zmin) < 1e-3]
-    a, b = min(bottom), max(bottom)
-    length = math.hypot(b[0] - a[0], b[1] - a[1])
-    if length < width + 60:
-        return None, None
-    u = ((b[0] - a[0]) / length, (b[1] - a[1]) / length)
-    cx, cy = (a[0] + b[0]) / 2.0, (a[1] + b[1]) / 2.0
-    z0, z1 = zmin + sill, zmin + sill + height
-    (x0, y0), (x1, y1) = [(cx + s * u[0] * width / 2, cy + s * u[1] * width / 2) for s in (-1, 1)]
-    vertices = [Vertex.ByCoordinates(x, y, z) for x, y, z in ((x0, y0, z0), (x1, y1, z0), (x1, y1, z1), (x0, y0, z1))]
-    return Face.ByVertices(vertices), (cx, cy, zmin + sill, u)
-
-
-def topological_bim(cc):
-    """Stand-in for the TopologicalBIM panel: windows on external walls, doors towards corridors."""
-    apertures, locations = [], []
-    counters = {"window": 0, "door": 0}
-    for face_type, faces in topo.face_groups(cc):
-        for face in faces:
-            props = topo.props(face)
-            if face_type == "extVer" and "Circulation" not in props.get("pr_OccupancyType", ""):
-                kind, size = "window", WINDOW
-            elif face_type == "intVer" and "Corridor" in props.get("pr_OccupancyType", "") \
-                    and props["pr_OccupancyType"].count("Corridor") == 1:
-                kind, size = "door", DOOR
-            else:
-                continue
-            aperture, location = opening(face, *size)
-            if aperture is None:
-                continue
-            uid = "%s%d" % (kind, counters[kind])
-            counters[kind] += 1
-            topo.replace(aperture, {"UID": uid, "pr_TopologicalType": kind, "pr_Width": size[0],
-                                    "pr_Height": size[1], "rl_HasLocation_inFC": props["UID"]})
-            apertures.append(aperture)
-            c = Vertex.Coordinates(Topology.Centroid(aperture))
-            revit_point = dict(zip("XYZ", [int(v) for v in location[:3]]))
-            locations.append({"UID": uid, "Direction": location[3],
-                              "Location": {"Revit": revit_point, "Topologic": dict(zip("XYZ", c))}})
-    cc = Topology.AddApertures(cc, apertures, subTopologyType="face")
-    return cc, locations
-
-
 def main():
-    layout = read_json(paths.data_file("demo_layout.json"))
-
     step("3D Model > Import")
     breps = [os.path.join(HERE, "3d", name) for name in ("BlockA.brep", "BlockB.brep")]
     write_json(paths.data_file(paths.BREP_FILEPATHS), ["3d/BlockA.brep", "3d/BlockB.brep"])  # project-relative
@@ -102,15 +39,12 @@ def main():
     topo.save_cellcomplex(cc, paths.data_file(paths.CC_CONTROLLERS))
     print("cells: %d, storeys: %s" % (len(CellComplex.Cells(cc)), elevations))
 
-    step("Loads > Assignment (emulated)")
-    assignments, space_names = {}, {}
-    for cell in CellComplex.Cells(cc):
-        room = room_of(cell, layout)
-        assignments[topo.cell_uid(cell)] = room["pr_OccupancyType"]
-        space_names[topo.cell_uid(cell)] = "; ".join(room["spaces"])
-        print("  %s -> %s (%s)" % (topo.cell_uid(cell), room["room"], room["pr_OccupancyType"]))
-    ild.save_assignments(assignments)
-    write_json(paths.data_file("demo_space_names.json"), space_names)
+    step("Loads > Assignment > From Table")
+    matches, _ = rooms.match(cc, read_json(paths.data_file(paths.ROOMS)))
+    ild.save_assignments(rooms.assignments(matches))
+    space_names = rooms.space_ids(matches)  # the names of the Revit spaces
+    for uid, room in sorted(matches.items()):
+        print("  %s -> %s (%s)" % (uid, room["name"], room["pr_OccupancyType"]))
 
     step("Loads > CellComplex > Clusterize")
     cc = topo.load_cellcomplex(paths.data_file(paths.CC_CONTROLLERS))
@@ -130,19 +64,20 @@ def main():
     print("faces styled: %d" % styles.run(cc, rulesets))
     topo.save_cellcomplex(cc, paths.data_file(paths.CC_STYLES))
 
-    step("TopologicalBIM (stand-in)")
+    step("TopologicalBIM > By Rules")
     cc = topo.load_cellcomplex(paths.data_file(paths.CC_STYLES))
-    cc, locations = topological_bim(cc)
+    cc, placements = apertures.place(cc, read_json(paths.data_file(paths.APERTURE_RULES)))
     topo.save_cellcomplex(cc, paths.data_file(paths.CC_TBIM))
-    write_json(paths.data_file(paths.APERTURE_LOCATIONS), [dict((k, v) for k, v in loc.items() if k != "Direction")
-                                                           for loc in locations])
-    print("apertures: %d" % len(locations))
+    locations = apertures.locations(placements)
+    write_json(paths.data_file(paths.APERTURE_LOCATIONS), locations)
+    print("apertures: %d" % len(placements))
 
     step("InstanceBIM > 00 MoveApertures (first door moved in Revit)")
-    door = next(loc for loc in locations if loc["UID"].startswith("door"))
-    rv, u = door["Location"]["Revit"], door["Direction"]
+    door = next(p for p in placements if p["kind"] == "door")
+    location = next(loc["Location"] for loc in locations if loc["UID"] == door["UID"])
+    rv, u = location["Revit"], door["direction"]
     revit_xyz = [rv["X"] + int(u[0] * DEMO_MOVE_CM), rv["Y"] + int(u[1] * DEMO_MOVE_CM), rv["Z"]]
-    moves = {door["UID"]: ibim.aperture_movement(revit_xyz, door["Location"])}
+    moves = {door["UID"]: ibim.aperture_movement(revit_xyz, location)}
     records = read_json(paths.data_file(paths.CC_TBIM))
     print("moved: %s %s" % (tbimjson.move_apertures(records, moves), moves))
     write_json(paths.data_file(paths.CC_IBIM), records)

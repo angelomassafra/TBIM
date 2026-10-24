@@ -1,0 +1,2 @@
+title: "Dual Graph"
+tooltip: "Show the dual graph of the cells in the 3D view 'TBIM - Dual graph': one node per cell, one edge per wall or slab shared by two cells. Nodes colored by thermal zone (or occupancy type), edges by kind (wall, slab), with a legend."

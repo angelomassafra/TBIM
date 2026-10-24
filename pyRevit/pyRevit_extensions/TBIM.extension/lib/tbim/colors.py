@@ -25,7 +25,10 @@ TOPOLOGY_COLORS = {
     "door": (106, 61, 154),
 }
 
-GRAPH_EDGE_COLORS = {"door": (227, 26, 28), "wall": (120, 120, 120), "slab": (51, 160, 44)}
+# Edges of the adjacency graph (wall, slab) and of the passage graph (door, stair, entrance)
+GRAPH_EDGE_COLORS = {"door": (227, 26, 28), "stair": (120, 94, 240), "entrance": (230, 159, 0),
+                     "wall": (120, 120, 120), "slab": (51, 160, 44)}
+EXTERIOR_COLOR = (60, 60, 60)
 
 
 def to_hex(rgb):

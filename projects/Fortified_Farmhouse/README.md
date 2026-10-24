@@ -19,7 +19,7 @@ buildings of the [six-building video](../../docs/video/tbim_six_buildings.mp4).
 
 ## Constructions
 
-Informational Rule Sets: each style is a layered Revit type whose materials (colour, conductivity, density, specific heat) come from [`tools/materials.py`](../../tools/materials.py). Layers from the outside (top) to the inside (bottom), thicknesses in mm; U-values in W/(m2 K), computed from the layers (given for glazing).
+Informational Rule Sets: each style is a layered Revit type whose materials (colour, conductivity, density, specific heat) come from the TBIM material library ([`lib/tbim/materials.py`](../../pyRevit/pyRevit_extensions/TBIM.extension/lib/tbim/materials.py)). Layers from the outside (top) to the inside (bottom), thicknesses in mm; U-values in W/(m2 K), computed from the layers (given for glazing).
 
 | Element | Type | Layers | U |
 |---|---|---|---|
@@ -35,12 +35,12 @@ Informational Rule Sets: each style is a layered Revit type whose materials (col
 
 | | |
 |---|---|
-| `make_model.py` | Floor plans (rooms as boxes), ILDs, InstanceBIM data, IRSs and window/door rules: writes `3d/` and `json/` |
+| `make_model.py` | Floor plans (rooms as boxes), ILDs, InstanceBIM data, IRSs, room table (`tbim_Rooms.json`) and window/door rules (`tbim_TopologicalBIM_Rules.json`): writes `3d/` and `json/` |
 | `3d/*.brep` | Massing model, one CellComplex per building block (centimetres) |
 | `json/` | TBIM data of every step of the workflow |
 | `Fortified_Farmhouse.rvt` | Revit 2026 model at the end of the workflow, with the TBIM views and legends |
 | `export/Fortified_Farmhouse.ifc` | IFC4 Reference View with the TBIM property sets (Export > IFC) |
-| `export/tbim_InstanceBIM.*` | InstanceBIM as topologicpy JSON, BREP, OBJ and dual graph JSON (Export > Topologic) |
+| `export/tbim_InstanceBIM.*` | InstanceBIM as topologicpy JSON, BREP, OBJ, dual (adjacency) and passage graphs JSON (Export > Topologic) |
 
 ## Rebuild
 
@@ -48,6 +48,6 @@ Informational Rule Sets: each style is a layered Revit type whose materials (col
 python make_model.py
 ```
 
-then follow the [tutorial](../../docs/USER_MANUAL.md#4-tutorial-the-demo-school-step-by-step) on an empty Revit model
-(**Project > Open** this folder). Windows and doors come from a stand-in of the TopologicalBIM panel:
-`python tools/topologicalbim_standin.py projects/Fortified_Farmhouse` (see [tools](../../tools)).
+then open an empty Revit model, **Project > Open** this folder and press **Project > Run**: it runs every
+step of the workflow, from Collectors to the exports (occupancy types from Loads > Assignment > From Table,
+windows and doors from TopologicalBIM > By Rules). **Project > Check Model** checks the result.

@@ -10,8 +10,8 @@ each; Block B, a single storey gym. Outputs:
 - json/tbim_IRS_*.json                  Informational Rule Sets
 - json/tbim_ProjectNorthAngle.json      project north (15 degrees)
 - json/tbim_InstanceBIM_*.json          instance data by occupancy type / table of spaces
-- json/demo_layout.json                 occupancy type and space ids by room
-                                        (what a user would assign in Revit)
+- json/tbim_Rooms.json                  occupancy type and space ids by room (Loads > Assignment > From Table)
+- json/tbim_TopologicalBIM_Rules.json   windows and doors by occupancy type (TopologicalBIM > By Rules)
 """
 import json
 import os
@@ -36,6 +36,12 @@ ROOMS = [
     ("A1-CO", "BlockA", 0, 600, 300, 1500, 200, 300, "Circulation:Corridor", ["A1.04"]),
     ("B0-GY", "BlockB", 1500, 0, 0, 800, 800, 300, "Sport:Gym", ["B0.01"]),
 ]
+
+# windows on the external faces except corridors, doors from the corridors to the rooms
+APERTURE_RULES = {
+    "windows": [["Circulation", None], ["", "TBIM_Window_120x150", 120, 150, 90]],
+    "doors": [["Corridor", "Corridor", None], ["Corridor", "", "TBIM_Door_90x210", 90, 210]],
+}
 
 ILD_KEYS = ["pr_CirculationType", "pr_IsOccupied", "pr_IsHeated", "pr_IsCooled",
             "pr_IsNaturallyVentilated", "pr_IsMechanicallyVentilated", "pr_AreaPerOccupantPeak"]
@@ -121,9 +127,11 @@ def main():
                           "pr_IsOccupied": "ByOccupancyType", "pr_IsAboveGround": 1, "pr_IsRefugeArea": 0,
                           "pr_FinishFloor": "Linoleum" if "Classroom" in occ else "Ceramic tiles"})
     write("tbim_InstanceBIM_byTableOfSpaces.json", table)
-    write("demo_layout.json", [{"room": name, "block": block, "center": [x + w / 2.0, y + d / 2.0, z + h / 2.0],
-                                "pr_OccupancyType": occ, "spaces": ids}
-                               for name, block, x, y, z, w, d, h, occ, ids in ROOMS])
+    # the Revit space of a room lists the ids of its rows of the table of spaces, '; ' separated
+    write("tbim_Rooms.json", [{"center": [x + w / 2.0, y + d / 2.0, z + h / 2.0], "pr_OccupancyType": occ,
+                               "space": "; ".join(ids), "name": name}
+                              for name, block, x, y, z, w, d, h, occ, ids in ROOMS])
+    write("tbim_TopologicalBIM_Rules.json", APERTURE_RULES)
     print("demo inputs written in", HERE)
 
 

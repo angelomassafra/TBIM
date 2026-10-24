@@ -1,2 +1,0 @@
-title: "Graph"
-tooltip: "Show the dual graph of the cells in the 3D view 'TBIM - Graph': nodes colored by thermal zone (or occupancy type), edges by connection (door, wall, slab). Adds a legend."

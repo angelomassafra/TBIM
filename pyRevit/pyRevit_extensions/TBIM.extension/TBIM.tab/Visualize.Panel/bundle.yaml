@@ -1,6 +1,7 @@
 layout:
   - Model
-  - Graph
+  - DualGraph
+  - PassageGraph
   - Types
   - Data
   - Clear

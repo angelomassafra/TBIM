@@ -1,6 +1,7 @@
 #! python3
-"""Assign the Informational Loads (ILDs) to cells and faces and update the spaces."""
-from tbim import loadscmd
+"""Assign the Informational Loads (ILDs) to the cells and faces."""
+from tbim import pipeline
 from tbim.revit import Context
 
-loadscmd.run(Context(__revit__), clusterize=False)  # noqa: F821
+ctx = Context(__revit__)  # noqa: F821
+pipeline.command("Informational Loads", lambda: pipeline.loads(ctx, clusterize=False))

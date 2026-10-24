@@ -30,8 +30,13 @@ APERTURE_LOCATIONS = "tbim_CellComplex_TBIM_AperturesLocation.json"
 CC_IBIM = "tbim_CellComplex_IBIM.json"
 IBIM_BY_OCCUPANCY_TYPE = "tbim_InstanceBIM_byOccupancyType.json"
 IBIM_BY_TABLE_OF_SPACES = "tbim_InstanceBIM_byTableOfSpaces.json"
+ROOMS = "tbim_Rooms.json"  # room list: occupancy, space id and a point inside each room
+APERTURE_RULES = "tbim_TopologicalBIM_Rules.json"  # windows and doors by occupancy type
+LOG = "tbim.log"
 SHARED_PARAMETERS = "tbim_SharedParameters.txt"
 SETTINGS = "tbim_settings.json"
+# names used by earlier versions of the example projects
+LEGACY_NAMES = {ROOMS: "rooms.json", APERTURE_RULES: "standin_apertures.json"}
 
 # Informational Rule Sets, one file per face topological type (applied in this order)
 IRS_FILES = [
@@ -98,6 +103,14 @@ def data_dir():
 def data_file(name):
     """Absolute path of a file in the TBIM data folder."""
     return os.path.join(data_dir(), name)
+
+
+def existing_data_file(name):
+    """Path of a data file, or of its legacy name if only that exists; None if neither exists."""
+    for candidate in (name, LEGACY_NAMES.get(name)):
+        if candidate and os.path.isfile(data_file(candidate)):
+            return data_file(candidate)
+    return None
 
 
 def shared_parameter_file():

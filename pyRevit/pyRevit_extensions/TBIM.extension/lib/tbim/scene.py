@@ -56,26 +56,60 @@ def apertures(path):
     return tbimjson.aperture_polygons(path)
 
 
-def graph(cc, aperture_props=()):
-    """Dual graph of the cells. Return (nodes, edges).
+ADJACENCY, PASSAGE = "Adjacency graph", "Passage graph"
+GRAPHS = [ADJACENCY, PASSAGE]
+# occupancy types whose stacked cells are connected through the slab (stairs, lifts, cores)
+VERTICAL_CIRCULATION = ("Stair", "Core", "Lift", "Elevator", "Ramp")
+EXTERIOR = "Exterior"
+EXTERIOR_OFFSET_CM = 150
 
-    nodes: [(UID, point, properties)]; edges: [(UID a, UID b, kind)] with kind
-    'door' (shared face hosting a door), 'wall' (other vertical face) or 'slab'.
+
+def _vertical(occupancy):
+    return any(word in (occupancy or "") for word in VERTICAL_CIRCULATION)
+
+
+def _centroid(loop):
+    return [sum(p[i] for p in loop) / float(len(loop)) for i in range(3)]
+
+
+def graph(cc, aperture_records=(), kind=ADJACENCY):
+    """Graph of the cells. Return (nodes, edges).
+
+    nodes: [(UID, point, properties)]; edges: [(UID a, UID b, kind)].
+
+    - Adjacency graph: cells sharing a face, edge kind 'wall' (vertical face) or 'slab'.
+    - Passage graph: where people can go from a cell to another: 'door' (internal face hosting a door),
+      'stair' (slab between two stacked vertical-circulation cells, see VERTICAL_CIRCULATION) and
+      'entrance' (external door), which links the cell to an exterior node 'Exterior-<door UID>' placed
+      just outside the door.
+
+    aperture_records: [(properties, boundary)] of the apertures (``apertures(path)``).
     """
-    door_faces = set(p.get("rl_HasLocation_inFC") for p in aperture_props if p.get("pr_TopologicalType") == "door")
+    doors = dict((p.get("rl_HasLocation_inFC"), (p, loop)) for p, loop in aperture_records
+                 if p.get("pr_TopologicalType") == "door")
     nodes = [(topo.cell_uid(c), Vertex.Coordinates(topo.interior_point(c)), topo.props(c))
              for c in CellComplex.Cells(cc)]
     edges = []
     for face_type, group in topo.face_groups(cc):
-        if not face_type.startswith("int"):
-            continue
         for face in group:
-            uids = [topo.cell_uid(c) for c in topo.adjacent_cells(face, cc)]
-            if len(uids) != 2:
+            cells = topo.adjacent_cells(face, cc)
+            uids = [topo.cell_uid(c) for c in cells]
+            if kind == ADJACENCY:
+                if face_type.startswith("int") and len(uids) == 2:
+                    edges.append((uids[0], uids[1], "wall" if face_type == "intVer" else "slab"))
                 continue
-            if topo.get(face, "UID") in door_faces:
-                kind = "door"
-            else:
-                kind = "wall" if face_type == "intVer" else "slab"
-            edges.append((uids[0], uids[1], kind))
+            door = doors.get(topo.get(face, "UID"))
+            if face_type == "intVer" and len(uids) == 2 and door:
+                edges.append((uids[0], uids[1], "door"))
+            elif face_type == "intHor" and len(uids) == 2 and all(
+                    _vertical(topo.get(c, "pr_OccupancyType")) for c in cells):
+                edges.append((uids[0], uids[1], "stair"))
+            elif face_type == "extVer" and len(uids) == 1 and door:
+                props, loop = door
+                normal = topo.outward_normal(face, cells[0])
+                centre = _centroid(loop)
+                point = [centre[i] + normal[i] * EXTERIOR_OFFSET_CM for i in range(3)]
+                name = "%s-%s" % (EXTERIOR, props.get("UID"))
+                nodes.append((name, point, {"UID": name, "pr_OccupancyType": EXTERIOR}))
+                edges.append((uids[0], name, "entrance"))
     return nodes, edges

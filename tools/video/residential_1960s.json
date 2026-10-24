@@ -1,0 +1,58 @@
+{
+    "output": "projects/Residential_1960s/video/tbim_residential_1960s",
+    "crf": 20,
+    "opening": [
+        "1960s Residential Building",
+        "Anonymized case study - Topological BIM",
+        "TBIM for pyRevit - Massafra, Jabi, Gulli, Automation in Construction 166 (2024) 105628"
+    ],
+    "closing": [
+        "TBIM for pyRevit",
+        "112 cells - 477 faces - 190 apertures",
+        "RC frame, cavity walls, clay-concrete slabs, clay-tile roof"
+    ],
+    "buildings": [
+        {
+            "frames": "Residential_1960s",
+            "label": "1960s residential building"
+        }
+    ],
+    "captions": {
+        "faces": [
+            "Step 1 - 3D Model",
+            "Basement, 5 storeys (one cell per room), hipped attic and stair turret: 112 cells"
+        ],
+        "controllers": [
+            "Step 2 - Informational Controllers",
+            "Storeys, 334 walls, 138 slabs, the clay-tile roof pitches and 112 spaces in Revit"
+        ],
+        "cells": [
+            "Step 3 - Informational Loads",
+            "Rooms, flats, stairs and garages get their ILDs; thermal zones per storey"
+        ],
+        "types": [
+            "Step 4 - Informational Styles",
+            "Layered 1960s constructions: brick cavity walls, clay-concrete slabs, clay-tile roof"
+        ],
+        "apertures": [
+            "Step 5 - TopologicalBIM",
+            "99 anodized-aluminium single-glazed windows and 91 doors"
+        ],
+        "graph": [
+            "Visualize - Graph",
+            "Dual graph of the 112 cells: 90 door, 132 wall and 133 slab connections"
+        ],
+        "data": [
+            "Step 6 - InstanceBIM",
+            "Data back to Revit - here the U-values of the envelope (W/m2K)"
+        ],
+        "orbit": [
+            "1960s residential building",
+            "From the archive drawings to a Topological BIM"
+        ]
+    },
+    "gif": {
+        "fps": 8,
+        "width": 720
+    }
+}

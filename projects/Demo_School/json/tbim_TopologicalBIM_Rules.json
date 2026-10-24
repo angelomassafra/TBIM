@@ -1,0 +1,29 @@
+{
+    "windows": [
+        [
+            "Circulation",
+            null
+        ],
+        [
+            "",
+            "TBIM_Window_120x150",
+            120,
+            150,
+            90
+        ]
+    ],
+    "doors": [
+        [
+            "Corridor",
+            "Corridor",
+            null
+        ],
+        [
+            "Corridor",
+            "",
+            "TBIM_Door_90x210",
+            90,
+            210
+        ]
+    ]
+}

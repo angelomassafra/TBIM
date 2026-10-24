@@ -1,12 +1,7 @@
-"""Tests of the layered constructions of the example projects (tools/materials.py)."""
-import os
-import sys
-
+"""Tests of the layered constructions (tbim.materials)."""
 import pytest
 
-sys.path.insert(0, os.path.join(os.path.dirname(__file__), os.pardir, "tools"))
-
-import materials  # noqa: E402
+from tbim import materials
 
 CAVITY_WALL = [("Facing brick", 120), ("Air cavity", 60), ("Hollow clay brick", 80), ("Lime-cement plaster", 15)]
 

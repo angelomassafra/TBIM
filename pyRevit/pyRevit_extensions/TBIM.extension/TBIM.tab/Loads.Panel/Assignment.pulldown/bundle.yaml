@@ -1,6 +1,7 @@
 title: "Assignment"
 tooltip: "Assign occupancy types (Informational Load Dictionaries) to the spaces."
 layout:
+  - FromTable
   - ByBuilding
   - ByBuildingStorey
   - ByCell

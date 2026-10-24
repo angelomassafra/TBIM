@@ -73,6 +73,8 @@ hover on a button to read what it does.
 |---|---|---|---|
 | <img src="../pyRevit/pyRevit_extensions/TBIM.extension/TBIM.tab/Project.Panel/New.pushbutton/icon.png" width="24"> | Project | New | Create a new TBIM project folder (3d/ for the BReps, json/ for the TBIM data) from the templates, make it the active project and link it to the open Revit model. |
 | <img src="../pyRevit/pyRevit_extensions/TBIM.extension/TBIM.tab/Project.Panel/Open.pushbutton/icon.png" width="24"> | Project | Open | Activate an existing TBIM project (or turn any folder into one) and link it to the open Revit model. Linked models activate their project automatically when opened. |
+| <img src="../pyRevit/pyRevit_extensions/TBIM.extension/TBIM.tab/Project.Panel/Run.pushbutton/icon.png" width="24"> | Project | Run | Run the whole workflow on the active project: Collectors (if the model has no TBIM spaces yet), Assignment (table of rooms, or the occupancy types of the spaces), Loads with thermal zones, Styles with layered Revit types, TopologicalBIM (if the project has rules), InstanceBIM and the exports. |
+| <img src="../pyRevit/pyRevit_extensions/TBIM.extension/TBIM.tab/Project.Panel/CheckModel.pushbutton/icon.png" width="24"> | Project | Check Model | Check the project and the Revit model: missing inputs and outputs, faces with holes, cells without occupancy type or room, styles without layers, elements without UID or with the wrong type, duplicated UIDs, spaces not enclosed, apertures without host. |
 | <img src="../pyRevit/pyRevit_extensions/TBIM.extension/TBIM.tab/Project.Panel/Info.pushbutton/icon.png" width="24"> | Project | Info | Show the active project, the project linked to the Revit model and which steps of the TBIM workflow have already produced their data. |
 | <img src="../pyRevit/pyRevit_extensions/TBIM.extension/TBIM.tab/Project.Panel/Folder.pushbutton/icon.png" width="24"> | Project | Folder | Open the folder of the active project in Windows Explorer. |
 | <img src="../pyRevit/pyRevit_extensions/TBIM.extension/TBIM.tab/Installation.Panel/Check.pushbutton/icon.png" width="24"> | Installation | Check | Check the installation (Python engine, numpy, scipy, topologic_core, topologicpy, data folder) and reload the TBIM library. Run it after updating TBIM. |
@@ -80,6 +82,7 @@ hover on a button to read what it does.
 | <img src="../pyRevit/pyRevit_extensions/TBIM.extension/TBIM.tab/3D%20Model.Panel/North.pushbutton/icon.png" width="24"> | 3D Model | North | Step 1 - Set the angle of the Project North (degrees, counterclockwise). It is used to compute the exposure of the external faces. |
 | <img src="../pyRevit/pyRevit_extensions/TBIM.extension/TBIM.tab/Collectors.Panel/CellComplex.pulldown/Create.pushbutton/icon.png" width="24"> | Collectors | CellComplex > Create | Step 2 - Merge the BReps in a CellComplex and create its Revit counterpart: building storeys (levels), walls, floors, roofs and one space per cell, all tagged with the UID of their cell or face. |
 | <img src="../pyRevit/pyRevit_extensions/TBIM.extension/TBIM.tab/Collectors.Panel/CellComplex.pulldown/Delete.pushbutton/icon.png" width="24"> | Collectors | CellComplex > Delete | Delete the Informational Controllers of the model (zones, spaces, walls, floors, roofs, levels) to start the workflow again. |
+| <img src="../pyRevit/pyRevit_extensions/TBIM.extension/TBIM.tab/Loads.Panel/Assignment.pulldown/FromTable.pushbutton/icon.png" width="24"> | Loads | Assignment > From Table | Step 3 - Assign the occupancy types (and the space names) of all the cells from the table of rooms of the project (`json/tbim_Rooms.json`): each cell takes the room whose point it contains. |
 | <img src="../pyRevit/pyRevit_extensions/TBIM.extension/TBIM.tab/Loads.Panel/Assignment.pulldown/ByBuilding.pushbutton/icon.png" width="24"> | Loads | Assignment > By Building | Step 3 - Assign one occupancy type to all the spaces of the building. |
 | <img src="../pyRevit/pyRevit_extensions/TBIM.extension/TBIM.tab/Loads.Panel/Assignment.pulldown/ByBuildingStorey.pushbutton/icon.png" width="24"> | Loads | Assignment > By Storey | Step 3 - Assign one occupancy type to all the spaces of a building storey. |
 | <img src="../pyRevit/pyRevit_extensions/TBIM.extension/TBIM.tab/Loads.Panel/Assignment.pulldown/ByCell.pushbutton/icon.png" width="24"> | Loads | Assignment > By Cell | Step 3 - Assign an occupancy type to the spaces (cells) you select in the model. |
@@ -89,22 +92,21 @@ hover on a button to read what it does.
 | <img src="../pyRevit/pyRevit_extensions/TBIM.extension/TBIM.tab/Loads.Panel/Dictionary.pulldown/Create.pushbutton/icon.png" width="24"> | Loads | Dictionary > Create | Create a new Informational Load Dictionary starting from an existing one. |
 | <img src="../pyRevit/pyRevit_extensions/TBIM.extension/TBIM.tab/Loads.Panel/Dictionary.pulldown/Edit.pushbutton/icon.png" width="24"> | Loads | Dictionary > Edit | Edit one property of an Informational Load Dictionary. |
 | <img src="../pyRevit/pyRevit_extensions/TBIM.extension/TBIM.tab/Loads.Panel/Dictionary.pulldown/Delete.pushbutton/icon.png" width="24"> | Loads | Dictionary > Delete | Delete an Informational Load Dictionary. |
-| <img src="../pyRevit/pyRevit_extensions/TBIM.extension/TBIM.tab/Styles.Panel/CellComplex.pulldown/Update.pushbutton/icon.png" width="24"> | Styles | CellComplex > Update | Step 4 - Apply the Informational Rule Sets (IRSs) to the faces: each face gets the wall, floor or roof type of the matching rules (e.g. by exposure or occupancy). |
+| <img src="../pyRevit/pyRevit_extensions/TBIM.extension/TBIM.tab/Styles.Panel/CellComplex.pulldown/Update.pushbutton/icon.png" width="24"> | Styles | CellComplex > Update | Step 4 - Apply the Informational Rule Sets (IRSs) to the faces: each face gets the wall, floor or roof type of the matching rules (e.g. by exposure or occupancy). The Revit walls, floors and roofs get these types, built with the layers of `stFC_Layers` (materials with colour and thermal data). |
+| <img src="../pyRevit/pyRevit_extensions/TBIM.extension/TBIM.tab/TopologicalBIM.Panel/ByRules.pushbutton/icon.png" width="24"> | TopologicalBIM | By Rules | Step 5 - Windows on the external faces and doors between cells, by occupancy type, from `json/tbim_TopologicalBIM_Rules.json`. Writes the TopologicalBIM and places the windows and doors in the walls of their faces (earlier TopologicalBIM apertures are replaced). |
 | <img src="../pyRevit/pyRevit_extensions/TBIM.extension/TBIM.tab/InstanceBIM.Panel/CellComplex.pulldown/MoveApertures.pushbutton/icon.png" width="24"> | InstanceBIM | CellComplex > Move Apertures | Step 6 - Start the InstanceBIM from the TopologicalBIM, moving the apertures like the windows and doors moved in Revit (movements above 20 cm). |
 | <img src="../pyRevit/pyRevit_extensions/TBIM.extension/TBIM.tab/InstanceBIM.Panel/CellComplex.pulldown/ByOccupancyType.pushbutton/icon.png" width="24"> | InstanceBIM | CellComplex > By Occupancy Type | Step 6 - Add to the cells the instance data defined for their occupancy type. |
 | <img src="../pyRevit/pyRevit_extensions/TBIM.extension/TBIM.tab/InstanceBIM.Panel/CellComplex.pulldown/ByTableOfSpaces.pushbutton/icon.png" width="24"> | InstanceBIM | CellComplex > By Table of Spaces | Step 6 - Add to the cells the rows of the table of spaces named in the Name of their Revit space (ids separated by ';'). |
 | <img src="../pyRevit/pyRevit_extensions/TBIM.extension/TBIM.tab/InstanceBIM.Panel/CellComplex.pulldown/ByModel.pushbutton/icon.png" width="24"> | InstanceBIM | CellComplex > By Model | Step 6 - Compute the data measured on the model: gross and net areas and volumes (from the Revit spaces), occupants, ventilation rates. |
 | <img src="../pyRevit/pyRevit_extensions/TBIM.extension/TBIM.tab/InstanceBIM.Panel/Revit.pulldown/UpdateData.pushbutton/icon.png" width="24"> | InstanceBIM | Revit > Update Data | Step 6 - Write the InstanceBIM data to the Revit spaces, walls, floors, roofs, windows and doors (matched by UID). |
 | <img src="../pyRevit/pyRevit_extensions/TBIM.extension/TBIM.tab/Visualize.Panel/Model.pushbutton/icon.png" width="24"> | Visualize | Model | Show a Topologic model of the workflow as colored shapes in the 3D view 'TBIM - Topologic model': faces by topological type, windows and doors. Adds a legend. |
-| <img src="../pyRevit/pyRevit_extensions/TBIM.extension/TBIM.tab/Visualize.Panel/Graph.pushbutton/icon.png" width="24"> | Visualize | Graph | Show the dual graph of the cells in the 3D view 'TBIM - Graph': nodes colored by thermal zone (or occupancy type), edges by connection (door, wall, slab). Adds a legend. |
+| <img src="../pyRevit/pyRevit_extensions/TBIM.extension/TBIM.tab/Visualize.Panel/DualGraph.pushbutton/icon.png" width="24"> | Visualize | Dual Graph | Show the dual (adjacency) graph of the cells in the 3D view 'TBIM - Dual graph': one node per cell, one edge per wall or slab shared by two cells. Nodes colored by thermal zone (or occupancy type), edges by kind, with a legend. |
+| <img src="../pyRevit/pyRevit_extensions/TBIM.extension/TBIM.tab/Visualize.Panel/PassageGraph.pushbutton/icon.png" width="24"> | Visualize | Passage Graph | Show the passage graph of the cells in the 3D view 'TBIM - Passage graph': where people can go, through the doors, the stairs (stacked vertical-circulation cells) and the entrances (external doors, to exterior nodes). Nodes colored by thermal zone (or occupancy type), edges by kind, with a legend. |
 | <img src="../pyRevit/pyRevit_extensions/TBIM.extension/TBIM.tab/Visualize.Panel/Types.pushbutton/icon.png" width="24"> | Visualize | Types | Color walls, floors, roofs, windows and doors by Revit type in the 3D view 'TBIM - Element types', with a legend. |
 | <img src="../pyRevit/pyRevit_extensions/TBIM.extension/TBIM.tab/Visualize.Panel/Data.pushbutton/icon.png" width="24"> | Visualize | Data | Color cells, faces or apertures by a TBIM property (e.g. thermal zone, occupancy type, exposure) in a dedicated 3D view, with a legend. |
 | <img src="../pyRevit/pyRevit_extensions/TBIM.extension/TBIM.tab/Visualize.Panel/Clear.pushbutton/icon.png" width="24"> | Visualize | Clear | Delete all the TBIM visualizations: shapes, 'TBIM - ' views and legends. |
 | <img src="../pyRevit/pyRevit_extensions/TBIM.extension/TBIM.tab/Export.Panel/IFC.pushbutton/icon.png" width="24"> | Export | IFC | Export the Revit model to IFC (IFC4 RV/DTV, IFC2x3 CV2, IFC4x3) in `<project>/export`, with the TBIM parameters as property sets, base quantities and space boundaries. |
-| <img src="../pyRevit/pyRevit_extensions/TBIM.extension/TBIM.tab/Export.Panel/Topologic.pushbutton/icon.png" width="24"> | Export | Topologic | Export a Topologic model of the workflow to `<project>/export`: topologicpy JSON (geometry, dictionaries, apertures), BREP, OBJ or the dual graph of the cells as JSON. |
-
-> The **TopologicalBIM** panel (step 5: windows and doors on the styled CellComplex) is not part of this
-> release yet. The tutorial shows its result, obtained with the stand-in of `examples/demo/run_offline.py`.
+| <img src="../pyRevit/pyRevit_extensions/TBIM.extension/TBIM.tab/Export.Panel/Topologic.pushbutton/icon.png" width="24"> | Export | Topologic | Export a Topologic model of the workflow to `<project>/export`: topologicpy JSON (geometry, dictionaries, apertures), BREP, OBJ, or the dual and passage graphs of the cells as JSON. |
 
 ---
 
@@ -123,6 +125,8 @@ Each TBIM project lives in its own folder, so that different buildings never mix
 |---|---|
 | **Project > New** | Creates `<tbim>/projects/<name>/`, copies the default ILDs, IRSs and tables of `<tbim>/templates/json`, makes it the active project and links it to the open Revit model. |
 | **Project > Open** | Activates a project of the projects folder, or any other folder (*Browse...*), which becomes a project. |
+| **Project > Run** | Runs every step of the workflow on the active project, with a progress report (see below). |
+| **Project > Check Model** | Lists the problems of the project and of the Revit model (errors, warnings). |
 | **Project > Info** | Shows the active project, the project linked to the model and which steps already produced their data. |
 | **Project > Folder** | Opens the project folder. |
 
@@ -137,11 +141,24 @@ BRep paths inside the project folder are stored relative to it, so a project can
 The projects folder is `<tbim>/projects` unless `projects_root` is set in `tbim_settings.json`
 (see [Settings](#7-settings-and-automation)).
 
+**Project > Run** chains the commands of the ribbon, so that a project with all its inputs becomes a complete
+Revit model with one click: Collectors > Create (if the model has no TBIM spaces yet), Loads > Assignment >
+From Table (if the project has `tbim_Rooms.json`; otherwise the occupancy types already given to the spaces),
+Loads > Clusterize, Styles > Update, TopologicalBIM > By Rules (if the project has
+`tbim_TopologicalBIM_Rules.json`), the InstanceBIM steps and, optionally, the exports. Each command can still
+be run on its own, e.g. to repeat a step after changing its inputs. Every command first activates the project
+linked to the open Revit model, so it never writes to the project of another model.
+
+**Project > Check Model** then reports what is missing or inconsistent: inputs and outputs of the steps, cells
+without occupancy type or room, styles without layers, elements without `UID` or with a type other than their
+style, duplicated UIDs, spaces not enclosed (area 0) and apertures without host.
+
 ### Example projects
 
 The repository ships seven complete projects. Each one has its inputs, the TBIM data of every step (`json/`),
 the Revit 2026 model at the end of the workflow and its exports (`export/`: IFC and Topologic models). Open the
-`.rvt` to explore the result, or start from an empty model, **Project > Open** the folder and run the steps.
+`.rvt` to explore the result, or start from an empty model, **Project > Open** the folder and press
+**Project > Run** (a few minutes for the largest buildings).
 
 | Project | Cells | |
 |---|---|---|
@@ -157,15 +174,15 @@ the Revit 2026 model at the end of the workflow and its exports (`export/`: IFC 
 
 The invented buildings are written with `tools/building_kit.py`: a `make_model.py` lists the rooms of each
 storey as boxes (plus attics under hipped or gable roofs) with their occupancy type, and the ILDs, InstanceBIM
-data, IRSs and window/door rules; running it writes the BReps and all the JSON inputs of the project.
-`tools/assign_rooms.py` then plays the role of Loads > Assignment (occupancy and space names from the room
-list) and `tools/topologicalbim_standin.py` the role of the TopologicalBIM panel (windows and doors by rules).
+data, IRSs and window/door rules; running it writes the BReps and all the JSON inputs of the project,
+including the table of rooms (`tbim_Rooms.json`, for Loads > Assignment > From Table) and the window/door rules
+(`tbim_TopologicalBIM_Rules.json`, for TopologicalBIM > By Rules).
 
 Each IRS rule of the examples carries a layered construction in `stFC_Layers` (e.g. `Clay roof tiles 20 mm /
-Timber battens 30 mm / ...`, from the outside or the top). `tools/materials.py` holds the materials (colour,
-thermal conductivity, density, specific heat, Revit layer function) and computes the U-value of each rule;
-the stand-in turns every style into a Revit compound structure with these materials, so the Revit types,
-the IFC material layer sets and the TBIM data describe the same construction.
+Timber battens 30 mm / ...`, from the outside or the top). The material library of TBIM (`lib/tbim/materials.py`)
+holds the materials (colour, thermal conductivity, density, specific heat, Revit layer function) and computes
+the U-value of each rule; Styles > Update turns every style into a Revit compound structure with these
+materials, so the Revit types, the IFC material layer sets and the TBIM data describe the same construction.
 
 ---
 
@@ -181,8 +198,13 @@ Start from an empty Revit project (e.g. the default architectural template).
 
 1. **Project > New**, name *Demo School*.
 2. Copy `examples/demo/3d/BlockA.brep` and `BlockB.brep` in the `3d` folder of the new project
-   (**Project > Folder** opens it), and `examples/demo/json/tbim_InstanceBIM_byTableOfSpaces.json` in its
-   `json` folder (the table of spaces is the design brief of the building).
+   (**Project > Folder** opens it), and from `examples/demo/json` to its `json` folder:
+   `tbim_InstanceBIM_byTableOfSpaces.json` (the table of spaces, the design brief of the building),
+   `tbim_Rooms.json` (the rooms, for step 3) and `tbim_TopologicalBIM_Rules.json` (windows and doors, for
+   step 5).
+
+> The [`projects/Demo_School`](../projects/Demo_School) folder holds the same project already complete: open it
+> with **Project > Open** on an empty model and press **Project > Run** to get the result of every step at once.
 
 ### Step 1 - 3D Model
 
@@ -216,10 +238,19 @@ lets the next steps update the Revit model.
 
 ### Step 3 - Informational Loads
 
-1. Assign an **occupancy type** to every space with **Loads > Assignment** (*By Building*, *By Storey* or
-   *By Cell*). Each occupancy type is an **Informational Load Dictionary (ILD)**, a set of properties such as
-   heating, cooling, ventilation and occupancy density (**Loads > Dictionary** to read, create and edit them).
-   In the demo: two classrooms, two offices, a meeting room, a storage, two corridors and a gym.
+1. Assign an **occupancy type** to every space with **Loads > Assignment** (*From Table*, *By Building*,
+   *By Storey* or *By Cell*). Each occupancy type is an **Informational Load Dictionary (ILD)**, a set of
+   properties such as heating, cooling, ventilation and occupancy density (**Loads > Dictionary** to read,
+   create and edit them). In the demo: two classrooms, two offices, a meeting room, a storage, two corridors
+   and a gym.
+
+   **From Table** does it for all the cells at once from `tbim_Rooms.json`, a list of rooms with a point
+   inside each of them (cm): every cell takes the room whose point it contains, and its Revit space is named
+   after the room's `space` ids (the key of InstanceBIM > By Table of Spaces, step 6).
+
+   ```json
+   [{"center": [250, 300, 150], "pr_OccupancyType": "Education:Classroom", "space": "A0.01", "name": "A0-R1"}]
+   ```
 2. **Loads > CellComplex > Clusterize** copies the ILDs to the cells and faces, computes the exposure of the
    external faces and groups the cells in **thermal zones**:
    - classrooms are zones on their own;
@@ -234,8 +265,8 @@ The demo gets 8 thermal zones for 9 cells (the meeting room and the storage shar
 
 ![Cells colored by thermal zone (Visualize > Data)](img/step3_thermal_zones.png)
 
-**Visualize > Graph** draws the **dual graph** of the cells: one node per cell, one edge per shared wall or
-slab.
+**Visualize > Dual Graph** draws the **dual (adjacency) graph** of the cells: one node per cell, one edge per
+shared wall or slab.
 
 ![Dual graph of the cells](img/step3_graph.png)
 
@@ -259,11 +290,38 @@ the demo are partitions, unless they face a corridor or separate the two blocks:
 Operators (case insensitive): `equalTo`, `notEqualTo`, `contains`, `isContained`, `majorOf`, `minorOf`.
 A rule with a property that the face does not have never matches. In the demo the south-facing external walls get a thicker type with shading devices.
 
+A rule can also describe the construction of its type in `stFC_Layers`, from the outside (or the top) to the
+inside, with the materials of the TBIM material library and their thicknesses, e.g.
+`"Facing brick 60 mm / EPS insulation 30 mm / Perforated clay brick 250 mm / Lime-cement plaster 15 mm"`.
+Styles > Update then creates (or updates) a layered Revit wall, floor or roof type for each style, with the
+materials and their thermal assets (so Revit computes the U-value of the type too), and assigns it to the
+Revit elements of the faces.
+
 ### Step 5 - TopologicalBIM
 
 The TopologicalBIM adds **windows and doors** (apertures) to the styled CellComplex and builds the BIM
-model with the element types of the styles: 12 windows on the external walls of the occupied rooms and
-7 doors towards the corridors (and between the corridor and the gym).
+model with the element types of the styles. **TopologicalBIM > By Rules** reads them from
+`tbim_TopologicalBIM_Rules.json`, by occupancy type:
+
+```json
+{"windows": [["Circulation", null], ["", "TBIM_Window_120x150", 120, 150, 90]],
+ "doors":   [["Corridor", "Corridor", null], ["Corridor", "", "TBIM_Door_90x210", 90, 210]]}
+```
+
+- `windows`: `[occupancy contains, type, width, height, sill]`, one window centred on each external wall of
+  the cell;
+- `doors`: `[occupancy A contains, occupancy B contains, type, width, height]`, one door between each pair of
+  adjacent cells;
+- `external_doors`: `[occupancy contains, type, width, height]`, one entrance per cell on the walls at the
+  `entrance_levels` (z in cm, default `[0]`).
+
+The first matching rule wins, and a rule with a `null` type places nothing: put the exceptions first (above,
+no windows in the circulation spaces, no doors between two corridors). An empty occupancy matches every cell;
+sizes are in centimetres. The windows and doors are then placed in Revit, in the walls of their faces, with
+types of the given sizes (created if missing). Running By Rules again replaces the apertures it placed before.
+
+The demo gets 12 windows on the external walls of the occupied rooms and 7 doors towards the corridors (and
+between the corridor and the gym).
 
 ![TopologicalBIM in Revit](img/step5_tbim_3d.png)
 
@@ -294,9 +352,13 @@ Every Revit element now carries its TBIM data, e.g. the exposure of the faces:
 
 ![Faces colored by exposure (Visualize > Data)](img/step6_faces_exposure.png)
 
-The graph now also knows which cells are connected by a door:
+**Visualize > Passage Graph** shows where people can go: one edge per **door** between two cells, per
+**stair** (the slab between two stacked vertical-circulation cells: stairs, lifts, cores, ramps) and per
+**entrance** (an external door, linked to an *Exterior* node just outside it). Unlike the dual graph, two
+rooms sharing a wall without a door are not connected; the demo has no stair cell and no entrance rule, so
+its two storeys are two separate groups of rooms around their corridors:
 
-![Dual graph: connections through doors, walls and slabs](img/step6_graph.png)
+![Passage graph: doors, stairs and entrances](img/step6_passage_graph.png)
 
 ![The InstanceBIM CellComplex](img/step6_topologic_model.png)
 
@@ -310,7 +372,8 @@ The **Visualize** panel shows the topological models and the TBIM data inside Re
 | Command | 3D view | Legend view |
 |---|---|---|
 | Model | `TBIM - Topologic model` | `TBIM Legend - Topologic model` |
-| Graph | `TBIM - Graph` | `TBIM Legend - Graph` |
+| Dual Graph | `TBIM - Dual graph` | `TBIM Legend - Dual graph` |
+| Passage Graph | `TBIM - Passage graph` | `TBIM Legend - Passage graph` |
 | Types | `TBIM - Element types` | `TBIM Legend - Element types` |
 | Data | `TBIM - Cells by data`, `TBIM - Faces by data`, `TBIM - Apertures by data` | `TBIM Legend - ...` |
 
@@ -337,6 +400,8 @@ All the files are in the `json` folder of the project (the *data folder*).
 | `tbim_IRS_<face type>Faces.json` | (input) | Informational Rule Sets |
 | `tbim_InstanceBIM_byOccupancyType.json` | (input) | Instance data per occupancy type |
 | `tbim_InstanceBIM_byTableOfSpaces.json` | (input) | Table of spaces (design brief) |
+| `tbim_Rooms.json` | (input) | Rooms: a point inside each one, occupancy type, space ids, name (Assignment > From Table) |
+| `tbim_TopologicalBIM_Rules.json` | (input) | Windows and doors by occupancy type (TopologicalBIM > By Rules) |
 | `tbim_CellComplex_Controllers.json` | Collectors > Create | CellComplex with cell and face UIDs |
 | `tbim_CellComplex_Loads-OccupancyTypes.json` | Assignment | Occupancy type of every cell |
 | `tbim_CellComplex_Loads.json` | Loads > Update / Clusterize | CellComplex with the loads |
@@ -348,8 +413,10 @@ All the files are in the `json` folder of the project (the *data folder*).
 | `tbim.log` | all | Messages, when dialogs are off |
 
 The **Export** commands write to the `export` folder of the project (next to `json`): `<model>.ifc`, and
-`tbim_<model>.json/.brep/.obj` and `tbim_<model>_graph.json` (nodes with the cell properties, edges of
-kind `door`, `wall` or `slab`; coordinates in centimetres).
+`tbim_<model>.json/.brep/.obj`, `tbim_<model>_adjacency_graph.json` (the dual graph: edges of kind `wall` or
+`slab`) and `tbim_<model>_passage_graph.json` (edges of kind `door`, `stair` or `entrance`, plus the
+*Exterior* nodes). The graph files list the nodes with the cell properties and their coordinates in
+centimetres.
 
 CellComplex files are topologicpy JSON exports: open them with `Topology.ByJSONPath` or with
 `tbim.topo.load_cellcomplex`, which also restores the cell and face dictionaries.
@@ -372,8 +439,10 @@ Property names follow the paper: `pr_` properties (e.g. `pr_OccupancyType`, `pr_
 | `dialogs` | `true` | `false`: no dialogs, messages go to `<data folder>/tbim.log` (batch runs, tests). |
 | `choices` | `{}` | Answers used when `dialogs` is `false`, e.g. `{"visualize_model": "InstanceBIM", "visualize_data_property": "pr_FaceExposure"}`. |
 
-`examples/demo/run_offline.py` runs the whole workflow without Revit (Revit interactions emulated), and the
-test suite (`pytest`) runs it on a copy of the demo.
+Inside Revit, **Project > Run** runs the whole workflow with the answers of `choices` (e.g. `run_workflow`,
+whether to export at the end). Outside Revit, `examples/demo/run_offline.py` runs it with the Revit-side
+geometry approximated from the cells, and the test suite (`pytest`) runs it on a copy of the demo. The steps
+are the functions of `lib/tbim/pipeline.py`, which the commands, Run and the offline demo share.
 
 ---
 
@@ -385,6 +454,7 @@ test suite (`pytest`) runs it on a copy of the demo.
 | A change to the TBIM code has no effect | Run **Installation > Check** (it reloads the TBIM modules) or restart Revit. |
 | Commands do nothing and nothing is logged | With `"dialogs": false` messages go to `tbim.log`; with `true` a dialog may be waiting behind another window. |
 | Walls/floors/roofs not updated by Update Data | Their `UID` must be the one written by Collectors > Create: re-run the workflow from step 2 after editing the BReps. |
+| Check Model reports a space not enclosed (area 0) | Revit bounds a space where its level's *room computation height* cuts walls and roofs; Collectors lowers it until every space is enclosed. If you edit the model afterwards, lower the computation height of that level, or make the walls around the space room bounding. |
 | Roofs or floors look transparent | Collectors uses the first layered floor/roof type of the template: change their type afterwards or apply the styles. |
 | The Revit shared parameter file changed | TBIM uses its own `tbim_SharedParameters.txt` and restores yours after binding its parameters. |
 

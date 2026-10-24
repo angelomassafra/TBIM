@@ -147,7 +147,7 @@ def main():
         print("%-12s -> %s (%d cells)" % ((name,) + write_brep(cells, name)))
     write("tbim_BRepFilePaths.json", ["3d/Basement.brep", "3d/Storeys.brep", "3d/Roof.brep"])
     write("tbim_ProjectNorthAngle.json", 131.0)  # north arrow of the site plan
-    write("rooms.json", [{"center": c, "pr_OccupancyType": o, "space": s, "name": n, "flat": f}
+    write("tbim_Rooms.json", [{"center": c, "pr_OccupancyType": o, "space": s, "name": n, "flat": f}
                                    for c, o, s, n, f in rooms])
     write("tbim_InstanceBIM_byTableOfSpaces.json", [
         {"UID": s, "pr_SpaceName": "%s (%s)" % (n, s), "pr_Flat": f, "pr_NetArea": "ByModel",

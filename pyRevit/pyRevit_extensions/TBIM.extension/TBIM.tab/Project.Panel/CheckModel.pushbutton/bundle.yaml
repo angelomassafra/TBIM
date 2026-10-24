@@ -1,0 +1,2 @@
+title: "Check Model"
+tooltip: "Check the project and the Revit model: missing inputs and outputs, faces with holes, cells without occupancy type or room, styles without layers, elements without UID or with the wrong type, duplicated UIDs, spaces not enclosed, apertures without host."

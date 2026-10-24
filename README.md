@@ -19,15 +19,15 @@ implementation of:
 
 | Step | Panel | Result |
 |---|---|---|
-| 0 | Project | A project folder for the building, linked to the Revit model |
+| 0 | Project | A project folder for the building, linked to the Revit model; **Run** runs the whole workflow, **Check Model** checks it |
 | 1 | 3D Model | BRep massing model (one CellComplex per building block) and Project North |
 | 2 | Collectors | **Informational Controllers**: storeys, walls, floors, roofs and spaces in Revit |
-| 3 | Loads | **Informational Loads**: occupancy, internal loads (ILDs) and thermal zones |
-| 4 | Styles | **Informational Styles**: element types from Informational Rule Sets (IRSs) |
-| 5 | TopologicalBIM | Windows and doors on the styled CellComplex *(panel not yet released)* |
+| 3 | Loads | **Informational Loads**: occupancy (by hand or from a table of rooms), internal loads (ILDs) and thermal zones |
+| 4 | Styles | **Informational Styles**: layered Revit types with real materials, from Informational Rule Sets (IRSs) |
+| 5 | TopologicalBIM | Windows and doors on the styled CellComplex by rules on the occupancy types, placed in Revit |
 | 6 | InstanceBIM | Instance data (areas, finishes, U-values, ...) written back to Revit |
-| - | Visualize | Topologic model, dual graph, element types and any TBIM property in 3D views |
-| - | Export | IFC with the TBIM property sets; Topologic models as JSON, BREP, OBJ and dual graph |
+| - | Visualize | Topologic model, dual graph, passage graph (doors, stairs, entrances), element types and any TBIM property in 3D views |
+| - | Export | IFC with the TBIM property sets; Topologic models as JSON, BREP, OBJ, dual and passage graphs |
 
 The [**User Manual**](docs/USER_MANUAL.md) describes every command and walks through the workflow step by
 step on the Demo School.
@@ -55,14 +55,15 @@ step on the Demo School.
 3. *pyRevit > Settings > Custom Extension Directories*: add `C:\tbim\pyRevit\pyRevit_extensions`, then
    *Reload*.
 4. In Revit open the **TBIM** tab and press **Installation > Check**.
-5. Follow the [tutorial](docs/USER_MANUAL.md#4-tutorial-the-demo-school-step-by-step).
+5. Follow the [tutorial](docs/USER_MANUAL.md#4-tutorial-the-demo-school-step-by-step), or open an empty model,
+   **Project > Open** one of the [example projects](#example-projects) and press **Project > Run**.
 
 ## Repository
 
 ```text
 pyRevit/pyRevit_extensions/TBIM.extension/   the pyRevit extension
   TBIM.tab/                                  ribbon panels and commands
-  lib/tbim/                                  TBIM library (topology, loads, styles, Revit I/O)
+  lib/tbim/                                  TBIM library (topology, loads, styles, apertures, materials, Revit I/O)
 templates/json/                              default ILDs, IRSs and tables of new projects
 projects/                                    example projects: inputs, data of every step, Revit, IFC, Topologic
   Demo_School/                               the tutorial project
@@ -72,7 +73,7 @@ projects/                                    example projects: inputs, data of e
 examples/demo/                               inputs of the tutorial and an offline run without Revit
 docs/                                        user manual, images and videos
 tests/                                       pytest suite (runs the workflow offline)
-tools/                                       building kit, materials, room assignment, TopologicalBIM stand-in, icons
+tools/                                       building kit of the example projects, icons, videos
 legacy/                                      material of the 2023-24 release of this repository (paper data)
 ```
 
@@ -80,7 +81,7 @@ legacy/                                      material of the 2023-24 release of 
 
 Every project ships its inputs, the TBIM data of every step (`json/`), the Revit 2026 model at the end of the
 workflow (`.rvt`) and its exports (`export/`): IFC4 with the TBIM property sets, and the InstanceBIM as
-topologicpy JSON, BREP, OBJ and dual graph.
+topologicpy JSON, BREP, OBJ, dual (adjacency) and passage graphs.
 
 | Project | Cells | Windows / doors | |
 |---|---|---|---|
@@ -101,13 +102,15 @@ inverted flat roof (tower), facing brick, precast panels and a steel-sheet gym r
 metal and terracotta facade with a glazed skylight (mall), whitewashed tuff walls on vaulted roof terraces
 (farmhouse), rusticated render, exposed brick and lead (town hall). The layers are written in the
 Informational Rule Sets (`stFC_Layers`), the U-values are computed from them, and the materials (colour,
-conductivity, density, specific heat) come from [`tools/materials.py`](tools/materials.py); each project
+conductivity, density, specific heat) come from the material library
+[`lib/tbim/materials.py`](pyRevit/pyRevit_extensions/TBIM.extension/lib/tbim/materials.py); each project
 README lists its constructions.
 
 ## Development
 
-The TBIM library runs outside Revit too: `examples/demo/run_offline.py` executes the whole workflow with the
-Revit interactions emulated, and the tests run it on a copy of the demo.
+The TBIM library runs outside Revit too: `examples/demo/run_offline.py` executes the whole workflow (the
+Revit-side geometry is approximated from the cells), and the tests run it on a copy of the demo. The steps
+are functions of `lib/tbim/pipeline.py`, shared by the ribbon commands and Project > Run.
 
 ```bat
 py -3.12 -m pip install -r requirements.txt pytest

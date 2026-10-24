@@ -4,7 +4,7 @@ Envelope (typical of northern-Italian 1960s condominiums, cf. TABULA/EPISCOPE IT
 - reinforced-concrete frame; cavity walls: facing brick 12 cm + air gap 6 cm + hollow brick 8 cm + plaster
 - clay-concrete slabs 20+4 cm, hipped roof in clay tiles on an inclined clay-concrete slab
 - anodized aluminium windows with single glazing
-Layers from the outside (top) to the inside (bottom), thicknesses in mm, materials of tools/materials.py;
+Layers from the outside (top) to the inside (bottom), thicknesses in mm, materials of tbim.materials;
 U-values in W/(m2 K), computed from the layers.
 
     python make_rules.py
@@ -14,9 +14,10 @@ import os
 import sys
 
 HERE = os.path.join(os.path.dirname(os.path.abspath(__file__)), "json")
-sys.path.insert(0, os.path.join(os.path.dirname(os.path.abspath(__file__)), os.pardir, os.pardir, "tools"))
+sys.path.insert(0, os.path.join(os.path.dirname(os.path.abspath(__file__)), os.pardir, os.pardir, "pyRevit",
+                                "pyRevit_extensions", "TBIM.extension", "lib"))
 
-import materials  # noqa: E402
+from tbim import materials  # noqa: E402
 
 
 def ild(occupancy, circulation, occupied, heated, area_per_occupant):
@@ -111,7 +112,7 @@ IRS = {
     ],
 }
 
-# windows and doors (rules of the TopologicalBIM stand-in, tools/topologicalbim_standin.py)
+# windows and doors (TopologicalBIM > By Rules, see tbim.apertures)
 APERTURES = {
     "windows": [["LivingRoom", "TBIM_Anodized_Aluminium_French_Window_140x240", 140, 240, 0],
                 ["Bedroom", "TBIM_Anodized_Aluminium_Window_120x150", 120, 150, 90],
@@ -129,7 +130,7 @@ APERTURES = {
 }
 
 OUTPUTS = [("tbim_ILDs.json", ILDS), ("tbim_InstanceBIM_byOccupancyType.json", BY_OCCUPANCY),
-           ("standin_apertures.json", APERTURES)] + list(IRS.items())
+           ("tbim_TopologicalBIM_Rules.json", APERTURES)] + list(IRS.items())
 for name, data in OUTPUTS:
     with open(os.path.join(HERE, name), "w", encoding="utf-8") as f:
         json.dump(data, f, indent=4, ensure_ascii=False)

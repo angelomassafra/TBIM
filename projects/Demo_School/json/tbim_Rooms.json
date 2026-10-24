@@ -1,0 +1,92 @@
+[
+    {
+        "center": [
+            250.0,
+            300.0,
+            150.0
+        ],
+        "pr_OccupancyType": "Education:Classroom",
+        "space": "A0.01",
+        "name": "A0-R1"
+    },
+    {
+        "center": [
+            750.0,
+            300.0,
+            150.0
+        ],
+        "pr_OccupancyType": "Education:Classroom",
+        "space": "A0.02",
+        "name": "A0-R2"
+    },
+    {
+        "center": [
+            1250.0,
+            300.0,
+            150.0
+        ],
+        "pr_OccupancyType": "Office:Office",
+        "space": "A0.03",
+        "name": "A0-R3"
+    },
+    {
+        "center": [
+            750.0,
+            700.0,
+            150.0
+        ],
+        "pr_OccupancyType": "Circulation:Corridor",
+        "space": "A0.04a; A0.04b",
+        "name": "A0-CO"
+    },
+    {
+        "center": [
+            250.0,
+            300.0,
+            450.0
+        ],
+        "pr_OccupancyType": "Office:Office",
+        "space": "A1.01",
+        "name": "A1-R1"
+    },
+    {
+        "center": [
+            750.0,
+            300.0,
+            450.0
+        ],
+        "pr_OccupancyType": "Office:MeetingRoom",
+        "space": "A1.02",
+        "name": "A1-R2"
+    },
+    {
+        "center": [
+            1250.0,
+            300.0,
+            450.0
+        ],
+        "pr_OccupancyType": "Support:Storage",
+        "space": "A1.03",
+        "name": "A1-R3"
+    },
+    {
+        "center": [
+            750.0,
+            700.0,
+            450.0
+        ],
+        "pr_OccupancyType": "Circulation:Corridor",
+        "space": "A1.04",
+        "name": "A1-CO"
+    },
+    {
+        "center": [
+            1900.0,
+            400.0,
+            150.0
+        ],
+        "pr_OccupancyType": "Sport:Gym",
+        "space": "B0.01",
+        "name": "B0-GY"
+    }
+]

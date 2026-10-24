@@ -22,6 +22,8 @@ PANEL_COLORS = {
     "InstanceBIM": (255, 211, 36),
     "Visualize": (31, 163, 163),
     "Export": (214, 96, 77),
+    "Loads": (239, 120, 69),
+    "TopologicalBIM": (180, 90, 160),
 }
 
 
@@ -92,6 +94,16 @@ def g_graph(d):
         line(d, nodes[a], nodes[b], width=4 * SCALE)
     for x, y in nodes:
         dot(d, x, y, 7)
+
+
+def g_passage_graph(d):
+    # two rooms, a node in each, linked through the door in the wall between them
+    line(d, (14, 26), (82, 26), (82, 70), (14, 70), (14, 26))
+    line(d, (48, 26), (48, 38))
+    line(d, (48, 58), (48, 70))
+    line(d, (31, 48), (65, 48), width=4 * SCALE)
+    dot(d, 31, 48, 7)
+    dot(d, 65, 48, 7)
 
 
 def g_types(d):
@@ -182,13 +194,42 @@ def g_topologic(d):
     dot(d, 62, 64, 4)
 
 
+def g_run(d):
+    line(d, (36, 28), (36, 68), (70, 48), (36, 28))
+
+
+def g_check_model(d):
+    building(d)
+    line(d, (38, 54), (46, 62), (60, 46))
+
+
+def g_from_table(d):
+    rect(d, 22, 26, 74, 70)
+    line(d, (22, 41), (74, 41))
+    line(d, (22, 55), (74, 55))
+    line(d, (42, 26), (42, 70))
+
+
+def g_by_rules(d):
+    rect(d, 20, 28, 44, 52)
+    line(d, (32, 28), (32, 52))
+    line(d, (20, 40), (44, 40))
+    line(d, (54, 70), (54, 30), (76, 30), (76, 70))
+    dot(d, 70, 52, 3)
+
+
 ICONS = {
     "Project.Panel/New.pushbutton": ("Project", g_new),
     "Project.Panel/Open.pushbutton": ("Project", g_open),
+    "Project.Panel/Run.pushbutton": ("Project", g_run),
+    "Project.Panel/CheckModel.pushbutton": ("Project", g_check_model),
     "Project.Panel/Info.pushbutton": ("Project", g_info),
+    "Loads.Panel/Assignment.pulldown/FromTable.pushbutton": ("Loads", g_from_table),
+    "TopologicalBIM.Panel/ByRules.pushbutton": ("TopologicalBIM", g_by_rules),
     "Project.Panel/Folder.pushbutton": ("Project", g_folder),
     "Visualize.Panel/Model.pushbutton": ("Visualize", g_model),
-    "Visualize.Panel/Graph.pushbutton": ("Visualize", g_graph),
+    "Visualize.Panel/DualGraph.pushbutton": ("Visualize", g_graph),
+    "Visualize.Panel/PassageGraph.pushbutton": ("Visualize", g_passage_graph),
     "Visualize.Panel/Types.pushbutton": ("Visualize", g_types),
     "Visualize.Panel/Data.pushbutton": ("Visualize", g_data),
     "Visualize.Panel/Clear.pushbutton": ("Visualize", g_clear),

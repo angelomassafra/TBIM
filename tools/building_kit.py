@@ -5,9 +5,9 @@ occupancy type, a space id and a name: it becomes one cell of the CellComplex. T
 
     3d/<block>.brep                               one CellComplex per block (centimetres)
     json/tbim_BRepFilePaths.json, tbim_ProjectNorthAngle.json
-    json/rooms.json                               room centre, occupancy, space id, name (Revit spaces)
+    json/tbim_Rooms.json                          room point, occupancy, space id, name (Assignment > From Table)
     json/tbim_ILDs.json, tbim_InstanceBIM_*.json, tbim_IRS_*.json
-    json/standin_apertures.json                   rules of the TopologicalBIM stand-in (windows, doors)
+    json/tbim_TopologicalBIM_Rules.json           windows and doors by occupancy type (TopologicalBIM > By Rules)
     project.json
 """
 import json
@@ -16,9 +16,7 @@ import sys
 
 ROOT = os.path.abspath(os.path.join(os.path.dirname(os.path.abspath(__file__)), os.pardir))
 sys.path.insert(0, os.path.join(ROOT, "pyRevit", "pyRevit_extensions", "TBIM.extension", "lib"))
-sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 
-import materials  # noqa: E402
 from topologicpy.Cell import Cell  # noqa: E402
 from topologicpy.CellComplex import CellComplex  # noqa: E402
 from topologicpy.Face import Face  # noqa: E402
@@ -26,7 +24,7 @@ from topologicpy.Topology import Topology  # noqa: E402
 from topologicpy.Vertex import Vertex  # noqa: E402
 
 import tbim  # noqa: E402,F401  (adds the TBIM site-packages)
-from tbim import topo  # noqa: E402
+from tbim import materials, paths, topo  # noqa: E402
 
 FLOOR, ROOF, WALL = "stFC_FloorTypeName", "stFC_RoofTypeName", "stFC_WallTypeName"
 IRS_FILES = ["botHor", "topHor", "intHor", "intVer", "extVer"]
@@ -101,7 +99,7 @@ def occupancy_data(occupancy, density, ventilation_person, natural_rate, winter,
 
 
 def rule(face_type, conditions, name, layers, year, key=WALL, u_value=None):
-    """Informational Rule Set entry with a layered construction (see tools/materials.py).
+    """Informational Rule Set entry with a layered construction (see tbim.materials).
 
     layers: [(material, mm)] from the outside (top) to the inside (bottom); the style is ``name`` plus the
     total thickness in mm (e.g. TBIM_Brick_Cavity_Wall_275). The U-value is computed from the layers unless
@@ -125,7 +123,7 @@ def _write(folder, name, data):
 def write_project(here, name, description, rooms, north, ilds, by_occupancy, irs, apertures, table=None):
     """Write all the inputs of the project in the folder ``here``.
 
-    rooms: [Room]; irs: {face type: [rules]}; apertures: stand-in rules (see tools/topologicalbim_standin.py);
+    rooms: [Room]; irs: {face type: [rules]}; apertures: TopologicalBIM rules (see tbim.apertures);
     table: optional function Room -> extra columns of the table of spaces.
     """
     for sub in ("3d", "json"):
@@ -143,7 +141,7 @@ def write_project(here, name, description, rooms, north, ilds, by_occupancy, irs
     data = os.path.join(here, "json")
     _write(data, "tbim_BRepFilePaths.json", ["3d/%s.brep" % b for b in blocks])
     _write(data, "tbim_ProjectNorthAngle.json", float(north))
-    _write(data, "rooms.json", [{"center": r.center, "pr_OccupancyType": r.occupancy, "space": r.space,
+    _write(data, paths.ROOMS, [{"center": r.center, "pr_OccupancyType": r.occupancy, "space": r.space,
                                  "name": r.name} for r in rooms])
     _write(data, "tbim_InstanceBIM_byTableOfSpaces.json", [
         dict({"UID": r.space, "pr_SpaceName": "%s (%s)" % (r.name, r.space), "pr_NetArea": "ByModel"},
@@ -152,7 +150,7 @@ def write_project(here, name, description, rooms, north, ilds, by_occupancy, irs
     _write(data, "tbim_InstanceBIM_byOccupancyType.json", by_occupancy)
     for face_type in IRS_FILES:
         _write(data, "tbim_IRS_%sFaces.json" % face_type, irs.get(face_type, []))
-    _write(data, "standin_apertures.json", apertures)
+    _write(data, paths.APERTURE_RULES, apertures)
     project = os.path.join(here, "project.json")
     info = json.load(open(project, encoding="utf-8")) if os.path.isfile(project) else {"created": "2026-10-24"}
     info.update({"name": name, "description": description})

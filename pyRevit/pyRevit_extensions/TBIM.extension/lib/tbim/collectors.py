@@ -38,6 +38,8 @@ from tbim.units import cm_to_ft
 SPACE_PARAMETERS = ["UID", "pr_OccupancyType", "rl_HasLocation_tpBB", "rl_HasLocation_tpBS"]
 FACE_PARAMETERS = ["UID", "pr_TopologicalType", "rl_HasLocation_tpBS"]
 MIN_WALL_LENGTH_CM = 20.0
+MAX_COMPUTATION_HEIGHT_CM = 120.0
+MIN_COMPUTATION_HEIGHT_CM = 10.0
 WALL_TYPE_NAME = "Default"
 
 
@@ -139,13 +141,19 @@ def create_walls(doc, faces, level_list, wall_type_id, cc=None):
     return created, failed
 
 
-def _boundary_loop(face, tolerance):
-    points = [_xyz(v) for v in Topology.Vertices(Face.ExternalBoundary(face))]
+def _wire_loop(wire, tolerance):
+    points = [_xyz(v) for v in Topology.Vertices(wire)]
     loop = CurveLoop()
     for start, end in zip(points, points[1:] + points[:1]):
         if start.DistanceTo(end) > tolerance:
             loop.Append(Line.CreateBound(start, end))
     return loop
+
+
+def _boundary_loops(face, tolerance):
+    """Outer boundary of a face, then its holes (e.g. under a tower standing in the middle of a roof)."""
+    wires = [Face.ExternalBoundary(face)] + list(Face.InternalBoundaries(face) or [])
+    return [_wire_loop(w, tolerance) for w in wires]
 
 
 def _footprint_roof(doc, footprint, level, roof_type):
@@ -196,20 +204,22 @@ def create_floors_and_roofs(doc, groups, level_list):
             for face in groups.get(face_type, []):
                 zmin, _ = topo.z_range(face)
                 level = revit.nearest_level(level_list, cm_to_ft(zmin))
-                loop = _boundary_loop(face, tolerance)
+                boundaries = _boundary_loops(face, tolerance)
                 try:
                     if face_type == "extInc":
                         element = _pitched_roof(doc, face, level, roof_type, tolerance)
                         counts["Roofs"] += 1
                     elif face_type == "topHor":
                         footprint = CurveArray()
-                        for curve in loop:
-                            footprint.Append(curve)
+                        for loop in boundaries:  # inner loops make openings in footprint roofs
+                            for curve in loop:
+                                footprint.Append(curve)
                         element = _footprint_roof(doc, footprint, level, roof_type)[0]
                         counts["Roofs"] += 1
                     else:
                         loops = List[CurveLoop]()
-                        loops.Add(loop)
+                        for loop in boundaries:
+                            loops.Add(loop)
                         element = Floor.Create(doc, loops, floor_type.Id, level.Id)
                         counts["Floors"] += 1
                 except Exception as e:
@@ -222,11 +232,57 @@ def create_floors_and_roofs(doc, groups, level_list):
     return counts, failed
 
 
+def computation_heights(cells_by_level):
+    """Room computation height (cm) of each level: a third of its lowest cell, at most 120 cm.
+
+    Revit bounds a space where the plane at this height cuts walls and roofs: at the level itself the
+    gable walls of an attic have no width and its space would not be enclosed.
+    """
+    return dict((level, min(MAX_COMPUTATION_HEIGHT_CM, min(heights) / 3.0))
+                for level, heights in cells_by_level.items())
+
+
+def lower_computation_heights(height_cm):
+    """Fallback computation heights (cm), halving down to MIN_COMPUTATION_HEIGHT_CM.
+
+    A hipped roof rising from the attic floor, crossed by a stair turret, encloses its space only
+    close to the floor.
+    """
+    heights = []
+    while height_cm / 2.0 >= MIN_COMPUTATION_HEIGHT_CM:
+        height_cm /= 2.0
+        heights.append(height_cm)
+    return heights
+
+
+def enclose_spaces(doc, spaces, level_list, computation):
+    """Lower the computation height of the levels whose spaces have area 0 until they are enclosed."""
+    for level in level_list:
+        on_level = [s for s in spaces if s.LevelId == level.Id]
+        if level.Id.Value not in computation or all(s.Area > 0 for s in on_level):
+            continue
+        for height in lower_computation_heights(computation[level.Id.Value]):
+            revit.set_builtin(level, BuiltInParameter.LEVEL_ROOM_COMPUTATION_HEIGHT, cm_to_ft(height))
+            doc.Regenerate()
+            if all(s.Area > 0 for s in on_level):
+                break
+
+
 def create_spaces(doc, cc, level_list):
     """One space per cell, bounded by the storeys containing the cell."""
-    count = 0
+    spaces = []
     with revit.transaction(doc, "Create spaces"):
         AreaVolumeSettings.GetAreaVolumeSettings(doc).ComputeVolumes = True  # needed by InstanceBIM > ByModel
+        heights = {}
+        for cell in CellComplex.Cells(cc):
+            zmin, zmax = topo.z_range(cell)
+            base = revit.nearest_level(level_list, cm_to_ft(zmin))
+            heights.setdefault(base.Id.Value, []).append(zmax - zmin)
+        computation = computation_heights(heights)
+        for level in level_list:
+            if level.Id.Value in computation:
+                revit.set_builtin(level, BuiltInParameter.LEVEL_ROOM_COMPUTATION_HEIGHT,
+                                  cm_to_ft(computation[level.Id.Value]))
         doc.Regenerate()
         for cell in CellComplex.Cells(cc):
             zmin, zmax = [cm_to_ft(z) for z in topo.z_range(cell)]
@@ -243,8 +299,10 @@ def create_spaces(doc, cc, level_list):
             revit.set_by_name(space, "pr_OccupancyType", "Default")
             revit.set_by_name(space, "rl_HasLocation_tpBS", base.Name)
             revit.set_by_name(space, "rl_HasLocation_tpBB", props.get("rl_HasLocation_tpBB"))
-            count += 1
-    return count
+            spaces.append(space)
+        doc.Regenerate()
+        enclose_spaces(doc, spaces, level_list, computation)
+    return len(spaces)
 
 
 def run(ctx, brep_paths):

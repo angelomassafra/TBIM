@@ -26,7 +26,7 @@ slabs, clay-tile roof, anodized aluminium windows with single glazing (U 5.8 W/(
 
 ## Constructions
 
-Informational Rule Sets: each style is a layered Revit type whose materials (colour, conductivity, density, specific heat) come from [`tools/materials.py`](../../tools/materials.py). Layers from the outside (top) to the inside (bottom), thicknesses in mm; U-values in W/(m2 K), computed from the layers (given for glazing).
+Informational Rule Sets: each style is a layered Revit type whose materials (colour, conductivity, density, specific heat) come from the TBIM material library ([`lib/tbim/materials.py`](../../pyRevit/pyRevit_extensions/TBIM.extension/lib/tbim/materials.py)). Layers from the outside (top) to the inside (bottom), thicknesses in mm; U-values in W/(m2 K), computed from the layers (given for glazing).
 
 | Element | Type | Layers | U |
 |---|---|---|---|
@@ -46,12 +46,12 @@ Informational Rule Sets: each style is a layered Revit type whose materials (col
 ## Files
 
 - `make_model.py`: BReps of the three blocks (Basement, Storeys = the residential storeys, Roof = attic and stair
-  turret), room list (`json/rooms.json`), table of spaces.
+  turret), room table (`json/tbim_Rooms.json`), table of spaces.
 - `make_rules.py`: ILDs (residential, 1960s: heated, naturally ventilated, not cooled), InstanceBIM data, IRSs,
-  window/door rules of the TopologicalBIM stand-in.
+  window/door rules (`json/tbim_TopologicalBIM_Rules.json`).
 - `json/`: TBIM data of every step; `3d/`: BReps; `img/`: the model in Revit.
 - `Residential_1960s.rvt`: Revit 2026 model at the end of the workflow.
-- `export/`: IFC4 with the TBIM property sets, InstanceBIM as topologicpy JSON, BREP, OBJ and dual graph.
+- `export/`: IFC4 with the TBIM property sets, InstanceBIM as topologicpy JSON, BREP, OBJ, dual (adjacency) and passage graphs.
 
 To rebuild the inputs (Python 3.12 with the TBIM requirements):
 
@@ -60,14 +60,13 @@ python make_model.py
 python make_rules.py
 ```
 
-then open an empty Revit model, **Project > Open** this folder and run the TBIM workflow (see the
-[user manual](../../docs/USER_MANUAL.md)). Windows and doors come from a stand-in of the TopologicalBIM panel:
-`python tools/topologicalbim_standin.py projects/Residential_1960s`.
+then open an empty Revit model, **Project > Open** this folder and press **Project > Run** (see the
+[user manual](../../docs/USER_MANUAL.md)); **Project > Check Model** checks the result.
 
 ## Simplifications
 
 - The raised floor uses the typical plan, with the entrance hall in place of the east living room.
 - Balconies, eaves overhang, chimneys and the cellars below the basement are not modelled.
-- Windows and doors come from a stand-in of the TopologicalBIM panel (rules by room type).
+- Windows and doors come from TopologicalBIM > By Rules (rules by room type), not from the archive drawings.
 - Thermal zones follow the TBIM zoning rules: one heated zone per storey (central heating), stairs,
   garages and attic apart.
