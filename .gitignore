@@ -1,0 +1,34 @@
+# Python
+__pycache__/
+*.pyc
+.pytest_cache/
+.ruff_cache/
+
+# Local TBIM installation
+site-packages/
+tbim_settings.json
+tbim_SharedParameters.txt
+*.log
+
+# Case-study data (not anonymized), source drawings and legacy scripts
+/json/
+/3d/
+/*.pdf
+/*.PDF
+/tbim_functions.py
+examples/demo/json/tbim_CellComplex_*.json
+examples/demo/json/tbim__FaceProperties.json
+examples/demo/json/tbim_BRepFilePaths.json
+examples/demo/json/demo_space_names.json
+
+# Revit models and backups (they store local paths; the projects keep only the TBIM data)
+*.rvt
+*.rfa
+*.0*.rvt
+
+# OS / editors
+Thumbs.db
+desktop.ini
+.DS_Store
+.vscode/
+.idea/

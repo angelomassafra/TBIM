@@ -1,0 +1,2 @@
+title: "Check"
+tooltip: "Check the installation (Python engine, numpy, scipy, topologic_core, topologicpy, data folder) and reload the TBIM library. Run it after updating TBIM."

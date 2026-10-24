@@ -1,0 +1,9 @@
+[
+    {
+        "cnFC_equalTo_pr_TopologicalType": "botHor",
+        "stFC_FloorTypeName": "TBIM_Platea_CA_su_Vespaio_400",
+        "stFC_ThermalTransmittance": 1.8,
+        "stFC_Layers": "Pavimento in gres 2 / massetto 6 / platea c.a. 30 / magrone / vespaio in ghiaia",
+        "stFC_ConstructionYear": 1966
+    }
+]

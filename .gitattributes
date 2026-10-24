@@ -1,0 +1,7 @@
+* text=auto eol=lf
+*.bat text eol=crlf
+*.png binary
+*.gif binary
+*.mp4 binary
+*.brep text
+legacy/** -text

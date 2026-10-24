@@ -1,0 +1,25 @@
+[
+    {
+        "cnFC_equalTo_pr_TopologicalType": "extVer",
+        "stFC_WallTypeName": "TBIM_Muro_CassaVuota_Cortina_300",
+        "stFC_ThermalTransmittance": 1.1,
+        "stFC_Layers": "Mattoni faccia vista 12 / intercapedine d'aria 6 / laterizio forato 8 / intonaco 1,5 (telaio in c.a. a vista)",
+        "stFC_ConstructionYear": 1966
+    },
+    {
+        "cnFC_equalTo_pr_TopologicalType": "extVer",
+        "cnFC_contains_rl_HasLocation_tpBS": "BuildingStorey_0cm",
+        "stFC_WallTypeName": "TBIM_Muro_Controterra_CA_300",
+        "stFC_ThermalTransmittance": 2.2,
+        "stFC_Layers": "Calcestruzzo armato 30 / impermeabilizzazione (seminterrato)",
+        "stFC_ConstructionYear": 1966
+    },
+    {
+        "cnFC_equalTo_pr_TopologicalType": "extVer",
+        "cnFC_contains_rl_HasLocation_tpBS": "BuildingStorey_1780cm",
+        "stFC_WallTypeName": "TBIM_Muro_Torrino_Forato_250",
+        "stFC_ThermalTransmittance": 1.4,
+        "stFC_Layers": "Intonaco 1,5 / laterizio forato 22 / intonaco 1,5 (torrino scala)",
+        "stFC_ConstructionYear": 1966
+    }
+]

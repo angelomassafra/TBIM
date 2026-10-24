@@ -1,0 +1,112 @@
+[
+    {
+        "pr_OccupancyType": "Default",
+        "pr_CirculationType": "NoCirculation",
+        "pr_IsOccupied": false,
+        "pr_IsHeated": false,
+        "pr_IsCooled": false,
+        "pr_IsNaturallyVentilated": true,
+        "pr_IsMechanicallyVentilated": false,
+        "pr_AreaPerOccupantPeak": 0
+    },
+    {
+        "pr_OccupancyType": "Residential:LivingRoom",
+        "pr_CirculationType": "NoCirculation",
+        "pr_IsOccupied": true,
+        "pr_IsHeated": true,
+        "pr_IsCooled": false,
+        "pr_IsNaturallyVentilated": true,
+        "pr_IsMechanicallyVentilated": false,
+        "pr_AreaPerOccupantPeak": 8.0
+    },
+    {
+        "pr_OccupancyType": "Residential:Bedroom",
+        "pr_CirculationType": "NoCirculation",
+        "pr_IsOccupied": true,
+        "pr_IsHeated": true,
+        "pr_IsCooled": false,
+        "pr_IsNaturallyVentilated": true,
+        "pr_IsMechanicallyVentilated": false,
+        "pr_AreaPerOccupantPeak": 7.0
+    },
+    {
+        "pr_OccupancyType": "Residential:Kitchen",
+        "pr_CirculationType": "NoCirculation",
+        "pr_IsOccupied": true,
+        "pr_IsHeated": true,
+        "pr_IsCooled": false,
+        "pr_IsNaturallyVentilated": true,
+        "pr_IsMechanicallyVentilated": false,
+        "pr_AreaPerOccupantPeak": 8.0
+    },
+    {
+        "pr_OccupancyType": "Support:Bathroom",
+        "pr_CirculationType": "NoCirculation",
+        "pr_IsOccupied": true,
+        "pr_IsHeated": true,
+        "pr_IsCooled": false,
+        "pr_IsNaturallyVentilated": true,
+        "pr_IsMechanicallyVentilated": false,
+        "pr_AreaPerOccupantPeak": 0
+    },
+    {
+        "pr_OccupancyType": "Circulation:PrivateHallway",
+        "pr_CirculationType": "PrivateCirculation",
+        "pr_IsOccupied": false,
+        "pr_IsHeated": true,
+        "pr_IsCooled": false,
+        "pr_IsNaturallyVentilated": true,
+        "pr_IsMechanicallyVentilated": false,
+        "pr_AreaPerOccupantPeak": 0
+    },
+    {
+        "pr_OccupancyType": "Circulation:Stair",
+        "pr_CirculationType": "PublicCirculation",
+        "pr_IsOccupied": false,
+        "pr_IsHeated": false,
+        "pr_IsCooled": false,
+        "pr_IsNaturallyVentilated": true,
+        "pr_IsMechanicallyVentilated": false,
+        "pr_AreaPerOccupantPeak": 0
+    },
+    {
+        "pr_OccupancyType": "Circulation:EntranceHall",
+        "pr_CirculationType": "PublicCirculation",
+        "pr_IsOccupied": false,
+        "pr_IsHeated": false,
+        "pr_IsCooled": false,
+        "pr_IsNaturallyVentilated": true,
+        "pr_IsMechanicallyVentilated": false,
+        "pr_AreaPerOccupantPeak": 0
+    },
+    {
+        "pr_OccupancyType": "Parking:Garage",
+        "pr_CirculationType": "NoCirculation",
+        "pr_IsOccupied": false,
+        "pr_IsHeated": false,
+        "pr_IsCooled": false,
+        "pr_IsNaturallyVentilated": true,
+        "pr_IsMechanicallyVentilated": false,
+        "pr_AreaPerOccupantPeak": 0
+    },
+    {
+        "pr_OccupancyType": "Technical:BoilerRoom",
+        "pr_CirculationType": "NoCirculation",
+        "pr_IsOccupied": false,
+        "pr_IsHeated": false,
+        "pr_IsCooled": false,
+        "pr_IsNaturallyVentilated": true,
+        "pr_IsMechanicallyVentilated": false,
+        "pr_AreaPerOccupantPeak": 0
+    },
+    {
+        "pr_OccupancyType": "Unconditioned:Attic",
+        "pr_CirculationType": "NoCirculation",
+        "pr_IsOccupied": false,
+        "pr_IsHeated": false,
+        "pr_IsCooled": false,
+        "pr_IsNaturallyVentilated": true,
+        "pr_IsMechanicallyVentilated": false,
+        "pr_AreaPerOccupantPeak": 0
+    }
+]

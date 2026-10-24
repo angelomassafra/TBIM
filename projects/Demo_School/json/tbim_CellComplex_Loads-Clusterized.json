@@ -1,0 +1,3613 @@
+[
+    {
+        "apertures": [],
+        "coordinates": [
+            0.0,
+            600.0,
+            0.0
+        ],
+        "dictionary": {
+            "toplevel": false,
+            "uuid": "d61d23be-ceae-11f1-af91-0072eeef51b3"
+        },
+        "type": "Vertex",
+        "uuid": "d61d23be-ceae-11f1-af91-0072eeef51b3"
+    },
+    {
+        "apertures": [],
+        "coordinates": [
+            500.0,
+            600.0,
+            0.0
+        ],
+        "dictionary": {
+            "toplevel": false,
+            "uuid": "d61d23bf-ceae-11f1-bce3-0072eeef51b3"
+        },
+        "type": "Vertex",
+        "uuid": "d61d23bf-ceae-11f1-bce3-0072eeef51b3"
+    },
+    {
+        "apertures": [],
+        "coordinates": [
+            500.0,
+            0.0,
+            0.0
+        ],
+        "dictionary": {
+            "toplevel": false,
+            "uuid": "d61d37bf-ceae-11f1-bcbe-0072eeef51b3"
+        },
+        "type": "Vertex",
+        "uuid": "d61d37bf-ceae-11f1-bcbe-0072eeef51b3"
+    },
+    {
+        "apertures": [],
+        "coordinates": [
+            0.0,
+            0.0,
+            0.0
+        ],
+        "dictionary": {
+            "toplevel": false,
+            "uuid": "d61d37c0-ceae-11f1-bc32-0072eeef51b3"
+        },
+        "type": "Vertex",
+        "uuid": "d61d37c0-ceae-11f1-bc32-0072eeef51b3"
+    },
+    {
+        "apertures": [],
+        "coordinates": [
+            0.0,
+            600.0,
+            300.0
+        ],
+        "dictionary": {
+            "toplevel": false,
+            "uuid": "d61d37c2-ceae-11f1-ae3a-0072eeef51b3"
+        },
+        "type": "Vertex",
+        "uuid": "d61d37c2-ceae-11f1-ae3a-0072eeef51b3"
+    },
+    {
+        "apertures": [],
+        "coordinates": [
+            500.0,
+            600.0,
+            300.0
+        ],
+        "dictionary": {
+            "toplevel": false,
+            "uuid": "d61d37c1-ceae-11f1-b01e-0072eeef51b3"
+        },
+        "type": "Vertex",
+        "uuid": "d61d37c1-ceae-11f1-b01e-0072eeef51b3"
+    },
+    {
+        "apertures": [],
+        "coordinates": [
+            500.0,
+            0.0,
+            300.0
+        ],
+        "dictionary": {
+            "toplevel": false,
+            "uuid": "d61d37c3-ceae-11f1-8b47-0072eeef51b3"
+        },
+        "type": "Vertex",
+        "uuid": "d61d37c3-ceae-11f1-8b47-0072eeef51b3"
+    },
+    {
+        "apertures": [],
+        "coordinates": [
+            0.0,
+            0.0,
+            300.0
+        ],
+        "dictionary": {
+            "toplevel": false,
+            "uuid": "d61d37c4-ceae-11f1-a3c5-0072eeef51b3"
+        },
+        "type": "Vertex",
+        "uuid": "d61d37c4-ceae-11f1-a3c5-0072eeef51b3"
+    },
+    {
+        "apertures": [],
+        "coordinates": [
+            0.0,
+            800.0,
+            300.0
+        ],
+        "dictionary": {
+            "toplevel": false,
+            "uuid": "d61d5efa-ceae-11f1-a43c-0072eeef51b3"
+        },
+        "type": "Vertex",
+        "uuid": "d61d5efa-ceae-11f1-a43c-0072eeef51b3"
+    },
+    {
+        "apertures": [],
+        "coordinates": [
+            0.0,
+            800.0,
+            0.0
+        ],
+        "dictionary": {
+            "toplevel": false,
+            "uuid": "d61d37c5-ceae-11f1-aa0d-0072eeef51b3"
+        },
+        "type": "Vertex",
+        "uuid": "d61d37c5-ceae-11f1-aa0d-0072eeef51b3"
+    },
+    {
+        "apertures": [],
+        "coordinates": [
+            1000.0,
+            600.0,
+            300.0
+        ],
+        "dictionary": {
+            "toplevel": false,
+            "uuid": "d61d37c9-ceae-11f1-a782-0072eeef51b3"
+        },
+        "type": "Vertex",
+        "uuid": "d61d37c9-ceae-11f1-a782-0072eeef51b3"
+    },
+    {
+        "apertures": [],
+        "coordinates": [
+            1500.0,
+            600.0,
+            300.0
+        ],
+        "dictionary": {
+            "toplevel": false,
+            "uuid": "d61d5efc-ceae-11f1-bc6f-0072eeef51b3"
+        },
+        "type": "Vertex",
+        "uuid": "d61d5efc-ceae-11f1-bc6f-0072eeef51b3"
+    },
+    {
+        "apertures": [],
+        "coordinates": [
+            1500.0,
+            800.0,
+            300.0
+        ],
+        "dictionary": {
+            "toplevel": false,
+            "uuid": "d61d5efb-ceae-11f1-a681-0072eeef51b3"
+        },
+        "type": "Vertex",
+        "uuid": "d61d5efb-ceae-11f1-a681-0072eeef51b3"
+    },
+    {
+        "apertures": [],
+        "coordinates": [
+            1000.0,
+            600.0,
+            0.0
+        ],
+        "dictionary": {
+            "toplevel": false,
+            "uuid": "d61d37c8-ceae-11f1-b6f7-0072eeef51b3"
+        },
+        "type": "Vertex",
+        "uuid": "d61d37c8-ceae-11f1-b6f7-0072eeef51b3"
+    },
+    {
+        "apertures": [],
+        "coordinates": [
+            1500.0,
+            800.0,
+            0.0
+        ],
+        "dictionary": {
+            "toplevel": false,
+            "uuid": "d61d37c6-ceae-11f1-a7a9-0072eeef51b3"
+        },
+        "type": "Vertex",
+        "uuid": "d61d37c6-ceae-11f1-a7a9-0072eeef51b3"
+    },
+    {
+        "apertures": [],
+        "coordinates": [
+            1500.0,
+            600.0,
+            0.0
+        ],
+        "dictionary": {
+            "toplevel": false,
+            "uuid": "d61d37c7-ceae-11f1-bd28-0072eeef51b3"
+        },
+        "type": "Vertex",
+        "uuid": "d61d37c7-ceae-11f1-bd28-0072eeef51b3"
+    },
+    {
+        "apertures": [],
+        "coordinates": [
+            1000.0,
+            0.0,
+            0.0
+        ],
+        "dictionary": {
+            "toplevel": false,
+            "uuid": "d61d5efd-ceae-11f1-9bc4-0072eeef51b3"
+        },
+        "type": "Vertex",
+        "uuid": "d61d5efd-ceae-11f1-9bc4-0072eeef51b3"
+    },
+    {
+        "apertures": [],
+        "coordinates": [
+            1000.0,
+            0.0,
+            300.0
+        ],
+        "dictionary": {
+            "toplevel": false,
+            "uuid": "d61d5efe-ceae-11f1-b9aa-0072eeef51b3"
+        },
+        "type": "Vertex",
+        "uuid": "d61d5efe-ceae-11f1-b9aa-0072eeef51b3"
+    },
+    {
+        "apertures": [],
+        "coordinates": [
+            0.0,
+            0.0,
+            600.0
+        ],
+        "dictionary": {
+            "toplevel": false,
+            "uuid": "d61d5f02-ceae-11f1-8ca3-0072eeef51b3"
+        },
+        "type": "Vertex",
+        "uuid": "d61d5f02-ceae-11f1-8ca3-0072eeef51b3"
+    },
+    {
+        "apertures": [],
+        "coordinates": [
+            0.0,
+            600.0,
+            600.0
+        ],
+        "dictionary": {
+            "toplevel": false,
+            "uuid": "d61d5f00-ceae-11f1-a5d1-0072eeef51b3"
+        },
+        "type": "Vertex",
+        "uuid": "d61d5f00-ceae-11f1-a5d1-0072eeef51b3"
+    },
+    {
+        "apertures": [],
+        "coordinates": [
+            500.0,
+            600.0,
+            600.0
+        ],
+        "dictionary": {
+            "toplevel": false,
+            "uuid": "d61d5eff-ceae-11f1-bbef-0072eeef51b3"
+        },
+        "type": "Vertex",
+        "uuid": "d61d5eff-ceae-11f1-bbef-0072eeef51b3"
+    },
+    {
+        "apertures": [],
+        "coordinates": [
+            500.0,
+            0.0,
+            600.0
+        ],
+        "dictionary": {
+            "toplevel": false,
+            "uuid": "d61d5f01-ceae-11f1-a34d-0072eeef51b3"
+        },
+        "type": "Vertex",
+        "uuid": "d61d5f01-ceae-11f1-a34d-0072eeef51b3"
+    },
+    {
+        "apertures": [],
+        "coordinates": [
+            0.0,
+            800.0,
+            600.0
+        ],
+        "dictionary": {
+            "toplevel": false,
+            "uuid": "d61d5f04-ceae-11f1-be42-0072eeef51b3"
+        },
+        "type": "Vertex",
+        "uuid": "d61d5f04-ceae-11f1-be42-0072eeef51b3"
+    },
+    {
+        "apertures": [],
+        "coordinates": [
+            1000.0,
+            600.0,
+            600.0
+        ],
+        "dictionary": {
+            "toplevel": false,
+            "uuid": "d61d8609-ceae-11f1-a906-0072eeef51b3"
+        },
+        "type": "Vertex",
+        "uuid": "d61d8609-ceae-11f1-a906-0072eeef51b3"
+    },
+    {
+        "apertures": [],
+        "coordinates": [
+            1500.0,
+            600.0,
+            600.0
+        ],
+        "dictionary": {
+            "toplevel": false,
+            "uuid": "d61d5f05-ceae-11f1-b7ad-0072eeef51b3"
+        },
+        "type": "Vertex",
+        "uuid": "d61d5f05-ceae-11f1-b7ad-0072eeef51b3"
+    },
+    {
+        "apertures": [],
+        "coordinates": [
+            1500.0,
+            800.0,
+            600.0
+        ],
+        "dictionary": {
+            "toplevel": false,
+            "uuid": "d61d5f03-ceae-11f1-bd31-0072eeef51b3"
+        },
+        "type": "Vertex",
+        "uuid": "d61d5f03-ceae-11f1-bd31-0072eeef51b3"
+    },
+    {
+        "apertures": [],
+        "coordinates": [
+            1500.0,
+            0.0,
+            0.0
+        ],
+        "dictionary": {
+            "toplevel": false,
+            "uuid": "d61d860c-ceae-11f1-bfa8-0072eeef51b3"
+        },
+        "type": "Vertex",
+        "uuid": "d61d860c-ceae-11f1-bfa8-0072eeef51b3"
+    },
+    {
+        "apertures": [],
+        "coordinates": [
+            1500.0,
+            0.0,
+            300.0
+        ],
+        "dictionary": {
+            "toplevel": false,
+            "uuid": "d61d860d-ceae-11f1-a895-0072eeef51b3"
+        },
+        "type": "Vertex",
+        "uuid": "d61d860d-ceae-11f1-a895-0072eeef51b3"
+    },
+    {
+        "apertures": [],
+        "coordinates": [
+            2300.0,
+            800.0,
+            0.0
+        ],
+        "dictionary": {
+            "toplevel": false,
+            "uuid": "d61d860a-ceae-11f1-8807-0072eeef51b3"
+        },
+        "type": "Vertex",
+        "uuid": "d61d860a-ceae-11f1-8807-0072eeef51b3"
+    },
+    {
+        "apertures": [],
+        "coordinates": [
+            2300.0,
+            800.0,
+            300.0
+        ],
+        "dictionary": {
+            "toplevel": false,
+            "uuid": "d61d860e-ceae-11f1-a33a-0072eeef51b3"
+        },
+        "type": "Vertex",
+        "uuid": "d61d860e-ceae-11f1-a33a-0072eeef51b3"
+    },
+    {
+        "apertures": [],
+        "coordinates": [
+            2300.0,
+            0.0,
+            0.0
+        ],
+        "dictionary": {
+            "toplevel": false,
+            "uuid": "d61d860b-ceae-11f1-bfbf-0072eeef51b3"
+        },
+        "type": "Vertex",
+        "uuid": "d61d860b-ceae-11f1-bfbf-0072eeef51b3"
+    },
+    {
+        "apertures": [],
+        "coordinates": [
+            2300.0,
+            0.0,
+            300.0
+        ],
+        "dictionary": {
+            "toplevel": false,
+            "uuid": "d61d860f-ceae-11f1-b25f-0072eeef51b3"
+        },
+        "type": "Vertex",
+        "uuid": "d61d860f-ceae-11f1-b25f-0072eeef51b3"
+    },
+    {
+        "apertures": [],
+        "coordinates": [
+            1000.0,
+            0.0,
+            600.0
+        ],
+        "dictionary": {
+            "toplevel": false,
+            "uuid": "d61d8610-ceae-11f1-a31b-0072eeef51b3"
+        },
+        "type": "Vertex",
+        "uuid": "d61d8610-ceae-11f1-a31b-0072eeef51b3"
+    },
+    {
+        "apertures": [],
+        "coordinates": [
+            1500.0,
+            0.0,
+            600.0
+        ],
+        "dictionary": {
+            "toplevel": false,
+            "uuid": "d61d8611-ceae-11f1-ab39-0072eeef51b3"
+        },
+        "type": "Vertex",
+        "uuid": "d61d8611-ceae-11f1-ab39-0072eeef51b3"
+    },
+    {
+        "apertures": [],
+        "dictionary": {
+            "toplevel": false,
+            "uuid": "d61d8612-ceae-11f1-9de2-0072eeef51b3"
+        },
+        "type": "Edge",
+        "uuid": "d61d8612-ceae-11f1-9de2-0072eeef51b3",
+        "vertices": [
+            "d61d23be-ceae-11f1-af91-0072eeef51b3",
+            "d61d23bf-ceae-11f1-bce3-0072eeef51b3"
+        ]
+    },
+    {
+        "apertures": [],
+        "dictionary": {
+            "toplevel": false,
+            "uuid": "d61dad1d-ceae-11f1-8749-0072eeef51b3"
+        },
+        "type": "Edge",
+        "uuid": "d61dad1d-ceae-11f1-8749-0072eeef51b3",
+        "vertices": [
+            "d61d23bf-ceae-11f1-bce3-0072eeef51b3",
+            "d61d37bf-ceae-11f1-bcbe-0072eeef51b3"
+        ]
+    },
+    {
+        "apertures": [],
+        "dictionary": {
+            "toplevel": false,
+            "uuid": "d61dad1e-ceae-11f1-ba50-0072eeef51b3"
+        },
+        "type": "Edge",
+        "uuid": "d61dad1e-ceae-11f1-ba50-0072eeef51b3",
+        "vertices": [
+            "d61d37bf-ceae-11f1-bcbe-0072eeef51b3",
+            "d61d37c0-ceae-11f1-bc32-0072eeef51b3"
+        ]
+    },
+    {
+        "apertures": [],
+        "dictionary": {
+            "toplevel": false,
+            "uuid": "d61dad1f-ceae-11f1-a7cd-0072eeef51b3"
+        },
+        "type": "Edge",
+        "uuid": "d61dad1f-ceae-11f1-a7cd-0072eeef51b3",
+        "vertices": [
+            "d61d37c0-ceae-11f1-bc32-0072eeef51b3",
+            "d61d23be-ceae-11f1-af91-0072eeef51b3"
+        ]
+    },
+    {
+        "apertures": [],
+        "dictionary": {
+            "toplevel": false,
+            "uuid": "d61dad22-ceae-11f1-a245-0072eeef51b3"
+        },
+        "type": "Edge",
+        "uuid": "d61dad22-ceae-11f1-a245-0072eeef51b3",
+        "vertices": [
+            "d61d23be-ceae-11f1-af91-0072eeef51b3",
+            "d61d37c2-ceae-11f1-ae3a-0072eeef51b3"
+        ]
+    },
+    {
+        "apertures": [],
+        "dictionary": {
+            "toplevel": false,
+            "uuid": "d61dad21-ceae-11f1-84e6-0072eeef51b3"
+        },
+        "type": "Edge",
+        "uuid": "d61dad21-ceae-11f1-84e6-0072eeef51b3",
+        "vertices": [
+            "d61d37c2-ceae-11f1-ae3a-0072eeef51b3",
+            "d61d37c1-ceae-11f1-b01e-0072eeef51b3"
+        ]
+    },
+    {
+        "apertures": [],
+        "dictionary": {
+            "toplevel": false,
+            "uuid": "d61dad20-ceae-11f1-abca-0072eeef51b3"
+        },
+        "type": "Edge",
+        "uuid": "d61dad20-ceae-11f1-abca-0072eeef51b3",
+        "vertices": [
+            "d61d37c1-ceae-11f1-b01e-0072eeef51b3",
+            "d61d23bf-ceae-11f1-bce3-0072eeef51b3"
+        ]
+    },
+    {
+        "apertures": [],
+        "dictionary": {
+            "toplevel": false,
+            "uuid": "d61dad23-ceae-11f1-87ae-0072eeef51b3"
+        },
+        "type": "Edge",
+        "uuid": "d61dad23-ceae-11f1-87ae-0072eeef51b3",
+        "vertices": [
+            "d61d37c3-ceae-11f1-8b47-0072eeef51b3",
+            "d61d37bf-ceae-11f1-bcbe-0072eeef51b3"
+        ]
+    },
+    {
+        "apertures": [],
+        "dictionary": {
+            "toplevel": false,
+            "uuid": "d61dd42c-ceae-11f1-ac89-0072eeef51b3"
+        },
+        "type": "Edge",
+        "uuid": "d61dd42c-ceae-11f1-ac89-0072eeef51b3",
+        "vertices": [
+            "d61d37c1-ceae-11f1-b01e-0072eeef51b3",
+            "d61d37c3-ceae-11f1-8b47-0072eeef51b3"
+        ]
+    },
+    {
+        "apertures": [],
+        "dictionary": {
+            "toplevel": false,
+            "uuid": "d61dd42d-ceae-11f1-9d97-0072eeef51b3"
+        },
+        "type": "Edge",
+        "uuid": "d61dd42d-ceae-11f1-9d97-0072eeef51b3",
+        "vertices": [
+            "d61d37c4-ceae-11f1-a3c5-0072eeef51b3",
+            "d61d37c0-ceae-11f1-bc32-0072eeef51b3"
+        ]
+    },
+    {
+        "apertures": [],
+        "dictionary": {
+            "toplevel": false,
+            "uuid": "d61dd42e-ceae-11f1-b97a-0072eeef51b3"
+        },
+        "type": "Edge",
+        "uuid": "d61dd42e-ceae-11f1-b97a-0072eeef51b3",
+        "vertices": [
+            "d61d37c3-ceae-11f1-8b47-0072eeef51b3",
+            "d61d37c4-ceae-11f1-a3c5-0072eeef51b3"
+        ]
+    },
+    {
+        "apertures": [],
+        "dictionary": {
+            "toplevel": false,
+            "uuid": "d61dd42f-ceae-11f1-8b3c-0072eeef51b3"
+        },
+        "type": "Edge",
+        "uuid": "d61dd42f-ceae-11f1-8b3c-0072eeef51b3",
+        "vertices": [
+            "d61d37c4-ceae-11f1-a3c5-0072eeef51b3",
+            "d61d37c2-ceae-11f1-ae3a-0072eeef51b3"
+        ]
+    },
+    {
+        "apertures": [],
+        "dictionary": {
+            "toplevel": false,
+            "uuid": "d61e1ad6-ceae-11f1-9727-0072eeef51b3"
+        },
+        "type": "Edge",
+        "uuid": "d61e1ad6-ceae-11f1-9727-0072eeef51b3",
+        "vertices": [
+            "d61d37c2-ceae-11f1-ae3a-0072eeef51b3",
+            "d61d5efa-ceae-11f1-a43c-0072eeef51b3"
+        ]
+    },
+    {
+        "apertures": [],
+        "dictionary": {
+            "toplevel": false,
+            "uuid": "d61e1ad7-ceae-11f1-a450-0072eeef51b3"
+        },
+        "type": "Edge",
+        "uuid": "d61e1ad7-ceae-11f1-a450-0072eeef51b3",
+        "vertices": [
+            "d61d5efa-ceae-11f1-a43c-0072eeef51b3",
+            "d61d37c5-ceae-11f1-aa0d-0072eeef51b3"
+        ]
+    },
+    {
+        "apertures": [],
+        "dictionary": {
+            "toplevel": false,
+            "uuid": "d61dfb39-ceae-11f1-b9bc-0072eeef51b3"
+        },
+        "type": "Edge",
+        "uuid": "d61dfb39-ceae-11f1-b9bc-0072eeef51b3",
+        "vertices": [
+            "d61d37c5-ceae-11f1-aa0d-0072eeef51b3",
+            "d61d23be-ceae-11f1-af91-0072eeef51b3"
+        ]
+    },
+    {
+        "apertures": [],
+        "dictionary": {
+            "toplevel": false,
+            "uuid": "d61dfb3b-ceae-11f1-9fad-0072eeef51b3"
+        },
+        "type": "Edge",
+        "uuid": "d61dfb3b-ceae-11f1-9fad-0072eeef51b3",
+        "vertices": [
+            "d61d37c1-ceae-11f1-b01e-0072eeef51b3",
+            "d61d37c9-ceae-11f1-a782-0072eeef51b3"
+        ]
+    },
+    {
+        "apertures": [],
+        "dictionary": {
+            "toplevel": false,
+            "uuid": "d61e0ee2-ceae-11f1-bb09-0072eeef51b3"
+        },
+        "type": "Edge",
+        "uuid": "d61e0ee2-ceae-11f1-bb09-0072eeef51b3",
+        "vertices": [
+            "d61d37c9-ceae-11f1-a782-0072eeef51b3",
+            "d61d5efc-ceae-11f1-bc6f-0072eeef51b3"
+        ]
+    },
+    {
+        "apertures": [],
+        "dictionary": {
+            "toplevel": false,
+            "uuid": "d61e0ee1-ceae-11f1-a60d-0072eeef51b3"
+        },
+        "type": "Edge",
+        "uuid": "d61e0ee1-ceae-11f1-a60d-0072eeef51b3",
+        "vertices": [
+            "d61d5efc-ceae-11f1-bc6f-0072eeef51b3",
+            "d61d5efb-ceae-11f1-a681-0072eeef51b3"
+        ]
+    },
+    {
+        "apertures": [],
+        "dictionary": {
+            "toplevel": false,
+            "uuid": "d61dfb3c-ceae-11f1-a698-0072eeef51b3"
+        },
+        "type": "Edge",
+        "uuid": "d61dfb3c-ceae-11f1-a698-0072eeef51b3",
+        "vertices": [
+            "d61d5efb-ceae-11f1-a681-0072eeef51b3",
+            "d61d5efa-ceae-11f1-a43c-0072eeef51b3"
+        ]
+    },
+    {
+        "apertures": [],
+        "dictionary": {
+            "toplevel": false,
+            "uuid": "d61dd433-ceae-11f1-85c8-0072eeef51b3"
+        },
+        "type": "Edge",
+        "uuid": "d61dd433-ceae-11f1-85c8-0072eeef51b3",
+        "vertices": [
+            "d61d23bf-ceae-11f1-bce3-0072eeef51b3",
+            "d61d37c8-ceae-11f1-b6f7-0072eeef51b3"
+        ]
+    },
+    {
+        "apertures": [],
+        "dictionary": {
+            "toplevel": false,
+            "uuid": "d61dfb3a-ceae-11f1-9a25-0072eeef51b3"
+        },
+        "type": "Edge",
+        "uuid": "d61dfb3a-ceae-11f1-9a25-0072eeef51b3",
+        "vertices": [
+            "d61d37c8-ceae-11f1-b6f7-0072eeef51b3",
+            "d61d37c9-ceae-11f1-a782-0072eeef51b3"
+        ]
+    },
+    {
+        "apertures": [],
+        "dictionary": {
+            "toplevel": false,
+            "uuid": "d61dd430-ceae-11f1-a456-0072eeef51b3"
+        },
+        "type": "Edge",
+        "uuid": "d61dd430-ceae-11f1-a456-0072eeef51b3",
+        "vertices": [
+            "d61d37c5-ceae-11f1-aa0d-0072eeef51b3",
+            "d61d37c6-ceae-11f1-a7a9-0072eeef51b3"
+        ]
+    },
+    {
+        "apertures": [],
+        "dictionary": {
+            "toplevel": false,
+            "uuid": "d61dd431-ceae-11f1-b3e8-0072eeef51b3"
+        },
+        "type": "Edge",
+        "uuid": "d61dd431-ceae-11f1-b3e8-0072eeef51b3",
+        "vertices": [
+            "d61d37c6-ceae-11f1-a7a9-0072eeef51b3",
+            "d61d37c7-ceae-11f1-bd28-0072eeef51b3"
+        ]
+    },
+    {
+        "apertures": [],
+        "dictionary": {
+            "toplevel": false,
+            "uuid": "d61dd432-ceae-11f1-a6df-0072eeef51b3"
+        },
+        "type": "Edge",
+        "uuid": "d61dd432-ceae-11f1-a6df-0072eeef51b3",
+        "vertices": [
+            "d61d37c7-ceae-11f1-bd28-0072eeef51b3",
+            "d61d37c8-ceae-11f1-b6f7-0072eeef51b3"
+        ]
+    },
+    {
+        "apertures": [],
+        "dictionary": {
+            "toplevel": false,
+            "uuid": "d61e1ad8-ceae-11f1-90c3-0072eeef51b3"
+        },
+        "type": "Edge",
+        "uuid": "d61e1ad8-ceae-11f1-90c3-0072eeef51b3",
+        "vertices": [
+            "d61d5efb-ceae-11f1-a681-0072eeef51b3",
+            "d61d37c6-ceae-11f1-a7a9-0072eeef51b3"
+        ]
+    },
+    {
+        "apertures": [],
+        "dictionary": {
+            "toplevel": false,
+            "uuid": "d61e1ad9-ceae-11f1-b1d8-0072eeef51b3"
+        },
+        "type": "Edge",
+        "uuid": "d61e1ad9-ceae-11f1-b1d8-0072eeef51b3",
+        "vertices": [
+            "d61d37c7-ceae-11f1-bd28-0072eeef51b3",
+            "d61d5efc-ceae-11f1-bc6f-0072eeef51b3"
+        ]
+    },
+    {
+        "apertures": [],
+        "dictionary": {
+            "toplevel": false,
+            "uuid": "d61e1adb-ceae-11f1-bce2-0072eeef51b3"
+        },
+        "type": "Edge",
+        "uuid": "d61e1adb-ceae-11f1-bce2-0072eeef51b3",
+        "vertices": [
+            "d61d5efd-ceae-11f1-9bc4-0072eeef51b3",
+            "d61d37bf-ceae-11f1-bcbe-0072eeef51b3"
+        ]
+    },
+    {
+        "apertures": [],
+        "dictionary": {
+            "toplevel": false,
+            "uuid": "d61e1ada-ceae-11f1-936d-0072eeef51b3"
+        },
+        "type": "Edge",
+        "uuid": "d61e1ada-ceae-11f1-936d-0072eeef51b3",
+        "vertices": [
+            "d61d37c8-ceae-11f1-b6f7-0072eeef51b3",
+            "d61d5efd-ceae-11f1-9bc4-0072eeef51b3"
+        ]
+    },
+    {
+        "apertures": [],
+        "dictionary": {
+            "toplevel": false,
+            "uuid": "d61e1add-ceae-11f1-a5e3-0072eeef51b3"
+        },
+        "type": "Edge",
+        "uuid": "d61e1add-ceae-11f1-a5e3-0072eeef51b3",
+        "vertices": [
+            "d61d5efd-ceae-11f1-9bc4-0072eeef51b3",
+            "d61d5efe-ceae-11f1-b9aa-0072eeef51b3"
+        ]
+    },
+    {
+        "apertures": [],
+        "dictionary": {
+            "toplevel": false,
+            "uuid": "d61e1adc-ceae-11f1-8a6d-0072eeef51b3"
+        },
+        "type": "Edge",
+        "uuid": "d61e1adc-ceae-11f1-8a6d-0072eeef51b3",
+        "vertices": [
+            "d61d5efe-ceae-11f1-b9aa-0072eeef51b3",
+            "d61d37c3-ceae-11f1-8b47-0072eeef51b3"
+        ]
+    },
+    {
+        "apertures": [],
+        "dictionary": {
+            "toplevel": false,
+            "uuid": "d61e4204-ceae-11f1-8afc-0072eeef51b3"
+        },
+        "type": "Edge",
+        "uuid": "d61e4204-ceae-11f1-8afc-0072eeef51b3",
+        "vertices": [
+            "d61d5efe-ceae-11f1-b9aa-0072eeef51b3",
+            "d61d37c9-ceae-11f1-a782-0072eeef51b3"
+        ]
+    },
+    {
+        "apertures": [],
+        "dictionary": {
+            "toplevel": false,
+            "uuid": "d61e420a-ceae-11f1-a557-0072eeef51b3"
+        },
+        "type": "Edge",
+        "uuid": "d61e420a-ceae-11f1-a557-0072eeef51b3",
+        "vertices": [
+            "d61d37c4-ceae-11f1-a3c5-0072eeef51b3",
+            "d61d5f02-ceae-11f1-8ca3-0072eeef51b3"
+        ]
+    },
+    {
+        "apertures": [],
+        "dictionary": {
+            "toplevel": false,
+            "uuid": "d61e4207-ceae-11f1-b2e0-0072eeef51b3"
+        },
+        "type": "Edge",
+        "uuid": "d61e4207-ceae-11f1-b2e0-0072eeef51b3",
+        "vertices": [
+            "d61d5f00-ceae-11f1-a5d1-0072eeef51b3",
+            "d61d37c2-ceae-11f1-ae3a-0072eeef51b3"
+        ]
+    },
+    {
+        "apertures": [],
+        "dictionary": {
+            "toplevel": false,
+            "uuid": "d61e6942-ceae-11f1-9e0a-0072eeef51b3"
+        },
+        "type": "Edge",
+        "uuid": "d61e6942-ceae-11f1-9e0a-0072eeef51b3",
+        "vertices": [
+            "d61d5f02-ceae-11f1-8ca3-0072eeef51b3",
+            "d61d5f00-ceae-11f1-a5d1-0072eeef51b3"
+        ]
+    },
+    {
+        "apertures": [],
+        "dictionary": {
+            "toplevel": false,
+            "uuid": "d61e4206-ceae-11f1-9db3-0072eeef51b3"
+        },
+        "type": "Edge",
+        "uuid": "d61e4206-ceae-11f1-9db3-0072eeef51b3",
+        "vertices": [
+            "d61d5f00-ceae-11f1-a5d1-0072eeef51b3",
+            "d61d5eff-ceae-11f1-bbef-0072eeef51b3"
+        ]
+    },
+    {
+        "apertures": [],
+        "dictionary": {
+            "toplevel": false,
+            "uuid": "d61e4205-ceae-11f1-a513-0072eeef51b3"
+        },
+        "type": "Edge",
+        "uuid": "d61e4205-ceae-11f1-a513-0072eeef51b3",
+        "vertices": [
+            "d61d5eff-ceae-11f1-bbef-0072eeef51b3",
+            "d61d37c1-ceae-11f1-b01e-0072eeef51b3"
+        ]
+    },
+    {
+        "apertures": [],
+        "dictionary": {
+            "toplevel": false,
+            "uuid": "d61e4208-ceae-11f1-80a3-0072eeef51b3"
+        },
+        "type": "Edge",
+        "uuid": "d61e4208-ceae-11f1-80a3-0072eeef51b3",
+        "vertices": [
+            "d61d5f01-ceae-11f1-a34d-0072eeef51b3",
+            "d61d37c3-ceae-11f1-8b47-0072eeef51b3"
+        ]
+    },
+    {
+        "apertures": [],
+        "dictionary": {
+            "toplevel": false,
+            "uuid": "d61e4209-ceae-11f1-94bb-0072eeef51b3"
+        },
+        "type": "Edge",
+        "uuid": "d61e4209-ceae-11f1-94bb-0072eeef51b3",
+        "vertices": [
+            "d61d5eff-ceae-11f1-bbef-0072eeef51b3",
+            "d61d5f01-ceae-11f1-a34d-0072eeef51b3"
+        ]
+    },
+    {
+        "apertures": [],
+        "dictionary": {
+            "toplevel": false,
+            "uuid": "d61e6941-ceae-11f1-9216-0072eeef51b3"
+        },
+        "type": "Edge",
+        "uuid": "d61e6941-ceae-11f1-9216-0072eeef51b3",
+        "vertices": [
+            "d61d5f01-ceae-11f1-a34d-0072eeef51b3",
+            "d61d5f02-ceae-11f1-8ca3-0072eeef51b3"
+        ]
+    },
+    {
+        "apertures": [],
+        "dictionary": {
+            "toplevel": false,
+            "uuid": "d61e906e-ceae-11f1-86af-0072eeef51b3"
+        },
+        "type": "Edge",
+        "uuid": "d61e906e-ceae-11f1-86af-0072eeef51b3",
+        "vertices": [
+            "d61d5f00-ceae-11f1-a5d1-0072eeef51b3",
+            "d61d5f04-ceae-11f1-be42-0072eeef51b3"
+        ]
+    },
+    {
+        "apertures": [],
+        "dictionary": {
+            "toplevel": false,
+            "uuid": "d61e9068-ceae-11f1-a693-0072eeef51b3"
+        },
+        "type": "Edge",
+        "uuid": "d61e9068-ceae-11f1-a693-0072eeef51b3",
+        "vertices": [
+            "d61d5f04-ceae-11f1-be42-0072eeef51b3",
+            "d61d5efa-ceae-11f1-a43c-0072eeef51b3"
+        ]
+    },
+    {
+        "apertures": [],
+        "dictionary": {
+            "toplevel": false,
+            "uuid": "d61e906d-ceae-11f1-8014-0072eeef51b3"
+        },
+        "type": "Edge",
+        "uuid": "d61e906d-ceae-11f1-8014-0072eeef51b3",
+        "vertices": [
+            "d61d8609-ceae-11f1-a906-0072eeef51b3",
+            "d61d5eff-ceae-11f1-bbef-0072eeef51b3"
+        ]
+    },
+    {
+        "apertures": [],
+        "dictionary": {
+            "toplevel": false,
+            "uuid": "d61e906c-ceae-11f1-b25c-0072eeef51b3"
+        },
+        "type": "Edge",
+        "uuid": "d61e906c-ceae-11f1-b25c-0072eeef51b3",
+        "vertices": [
+            "d61d37c9-ceae-11f1-a782-0072eeef51b3",
+            "d61d8609-ceae-11f1-a906-0072eeef51b3"
+        ]
+    },
+    {
+        "apertures": [],
+        "dictionary": {
+            "toplevel": false,
+            "uuid": "d61e9069-ceae-11f1-868d-0072eeef51b3"
+        },
+        "type": "Edge",
+        "uuid": "d61e9069-ceae-11f1-868d-0072eeef51b3",
+        "vertices": [
+            "d61d5efc-ceae-11f1-bc6f-0072eeef51b3",
+            "d61d5f05-ceae-11f1-b7ad-0072eeef51b3"
+        ]
+    },
+    {
+        "apertures": [],
+        "dictionary": {
+            "toplevel": false,
+            "uuid": "d61e906b-ceae-11f1-a50f-0072eeef51b3"
+        },
+        "type": "Edge",
+        "uuid": "d61e906b-ceae-11f1-a50f-0072eeef51b3",
+        "vertices": [
+            "d61d5f05-ceae-11f1-b7ad-0072eeef51b3",
+            "d61d8609-ceae-11f1-a906-0072eeef51b3"
+        ]
+    },
+    {
+        "apertures": [],
+        "dictionary": {
+            "toplevel": false,
+            "uuid": "d61e9066-ceae-11f1-ad7b-0072eeef51b3"
+        },
+        "type": "Edge",
+        "uuid": "d61e9066-ceae-11f1-ad7b-0072eeef51b3",
+        "vertices": [
+            "d61d5efb-ceae-11f1-a681-0072eeef51b3",
+            "d61d5f03-ceae-11f1-bd31-0072eeef51b3"
+        ]
+    },
+    {
+        "apertures": [],
+        "dictionary": {
+            "toplevel": false,
+            "uuid": "d61e906a-ceae-11f1-95f1-0072eeef51b3"
+        },
+        "type": "Edge",
+        "uuid": "d61e906a-ceae-11f1-95f1-0072eeef51b3",
+        "vertices": [
+            "d61d5f03-ceae-11f1-bd31-0072eeef51b3",
+            "d61d5f05-ceae-11f1-b7ad-0072eeef51b3"
+        ]
+    },
+    {
+        "apertures": [],
+        "dictionary": {
+            "toplevel": false,
+            "uuid": "d61e9067-ceae-11f1-b270-0072eeef51b3"
+        },
+        "type": "Edge",
+        "uuid": "d61e9067-ceae-11f1-b270-0072eeef51b3",
+        "vertices": [
+            "d61d5f04-ceae-11f1-be42-0072eeef51b3",
+            "d61d5f03-ceae-11f1-bd31-0072eeef51b3"
+        ]
+    },
+    {
+        "apertures": [],
+        "dictionary": {
+            "toplevel": false,
+            "uuid": "d61ecb32-ceae-11f1-81e2-0072eeef51b3"
+        },
+        "type": "Edge",
+        "uuid": "d61ecb32-ceae-11f1-81e2-0072eeef51b3",
+        "vertices": [
+            "d61d860c-ceae-11f1-bfa8-0072eeef51b3",
+            "d61d5efd-ceae-11f1-9bc4-0072eeef51b3"
+        ]
+    },
+    {
+        "apertures": [],
+        "dictionary": {
+            "toplevel": false,
+            "uuid": "d61ecb2a-ceae-11f1-9eec-0072eeef51b3"
+        },
+        "type": "Edge",
+        "uuid": "d61ecb2a-ceae-11f1-9eec-0072eeef51b3",
+        "vertices": [
+            "d61d37c7-ceae-11f1-bd28-0072eeef51b3",
+            "d61d860c-ceae-11f1-bfa8-0072eeef51b3"
+        ]
+    },
+    {
+        "apertures": [],
+        "dictionary": {
+            "toplevel": false,
+            "uuid": "d61ecb2c-ceae-11f1-96d0-0072eeef51b3"
+        },
+        "type": "Edge",
+        "uuid": "d61ecb2c-ceae-11f1-96d0-0072eeef51b3",
+        "vertices": [
+            "d61d860d-ceae-11f1-a895-0072eeef51b3",
+            "d61d5efc-ceae-11f1-bc6f-0072eeef51b3"
+        ]
+    },
+    {
+        "apertures": [],
+        "dictionary": {
+            "toplevel": false,
+            "uuid": "d61ecb33-ceae-11f1-9470-0072eeef51b3"
+        },
+        "type": "Edge",
+        "uuid": "d61ecb33-ceae-11f1-9470-0072eeef51b3",
+        "vertices": [
+            "d61d5efe-ceae-11f1-b9aa-0072eeef51b3",
+            "d61d860d-ceae-11f1-a895-0072eeef51b3"
+        ]
+    },
+    {
+        "apertures": [],
+        "dictionary": {
+            "toplevel": false,
+            "uuid": "d61ecb2b-ceae-11f1-80cb-0072eeef51b3"
+        },
+        "type": "Edge",
+        "uuid": "d61ecb2b-ceae-11f1-80cb-0072eeef51b3",
+        "vertices": [
+            "d61d860d-ceae-11f1-a895-0072eeef51b3",
+            "d61d860c-ceae-11f1-bfa8-0072eeef51b3"
+        ]
+    },
+    {
+        "apertures": [],
+        "dictionary": {
+            "toplevel": false,
+            "uuid": "d61e906f-ceae-11f1-9416-0072eeef51b3"
+        },
+        "type": "Edge",
+        "uuid": "d61e906f-ceae-11f1-9416-0072eeef51b3",
+        "vertices": [
+            "d61d860a-ceae-11f1-8807-0072eeef51b3",
+            "d61d37c6-ceae-11f1-a7a9-0072eeef51b3"
+        ]
+    },
+    {
+        "apertures": [],
+        "dictionary": {
+            "toplevel": false,
+            "uuid": "d61ecb30-ceae-11f1-954f-0072eeef51b3"
+        },
+        "type": "Edge",
+        "uuid": "d61ecb30-ceae-11f1-954f-0072eeef51b3",
+        "vertices": [
+            "d61d860e-ceae-11f1-a33a-0072eeef51b3",
+            "d61d860a-ceae-11f1-8807-0072eeef51b3"
+        ]
+    },
+    {
+        "apertures": [],
+        "dictionary": {
+            "toplevel": false,
+            "uuid": "d61ecb2d-ceae-11f1-9082-0072eeef51b3"
+        },
+        "type": "Edge",
+        "uuid": "d61ecb2d-ceae-11f1-9082-0072eeef51b3",
+        "vertices": [
+            "d61d5efb-ceae-11f1-a681-0072eeef51b3",
+            "d61d860e-ceae-11f1-a33a-0072eeef51b3"
+        ]
+    },
+    {
+        "apertures": [],
+        "dictionary": {
+            "toplevel": false,
+            "uuid": "d61e9070-ceae-11f1-b3a4-0072eeef51b3"
+        },
+        "type": "Edge",
+        "uuid": "d61e9070-ceae-11f1-b3a4-0072eeef51b3",
+        "vertices": [
+            "d61d860a-ceae-11f1-8807-0072eeef51b3",
+            "d61d860b-ceae-11f1-bfbf-0072eeef51b3"
+        ]
+    },
+    {
+        "apertures": [],
+        "dictionary": {
+            "toplevel": false,
+            "uuid": "d61ecb29-ceae-11f1-902c-0072eeef51b3"
+        },
+        "type": "Edge",
+        "uuid": "d61ecb29-ceae-11f1-902c-0072eeef51b3",
+        "vertices": [
+            "d61d860b-ceae-11f1-bfbf-0072eeef51b3",
+            "d61d860c-ceae-11f1-bfa8-0072eeef51b3"
+        ]
+    },
+    {
+        "apertures": [],
+        "dictionary": {
+            "toplevel": false,
+            "uuid": "d61ecb2e-ceae-11f1-b758-0072eeef51b3"
+        },
+        "type": "Edge",
+        "uuid": "d61ecb2e-ceae-11f1-b758-0072eeef51b3",
+        "vertices": [
+            "d61d860f-ceae-11f1-b25f-0072eeef51b3",
+            "d61d860e-ceae-11f1-a33a-0072eeef51b3"
+        ]
+    },
+    {
+        "apertures": [],
+        "dictionary": {
+            "toplevel": false,
+            "uuid": "d61ecb2f-ceae-11f1-869e-0072eeef51b3"
+        },
+        "type": "Edge",
+        "uuid": "d61ecb2f-ceae-11f1-869e-0072eeef51b3",
+        "vertices": [
+            "d61d860d-ceae-11f1-a895-0072eeef51b3",
+            "d61d860f-ceae-11f1-b25f-0072eeef51b3"
+        ]
+    },
+    {
+        "apertures": [],
+        "dictionary": {
+            "toplevel": false,
+            "uuid": "d61ecb31-ceae-11f1-b956-0072eeef51b3"
+        },
+        "type": "Edge",
+        "uuid": "d61ecb31-ceae-11f1-b956-0072eeef51b3",
+        "vertices": [
+            "d61d860f-ceae-11f1-b25f-0072eeef51b3",
+            "d61d860b-ceae-11f1-bfbf-0072eeef51b3"
+        ]
+    },
+    {
+        "apertures": [],
+        "dictionary": {
+            "toplevel": false,
+            "uuid": "d61f0787-ceae-11f1-baa1-0072eeef51b3"
+        },
+        "type": "Edge",
+        "uuid": "d61f0787-ceae-11f1-baa1-0072eeef51b3",
+        "vertices": [
+            "d61d5efe-ceae-11f1-b9aa-0072eeef51b3",
+            "d61d8610-ceae-11f1-a31b-0072eeef51b3"
+        ]
+    },
+    {
+        "apertures": [],
+        "dictionary": {
+            "toplevel": false,
+            "uuid": "d61f0789-ceae-11f1-87dc-0072eeef51b3"
+        },
+        "type": "Edge",
+        "uuid": "d61f0789-ceae-11f1-87dc-0072eeef51b3",
+        "vertices": [
+            "d61d8610-ceae-11f1-a31b-0072eeef51b3",
+            "d61d5f01-ceae-11f1-a34d-0072eeef51b3"
+        ]
+    },
+    {
+        "apertures": [],
+        "dictionary": {
+            "toplevel": false,
+            "uuid": "d61f0788-ceae-11f1-b5f9-0072eeef51b3"
+        },
+        "type": "Edge",
+        "uuid": "d61f0788-ceae-11f1-b5f9-0072eeef51b3",
+        "vertices": [
+            "d61d8609-ceae-11f1-a906-0072eeef51b3",
+            "d61d8610-ceae-11f1-a31b-0072eeef51b3"
+        ]
+    },
+    {
+        "apertures": [],
+        "dictionary": {
+            "toplevel": false,
+            "uuid": "d61f078a-ceae-11f1-879c-0072eeef51b3"
+        },
+        "type": "Edge",
+        "uuid": "d61f078a-ceae-11f1-879c-0072eeef51b3",
+        "vertices": [
+            "d61d8611-ceae-11f1-ab39-0072eeef51b3",
+            "d61d860d-ceae-11f1-a895-0072eeef51b3"
+        ]
+    },
+    {
+        "apertures": [],
+        "dictionary": {
+            "toplevel": false,
+            "uuid": "d61f078b-ceae-11f1-9d2a-0072eeef51b3"
+        },
+        "type": "Edge",
+        "uuid": "d61f078b-ceae-11f1-9d2a-0072eeef51b3",
+        "vertices": [
+            "d61d5f05-ceae-11f1-b7ad-0072eeef51b3",
+            "d61d8611-ceae-11f1-ab39-0072eeef51b3"
+        ]
+    },
+    {
+        "apertures": [],
+        "dictionary": {
+            "toplevel": false,
+            "uuid": "d61f078c-ceae-11f1-8b39-0072eeef51b3"
+        },
+        "type": "Edge",
+        "uuid": "d61f078c-ceae-11f1-8b39-0072eeef51b3",
+        "vertices": [
+            "d61d8610-ceae-11f1-a31b-0072eeef51b3",
+            "d61d8611-ceae-11f1-ab39-0072eeef51b3"
+        ]
+    },
+    {
+        "apertures": [],
+        "dictionary": {
+            "toplevel": false,
+            "uuid": "604268d8-ceaf-11f1-a3f1-0072eeef51b3"
+        },
+        "edges": [
+            "d61d8612-ceae-11f1-9de2-0072eeef51b3",
+            "d61dad1d-ceae-11f1-8749-0072eeef51b3",
+            "d61dad1e-ceae-11f1-ba50-0072eeef51b3",
+            "d61dad1f-ceae-11f1-a7cd-0072eeef51b3"
+        ],
+        "type": "Wire",
+        "uuid": "604268d8-ceaf-11f1-a3f1-0072eeef51b3"
+    },
+    {
+        "apertures": [],
+        "dictionary": {
+            "toplevel": false,
+            "uuid": "60428ff0-ceaf-11f1-9d8a-0072eeef51b3"
+        },
+        "edges": [
+            "d61dad22-ceae-11f1-a245-0072eeef51b3",
+            "d61dad21-ceae-11f1-84e6-0072eeef51b3",
+            "d61dad20-ceae-11f1-abca-0072eeef51b3",
+            "d61d8612-ceae-11f1-9de2-0072eeef51b3"
+        ],
+        "type": "Wire",
+        "uuid": "60428ff0-ceaf-11f1-9d8a-0072eeef51b3"
+    },
+    {
+        "apertures": [],
+        "dictionary": {
+            "toplevel": false,
+            "uuid": "60428ff1-ceaf-11f1-aba9-0072eeef51b3"
+        },
+        "edges": [
+            "d61dd42c-ceae-11f1-ac89-0072eeef51b3",
+            "d61dad23-ceae-11f1-87ae-0072eeef51b3",
+            "d61dad1d-ceae-11f1-8749-0072eeef51b3",
+            "d61dad20-ceae-11f1-abca-0072eeef51b3"
+        ],
+        "type": "Wire",
+        "uuid": "60428ff1-ceaf-11f1-aba9-0072eeef51b3"
+    },
+    {
+        "apertures": [],
+        "dictionary": {
+            "toplevel": false,
+            "uuid": "60428ff2-ceaf-11f1-bc64-0072eeef51b3"
+        },
+        "edges": [
+            "d61dd42e-ceae-11f1-b97a-0072eeef51b3",
+            "d61dd42d-ceae-11f1-9d97-0072eeef51b3",
+            "d61dad1e-ceae-11f1-ba50-0072eeef51b3",
+            "d61dad23-ceae-11f1-87ae-0072eeef51b3"
+        ],
+        "type": "Wire",
+        "uuid": "60428ff2-ceaf-11f1-bc64-0072eeef51b3"
+    },
+    {
+        "apertures": [],
+        "dictionary": {
+            "toplevel": false,
+            "uuid": "6042cab0-ceaf-11f1-9151-0072eeef51b3"
+        },
+        "edges": [
+            "d61dd42f-ceae-11f1-8b3c-0072eeef51b3",
+            "d61dad22-ceae-11f1-a245-0072eeef51b3",
+            "d61dad1f-ceae-11f1-a7cd-0072eeef51b3",
+            "d61dd42d-ceae-11f1-9d97-0072eeef51b3"
+        ],
+        "type": "Wire",
+        "uuid": "6042cab0-ceaf-11f1-9151-0072eeef51b3"
+    },
+    {
+        "apertures": [],
+        "dictionary": {
+            "toplevel": false,
+            "uuid": "6042d693-ceaf-11f1-a458-0072eeef51b3"
+        },
+        "edges": [
+            "d61dd42e-ceae-11f1-b97a-0072eeef51b3",
+            "d61dd42c-ceae-11f1-ac89-0072eeef51b3",
+            "d61dad21-ceae-11f1-84e6-0072eeef51b3",
+            "d61dd42f-ceae-11f1-8b3c-0072eeef51b3"
+        ],
+        "type": "Wire",
+        "uuid": "6042d693-ceaf-11f1-a458-0072eeef51b3"
+    },
+    {
+        "apertures": [],
+        "dictionary": {
+            "toplevel": false,
+            "uuid": "6042d694-ceaf-11f1-8a95-0072eeef51b3"
+        },
+        "edges": [
+            "d61dad22-ceae-11f1-a245-0072eeef51b3",
+            "d61e1ad6-ceae-11f1-9727-0072eeef51b3",
+            "d61e1ad7-ceae-11f1-a450-0072eeef51b3",
+            "d61dfb39-ceae-11f1-b9bc-0072eeef51b3"
+        ],
+        "type": "Wire",
+        "uuid": "6042d694-ceaf-11f1-8a95-0072eeef51b3"
+    },
+    {
+        "apertures": [],
+        "dictionary": {
+            "toplevel": false,
+            "uuid": "6042d695-ceaf-11f1-bfc2-0072eeef51b3"
+        },
+        "edges": [
+            "d61e1ad6-ceae-11f1-9727-0072eeef51b3",
+            "d61dad21-ceae-11f1-84e6-0072eeef51b3",
+            "d61dfb3b-ceae-11f1-9fad-0072eeef51b3",
+            "d61e0ee2-ceae-11f1-bb09-0072eeef51b3",
+            "d61e0ee1-ceae-11f1-a60d-0072eeef51b3",
+            "d61dfb3c-ceae-11f1-a698-0072eeef51b3"
+        ],
+        "type": "Wire",
+        "uuid": "6042d695-ceaf-11f1-bfc2-0072eeef51b3"
+    },
+    {
+        "apertures": [],
+        "dictionary": {
+            "toplevel": false,
+            "uuid": "6042fdc8-ceaf-11f1-bacd-0072eeef51b3"
+        },
+        "edges": [
+            "d61dfb3a-ceae-11f1-9a25-0072eeef51b3",
+            "d61dfb3b-ceae-11f1-9fad-0072eeef51b3",
+            "d61dad20-ceae-11f1-abca-0072eeef51b3",
+            "d61dd433-ceae-11f1-85c8-0072eeef51b3"
+        ],
+        "type": "Wire",
+        "uuid": "6042fdc8-ceaf-11f1-bacd-0072eeef51b3"
+    },
+    {
+        "apertures": [],
+        "dictionary": {
+            "toplevel": false,
+            "uuid": "6042fdc9-ceaf-11f1-b9bc-0072eeef51b3"
+        },
+        "edges": [
+            "d61dd430-ceae-11f1-a456-0072eeef51b3",
+            "d61dd431-ceae-11f1-b3e8-0072eeef51b3",
+            "d61dd432-ceae-11f1-a6df-0072eeef51b3",
+            "d61dd433-ceae-11f1-85c8-0072eeef51b3",
+            "d61d8612-ceae-11f1-9de2-0072eeef51b3",
+            "d61dfb39-ceae-11f1-b9bc-0072eeef51b3"
+        ],
+        "type": "Wire",
+        "uuid": "6042fdc9-ceaf-11f1-b9bc-0072eeef51b3"
+    },
+    {
+        "apertures": [],
+        "dictionary": {
+            "toplevel": false,
+            "uuid": "60432504-ceaf-11f1-97fa-0072eeef51b3"
+        },
+        "edges": [
+            "d61dfb3c-ceae-11f1-a698-0072eeef51b3",
+            "d61e1ad8-ceae-11f1-90c3-0072eeef51b3",
+            "d61dd430-ceae-11f1-a456-0072eeef51b3",
+            "d61e1ad7-ceae-11f1-a450-0072eeef51b3"
+        ],
+        "type": "Wire",
+        "uuid": "60432504-ceaf-11f1-97fa-0072eeef51b3"
+    },
+    {
+        "apertures": [],
+        "dictionary": {
+            "toplevel": false,
+            "uuid": "60432505-ceaf-11f1-89bc-0072eeef51b3"
+        },
+        "edges": [
+            "d61e1ad9-ceae-11f1-b1d8-0072eeef51b3",
+            "d61e0ee2-ceae-11f1-bb09-0072eeef51b3",
+            "d61dfb3a-ceae-11f1-9a25-0072eeef51b3",
+            "d61dd432-ceae-11f1-a6df-0072eeef51b3"
+        ],
+        "type": "Wire",
+        "uuid": "60432505-ceaf-11f1-89bc-0072eeef51b3"
+    },
+    {
+        "apertures": [],
+        "dictionary": {
+            "toplevel": false,
+            "uuid": "60434c25-ceaf-11f1-9d8c-0072eeef51b3"
+        },
+        "edges": [
+            "d61e0ee1-ceae-11f1-a60d-0072eeef51b3",
+            "d61e1ad9-ceae-11f1-b1d8-0072eeef51b3",
+            "d61dd431-ceae-11f1-b3e8-0072eeef51b3",
+            "d61e1ad8-ceae-11f1-90c3-0072eeef51b3"
+        ],
+        "type": "Wire",
+        "uuid": "60434c25-ceaf-11f1-9d8c-0072eeef51b3"
+    },
+    {
+        "apertures": [],
+        "dictionary": {
+            "toplevel": false,
+            "uuid": "60437333-ceaf-11f1-b092-0072eeef51b3"
+        },
+        "edges": [
+            "d61e1ada-ceae-11f1-936d-0072eeef51b3",
+            "d61e1adb-ceae-11f1-bce2-0072eeef51b3",
+            "d61dad1d-ceae-11f1-8749-0072eeef51b3",
+            "d61dd433-ceae-11f1-85c8-0072eeef51b3"
+        ],
+        "type": "Wire",
+        "uuid": "60437333-ceaf-11f1-b092-0072eeef51b3"
+    },
+    {
+        "apertures": [],
+        "dictionary": {
+            "toplevel": false,
+            "uuid": "60437334-ceaf-11f1-996b-0072eeef51b3"
+        },
+        "edges": [
+            "d61e1add-ceae-11f1-a5e3-0072eeef51b3",
+            "d61e1adc-ceae-11f1-8a6d-0072eeef51b3",
+            "d61dad23-ceae-11f1-87ae-0072eeef51b3",
+            "d61e1adb-ceae-11f1-bce2-0072eeef51b3"
+        ],
+        "type": "Wire",
+        "uuid": "60437334-ceaf-11f1-996b-0072eeef51b3"
+    },
+    {
+        "apertures": [],
+        "dictionary": {
+            "toplevel": false,
+            "uuid": "60439a3a-ceaf-11f1-b4f5-0072eeef51b3"
+        },
+        "edges": [
+            "d61dd42c-ceae-11f1-ac89-0072eeef51b3",
+            "d61e1adc-ceae-11f1-8a6d-0072eeef51b3",
+            "d61e4204-ceae-11f1-8afc-0072eeef51b3",
+            "d61dfb3b-ceae-11f1-9fad-0072eeef51b3"
+        ],
+        "type": "Wire",
+        "uuid": "60439a3a-ceaf-11f1-b4f5-0072eeef51b3"
+    },
+    {
+        "apertures": [],
+        "dictionary": {
+            "toplevel": false,
+            "uuid": "60439a3b-ceaf-11f1-b053-0072eeef51b3"
+        },
+        "edges": [
+            "d61dfb3a-ceae-11f1-9a25-0072eeef51b3",
+            "d61e4204-ceae-11f1-8afc-0072eeef51b3",
+            "d61e1add-ceae-11f1-a5e3-0072eeef51b3",
+            "d61e1ada-ceae-11f1-936d-0072eeef51b3"
+        ],
+        "type": "Wire",
+        "uuid": "60439a3b-ceaf-11f1-b053-0072eeef51b3"
+    },
+    {
+        "apertures": [],
+        "dictionary": {
+            "toplevel": false,
+            "uuid": "60439a3c-ceaf-11f1-b123-0072eeef51b3"
+        },
+        "edges": [
+            "d61e6942-ceae-11f1-9e0a-0072eeef51b3",
+            "d61e4207-ceae-11f1-b2e0-0072eeef51b3",
+            "d61dd42f-ceae-11f1-8b3c-0072eeef51b3",
+            "d61e420a-ceae-11f1-a557-0072eeef51b3"
+        ],
+        "type": "Wire",
+        "uuid": "60439a3c-ceaf-11f1-b123-0072eeef51b3"
+    },
+    {
+        "apertures": [],
+        "dictionary": {
+            "toplevel": false,
+            "uuid": "6043c145-ceaf-11f1-9d2e-0072eeef51b3"
+        },
+        "edges": [
+            "d61e4207-ceae-11f1-b2e0-0072eeef51b3",
+            "d61e4206-ceae-11f1-9db3-0072eeef51b3",
+            "d61e4205-ceae-11f1-a513-0072eeef51b3",
+            "d61dad21-ceae-11f1-84e6-0072eeef51b3"
+        ],
+        "type": "Wire",
+        "uuid": "6043c145-ceaf-11f1-9d2e-0072eeef51b3"
+    },
+    {
+        "apertures": [],
+        "dictionary": {
+            "toplevel": false,
+            "uuid": "6043e861-ceaf-11f1-89b3-0072eeef51b3"
+        },
+        "edges": [
+            "d61e4209-ceae-11f1-94bb-0072eeef51b3",
+            "d61e4208-ceae-11f1-80a3-0072eeef51b3",
+            "d61dd42c-ceae-11f1-ac89-0072eeef51b3",
+            "d61e4205-ceae-11f1-a513-0072eeef51b3"
+        ],
+        "type": "Wire",
+        "uuid": "6043e861-ceaf-11f1-89b3-0072eeef51b3"
+    },
+    {
+        "apertures": [],
+        "dictionary": {
+            "toplevel": false,
+            "uuid": "6043e862-ceaf-11f1-b423-0072eeef51b3"
+        },
+        "edges": [
+            "d61e6941-ceae-11f1-9216-0072eeef51b3",
+            "d61e420a-ceae-11f1-a557-0072eeef51b3",
+            "d61dd42e-ceae-11f1-b97a-0072eeef51b3",
+            "d61e4208-ceae-11f1-80a3-0072eeef51b3"
+        ],
+        "type": "Wire",
+        "uuid": "6043e862-ceaf-11f1-b423-0072eeef51b3"
+    },
+    {
+        "apertures": [],
+        "dictionary": {
+            "toplevel": false,
+            "uuid": "60442276-ceaf-11f1-9a83-0072eeef51b3"
+        },
+        "edges": [
+            "d61e6941-ceae-11f1-9216-0072eeef51b3",
+            "d61e4209-ceae-11f1-94bb-0072eeef51b3",
+            "d61e4206-ceae-11f1-9db3-0072eeef51b3",
+            "d61e6942-ceae-11f1-9e0a-0072eeef51b3"
+        ],
+        "type": "Wire",
+        "uuid": "60442276-ceaf-11f1-9a83-0072eeef51b3"
+    },
+    {
+        "apertures": [],
+        "dictionary": {
+            "toplevel": false,
+            "uuid": "604441e5-ceaf-11f1-b6c0-0072eeef51b3"
+        },
+        "edges": [
+            "d61e4207-ceae-11f1-b2e0-0072eeef51b3",
+            "d61e906e-ceae-11f1-86af-0072eeef51b3",
+            "d61e9068-ceae-11f1-a693-0072eeef51b3",
+            "d61e1ad6-ceae-11f1-9727-0072eeef51b3"
+        ],
+        "type": "Wire",
+        "uuid": "604441e5-ceaf-11f1-b6c0-0072eeef51b3"
+    },
+    {
+        "apertures": [],
+        "dictionary": {
+            "toplevel": false,
+            "uuid": "604455b9-ceaf-11f1-b7ac-0072eeef51b3"
+        },
+        "edges": [
+            "d61e906c-ceae-11f1-b25c-0072eeef51b3",
+            "d61e906d-ceae-11f1-8014-0072eeef51b3",
+            "d61e4205-ceae-11f1-a513-0072eeef51b3",
+            "d61dfb3b-ceae-11f1-9fad-0072eeef51b3"
+        ],
+        "type": "Wire",
+        "uuid": "604455b9-ceaf-11f1-b7ac-0072eeef51b3"
+    },
+    {
+        "apertures": [],
+        "dictionary": {
+            "toplevel": false,
+            "uuid": "604455ba-ceaf-11f1-95d8-0072eeef51b3"
+        },
+        "edges": [
+            "d61e0ee2-ceae-11f1-bb09-0072eeef51b3",
+            "d61e9069-ceae-11f1-868d-0072eeef51b3",
+            "d61e906b-ceae-11f1-a50f-0072eeef51b3",
+            "d61e906c-ceae-11f1-b25c-0072eeef51b3"
+        ],
+        "type": "Wire",
+        "uuid": "604455ba-ceaf-11f1-95d8-0072eeef51b3"
+    },
+    {
+        "apertures": [],
+        "dictionary": {
+            "toplevel": false,
+            "uuid": "604455bb-ceaf-11f1-a94e-0072eeef51b3"
+        },
+        "edges": [
+            "d61e906a-ceae-11f1-95f1-0072eeef51b3",
+            "d61e9069-ceae-11f1-868d-0072eeef51b3",
+            "d61e0ee1-ceae-11f1-a60d-0072eeef51b3",
+            "d61e9066-ceae-11f1-ad7b-0072eeef51b3"
+        ],
+        "type": "Wire",
+        "uuid": "604455bb-ceaf-11f1-a94e-0072eeef51b3"
+    },
+    {
+        "apertures": [],
+        "dictionary": {
+            "toplevel": false,
+            "uuid": "60449383-ceaf-11f1-91d1-0072eeef51b3"
+        },
+        "edges": [
+            "d61e9068-ceae-11f1-a693-0072eeef51b3",
+            "d61e9067-ceae-11f1-b270-0072eeef51b3",
+            "d61e9066-ceae-11f1-ad7b-0072eeef51b3",
+            "d61dfb3c-ceae-11f1-a698-0072eeef51b3"
+        ],
+        "type": "Wire",
+        "uuid": "60449383-ceaf-11f1-91d1-0072eeef51b3"
+    },
+    {
+        "apertures": [],
+        "dictionary": {
+            "toplevel": false,
+            "uuid": "60449384-ceaf-11f1-8aab-0072eeef51b3"
+        },
+        "edges": [
+            "d61e4206-ceae-11f1-9db3-0072eeef51b3",
+            "d61e906d-ceae-11f1-8014-0072eeef51b3",
+            "d61e906b-ceae-11f1-a50f-0072eeef51b3",
+            "d61e906a-ceae-11f1-95f1-0072eeef51b3",
+            "d61e9067-ceae-11f1-b270-0072eeef51b3",
+            "d61e906e-ceae-11f1-86af-0072eeef51b3"
+        ],
+        "type": "Wire",
+        "uuid": "60449384-ceaf-11f1-8aab-0072eeef51b3"
+    },
+    {
+        "apertures": [],
+        "dictionary": {
+            "toplevel": false,
+            "uuid": "6044baf1-ceaf-11f1-9273-0072eeef51b3"
+        },
+        "edges": [
+            "d61ecb2a-ceae-11f1-9eec-0072eeef51b3",
+            "d61ecb32-ceae-11f1-81e2-0072eeef51b3",
+            "d61e1ada-ceae-11f1-936d-0072eeef51b3",
+            "d61dd432-ceae-11f1-a6df-0072eeef51b3"
+        ],
+        "type": "Wire",
+        "uuid": "6044baf1-ceaf-11f1-9273-0072eeef51b3"
+    },
+    {
+        "apertures": [],
+        "dictionary": {
+            "toplevel": false,
+            "uuid": "6044baf2-ceaf-11f1-a40c-0072eeef51b3"
+        },
+        "edges": [
+            "d61ecb33-ceae-11f1-9470-0072eeef51b3",
+            "d61ecb2c-ceae-11f1-96d0-0072eeef51b3",
+            "d61e0ee2-ceae-11f1-bb09-0072eeef51b3",
+            "d61e4204-ceae-11f1-8afc-0072eeef51b3"
+        ],
+        "type": "Wire",
+        "uuid": "6044baf2-ceaf-11f1-a40c-0072eeef51b3"
+    },
+    {
+        "apertures": [],
+        "dictionary": {
+            "toplevel": false,
+            "uuid": "6044e1f8-ceaf-11f1-8140-0072eeef51b3"
+        },
+        "edges": [
+            "d61ecb2a-ceae-11f1-9eec-0072eeef51b3",
+            "d61e1ad9-ceae-11f1-b1d8-0072eeef51b3",
+            "d61ecb2c-ceae-11f1-96d0-0072eeef51b3",
+            "d61ecb2b-ceae-11f1-80cb-0072eeef51b3"
+        ],
+        "type": "Wire",
+        "uuid": "6044e1f8-ceaf-11f1-8140-0072eeef51b3"
+    },
+    {
+        "apertures": [],
+        "dictionary": {
+            "toplevel": false,
+            "uuid": "6044e1f9-ceaf-11f1-82c3-0072eeef51b3"
+        },
+        "edges": [
+            "d61ecb2b-ceae-11f1-80cb-0072eeef51b3",
+            "d61ecb33-ceae-11f1-9470-0072eeef51b3",
+            "d61e1add-ceae-11f1-a5e3-0072eeef51b3",
+            "d61ecb32-ceae-11f1-81e2-0072eeef51b3"
+        ],
+        "type": "Wire",
+        "uuid": "6044e1f9-ceaf-11f1-82c3-0072eeef51b3"
+    },
+    {
+        "apertures": [],
+        "dictionary": {
+            "toplevel": false,
+            "uuid": "6044e1fa-ceaf-11f1-81ec-0072eeef51b3"
+        },
+        "edges": [
+            "d61ecb2d-ceae-11f1-9082-0072eeef51b3",
+            "d61ecb30-ceae-11f1-954f-0072eeef51b3",
+            "d61e906f-ceae-11f1-9416-0072eeef51b3",
+            "d61e1ad8-ceae-11f1-90c3-0072eeef51b3"
+        ],
+        "type": "Wire",
+        "uuid": "6044e1fa-ceaf-11f1-81ec-0072eeef51b3"
+    },
+    {
+        "apertures": [],
+        "dictionary": {
+            "toplevel": false,
+            "uuid": "60450906-ceaf-11f1-be87-0072eeef51b3"
+        },
+        "edges": [
+            "d61e906f-ceae-11f1-9416-0072eeef51b3",
+            "d61e9070-ceae-11f1-b3a4-0072eeef51b3",
+            "d61ecb29-ceae-11f1-902c-0072eeef51b3",
+            "d61ecb2a-ceae-11f1-9eec-0072eeef51b3",
+            "d61dd431-ceae-11f1-b3e8-0072eeef51b3"
+        ],
+        "type": "Wire",
+        "uuid": "60450906-ceaf-11f1-be87-0072eeef51b3"
+    },
+    {
+        "apertures": [],
+        "dictionary": {
+            "toplevel": false,
+            "uuid": "60450907-ceaf-11f1-8844-0072eeef51b3"
+        },
+        "edges": [
+            "d61ecb2c-ceae-11f1-96d0-0072eeef51b3",
+            "d61ecb2f-ceae-11f1-869e-0072eeef51b3",
+            "d61ecb2e-ceae-11f1-b758-0072eeef51b3",
+            "d61ecb2d-ceae-11f1-9082-0072eeef51b3",
+            "d61e0ee1-ceae-11f1-a60d-0072eeef51b3"
+        ],
+        "type": "Wire",
+        "uuid": "60450907-ceaf-11f1-8844-0072eeef51b3"
+    },
+    {
+        "apertures": [],
+        "dictionary": {
+            "toplevel": false,
+            "uuid": "6045301a-ceaf-11f1-a6fa-0072eeef51b3"
+        },
+        "edges": [
+            "d61ecb2e-ceae-11f1-b758-0072eeef51b3",
+            "d61ecb31-ceae-11f1-b956-0072eeef51b3",
+            "d61e9070-ceae-11f1-b3a4-0072eeef51b3",
+            "d61ecb30-ceae-11f1-954f-0072eeef51b3"
+        ],
+        "type": "Wire",
+        "uuid": "6045301a-ceaf-11f1-a6fa-0072eeef51b3"
+    },
+    {
+        "apertures": [],
+        "dictionary": {
+            "toplevel": false,
+            "uuid": "6045301b-ceaf-11f1-8719-0072eeef51b3"
+        },
+        "edges": [
+            "d61ecb2f-ceae-11f1-869e-0072eeef51b3",
+            "d61ecb2b-ceae-11f1-80cb-0072eeef51b3",
+            "d61ecb29-ceae-11f1-902c-0072eeef51b3",
+            "d61ecb31-ceae-11f1-b956-0072eeef51b3"
+        ],
+        "type": "Wire",
+        "uuid": "6045301b-ceaf-11f1-8719-0072eeef51b3"
+    },
+    {
+        "apertures": [],
+        "dictionary": {
+            "toplevel": false,
+            "uuid": "6045301c-ceaf-11f1-8916-0072eeef51b3"
+        },
+        "edges": [
+            "d61f0789-ceae-11f1-87dc-0072eeef51b3",
+            "d61e4208-ceae-11f1-80a3-0072eeef51b3",
+            "d61e1adc-ceae-11f1-8a6d-0072eeef51b3",
+            "d61f0787-ceae-11f1-baa1-0072eeef51b3"
+        ],
+        "type": "Wire",
+        "uuid": "6045301c-ceaf-11f1-8916-0072eeef51b3"
+    },
+    {
+        "apertures": [],
+        "dictionary": {
+            "toplevel": false,
+            "uuid": "60456434-ceaf-11f1-9dd1-0072eeef51b3"
+        },
+        "edges": [
+            "d61f0788-ceae-11f1-b5f9-0072eeef51b3",
+            "d61f0787-ceae-11f1-baa1-0072eeef51b3",
+            "d61e4204-ceae-11f1-8afc-0072eeef51b3",
+            "d61e906c-ceae-11f1-b25c-0072eeef51b3"
+        ],
+        "type": "Wire",
+        "uuid": "60456434-ceaf-11f1-9dd1-0072eeef51b3"
+    },
+    {
+        "apertures": [],
+        "dictionary": {
+            "toplevel": false,
+            "uuid": "60456435-ceaf-11f1-a1d9-0072eeef51b3"
+        },
+        "edges": [
+            "d61e4209-ceae-11f1-94bb-0072eeef51b3",
+            "d61f0789-ceae-11f1-87dc-0072eeef51b3",
+            "d61f0788-ceae-11f1-b5f9-0072eeef51b3",
+            "d61e906d-ceae-11f1-8014-0072eeef51b3"
+        ],
+        "type": "Wire",
+        "uuid": "60456435-ceaf-11f1-a1d9-0072eeef51b3"
+    },
+    {
+        "apertures": [],
+        "dictionary": {
+            "toplevel": false,
+            "uuid": "604591ff-ceaf-11f1-9816-0072eeef51b3"
+        },
+        "edges": [
+            "d61f078b-ceae-11f1-9d2a-0072eeef51b3",
+            "d61f078a-ceae-11f1-879c-0072eeef51b3",
+            "d61ecb2c-ceae-11f1-96d0-0072eeef51b3",
+            "d61e9069-ceae-11f1-868d-0072eeef51b3"
+        ],
+        "type": "Wire",
+        "uuid": "604591ff-ceaf-11f1-9816-0072eeef51b3"
+    },
+    {
+        "apertures": [],
+        "dictionary": {
+            "toplevel": false,
+            "uuid": "60459200-ceaf-11f1-9873-0072eeef51b3"
+        },
+        "edges": [
+            "d61f0788-ceae-11f1-b5f9-0072eeef51b3",
+            "d61f078c-ceae-11f1-8b39-0072eeef51b3",
+            "d61f078b-ceae-11f1-9d2a-0072eeef51b3",
+            "d61e906b-ceae-11f1-a50f-0072eeef51b3"
+        ],
+        "type": "Wire",
+        "uuid": "60459200-ceaf-11f1-9873-0072eeef51b3"
+    },
+    {
+        "apertures": [],
+        "dictionary": {
+            "toplevel": false,
+            "uuid": "6045cc79-ceaf-11f1-bef7-0072eeef51b3"
+        },
+        "edges": [
+            "d61f078c-ceae-11f1-8b39-0072eeef51b3",
+            "d61f0787-ceae-11f1-baa1-0072eeef51b3",
+            "d61ecb33-ceae-11f1-9470-0072eeef51b3",
+            "d61f078a-ceae-11f1-879c-0072eeef51b3"
+        ],
+        "type": "Wire",
+        "uuid": "6045cc79-ceaf-11f1-bef7-0072eeef51b3"
+    },
+    {
+        "apertures": [],
+        "dictionary": {
+            "UID": "botHorFace0",
+            "pr_Area": 30.0,
+            "pr_AreaPerOccupantPeak": 1.8,
+            "pr_CirculationType": "NoCirculation",
+            "pr_IsCooled": 0,
+            "pr_IsHeated": 1,
+            "pr_IsMechanicallyVentilated": 1,
+            "pr_IsNaturallyVentilated": 1,
+            "pr_IsOccupied": 1,
+            "pr_OccupancyType": "Education:Classroom",
+            "pr_TopologicalType": "botHor",
+            "rl_HasLocation_tpBB": "BlockA",
+            "rl_HasLocation_tpBS": "BuildingStorey_0cm",
+            "rl_HasLocation_tpSP": "Cell0",
+            "rl_HasLocation_tpZN": "Zone6_BS0",
+            "toplevel": false,
+            "uuid": "6045cc7a-ceaf-11f1-905d-0072eeef51b3"
+        },
+        "type": "Face",
+        "uuid": "6045cc7a-ceaf-11f1-905d-0072eeef51b3",
+        "wires": [
+            "604268d8-ceaf-11f1-a3f1-0072eeef51b3"
+        ]
+    },
+    {
+        "apertures": [],
+        "dictionary": {
+            "UID": "intVerFace0",
+            "pr_Area": 15.0,
+            "pr_AreaPerOccupantPeak": "0.0-1.8",
+            "pr_CirculationType": "NoCirculation-PublicCirculation",
+            "pr_FaceExposure": "N",
+            "pr_IsCooled": "0-0",
+            "pr_IsHeated": "1-1",
+            "pr_IsMechanicallyVentilated": "0-1",
+            "pr_IsNaturallyVentilated": "1-1",
+            "pr_IsOccupied": "1-1",
+            "pr_OccupancyType": "Circulation:Corridor-Education:Classroom",
+            "pr_TopologicalType": "intVer",
+            "rl_HasLocation_tpBB": "BlockA",
+            "rl_HasLocation_tpBS": "BuildingStorey_0cm",
+            "rl_HasLocation_tpSP": "Cell0-Cell1",
+            "rl_HasLocation_tpZN": "Zone4_BS0-Zone6_BS0",
+            "toplevel": false,
+            "uuid": "604655d4-ceaf-11f1-bf60-0072eeef51b3"
+        },
+        "type": "Face",
+        "uuid": "604655d4-ceaf-11f1-bf60-0072eeef51b3",
+        "wires": [
+            "60428ff0-ceaf-11f1-9d8a-0072eeef51b3"
+        ]
+    },
+    {
+        "apertures": [],
+        "dictionary": {
+            "UID": "intVerFace1",
+            "pr_Area": 18.0,
+            "pr_AreaPerOccupantPeak": "1.8-1.8",
+            "pr_CirculationType": "NoCirculation-NoCirculation",
+            "pr_FaceExposure": "E",
+            "pr_IsCooled": "0-0",
+            "pr_IsHeated": "1-1",
+            "pr_IsMechanicallyVentilated": "1-1",
+            "pr_IsNaturallyVentilated": "1-1",
+            "pr_IsOccupied": "1-1",
+            "pr_OccupancyType": "Education:Classroom-Education:Classroom",
+            "pr_TopologicalType": "intVer",
+            "rl_HasLocation_tpBB": "BlockA",
+            "rl_HasLocation_tpBS": "BuildingStorey_0cm",
+            "rl_HasLocation_tpSP": "Cell0-Cell2",
+            "rl_HasLocation_tpZN": "Zone6_BS0-Zone7_BS0",
+            "toplevel": false,
+            "uuid": "6046f301-ceaf-11f1-a371-0072eeef51b3"
+        },
+        "type": "Face",
+        "uuid": "6046f301-ceaf-11f1-a371-0072eeef51b3",
+        "wires": [
+            "60428ff1-ceaf-11f1-aba9-0072eeef51b3"
+        ]
+    },
+    {
+        "apertures": [],
+        "dictionary": {
+            "UID": "extVerFace0",
+            "pr_Area": 15.0,
+            "pr_AreaPerOccupantPeak": 1.8,
+            "pr_CirculationType": "NoCirculation",
+            "pr_FaceExposure": "S",
+            "pr_IsCooled": 0,
+            "pr_IsHeated": 1,
+            "pr_IsMechanicallyVentilated": 1,
+            "pr_IsNaturallyVentilated": 1,
+            "pr_IsOccupied": 1,
+            "pr_OccupancyType": "Education:Classroom",
+            "pr_TopologicalType": "extVer",
+            "rl_HasLocation_tpBB": "BlockA",
+            "rl_HasLocation_tpBS": "BuildingStorey_0cm",
+            "rl_HasLocation_tpSP": "Cell0",
+            "rl_HasLocation_tpZN": "Zone6_BS0",
+            "toplevel": false,
+            "uuid": "6047576b-ceaf-11f1-8f42-0072eeef51b3"
+        },
+        "type": "Face",
+        "uuid": "6047576b-ceaf-11f1-8f42-0072eeef51b3",
+        "wires": [
+            "60428ff2-ceaf-11f1-bc64-0072eeef51b3"
+        ]
+    },
+    {
+        "apertures": [],
+        "dictionary": {
+            "UID": "extVerFace1",
+            "pr_Area": 18.0,
+            "pr_AreaPerOccupantPeak": 1.8,
+            "pr_CirculationType": "NoCirculation",
+            "pr_FaceExposure": "W",
+            "pr_IsCooled": 0,
+            "pr_IsHeated": 1,
+            "pr_IsMechanicallyVentilated": 1,
+            "pr_IsNaturallyVentilated": 1,
+            "pr_IsOccupied": 1,
+            "pr_OccupancyType": "Education:Classroom",
+            "pr_TopologicalType": "extVer",
+            "rl_HasLocation_tpBB": "BlockA",
+            "rl_HasLocation_tpBS": "BuildingStorey_0cm",
+            "rl_HasLocation_tpSP": "Cell0",
+            "rl_HasLocation_tpZN": "Zone6_BS0",
+            "toplevel": false,
+            "uuid": "6047d329-ceaf-11f1-ac2e-0072eeef51b3"
+        },
+        "type": "Face",
+        "uuid": "6047d329-ceaf-11f1-ac2e-0072eeef51b3",
+        "wires": [
+            "6042cab0-ceaf-11f1-9151-0072eeef51b3"
+        ]
+    },
+    {
+        "apertures": [],
+        "dictionary": {
+            "UID": "intHorFace0",
+            "pr_Area": 30.0,
+            "pr_AreaPerOccupantPeak": "1.8-10.0",
+            "pr_CirculationType": "NoCirculation-NoCirculation",
+            "pr_IsCooled": "0-1",
+            "pr_IsHeated": "1-1",
+            "pr_IsMechanicallyVentilated": "1-1",
+            "pr_IsNaturallyVentilated": "1-1",
+            "pr_IsOccupied": "1-1",
+            "pr_OccupancyType": "Education:Classroom-Office:Office",
+            "pr_TopologicalType": "intHor",
+            "rl_HasLocation_tpBB": "BlockA",
+            "rl_HasLocation_tpBS": "BuildingStorey_0cm-BuildingStorey_300cm",
+            "rl_HasLocation_tpSP": "Cell0-Cell3",
+            "rl_HasLocation_tpZN": "Zone0_BS300-Zone6_BS0",
+            "toplevel": false,
+            "uuid": "60482ca3-ceaf-11f1-ac7c-0072eeef51b3"
+        },
+        "type": "Face",
+        "uuid": "60482ca3-ceaf-11f1-ac7c-0072eeef51b3",
+        "wires": [
+            "6042d693-ceaf-11f1-a458-0072eeef51b3"
+        ]
+    },
+    {
+        "apertures": [],
+        "dictionary": {
+            "UID": "extVerFace2",
+            "pr_Area": 6.0,
+            "pr_AreaPerOccupantPeak": 0.0,
+            "pr_CirculationType": "PublicCirculation",
+            "pr_FaceExposure": "W",
+            "pr_IsCooled": 0,
+            "pr_IsHeated": 1,
+            "pr_IsMechanicallyVentilated": 0,
+            "pr_IsNaturallyVentilated": 1,
+            "pr_IsOccupied": 1,
+            "pr_OccupancyType": "Circulation:Corridor",
+            "pr_TopologicalType": "extVer",
+            "rl_HasLocation_tpBB": "BlockA",
+            "rl_HasLocation_tpBS": "BuildingStorey_0cm",
+            "rl_HasLocation_tpSP": "Cell1",
+            "rl_HasLocation_tpZN": "Zone4_BS0",
+            "toplevel": false,
+            "uuid": "6048a246-ceaf-11f1-a8c2-0072eeef51b3"
+        },
+        "type": "Face",
+        "uuid": "6048a246-ceaf-11f1-a8c2-0072eeef51b3",
+        "wires": [
+            "6042d694-ceaf-11f1-8a95-0072eeef51b3"
+        ]
+    },
+    {
+        "apertures": [],
+        "dictionary": {
+            "UID": "intHorFace1",
+            "pr_Area": 30.0,
+            "pr_AreaPerOccupantPeak": "0.0-0.0",
+            "pr_CirculationType": "PublicCirculation-PublicCirculation",
+            "pr_IsCooled": "0-0",
+            "pr_IsHeated": "1-1",
+            "pr_IsMechanicallyVentilated": "0-0",
+            "pr_IsNaturallyVentilated": "1-1",
+            "pr_IsOccupied": "1-1",
+            "pr_OccupancyType": "Circulation:Corridor-Circulation:Corridor",
+            "pr_TopologicalType": "intHor",
+            "rl_HasLocation_tpBB": "BlockA",
+            "rl_HasLocation_tpBS": "BuildingStorey_0cm-BuildingStorey_300cm",
+            "rl_HasLocation_tpSP": "Cell1-Cell4",
+            "rl_HasLocation_tpZN": "Zone4_BS0-Zone5_BS300",
+            "toplevel": false,
+            "uuid": "60491b62-ceaf-11f1-bafe-0072eeef51b3"
+        },
+        "type": "Face",
+        "uuid": "60491b62-ceaf-11f1-bafe-0072eeef51b3",
+        "wires": [
+            "6042d695-ceaf-11f1-bfc2-0072eeef51b3"
+        ]
+    },
+    {
+        "apertures": [],
+        "dictionary": {
+            "UID": "intVerFace2",
+            "pr_Area": 15.0,
+            "pr_AreaPerOccupantPeak": "0.0-1.8",
+            "pr_CirculationType": "NoCirculation-PublicCirculation",
+            "pr_FaceExposure": "S",
+            "pr_IsCooled": "0-0",
+            "pr_IsHeated": "1-1",
+            "pr_IsMechanicallyVentilated": "0-1",
+            "pr_IsNaturallyVentilated": "1-1",
+            "pr_IsOccupied": "1-1",
+            "pr_OccupancyType": "Circulation:Corridor-Education:Classroom",
+            "pr_TopologicalType": "intVer",
+            "rl_HasLocation_tpBB": "BlockA",
+            "rl_HasLocation_tpBS": "BuildingStorey_0cm",
+            "rl_HasLocation_tpSP": "Cell1-Cell2",
+            "rl_HasLocation_tpZN": "Zone4_BS0-Zone7_BS0",
+            "toplevel": false,
+            "uuid": "6049b0d0-ceaf-11f1-86fe-0072eeef51b3"
+        },
+        "type": "Face",
+        "uuid": "6049b0d0-ceaf-11f1-86fe-0072eeef51b3",
+        "wires": [
+            "6042fdc8-ceaf-11f1-bacd-0072eeef51b3"
+        ]
+    },
+    {
+        "apertures": [],
+        "dictionary": {
+            "UID": "botHorFace1",
+            "pr_Area": 30.0,
+            "pr_AreaPerOccupantPeak": 0.0,
+            "pr_CirculationType": "PublicCirculation",
+            "pr_IsCooled": 0,
+            "pr_IsHeated": 1,
+            "pr_IsMechanicallyVentilated": 0,
+            "pr_IsNaturallyVentilated": 1,
+            "pr_IsOccupied": 1,
+            "pr_OccupancyType": "Circulation:Corridor",
+            "pr_TopologicalType": "botHor",
+            "rl_HasLocation_tpBB": "BlockA",
+            "rl_HasLocation_tpBS": "BuildingStorey_0cm",
+            "rl_HasLocation_tpSP": "Cell1",
+            "rl_HasLocation_tpZN": "Zone4_BS0",
+            "toplevel": false,
+            "uuid": "604a45bf-ceaf-11f1-b8d9-0072eeef51b3"
+        },
+        "type": "Face",
+        "uuid": "604a45bf-ceaf-11f1-b8d9-0072eeef51b3",
+        "wires": [
+            "6042fdc9-ceaf-11f1-b9bc-0072eeef51b3"
+        ]
+    },
+    {
+        "apertures": [],
+        "dictionary": {
+            "UID": "extVerFace3",
+            "pr_Area": 45.0,
+            "pr_AreaPerOccupantPeak": 0.0,
+            "pr_CirculationType": "PublicCirculation",
+            "pr_FaceExposure": "N",
+            "pr_IsCooled": 0,
+            "pr_IsHeated": 1,
+            "pr_IsMechanicallyVentilated": 0,
+            "pr_IsNaturallyVentilated": 1,
+            "pr_IsOccupied": 1,
+            "pr_OccupancyType": "Circulation:Corridor",
+            "pr_TopologicalType": "extVer",
+            "rl_HasLocation_tpBB": "BlockA",
+            "rl_HasLocation_tpBS": "BuildingStorey_0cm",
+            "rl_HasLocation_tpSP": "Cell1",
+            "rl_HasLocation_tpZN": "Zone4_BS0",
+            "toplevel": false,
+            "uuid": "604aa403-ceaf-11f1-be56-0072eeef51b3"
+        },
+        "type": "Face",
+        "uuid": "604aa403-ceaf-11f1-be56-0072eeef51b3",
+        "wires": [
+            "60432504-ceaf-11f1-97fa-0072eeef51b3"
+        ]
+    },
+    {
+        "apertures": [],
+        "dictionary": {
+            "UID": "intVerFace4",
+            "pr_Area": 15.0,
+            "pr_AreaPerOccupantPeak": "0.0-10.0",
+            "pr_CirculationType": "NoCirculation-PublicCirculation",
+            "pr_FaceExposure": "S",
+            "pr_IsCooled": "0-1",
+            "pr_IsHeated": "1-1",
+            "pr_IsMechanicallyVentilated": "0-1",
+            "pr_IsNaturallyVentilated": "1-1",
+            "pr_IsOccupied": "1-1",
+            "pr_OccupancyType": "Circulation:Corridor-Office:Office",
+            "pr_TopologicalType": "intVer",
+            "rl_HasLocation_tpBB": "BlockA",
+            "rl_HasLocation_tpBS": "BuildingStorey_0cm",
+            "rl_HasLocation_tpSP": "Cell1-Cell6",
+            "rl_HasLocation_tpZN": "Zone1_BS0-Zone4_BS0",
+            "toplevel": false,
+            "uuid": "604b0695-ceaf-11f1-8139-0072eeef51b3"
+        },
+        "type": "Face",
+        "uuid": "604b0695-ceaf-11f1-8139-0072eeef51b3",
+        "wires": [
+            "60432505-ceaf-11f1-89bc-0072eeef51b3"
+        ]
+    },
+    {
+        "apertures": [],
+        "dictionary": {
+            "UID": "intVerFace3",
+            "pr_Area": 6.0,
+            "pr_AreaPerOccupantPeak": "0.0-5.0",
+            "pr_CirculationType": "NoCirculation-PublicCirculation",
+            "pr_FaceExposure": "E",
+            "pr_IsCooled": "0-0",
+            "pr_IsHeated": "1-1",
+            "pr_IsMechanicallyVentilated": "0-1",
+            "pr_IsNaturallyVentilated": "1-1",
+            "pr_IsOccupied": "1-1",
+            "pr_OccupancyType": "Circulation:Corridor-Sport:Gym",
+            "pr_TopologicalType": "intVer",
+            "rl_HasLocation_tpBB": "BlockA-BlockB",
+            "rl_HasLocation_tpBS": "BuildingStorey_0cm",
+            "rl_HasLocation_tpSP": "Cell1-Cell5",
+            "rl_HasLocation_tpZN": "Zone2_BS0-Zone4_BS0",
+            "toplevel": false,
+            "uuid": "604b7b92-ceaf-11f1-acca-0072eeef51b3"
+        },
+        "type": "Face",
+        "uuid": "604b7b92-ceaf-11f1-acca-0072eeef51b3",
+        "wires": [
+            "60434c25-ceaf-11f1-9d8c-0072eeef51b3"
+        ]
+    },
+    {
+        "apertures": [],
+        "dictionary": {
+            "UID": "botHorFace2",
+            "pr_Area": 30.0,
+            "pr_AreaPerOccupantPeak": 1.8,
+            "pr_CirculationType": "NoCirculation",
+            "pr_IsCooled": 0,
+            "pr_IsHeated": 1,
+            "pr_IsMechanicallyVentilated": 1,
+            "pr_IsNaturallyVentilated": 1,
+            "pr_IsOccupied": 1,
+            "pr_OccupancyType": "Education:Classroom",
+            "pr_TopologicalType": "botHor",
+            "rl_HasLocation_tpBB": "BlockA",
+            "rl_HasLocation_tpBS": "BuildingStorey_0cm",
+            "rl_HasLocation_tpSP": "Cell2",
+            "rl_HasLocation_tpZN": "Zone7_BS0",
+            "toplevel": false,
+            "uuid": "604bff36-ceaf-11f1-b566-0072eeef51b3"
+        },
+        "type": "Face",
+        "uuid": "604bff36-ceaf-11f1-b566-0072eeef51b3",
+        "wires": [
+            "60437333-ceaf-11f1-b092-0072eeef51b3"
+        ]
+    },
+    {
+        "apertures": [],
+        "dictionary": {
+            "UID": "extVerFace4",
+            "pr_Area": 15.0,
+            "pr_AreaPerOccupantPeak": 1.8,
+            "pr_CirculationType": "NoCirculation",
+            "pr_FaceExposure": "S",
+            "pr_IsCooled": 0,
+            "pr_IsHeated": 1,
+            "pr_IsMechanicallyVentilated": 1,
+            "pr_IsNaturallyVentilated": 1,
+            "pr_IsOccupied": 1,
+            "pr_OccupancyType": "Education:Classroom",
+            "pr_TopologicalType": "extVer",
+            "rl_HasLocation_tpBB": "BlockA",
+            "rl_HasLocation_tpBS": "BuildingStorey_0cm",
+            "rl_HasLocation_tpSP": "Cell2",
+            "rl_HasLocation_tpZN": "Zone7_BS0",
+            "toplevel": false,
+            "uuid": "604c89f2-ceaf-11f1-816c-0072eeef51b3"
+        },
+        "type": "Face",
+        "uuid": "604c89f2-ceaf-11f1-816c-0072eeef51b3",
+        "wires": [
+            "60437334-ceaf-11f1-996b-0072eeef51b3"
+        ]
+    },
+    {
+        "apertures": [],
+        "dictionary": {
+            "UID": "intHorFace2",
+            "pr_Area": 30.0,
+            "pr_AreaPerOccupantPeak": "1.8-2.5",
+            "pr_CirculationType": "NoCirculation-NoCirculation",
+            "pr_IsCooled": "0-1",
+            "pr_IsHeated": "1-1",
+            "pr_IsMechanicallyVentilated": "1-1",
+            "pr_IsNaturallyVentilated": "1-1",
+            "pr_IsOccupied": "1-1",
+            "pr_OccupancyType": "Education:Classroom-Office:MeetingRoom",
+            "pr_TopologicalType": "intHor",
+            "rl_HasLocation_tpBB": "BlockA",
+            "rl_HasLocation_tpBS": "BuildingStorey_0cm-BuildingStorey_300cm",
+            "rl_HasLocation_tpSP": "Cell2-Cell7",
+            "rl_HasLocation_tpZN": "Zone3_BS300-Zone7_BS0",
+            "toplevel": false,
+            "uuid": "604cd81c-ceaf-11f1-a902-0072eeef51b3"
+        },
+        "type": "Face",
+        "uuid": "604cd81c-ceaf-11f1-a902-0072eeef51b3",
+        "wires": [
+            "60439a3a-ceaf-11f1-b4f5-0072eeef51b3"
+        ]
+    },
+    {
+        "apertures": [],
+        "dictionary": {
+            "UID": "intVerFace5",
+            "pr_Area": 18.0,
+            "pr_AreaPerOccupantPeak": "1.8-10.0",
+            "pr_CirculationType": "NoCirculation-NoCirculation",
+            "pr_FaceExposure": "E",
+            "pr_IsCooled": "0-1",
+            "pr_IsHeated": "1-1",
+            "pr_IsMechanicallyVentilated": "1-1",
+            "pr_IsNaturallyVentilated": "1-1",
+            "pr_IsOccupied": "1-1",
+            "pr_OccupancyType": "Education:Classroom-Office:Office",
+            "pr_TopologicalType": "intVer",
+            "rl_HasLocation_tpBB": "BlockA",
+            "rl_HasLocation_tpBS": "BuildingStorey_0cm",
+            "rl_HasLocation_tpSP": "Cell2-Cell6",
+            "rl_HasLocation_tpZN": "Zone1_BS0-Zone7_BS0",
+            "toplevel": false,
+            "uuid": "604d556b-ceaf-11f1-8355-0072eeef51b3"
+        },
+        "type": "Face",
+        "uuid": "604d556b-ceaf-11f1-8355-0072eeef51b3",
+        "wires": [
+            "60439a3b-ceaf-11f1-b053-0072eeef51b3"
+        ]
+    },
+    {
+        "apertures": [],
+        "dictionary": {
+            "UID": "extVerFace6",
+            "pr_Area": 18.0,
+            "pr_AreaPerOccupantPeak": 10.0,
+            "pr_CirculationType": "NoCirculation",
+            "pr_FaceExposure": "W",
+            "pr_IsCooled": 1,
+            "pr_IsHeated": 1,
+            "pr_IsMechanicallyVentilated": 1,
+            "pr_IsNaturallyVentilated": 1,
+            "pr_IsOccupied": 1,
+            "pr_OccupancyType": "Office:Office",
+            "pr_TopologicalType": "extVer",
+            "rl_HasLocation_tpBB": "BlockA",
+            "rl_HasLocation_tpBS": "BuildingStorey_300cm",
+            "rl_HasLocation_tpSP": "Cell3",
+            "rl_HasLocation_tpZN": "Zone0_BS300",
+            "toplevel": false,
+            "uuid": "604df1fe-ceaf-11f1-bfcf-0072eeef51b3"
+        },
+        "type": "Face",
+        "uuid": "604df1fe-ceaf-11f1-bfcf-0072eeef51b3",
+        "wires": [
+            "60439a3c-ceaf-11f1-b123-0072eeef51b3"
+        ]
+    },
+    {
+        "apertures": [],
+        "dictionary": {
+            "UID": "intVerFace6",
+            "pr_Area": 15.0,
+            "pr_AreaPerOccupantPeak": "0.0-10.0",
+            "pr_CirculationType": "NoCirculation-PublicCirculation",
+            "pr_FaceExposure": "N",
+            "pr_IsCooled": "0-1",
+            "pr_IsHeated": "1-1",
+            "pr_IsMechanicallyVentilated": "0-1",
+            "pr_IsNaturallyVentilated": "1-1",
+            "pr_IsOccupied": "1-1",
+            "pr_OccupancyType": "Circulation:Corridor-Office:Office",
+            "pr_TopologicalType": "intVer",
+            "rl_HasLocation_tpBB": "BlockA",
+            "rl_HasLocation_tpBS": "BuildingStorey_300cm",
+            "rl_HasLocation_tpSP": "Cell3-Cell4",
+            "rl_HasLocation_tpZN": "Zone0_BS300-Zone5_BS300",
+            "toplevel": false,
+            "uuid": "604e67a4-ceaf-11f1-af67-0072eeef51b3"
+        },
+        "type": "Face",
+        "uuid": "604e67a4-ceaf-11f1-af67-0072eeef51b3",
+        "wires": [
+            "6043c145-ceaf-11f1-9d2e-0072eeef51b3"
+        ]
+    },
+    {
+        "apertures": [],
+        "dictionary": {
+            "UID": "intVerFace7",
+            "pr_Area": 18.0,
+            "pr_AreaPerOccupantPeak": "10.0-2.5",
+            "pr_CirculationType": "NoCirculation-NoCirculation",
+            "pr_FaceExposure": "E",
+            "pr_IsCooled": "1-1",
+            "pr_IsHeated": "1-1",
+            "pr_IsMechanicallyVentilated": "1-1",
+            "pr_IsNaturallyVentilated": "1-1",
+            "pr_IsOccupied": "1-1",
+            "pr_OccupancyType": "Office:MeetingRoom-Office:Office",
+            "pr_TopologicalType": "intVer",
+            "rl_HasLocation_tpBB": "BlockA",
+            "rl_HasLocation_tpBS": "BuildingStorey_300cm",
+            "rl_HasLocation_tpSP": "Cell3-Cell7",
+            "rl_HasLocation_tpZN": "Zone0_BS300-Zone3_BS300",
+            "toplevel": false,
+            "uuid": "604ef969-ceaf-11f1-b464-0072eeef51b3"
+        },
+        "type": "Face",
+        "uuid": "604ef969-ceaf-11f1-b464-0072eeef51b3",
+        "wires": [
+            "6043e861-ceaf-11f1-89b3-0072eeef51b3"
+        ]
+    },
+    {
+        "apertures": [],
+        "dictionary": {
+            "UID": "extVerFace5",
+            "pr_Area": 15.0,
+            "pr_AreaPerOccupantPeak": 10.0,
+            "pr_CirculationType": "NoCirculation",
+            "pr_FaceExposure": "S",
+            "pr_IsCooled": 1,
+            "pr_IsHeated": 1,
+            "pr_IsMechanicallyVentilated": 1,
+            "pr_IsNaturallyVentilated": 1,
+            "pr_IsOccupied": 1,
+            "pr_OccupancyType": "Office:Office",
+            "pr_TopologicalType": "extVer",
+            "rl_HasLocation_tpBB": "BlockA",
+            "rl_HasLocation_tpBS": "BuildingStorey_300cm",
+            "rl_HasLocation_tpSP": "Cell3",
+            "rl_HasLocation_tpZN": "Zone0_BS300",
+            "toplevel": false,
+            "uuid": "604f76e0-ceaf-11f1-86b6-0072eeef51b3"
+        },
+        "type": "Face",
+        "uuid": "604f76e0-ceaf-11f1-86b6-0072eeef51b3",
+        "wires": [
+            "6043e862-ceaf-11f1-b423-0072eeef51b3"
+        ]
+    },
+    {
+        "apertures": [],
+        "dictionary": {
+            "UID": "topHorFace0",
+            "pr_Area": 30.0,
+            "pr_AreaPerOccupantPeak": 10.0,
+            "pr_CirculationType": "NoCirculation",
+            "pr_IsCooled": 1,
+            "pr_IsHeated": 1,
+            "pr_IsMechanicallyVentilated": 1,
+            "pr_IsNaturallyVentilated": 1,
+            "pr_IsOccupied": 1,
+            "pr_OccupancyType": "Office:Office",
+            "pr_TopologicalType": "topHor",
+            "rl_HasLocation_tpBB": "BlockA",
+            "rl_HasLocation_tpBS": "BuildingStorey_300cm",
+            "rl_HasLocation_tpSP": "Cell3",
+            "rl_HasLocation_tpZN": "Zone0_BS300",
+            "toplevel": false,
+            "uuid": "604fdd27-ceaf-11f1-8ca7-0072eeef51b3"
+        },
+        "type": "Face",
+        "uuid": "604fdd27-ceaf-11f1-8ca7-0072eeef51b3",
+        "wires": [
+            "60442276-ceaf-11f1-9a83-0072eeef51b3"
+        ]
+    },
+    {
+        "apertures": [],
+        "dictionary": {
+            "UID": "extVerFace9",
+            "pr_Area": 6.0,
+            "pr_AreaPerOccupantPeak": 0.0,
+            "pr_CirculationType": "PublicCirculation",
+            "pr_FaceExposure": "W",
+            "pr_IsCooled": 0,
+            "pr_IsHeated": 1,
+            "pr_IsMechanicallyVentilated": 0,
+            "pr_IsNaturallyVentilated": 1,
+            "pr_IsOccupied": 1,
+            "pr_OccupancyType": "Circulation:Corridor",
+            "pr_TopologicalType": "extVer",
+            "rl_HasLocation_tpBB": "BlockA",
+            "rl_HasLocation_tpBS": "BuildingStorey_300cm",
+            "rl_HasLocation_tpSP": "Cell4",
+            "rl_HasLocation_tpZN": "Zone5_BS300",
+            "toplevel": false,
+            "uuid": "60502b83-ceaf-11f1-9b5f-0072eeef51b3"
+        },
+        "type": "Face",
+        "uuid": "60502b83-ceaf-11f1-9b5f-0072eeef51b3",
+        "wires": [
+            "604441e5-ceaf-11f1-b6c0-0072eeef51b3"
+        ]
+    },
+    {
+        "apertures": [],
+        "dictionary": {
+            "UID": "intVerFace9",
+            "pr_Area": 15.0,
+            "pr_AreaPerOccupantPeak": "0.0-2.5",
+            "pr_CirculationType": "NoCirculation-PublicCirculation",
+            "pr_FaceExposure": "S",
+            "pr_IsCooled": "0-1",
+            "pr_IsHeated": "1-1",
+            "pr_IsMechanicallyVentilated": "0-1",
+            "pr_IsNaturallyVentilated": "1-1",
+            "pr_IsOccupied": "1-1",
+            "pr_OccupancyType": "Circulation:Corridor-Office:MeetingRoom",
+            "pr_TopologicalType": "intVer",
+            "rl_HasLocation_tpBB": "BlockA",
+            "rl_HasLocation_tpBS": "BuildingStorey_300cm",
+            "rl_HasLocation_tpSP": "Cell4-Cell7",
+            "rl_HasLocation_tpZN": "Zone3_BS300-Zone5_BS300",
+            "toplevel": false,
+            "uuid": "6050ae98-ceaf-11f1-b11c-0072eeef51b3"
+        },
+        "type": "Face",
+        "uuid": "6050ae98-ceaf-11f1-b11c-0072eeef51b3",
+        "wires": [
+            "604455b9-ceaf-11f1-b7ac-0072eeef51b3"
+        ]
+    },
+    {
+        "apertures": [],
+        "dictionary": {
+            "UID": "intVerFace8",
+            "pr_Area": 15.0,
+            "pr_AreaPerOccupantPeak": "0.0-0.0",
+            "pr_CirculationType": "PrivateCirculation-PublicCirculation",
+            "pr_FaceExposure": "S",
+            "pr_IsCooled": "0-0",
+            "pr_IsHeated": "0-1",
+            "pr_IsMechanicallyVentilated": "0-0",
+            "pr_IsNaturallyVentilated": "0-1",
+            "pr_IsOccupied": "0-1",
+            "pr_OccupancyType": "Circulation:Corridor-Support:Storage",
+            "pr_TopologicalType": "intVer",
+            "rl_HasLocation_tpBB": "BlockA",
+            "rl_HasLocation_tpBS": "BuildingStorey_300cm",
+            "rl_HasLocation_tpSP": "Cell4-Cell8",
+            "rl_HasLocation_tpZN": "Zone3_BS300-Zone5_BS300",
+            "toplevel": false,
+            "uuid": "605123d0-ceaf-11f1-8f83-0072eeef51b3"
+        },
+        "type": "Face",
+        "uuid": "605123d0-ceaf-11f1-8f83-0072eeef51b3",
+        "wires": [
+            "604455ba-ceaf-11f1-95d8-0072eeef51b3"
+        ]
+    },
+    {
+        "apertures": [],
+        "dictionary": {
+            "UID": "extVerFace8",
+            "pr_Area": 6.0,
+            "pr_AreaPerOccupantPeak": 0.0,
+            "pr_CirculationType": "PublicCirculation",
+            "pr_FaceExposure": "E",
+            "pr_IsCooled": 0,
+            "pr_IsHeated": 1,
+            "pr_IsMechanicallyVentilated": 0,
+            "pr_IsNaturallyVentilated": 1,
+            "pr_IsOccupied": 1,
+            "pr_OccupancyType": "Circulation:Corridor",
+            "pr_TopologicalType": "extVer",
+            "rl_HasLocation_tpBB": "BlockA",
+            "rl_HasLocation_tpBS": "BuildingStorey_300cm",
+            "rl_HasLocation_tpSP": "Cell4",
+            "rl_HasLocation_tpZN": "Zone5_BS300",
+            "toplevel": false,
+            "uuid": "6051aea7-ceaf-11f1-a901-0072eeef51b3"
+        },
+        "type": "Face",
+        "uuid": "6051aea7-ceaf-11f1-a901-0072eeef51b3",
+        "wires": [
+            "604455bb-ceaf-11f1-a94e-0072eeef51b3"
+        ]
+    },
+    {
+        "apertures": [],
+        "dictionary": {
+            "UID": "extVerFace7",
+            "pr_Area": 45.0,
+            "pr_AreaPerOccupantPeak": 0.0,
+            "pr_CirculationType": "PublicCirculation",
+            "pr_FaceExposure": "N",
+            "pr_IsCooled": 0,
+            "pr_IsHeated": 1,
+            "pr_IsMechanicallyVentilated": 0,
+            "pr_IsNaturallyVentilated": 1,
+            "pr_IsOccupied": 1,
+            "pr_OccupancyType": "Circulation:Corridor",
+            "pr_TopologicalType": "extVer",
+            "rl_HasLocation_tpBB": "BlockA",
+            "rl_HasLocation_tpBS": "BuildingStorey_300cm",
+            "rl_HasLocation_tpSP": "Cell4",
+            "rl_HasLocation_tpZN": "Zone5_BS300",
+            "toplevel": false,
+            "uuid": "605223d2-ceaf-11f1-9675-0072eeef51b3"
+        },
+        "type": "Face",
+        "uuid": "605223d2-ceaf-11f1-9675-0072eeef51b3",
+        "wires": [
+            "60449383-ceaf-11f1-91d1-0072eeef51b3"
+        ]
+    },
+    {
+        "apertures": [],
+        "dictionary": {
+            "UID": "topHorFace1",
+            "pr_Area": 30.0,
+            "pr_AreaPerOccupantPeak": 0.0,
+            "pr_CirculationType": "PublicCirculation",
+            "pr_IsCooled": 0,
+            "pr_IsHeated": 1,
+            "pr_IsMechanicallyVentilated": 0,
+            "pr_IsNaturallyVentilated": 1,
+            "pr_IsOccupied": 1,
+            "pr_OccupancyType": "Circulation:Corridor",
+            "pr_TopologicalType": "topHor",
+            "rl_HasLocation_tpBB": "BlockA",
+            "rl_HasLocation_tpBS": "BuildingStorey_300cm",
+            "rl_HasLocation_tpSP": "Cell4",
+            "rl_HasLocation_tpZN": "Zone5_BS300",
+            "toplevel": false,
+            "uuid": "605298ff-ceaf-11f1-b820-0072eeef51b3"
+        },
+        "type": "Face",
+        "uuid": "605298ff-ceaf-11f1-b820-0072eeef51b3",
+        "wires": [
+            "60449384-ceaf-11f1-8aab-0072eeef51b3"
+        ]
+    },
+    {
+        "apertures": [],
+        "dictionary": {
+            "UID": "botHorFace4",
+            "pr_Area": 30.0,
+            "pr_AreaPerOccupantPeak": 10.0,
+            "pr_CirculationType": "NoCirculation",
+            "pr_IsCooled": 1,
+            "pr_IsHeated": 1,
+            "pr_IsMechanicallyVentilated": 1,
+            "pr_IsNaturallyVentilated": 1,
+            "pr_IsOccupied": 1,
+            "pr_OccupancyType": "Office:Office",
+            "pr_TopologicalType": "botHor",
+            "rl_HasLocation_tpBB": "BlockA",
+            "rl_HasLocation_tpBS": "BuildingStorey_0cm",
+            "rl_HasLocation_tpSP": "Cell6",
+            "rl_HasLocation_tpZN": "Zone1_BS0",
+            "toplevel": false,
+            "uuid": "60530e38-ceaf-11f1-a0f2-0072eeef51b3"
+        },
+        "type": "Face",
+        "uuid": "60530e38-ceaf-11f1-a0f2-0072eeef51b3",
+        "wires": [
+            "6044baf1-ceaf-11f1-9273-0072eeef51b3"
+        ]
+    },
+    {
+        "apertures": [],
+        "dictionary": {
+            "UID": "intHorFace3",
+            "pr_Area": 30.0,
+            "pr_AreaPerOccupantPeak": "0.0-10.0",
+            "pr_CirculationType": "NoCirculation-PrivateCirculation",
+            "pr_IsCooled": "0-1",
+            "pr_IsHeated": "0-1",
+            "pr_IsMechanicallyVentilated": "0-1",
+            "pr_IsNaturallyVentilated": "0-1",
+            "pr_IsOccupied": "0-1",
+            "pr_OccupancyType": "Office:Office-Support:Storage",
+            "pr_TopologicalType": "intHor",
+            "rl_HasLocation_tpBB": "BlockA",
+            "rl_HasLocation_tpBS": "BuildingStorey_0cm-BuildingStorey_300cm",
+            "rl_HasLocation_tpSP": "Cell6-Cell8",
+            "rl_HasLocation_tpZN": "Zone1_BS0-Zone3_BS300",
+            "toplevel": false,
+            "uuid": "60535c4f-ceaf-11f1-bdc1-0072eeef51b3"
+        },
+        "type": "Face",
+        "uuid": "60535c4f-ceaf-11f1-bdc1-0072eeef51b3",
+        "wires": [
+            "6044baf2-ceaf-11f1-a40c-0072eeef51b3"
+        ]
+    },
+    {
+        "apertures": [],
+        "dictionary": {
+            "UID": "intVerFace10",
+            "pr_Area": 18.0,
+            "pr_AreaPerOccupantPeak": "10.0-5.0",
+            "pr_CirculationType": "NoCirculation-NoCirculation",
+            "pr_FaceExposure": "E",
+            "pr_IsCooled": "0-1",
+            "pr_IsHeated": "1-1",
+            "pr_IsMechanicallyVentilated": "1-1",
+            "pr_IsNaturallyVentilated": "1-1",
+            "pr_IsOccupied": "1-1",
+            "pr_OccupancyType": "Office:Office-Sport:Gym",
+            "pr_TopologicalType": "intVer",
+            "rl_HasLocation_tpBB": "BlockA-BlockB",
+            "rl_HasLocation_tpBS": "BuildingStorey_0cm",
+            "rl_HasLocation_tpSP": "Cell5-Cell6",
+            "rl_HasLocation_tpZN": "Zone1_BS0-Zone2_BS0",
+            "toplevel": false,
+            "uuid": "6053be2f-ceaf-11f1-bb21-0072eeef51b3"
+        },
+        "type": "Face",
+        "uuid": "6053be2f-ceaf-11f1-bb21-0072eeef51b3",
+        "wires": [
+            "6044e1f8-ceaf-11f1-8140-0072eeef51b3"
+        ]
+    },
+    {
+        "apertures": [],
+        "dictionary": {
+            "UID": "extVerFace13",
+            "pr_Area": 15.0,
+            "pr_AreaPerOccupantPeak": 10.0,
+            "pr_CirculationType": "NoCirculation",
+            "pr_FaceExposure": "S",
+            "pr_IsCooled": 1,
+            "pr_IsHeated": 1,
+            "pr_IsMechanicallyVentilated": 1,
+            "pr_IsNaturallyVentilated": 1,
+            "pr_IsOccupied": 1,
+            "pr_OccupancyType": "Office:Office",
+            "pr_TopologicalType": "extVer",
+            "rl_HasLocation_tpBB": "BlockA",
+            "rl_HasLocation_tpBS": "BuildingStorey_0cm",
+            "rl_HasLocation_tpSP": "Cell6",
+            "rl_HasLocation_tpZN": "Zone1_BS0",
+            "toplevel": false,
+            "uuid": "6054636d-ceaf-11f1-adaf-0072eeef51b3"
+        },
+        "type": "Face",
+        "uuid": "6054636d-ceaf-11f1-adaf-0072eeef51b3",
+        "wires": [
+            "6044e1f9-ceaf-11f1-82c3-0072eeef51b3"
+        ]
+    },
+    {
+        "apertures": [],
+        "dictionary": {
+            "UID": "extVerFace10",
+            "pr_Area": 24.0,
+            "pr_AreaPerOccupantPeak": 5.0,
+            "pr_CirculationType": "NoCirculation",
+            "pr_FaceExposure": "N",
+            "pr_IsCooled": 0,
+            "pr_IsHeated": 1,
+            "pr_IsMechanicallyVentilated": 1,
+            "pr_IsNaturallyVentilated": 1,
+            "pr_IsOccupied": 1,
+            "pr_OccupancyType": "Sport:Gym",
+            "pr_TopologicalType": "extVer",
+            "rl_HasLocation_tpBB": "BlockB",
+            "rl_HasLocation_tpBS": "BuildingStorey_0cm",
+            "rl_HasLocation_tpSP": "Cell5",
+            "rl_HasLocation_tpZN": "Zone2_BS0",
+            "toplevel": false,
+            "uuid": "6054ba7a-ceaf-11f1-a18e-0072eeef51b3"
+        },
+        "type": "Face",
+        "uuid": "6054ba7a-ceaf-11f1-a18e-0072eeef51b3",
+        "wires": [
+            "6044e1fa-ceaf-11f1-81ec-0072eeef51b3"
+        ]
+    },
+    {
+        "apertures": [],
+        "dictionary": {
+            "UID": "botHorFace3",
+            "pr_Area": 64.0,
+            "pr_AreaPerOccupantPeak": 5.0,
+            "pr_CirculationType": "NoCirculation",
+            "pr_IsCooled": 0,
+            "pr_IsHeated": 1,
+            "pr_IsMechanicallyVentilated": 1,
+            "pr_IsNaturallyVentilated": 1,
+            "pr_IsOccupied": 1,
+            "pr_OccupancyType": "Sport:Gym",
+            "pr_TopologicalType": "botHor",
+            "rl_HasLocation_tpBB": "BlockB",
+            "rl_HasLocation_tpBS": "BuildingStorey_0cm",
+            "rl_HasLocation_tpSP": "Cell5",
+            "rl_HasLocation_tpZN": "Zone2_BS0",
+            "toplevel": false,
+            "uuid": "60552faa-ceaf-11f1-accf-0072eeef51b3"
+        },
+        "type": "Face",
+        "uuid": "60552faa-ceaf-11f1-accf-0072eeef51b3",
+        "wires": [
+            "60450906-ceaf-11f1-be87-0072eeef51b3"
+        ]
+    },
+    {
+        "apertures": [],
+        "dictionary": {
+            "UID": "topHorFace2",
+            "pr_Area": 64.0,
+            "pr_AreaPerOccupantPeak": 5.0,
+            "pr_CirculationType": "NoCirculation",
+            "pr_IsCooled": 0,
+            "pr_IsHeated": 1,
+            "pr_IsMechanicallyVentilated": 1,
+            "pr_IsNaturallyVentilated": 1,
+            "pr_IsOccupied": 1,
+            "pr_OccupancyType": "Sport:Gym",
+            "pr_TopologicalType": "topHor",
+            "rl_HasLocation_tpBB": "BlockB",
+            "rl_HasLocation_tpBS": "BuildingStorey_0cm",
+            "rl_HasLocation_tpSP": "Cell5",
+            "rl_HasLocation_tpZN": "Zone2_BS0",
+            "toplevel": false,
+            "uuid": "6055a587-ceaf-11f1-b80d-0072eeef51b3"
+        },
+        "type": "Face",
+        "uuid": "6055a587-ceaf-11f1-b80d-0072eeef51b3",
+        "wires": [
+            "60450907-ceaf-11f1-8844-0072eeef51b3"
+        ]
+    },
+    {
+        "apertures": [],
+        "dictionary": {
+            "UID": "extVerFace11",
+            "pr_Area": 24.0,
+            "pr_AreaPerOccupantPeak": 5.0,
+            "pr_CirculationType": "NoCirculation",
+            "pr_FaceExposure": "E",
+            "pr_IsCooled": 0,
+            "pr_IsHeated": 1,
+            "pr_IsMechanicallyVentilated": 1,
+            "pr_IsNaturallyVentilated": 1,
+            "pr_IsOccupied": 1,
+            "pr_OccupancyType": "Sport:Gym",
+            "pr_TopologicalType": "extVer",
+            "rl_HasLocation_tpBB": "BlockB",
+            "rl_HasLocation_tpBS": "BuildingStorey_0cm",
+            "rl_HasLocation_tpSP": "Cell5",
+            "rl_HasLocation_tpZN": "Zone2_BS0",
+            "toplevel": false,
+            "uuid": "60562be7-ceaf-11f1-8489-0072eeef51b3"
+        },
+        "type": "Face",
+        "uuid": "60562be7-ceaf-11f1-8489-0072eeef51b3",
+        "wires": [
+            "6045301a-ceaf-11f1-a6fa-0072eeef51b3"
+        ]
+    },
+    {
+        "apertures": [],
+        "dictionary": {
+            "UID": "extVerFace12",
+            "pr_Area": 24.0,
+            "pr_AreaPerOccupantPeak": 5.0,
+            "pr_CirculationType": "NoCirculation",
+            "pr_FaceExposure": "S",
+            "pr_IsCooled": 0,
+            "pr_IsHeated": 1,
+            "pr_IsMechanicallyVentilated": 1,
+            "pr_IsNaturallyVentilated": 1,
+            "pr_IsOccupied": 1,
+            "pr_OccupancyType": "Sport:Gym",
+            "pr_TopologicalType": "extVer",
+            "rl_HasLocation_tpBB": "BlockB",
+            "rl_HasLocation_tpBS": "BuildingStorey_0cm",
+            "rl_HasLocation_tpSP": "Cell5",
+            "rl_HasLocation_tpZN": "Zone2_BS0",
+            "toplevel": false,
+            "uuid": "6056a122-ceaf-11f1-8560-0072eeef51b3"
+        },
+        "type": "Face",
+        "uuid": "6056a122-ceaf-11f1-8560-0072eeef51b3",
+        "wires": [
+            "6045301b-ceaf-11f1-8719-0072eeef51b3"
+        ]
+    },
+    {
+        "apertures": [],
+        "dictionary": {
+            "UID": "extVerFace14",
+            "pr_Area": 15.0,
+            "pr_AreaPerOccupantPeak": 2.5,
+            "pr_CirculationType": "NoCirculation",
+            "pr_FaceExposure": "S",
+            "pr_IsCooled": 1,
+            "pr_IsHeated": 1,
+            "pr_IsMechanicallyVentilated": 1,
+            "pr_IsNaturallyVentilated": 1,
+            "pr_IsOccupied": 1,
+            "pr_OccupancyType": "Office:MeetingRoom",
+            "pr_TopologicalType": "extVer",
+            "rl_HasLocation_tpBB": "BlockA",
+            "rl_HasLocation_tpBS": "BuildingStorey_300cm",
+            "rl_HasLocation_tpSP": "Cell7",
+            "rl_HasLocation_tpZN": "Zone3_BS300",
+            "toplevel": false,
+            "uuid": "6056fcf0-ceaf-11f1-8352-0072eeef51b3"
+        },
+        "type": "Face",
+        "uuid": "6056fcf0-ceaf-11f1-8352-0072eeef51b3",
+        "wires": [
+            "6045301c-ceaf-11f1-8916-0072eeef51b3"
+        ]
+    },
+    {
+        "apertures": [],
+        "dictionary": {
+            "UID": "intVerFace11",
+            "pr_Area": 18.0,
+            "pr_AreaPerOccupantPeak": "0.0-2.5",
+            "pr_CirculationType": "NoCirculation-PrivateCirculation",
+            "pr_FaceExposure": "E",
+            "pr_IsCooled": "0-1",
+            "pr_IsHeated": "0-1",
+            "pr_IsMechanicallyVentilated": "0-1",
+            "pr_IsNaturallyVentilated": "0-1",
+            "pr_IsOccupied": "0-1",
+            "pr_OccupancyType": "Office:MeetingRoom-Support:Storage",
+            "pr_TopologicalType": "intVer",
+            "rl_HasLocation_tpBB": "BlockA",
+            "rl_HasLocation_tpBS": "BuildingStorey_300cm",
+            "rl_HasLocation_tpSP": "Cell7-Cell8",
+            "rl_HasLocation_tpZN": "Zone3_BS300-Zone3_BS300",
+            "toplevel": false,
+            "uuid": "60576dfd-ceaf-11f1-8898-0072eeef51b3"
+        },
+        "type": "Face",
+        "uuid": "60576dfd-ceaf-11f1-8898-0072eeef51b3",
+        "wires": [
+            "60456434-ceaf-11f1-9dd1-0072eeef51b3"
+        ]
+    },
+    {
+        "apertures": [],
+        "dictionary": {
+            "UID": "topHorFace3",
+            "pr_Area": 30.0,
+            "pr_AreaPerOccupantPeak": 2.5,
+            "pr_CirculationType": "NoCirculation",
+            "pr_IsCooled": 1,
+            "pr_IsHeated": 1,
+            "pr_IsMechanicallyVentilated": 1,
+            "pr_IsNaturallyVentilated": 1,
+            "pr_IsOccupied": 1,
+            "pr_OccupancyType": "Office:MeetingRoom",
+            "pr_TopologicalType": "topHor",
+            "rl_HasLocation_tpBB": "BlockA",
+            "rl_HasLocation_tpBS": "BuildingStorey_300cm",
+            "rl_HasLocation_tpSP": "Cell7",
+            "rl_HasLocation_tpZN": "Zone3_BS300",
+            "toplevel": false,
+            "uuid": "6057f768-ceaf-11f1-81e1-0072eeef51b3"
+        },
+        "type": "Face",
+        "uuid": "6057f768-ceaf-11f1-81e1-0072eeef51b3",
+        "wires": [
+            "60456435-ceaf-11f1-a1d9-0072eeef51b3"
+        ]
+    },
+    {
+        "apertures": [],
+        "dictionary": {
+            "UID": "extVerFace15",
+            "pr_Area": 18.0,
+            "pr_AreaPerOccupantPeak": 0.0,
+            "pr_CirculationType": "PrivateCirculation",
+            "pr_FaceExposure": "E",
+            "pr_IsCooled": 0,
+            "pr_IsHeated": 0,
+            "pr_IsMechanicallyVentilated": 0,
+            "pr_IsNaturallyVentilated": 0,
+            "pr_IsOccupied": 0,
+            "pr_OccupancyType": "Support:Storage",
+            "pr_TopologicalType": "extVer",
+            "rl_HasLocation_tpBB": "BlockA",
+            "rl_HasLocation_tpBS": "BuildingStorey_300cm",
+            "rl_HasLocation_tpSP": "Cell8",
+            "rl_HasLocation_tpZN": "Zone3_BS300",
+            "toplevel": false,
+            "uuid": "60586d23-ceaf-11f1-ad9d-0072eeef51b3"
+        },
+        "type": "Face",
+        "uuid": "60586d23-ceaf-11f1-ad9d-0072eeef51b3",
+        "wires": [
+            "604591ff-ceaf-11f1-9816-0072eeef51b3"
+        ]
+    },
+    {
+        "apertures": [],
+        "dictionary": {
+            "UID": "topHorFace4",
+            "pr_Area": 30.0,
+            "pr_AreaPerOccupantPeak": 0.0,
+            "pr_CirculationType": "PrivateCirculation",
+            "pr_IsCooled": 0,
+            "pr_IsHeated": 0,
+            "pr_IsMechanicallyVentilated": 0,
+            "pr_IsNaturallyVentilated": 0,
+            "pr_IsOccupied": 0,
+            "pr_OccupancyType": "Support:Storage",
+            "pr_TopologicalType": "topHor",
+            "rl_HasLocation_tpBB": "BlockA",
+            "rl_HasLocation_tpBS": "BuildingStorey_300cm",
+            "rl_HasLocation_tpSP": "Cell8",
+            "rl_HasLocation_tpZN": "Zone3_BS300",
+            "toplevel": false,
+            "uuid": "6058bcee-ceaf-11f1-82ef-0072eeef51b3"
+        },
+        "type": "Face",
+        "uuid": "6058bcee-ceaf-11f1-82ef-0072eeef51b3",
+        "wires": [
+            "60459200-ceaf-11f1-9873-0072eeef51b3"
+        ]
+    },
+    {
+        "apertures": [],
+        "dictionary": {
+            "UID": "extVerFace16",
+            "pr_Area": 15.0,
+            "pr_AreaPerOccupantPeak": 0.0,
+            "pr_CirculationType": "PrivateCirculation",
+            "pr_FaceExposure": "S",
+            "pr_IsCooled": 0,
+            "pr_IsHeated": 0,
+            "pr_IsMechanicallyVentilated": 0,
+            "pr_IsNaturallyVentilated": 0,
+            "pr_IsOccupied": 0,
+            "pr_OccupancyType": "Support:Storage",
+            "pr_TopologicalType": "extVer",
+            "rl_HasLocation_tpBB": "BlockA",
+            "rl_HasLocation_tpBS": "BuildingStorey_300cm",
+            "rl_HasLocation_tpSP": "Cell8",
+            "rl_HasLocation_tpZN": "Zone3_BS300",
+            "toplevel": false,
+            "uuid": "60598a1f-ceaf-11f1-b2be-0072eeef51b3"
+        },
+        "type": "Face",
+        "uuid": "60598a1f-ceaf-11f1-b2be-0072eeef51b3",
+        "wires": [
+            "6045cc79-ceaf-11f1-bef7-0072eeef51b3"
+        ]
+    },
+    {
+        "apertures": [],
+        "dictionary": {
+            "toplevel": false,
+            "uuid": "6059dbf8-ceaf-11f1-a4d3-0072eeef51b3"
+        },
+        "faces": [
+            "6045cc7a-ceaf-11f1-905d-0072eeef51b3",
+            "604655d4-ceaf-11f1-bf60-0072eeef51b3",
+            "6046f301-ceaf-11f1-a371-0072eeef51b3",
+            "6047576b-ceaf-11f1-8f42-0072eeef51b3",
+            "6047d329-ceaf-11f1-ac2e-0072eeef51b3",
+            "60482ca3-ceaf-11f1-ac7c-0072eeef51b3"
+        ],
+        "type": "Shell",
+        "uuid": "6059dbf8-ceaf-11f1-a4d3-0072eeef51b3"
+    },
+    {
+        "apertures": [],
+        "dictionary": {
+            "toplevel": false,
+            "uuid": "605a4a8c-ceaf-11f1-8c2b-0072eeef51b3"
+        },
+        "faces": [
+            "604655d4-ceaf-11f1-bf60-0072eeef51b3",
+            "6048a246-ceaf-11f1-a8c2-0072eeef51b3",
+            "60491b62-ceaf-11f1-bafe-0072eeef51b3",
+            "6049b0d0-ceaf-11f1-86fe-0072eeef51b3",
+            "604a45bf-ceaf-11f1-b8d9-0072eeef51b3",
+            "604aa403-ceaf-11f1-be56-0072eeef51b3",
+            "604b0695-ceaf-11f1-8139-0072eeef51b3",
+            "604b7b92-ceaf-11f1-acca-0072eeef51b3"
+        ],
+        "type": "Shell",
+        "uuid": "605a4a8c-ceaf-11f1-8c2b-0072eeef51b3"
+    },
+    {
+        "apertures": [],
+        "dictionary": {
+            "toplevel": false,
+            "uuid": "605a9961-ceaf-11f1-b8ee-0072eeef51b3"
+        },
+        "faces": [
+            "6046f301-ceaf-11f1-a371-0072eeef51b3",
+            "6049b0d0-ceaf-11f1-86fe-0072eeef51b3",
+            "604bff36-ceaf-11f1-b566-0072eeef51b3",
+            "604c89f2-ceaf-11f1-816c-0072eeef51b3",
+            "604cd81c-ceaf-11f1-a902-0072eeef51b3",
+            "604d556b-ceaf-11f1-8355-0072eeef51b3"
+        ],
+        "type": "Shell",
+        "uuid": "605a9961-ceaf-11f1-b8ee-0072eeef51b3"
+    },
+    {
+        "apertures": [],
+        "dictionary": {
+            "toplevel": false,
+            "uuid": "605ac026-ceaf-11f1-97d1-0072eeef51b3"
+        },
+        "faces": [
+            "60482ca3-ceaf-11f1-ac7c-0072eeef51b3",
+            "604df1fe-ceaf-11f1-bfcf-0072eeef51b3",
+            "604e67a4-ceaf-11f1-af67-0072eeef51b3",
+            "604ef969-ceaf-11f1-b464-0072eeef51b3",
+            "604f76e0-ceaf-11f1-86b6-0072eeef51b3",
+            "604fdd27-ceaf-11f1-8ca7-0072eeef51b3"
+        ],
+        "type": "Shell",
+        "uuid": "605ac026-ceaf-11f1-97d1-0072eeef51b3"
+    },
+    {
+        "apertures": [],
+        "dictionary": {
+            "toplevel": false,
+            "uuid": "605ae732-ceaf-11f1-847b-0072eeef51b3"
+        },
+        "faces": [
+            "60491b62-ceaf-11f1-bafe-0072eeef51b3",
+            "60502b83-ceaf-11f1-9b5f-0072eeef51b3",
+            "604e67a4-ceaf-11f1-af67-0072eeef51b3",
+            "6050ae98-ceaf-11f1-b11c-0072eeef51b3",
+            "605123d0-ceaf-11f1-8f83-0072eeef51b3",
+            "6051aea7-ceaf-11f1-a901-0072eeef51b3",
+            "605223d2-ceaf-11f1-9675-0072eeef51b3",
+            "605298ff-ceaf-11f1-b820-0072eeef51b3"
+        ],
+        "type": "Shell",
+        "uuid": "605ae732-ceaf-11f1-847b-0072eeef51b3"
+    },
+    {
+        "apertures": [],
+        "dictionary": {
+            "toplevel": false,
+            "uuid": "605b354d-ceaf-11f1-b88a-0072eeef51b3"
+        },
+        "faces": [
+            "604b0695-ceaf-11f1-8139-0072eeef51b3",
+            "60530e38-ceaf-11f1-a0f2-0072eeef51b3",
+            "604d556b-ceaf-11f1-8355-0072eeef51b3",
+            "60535c4f-ceaf-11f1-bdc1-0072eeef51b3",
+            "6053be2f-ceaf-11f1-bb21-0072eeef51b3",
+            "6054636d-ceaf-11f1-adaf-0072eeef51b3"
+        ],
+        "type": "Shell",
+        "uuid": "605b354d-ceaf-11f1-b88a-0072eeef51b3"
+    },
+    {
+        "apertures": [],
+        "dictionary": {
+            "toplevel": false,
+            "uuid": "605b6816-ceaf-11f1-914e-0072eeef51b3"
+        },
+        "faces": [
+            "604b7b92-ceaf-11f1-acca-0072eeef51b3",
+            "6054ba7a-ceaf-11f1-a18e-0072eeef51b3",
+            "60552faa-ceaf-11f1-accf-0072eeef51b3",
+            "6053be2f-ceaf-11f1-bb21-0072eeef51b3",
+            "6055a587-ceaf-11f1-b80d-0072eeef51b3",
+            "60562be7-ceaf-11f1-8489-0072eeef51b3",
+            "6056a122-ceaf-11f1-8560-0072eeef51b3"
+        ],
+        "type": "Shell",
+        "uuid": "605b6816-ceaf-11f1-914e-0072eeef51b3"
+    },
+    {
+        "apertures": [],
+        "dictionary": {
+            "toplevel": false,
+            "uuid": "605bb692-ceaf-11f1-8a80-0072eeef51b3"
+        },
+        "faces": [
+            "604cd81c-ceaf-11f1-a902-0072eeef51b3",
+            "604ef969-ceaf-11f1-b464-0072eeef51b3",
+            "6056fcf0-ceaf-11f1-8352-0072eeef51b3",
+            "60576dfd-ceaf-11f1-8898-0072eeef51b3",
+            "6050ae98-ceaf-11f1-b11c-0072eeef51b3",
+            "6057f768-ceaf-11f1-81e1-0072eeef51b3"
+        ],
+        "type": "Shell",
+        "uuid": "605bb692-ceaf-11f1-8a80-0072eeef51b3"
+    },
+    {
+        "apertures": [],
+        "dictionary": {
+            "toplevel": false,
+            "uuid": "605bf169-ceaf-11f1-8825-0072eeef51b3"
+        },
+        "faces": [
+            "605123d0-ceaf-11f1-8f83-0072eeef51b3",
+            "60535c4f-ceaf-11f1-bdc1-0072eeef51b3",
+            "60586d23-ceaf-11f1-ad9d-0072eeef51b3",
+            "6058bcee-ceaf-11f1-82ef-0072eeef51b3",
+            "60576dfd-ceaf-11f1-8898-0072eeef51b3",
+            "60598a1f-ceaf-11f1-b2be-0072eeef51b3"
+        ],
+        "type": "Shell",
+        "uuid": "605bf169-ceaf-11f1-8825-0072eeef51b3"
+    },
+    {
+        "apertures": [],
+        "dictionary": {
+            "UID": "Cell0",
+            "pr_AreaPerOccupantPeak": 1.8,
+            "pr_CirculationType": "NoCirculation",
+            "pr_IsCooled": 0,
+            "pr_IsHeated": 1,
+            "pr_IsMechanicallyVentilated": 1,
+            "pr_IsNaturallyVentilated": 1,
+            "pr_IsOccupied": 1,
+            "pr_MainExposure": "W",
+            "pr_NumberOfExposures": 2,
+            "pr_OccupancyType": "Education:Classroom",
+            "pr_OccupancyType_Number": 2,
+            "rl_HasLocation_tpBB": "BlockA",
+            "rl_HasLocation_tpBS": "BuildingStorey_0cm",
+            "rl_HasLocation_tpZN": "Zone6_BS0",
+            "toplevel": false,
+            "uuid": "605c18c0-ceaf-11f1-a184-0072eeef51b3"
+        },
+        "shells": [
+            "6059dbf8-ceaf-11f1-a4d3-0072eeef51b3"
+        ],
+        "type": "Cell",
+        "uuid": "605c18c0-ceaf-11f1-a184-0072eeef51b3"
+    },
+    {
+        "apertures": [],
+        "dictionary": {
+            "UID": "Cell1",
+            "pr_AreaPerOccupantPeak": 0.0,
+            "pr_CirculationType": "PublicCirculation",
+            "pr_IsCooled": 0,
+            "pr_IsHeated": 1,
+            "pr_IsMechanicallyVentilated": 0,
+            "pr_IsNaturallyVentilated": 1,
+            "pr_IsOccupied": 1,
+            "pr_MainExposure": "N",
+            "pr_NumberOfExposures": 2,
+            "pr_OccupancyType": "Circulation:Corridor",
+            "pr_OccupancyType_Number": 6,
+            "rl_HasLocation_tpBB": "BlockA",
+            "rl_HasLocation_tpBS": "BuildingStorey_0cm",
+            "rl_HasLocation_tpZN": "Zone4_BS0",
+            "toplevel": false,
+            "uuid": "605cb793-ceaf-11f1-9079-0072eeef51b3"
+        },
+        "shells": [
+            "605a4a8c-ceaf-11f1-8c2b-0072eeef51b3"
+        ],
+        "type": "Cell",
+        "uuid": "605cb793-ceaf-11f1-9079-0072eeef51b3"
+    },
+    {
+        "apertures": [],
+        "dictionary": {
+            "UID": "Cell2",
+            "pr_AreaPerOccupantPeak": 1.8,
+            "pr_CirculationType": "NoCirculation",
+            "pr_IsCooled": 0,
+            "pr_IsHeated": 1,
+            "pr_IsMechanicallyVentilated": 1,
+            "pr_IsNaturallyVentilated": 1,
+            "pr_IsOccupied": 1,
+            "pr_MainExposure": "S",
+            "pr_NumberOfExposures": 1,
+            "pr_OccupancyType": "Education:Classroom",
+            "pr_OccupancyType_Number": 2,
+            "rl_HasLocation_tpBB": "BlockA",
+            "rl_HasLocation_tpBS": "BuildingStorey_0cm",
+            "rl_HasLocation_tpZN": "Zone7_BS0",
+            "toplevel": false,
+            "uuid": "605d9245-ceaf-11f1-92d5-0072eeef51b3"
+        },
+        "shells": [
+            "605a9961-ceaf-11f1-b8ee-0072eeef51b3"
+        ],
+        "type": "Cell",
+        "uuid": "605d9245-ceaf-11f1-92d5-0072eeef51b3"
+    },
+    {
+        "apertures": [],
+        "dictionary": {
+            "UID": "Cell3",
+            "pr_AreaPerOccupantPeak": 10.0,
+            "pr_CirculationType": "NoCirculation",
+            "pr_IsCooled": 1,
+            "pr_IsHeated": 1,
+            "pr_IsMechanicallyVentilated": 1,
+            "pr_IsNaturallyVentilated": 1,
+            "pr_IsOccupied": 1,
+            "pr_MainExposure": "W",
+            "pr_NumberOfExposures": 2,
+            "pr_OccupancyType": "Office:Office",
+            "pr_OccupancyType_Number": 3,
+            "rl_HasLocation_tpBB": "BlockA",
+            "rl_HasLocation_tpBS": "BuildingStorey_300cm",
+            "rl_HasLocation_tpZN": "Zone0_BS300",
+            "toplevel": false,
+            "uuid": "605e26dc-ceaf-11f1-aeab-0072eeef51b3"
+        },
+        "shells": [
+            "605ac026-ceaf-11f1-97d1-0072eeef51b3"
+        ],
+        "type": "Cell",
+        "uuid": "605e26dc-ceaf-11f1-aeab-0072eeef51b3"
+    },
+    {
+        "apertures": [],
+        "dictionary": {
+            "UID": "Cell4",
+            "pr_AreaPerOccupantPeak": 0.0,
+            "pr_CirculationType": "PublicCirculation",
+            "pr_IsCooled": 0,
+            "pr_IsHeated": 1,
+            "pr_IsMechanicallyVentilated": 0,
+            "pr_IsNaturallyVentilated": 1,
+            "pr_IsOccupied": 1,
+            "pr_MainExposure": "N",
+            "pr_NumberOfExposures": 3,
+            "pr_OccupancyType": "Circulation:Corridor",
+            "pr_OccupancyType_Number": 6,
+            "rl_HasLocation_tpBB": "BlockA",
+            "rl_HasLocation_tpBS": "BuildingStorey_300cm",
+            "rl_HasLocation_tpZN": "Zone5_BS300",
+            "toplevel": false,
+            "uuid": "605f8a82-ceaf-11f1-8b8d-0072eeef51b3"
+        },
+        "shells": [
+            "605ae732-ceaf-11f1-847b-0072eeef51b3"
+        ],
+        "type": "Cell",
+        "uuid": "605f8a82-ceaf-11f1-8b8d-0072eeef51b3"
+    },
+    {
+        "apertures": [],
+        "dictionary": {
+            "UID": "Cell6",
+            "pr_AreaPerOccupantPeak": 10.0,
+            "pr_CirculationType": "NoCirculation",
+            "pr_IsCooled": 1,
+            "pr_IsHeated": 1,
+            "pr_IsMechanicallyVentilated": 1,
+            "pr_IsNaturallyVentilated": 1,
+            "pr_IsOccupied": 1,
+            "pr_MainExposure": "S",
+            "pr_NumberOfExposures": 1,
+            "pr_OccupancyType": "Office:Office",
+            "pr_OccupancyType_Number": 3,
+            "rl_HasLocation_tpBB": "BlockA",
+            "rl_HasLocation_tpBS": "BuildingStorey_0cm",
+            "rl_HasLocation_tpZN": "Zone1_BS0",
+            "toplevel": false,
+            "uuid": "60609753-ceaf-11f1-b4ed-0072eeef51b3"
+        },
+        "shells": [
+            "605b354d-ceaf-11f1-b88a-0072eeef51b3"
+        ],
+        "type": "Cell",
+        "uuid": "60609753-ceaf-11f1-b4ed-0072eeef51b3"
+    },
+    {
+        "apertures": [],
+        "dictionary": {
+            "UID": "Cell5",
+            "pr_AreaPerOccupantPeak": 5.0,
+            "pr_CirculationType": "NoCirculation",
+            "pr_IsCooled": 0,
+            "pr_IsHeated": 1,
+            "pr_IsMechanicallyVentilated": 1,
+            "pr_IsNaturallyVentilated": 1,
+            "pr_IsOccupied": 1,
+            "pr_MainExposure": "N",
+            "pr_NumberOfExposures": 3,
+            "pr_OccupancyType": "Sport:Gym",
+            "pr_OccupancyType_Number": 7,
+            "rl_HasLocation_tpBB": "BlockB",
+            "rl_HasLocation_tpBS": "BuildingStorey_0cm",
+            "rl_HasLocation_tpZN": "Zone2_BS0",
+            "toplevel": false,
+            "uuid": "6061328f-ceaf-11f1-818a-0072eeef51b3"
+        },
+        "shells": [
+            "605b6816-ceaf-11f1-914e-0072eeef51b3"
+        ],
+        "type": "Cell",
+        "uuid": "6061328f-ceaf-11f1-818a-0072eeef51b3"
+    },
+    {
+        "apertures": [],
+        "dictionary": {
+            "UID": "Cell7",
+            "pr_AreaPerOccupantPeak": 2.5,
+            "pr_CirculationType": "NoCirculation",
+            "pr_IsCooled": 1,
+            "pr_IsHeated": 1,
+            "pr_IsMechanicallyVentilated": 1,
+            "pr_IsNaturallyVentilated": 1,
+            "pr_IsOccupied": 1,
+            "pr_MainExposure": "S",
+            "pr_NumberOfExposures": 1,
+            "pr_OccupancyType": "Office:MeetingRoom",
+            "pr_OccupancyType_Number": 4,
+            "rl_HasLocation_tpBB": "BlockA",
+            "rl_HasLocation_tpBS": "BuildingStorey_300cm",
+            "rl_HasLocation_tpZN": "Zone3_BS300",
+            "toplevel": false,
+            "uuid": "6061e393-ceaf-11f1-a2a3-0072eeef51b3"
+        },
+        "shells": [
+            "605bb692-ceaf-11f1-8a80-0072eeef51b3"
+        ],
+        "type": "Cell",
+        "uuid": "6061e393-ceaf-11f1-a2a3-0072eeef51b3"
+    },
+    {
+        "apertures": [],
+        "dictionary": {
+            "UID": "Cell8",
+            "pr_AreaPerOccupantPeak": 0.0,
+            "pr_CirculationType": "PrivateCirculation",
+            "pr_IsCooled": 0,
+            "pr_IsHeated": 0,
+            "pr_IsMechanicallyVentilated": 0,
+            "pr_IsNaturallyVentilated": 0,
+            "pr_IsOccupied": 0,
+            "pr_MainExposure": "E",
+            "pr_NumberOfExposures": 2,
+            "pr_OccupancyType": "Support:Storage",
+            "pr_OccupancyType_Number": 5,
+            "rl_HasLocation_tpBB": "BlockA",
+            "rl_HasLocation_tpBS": "BuildingStorey_300cm",
+            "rl_HasLocation_tpZN": "Zone3_BS300",
+            "toplevel": false,
+            "uuid": "60629a27-ceaf-11f1-a58f-0072eeef51b3"
+        },
+        "shells": [
+            "605bf169-ceaf-11f1-8825-0072eeef51b3"
+        ],
+        "type": "Cell",
+        "uuid": "60629a27-ceaf-11f1-a58f-0072eeef51b3"
+    },
+    {
+        "apertures": [],
+        "cells": [
+            "605c18c0-ceaf-11f1-a184-0072eeef51b3",
+            "605cb793-ceaf-11f1-9079-0072eeef51b3",
+            "605d9245-ceaf-11f1-92d5-0072eeef51b3",
+            "605e26dc-ceaf-11f1-aeab-0072eeef51b3",
+            "605f8a82-ceaf-11f1-8b8d-0072eeef51b3",
+            "60609753-ceaf-11f1-b4ed-0072eeef51b3",
+            "6061328f-ceaf-11f1-818a-0072eeef51b3",
+            "6061e393-ceaf-11f1-a2a3-0072eeef51b3",
+            "60629a27-ceaf-11f1-a58f-0072eeef51b3"
+        ],
+        "dictionary": {
+            "toplevel": true,
+            "uuid": "d62d60b2-ceae-11f1-80c8-0072eeef51b3"
+        },
+        "type": "CellComplex",
+        "uuid": "d62d60b2-ceae-11f1-80c8-0072eeef51b3"
+    }
+]

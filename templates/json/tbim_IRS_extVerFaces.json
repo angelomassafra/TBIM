@@ -1,0 +1,16 @@
+[
+    {
+        "cnFC_equalTo_pr_TopologicalType": "extVer",
+        "stFC_WallTypeName": "TBIM_ExtWall_300"
+    },
+    {
+        "cnFC_equalTo_pr_TopologicalType": "extVer",
+        "cnFC_isContained_pr_FaceExposure": [
+            "S",
+            "SE",
+            "SW"
+        ],
+        "stFC_WallTypeName": "TBIM_ExtWall_South_350",
+        "stFC_ShadingDevice": 1
+    }
+]

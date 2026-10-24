@@ -1,0 +1,38 @@
+[
+    {
+        "UID": "Cell0",
+        "pr_OccupancyType": "Education:Classroom"
+    },
+    {
+        "UID": "Cell1",
+        "pr_OccupancyType": "Circulation:Corridor"
+    },
+    {
+        "UID": "Cell2",
+        "pr_OccupancyType": "Education:Classroom"
+    },
+    {
+        "UID": "Cell3",
+        "pr_OccupancyType": "Office:Office"
+    },
+    {
+        "UID": "Cell4",
+        "pr_OccupancyType": "Circulation:Corridor"
+    },
+    {
+        "UID": "Cell5",
+        "pr_OccupancyType": "Sport:Gym"
+    },
+    {
+        "UID": "Cell6",
+        "pr_OccupancyType": "Office:Office"
+    },
+    {
+        "UID": "Cell7",
+        "pr_OccupancyType": "Office:MeetingRoom"
+    },
+    {
+        "UID": "Cell8",
+        "pr_OccupancyType": "Support:Storage"
+    }
+]

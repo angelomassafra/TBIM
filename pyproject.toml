@@ -1,0 +1,21 @@
+[project]
+name = "tbim"
+version = "1.0.0"
+description = "Topological BIM (TBIM) for building performance management - pyRevit extension"
+license = "MIT"
+requires-python = ">=3.10"
+dependencies = ["topologicpy==0.9.86", "topologic_core==8.0.4"]
+
+[project.optional-dependencies]
+dev = ["pytest>=8", "ruff>=0.6"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+
+[tool.ruff]
+line-length = 120
+target-version = "py310"
+src = ["pyRevit/pyRevit_extensions/TBIM.extension/lib"]
+
+[tool.ruff.lint]
+select = ["E", "F", "W", "I"]

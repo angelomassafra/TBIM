@@ -1,0 +1,7 @@
+title: "Dictionary"
+tooltip: "Manage the Informational Load Dictionaries (ILDs)."
+layout:
+  - Read
+  - Create
+  - Edit
+  - Delete

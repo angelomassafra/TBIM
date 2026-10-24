@@ -1,0 +1,72 @@
+[
+    {
+        "pr_OccupancyType": "Education:Classroom",
+        "pr_OccupancyDensityOperation": 0.45,
+        "pr_OccupancyDensitySafety": 0.7,
+        "pr_MechanicalVentilationRatePerPerson": 7.0,
+        "pr_MechanicalVentilationRatePerVolume": 0,
+        "pr_NaturalVentilationRate": 0.5,
+        "pr_SpaceTemperatureWinterMin": 20,
+        "pr_SpaceTemperatureSummerMax": 26
+    },
+    {
+        "pr_OccupancyType": "Office:Office",
+        "pr_OccupancyDensityOperation": 0.08,
+        "pr_OccupancyDensitySafety": 0.1,
+        "pr_MechanicalVentilationRatePerPerson": 10.0,
+        "pr_MechanicalVentilationRatePerVolume": 0,
+        "pr_NaturalVentilationRate": 0.5,
+        "pr_SpaceTemperatureWinterMin": 20,
+        "pr_SpaceTemperatureSummerMax": 26
+    },
+    {
+        "pr_OccupancyType": "Office:MeetingRoom",
+        "pr_OccupancyDensityOperation": 0.35,
+        "pr_OccupancyDensitySafety": 0.6,
+        "pr_MechanicalVentilationRatePerPerson": 10.0,
+        "pr_MechanicalVentilationRatePerVolume": 0,
+        "pr_NaturalVentilationRate": 0.5,
+        "pr_SpaceTemperatureWinterMin": 20,
+        "pr_SpaceTemperatureSummerMax": 26
+    },
+    {
+        "pr_OccupancyType": "Support:Storage",
+        "pr_OccupancyDensityOperation": 0.0,
+        "pr_OccupancyDensitySafety": 0.0,
+        "pr_MechanicalVentilationRatePerPerson": 0.0,
+        "pr_MechanicalVentilationRatePerVolume": 0,
+        "pr_NaturalVentilationRate": 0.5,
+        "pr_SpaceTemperatureWinterMin": "Undef",
+        "pr_SpaceTemperatureSummerMax": "Undef"
+    },
+    {
+        "pr_OccupancyType": "Circulation:Corridor",
+        "pr_OccupancyDensityOperation": 0.0,
+        "pr_OccupancyDensitySafety": 0.2,
+        "pr_MechanicalVentilationRatePerPerson": 0.0,
+        "pr_MechanicalVentilationRatePerVolume": 0,
+        "pr_NaturalVentilationRate": 0.5,
+        "pr_SpaceTemperatureWinterMin": 18,
+        "pr_SpaceTemperatureSummerMax": 28
+    },
+    {
+        "pr_OccupancyType": "Sport:Gym",
+        "pr_OccupancyDensityOperation": 0.1,
+        "pr_OccupancyDensitySafety": 0.5,
+        "pr_MechanicalVentilationRatePerPerson": 16.5,
+        "pr_MechanicalVentilationRatePerVolume": 0,
+        "pr_NaturalVentilationRate": 0.5,
+        "pr_SpaceTemperatureWinterMin": 18,
+        "pr_SpaceTemperatureSummerMax": 26
+    },
+    {
+        "pr_OccupancyType": "Default",
+        "pr_OccupancyDensityOperation": 0.1,
+        "pr_OccupancyDensitySafety": 0.2,
+        "pr_MechanicalVentilationRatePerPerson": 10.0,
+        "pr_MechanicalVentilationRatePerVolume": 0,
+        "pr_NaturalVentilationRate": 0.5,
+        "pr_SpaceTemperatureWinterMin": 20,
+        "pr_SpaceTemperatureSummerMax": 26
+    }
+]

@@ -1,0 +1,16 @@
+[
+    {
+        "cnFC_equalTo_pr_TopologicalType": "intVer",
+        "stFC_WallTypeName": "TBIM_Partition_100"
+    },
+    {
+        "cnFC_equalTo_pr_TopologicalType": "intVer",
+        "cnFC_contains_pr_OccupancyType": "Circulation:Corridor",
+        "stFC_WallTypeName": "TBIM_CorridorWall_150"
+    },
+    {
+        "cnFC_equalTo_pr_TopologicalType": "intVer",
+        "cnFC_contains_rl_HasLocation_tpBB": "BlockA-BlockB",
+        "stFC_WallTypeName": "TBIM_FireWall_250"
+    }
+]

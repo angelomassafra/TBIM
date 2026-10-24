@@ -1,0 +1,122 @@
+[
+    {
+        "UID": "A0.01",
+        "pr_SpaceName": "Classroom (A0.01)",
+        "pr_NetArea": 27.6,
+        "pr_GrossArea": "ByModel",
+        "pr_NetVolume": "ByModel",
+        "pr_OccupancyNumber": "ByModel",
+        "pr_IsOccupied": "ByOccupancyType",
+        "pr_IsAboveGround": 1,
+        "pr_IsRefugeArea": 0,
+        "pr_FinishFloor": "Linoleum"
+    },
+    {
+        "UID": "A0.02",
+        "pr_SpaceName": "Classroom (A0.02)",
+        "pr_NetArea": 27.6,
+        "pr_GrossArea": "ByModel",
+        "pr_NetVolume": "ByModel",
+        "pr_OccupancyNumber": "ByModel",
+        "pr_IsOccupied": "ByOccupancyType",
+        "pr_IsAboveGround": 1,
+        "pr_IsRefugeArea": 0,
+        "pr_FinishFloor": "Linoleum"
+    },
+    {
+        "UID": "A0.03",
+        "pr_SpaceName": "Office (A0.03)",
+        "pr_NetArea": 27.6,
+        "pr_GrossArea": "ByModel",
+        "pr_NetVolume": "ByModel",
+        "pr_OccupancyNumber": "ByModel",
+        "pr_IsOccupied": "ByOccupancyType",
+        "pr_IsAboveGround": 1,
+        "pr_IsRefugeArea": 0,
+        "pr_FinishFloor": "Ceramic tiles"
+    },
+    {
+        "UID": "A0.04a",
+        "pr_SpaceName": "Corridor (A0.04a)",
+        "pr_NetArea": 13.8,
+        "pr_GrossArea": "ByModel",
+        "pr_NetVolume": "ByModel",
+        "pr_OccupancyNumber": "ByModel",
+        "pr_IsOccupied": "ByOccupancyType",
+        "pr_IsAboveGround": 1,
+        "pr_IsRefugeArea": 0,
+        "pr_FinishFloor": "Ceramic tiles"
+    },
+    {
+        "UID": "A0.04b",
+        "pr_SpaceName": "Corridor (A0.04b)",
+        "pr_NetArea": 13.8,
+        "pr_GrossArea": "ByModel",
+        "pr_NetVolume": "ByModel",
+        "pr_OccupancyNumber": "ByModel",
+        "pr_IsOccupied": "ByOccupancyType",
+        "pr_IsAboveGround": 1,
+        "pr_IsRefugeArea": 0,
+        "pr_FinishFloor": "Ceramic tiles"
+    },
+    {
+        "UID": "A1.01",
+        "pr_SpaceName": "Office (A1.01)",
+        "pr_NetArea": 27.6,
+        "pr_GrossArea": "ByModel",
+        "pr_NetVolume": "ByModel",
+        "pr_OccupancyNumber": "ByModel",
+        "pr_IsOccupied": "ByOccupancyType",
+        "pr_IsAboveGround": 1,
+        "pr_IsRefugeArea": 0,
+        "pr_FinishFloor": "Ceramic tiles"
+    },
+    {
+        "UID": "A1.02",
+        "pr_SpaceName": "MeetingRoom (A1.02)",
+        "pr_NetArea": 27.6,
+        "pr_GrossArea": "ByModel",
+        "pr_NetVolume": "ByModel",
+        "pr_OccupancyNumber": "ByModel",
+        "pr_IsOccupied": "ByOccupancyType",
+        "pr_IsAboveGround": 1,
+        "pr_IsRefugeArea": 0,
+        "pr_FinishFloor": "Ceramic tiles"
+    },
+    {
+        "UID": "A1.03",
+        "pr_SpaceName": "Storage (A1.03)",
+        "pr_NetArea": 27.6,
+        "pr_GrossArea": "ByModel",
+        "pr_NetVolume": "ByModel",
+        "pr_OccupancyNumber": "ByModel",
+        "pr_IsOccupied": "ByOccupancyType",
+        "pr_IsAboveGround": 1,
+        "pr_IsRefugeArea": 0,
+        "pr_FinishFloor": "Ceramic tiles"
+    },
+    {
+        "UID": "A1.04",
+        "pr_SpaceName": "Corridor (A1.04)",
+        "pr_NetArea": 27.6,
+        "pr_GrossArea": "ByModel",
+        "pr_NetVolume": "ByModel",
+        "pr_OccupancyNumber": "ByModel",
+        "pr_IsOccupied": "ByOccupancyType",
+        "pr_IsAboveGround": 1,
+        "pr_IsRefugeArea": 0,
+        "pr_FinishFloor": "Ceramic tiles"
+    },
+    {
+        "UID": "B0.01",
+        "pr_SpaceName": "Gym (B0.01)",
+        "pr_NetArea": 58.88,
+        "pr_GrossArea": "ByModel",
+        "pr_NetVolume": "ByModel",
+        "pr_OccupancyNumber": "ByModel",
+        "pr_IsOccupied": "ByOccupancyType",
+        "pr_IsAboveGround": 1,
+        "pr_IsRefugeArea": 0,
+        "pr_FinishFloor": "Ceramic tiles"
+    }
+]

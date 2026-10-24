@@ -1,0 +1,450 @@
+[
+  {
+    "UID": "Cell0",
+    "pr_OccupancyType": "Parking:Garage"
+  },
+  {
+    "UID": "Cell1",
+    "pr_OccupancyType": "Parking:Garage"
+  },
+  {
+    "UID": "Cell10",
+    "pr_OccupancyType": "Residential:Bedroom"
+  },
+  {
+    "UID": "Cell100",
+    "pr_OccupancyType": "Circulation:Stair"
+  },
+  {
+    "UID": "Cell101",
+    "pr_OccupancyType": "Residential:Bedroom"
+  },
+  {
+    "UID": "Cell102",
+    "pr_OccupancyType": "Residential:LivingRoom"
+  },
+  {
+    "UID": "Cell103",
+    "pr_OccupancyType": "Circulation:PrivateHallway"
+  },
+  {
+    "UID": "Cell104",
+    "pr_OccupancyType": "Residential:Bedroom"
+  },
+  {
+    "UID": "Cell105",
+    "pr_OccupancyType": "Unconditioned:Attic"
+  },
+  {
+    "UID": "Cell106",
+    "pr_OccupancyType": "Support:Bathroom"
+  },
+  {
+    "UID": "Cell107",
+    "pr_OccupancyType": "Residential:Bedroom"
+  },
+  {
+    "UID": "Cell108",
+    "pr_OccupancyType": "Residential:Bedroom"
+  },
+  {
+    "UID": "Cell109",
+    "pr_OccupancyType": "Residential:Bedroom"
+  },
+  {
+    "UID": "Cell11",
+    "pr_OccupancyType": "Residential:Kitchen"
+  },
+  {
+    "UID": "Cell110",
+    "pr_OccupancyType": "Support:Bathroom"
+  },
+  {
+    "UID": "Cell111",
+    "pr_OccupancyType": "Circulation:Stair"
+  },
+  {
+    "UID": "Cell12",
+    "pr_OccupancyType": "Residential:LivingRoom"
+  },
+  {
+    "UID": "Cell13",
+    "pr_OccupancyType": "Circulation:PrivateHallway"
+  },
+  {
+    "UID": "Cell14",
+    "pr_OccupancyType": "Parking:Garage"
+  },
+  {
+    "UID": "Cell15",
+    "pr_OccupancyType": "Support:Bathroom"
+  },
+  {
+    "UID": "Cell16",
+    "pr_OccupancyType": "Circulation:Stair"
+  },
+  {
+    "UID": "Cell17",
+    "pr_OccupancyType": "Residential:Bedroom"
+  },
+  {
+    "UID": "Cell18",
+    "pr_OccupancyType": "Residential:LivingRoom"
+  },
+  {
+    "UID": "Cell19",
+    "pr_OccupancyType": "Circulation:PrivateHallway"
+  },
+  {
+    "UID": "Cell2",
+    "pr_OccupancyType": "Circulation:Stair"
+  },
+  {
+    "UID": "Cell20",
+    "pr_OccupancyType": "Residential:Bedroom"
+  },
+  {
+    "UID": "Cell21",
+    "pr_OccupancyType": "Residential:Kitchen"
+  },
+  {
+    "UID": "Cell22",
+    "pr_OccupancyType": "Residential:Bedroom"
+  },
+  {
+    "UID": "Cell23",
+    "pr_OccupancyType": "Circulation:PrivateHallway"
+  },
+  {
+    "UID": "Cell24",
+    "pr_OccupancyType": "Residential:Bedroom"
+  },
+  {
+    "UID": "Cell25",
+    "pr_OccupancyType": "Support:Bathroom"
+  },
+  {
+    "UID": "Cell26",
+    "pr_OccupancyType": "Residential:LivingRoom"
+  },
+  {
+    "UID": "Cell27",
+    "pr_OccupancyType": "Circulation:PrivateHallway"
+  },
+  {
+    "UID": "Cell28",
+    "pr_OccupancyType": "Support:Bathroom"
+  },
+  {
+    "UID": "Cell29",
+    "pr_OccupancyType": "Residential:Bedroom"
+  },
+  {
+    "UID": "Cell3",
+    "pr_OccupancyType": "Technical:BoilerRoom"
+  },
+  {
+    "UID": "Cell30",
+    "pr_OccupancyType": "Residential:Kitchen"
+  },
+  {
+    "UID": "Cell31",
+    "pr_OccupancyType": "Residential:LivingRoom"
+  },
+  {
+    "UID": "Cell32",
+    "pr_OccupancyType": "Circulation:PrivateHallway"
+  },
+  {
+    "UID": "Cell33",
+    "pr_OccupancyType": "Residential:Bedroom"
+  },
+  {
+    "UID": "Cell34",
+    "pr_OccupancyType": "Residential:Bedroom"
+  },
+  {
+    "UID": "Cell35",
+    "pr_OccupancyType": "Support:Bathroom"
+  },
+  {
+    "UID": "Cell36",
+    "pr_OccupancyType": "Support:Bathroom"
+  },
+  {
+    "UID": "Cell37",
+    "pr_OccupancyType": "Circulation:Stair"
+  },
+  {
+    "UID": "Cell38",
+    "pr_OccupancyType": "Residential:Bedroom"
+  },
+  {
+    "UID": "Cell39",
+    "pr_OccupancyType": "Residential:LivingRoom"
+  },
+  {
+    "UID": "Cell4",
+    "pr_OccupancyType": "Residential:Kitchen"
+  },
+  {
+    "UID": "Cell40",
+    "pr_OccupancyType": "Circulation:PrivateHallway"
+  },
+  {
+    "UID": "Cell41",
+    "pr_OccupancyType": "Residential:Bedroom"
+  },
+  {
+    "UID": "Cell42",
+    "pr_OccupancyType": "Residential:Kitchen"
+  },
+  {
+    "UID": "Cell43",
+    "pr_OccupancyType": "Residential:Bedroom"
+  },
+  {
+    "UID": "Cell44",
+    "pr_OccupancyType": "Support:Bathroom"
+  },
+  {
+    "UID": "Cell45",
+    "pr_OccupancyType": "Residential:Bedroom"
+  },
+  {
+    "UID": "Cell46",
+    "pr_OccupancyType": "Circulation:PrivateHallway"
+  },
+  {
+    "UID": "Cell47",
+    "pr_OccupancyType": "Residential:LivingRoom"
+  },
+  {
+    "UID": "Cell48",
+    "pr_OccupancyType": "Circulation:PrivateHallway"
+  },
+  {
+    "UID": "Cell49",
+    "pr_OccupancyType": "Support:Bathroom"
+  },
+  {
+    "UID": "Cell5",
+    "pr_OccupancyType": "Residential:Bedroom"
+  },
+  {
+    "UID": "Cell50",
+    "pr_OccupancyType": "Residential:Bedroom"
+  },
+  {
+    "UID": "Cell51",
+    "pr_OccupancyType": "Residential:Kitchen"
+  },
+  {
+    "UID": "Cell52",
+    "pr_OccupancyType": "Residential:LivingRoom"
+  },
+  {
+    "UID": "Cell53",
+    "pr_OccupancyType": "Circulation:PrivateHallway"
+  },
+  {
+    "UID": "Cell54",
+    "pr_OccupancyType": "Residential:Bedroom"
+  },
+  {
+    "UID": "Cell55",
+    "pr_OccupancyType": "Residential:Bedroom"
+  },
+  {
+    "UID": "Cell56",
+    "pr_OccupancyType": "Support:Bathroom"
+  },
+  {
+    "UID": "Cell57",
+    "pr_OccupancyType": "Support:Bathroom"
+  },
+  {
+    "UID": "Cell58",
+    "pr_OccupancyType": "Circulation:Stair"
+  },
+  {
+    "UID": "Cell59",
+    "pr_OccupancyType": "Residential:Bedroom"
+  },
+  {
+    "UID": "Cell6",
+    "pr_OccupancyType": "Circulation:PrivateHallway"
+  },
+  {
+    "UID": "Cell60",
+    "pr_OccupancyType": "Residential:LivingRoom"
+  },
+  {
+    "UID": "Cell61",
+    "pr_OccupancyType": "Circulation:PrivateHallway"
+  },
+  {
+    "UID": "Cell62",
+    "pr_OccupancyType": "Residential:Bedroom"
+  },
+  {
+    "UID": "Cell63",
+    "pr_OccupancyType": "Residential:Kitchen"
+  },
+  {
+    "UID": "Cell64",
+    "pr_OccupancyType": "Residential:Bedroom"
+  },
+  {
+    "UID": "Cell65",
+    "pr_OccupancyType": "Support:Bathroom"
+  },
+  {
+    "UID": "Cell66",
+    "pr_OccupancyType": "Residential:Bedroom"
+  },
+  {
+    "UID": "Cell67",
+    "pr_OccupancyType": "Circulation:PrivateHallway"
+  },
+  {
+    "UID": "Cell68",
+    "pr_OccupancyType": "Residential:LivingRoom"
+  },
+  {
+    "UID": "Cell69",
+    "pr_OccupancyType": "Circulation:PrivateHallway"
+  },
+  {
+    "UID": "Cell7",
+    "pr_OccupancyType": "Circulation:EntranceHall"
+  },
+  {
+    "UID": "Cell70",
+    "pr_OccupancyType": "Support:Bathroom"
+  },
+  {
+    "UID": "Cell71",
+    "pr_OccupancyType": "Residential:Bedroom"
+  },
+  {
+    "UID": "Cell72",
+    "pr_OccupancyType": "Residential:Kitchen"
+  },
+  {
+    "UID": "Cell73",
+    "pr_OccupancyType": "Residential:LivingRoom"
+  },
+  {
+    "UID": "Cell74",
+    "pr_OccupancyType": "Circulation:PrivateHallway"
+  },
+  {
+    "UID": "Cell75",
+    "pr_OccupancyType": "Residential:Bedroom"
+  },
+  {
+    "UID": "Cell76",
+    "pr_OccupancyType": "Residential:Bedroom"
+  },
+  {
+    "UID": "Cell77",
+    "pr_OccupancyType": "Support:Bathroom"
+  },
+  {
+    "UID": "Cell78",
+    "pr_OccupancyType": "Support:Bathroom"
+  },
+  {
+    "UID": "Cell79",
+    "pr_OccupancyType": "Circulation:Stair"
+  },
+  {
+    "UID": "Cell8",
+    "pr_OccupancyType": "Circulation:PrivateHallway"
+  },
+  {
+    "UID": "Cell80",
+    "pr_OccupancyType": "Residential:Bedroom"
+  },
+  {
+    "UID": "Cell81",
+    "pr_OccupancyType": "Residential:LivingRoom"
+  },
+  {
+    "UID": "Cell82",
+    "pr_OccupancyType": "Circulation:PrivateHallway"
+  },
+  {
+    "UID": "Cell83",
+    "pr_OccupancyType": "Residential:Bedroom"
+  },
+  {
+    "UID": "Cell84",
+    "pr_OccupancyType": "Residential:Kitchen"
+  },
+  {
+    "UID": "Cell85",
+    "pr_OccupancyType": "Residential:Bedroom"
+  },
+  {
+    "UID": "Cell86",
+    "pr_OccupancyType": "Support:Bathroom"
+  },
+  {
+    "UID": "Cell87",
+    "pr_OccupancyType": "Residential:Bedroom"
+  },
+  {
+    "UID": "Cell88",
+    "pr_OccupancyType": "Circulation:PrivateHallway"
+  },
+  {
+    "UID": "Cell89",
+    "pr_OccupancyType": "Residential:LivingRoom"
+  },
+  {
+    "UID": "Cell9",
+    "pr_OccupancyType": "Support:Bathroom"
+  },
+  {
+    "UID": "Cell90",
+    "pr_OccupancyType": "Circulation:PrivateHallway"
+  },
+  {
+    "UID": "Cell91",
+    "pr_OccupancyType": "Support:Bathroom"
+  },
+  {
+    "UID": "Cell92",
+    "pr_OccupancyType": "Residential:Bedroom"
+  },
+  {
+    "UID": "Cell93",
+    "pr_OccupancyType": "Residential:Kitchen"
+  },
+  {
+    "UID": "Cell94",
+    "pr_OccupancyType": "Residential:LivingRoom"
+  },
+  {
+    "UID": "Cell95",
+    "pr_OccupancyType": "Circulation:PrivateHallway"
+  },
+  {
+    "UID": "Cell96",
+    "pr_OccupancyType": "Residential:Bedroom"
+  },
+  {
+    "UID": "Cell97",
+    "pr_OccupancyType": "Residential:Bedroom"
+  },
+  {
+    "UID": "Cell98",
+    "pr_OccupancyType": "Support:Bathroom"
+  },
+  {
+    "UID": "Cell99",
+    "pr_OccupancyType": "Support:Bathroom"
+  }
+]

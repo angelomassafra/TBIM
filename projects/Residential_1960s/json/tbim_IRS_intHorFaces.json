@@ -1,0 +1,25 @@
+[
+    {
+        "cnFC_equalTo_pr_TopologicalType": "intHor",
+        "stFC_FloorTypeName": "TBIM_Solaio_Laterocemento_300",
+        "stFC_ThermalTransmittance": 1.6,
+        "stFC_Layers": "Graniglia 2 / massetto 4 / solaio laterocemento 20+4 / intonaco 1,5",
+        "stFC_ConstructionYear": 1966
+    },
+    {
+        "cnFC_equalTo_pr_TopologicalType": "intHor",
+        "cnFC_contains_pr_OccupancyType": "Parking",
+        "stFC_FloorTypeName": "TBIM_Solaio_su_Autorimessa_300",
+        "stFC_ThermalTransmittance": 1.6,
+        "stFC_Layers": "Graniglia 2 / massetto 4 / solaio laterocemento 20+4 / intonaco 1,5 (verso locali non riscaldati)",
+        "stFC_ConstructionYear": 1966
+    },
+    {
+        "cnFC_equalTo_pr_TopologicalType": "intHor",
+        "cnFC_contains_pr_OccupancyType": "Attic",
+        "stFC_FloorTypeName": "TBIM_Solaio_Sottotetto_260",
+        "stFC_ThermalTransmittance": 1.7,
+        "stFC_Layers": "Massetto 2 / solaio laterocemento 20+4 / intonaco 1,5 (sottotetto non riscaldato)",
+        "stFC_ConstructionYear": 1966
+    }
+]

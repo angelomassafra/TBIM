@@ -1,0 +1,7 @@
+title: "CellComplex"
+tooltip: "InstanceBIM: enrich the TopologicalBIM with the instance data."
+layout:
+  - MoveApertures
+  - ByOccupancyType
+  - ByTableOfSpaces
+  - ByModel

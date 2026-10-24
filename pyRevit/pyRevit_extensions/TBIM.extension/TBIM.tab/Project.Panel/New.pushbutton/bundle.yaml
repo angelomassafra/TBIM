@@ -1,0 +1,2 @@
+title: "New"
+tooltip: "Create a new TBIM project folder (3d/ for the BReps, json/ for the TBIM data) from the templates, make it the active project and link it to the open Revit model."

@@ -1,0 +1,2 @@
+title: "Clusterize"
+tooltip: "Step 3 - As Update, then cluster the cells in thermal zones (K-Means on the loads, split by storey and adjacency) and write the zone of every space."

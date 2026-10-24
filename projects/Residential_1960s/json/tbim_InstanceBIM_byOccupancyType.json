@@ -1,0 +1,102 @@
+[
+    {
+        "pr_OccupancyType": "Residential:LivingRoom",
+        "pr_OccupancyDensityOperation": 0.04,
+        "pr_OccupancyDensitySafety": 0.04,
+        "pr_MechanicalVentilationRatePerPerson": 0,
+        "pr_MechanicalVentilationRatePerVolume": 0,
+        "pr_NaturalVentilationRate": 0.5,
+        "pr_SpaceTemperatureWinterMin": 20,
+        "pr_SpaceTemperatureSummerMax": "NaN"
+    },
+    {
+        "pr_OccupancyType": "Residential:Bedroom",
+        "pr_OccupancyDensityOperation": 0.04,
+        "pr_OccupancyDensitySafety": 0.04,
+        "pr_MechanicalVentilationRatePerPerson": 0,
+        "pr_MechanicalVentilationRatePerVolume": 0,
+        "pr_NaturalVentilationRate": 0.5,
+        "pr_SpaceTemperatureWinterMin": 20,
+        "pr_SpaceTemperatureSummerMax": "NaN"
+    },
+    {
+        "pr_OccupancyType": "Residential:Kitchen",
+        "pr_OccupancyDensityOperation": 0.04,
+        "pr_OccupancyDensitySafety": 0.04,
+        "pr_MechanicalVentilationRatePerPerson": 0,
+        "pr_MechanicalVentilationRatePerVolume": 0,
+        "pr_NaturalVentilationRate": 1.0,
+        "pr_SpaceTemperatureWinterMin": 20,
+        "pr_SpaceTemperatureSummerMax": "NaN"
+    },
+    {
+        "pr_OccupancyType": "Support:Bathroom",
+        "pr_OccupancyDensityOperation": 0,
+        "pr_OccupancyDensitySafety": 0,
+        "pr_MechanicalVentilationRatePerPerson": 0,
+        "pr_MechanicalVentilationRatePerVolume": 0,
+        "pr_NaturalVentilationRate": 1.0,
+        "pr_SpaceTemperatureWinterMin": 20,
+        "pr_SpaceTemperatureSummerMax": "NaN"
+    },
+    {
+        "pr_OccupancyType": "Circulation:PrivateHallway",
+        "pr_OccupancyDensityOperation": 0,
+        "pr_OccupancyDensitySafety": 0,
+        "pr_MechanicalVentilationRatePerPerson": 0,
+        "pr_MechanicalVentilationRatePerVolume": 0,
+        "pr_NaturalVentilationRate": 0.5,
+        "pr_SpaceTemperatureWinterMin": 18,
+        "pr_SpaceTemperatureSummerMax": "NaN"
+    },
+    {
+        "pr_OccupancyType": "Circulation:Stair",
+        "pr_OccupancyDensityOperation": 0,
+        "pr_OccupancyDensitySafety": 0,
+        "pr_MechanicalVentilationRatePerPerson": 0,
+        "pr_MechanicalVentilationRatePerVolume": 0,
+        "pr_NaturalVentilationRate": 0.5,
+        "pr_SpaceTemperatureWinterMin": "NaN",
+        "pr_SpaceTemperatureSummerMax": "NaN"
+    },
+    {
+        "pr_OccupancyType": "Circulation:EntranceHall",
+        "pr_OccupancyDensityOperation": 0,
+        "pr_OccupancyDensitySafety": 0,
+        "pr_MechanicalVentilationRatePerPerson": 0,
+        "pr_MechanicalVentilationRatePerVolume": 0,
+        "pr_NaturalVentilationRate": 0.5,
+        "pr_SpaceTemperatureWinterMin": "NaN",
+        "pr_SpaceTemperatureSummerMax": "NaN"
+    },
+    {
+        "pr_OccupancyType": "Parking:Garage",
+        "pr_OccupancyDensityOperation": 0,
+        "pr_OccupancyDensitySafety": 0,
+        "pr_MechanicalVentilationRatePerPerson": 0,
+        "pr_MechanicalVentilationRatePerVolume": 0,
+        "pr_NaturalVentilationRate": 2.0,
+        "pr_SpaceTemperatureWinterMin": "NaN",
+        "pr_SpaceTemperatureSummerMax": "NaN"
+    },
+    {
+        "pr_OccupancyType": "Technical:BoilerRoom",
+        "pr_OccupancyDensityOperation": 0,
+        "pr_OccupancyDensitySafety": 0,
+        "pr_MechanicalVentilationRatePerPerson": 0,
+        "pr_MechanicalVentilationRatePerVolume": 0,
+        "pr_NaturalVentilationRate": 2.0,
+        "pr_SpaceTemperatureWinterMin": "NaN",
+        "pr_SpaceTemperatureSummerMax": "NaN"
+    },
+    {
+        "pr_OccupancyType": "Unconditioned:Attic",
+        "pr_OccupancyDensityOperation": 0,
+        "pr_OccupancyDensitySafety": 0,
+        "pr_MechanicalVentilationRatePerPerson": 0,
+        "pr_MechanicalVentilationRatePerVolume": 0,
+        "pr_NaturalVentilationRate": 1.0,
+        "pr_SpaceTemperatureWinterMin": "NaN",
+        "pr_SpaceTemperatureSummerMax": "NaN"
+    }
+]

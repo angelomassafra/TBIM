@@ -1,0 +1,2 @@
+title: "Open"
+tooltip: "Activate an existing TBIM project (or turn any folder into one) and link it to the open Revit model. Linked models activate their project automatically when opened."

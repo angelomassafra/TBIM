@@ -1,0 +1,82 @@
+[
+    {
+        "pr_OccupancyType": "Default",
+        "pr_CirculationType": "NoCirculation",
+        "pr_IsOccupied": true,
+        "pr_IsHeated": true,
+        "pr_IsCooled": true,
+        "pr_IsNaturallyVentilated": true,
+        "pr_IsMechanicallyVentilated": false,
+        "pr_AreaPerOccupantPeak": 10.0
+    },
+    {
+        "pr_OccupancyType": "Void",
+        "pr_CirculationType": "NoCirculation",
+        "pr_IsOccupied": false,
+        "pr_IsHeated": false,
+        "pr_IsCooled": false,
+        "pr_IsNaturallyVentilated": false,
+        "pr_IsMechanicallyVentilated": false,
+        "pr_AreaPerOccupantPeak": 0.0
+    },
+    {
+        "pr_OccupancyType": "Education:Classroom",
+        "pr_CirculationType": "NoCirculation",
+        "pr_IsOccupied": true,
+        "pr_IsHeated": true,
+        "pr_IsCooled": false,
+        "pr_IsNaturallyVentilated": true,
+        "pr_IsMechanicallyVentilated": true,
+        "pr_AreaPerOccupantPeak": 1.8
+    },
+    {
+        "pr_OccupancyType": "Office:Office",
+        "pr_CirculationType": "NoCirculation",
+        "pr_IsOccupied": true,
+        "pr_IsHeated": true,
+        "pr_IsCooled": true,
+        "pr_IsNaturallyVentilated": true,
+        "pr_IsMechanicallyVentilated": true,
+        "pr_AreaPerOccupantPeak": 10.0
+    },
+    {
+        "pr_OccupancyType": "Office:MeetingRoom",
+        "pr_CirculationType": "NoCirculation",
+        "pr_IsOccupied": true,
+        "pr_IsHeated": true,
+        "pr_IsCooled": true,
+        "pr_IsNaturallyVentilated": true,
+        "pr_IsMechanicallyVentilated": true,
+        "pr_AreaPerOccupantPeak": 2.5
+    },
+    {
+        "pr_OccupancyType": "Support:Storage",
+        "pr_CirculationType": "PrivateCirculation",
+        "pr_IsOccupied": false,
+        "pr_IsHeated": false,
+        "pr_IsCooled": false,
+        "pr_IsNaturallyVentilated": false,
+        "pr_IsMechanicallyVentilated": false,
+        "pr_AreaPerOccupantPeak": 0.0
+    },
+    {
+        "pr_OccupancyType": "Circulation:Corridor",
+        "pr_CirculationType": "PublicCirculation",
+        "pr_IsOccupied": true,
+        "pr_IsHeated": true,
+        "pr_IsCooled": false,
+        "pr_IsNaturallyVentilated": true,
+        "pr_IsMechanicallyVentilated": false,
+        "pr_AreaPerOccupantPeak": 0.0
+    },
+    {
+        "pr_OccupancyType": "Sport:Gym",
+        "pr_CirculationType": "NoCirculation",
+        "pr_IsOccupied": true,
+        "pr_IsHeated": true,
+        "pr_IsCooled": false,
+        "pr_IsNaturallyVentilated": true,
+        "pr_IsMechanicallyVentilated": true,
+        "pr_AreaPerOccupantPeak": 5.0
+    }
+]
