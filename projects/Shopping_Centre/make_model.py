@@ -39,7 +39,7 @@ def rooms():
     out.append(Room(-800, 0, GALLERY[0] - 200, GALLERY[1] + 200, 0, 2 * H, "Circulation:EntranceHall", "G.ENTRY",
                     "Entrance hall", "Mall"))
     out.append(Room(1000, 3000, 400, 1400, 2 * H, 2 * H + 400, "Technical:Plant", "R.P1", "Plant room 1", "Mall"))
-    out.append(Room(9000, 10500, 2500, 3500, 2 * H, 2 * H + 400, "Technical:Plant", "R.P2", "Plant room 2", "Mall"))
+    out.append(Room(9500, 11000, 2500, 3500, 2 * H, 2 * H + 400, "Technical:Plant", "R.P2", "Plant room 2", "Mall"))
     return out
 
 
@@ -61,35 +61,44 @@ BY_OCCUPANCY = [
     occupancy_data("Technical:Plant", 0, 0, 2.0, "NaN", "NaN"),
 ]
 IRS = {
-    "botHor": [rule("botHor", {}, "TBIM_Platea_Industriale_500", 0.35,
-                    "Porcelain tiles / screed / EPS 10 / RC slab 30", YEAR, FLOOR)],
+    "botHor": [rule("botHor", {}, "TBIM_Insulated_Ground_Slab", [
+        ("Porcelain stoneware tiles", 12), ("Cement screed", 60), ("EPS insulation", 100),
+        ("Reinforced concrete", 300), ("Lean concrete", 100)], YEAR, FLOOR)],
     "topHor": [
-        rule("topHor", {}, "TBIM_Copertura_Lamiera_Isolata_300", 0.26,
-             "Standing-seam roof / mineral wool 16 / precast RC beams", YEAR, ROOF),
-        rule("topHor", {"cnFC_contains_pr_OccupancyType": "Gallery"}, "TBIM_Lucernario_Galleria_200", 1.40,
-             "Skylight: laminated double glazing on steel frame", YEAR, ROOF),
+        rule("topHor", {}, "TBIM_Standing_Seam_Roof", [
+            ("Standing-seam aluminium sheet", 2), ("Mineral wool", 160), ("Precast hollow-core slab", 200)],
+            YEAR, ROOF),
+        rule("topHor", {"cnFC_contains_pr_OccupancyType": "Gallery"}, "TBIM_Gallery_Skylight", [
+            ("Laminated double glazing", 44)], YEAR, ROOF, u_value=1.40),
     ],
-    "intHor": [rule("intHor", {}, "TBIM_Solaio_Predalle_400", 0.90, "Tiles / screed / precast RC slab 30",
-                    YEAR, FLOOR)],
+    "intHor": [rule("intHor", {}, "TBIM_Hollow_Core_Floor", [
+        ("Porcelain stoneware tiles", 12), ("Cement screed", 60), ("Precast hollow-core slab", 300)], YEAR, FLOOR)],
     "intVer": [
-        rule("intVer", {}, "TBIM_Parete_Cartongesso_REI_150", 0.55, "Fire-rated gypsum partition", YEAR),
-        rule("intVer", {"cnFC_contains_pr_OccupancyType": "Gallery"}, "TBIM_Vetrine_Galleria_100", 2.80,
-             "Shop fronts: glazing on aluminium frame", YEAR),
+        rule("intVer", {}, "TBIM_Fire_Rated_Partition_EI60", [
+            ("Fire-rated gypsum board", 25), ("Mineral wool", 100), ("Fire-rated gypsum board", 25)], YEAR),
+        rule("intVer", {"cnFC_contains_pr_OccupancyType": "Gallery"}, "TBIM_Glazed_Shop_Front", [
+            ("Laminated safety glass", 24)], YEAR, u_value=2.80),
     ],
-    "extVer": [rule("extVer", {}, "TBIM_Pannello_Sandwich_Metallico_250", 0.30,
-                    "Insulated metal sandwich panel 10 / precast RC panel 15", YEAR)],
+    "extVer": [
+        rule("extVer", {}, "TBIM_Ventilated_Metal_Facade", [
+            ("Aluminium composite panel", 4), ("Ventilated air cavity", 40), ("Mineral wool", 100),
+            ("Precast concrete", 150)], YEAR),
+        rule("extVer", {"cnFC_contains_pr_OccupancyType": "DepartmentStore"}, "TBIM_Terracotta_Rainscreen_Facade", [
+            ("Terracotta rainscreen tiles", 30), ("Ventilated air cavity", 40), ("Mineral wool", 120),
+            ("Precast concrete", 150)], YEAR),
+    ],
 }
 APERTURES = {
-    "windows": [["Shop", "TBIM_Vetrina_Esterna_400x300", 400, 300, 40],
-                ["DepartmentStore", "TBIM_Vetrina_Esterna_600x300", 600, 300, 50],
-                ["FoodCourt", "TBIM_Vetrata_FoodCourt_800x300", 800, 300, 100],
-                ["EntranceHall", "TBIM_Vetrata_Ingresso_500x700", 500, 700, 50]],
-    "external_doors": [["EntranceHall", "TBIM_Porta_Automatica_400x300", 400, 300],
-                       ["DepartmentStore", "TBIM_Porta_Automatica_300x300", 300, 300]],
-    "doors": [["EntranceHall", "Gallery", "TBIM_Varco_Galleria_500x400", 500, 400],
-              ["Gallery", "DepartmentStore", "TBIM_Varco_Grande_Magazzino_600x350", 600, 350],
-              ["Gallery", "FoodCourt", "TBIM_Varco_Grande_Magazzino_600x350", 600, 350],
-              ["Gallery", "Shop", "TBIM_Ingresso_Negozio_300x300", 300, 300]],
+    "windows": [["Shop", "TBIM_Shop_Window_400x300", 400, 300, 40],
+                ["DepartmentStore", "TBIM_Store_Window_600x300", 600, 300, 50],
+                ["FoodCourt", "TBIM_Food_Court_Glazing_800x300", 800, 300, 100],
+                ["EntranceHall", "TBIM_Entrance_Glazing_500x700", 500, 700, 50]],
+    "external_doors": [["EntranceHall", "TBIM_Sliding_Door_400x300", 400, 300],
+                       ["DepartmentStore", "TBIM_Sliding_Door_300x300", 300, 300]],
+    "doors": [["EntranceHall", "Gallery", "TBIM_Gallery_Opening_500x400", 500, 400],
+              ["Gallery", "DepartmentStore", "TBIM_Store_Opening_600x350", 600, 350],
+              ["Gallery", "FoodCourt", "TBIM_Store_Opening_600x350", 600, 350],
+              ["Gallery", "Shop", "TBIM_Shop_Entrance_300x300", 300, 300]],
     "window_data": {"pr_FrameMaterial": "Aluminium, thermal break", "pr_Glazing": "Double glazing, low-e",
                     "pr_ThermalTransmittance": 1.8, "pr_SolarFactor": 0.40, "pr_ConstructionYear": YEAR},
     "door_data": {"pr_ConstructionYear": YEAR},

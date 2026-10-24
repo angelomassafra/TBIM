@@ -1,17 +1,17 @@
 [
     {
         "cnFC_equalTo_pr_TopologicalType": "extVer",
-        "stFC_WallTypeName": "TBIM_Facciata_Continua_Cellula_200",
-        "stFC_ThermalTransmittance": 1.1,
-        "stFC_Layers": "Unitized curtain wall, triple glazing, insulated spandrel",
+        "stFC_WallTypeName": "TBIM_Unitised_Curtain_Wall_200",
+        "stFC_ThermalTransmittance": 1.0,
+        "stFC_Layers": "Triple glazing unit 54 mm / Insulated spandrel panel 146 mm",
         "stFC_ConstructionYear": 2022
     },
     {
         "cnFC_equalTo_pr_TopologicalType": "extVer",
         "cnFC_contains_pr_OccupancyType": "Plant",
-        "stFC_WallTypeName": "TBIM_Schermo_Impianti_150",
-        "stFC_ThermalTransmittance": 0.35,
-        "stFC_Layers": "Metal louvres on insulated panel",
+        "stFC_WallTypeName": "TBIM_Plant_Louvre_Screen_300",
+        "stFC_ThermalTransmittance": 0.32,
+        "stFC_Layers": "Aluminium louvres 50 mm / Ventilated air cavity 50 mm / Mineral wool 100 mm / Precast concrete 100 mm",
         "stFC_ConstructionYear": 2022
     }
 ]

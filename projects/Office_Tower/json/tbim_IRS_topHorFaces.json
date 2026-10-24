@@ -1,9 +1,9 @@
 [
     {
         "cnFC_equalTo_pr_TopologicalType": "topHor",
-        "stFC_RoofTypeName": "TBIM_Copertura_Rovescia_450",
-        "stFC_ThermalTransmittance": 0.22,
-        "stFC_Layers": "Gravel / XPS 16 / waterproofing / RC slab 30",
+        "stFC_RoofTypeName": "TBIM_Inverted_Flat_Roof_590",
+        "stFC_ThermalTransmittance": 0.19,
+        "stFC_Layers": "Gravel ballast 60 mm / XPS insulation 160 mm / Bitumen membrane 10 mm / Lightweight concrete screed 60 mm / Reinforced concrete 300 mm",
         "stFC_ConstructionYear": 2022
     }
 ]

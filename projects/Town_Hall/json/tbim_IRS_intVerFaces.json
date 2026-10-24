@@ -1,17 +1,17 @@
 [
     {
         "cnFC_equalTo_pr_TopologicalType": "intVer",
-        "stFC_WallTypeName": "TBIM_Tramezzo_Mattoni_Pieni_150",
-        "stFC_ThermalTransmittance": 2.1,
-        "stFC_Layers": "Lime plaster / solid brick 12 / lime plaster",
+        "stFC_WallTypeName": "TBIM_Solid_Brick_Partition_150",
+        "stFC_ThermalTransmittance": 2.13,
+        "stFC_Layers": "Lime plaster 15 mm / Solid clay brick 120 mm / Lime plaster 15 mm",
         "stFC_ConstructionYear": 1912
     },
     {
         "cnFC_equalTo_pr_TopologicalType": "intVer",
         "cnFC_contains_pr_OccupancyType": "Corridor",
-        "stFC_WallTypeName": "TBIM_Muro_Spina_Mattoni_450",
-        "stFC_ThermalTransmittance": 1.2,
-        "stFC_Layers": "Lime plaster / solid brick 42 / lime plaster (spine wall)",
+        "stFC_WallTypeName": "TBIM_Solid_Brick_Spine_Wall_460",
+        "stFC_ThermalTransmittance": 1.11,
+        "stFC_Layers": "Lime plaster 20 mm / Solid clay brick 420 mm / Lime plaster 20 mm",
         "stFC_ConstructionYear": 1912
     }
 ]

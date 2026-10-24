@@ -1,0 +1,9 @@
+[
+    {
+        "cnFC_equalTo_pr_TopologicalType": "topHor",
+        "stFC_RoofTypeName": "TBIM_Vaulted_Roof_Terrace_600",
+        "stFC_ThermalTransmittance": 0.77,
+        "stFC_Layers": "Lime-tuff roof screed 50 mm / Tuff rubble fill 250 mm / Tuff stone vault 300 mm",
+        "stFC_ConstructionYear": 1760
+    }
+]

@@ -1,0 +1,83 @@
+{
+    "windows": [
+        [
+            "LivingRoom",
+            "TBIM_Anodized_Aluminium_French_Window_140x240",
+            140,
+            240,
+            0
+        ],
+        [
+            "Bedroom",
+            "TBIM_Anodized_Aluminium_Window_120x150",
+            120,
+            150,
+            90
+        ],
+        [
+            "Kitchen",
+            "TBIM_Anodized_Aluminium_Window_100x150",
+            100,
+            150,
+            90
+        ],
+        [
+            "Bathroom",
+            "TBIM_Anodized_Aluminium_Window_60x100",
+            60,
+            100,
+            120
+        ]
+    ],
+    "external_doors": [
+        [
+            "EntranceHall",
+            "TBIM_Anodized_Aluminium_Glazed_Door_180x240",
+            180,
+            240
+        ]
+    ],
+    "entrance_levels": [
+        280
+    ],
+    "doors": [
+        [
+            "Stair",
+            "PrivateHallway",
+            "TBIM_Solid_Timber_Flat_Door_90x210",
+            90,
+            210
+        ],
+        [
+            "Stair",
+            "EntranceHall",
+            "TBIM_Hall_Stair_Opening_120x210",
+            120,
+            210
+        ],
+        [
+            "PrivateHallway",
+            "Residential",
+            "TBIM_Hollow_Core_Timber_Door_80x210",
+            80,
+            210
+        ],
+        [
+            "PrivateHallway",
+            "Bathroom",
+            "TBIM_Hollow_Core_Timber_Door_80x210",
+            80,
+            210
+        ]
+    ],
+    "window_data": {
+        "pr_FrameMaterial": "Anodized aluminium",
+        "pr_Glazing": "Single glazing 4 mm",
+        "pr_ThermalTransmittance": 5.8,
+        "pr_SolarFactor": 0.85,
+        "pr_ConstructionYear": 1966
+    },
+    "door_data": {
+        "pr_ConstructionYear": 1966
+    }
+}

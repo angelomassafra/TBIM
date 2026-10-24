@@ -1,25 +1,25 @@
 [
     {
         "cnFC_equalTo_pr_TopologicalType": "intVer",
-        "stFC_WallTypeName": "TBIM_Tramezzo_Forato_100",
-        "stFC_ThermalTransmittance": 2.3,
-        "stFC_Layers": "Intonaco 1 / laterizio forato 8 / intonaco 1",
+        "stFC_WallTypeName": "TBIM_Hollow_Brick_Partition_110",
+        "stFC_ThermalTransmittance": 1.94,
+        "stFC_Layers": "Lime-cement plaster 15 mm / Hollow clay brick 80 mm / Lime-cement plaster 15 mm",
         "stFC_ConstructionYear": 1966
     },
     {
         "cnFC_equalTo_pr_TopologicalType": "intVer",
         "cnFC_contains_pr_OccupancyType": "Stair",
-        "stFC_WallTypeName": "TBIM_Muro_Vano_Scala_250",
-        "stFC_ThermalTransmittance": 1.5,
-        "stFC_Layers": "Intonaco 1,5 / mattoni pieni 22 / intonaco 1,5",
+        "stFC_WallTypeName": "TBIM_Solid_Brick_Stairwell_Wall_280",
+        "stFC_ThermalTransmittance": 1.56,
+        "stFC_Layers": "Lime-cement plaster 15 mm / Solid clay brick 250 mm / Lime-cement plaster 15 mm",
         "stFC_ConstructionYear": 1966
     },
     {
         "cnFC_equalTo_pr_TopologicalType": "intVer",
         "cnFC_contains_rl_HasLocation_tpBS": "BuildingStorey_0cm",
-        "stFC_WallTypeName": "TBIM_Muro_Seminterrato_CA_250",
-        "stFC_ThermalTransmittance": 2.8,
-        "stFC_Layers": "Calcestruzzo armato 25",
+        "stFC_WallTypeName": "TBIM_RC_Basement_Wall_250",
+        "stFC_ThermalTransmittance": 2.71,
+        "stFC_Layers": "Reinforced concrete 250 mm",
         "stFC_ConstructionYear": 1966
     }
 ]

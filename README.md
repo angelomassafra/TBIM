@@ -68,11 +68,11 @@ projects/                                    example projects: inputs, data of e
   Demo_School/                               the tutorial project
   Residential_1960s/                         anonymized 1960s residential case study
   Office_Tower/ School/ Shopping_Centre/     invented buildings generated with tools/building_kit.py
-  Masseria/ Town_Hall/
+  Fortified_Farmhouse/ Town_Hall/
 examples/demo/                               inputs of the tutorial and an offline run without Revit
 docs/                                        user manual, images and videos
 tests/                                       pytest suite (runs the workflow offline)
-tools/                                       building kit, room assignment and TopologicalBIM stand-in, icons
+tools/                                       building kit, materials, room assignment, TopologicalBIM stand-in, icons
 legacy/                                      material of the 2023-24 release of this repository (paper data)
 ```
 
@@ -89,11 +89,20 @@ topologicpy JSON, BREP, OBJ and dual graph.
 | [Office Tower](projects/Office_Tower) | 181 | 480 | 20-storey office tower: concrete core, ring of offices, curtain wall. |
 | [School](projects/School) | 23 | 54 | Two-storey school of the 1970s with a gym under a gable roof. |
 | [Shopping Centre](projects/Shopping_Centre) | 37 | 76 | Two-level mall: glazed gallery, shops, food court, department store. |
-| [Masseria](projects/Masseria) | 17 | 48 | Fortified farmhouse of southern Italy around a courtyard, with a tower. |
+| [Fortified Farmhouse](projects/Fortified_Farmhouse) | 17 | 48 | Fortified farmhouse (*masseria*) of southern Italy around a courtyard, with a tower. |
 | [Town Hall](projects/Town_Hall) | 35 | 82 | Early-20th-century town hall: council chamber, hipped roof, clock tower. |
 
 The last five are invented: their `make_model.py` describes the floor plans as rooms with
 [`tools/building_kit.py`](tools/building_kit.py), so new test buildings take a few dozen lines.
+
+The walls, floors and roofs of every project are layered Revit types with real materials, different for each
+building type: facing-brick cavity walls and clay-tile roofs (1960s housing), a unitised curtain wall and an
+inverted flat roof (tower), facing brick, precast panels and a steel-sheet gym roof (school), a ventilated
+metal and terracotta facade with a glazed skylight (mall), whitewashed tuff walls on vaulted roof terraces
+(farmhouse), rusticated render, exposed brick and lead (town hall). The layers are written in the
+Informational Rule Sets (`stFC_Layers`), the U-values are computed from them, and the materials (colour,
+conductivity, density, specific heat) come from [`tools/materials.py`](tools/materials.py); each project
+README lists its constructions.
 
 ## Development
 

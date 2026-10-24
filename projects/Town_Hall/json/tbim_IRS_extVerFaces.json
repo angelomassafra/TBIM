@@ -1,17 +1,17 @@
 [
     {
         "cnFC_equalTo_pr_TopologicalType": "extVer",
-        "stFC_WallTypeName": "TBIM_Muratura_Mattoni_Bugnato_600",
-        "stFC_ThermalTransmittance": 0.95,
-        "stFC_Layers": "Rusticated render / solid brick 55 / lime plaster",
+        "stFC_WallTypeName": "TBIM_Rendered_Solid_Brick_Wall_600",
+        "stFC_ThermalTransmittance": 1.0,
+        "stFC_Layers": "Rusticated lime render 30 mm / Solid clay brick 550 mm / Lime plaster 20 mm",
         "stFC_ConstructionYear": 1912
     },
     {
         "cnFC_equalTo_pr_TopologicalType": "extVer",
         "cnFC_contains_pr_OccupancyType": "Civic",
-        "stFC_WallTypeName": "TBIM_Muratura_Torre_Mattoni_450",
-        "stFC_ThermalTransmittance": 1.2,
-        "stFC_Layers": "Exposed solid brick 45 (tower)",
+        "stFC_WallTypeName": "TBIM_Exposed_Brick_Tower_Wall_450",
+        "stFC_ThermalTransmittance": 1.28,
+        "stFC_Layers": "Exposed solid brick 120 mm / Solid clay brick 330 mm",
         "stFC_ConstructionYear": 1912
     }
 ]

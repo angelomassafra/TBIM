@@ -2,16 +2,21 @@
 
 Envelope (typical of northern-Italian 1960s condominiums, cf. TABULA/EPISCOPE IT archetypes):
 - reinforced-concrete frame; cavity walls: facing brick 12 cm + air gap 6 cm + hollow brick 8 cm + plaster
-- clay-concrete (laterocemento) slabs 20+4 cm, hipped roof in clay tiles (coppi) on laterocemento
+- clay-concrete slabs 20+4 cm, hipped roof in clay tiles on an inclined clay-concrete slab
 - anodized aluminium windows with single glazing
-U-values in W/(m2 K).
+Layers from the outside (top) to the inside (bottom), thicknesses in mm, materials of tools/materials.py;
+U-values in W/(m2 K), computed from the layers.
 
     python make_rules.py
 """
 import json
 import os
+import sys
 
 HERE = os.path.join(os.path.dirname(os.path.abspath(__file__)), "json")
+sys.path.insert(0, os.path.join(os.path.dirname(os.path.abspath(__file__)), os.pardir, os.pardir, "tools"))
+
+import materials  # noqa: E402
 
 
 def ild(occupancy, circulation, occupied, heated, area_per_occupant):
@@ -56,53 +61,75 @@ BY_OCCUPANCY = [
 ]
 
 
-def rule(face_type, conditions, style, u_value, layers, key="stFC_WallTypeName"):
+def rule(face_type, conditions, name, layers, key="stFC_WallTypeName"):
     r = {"cnFC_equalTo_pr_TopologicalType": face_type}
     r.update(conditions)
-    r.update({key: style, "stFC_ThermalTransmittance": u_value, "stFC_Layers": layers, "stFC_ConstructionYear": 1966})
+    r.update({key: "%s_%d" % (name, round(materials.thickness(layers))),
+              "stFC_ThermalTransmittance": materials.u_value(layers, face_type),
+              "stFC_Layers": materials.text(layers), "stFC_ConstructionYear": 1966})
     return r
 
 
 FLOOR, ROOF = "stFC_FloorTypeName", "stFC_RoofTypeName"
+PLASTER = ("Lime-cement plaster", 15)
+SLAB = ("Clay-concrete slab", 240)
 IRS = {
     "tbim_IRS_botHorFaces.json": [
-        rule("botHor", {}, "TBIM_Platea_CA_su_Vespaio_400", 1.80,
-             "Pavimento in gres 2 / massetto 6 / platea c.a. 30 / magrone / vespaio in ghiaia", FLOOR),
+        rule("botHor", {}, "TBIM_RC_Basement_Slab", [
+            ("Porcelain stoneware tiles", 10), ("Cement screed", 60), ("Reinforced concrete", 300),
+            ("Lean concrete", 100), ("Gravel fill", 200)], FLOOR),
     ],
     "tbim_IRS_topHorFaces.json": [
-        rule("topHor", {}, "TBIM_Copertura_Piana_Torrino_280", 1.70,
-             "Guaina bituminosa / massetto 4 / solaio laterocemento 20+4 / intonaco 1,5", ROOF),
-        rule("extInc", {}, "TBIM_Tetto_Coppi_Laterocemento_260", 1.80,
-             "Coppi in laterizio / listelli / solaio inclinato laterocemento 16+4 / intonaco 1,5", ROOF),
+        rule("topHor", {}, "TBIM_Turret_Flat_Roof", [
+            ("Bitumen membrane", 8), ("Cement screed", 40), SLAB, PLASTER], ROOF),
+        rule("extInc", {}, "TBIM_Clay_Tile_Pitched_Roof", [
+            ("Clay roof tiles", 20), ("Cement mortar bed", 30), ("Clay-concrete slab", 200), PLASTER], ROOF),
     ],
     "tbim_IRS_intHorFaces.json": [
-        rule("intHor", {}, "TBIM_Solaio_Laterocemento_300", 1.60,
-             "Graniglia 2 / massetto 4 / solaio laterocemento 20+4 / intonaco 1,5", FLOOR),
-        rule("intHor", {"cnFC_contains_pr_OccupancyType": "Parking"}, "TBIM_Solaio_su_Autorimessa_300", 1.60,
-             "Graniglia 2 / massetto 4 / solaio laterocemento 20+4 / intonaco 1,5 (verso locali non riscaldati)",
+        rule("intHor", {}, "TBIM_Clay_Concrete_Floor", [
+            ("Marble-chip terrazzo tiles", 20), ("Cement screed", 40), SLAB, PLASTER], FLOOR),
+        rule("intHor", {"cnFC_contains_pr_OccupancyType": "Parking"}, "TBIM_RC_Floor_Over_Garage", [
+            ("Marble-chip terrazzo tiles", 20), ("Cement screed", 40), ("Reinforced concrete", 220), PLASTER],
              FLOOR),
-        rule("intHor", {"cnFC_contains_pr_OccupancyType": "Attic"}, "TBIM_Solaio_Sottotetto_260", 1.70,
-             "Massetto 2 / solaio laterocemento 20+4 / intonaco 1,5 (sottotetto non riscaldato)", FLOOR),
+        rule("intHor", {"cnFC_contains_pr_OccupancyType": "Attic"}, "TBIM_Attic_Floor", [
+            ("Cement screed", 30), SLAB, PLASTER], FLOOR),
     ],
     "tbim_IRS_intVerFaces.json": [
-        rule("intVer", {}, "TBIM_Tramezzo_Forato_100", 2.30, "Intonaco 1 / laterizio forato 8 / intonaco 1"),
-        rule("intVer", {"cnFC_contains_pr_OccupancyType": "Stair"}, "TBIM_Muro_Vano_Scala_250", 1.50,
-             "Intonaco 1,5 / mattoni pieni 22 / intonaco 1,5"),
-        rule("intVer", {"cnFC_contains_rl_HasLocation_tpBS": "BuildingStorey_0cm"}, "TBIM_Muro_Seminterrato_CA_250",
-             2.80, "Calcestruzzo armato 25"),
+        rule("intVer", {}, "TBIM_Hollow_Brick_Partition", [PLASTER, ("Hollow clay brick", 80), PLASTER]),
+        rule("intVer", {"cnFC_contains_pr_OccupancyType": "Stair"}, "TBIM_Solid_Brick_Stairwell_Wall", [
+            PLASTER, ("Solid clay brick", 250), PLASTER]),
+        rule("intVer", {"cnFC_contains_rl_HasLocation_tpBS": "BuildingStorey_0cm"}, "TBIM_RC_Basement_Wall", [
+            ("Reinforced concrete", 250)]),
     ],
     "tbim_IRS_extVerFaces.json": [
-        rule("extVer", {}, "TBIM_Muro_CassaVuota_Cortina_300", 1.10,
-             "Mattoni faccia vista 12 / intercapedine d'aria 6 / laterizio forato 8 / intonaco 1,5 "
-             "(telaio in c.a. a vista)"),
-        rule("extVer", {"cnFC_contains_rl_HasLocation_tpBS": "BuildingStorey_0cm"}, "TBIM_Muro_Controterra_CA_300",
-             2.20, "Calcestruzzo armato 30 / impermeabilizzazione (seminterrato)"),
-        rule("extVer", {"cnFC_contains_rl_HasLocation_tpBS": "BuildingStorey_1780cm"}, "TBIM_Muro_Torrino_Forato_250",
-             1.40, "Intonaco 1,5 / laterizio forato 22 / intonaco 1,5 (torrino scala)"),
+        rule("extVer", {}, "TBIM_Brick_Cavity_Wall", [
+            ("Facing brick", 120), ("Air cavity", 60), ("Hollow clay brick", 80), PLASTER]),
+        rule("extVer", {"cnFC_contains_rl_HasLocation_tpBS": "BuildingStorey_0cm"}, "TBIM_RC_Retaining_Wall", [
+            ("Bitumen membrane", 5), ("Reinforced concrete", 300)]),
+        rule("extVer", {"cnFC_contains_rl_HasLocation_tpBS": "BuildingStorey_1780cm"}, "TBIM_Rendered_Turret_Wall", [
+            ("Cream cement render", 15), ("Hollow clay brick", 250), PLASTER]),
     ],
 }
 
-OUTPUTS = [("tbim_ILDs.json", ILDS), ("tbim_InstanceBIM_byOccupancyType.json", BY_OCCUPANCY)] + list(IRS.items())
+# windows and doors (rules of the TopologicalBIM stand-in, tools/topologicalbim_standin.py)
+APERTURES = {
+    "windows": [["LivingRoom", "TBIM_Anodized_Aluminium_French_Window_140x240", 140, 240, 0],
+                ["Bedroom", "TBIM_Anodized_Aluminium_Window_120x150", 120, 150, 90],
+                ["Kitchen", "TBIM_Anodized_Aluminium_Window_100x150", 100, 150, 90],
+                ["Bathroom", "TBIM_Anodized_Aluminium_Window_60x100", 60, 100, 120]],
+    "external_doors": [["EntranceHall", "TBIM_Anodized_Aluminium_Glazed_Door_180x240", 180, 240]],
+    "entrance_levels": [280],  # the entrance hall is on the raised floor
+    "doors": [["Stair", "PrivateHallway", "TBIM_Solid_Timber_Flat_Door_90x210", 90, 210],
+              ["Stair", "EntranceHall", "TBIM_Hall_Stair_Opening_120x210", 120, 210],
+              ["PrivateHallway", "Residential", "TBIM_Hollow_Core_Timber_Door_80x210", 80, 210],
+              ["PrivateHallway", "Bathroom", "TBIM_Hollow_Core_Timber_Door_80x210", 80, 210]],
+    "window_data": {"pr_FrameMaterial": "Anodized aluminium", "pr_Glazing": "Single glazing 4 mm",
+                    "pr_ThermalTransmittance": 5.8, "pr_SolarFactor": 0.85, "pr_ConstructionYear": 1966},
+    "door_data": {"pr_ConstructionYear": 1966},
+}
+
+OUTPUTS = [("tbim_ILDs.json", ILDS), ("tbim_InstanceBIM_byOccupancyType.json", BY_OCCUPANCY),
+           ("standin_apertures.json", APERTURES)] + list(IRS.items())
 for name, data in OUTPUTS:
     with open(os.path.join(HERE, name), "w", encoding="utf-8") as f:
         json.dump(data, f, indent=4, ensure_ascii=False)

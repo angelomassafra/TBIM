@@ -34,22 +34,22 @@ def rooms():
                 x0, x1 = xs[i], xs[i + 1]
                 occupancy, name = FRONT[level][i]
                 space = "%d%s.F%d" % (level, side, i + 1)
-                out.append(Room(x0, x1, 0, 800, z0, z1, occupancy, space, name, "Municipio"))
+                out.append(Room(x0, x1, 0, 800, z0, z1, occupancy, space, name, "Town_Hall"))
                 occupancy, name = BACK[level]
                 out.append(Room(x0, x1, 1000, 1800, z0, z1, occupancy, "%d%s.B%d" % (level, side, i + 1), name,
-                                "Municipio"))
+                                "Town_Hall"))
             out.append(Room(xs[0], xs[2], 800, 1000, z0, z1, "Circulation:Corridor", "%d%s.COR" % (level, side),
-                            "Corridor", "Municipio"))
-    out.append(Room(1500, 2500, 0, D, 0, 450, "Circulation:EntranceHall", "0.HALL", "Entrance hall", "Municipio"))
+                            "Corridor", "Town_Hall"))
+    out.append(Room(1500, 2500, 0, D, 0, 450, "Circulation:EntranceHall", "0.HALL", "Entrance hall", "Town_Hall"))
     out.append(Room(1500, 2500, 0, D, 450, 1300, "Assembly:CouncilChamber", "1.CHAMBER", "Council chamber",
-                    "Municipio"))
-    attic = Room(950, 1050, 850, 950, 1300, 1400, "Unconditioned:Attic", "R.ATTIC", "Attic", "Tetto")
+                    "Town_Hall"))
+    attic = Room(950, 1050, 850, 950, 1300, 1400, "Unconditioned:Attic", "R.ATTIC", "Attic", "Roof")
     attic.cell = hipped_attic(0, W, 0, D, 1300, ROOF_RISE, cuts=[TOWER + (1300, 2700)])
     out.append(attic)
     out.append(Room(*(TOWER + (1300, 2000)), occupancy="Civic:ClockTower", space="T.CLOCK", name="Clock room",
-                    block="Torre"))
+                    block="Clock_Tower"))
     out.append(Room(*(TOWER + (2000, 2700)), occupancy="Civic:Belfry", space="T.BELFRY", name="Belfry",
-                    block="Torre"))
+                    block="Clock_Tower"))
     return out
 
 
@@ -81,45 +81,48 @@ BY_OCCUPANCY = [
     occupancy_data("Civic:Belfry", 0, 0, 5.0, "NaN", "NaN"),
 ]
 IRS = {
-    "botHor": [rule("botHor", {}, "TBIM_Vespaio_Pavimento_Graniglia_450", 1.70,
-                    "Terrazzo / lime screed / brick vault crawl space (vespaio)", YEAR, FLOOR)],
+    "botHor": [rule("botHor", {}, "TBIM_Ventilated_Crawl_Space_Floor", [
+        ("Venetian terrazzo", 30), ("Lime screed", 60), ("Solid brick jack-arch slab", 120), ("Air cavity", 240)],
+        YEAR, FLOOR)],
     "topHor": [
-        rule("topHor", {}, "TBIM_Copertura_Torre_Piombo_200", 2.50, "Lead sheet / timber boarding / beams",
-             YEAR, ROOF),
-        rule("extInc", {}, "TBIM_Tetto_Coppi_Capriate_250", 2.20,
-             "Clay tiles (coppi) / clay tiles board / timber trusses", YEAR, ROOF),
+        rule("topHor", {}, "TBIM_Lead_Tower_Roof", [
+            ("Lead sheet", 3), ("Timber boarding", 25), ("Timber beams", 180)], YEAR, ROOF),
+        rule("extInc", {}, "TBIM_Clay_Tile_Timber_Roof", [
+            ("Clay roof tiles", 20), ("Timber battens", 30), ("Timber boarding", 25), ("Timber rafters", 200)],
+            YEAR, ROOF),
     ],
     "intHor": [
-        rule("intHor", {}, "TBIM_Solaio_Putrelle_Voltine_350", 1.40,
-             "Terrazzo / screed / steel I-beams with brick vaults", YEAR, FLOOR),
-        rule("intHor", {"cnFC_contains_pr_OccupancyType": "Attic"}, "TBIM_Solaio_Sottotetto_Incannucciato_250", 1.60,
-             "Timber floor / reed-and-plaster ceiling", YEAR, FLOOR),
+        rule("intHor", {}, "TBIM_Steel_Jack_Arch_Floor", [
+            ("Venetian terrazzo", 30), ("Lime screed", 50), ("Solid brick jack-arch slab", 220),
+            ("Lime plaster", 15)], YEAR, FLOOR),
+        rule("intHor", {"cnFC_contains_pr_OccupancyType": "Attic"}, "TBIM_Timber_Attic_Floor", [
+            ("Timber floorboards", 25), ("Timber beams", 200), ("Reed-and-plaster ceiling", 25)], YEAR, FLOOR),
     ],
     "intVer": [
-        rule("intVer", {}, "TBIM_Tramezzo_Mattoni_Pieni_150", 2.10, "Lime plaster / solid brick 12 / lime plaster",
-             YEAR),
-        rule("intVer", {"cnFC_contains_pr_OccupancyType": "Corridor"}, "TBIM_Muro_Spina_Mattoni_450", 1.20,
-             "Lime plaster / solid brick 42 / lime plaster (spine wall)", YEAR),
+        rule("intVer", {}, "TBIM_Solid_Brick_Partition", [
+            ("Lime plaster", 15), ("Solid clay brick", 120), ("Lime plaster", 15)], YEAR),
+        rule("intVer", {"cnFC_contains_pr_OccupancyType": "Corridor"}, "TBIM_Solid_Brick_Spine_Wall", [
+            ("Lime plaster", 20), ("Solid clay brick", 420), ("Lime plaster", 20)], YEAR),
     ],
     "extVer": [
-        rule("extVer", {}, "TBIM_Muratura_Mattoni_Bugnato_600", 0.95,
-             "Rusticated render / solid brick 55 / lime plaster", YEAR),
-        rule("extVer", {"cnFC_contains_pr_OccupancyType": "Civic"}, "TBIM_Muratura_Torre_Mattoni_450", 1.20,
-             "Exposed solid brick 45 (tower)", YEAR),
+        rule("extVer", {}, "TBIM_Rendered_Solid_Brick_Wall", [
+            ("Rusticated lime render", 30), ("Solid clay brick", 550), ("Lime plaster", 20)], YEAR),
+        rule("extVer", {"cnFC_contains_pr_OccupancyType": "Civic"}, "TBIM_Exposed_Brick_Tower_Wall", [
+            ("Exposed solid brick", 120), ("Solid clay brick", 330)], YEAR),
     ],
 }
 APERTURES = {
-    "windows": [["Office", "TBIM_Finestra_Legno_Arco_120x240", 120, 240, 90],
-                ["Archive", "TBIM_Finestra_Inferriata_80x100", 80, 100, 220],
-                ["Assembly", "TBIM_Finestrone_Sala_Consiliare_160x420", 160, 420, 200],
-                ["EntranceHall", "TBIM_Finestra_Legno_Arco_120x240", 120, 240, 90],
-                ["Corridor", "TBIM_Finestra_Corridoio_100x200", 100, 200, 100],
-                ["ClockTower", "TBIM_Quadrante_Orologio_200x200", 200, 200, 300],
-                ["Belfry", "TBIM_Bifora_Campanaria_200x350", 200, 350, 200]],
-    "external_doors": [["EntranceHall", "TBIM_Portone_Municipio_250x380", 250, 380]],
-    "doors": [["EntranceHall", "Corridor", "TBIM_Porta_Vetri_Atrio_160x280", 160, 280],
-              ["CouncilChamber", "Corridor", "TBIM_Porta_Sala_Consiliare_160x300", 160, 300],
-              ["Corridor", "", "TBIM_Porta_Legno_Pannelli_100x240", 100, 240]],
+    "windows": [["Office", "TBIM_Arched_Timber_Window_120x240", 120, 240, 90],
+                ["Archive", "TBIM_Barred_Window_80x100", 80, 100, 220],
+                ["Assembly", "TBIM_Council_Chamber_Window_160x420", 160, 420, 200],
+                ["EntranceHall", "TBIM_Arched_Timber_Window_120x240", 120, 240, 90],
+                ["Corridor", "TBIM_Corridor_Window_100x200", 100, 200, 100],
+                ["ClockTower", "TBIM_Clock_Face_200x200", 200, 200, 300],
+                ["Belfry", "TBIM_Belfry_Mullioned_Window_200x350", 200, 350, 200]],
+    "external_doors": [["EntranceHall", "TBIM_Main_Portal_250x380", 250, 380]],
+    "doors": [["EntranceHall", "Corridor", "TBIM_Glazed_Hall_Door_160x280", 160, 280],
+              ["CouncilChamber", "Corridor", "TBIM_Council_Chamber_Door_160x300", 160, 300],
+              ["Corridor", "", "TBIM_Panelled_Timber_Door_100x240", 100, 240]],
     "window_data": {"pr_FrameMaterial": "Wood", "pr_Glazing": "Single glazing", "pr_ThermalTransmittance": 4.9,
                     "pr_SolarFactor": 0.85, "pr_ConstructionYear": YEAR},
     "door_data": {"pr_Material": "Wood", "pr_ConstructionYear": YEAR},

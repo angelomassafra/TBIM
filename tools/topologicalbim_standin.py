@@ -5,11 +5,13 @@ rules of ``json/standin_apertures.json`` (written by the make_model.py of the ex
 
     {"windows":        [[occupancy contains, type, width, height, sill], ...],   external vertical faces
      "external_doors": [[occupancy contains, type, width, height], ...],         ground floor, one per cell
+     "entrance_levels": [0],                                     levels of the external doors (cm, default [0])
      "doors":          [[occupancy A contains, occupancy B contains, type, width, height], ...],
      "window_data": {...}, "door_data": {...}}                                     extra aperture data
 
 and writes tbim_CellComplex_TBIM.json, tbim_CellComplex_TBIM_AperturesLocation.json and
-``json/standin_placement.txt`` (apertures and wall/floor/roof styles, read by the Revit side).
+``json/standin_placement.txt``, read by the Revit side: the apertures, the wall/floor/roof style of every face
+and the layers of every style (materials of tools/materials.py, from stFC_Layers).
 
     python tools/topologicalbim_standin.py <project folder>
 """
@@ -21,7 +23,9 @@ FOLDER = os.path.abspath(sys.argv[1])
 ROOT = os.path.abspath(os.path.join(os.path.dirname(os.path.abspath(__file__)), os.pardir))
 os.environ["TBIM_HOME"] = ROOT
 sys.path.insert(0, os.path.join(ROOT, "pyRevit", "pyRevit_extensions", "TBIM.extension", "lib"))
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 
+import materials  # noqa: E402
 from topologicpy.CellComplex import CellComplex  # noqa: E402
 from topologicpy.Face import Face  # noqa: E402
 from topologicpy.Topology import Topology  # noqa: E402
@@ -67,12 +71,15 @@ def door_rule(rules, occupancies):
 def main():
     rules = read_json(os.path.join(DATA, "standin_apertures.json"))
     cc = topo.load_cellcomplex(os.path.join(DATA, "tbim_CellComplex_Styles.json"))
-    styles = {}
+    styles, layers = {}, {}
     for face in CellComplex.Faces(cc):
         p = topo.props(face)
         for key in STYLE_KEYS:
             if p.get(key):
                 styles[p["UID"]] = p[key]
+                if p.get("stFC_Layers"):
+                    layers[p[key]] = materials.revit_spec(materials.parse(p["stFC_Layers"]))
+    entrance_levels = rules.get("entrance_levels", [0])
     records, placement, counters = [], [], {"window": 0, "door": 0}
     entrance_cells, connected = set(), set()
     for face_type, faces in topo.face_groups(cc):
@@ -83,7 +90,7 @@ def main():
             cells = topo.adjacent_cells(face, cc)
             occupancies = [topo.get(c, "pr_OccupancyType", "") for c in cells]
             uids = tuple(sorted(topo.cell_uid(c) for c in cells))
-            ground = topo.z_range(face)[0] < 1.0
+            ground = any(abs(topo.z_range(face)[0] - level) < 1.0 for level in entrance_levels)
             if face_type == "extVer":
                 door = first(rules.get("external_doors", []), occupancies[0]) if ground and cells else None
                 if door and uids[0] not in entrance_cells:
@@ -123,7 +130,10 @@ def main():
             f.write("A|%s|%s|%s|%g|%g|%g|%s|%.1f|%.1f|%.1f\n" % ((uid, kind, type_name, w, h, sill, host) + tuple(p)))
         for face_uid, style in sorted(styles.items()):
             f.write("S|%s|%s\n" % (face_uid, style))
-    print("windows %d, doors %d, styled faces %d" % (counters["window"], counters["door"], len(styles)))
+        for style, spec in sorted(layers.items()):
+            f.write("T|%s|%s\n" % (style, spec))
+    print("windows %d, doors %d, styled faces %d, layered types %d" % (
+        counters["window"], counters["door"], len(styles), len(layers)))
 
 
 if __name__ == "__main__":

@@ -1,0 +1,9 @@
+[
+    {
+        "cnFC_equalTo_pr_TopologicalType": "intVer",
+        "stFC_WallTypeName": "TBIM_Tuff_Masonry_Wall_500",
+        "stFC_ThermalTransmittance": 0.95,
+        "stFC_Layers": "Lime plaster 20 mm / Tuff ashlar 460 mm / Lime plaster 20 mm",
+        "stFC_ConstructionYear": 1760
+    }
+]

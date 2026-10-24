@@ -1,9 +1,0 @@
-[
-    {
-        "cnFC_equalTo_pr_TopologicalType": "topHor",
-        "stFC_RoofTypeName": "TBIM_Lastrico_Solare_Volta_600",
-        "stFC_ThermalTransmittance": 1.3,
-        "stFC_Layers": "Lime-tuff screed (lastrico) / fill / tuff vault 30",
-        "stFC_ConstructionYear": 1760
-    }
-]

@@ -6,8 +6,8 @@
             140
         ],
         "pr_OccupancyType": "Parking:Garage",
-        "space": "S.autorimessa",
-        "name": "Autorimessa",
+        "space": "S.garage",
+        "name": "Garage",
         "flat": "-"
     },
     {
@@ -17,8 +17,8 @@
             140
         ],
         "pr_OccupancyType": "Parking:Garage",
-        "space": "S.box_ovest",
-        "name": "Box Ovest",
+        "space": "S.garage_west",
+        "name": "Garage west",
         "flat": "-"
     },
     {
@@ -28,8 +28,8 @@
             140
         ],
         "pr_OccupancyType": "Circulation:Stair",
-        "space": "S.scala",
-        "name": "Scala",
+        "space": "S.stair",
+        "name": "Stair",
         "flat": "-"
     },
     {
@@ -39,8 +39,8 @@
             140
         ],
         "pr_OccupancyType": "Parking:Garage",
-        "space": "S.box_nord",
-        "name": "Box Nord",
+        "space": "S.garage_north",
+        "name": "Garage north",
         "flat": "-"
     },
     {
@@ -50,8 +50,8 @@
             140
         ],
         "pr_OccupancyType": "Technical:BoilerRoom",
-        "space": "S.centrale_termica",
-        "name": "Centrale Termica",
+        "space": "S.boiler_room",
+        "name": "Boiler room",
         "flat": "-"
     },
     {
@@ -62,7 +62,7 @@
         ],
         "pr_OccupancyType": "Residential:LivingRoom",
         "space": "RA.01",
-        "name": "Soggiorno",
+        "name": "Living",
         "flat": "RA"
     },
     {
@@ -73,7 +73,7 @@
         ],
         "pr_OccupancyType": "Residential:Kitchen",
         "space": "RA.02",
-        "name": "Cucina",
+        "name": "Kitchen",
         "flat": "RA"
     },
     {
@@ -84,7 +84,7 @@
         ],
         "pr_OccupancyType": "Residential:Bedroom",
         "space": "RA.03",
-        "name": "Letto1",
+        "name": "Bedroom1",
         "flat": "RA"
     },
     {
@@ -95,7 +95,7 @@
         ],
         "pr_OccupancyType": "Support:Bathroom",
         "space": "RA.04",
-        "name": "Bagno1",
+        "name": "Bath1",
         "flat": "RA"
     },
     {
@@ -106,7 +106,7 @@
         ],
         "pr_OccupancyType": "Residential:Bedroom",
         "space": "RA.05",
-        "name": "Letto2",
+        "name": "Bedroom2",
         "flat": "RA"
     },
     {
@@ -117,7 +117,7 @@
         ],
         "pr_OccupancyType": "Circulation:PrivateHallway",
         "space": "RA.06",
-        "name": "Disimpegno",
+        "name": "Hallway",
         "flat": "RA"
     },
     {
@@ -128,7 +128,7 @@
         ],
         "pr_OccupancyType": "Circulation:PrivateHallway",
         "space": "RA.07",
-        "name": "Ingresso",
+        "name": "Entry",
         "flat": "RA"
     },
     {
@@ -139,7 +139,7 @@
         ],
         "pr_OccupancyType": "Support:Bathroom",
         "space": "RA.08",
-        "name": "Bagno2",
+        "name": "Bath2",
         "flat": "RA"
     },
     {
@@ -150,7 +150,7 @@
         ],
         "pr_OccupancyType": "Residential:Bedroom",
         "space": "RA.09",
-        "name": "Letto3",
+        "name": "Bedroom3",
         "flat": "RA"
     },
     {
@@ -160,8 +160,8 @@
             430.0
         ],
         "pr_OccupancyType": "Circulation:Stair",
-        "space": "R.scala",
-        "name": "Scala",
+        "space": "R.stair",
+        "name": "Stair",
         "flat": "-"
     },
     {
@@ -171,8 +171,8 @@
             430.0
         ],
         "pr_OccupancyType": "Circulation:EntranceHall",
-        "space": "R.atrio",
-        "name": "Atrio",
+        "space": "R.entrance_hall",
+        "name": "Entrance hall",
         "flat": "-"
     },
     {
@@ -183,7 +183,7 @@
         ],
         "pr_OccupancyType": "Residential:Kitchen",
         "space": "RB.01",
-        "name": "Cucina",
+        "name": "Kitchen",
         "flat": "RB"
     },
     {
@@ -194,7 +194,7 @@
         ],
         "pr_OccupancyType": "Circulation:PrivateHallway",
         "space": "RB.02",
-        "name": "Ingresso",
+        "name": "Entry",
         "flat": "RB"
     },
     {
@@ -205,7 +205,7 @@
         ],
         "pr_OccupancyType": "Residential:Bedroom",
         "space": "RB.03",
-        "name": "Letto1",
+        "name": "Bedroom1",
         "flat": "RB"
     },
     {
@@ -216,7 +216,7 @@
         ],
         "pr_OccupancyType": "Support:Bathroom",
         "space": "RB.04",
-        "name": "Bagno1",
+        "name": "Bath1",
         "flat": "RB"
     },
     {
@@ -227,7 +227,7 @@
         ],
         "pr_OccupancyType": "Residential:Bedroom",
         "space": "RB.05",
-        "name": "Letto2",
+        "name": "Bedroom2",
         "flat": "RB"
     },
     {
@@ -238,7 +238,7 @@
         ],
         "pr_OccupancyType": "Residential:Bedroom",
         "space": "RB.06",
-        "name": "Letto3",
+        "name": "Bedroom3",
         "flat": "RB"
     },
     {
@@ -249,7 +249,7 @@
         ],
         "pr_OccupancyType": "Circulation:PrivateHallway",
         "space": "RB.07",
-        "name": "Corridoio",
+        "name": "Corridor",
         "flat": "RB"
     },
     {
@@ -260,7 +260,7 @@
         ],
         "pr_OccupancyType": "Support:Bathroom",
         "space": "RB.08",
-        "name": "Bagno2",
+        "name": "Bath2",
         "flat": "RB"
     },
     {
@@ -271,7 +271,7 @@
         ],
         "pr_OccupancyType": "Residential:Bedroom",
         "space": "RB.09",
-        "name": "Letto4",
+        "name": "Bedroom4",
         "flat": "RB"
     },
     {
@@ -282,7 +282,7 @@
         ],
         "pr_OccupancyType": "Residential:LivingRoom",
         "space": "RB.10",
-        "name": "Tinello",
+        "name": "Dining",
         "flat": "RB"
     },
     {
@@ -293,7 +293,7 @@
         ],
         "pr_OccupancyType": "Residential:LivingRoom",
         "space": "1A.01",
-        "name": "Soggiorno",
+        "name": "Living",
         "flat": "1A"
     },
     {
@@ -304,7 +304,7 @@
         ],
         "pr_OccupancyType": "Residential:Kitchen",
         "space": "1A.02",
-        "name": "Cucina",
+        "name": "Kitchen",
         "flat": "1A"
     },
     {
@@ -315,7 +315,7 @@
         ],
         "pr_OccupancyType": "Residential:Bedroom",
         "space": "1A.03",
-        "name": "Letto1",
+        "name": "Bedroom1",
         "flat": "1A"
     },
     {
@@ -326,7 +326,7 @@
         ],
         "pr_OccupancyType": "Support:Bathroom",
         "space": "1A.04",
-        "name": "Bagno1",
+        "name": "Bath1",
         "flat": "1A"
     },
     {
@@ -337,7 +337,7 @@
         ],
         "pr_OccupancyType": "Residential:Bedroom",
         "space": "1A.05",
-        "name": "Letto2",
+        "name": "Bedroom2",
         "flat": "1A"
     },
     {
@@ -348,7 +348,7 @@
         ],
         "pr_OccupancyType": "Circulation:PrivateHallway",
         "space": "1A.06",
-        "name": "Disimpegno",
+        "name": "Hallway",
         "flat": "1A"
     },
     {
@@ -359,7 +359,7 @@
         ],
         "pr_OccupancyType": "Circulation:PrivateHallway",
         "space": "1A.07",
-        "name": "Ingresso",
+        "name": "Entry",
         "flat": "1A"
     },
     {
@@ -370,7 +370,7 @@
         ],
         "pr_OccupancyType": "Support:Bathroom",
         "space": "1A.08",
-        "name": "Bagno2",
+        "name": "Bath2",
         "flat": "1A"
     },
     {
@@ -381,7 +381,7 @@
         ],
         "pr_OccupancyType": "Residential:Bedroom",
         "space": "1A.09",
-        "name": "Letto3",
+        "name": "Bedroom3",
         "flat": "1A"
     },
     {
@@ -391,8 +391,8 @@
             730.0
         ],
         "pr_OccupancyType": "Circulation:Stair",
-        "space": "1.scala",
-        "name": "Scala",
+        "space": "1.stair",
+        "name": "Stair",
         "flat": "-"
     },
     {
@@ -403,7 +403,7 @@
         ],
         "pr_OccupancyType": "Residential:LivingRoom",
         "space": "1B.01",
-        "name": "Soggiorno",
+        "name": "Living",
         "flat": "1B"
     },
     {
@@ -414,7 +414,7 @@
         ],
         "pr_OccupancyType": "Residential:Kitchen",
         "space": "1B.02",
-        "name": "Cucina",
+        "name": "Kitchen",
         "flat": "1B"
     },
     {
@@ -425,7 +425,7 @@
         ],
         "pr_OccupancyType": "Circulation:PrivateHallway",
         "space": "1B.03",
-        "name": "Ingresso",
+        "name": "Entry",
         "flat": "1B"
     },
     {
@@ -436,7 +436,7 @@
         ],
         "pr_OccupancyType": "Residential:Bedroom",
         "space": "1B.04",
-        "name": "Letto1",
+        "name": "Bedroom1",
         "flat": "1B"
     },
     {
@@ -447,7 +447,7 @@
         ],
         "pr_OccupancyType": "Support:Bathroom",
         "space": "1B.05",
-        "name": "Bagno1",
+        "name": "Bath1",
         "flat": "1B"
     },
     {
@@ -458,7 +458,7 @@
         ],
         "pr_OccupancyType": "Residential:Bedroom",
         "space": "1B.06",
-        "name": "Letto2",
+        "name": "Bedroom2",
         "flat": "1B"
     },
     {
@@ -469,7 +469,7 @@
         ],
         "pr_OccupancyType": "Residential:Bedroom",
         "space": "1B.07",
-        "name": "Letto3",
+        "name": "Bedroom3",
         "flat": "1B"
     },
     {
@@ -480,7 +480,7 @@
         ],
         "pr_OccupancyType": "Circulation:PrivateHallway",
         "space": "1B.08",
-        "name": "Corridoio",
+        "name": "Corridor",
         "flat": "1B"
     },
     {
@@ -491,7 +491,7 @@
         ],
         "pr_OccupancyType": "Support:Bathroom",
         "space": "1B.09",
-        "name": "Bagno2",
+        "name": "Bath2",
         "flat": "1B"
     },
     {
@@ -502,7 +502,7 @@
         ],
         "pr_OccupancyType": "Residential:Bedroom",
         "space": "1B.10",
-        "name": "Letto4",
+        "name": "Bedroom4",
         "flat": "1B"
     },
     {
@@ -513,7 +513,7 @@
         ],
         "pr_OccupancyType": "Residential:LivingRoom",
         "space": "1B.11",
-        "name": "Tinello",
+        "name": "Dining",
         "flat": "1B"
     },
     {
@@ -524,7 +524,7 @@
         ],
         "pr_OccupancyType": "Residential:LivingRoom",
         "space": "2A.01",
-        "name": "Soggiorno",
+        "name": "Living",
         "flat": "2A"
     },
     {
@@ -535,7 +535,7 @@
         ],
         "pr_OccupancyType": "Residential:Kitchen",
         "space": "2A.02",
-        "name": "Cucina",
+        "name": "Kitchen",
         "flat": "2A"
     },
     {
@@ -546,7 +546,7 @@
         ],
         "pr_OccupancyType": "Residential:Bedroom",
         "space": "2A.03",
-        "name": "Letto1",
+        "name": "Bedroom1",
         "flat": "2A"
     },
     {
@@ -557,7 +557,7 @@
         ],
         "pr_OccupancyType": "Support:Bathroom",
         "space": "2A.04",
-        "name": "Bagno1",
+        "name": "Bath1",
         "flat": "2A"
     },
     {
@@ -568,7 +568,7 @@
         ],
         "pr_OccupancyType": "Residential:Bedroom",
         "space": "2A.05",
-        "name": "Letto2",
+        "name": "Bedroom2",
         "flat": "2A"
     },
     {
@@ -579,7 +579,7 @@
         ],
         "pr_OccupancyType": "Circulation:PrivateHallway",
         "space": "2A.06",
-        "name": "Disimpegno",
+        "name": "Hallway",
         "flat": "2A"
     },
     {
@@ -590,7 +590,7 @@
         ],
         "pr_OccupancyType": "Circulation:PrivateHallway",
         "space": "2A.07",
-        "name": "Ingresso",
+        "name": "Entry",
         "flat": "2A"
     },
     {
@@ -601,7 +601,7 @@
         ],
         "pr_OccupancyType": "Support:Bathroom",
         "space": "2A.08",
-        "name": "Bagno2",
+        "name": "Bath2",
         "flat": "2A"
     },
     {
@@ -612,7 +612,7 @@
         ],
         "pr_OccupancyType": "Residential:Bedroom",
         "space": "2A.09",
-        "name": "Letto3",
+        "name": "Bedroom3",
         "flat": "2A"
     },
     {
@@ -622,8 +622,8 @@
             1030.0
         ],
         "pr_OccupancyType": "Circulation:Stair",
-        "space": "2.scala",
-        "name": "Scala",
+        "space": "2.stair",
+        "name": "Stair",
         "flat": "-"
     },
     {
@@ -634,7 +634,7 @@
         ],
         "pr_OccupancyType": "Residential:LivingRoom",
         "space": "2B.01",
-        "name": "Soggiorno",
+        "name": "Living",
         "flat": "2B"
     },
     {
@@ -645,7 +645,7 @@
         ],
         "pr_OccupancyType": "Residential:Kitchen",
         "space": "2B.02",
-        "name": "Cucina",
+        "name": "Kitchen",
         "flat": "2B"
     },
     {
@@ -656,7 +656,7 @@
         ],
         "pr_OccupancyType": "Circulation:PrivateHallway",
         "space": "2B.03",
-        "name": "Ingresso",
+        "name": "Entry",
         "flat": "2B"
     },
     {
@@ -667,7 +667,7 @@
         ],
         "pr_OccupancyType": "Residential:Bedroom",
         "space": "2B.04",
-        "name": "Letto1",
+        "name": "Bedroom1",
         "flat": "2B"
     },
     {
@@ -678,7 +678,7 @@
         ],
         "pr_OccupancyType": "Support:Bathroom",
         "space": "2B.05",
-        "name": "Bagno1",
+        "name": "Bath1",
         "flat": "2B"
     },
     {
@@ -689,7 +689,7 @@
         ],
         "pr_OccupancyType": "Residential:Bedroom",
         "space": "2B.06",
-        "name": "Letto2",
+        "name": "Bedroom2",
         "flat": "2B"
     },
     {
@@ -700,7 +700,7 @@
         ],
         "pr_OccupancyType": "Residential:Bedroom",
         "space": "2B.07",
-        "name": "Letto3",
+        "name": "Bedroom3",
         "flat": "2B"
     },
     {
@@ -711,7 +711,7 @@
         ],
         "pr_OccupancyType": "Circulation:PrivateHallway",
         "space": "2B.08",
-        "name": "Corridoio",
+        "name": "Corridor",
         "flat": "2B"
     },
     {
@@ -722,7 +722,7 @@
         ],
         "pr_OccupancyType": "Support:Bathroom",
         "space": "2B.09",
-        "name": "Bagno2",
+        "name": "Bath2",
         "flat": "2B"
     },
     {
@@ -733,7 +733,7 @@
         ],
         "pr_OccupancyType": "Residential:Bedroom",
         "space": "2B.10",
-        "name": "Letto4",
+        "name": "Bedroom4",
         "flat": "2B"
     },
     {
@@ -744,7 +744,7 @@
         ],
         "pr_OccupancyType": "Residential:LivingRoom",
         "space": "2B.11",
-        "name": "Tinello",
+        "name": "Dining",
         "flat": "2B"
     },
     {
@@ -755,7 +755,7 @@
         ],
         "pr_OccupancyType": "Residential:LivingRoom",
         "space": "3A.01",
-        "name": "Soggiorno",
+        "name": "Living",
         "flat": "3A"
     },
     {
@@ -766,7 +766,7 @@
         ],
         "pr_OccupancyType": "Residential:Kitchen",
         "space": "3A.02",
-        "name": "Cucina",
+        "name": "Kitchen",
         "flat": "3A"
     },
     {
@@ -777,7 +777,7 @@
         ],
         "pr_OccupancyType": "Residential:Bedroom",
         "space": "3A.03",
-        "name": "Letto1",
+        "name": "Bedroom1",
         "flat": "3A"
     },
     {
@@ -788,7 +788,7 @@
         ],
         "pr_OccupancyType": "Support:Bathroom",
         "space": "3A.04",
-        "name": "Bagno1",
+        "name": "Bath1",
         "flat": "3A"
     },
     {
@@ -799,7 +799,7 @@
         ],
         "pr_OccupancyType": "Residential:Bedroom",
         "space": "3A.05",
-        "name": "Letto2",
+        "name": "Bedroom2",
         "flat": "3A"
     },
     {
@@ -810,7 +810,7 @@
         ],
         "pr_OccupancyType": "Circulation:PrivateHallway",
         "space": "3A.06",
-        "name": "Disimpegno",
+        "name": "Hallway",
         "flat": "3A"
     },
     {
@@ -821,7 +821,7 @@
         ],
         "pr_OccupancyType": "Circulation:PrivateHallway",
         "space": "3A.07",
-        "name": "Ingresso",
+        "name": "Entry",
         "flat": "3A"
     },
     {
@@ -832,7 +832,7 @@
         ],
         "pr_OccupancyType": "Support:Bathroom",
         "space": "3A.08",
-        "name": "Bagno2",
+        "name": "Bath2",
         "flat": "3A"
     },
     {
@@ -843,7 +843,7 @@
         ],
         "pr_OccupancyType": "Residential:Bedroom",
         "space": "3A.09",
-        "name": "Letto3",
+        "name": "Bedroom3",
         "flat": "3A"
     },
     {
@@ -853,8 +853,8 @@
             1330.0
         ],
         "pr_OccupancyType": "Circulation:Stair",
-        "space": "3.scala",
-        "name": "Scala",
+        "space": "3.stair",
+        "name": "Stair",
         "flat": "-"
     },
     {
@@ -865,7 +865,7 @@
         ],
         "pr_OccupancyType": "Residential:LivingRoom",
         "space": "3B.01",
-        "name": "Soggiorno",
+        "name": "Living",
         "flat": "3B"
     },
     {
@@ -876,7 +876,7 @@
         ],
         "pr_OccupancyType": "Residential:Kitchen",
         "space": "3B.02",
-        "name": "Cucina",
+        "name": "Kitchen",
         "flat": "3B"
     },
     {
@@ -887,7 +887,7 @@
         ],
         "pr_OccupancyType": "Circulation:PrivateHallway",
         "space": "3B.03",
-        "name": "Ingresso",
+        "name": "Entry",
         "flat": "3B"
     },
     {
@@ -898,7 +898,7 @@
         ],
         "pr_OccupancyType": "Residential:Bedroom",
         "space": "3B.04",
-        "name": "Letto1",
+        "name": "Bedroom1",
         "flat": "3B"
     },
     {
@@ -909,7 +909,7 @@
         ],
         "pr_OccupancyType": "Support:Bathroom",
         "space": "3B.05",
-        "name": "Bagno1",
+        "name": "Bath1",
         "flat": "3B"
     },
     {
@@ -920,7 +920,7 @@
         ],
         "pr_OccupancyType": "Residential:Bedroom",
         "space": "3B.06",
-        "name": "Letto2",
+        "name": "Bedroom2",
         "flat": "3B"
     },
     {
@@ -931,7 +931,7 @@
         ],
         "pr_OccupancyType": "Residential:Bedroom",
         "space": "3B.07",
-        "name": "Letto3",
+        "name": "Bedroom3",
         "flat": "3B"
     },
     {
@@ -942,7 +942,7 @@
         ],
         "pr_OccupancyType": "Circulation:PrivateHallway",
         "space": "3B.08",
-        "name": "Corridoio",
+        "name": "Corridor",
         "flat": "3B"
     },
     {
@@ -953,7 +953,7 @@
         ],
         "pr_OccupancyType": "Support:Bathroom",
         "space": "3B.09",
-        "name": "Bagno2",
+        "name": "Bath2",
         "flat": "3B"
     },
     {
@@ -964,7 +964,7 @@
         ],
         "pr_OccupancyType": "Residential:Bedroom",
         "space": "3B.10",
-        "name": "Letto4",
+        "name": "Bedroom4",
         "flat": "3B"
     },
     {
@@ -975,7 +975,7 @@
         ],
         "pr_OccupancyType": "Residential:LivingRoom",
         "space": "3B.11",
-        "name": "Tinello",
+        "name": "Dining",
         "flat": "3B"
     },
     {
@@ -986,7 +986,7 @@
         ],
         "pr_OccupancyType": "Residential:LivingRoom",
         "space": "4A.01",
-        "name": "Soggiorno",
+        "name": "Living",
         "flat": "4A"
     },
     {
@@ -997,7 +997,7 @@
         ],
         "pr_OccupancyType": "Residential:Kitchen",
         "space": "4A.02",
-        "name": "Cucina",
+        "name": "Kitchen",
         "flat": "4A"
     },
     {
@@ -1008,7 +1008,7 @@
         ],
         "pr_OccupancyType": "Residential:Bedroom",
         "space": "4A.03",
-        "name": "Letto1",
+        "name": "Bedroom1",
         "flat": "4A"
     },
     {
@@ -1019,7 +1019,7 @@
         ],
         "pr_OccupancyType": "Support:Bathroom",
         "space": "4A.04",
-        "name": "Bagno1",
+        "name": "Bath1",
         "flat": "4A"
     },
     {
@@ -1030,7 +1030,7 @@
         ],
         "pr_OccupancyType": "Residential:Bedroom",
         "space": "4A.05",
-        "name": "Letto2",
+        "name": "Bedroom2",
         "flat": "4A"
     },
     {
@@ -1041,7 +1041,7 @@
         ],
         "pr_OccupancyType": "Circulation:PrivateHallway",
         "space": "4A.06",
-        "name": "Disimpegno",
+        "name": "Hallway",
         "flat": "4A"
     },
     {
@@ -1052,7 +1052,7 @@
         ],
         "pr_OccupancyType": "Circulation:PrivateHallway",
         "space": "4A.07",
-        "name": "Ingresso",
+        "name": "Entry",
         "flat": "4A"
     },
     {
@@ -1063,7 +1063,7 @@
         ],
         "pr_OccupancyType": "Support:Bathroom",
         "space": "4A.08",
-        "name": "Bagno2",
+        "name": "Bath2",
         "flat": "4A"
     },
     {
@@ -1074,7 +1074,7 @@
         ],
         "pr_OccupancyType": "Residential:Bedroom",
         "space": "4A.09",
-        "name": "Letto3",
+        "name": "Bedroom3",
         "flat": "4A"
     },
     {
@@ -1084,8 +1084,8 @@
             1630.0
         ],
         "pr_OccupancyType": "Circulation:Stair",
-        "space": "4.scala",
-        "name": "Scala",
+        "space": "4.stair",
+        "name": "Stair",
         "flat": "-"
     },
     {
@@ -1096,7 +1096,7 @@
         ],
         "pr_OccupancyType": "Residential:LivingRoom",
         "space": "4B.01",
-        "name": "Soggiorno",
+        "name": "Living",
         "flat": "4B"
     },
     {
@@ -1107,7 +1107,7 @@
         ],
         "pr_OccupancyType": "Residential:Kitchen",
         "space": "4B.02",
-        "name": "Cucina",
+        "name": "Kitchen",
         "flat": "4B"
     },
     {
@@ -1118,7 +1118,7 @@
         ],
         "pr_OccupancyType": "Circulation:PrivateHallway",
         "space": "4B.03",
-        "name": "Ingresso",
+        "name": "Entry",
         "flat": "4B"
     },
     {
@@ -1129,7 +1129,7 @@
         ],
         "pr_OccupancyType": "Residential:Bedroom",
         "space": "4B.04",
-        "name": "Letto1",
+        "name": "Bedroom1",
         "flat": "4B"
     },
     {
@@ -1140,7 +1140,7 @@
         ],
         "pr_OccupancyType": "Support:Bathroom",
         "space": "4B.05",
-        "name": "Bagno1",
+        "name": "Bath1",
         "flat": "4B"
     },
     {
@@ -1151,7 +1151,7 @@
         ],
         "pr_OccupancyType": "Residential:Bedroom",
         "space": "4B.06",
-        "name": "Letto2",
+        "name": "Bedroom2",
         "flat": "4B"
     },
     {
@@ -1162,7 +1162,7 @@
         ],
         "pr_OccupancyType": "Residential:Bedroom",
         "space": "4B.07",
-        "name": "Letto3",
+        "name": "Bedroom3",
         "flat": "4B"
     },
     {
@@ -1173,7 +1173,7 @@
         ],
         "pr_OccupancyType": "Circulation:PrivateHallway",
         "space": "4B.08",
-        "name": "Corridoio",
+        "name": "Corridor",
         "flat": "4B"
     },
     {
@@ -1184,7 +1184,7 @@
         ],
         "pr_OccupancyType": "Support:Bathroom",
         "space": "4B.09",
-        "name": "Bagno2",
+        "name": "Bath2",
         "flat": "4B"
     },
     {
@@ -1195,7 +1195,7 @@
         ],
         "pr_OccupancyType": "Residential:Bedroom",
         "space": "4B.10",
-        "name": "Letto4",
+        "name": "Bedroom4",
         "flat": "4B"
     },
     {
@@ -1206,7 +1206,7 @@
         ],
         "pr_OccupancyType": "Residential:LivingRoom",
         "space": "4B.11",
-        "name": "Tinello",
+        "name": "Dining",
         "flat": "4B"
     },
     {
@@ -1216,8 +1216,8 @@
             1830.0
         ],
         "pr_OccupancyType": "Unconditioned:Attic",
-        "space": "T.sottotetto",
-        "name": "Sottotetto",
+        "space": "T.attic",
+        "name": "Attic",
         "flat": "-"
     },
     {
@@ -1227,8 +1227,8 @@
             1930.0
         ],
         "pr_OccupancyType": "Circulation:Stair",
-        "space": "T.torrino",
-        "name": "Torrino scala",
+        "space": "T.stair_turret",
+        "name": "Stair turret",
         "flat": "-"
     }
 ]

@@ -1,9 +1,9 @@
 [
     {
         "cnFC_equalTo_pr_TopologicalType": "botHor",
-        "stFC_FloorTypeName": "TBIM_Platea_Industriale_500",
-        "stFC_ThermalTransmittance": 0.35,
-        "stFC_Layers": "Porcelain tiles / screed / EPS 10 / RC slab 30",
+        "stFC_FloorTypeName": "TBIM_Insulated_Ground_Slab_572",
+        "stFC_ThermalTransmittance": 0.3,
+        "stFC_Layers": "Porcelain stoneware tiles 12 mm / Cement screed 60 mm / EPS insulation 100 mm / Reinforced concrete 300 mm / Lean concrete 100 mm",
         "stFC_ConstructionYear": 2008
     }
 ]

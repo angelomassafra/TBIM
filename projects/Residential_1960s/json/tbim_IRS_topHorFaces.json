@@ -1,16 +1,16 @@
 [
     {
         "cnFC_equalTo_pr_TopologicalType": "topHor",
-        "stFC_RoofTypeName": "TBIM_Copertura_Piana_Torrino_280",
-        "stFC_ThermalTransmittance": 1.7,
-        "stFC_Layers": "Guaina bituminosa / massetto 4 / solaio laterocemento 20+4 / intonaco 1,5",
+        "stFC_RoofTypeName": "TBIM_Turret_Flat_Roof_303",
+        "stFC_ThermalTransmittance": 1.68,
+        "stFC_Layers": "Bitumen membrane 8 mm / Cement screed 40 mm / Clay-concrete slab 240 mm / Lime-cement plaster 15 mm",
         "stFC_ConstructionYear": 1966
     },
     {
         "cnFC_equalTo_pr_TopologicalType": "extInc",
-        "stFC_RoofTypeName": "TBIM_Tetto_Coppi_Laterocemento_260",
-        "stFC_ThermalTransmittance": 1.8,
-        "stFC_Layers": "Coppi in laterizio / listelli / solaio inclinato laterocemento 16+4 / intonaco 1,5",
+        "stFC_RoofTypeName": "TBIM_Clay_Tile_Pitched_Roof_265",
+        "stFC_ThermalTransmittance": 2.0,
+        "stFC_Layers": "Clay roof tiles 20 mm / Cement mortar bed 30 mm / Clay-concrete slab 200 mm / Lime-cement plaster 15 mm",
         "stFC_ConstructionYear": 1966
     }
 ]

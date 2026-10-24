@@ -1,17 +1,17 @@
 [
     {
         "cnFC_equalTo_pr_TopologicalType": "intHor",
-        "stFC_FloorTypeName": "TBIM_Solaio_Laterocemento_300",
-        "stFC_ThermalTransmittance": 1.4,
-        "stFC_Layers": "Linoleum / screed / clay-concrete 20+4",
+        "stFC_FloorTypeName": "TBIM_Clay_Concrete_Floor_309",
+        "stFC_ThermalTransmittance": 1.56,
+        "stFC_Layers": "Linoleum 4 mm / Cement screed 50 mm / Clay-concrete slab 240 mm / Lime-cement plaster 15 mm",
         "stFC_ConstructionYear": 1978
     },
     {
         "cnFC_equalTo_pr_TopologicalType": "intHor",
         "cnFC_contains_pr_OccupancyType": "Attic",
-        "stFC_FloorTypeName": "TBIM_Controsoffitto_Palestra_150",
-        "stFC_ThermalTransmittance": 0.8,
-        "stFC_Layers": "Suspended ceiling / mineral wool 6",
+        "stFC_FloorTypeName": "TBIM_Gym_Suspended_Ceiling_80",
+        "stFC_ThermalTransmittance": 0.44,
+        "stFC_Layers": "Mineral wool 60 mm / Mineral fibre ceiling tiles 20 mm",
         "stFC_ConstructionYear": 1978
     }
 ]

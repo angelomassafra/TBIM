@@ -2,28 +2,28 @@
     "windows": [
         [
             "Shop",
-            "TBIM_Vetrina_Esterna_400x300",
+            "TBIM_Shop_Window_400x300",
             400,
             300,
             40
         ],
         [
             "DepartmentStore",
-            "TBIM_Vetrina_Esterna_600x300",
+            "TBIM_Store_Window_600x300",
             600,
             300,
             50
         ],
         [
             "FoodCourt",
-            "TBIM_Vetrata_FoodCourt_800x300",
+            "TBIM_Food_Court_Glazing_800x300",
             800,
             300,
             100
         ],
         [
             "EntranceHall",
-            "TBIM_Vetrata_Ingresso_500x700",
+            "TBIM_Entrance_Glazing_500x700",
             500,
             700,
             50
@@ -32,13 +32,13 @@
     "external_doors": [
         [
             "EntranceHall",
-            "TBIM_Porta_Automatica_400x300",
+            "TBIM_Sliding_Door_400x300",
             400,
             300
         ],
         [
             "DepartmentStore",
-            "TBIM_Porta_Automatica_300x300",
+            "TBIM_Sliding_Door_300x300",
             300,
             300
         ]
@@ -47,28 +47,28 @@
         [
             "EntranceHall",
             "Gallery",
-            "TBIM_Varco_Galleria_500x400",
+            "TBIM_Gallery_Opening_500x400",
             500,
             400
         ],
         [
             "Gallery",
             "DepartmentStore",
-            "TBIM_Varco_Grande_Magazzino_600x350",
+            "TBIM_Store_Opening_600x350",
             600,
             350
         ],
         [
             "Gallery",
             "FoodCourt",
-            "TBIM_Varco_Grande_Magazzino_600x350",
+            "TBIM_Store_Opening_600x350",
             600,
             350
         ],
         [
             "Gallery",
             "Shop",
-            "TBIM_Ingresso_Negozio_300x300",
+            "TBIM_Shop_Entrance_300x300",
             300,
             300
         ]

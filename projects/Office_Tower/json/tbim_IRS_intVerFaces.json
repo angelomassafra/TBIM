@@ -1,17 +1,17 @@
 [
     {
         "cnFC_equalTo_pr_TopologicalType": "intVer",
-        "stFC_WallTypeName": "TBIM_Parete_Cartongesso_125",
-        "stFC_ThermalTransmittance": 0.6,
-        "stFC_Layers": "Double gypsum board / mineral wool / stud 75",
+        "stFC_WallTypeName": "TBIM_Gypsum_Stud_Partition_125",
+        "stFC_ThermalTransmittance": 0.38,
+        "stFC_Layers": "Gypsum board 25 mm / Mineral wool 75 mm / Gypsum board 25 mm",
         "stFC_ConstructionYear": 2022
     },
     {
         "cnFC_equalTo_pr_TopologicalType": "intVer",
         "cnFC_contains_pr_OccupancyType": "Core",
-        "stFC_WallTypeName": "TBIM_Nucleo_CA_400",
-        "stFC_ThermalTransmittance": 2.1,
-        "stFC_Layers": "Reinforced concrete core 40",
+        "stFC_WallTypeName": "TBIM_RC_Core_Wall_400",
+        "stFC_ThermalTransmittance": 2.3,
+        "stFC_Layers": "Reinforced concrete 400 mm",
         "stFC_ConstructionYear": 2022
     }
 ]

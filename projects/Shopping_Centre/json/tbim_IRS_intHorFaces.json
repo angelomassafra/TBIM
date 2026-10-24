@@ -1,9 +1,9 @@
 [
     {
         "cnFC_equalTo_pr_TopologicalType": "intHor",
-        "stFC_FloorTypeName": "TBIM_Solaio_Predalle_400",
-        "stFC_ThermalTransmittance": 0.9,
-        "stFC_Layers": "Tiles / screed / precast RC slab 30",
+        "stFC_FloorTypeName": "TBIM_Hollow_Core_Floor_372",
+        "stFC_ThermalTransmittance": 1.99,
+        "stFC_Layers": "Porcelain stoneware tiles 12 mm / Cement screed 60 mm / Precast hollow-core slab 300 mm",
         "stFC_ConstructionYear": 2008
     }
 ]

@@ -1,9 +1,17 @@
 [
     {
         "cnFC_equalTo_pr_TopologicalType": "extVer",
-        "stFC_WallTypeName": "TBIM_Pannello_Sandwich_Metallico_250",
-        "stFC_ThermalTransmittance": 0.3,
-        "stFC_Layers": "Insulated metal sandwich panel 10 / precast RC panel 15",
+        "stFC_WallTypeName": "TBIM_Ventilated_Metal_Facade_294",
+        "stFC_ThermalTransmittance": 0.32,
+        "stFC_Layers": "Aluminium composite panel 4 mm / Ventilated air cavity 40 mm / Mineral wool 100 mm / Precast concrete 150 mm",
+        "stFC_ConstructionYear": 2008
+    },
+    {
+        "cnFC_equalTo_pr_TopologicalType": "extVer",
+        "cnFC_contains_pr_OccupancyType": "DepartmentStore",
+        "stFC_WallTypeName": "TBIM_Terracotta_Rainscreen_Facade_340",
+        "stFC_ThermalTransmittance": 0.27,
+        "stFC_Layers": "Terracotta rainscreen tiles 30 mm / Ventilated air cavity 40 mm / Mineral wool 120 mm / Precast concrete 150 mm",
         "stFC_ConstructionYear": 2008
     }
 ]

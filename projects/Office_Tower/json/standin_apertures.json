@@ -2,28 +2,28 @@
     "windows": [
         [
             "Office",
-            "TBIM_Vetrata_Ufficio_800x280",
+            "TBIM_Office_Glazing_800x280",
             800,
             280,
             30
         ],
         [
             "Lobby",
-            "TBIM_Vetrata_Atrio_800x400",
+            "TBIM_Lobby_Glazing_800x400",
             800,
             400,
             40
         ],
         [
             "Cafe",
-            "TBIM_Vetrata_Atrio_800x400",
+            "TBIM_Lobby_Glazing_800x400",
             800,
             400,
             40
         ],
         [
             "Shop",
-            "TBIM_Vetrina_800x400",
+            "TBIM_Shop_Window_800x400",
             800,
             400,
             40
@@ -32,7 +32,7 @@
     "external_doors": [
         [
             "Lobby",
-            "TBIM_Ingresso_Girevole_300x300",
+            "TBIM_Revolving_Door_300x300",
             300,
             300
         ]
@@ -41,21 +41,21 @@
         [
             "Core",
             "",
-            "TBIM_Porta_REI120_100x220",
+            "TBIM_Fire_Door_EI120_100x220",
             100,
             220
         ],
         [
             "Lobby",
             "",
-            "TBIM_Porta_Vetro_200x250",
+            "TBIM_Glass_Door_200x250",
             200,
             250
         ],
         [
             "Office",
             "Office",
-            "TBIM_Porta_Ufficio_90x220",
+            "TBIM_Office_Door_90x220",
             90,
             220
         ]

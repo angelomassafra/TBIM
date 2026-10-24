@@ -150,7 +150,7 @@ the Revit 2026 model at the end of the workflow and its exports (`export/`: IFC 
 | [`Office_Tower`](../projects/Office_Tower) | 181 | Invented 20-storey office tower. |
 | [`School`](../projects/School) | 23 | Invented two-storey school with a gym. |
 | [`Shopping_Centre`](../projects/Shopping_Centre) | 37 | Invented two-level shopping centre. |
-| [`Masseria`](../projects/Masseria) | 17 | Invented fortified farmhouse around a courtyard. |
+| [`Fortified_Farmhouse`](../projects/Fortified_Farmhouse) | 17 | Invented fortified farmhouse (*masseria*) around a courtyard. |
 | [`Town_Hall`](../projects/Town_Hall) | 35 | Invented town hall with a clock tower. |
 
 ![Six example buildings going through the workflow](video/tbim_six_buildings.gif)
@@ -160,6 +160,12 @@ storey as boxes (plus attics under hipped or gable roofs) with their occupancy t
 data, IRSs and window/door rules; running it writes the BReps and all the JSON inputs of the project.
 `tools/assign_rooms.py` then plays the role of Loads > Assignment (occupancy and space names from the room
 list) and `tools/topologicalbim_standin.py` the role of the TopologicalBIM panel (windows and doors by rules).
+
+Each IRS rule of the examples carries a layered construction in `stFC_Layers` (e.g. `Clay roof tiles 20 mm /
+Timber battens 30 mm / ...`, from the outside or the top). `tools/materials.py` holds the materials (colour,
+thermal conductivity, density, specific heat, Revit layer function) and computes the U-value of each rule;
+the stand-in turns every style into a Revit compound structure with these materials, so the Revit types,
+the IFC material layer sets and the TBIM data describe the same construction.
 
 ---
 

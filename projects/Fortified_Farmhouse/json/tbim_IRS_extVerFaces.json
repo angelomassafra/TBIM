@@ -1,0 +1,25 @@
+[
+    {
+        "cnFC_equalTo_pr_TopologicalType": "extVer",
+        "stFC_WallTypeName": "TBIM_Whitewashed_Battered_Tuff_Wall_900",
+        "stFC_ThermalTransmittance": 0.63,
+        "stFC_Layers": "Whitewashed lime render 20 mm / Tuff ashlar 860 mm / Lime plaster 20 mm",
+        "stFC_ConstructionYear": 1760
+    },
+    {
+        "cnFC_equalTo_pr_TopologicalType": "extVer",
+        "cnFC_contains_pr_OccupancyType": "Defensive",
+        "stFC_WallTypeName": "TBIM_Limestone_Tower_Wall_800",
+        "stFC_ThermalTransmittance": 0.78,
+        "stFC_Layers": "Limestone ashlar 150 mm / Tuff ashlar 630 mm / Lime plaster 20 mm",
+        "stFC_ConstructionYear": 1760
+    },
+    {
+        "cnFC_equalTo_pr_TopologicalType": "extVer",
+        "cnFC_contains_pr_OccupancyType": "Dovecote",
+        "stFC_WallTypeName": "TBIM_Exposed_Tuff_Dovecote_Wall_400",
+        "stFC_ThermalTransmittance": 1.24,
+        "stFC_Layers": "Exposed tuff ashlar 400 mm",
+        "stFC_ConstructionYear": 1760
+    }
+]

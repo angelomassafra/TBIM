@@ -1,0 +1,172 @@
+[
+    {
+        "center": [
+            400.0,
+            400.0,
+            250.0
+        ],
+        "pr_OccupancyType": "Agricultural:Storage",
+        "space": "GF.store_sw",
+        "name": "Store"
+    },
+    {
+        "center": [
+            1150.0,
+            400.0,
+            250.0
+        ],
+        "pr_OccupancyType": "Circulation:Passage",
+        "space": "GF.gateway",
+        "name": "Gateway"
+    },
+    {
+        "center": [
+            1850.0,
+            400.0,
+            250.0
+        ],
+        "pr_OccupancyType": "Agricultural:Stable",
+        "space": "GF.stable",
+        "name": "Stable"
+    },
+    {
+        "center": [
+            2600.0,
+            400.0,
+            250.0
+        ],
+        "pr_OccupancyType": "Agricultural:Stable",
+        "space": "GF.tower_stable",
+        "name": "Tower stable"
+    },
+    {
+        "center": [
+            750.0,
+            2600.0,
+            250.0
+        ],
+        "pr_OccupancyType": "Agricultural:OilMill",
+        "space": "GF.oil_mill",
+        "name": "Oil mill"
+    },
+    {
+        "center": [
+            1850.0,
+            2600.0,
+            250.0
+        ],
+        "pr_OccupancyType": "Religious:Chapel",
+        "space": "GF.chapel",
+        "name": "Chapel"
+    },
+    {
+        "center": [
+            2600.0,
+            2600.0,
+            250.0
+        ],
+        "pr_OccupancyType": "Agricultural:WineCellar",
+        "space": "GF.wine_cellar",
+        "name": "Wine cellar"
+    },
+    {
+        "center": [
+            400.0,
+            1150.0,
+            250.0
+        ],
+        "pr_OccupancyType": "Agricultural:Storage",
+        "space": "GF.storehouse",
+        "name": "Storehouse"
+    },
+    {
+        "center": [
+            400.0,
+            1850.0,
+            250.0
+        ],
+        "pr_OccupancyType": "Agricultural:Granary",
+        "space": "GF.granary",
+        "name": "Granary"
+    },
+    {
+        "center": [
+            2600.0,
+            1150.0,
+            250.0
+        ],
+        "pr_OccupancyType": "Agricultural:Stable",
+        "space": "GF.sheepfold",
+        "name": "Sheepfold"
+    },
+    {
+        "center": [
+            2600.0,
+            1850.0,
+            250.0
+        ],
+        "pr_OccupancyType": "Residential:Dwelling",
+        "space": "GF.farmer_house",
+        "name": "Farmer's house"
+    },
+    {
+        "center": [
+            375.0,
+            2600.0,
+            700.0
+        ],
+        "pr_OccupancyType": "Residential:Bedroom",
+        "space": "FF.bedroom_w",
+        "name": "West bedroom"
+    },
+    {
+        "center": [
+            1125.0,
+            2600.0,
+            700.0
+        ],
+        "pr_OccupancyType": "Residential:LivingRoom",
+        "space": "FF.hall",
+        "name": "Great hall"
+    },
+    {
+        "center": [
+            1875.0,
+            2600.0,
+            700.0
+        ],
+        "pr_OccupancyType": "Residential:Kitchen",
+        "space": "FF.kitchen",
+        "name": "Kitchen"
+    },
+    {
+        "center": [
+            2625.0,
+            2600.0,
+            700.0
+        ],
+        "pr_OccupancyType": "Residential:Bedroom",
+        "space": "FF.bedroom_e",
+        "name": "East bedroom"
+    },
+    {
+        "center": [
+            2600.0,
+            400.0,
+            700.0
+        ],
+        "pr_OccupancyType": "Defensive:Tower",
+        "space": "T.tower",
+        "name": "Tower room"
+    },
+    {
+        "center": [
+            2700.0,
+            300.0,
+            1075.0
+        ],
+        "pr_OccupancyType": "Agricultural:Dovecote",
+        "space": "T.dovecote",
+        "name": "Dovecote"
+    }
+]

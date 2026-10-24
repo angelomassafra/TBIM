@@ -1,9 +1,9 @@
 [
     {
         "cnFC_equalTo_pr_TopologicalType": "botHor",
-        "stFC_FloorTypeName": "TBIM_Vespaio_Pavimento_Graniglia_450",
-        "stFC_ThermalTransmittance": 1.7,
-        "stFC_Layers": "Terrazzo / lime screed / brick vault crawl space (vespaio)",
+        "stFC_FloorTypeName": "TBIM_Ventilated_Crawl_Space_Floor_450",
+        "stFC_ThermalTransmittance": 0.85,
+        "stFC_Layers": "Venetian terrazzo 30 mm / Lime screed 60 mm / Solid brick jack-arch slab 120 mm / Air cavity 240 mm",
         "stFC_ConstructionYear": 1912
     }
 ]

@@ -1,16 +1,16 @@
 [
     {
         "cnFC_equalTo_pr_TopologicalType": "topHor",
-        "stFC_RoofTypeName": "TBIM_Copertura_Piana_Guaina_350",
-        "stFC_ThermalTransmittance": 0.95,
-        "stFC_Layers": "Bitumen membrane / screed / cork 3 / clay-concrete slab 20+4",
+        "stFC_RoofTypeName": "TBIM_Flat_Roof_Cork_Insulated_333",
+        "stFC_ThermalTransmittance": 0.79,
+        "stFC_Layers": "Bitumen membrane 8 mm / Cement screed 40 mm / Cork insulation 30 mm / Clay-concrete slab 240 mm / Lime-cement plaster 15 mm",
         "stFC_ConstructionYear": 1978
     },
     {
         "cnFC_equalTo_pr_TopologicalType": "extInc",
-        "stFC_RoofTypeName": "TBIM_Copertura_Lamiera_Grecata_200",
-        "stFC_ThermalTransmittance": 0.9,
-        "stFC_Layers": "Corrugated steel sheet / mineral wool 4 / steel trusses",
+        "stFC_RoofTypeName": "TBIM_Steel_Sheet_Gym_Roof_192",
+        "stFC_ThermalTransmittance": 0.78,
+        "stFC_Layers": "Pre-painted corrugated steel sheet 2 mm / Mineral wool 40 mm / Steel trusses 150 mm",
         "stFC_ConstructionYear": 1978
     }
 ]

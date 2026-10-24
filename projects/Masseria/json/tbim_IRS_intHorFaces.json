@@ -1,9 +1,0 @@
-[
-    {
-        "cnFC_equalTo_pr_TopologicalType": "intHor",
-        "stFC_FloorTypeName": "TBIM_Volta_a_Stella_Tufo_600",
-        "stFC_ThermalTransmittance": 1.2,
-        "stFC_Layers": "Pavement / fill / tuff star vault 30",
-        "stFC_ConstructionYear": 1760
-    }
-]

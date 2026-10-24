@@ -1,0 +1,9 @@
+[
+    {
+        "cnFC_equalTo_pr_TopologicalType": "intHor",
+        "stFC_FloorTypeName": "TBIM_Tuff_Star_Vault_600",
+        "stFC_ThermalTransmittance": 0.74,
+        "stFC_Layers": "Limestone paving slabs 40 mm / Tuff rubble fill 260 mm / Tuff stone vault 300 mm",
+        "stFC_ConstructionYear": 1760
+    }
+]

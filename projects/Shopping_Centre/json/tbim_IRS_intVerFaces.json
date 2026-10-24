@@ -1,17 +1,17 @@
 [
     {
         "cnFC_equalTo_pr_TopologicalType": "intVer",
-        "stFC_WallTypeName": "TBIM_Parete_Cartongesso_REI_150",
-        "stFC_ThermalTransmittance": 0.55,
-        "stFC_Layers": "Fire-rated gypsum partition",
+        "stFC_WallTypeName": "TBIM_Fire_Rated_Partition_EI60_150",
+        "stFC_ThermalTransmittance": 0.3,
+        "stFC_Layers": "Fire-rated gypsum board 25 mm / Mineral wool 100 mm / Fire-rated gypsum board 25 mm",
         "stFC_ConstructionYear": 2008
     },
     {
         "cnFC_equalTo_pr_TopologicalType": "intVer",
         "cnFC_contains_pr_OccupancyType": "Gallery",
-        "stFC_WallTypeName": "TBIM_Vetrine_Galleria_100",
+        "stFC_WallTypeName": "TBIM_Glazed_Shop_Front_24",
         "stFC_ThermalTransmittance": 2.8,
-        "stFC_Layers": "Shop fronts: glazing on aluminium frame",
+        "stFC_Layers": "Laminated safety glass 24 mm",
         "stFC_ConstructionYear": 2008
     }
 ]

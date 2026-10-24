@@ -6,6 +6,7 @@ names are replaced by ``BuiltInParameter`` values.
 """
 import io
 import os
+import sys
 
 import clr
 
@@ -68,17 +69,35 @@ def alert(title, message):
     dialog.Show()
 
 
-class DismissWarnings(IFailuresPreprocessor):
-    """Delete the warnings of a transaction (e.g. 'Space is not in a properly enclosed region'), so that no
-    modal dialog stops the TBIM commands. Errors are left to Revit."""
+def _dismiss_warnings_class():
+    """The failures preprocessor, defined once per Revit session: pythonnet cannot define the same .NET type
+    twice, so a module reload (Installation > Check) reuses the class kept on ``sys``."""
+    cls = getattr(sys, "_tbim_dismiss_warnings", None)
+    if cls is not None:
+        return cls
 
-    __namespace__ = "TBIM"  # pythonnet: .NET classes defined in Python need a namespace
+    class DismissWarnings(IFailuresPreprocessor):
+        """Delete the warnings of a transaction (e.g. 'Space is not in a properly enclosed region') and apply
+        the default resolution of the errors that have one (e.g. 'Can't keep elements joined' -> unjoin), so
+        that no modal dialog stops the TBIM commands. Other errors are left to Revit."""
 
-    def PreprocessFailures(self, accessor):
-        for failure in accessor.GetFailureMessages():
-            if failure.GetSeverity() == FailureSeverity.Warning:
-                accessor.DeleteWarning(failure)
-        return FailureProcessingResult.Continue
+        __namespace__ = "TBIM.Failures"  # pythonnet: .NET classes defined in Python need a namespace
+
+        def PreprocessFailures(self, accessor):
+            resolved = False
+            for failure in accessor.GetFailureMessages():
+                if failure.GetSeverity() == FailureSeverity.Warning:
+                    accessor.DeleteWarning(failure)
+                elif failure.HasResolutions():
+                    accessor.ResolveFailure(failure)
+                    resolved = True
+            return FailureProcessingResult.ProceedWithCommit if resolved else FailureProcessingResult.Continue
+
+    sys._tbim_dismiss_warnings = DismissWarnings
+    return DismissWarnings
+
+
+DismissWarnings = _dismiss_warnings_class()
 
 
 class transaction(object):

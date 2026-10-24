@@ -1,9 +1,9 @@
 [
     {
         "cnFC_equalTo_pr_TopologicalType": "botHor",
-        "stFC_FloorTypeName": "TBIM_Platea_CA_Isolata_600",
-        "stFC_ThermalTransmittance": 0.28,
-        "stFC_Layers": "Floor finish / screed 8 / XPS 12 / RC raft 40",
+        "stFC_FloorTypeName": "TBIM_Insulated_RC_Raft_620",
+        "stFC_ThermalTransmittance": 0.25,
+        "stFC_Layers": "Natural stone tiles 20 mm / Cement screed 80 mm / XPS insulation 120 mm / Reinforced concrete 400 mm",
         "stFC_ConstructionYear": 2022
     }
 ]

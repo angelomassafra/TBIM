@@ -1,0 +1,121 @@
+[
+    {
+        "UID": "GF.store_sw",
+        "pr_SpaceName": "Store (GF.store_sw)",
+        "pr_NetArea": "ByModel",
+        "pr_FinishFloor": "Limestone slabs",
+        "pr_ConstructionYear": 1760
+    },
+    {
+        "UID": "GF.gateway",
+        "pr_SpaceName": "Gateway (GF.gateway)",
+        "pr_NetArea": "ByModel",
+        "pr_FinishFloor": "Limestone slabs",
+        "pr_ConstructionYear": 1760
+    },
+    {
+        "UID": "GF.stable",
+        "pr_SpaceName": "Stable (GF.stable)",
+        "pr_NetArea": "ByModel",
+        "pr_FinishFloor": "Limestone slabs",
+        "pr_ConstructionYear": 1760
+    },
+    {
+        "UID": "GF.tower_stable",
+        "pr_SpaceName": "Tower stable (GF.tower_stable)",
+        "pr_NetArea": "ByModel",
+        "pr_FinishFloor": "Limestone slabs",
+        "pr_ConstructionYear": 1760
+    },
+    {
+        "UID": "GF.oil_mill",
+        "pr_SpaceName": "Oil mill (GF.oil_mill)",
+        "pr_NetArea": "ByModel",
+        "pr_FinishFloor": "Limestone slabs",
+        "pr_ConstructionYear": 1760
+    },
+    {
+        "UID": "GF.chapel",
+        "pr_SpaceName": "Chapel (GF.chapel)",
+        "pr_NetArea": "ByModel",
+        "pr_FinishFloor": "Limestone slabs",
+        "pr_ConstructionYear": 1760
+    },
+    {
+        "UID": "GF.wine_cellar",
+        "pr_SpaceName": "Wine cellar (GF.wine_cellar)",
+        "pr_NetArea": "ByModel",
+        "pr_FinishFloor": "Limestone slabs",
+        "pr_ConstructionYear": 1760
+    },
+    {
+        "UID": "GF.storehouse",
+        "pr_SpaceName": "Storehouse (GF.storehouse)",
+        "pr_NetArea": "ByModel",
+        "pr_FinishFloor": "Limestone slabs",
+        "pr_ConstructionYear": 1760
+    },
+    {
+        "UID": "GF.granary",
+        "pr_SpaceName": "Granary (GF.granary)",
+        "pr_NetArea": "ByModel",
+        "pr_FinishFloor": "Limestone slabs",
+        "pr_ConstructionYear": 1760
+    },
+    {
+        "UID": "GF.sheepfold",
+        "pr_SpaceName": "Sheepfold (GF.sheepfold)",
+        "pr_NetArea": "ByModel",
+        "pr_FinishFloor": "Limestone slabs",
+        "pr_ConstructionYear": 1760
+    },
+    {
+        "UID": "GF.farmer_house",
+        "pr_SpaceName": "Farmer's house (GF.farmer_house)",
+        "pr_NetArea": "ByModel",
+        "pr_FinishFloor": "Limestone slabs",
+        "pr_ConstructionYear": 1760
+    },
+    {
+        "UID": "FF.bedroom_w",
+        "pr_SpaceName": "West bedroom (FF.bedroom_w)",
+        "pr_NetArea": "ByModel",
+        "pr_FinishFloor": "Limestone slabs",
+        "pr_ConstructionYear": 1760
+    },
+    {
+        "UID": "FF.hall",
+        "pr_SpaceName": "Great hall (FF.hall)",
+        "pr_NetArea": "ByModel",
+        "pr_FinishFloor": "Limestone slabs",
+        "pr_ConstructionYear": 1760
+    },
+    {
+        "UID": "FF.kitchen",
+        "pr_SpaceName": "Kitchen (FF.kitchen)",
+        "pr_NetArea": "ByModel",
+        "pr_FinishFloor": "Limestone slabs",
+        "pr_ConstructionYear": 1760
+    },
+    {
+        "UID": "FF.bedroom_e",
+        "pr_SpaceName": "East bedroom (FF.bedroom_e)",
+        "pr_NetArea": "ByModel",
+        "pr_FinishFloor": "Limestone slabs",
+        "pr_ConstructionYear": 1760
+    },
+    {
+        "UID": "T.tower",
+        "pr_SpaceName": "Tower room (T.tower)",
+        "pr_NetArea": "ByModel",
+        "pr_FinishFloor": "Limestone slabs",
+        "pr_ConstructionYear": 1760
+    },
+    {
+        "UID": "T.dovecote",
+        "pr_SpaceName": "Dovecote (T.dovecote)",
+        "pr_NetArea": "ByModel",
+        "pr_FinishFloor": "Limestone slabs",
+        "pr_ConstructionYear": 1760
+    }
+]

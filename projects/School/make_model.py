@@ -77,48 +77,52 @@ BY_OCCUPANCY = [
     occupancy_data("Unconditioned:Attic", 0, 0, 1.0, "NaN", "NaN"),
 ]
 IRS = {
-    "botHor": [rule("botHor", {}, "TBIM_Solaio_Controterra_400", 1.10,
-                    "Linoleum / screed 6 / RC slab 20 / crawl space", YEAR, FLOOR)],
+    "botHor": [rule("botHor", {}, "TBIM_Ground_Slab_Crawl_Space", [
+        ("Linoleum", 4), ("Cement screed", 60), ("Reinforced concrete", 200), ("Gravel fill", 150)], YEAR, FLOOR)],
     "topHor": [
-        rule("topHor", {}, "TBIM_Copertura_Piana_Guaina_350", 0.95,
-             "Bitumen membrane / screed / cork 3 / clay-concrete slab 20+4", YEAR, ROOF),
-        rule("extInc", {}, "TBIM_Copertura_Lamiera_Grecata_200", 0.90,
-             "Corrugated steel sheet / mineral wool 4 / steel trusses", YEAR, ROOF),
+        rule("topHor", {}, "TBIM_Flat_Roof_Cork_Insulated", [
+            ("Bitumen membrane", 8), ("Cement screed", 40), ("Cork insulation", 30), ("Clay-concrete slab", 240),
+            ("Lime-cement plaster", 15)], YEAR, ROOF),
+        rule("extInc", {}, "TBIM_Steel_Sheet_Gym_Roof", [
+            ("Pre-painted corrugated steel sheet", 2), ("Mineral wool", 40), ("Steel trusses", 150)], YEAR, ROOF),
     ],
     "intHor": [
-        rule("intHor", {}, "TBIM_Solaio_Laterocemento_300", 1.40, "Linoleum / screed / clay-concrete 20+4",
-             YEAR, FLOOR),
-        rule("intHor", {"cnFC_contains_pr_OccupancyType": "Attic"}, "TBIM_Controsoffitto_Palestra_150", 0.80,
-             "Suspended ceiling / mineral wool 6", YEAR, FLOOR),
+        rule("intHor", {}, "TBIM_Clay_Concrete_Floor", [
+            ("Linoleum", 4), ("Cement screed", 50), ("Clay-concrete slab", 240), ("Lime-cement plaster", 15)],
+            YEAR, FLOOR),
+        rule("intHor", {"cnFC_contains_pr_OccupancyType": "Attic"}, "TBIM_Gym_Suspended_Ceiling", [
+            ("Mineral wool", 60), ("Mineral fibre ceiling tiles", 20)], YEAR, FLOOR),
     ],
     "intVer": [
-        rule("intVer", {}, "TBIM_Tramezzo_Forato_120", 2.10, "Plaster / hollow brick 10 / plaster", YEAR),
-        rule("intVer", {"cnFC_contains_pr_OccupancyType": "Corridor"}, "TBIM_Muro_Corridoio_250", 1.30,
-             "Plaster / perforated brick 22 / plaster", YEAR),
-        rule("intVer", {"cnFC_contains_pr_OccupancyType": "Gym"}, "TBIM_Muro_Palestra_CA_300", 2.00,
-             "Reinforced concrete 30", YEAR),
+        rule("intVer", {}, "TBIM_Hollow_Brick_Partition", [
+            ("Lime-cement plaster", 15), ("Hollow clay brick", 100), ("Lime-cement plaster", 15)], YEAR),
+        rule("intVer", {"cnFC_contains_pr_OccupancyType": "Corridor"}, "TBIM_Corridor_Brick_Wall", [
+            ("Lime-cement plaster", 15), ("Perforated clay brick", 220), ("Lime-cement plaster", 15)], YEAR),
+        rule("intVer", {"cnFC_contains_pr_OccupancyType": "Gym"}, "TBIM_Gym_RC_Wall", [
+            ("Reinforced concrete", 300)], YEAR),
     ],
     "extVer": [
-        rule("extVer", {}, "TBIM_Muro_Laterizio_Isolato_350", 0.95,
-             "Plaster / perforated brick 25 / polystyrene 3 / facing brick 6", YEAR),
-        rule("extVer", {"cnFC_contains_pr_OccupancyType": "Gym"}, "TBIM_Pannello_Prefabbricato_CA_300", 1.20,
-             "Precast sandwich panel: RC 8 / polystyrene 4 / RC 12", YEAR),
+        rule("extVer", {}, "TBIM_Insulated_Facing_Brick_Wall", [
+            ("Facing brick", 60), ("EPS insulation", 30), ("Perforated clay brick", 250),
+            ("Lime-cement plaster", 15)], YEAR),
+        rule("extVer", {"cnFC_contains_pr_OccupancyType": "Gym"}, "TBIM_Precast_Sandwich_Panel", [
+            ("Precast concrete", 80), ("EPS insulation", 40), ("Precast concrete", 120)], YEAR),
     ],
 }
 APERTURES = {
-    "windows": [["Classroom", "TBIM_Finestra_Aula_300x180", 300, 180, 100],
-                ["Library", "TBIM_Finestra_Aula_300x180", 300, 180, 100],
-                ["Laboratory", "TBIM_Finestra_Aula_300x180", 300, 180, 100],
-                ["Administration", "TBIM_Finestra_Ufficio_150x150", 150, 150, 100],
-                ["Corridor", "TBIM_Finestra_Corridoio_150x150", 150, 150, 100],
-                ["Stair", "TBIM_Finestra_Scala_100x200", 100, 200, 90],
-                ["Restroom", "TBIM_Finestra_Bagno_80x60", 80, 60, 200],
-                ["Gym", "TBIM_Finestra_Nastro_Palestra_600x120", 600, 120, 450],
-                ["ChangingRoom", "TBIM_Finestra_Bagno_80x60", 80, 60, 200]],
-    "external_doors": [["EntranceHall", "TBIM_Portone_Ingresso_200x250", 200, 250],
-                       ["Gym", "TBIM_Porta_Antipanico_150x240", 150, 240]],
-    "doors": [["Corridor", "", "TBIM_Porta_Aula_100x220", 100, 220],
-              ["Gym", "", "TBIM_Porta_Palestra_120x220", 120, 220]],
+    "windows": [["Classroom", "TBIM_Classroom_Window_300x180", 300, 180, 100],
+                ["Library", "TBIM_Classroom_Window_300x180", 300, 180, 100],
+                ["Laboratory", "TBIM_Classroom_Window_300x180", 300, 180, 100],
+                ["Administration", "TBIM_Office_Window_150x150", 150, 150, 100],
+                ["Corridor", "TBIM_Corridor_Window_150x150", 150, 150, 100],
+                ["Stair", "TBIM_Stair_Window_100x200", 100, 200, 90],
+                ["Restroom", "TBIM_Toilet_Window_80x60", 80, 60, 200],
+                ["Gym", "TBIM_Gym_Ribbon_Window_600x120", 600, 120, 450],
+                ["ChangingRoom", "TBIM_Toilet_Window_80x60", 80, 60, 200]],
+    "external_doors": [["EntranceHall", "TBIM_Main_Entrance_Door_200x250", 200, 250],
+                       ["Gym", "TBIM_Panic_Exit_Door_150x240", 150, 240]],
+    "doors": [["Corridor", "", "TBIM_Classroom_Door_100x220", 100, 220],
+              ["Gym", "", "TBIM_Gym_Door_120x220", 120, 220]],
     "window_data": {"pr_FrameMaterial": "Aluminium, no thermal break", "pr_Glazing": "Double glazing 4-6-4",
                     "pr_ThermalTransmittance": 3.3, "pr_SolarFactor": 0.75, "pr_ConstructionYear": YEAR},
     "door_data": {"pr_ConstructionYear": YEAR},

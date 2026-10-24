@@ -17,6 +17,21 @@ buildings of the [six-building video](../../docs/video/tbim_six_buildings.mp4).
 | Thermal zones | 10 |
 | Occupancy types | Retail:Shop, Retail:DepartmentStore, Food:FoodCourt, Circulation:Gallery, Circulation:EntranceHall, Technical:Plant |
 
+## Constructions
+
+Informational Rule Sets: each style is a layered Revit type whose materials (colour, conductivity, density, specific heat) come from [`tools/materials.py`](../../tools/materials.py). Layers from the outside (top) to the inside (bottom), thicknesses in mm; U-values in W/(m2 K), computed from the layers (given for glazing).
+
+| Element | Type | Layers | U |
+|---|---|---|---|
+| External walls | `TBIM_Ventilated_Metal_Facade_294` | Aluminium composite panel 4 / Ventilated air cavity 40 / Mineral wool 100 / Precast concrete 150 | 0.32 |
+| External walls (next to: DepartmentStore) | `TBIM_Terracotta_Rainscreen_Facade_340` | Terracotta rainscreen tiles 30 / Ventilated air cavity 40 / Mineral wool 120 / Precast concrete 150 | 0.27 |
+| Internal walls | `TBIM_Fire_Rated_Partition_EI60_150` | Fire-rated gypsum board 25 / Mineral wool 100 / Fire-rated gypsum board 25 | 0.30 |
+| Internal walls (next to: Gallery) | `TBIM_Glazed_Shop_Front_24` | Laminated safety glass 24 | 2.80 |
+| Ground floor | `TBIM_Insulated_Ground_Slab_572` | Porcelain stoneware tiles 12 / Cement screed 60 / EPS insulation 100 / Reinforced concrete 300 / Lean concrete 100 | 0.30 |
+| Floors | `TBIM_Hollow_Core_Floor_372` | Porcelain stoneware tiles 12 / Cement screed 60 / Precast hollow-core slab 300 | 1.99 |
+| Flat roofs | `TBIM_Standing_Seam_Roof_362` | Standing-seam aluminium sheet 2 / Mineral wool 160 / Precast hollow-core slab 200 | 0.20 |
+| Flat roofs (next to: Gallery) | `TBIM_Gallery_Skylight_44` | Laminated double glazing 44 | 1.40 |
+
 ## Files
 
 | | |

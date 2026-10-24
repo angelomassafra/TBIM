@@ -1,17 +1,17 @@
 [
     {
         "cnFC_equalTo_pr_TopologicalType": "intHor",
-        "stFC_FloorTypeName": "TBIM_Solaio_Putrelle_Voltine_350",
-        "stFC_ThermalTransmittance": 1.4,
-        "stFC_Layers": "Terrazzo / screed / steel I-beams with brick vaults",
+        "stFC_FloorTypeName": "TBIM_Steel_Jack_Arch_Floor_315",
+        "stFC_ThermalTransmittance": 1.75,
+        "stFC_Layers": "Venetian terrazzo 30 mm / Lime screed 50 mm / Solid brick jack-arch slab 220 mm / Lime plaster 15 mm",
         "stFC_ConstructionYear": 1912
     },
     {
         "cnFC_equalTo_pr_TopologicalType": "intHor",
         "cnFC_contains_pr_OccupancyType": "Attic",
-        "stFC_FloorTypeName": "TBIM_Solaio_Sottotetto_Incannucciato_250",
-        "stFC_ThermalTransmittance": 1.6,
-        "stFC_Layers": "Timber floor / reed-and-plaster ceiling",
+        "stFC_FloorTypeName": "TBIM_Timber_Attic_Floor_250",
+        "stFC_ThermalTransmittance": 0.5,
+        "stFC_Layers": "Timber floorboards 25 mm / Timber beams 200 mm / Reed-and-plaster ceiling 25 mm",
         "stFC_ConstructionYear": 1912
     }
 ]

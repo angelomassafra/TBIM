@@ -2,63 +2,63 @@
     "windows": [
         [
             "Classroom",
-            "TBIM_Finestra_Aula_300x180",
+            "TBIM_Classroom_Window_300x180",
             300,
             180,
             100
         ],
         [
             "Library",
-            "TBIM_Finestra_Aula_300x180",
+            "TBIM_Classroom_Window_300x180",
             300,
             180,
             100
         ],
         [
             "Laboratory",
-            "TBIM_Finestra_Aula_300x180",
+            "TBIM_Classroom_Window_300x180",
             300,
             180,
             100
         ],
         [
             "Administration",
-            "TBIM_Finestra_Ufficio_150x150",
+            "TBIM_Office_Window_150x150",
             150,
             150,
             100
         ],
         [
             "Corridor",
-            "TBIM_Finestra_Corridoio_150x150",
+            "TBIM_Corridor_Window_150x150",
             150,
             150,
             100
         ],
         [
             "Stair",
-            "TBIM_Finestra_Scala_100x200",
+            "TBIM_Stair_Window_100x200",
             100,
             200,
             90
         ],
         [
             "Restroom",
-            "TBIM_Finestra_Bagno_80x60",
+            "TBIM_Toilet_Window_80x60",
             80,
             60,
             200
         ],
         [
             "Gym",
-            "TBIM_Finestra_Nastro_Palestra_600x120",
+            "TBIM_Gym_Ribbon_Window_600x120",
             600,
             120,
             450
         ],
         [
             "ChangingRoom",
-            "TBIM_Finestra_Bagno_80x60",
+            "TBIM_Toilet_Window_80x60",
             80,
             60,
             200
@@ -67,13 +67,13 @@
     "external_doors": [
         [
             "EntranceHall",
-            "TBIM_Portone_Ingresso_200x250",
+            "TBIM_Main_Entrance_Door_200x250",
             200,
             250
         ],
         [
             "Gym",
-            "TBIM_Porta_Antipanico_150x240",
+            "TBIM_Panic_Exit_Door_150x240",
             150,
             240
         ]
@@ -82,14 +82,14 @@
         [
             "Corridor",
             "",
-            "TBIM_Porta_Aula_100x220",
+            "TBIM_Classroom_Door_100x220",
             100,
             220
         ],
         [
             "Gym",
             "",
-            "TBIM_Porta_Palestra_120x220",
+            "TBIM_Gym_Door_120x220",
             120,
             220
         ]

@@ -1,17 +1,17 @@
 [
     {
         "cnFC_equalTo_pr_TopologicalType": "topHor",
-        "stFC_RoofTypeName": "TBIM_Copertura_Lamiera_Isolata_300",
-        "stFC_ThermalTransmittance": 0.26,
-        "stFC_Layers": "Standing-seam roof / mineral wool 16 / precast RC beams",
+        "stFC_RoofTypeName": "TBIM_Standing_Seam_Roof_362",
+        "stFC_ThermalTransmittance": 0.2,
+        "stFC_Layers": "Standing-seam aluminium sheet 2 mm / Mineral wool 160 mm / Precast hollow-core slab 200 mm",
         "stFC_ConstructionYear": 2008
     },
     {
         "cnFC_equalTo_pr_TopologicalType": "topHor",
         "cnFC_contains_pr_OccupancyType": "Gallery",
-        "stFC_RoofTypeName": "TBIM_Lucernario_Galleria_200",
+        "stFC_RoofTypeName": "TBIM_Gallery_Skylight_44",
         "stFC_ThermalTransmittance": 1.4,
-        "stFC_Layers": "Skylight: laminated double glazing on steel frame",
+        "stFC_Layers": "Laminated double glazing 44 mm",
         "stFC_ConstructionYear": 2008
     }
 ]

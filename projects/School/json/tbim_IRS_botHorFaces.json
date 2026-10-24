@@ -1,9 +1,9 @@
 [
     {
         "cnFC_equalTo_pr_TopologicalType": "botHor",
-        "stFC_FloorTypeName": "TBIM_Solaio_Controterra_400",
-        "stFC_ThermalTransmittance": 1.1,
-        "stFC_Layers": "Linoleum / screed 6 / RC slab 20 / crawl space",
+        "stFC_FloorTypeName": "TBIM_Ground_Slab_Crawl_Space_414",
+        "stFC_ThermalTransmittance": 2.28,
+        "stFC_Layers": "Linoleum 4 mm / Cement screed 60 mm / Reinforced concrete 200 mm / Gravel fill 150 mm",
         "stFC_ConstructionYear": 1978
     }
 ]

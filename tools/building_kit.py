@@ -16,7 +16,9 @@ import sys
 
 ROOT = os.path.abspath(os.path.join(os.path.dirname(os.path.abspath(__file__)), os.pardir))
 sys.path.insert(0, os.path.join(ROOT, "pyRevit", "pyRevit_extensions", "TBIM.extension", "lib"))
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 
+import materials  # noqa: E402
 from topologicpy.Cell import Cell  # noqa: E402
 from topologicpy.CellComplex import CellComplex  # noqa: E402
 from topologicpy.Face import Face  # noqa: E402
@@ -98,12 +100,18 @@ def occupancy_data(occupancy, density, ventilation_person, natural_rate, winter,
             "pr_SpaceTemperatureWinterMin": winter, "pr_SpaceTemperatureSummerMax": summer}
 
 
-def rule(face_type, conditions, style, u_value, layers, year, key=WALL):
-    """Informational Rule Set entry; ``style`` ends with the thickness in mm (e.g. TBIM_Wall_300)."""
+def rule(face_type, conditions, name, layers, year, key=WALL, u_value=None):
+    """Informational Rule Set entry with a layered construction (see tools/materials.py).
+
+    layers: [(material, mm)] from the outside (top) to the inside (bottom); the style is ``name`` plus the
+    total thickness in mm (e.g. TBIM_Brick_Cavity_Wall_275). The U-value is computed from the layers unless
+    given (glazed constructions).
+    """
     r = {"cnFC_equalTo_pr_TopologicalType": face_type}
     r.update(conditions)
-    r.update({key: style, "stFC_ThermalTransmittance": u_value, "stFC_Layers": layers,
-              "stFC_ConstructionYear": year})
+    r.update({key: "%s_%d" % (name, round(materials.thickness(layers))),
+              "stFC_ThermalTransmittance": u_value if u_value is not None else materials.u_value(layers, face_type),
+              "stFC_Layers": materials.text(layers), "stFC_ConstructionYear": year})
     return r
 
 

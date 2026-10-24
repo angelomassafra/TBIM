@@ -1,0 +1,99 @@
+{
+    "windows": [
+        [
+            "Residential",
+            "TBIM_Shuttered_Timber_Window_90x140",
+            90,
+            140,
+            90
+        ],
+        [
+            "Chapel",
+            "TBIM_Chapel_Window_80x200",
+            80,
+            200,
+            200
+        ],
+        [
+            "Tower",
+            "TBIM_Arrow_Slit_30x100",
+            30,
+            100,
+            150
+        ],
+        [
+            "Dovecote",
+            "TBIM_Arrow_Slit_30x100",
+            30,
+            100,
+            150
+        ],
+        [
+            "Agricultural",
+            "TBIM_Vent_Opening_60x60",
+            60,
+            60,
+            300
+        ]
+    ],
+    "external_doors": [
+        [
+            "Passage",
+            "TBIM_Timber_Gateway_300x400",
+            300,
+            400
+        ],
+        [
+            "Chapel",
+            "TBIM_Chapel_Portal_150x280",
+            150,
+            280
+        ],
+        [
+            "Agricultural",
+            "TBIM_Barn_Door_220x300",
+            220,
+            300
+        ],
+        [
+            "Residential",
+            "TBIM_Timber_Door_100x230",
+            100,
+            230
+        ]
+    ],
+    "doors": [
+        [
+            "Residential",
+            "Residential",
+            "TBIM_Internal_Timber_Door_90x220",
+            90,
+            220
+        ],
+        [
+            "Agricultural",
+            "Agricultural",
+            "TBIM_Arched_Passage_200x300",
+            200,
+            300
+        ],
+        [
+            "Tower",
+            "Residential",
+            "TBIM_Internal_Timber_Door_90x220",
+            90,
+            220
+        ]
+    ],
+    "window_data": {
+        "pr_FrameMaterial": "Wood with shutters",
+        "pr_Glazing": "Single glazing",
+        "pr_ThermalTransmittance": 5.0,
+        "pr_SolarFactor": 0.85,
+        "pr_ConstructionYear": 1760
+    },
+    "door_data": {
+        "pr_Material": "Wood",
+        "pr_ConstructionYear": 1760
+    }
+}

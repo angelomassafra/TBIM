@@ -1,0 +1,9 @@
+[
+    {
+        "cnFC_equalTo_pr_TopologicalType": "botHor",
+        "stFC_FloorTypeName": "TBIM_Limestone_Slab_Paving_300",
+        "stFC_ThermalTransmittance": 2.36,
+        "stFC_Layers": "Limestone paving slabs 60 mm / Lime mortar bed 40 mm / Compacted earth 200 mm",
+        "stFC_ConstructionYear": 1760
+    }
+]

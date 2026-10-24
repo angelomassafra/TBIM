@@ -70,34 +70,37 @@ BY_OCCUPANCY = [
     occupancy_data("Technical:Plant", 0, 0, 2.0, "NaN", "NaN"),
 ]
 IRS = {
-    "botHor": [rule("botHor", {}, "TBIM_Platea_CA_Isolata_600", 0.28,
-                    "Floor finish / screed 8 / XPS 12 / RC raft 40", YEAR, FLOOR)],
-    "topHor": [rule("topHor", {}, "TBIM_Copertura_Rovescia_450", 0.22,
-                    "Gravel / XPS 16 / waterproofing / RC slab 30", YEAR, ROOF)],
-    "intHor": [rule("intHor", {}, "TBIM_Solaio_PostTeso_350", 0.80,
-                    "Raised floor 10 / post-tensioned RC slab 25", YEAR, FLOOR)],
+    "botHor": [rule("botHor", {}, "TBIM_Insulated_RC_Raft", [
+        ("Natural stone tiles", 20), ("Cement screed", 80), ("XPS insulation", 120), ("Reinforced concrete", 400)],
+        YEAR, FLOOR)],
+    "topHor": [rule("topHor", {}, "TBIM_Inverted_Flat_Roof", [
+        ("Gravel ballast", 60), ("XPS insulation", 160), ("Bitumen membrane", 10),
+        ("Lightweight concrete screed", 60), ("Reinforced concrete", 300)], YEAR, ROOF)],
+    "intHor": [rule("intHor", {}, "TBIM_PT_Slab_Raised_Floor", [
+        ("Raised access floor panel", 40), ("Floor void", 110), ("Reinforced concrete", 250)], YEAR, FLOOR)],
     "intVer": [
-        rule("intVer", {}, "TBIM_Parete_Cartongesso_125", 0.60, "Double gypsum board / mineral wool / stud 75",
-             YEAR),
-        rule("intVer", {"cnFC_contains_pr_OccupancyType": "Core"}, "TBIM_Nucleo_CA_400", 2.10,
-             "Reinforced concrete core 40", YEAR),
+        rule("intVer", {}, "TBIM_Gypsum_Stud_Partition", [
+            ("Gypsum board", 25), ("Mineral wool", 75), ("Gypsum board", 25)], YEAR),
+        rule("intVer", {"cnFC_contains_pr_OccupancyType": "Core"}, "TBIM_RC_Core_Wall", [
+            ("Reinforced concrete", 400)], YEAR),
     ],
     "extVer": [
-        rule("extVer", {}, "TBIM_Facciata_Continua_Cellula_200", 1.10,
-             "Unitized curtain wall, triple glazing, insulated spandrel", YEAR),
-        rule("extVer", {"cnFC_contains_pr_OccupancyType": "Plant"}, "TBIM_Schermo_Impianti_150", 0.35,
-             "Metal louvres on insulated panel", YEAR),
+        rule("extVer", {}, "TBIM_Unitised_Curtain_Wall", [
+            ("Triple glazing unit", 54), ("Insulated spandrel panel", 146)], YEAR, u_value=1.00),
+        rule("extVer", {"cnFC_contains_pr_OccupancyType": "Plant"}, "TBIM_Plant_Louvre_Screen", [
+            ("Aluminium louvres", 50), ("Ventilated air cavity", 50), ("Mineral wool", 100),
+            ("Precast concrete", 100)], YEAR),
     ],
 }
 APERTURES = {
-    "windows": [["Office", "TBIM_Vetrata_Ufficio_800x280", 800, 280, 30],
-                ["Lobby", "TBIM_Vetrata_Atrio_800x400", 800, 400, 40],
-                ["Cafe", "TBIM_Vetrata_Atrio_800x400", 800, 400, 40],
-                ["Shop", "TBIM_Vetrina_800x400", 800, 400, 40]],
-    "external_doors": [["Lobby", "TBIM_Ingresso_Girevole_300x300", 300, 300]],
-    "doors": [["Core", "", "TBIM_Porta_REI120_100x220", 100, 220],
-              ["Lobby", "", "TBIM_Porta_Vetro_200x250", 200, 250],
-              ["Office", "Office", "TBIM_Porta_Ufficio_90x220", 90, 220]],
+    "windows": [["Office", "TBIM_Office_Glazing_800x280", 800, 280, 30],
+                ["Lobby", "TBIM_Lobby_Glazing_800x400", 800, 400, 40],
+                ["Cafe", "TBIM_Lobby_Glazing_800x400", 800, 400, 40],
+                ["Shop", "TBIM_Shop_Window_800x400", 800, 400, 40]],
+    "external_doors": [["Lobby", "TBIM_Revolving_Door_300x300", 300, 300]],
+    "doors": [["Core", "", "TBIM_Fire_Door_EI120_100x220", 100, 220],
+              ["Lobby", "", "TBIM_Glass_Door_200x250", 200, 250],
+              ["Office", "Office", "TBIM_Office_Door_90x220", 90, 220]],
     "window_data": {"pr_FrameMaterial": "Aluminium, thermal break", "pr_Glazing": "Triple glazing, low-e",
                     "pr_ThermalTransmittance": 1.0, "pr_SolarFactor": 0.30, "pr_ConstructionYear": YEAR},
     "door_data": {"pr_ConstructionYear": YEAR},
