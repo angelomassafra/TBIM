@@ -1,0 +1,142 @@
+[
+    {
+        "pr_OccupancyType": "Default",
+        "pr_CirculationType": "NoCirculation",
+        "pr_IsOccupied": false,
+        "pr_IsHeated": false,
+        "pr_IsCooled": false,
+        "pr_IsNaturallyVentilated": false,
+        "pr_IsMechanicallyVentilated": false,
+        "pr_AreaPerOccupantPeak": 0
+    },
+    {
+        "pr_OccupancyType": "Residential:Bedroom",
+        "pr_CirculationType": "NoCirculation",
+        "pr_IsOccupied": true,
+        "pr_IsHeated": true,
+        "pr_IsCooled": false,
+        "pr_IsNaturallyVentilated": true,
+        "pr_IsMechanicallyVentilated": false,
+        "pr_AreaPerOccupantPeak": 15.0
+    },
+    {
+        "pr_OccupancyType": "Residential:LivingRoom",
+        "pr_CirculationType": "NoCirculation",
+        "pr_IsOccupied": true,
+        "pr_IsHeated": true,
+        "pr_IsCooled": false,
+        "pr_IsNaturallyVentilated": true,
+        "pr_IsMechanicallyVentilated": false,
+        "pr_AreaPerOccupantPeak": 15.0
+    },
+    {
+        "pr_OccupancyType": "Residential:Kitchen",
+        "pr_CirculationType": "NoCirculation",
+        "pr_IsOccupied": true,
+        "pr_IsHeated": true,
+        "pr_IsCooled": false,
+        "pr_IsNaturallyVentilated": true,
+        "pr_IsMechanicallyVentilated": false,
+        "pr_AreaPerOccupantPeak": 15.0
+    },
+    {
+        "pr_OccupancyType": "Residential:Dwelling",
+        "pr_CirculationType": "NoCirculation",
+        "pr_IsOccupied": true,
+        "pr_IsHeated": true,
+        "pr_IsCooled": false,
+        "pr_IsNaturallyVentilated": true,
+        "pr_IsMechanicallyVentilated": false,
+        "pr_AreaPerOccupantPeak": 15.0
+    },
+    {
+        "pr_OccupancyType": "Circulation:Passage",
+        "pr_CirculationType": "PublicCirculation",
+        "pr_IsOccupied": false,
+        "pr_IsHeated": false,
+        "pr_IsCooled": false,
+        "pr_IsNaturallyVentilated": true,
+        "pr_IsMechanicallyVentilated": false,
+        "pr_AreaPerOccupantPeak": 0
+    },
+    {
+        "pr_OccupancyType": "Religious:Chapel",
+        "pr_CirculationType": "NoCirculation",
+        "pr_IsOccupied": true,
+        "pr_IsHeated": false,
+        "pr_IsCooled": false,
+        "pr_IsNaturallyVentilated": true,
+        "pr_IsMechanicallyVentilated": false,
+        "pr_AreaPerOccupantPeak": 1.5
+    },
+    {
+        "pr_OccupancyType": "Agricultural:Stable",
+        "pr_CirculationType": "NoCirculation",
+        "pr_IsOccupied": false,
+        "pr_IsHeated": false,
+        "pr_IsCooled": false,
+        "pr_IsNaturallyVentilated": true,
+        "pr_IsMechanicallyVentilated": false,
+        "pr_AreaPerOccupantPeak": 0
+    },
+    {
+        "pr_OccupancyType": "Agricultural:Storage",
+        "pr_CirculationType": "NoCirculation",
+        "pr_IsOccupied": false,
+        "pr_IsHeated": false,
+        "pr_IsCooled": false,
+        "pr_IsNaturallyVentilated": true,
+        "pr_IsMechanicallyVentilated": false,
+        "pr_AreaPerOccupantPeak": 0
+    },
+    {
+        "pr_OccupancyType": "Agricultural:Granary",
+        "pr_CirculationType": "NoCirculation",
+        "pr_IsOccupied": false,
+        "pr_IsHeated": false,
+        "pr_IsCooled": false,
+        "pr_IsNaturallyVentilated": true,
+        "pr_IsMechanicallyVentilated": false,
+        "pr_AreaPerOccupantPeak": 0
+    },
+    {
+        "pr_OccupancyType": "Agricultural:OilMill",
+        "pr_CirculationType": "NoCirculation",
+        "pr_IsOccupied": true,
+        "pr_IsHeated": false,
+        "pr_IsCooled": false,
+        "pr_IsNaturallyVentilated": true,
+        "pr_IsMechanicallyVentilated": false,
+        "pr_AreaPerOccupantPeak": 20.0
+    },
+    {
+        "pr_OccupancyType": "Agricultural:WineCellar",
+        "pr_CirculationType": "NoCirculation",
+        "pr_IsOccupied": false,
+        "pr_IsHeated": false,
+        "pr_IsCooled": false,
+        "pr_IsNaturallyVentilated": true,
+        "pr_IsMechanicallyVentilated": false,
+        "pr_AreaPerOccupantPeak": 0
+    },
+    {
+        "pr_OccupancyType": "Defensive:Tower",
+        "pr_CirculationType": "NoCirculation",
+        "pr_IsOccupied": false,
+        "pr_IsHeated": false,
+        "pr_IsCooled": false,
+        "pr_IsNaturallyVentilated": true,
+        "pr_IsMechanicallyVentilated": false,
+        "pr_AreaPerOccupantPeak": 0
+    },
+    {
+        "pr_OccupancyType": "Agricultural:Dovecote",
+        "pr_CirculationType": "NoCirculation",
+        "pr_IsOccupied": false,
+        "pr_IsHeated": false,
+        "pr_IsCooled": false,
+        "pr_IsNaturallyVentilated": true,
+        "pr_IsMechanicallyVentilated": false,
+        "pr_AreaPerOccupantPeak": 0
+    }
+]

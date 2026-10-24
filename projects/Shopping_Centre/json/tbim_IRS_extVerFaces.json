@@ -1,0 +1,9 @@
+[
+    {
+        "cnFC_equalTo_pr_TopologicalType": "extVer",
+        "stFC_WallTypeName": "TBIM_Pannello_Sandwich_Metallico_250",
+        "stFC_ThermalTransmittance": 0.3,
+        "stFC_Layers": "Insulated metal sandwich panel 10 / precast RC panel 15",
+        "stFC_ConstructionYear": 2008
+    }
+]

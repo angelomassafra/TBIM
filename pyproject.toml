@@ -16,6 +16,7 @@ testpaths = ["tests"]
 line-length = 120
 target-version = "py310"
 src = ["pyRevit/pyRevit_extensions/TBIM.extension/lib"]
+extend-exclude = ["legacy"]
 
 [tool.ruff.lint]
 select = ["E", "F", "W", "I"]

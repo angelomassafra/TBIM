@@ -11,7 +11,9 @@ implementation of:
 > A. Massafra, W. Jabi, R. Gulli, *Topological BIM for building performance management*,
 > Automation in Construction 166 (2024) 105628. https://doi.org/10.1016/j.autcon.2024.105628
 
-![The TBIM workflow on the demo project](docs/video/tbim_selfbuilding.gif)
+![Six buildings building themselves with TBIM](docs/video/tbim_six_buildings.gif)
+
+*Six example buildings going through the TBIM workflow at the same time ([MP4, 1080p](docs/video/tbim_six_buildings.mp4)).*
 
 ## Workflow
 
@@ -25,9 +27,12 @@ implementation of:
 | 5 | TopologicalBIM | Windows and doors on the styled CellComplex *(panel not yet released)* |
 | 6 | InstanceBIM | Instance data (areas, finishes, U-values, ...) written back to Revit |
 | - | Visualize | Topologic model, dual graph, element types and any TBIM property in 3D views |
+| - | Export | IFC with the TBIM property sets; Topologic models as JSON, BREP, OBJ and dual graph |
 
 The [**User Manual**](docs/USER_MANUAL.md) describes every command and walks through the workflow step by
 step on the Demo School.
+
+![The TBIM workflow on the Demo School](docs/video/tbim_selfbuilding.gif)
 
 ## Requirements
 
@@ -59,24 +64,36 @@ pyRevit/pyRevit_extensions/TBIM.extension/   the pyRevit extension
   TBIM.tab/                                  ribbon panels and commands
   lib/tbim/                                  TBIM library (topology, loads, styles, Revit I/O)
 templates/json/                              default ILDs, IRSs and tables of new projects
-projects/                                    example projects (data of every step)
+projects/                                    example projects: inputs, data of every step, Revit, IFC, Topologic
   Demo_School/                               the tutorial project
   Residential_1960s/                         anonymized 1960s residential case study
+  Office_Tower/ School/ Shopping_Centre/     invented buildings generated with tools/building_kit.py
+  Masseria/ Town_Hall/
 examples/demo/                               inputs of the tutorial and an offline run without Revit
 docs/                                        user manual, images and videos
 tests/                                       pytest suite (runs the workflow offline)
-tools/                                       development helpers (ribbon icons)
+tools/                                       building kit, room assignment and TopologicalBIM stand-in, icons
 legacy/                                      material of the 2023-24 release of this repository (paper data)
 ```
 
 ## Example projects
 
-| | |
-|---|---|
-| [Demo School](projects/Demo_School) | Two-block school of the tutorial: 9 cells, 2 storeys. |
-| [Residential 1960s](projects/Residential_1960s) | Anonymized residential building of the mid 1960s, reconstructed from archive drawings: 112 cells, 6 storeys and attic, 1960s constructions and U-values. |
+Every project ships its inputs, the TBIM data of every step (`json/`), the Revit 2026 model at the end of the
+workflow (`.rvt`) and its exports (`export/`): IFC4 with the TBIM property sets, and the InstanceBIM as
+topologicpy JSON, BREP, OBJ and dual graph.
 
-![The Residential 1960s case study](projects/Residential_1960s/video/tbim_residential_1960s.gif)
+| Project | Cells | Windows / doors | |
+|---|---|---|---|
+| [Demo School](projects/Demo_School) | 9 | 19 | Two-block school of the tutorial, 2 storeys. |
+| [Residential 1960s](projects/Residential_1960s) | 112 | 190 | Anonymized residential building of the mid 1960s, reconstructed from archive drawings: 6 storeys, hipped roof. |
+| [Office Tower](projects/Office_Tower) | 181 | 480 | 20-storey office tower: concrete core, ring of offices, curtain wall. |
+| [School](projects/School) | 23 | 54 | Two-storey school of the 1970s with a gym under a gable roof. |
+| [Shopping Centre](projects/Shopping_Centre) | 37 | 76 | Two-level mall: glazed gallery, shops, food court, department store. |
+| [Masseria](projects/Masseria) | 17 | 48 | Fortified farmhouse of southern Italy around a courtyard, with a tower. |
+| [Town Hall](projects/Town_Hall) | 35 | 82 | Early-20th-century town hall: council chamber, hipped roof, clock tower. |
+
+The last five are invented: their `make_model.py` describes the floor plans as rooms with
+[`tools/building_kit.py`](tools/building_kit.py), so new test buildings take a few dozen lines.
 
 ## Development
 

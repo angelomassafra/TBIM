@@ -100,6 +100,8 @@ hover on a button to read what it does.
 | <img src="../pyRevit/pyRevit_extensions/TBIM.extension/TBIM.tab/Visualize.Panel/Types.pushbutton/icon.png" width="24"> | Visualize | Types | Color walls, floors, roofs, windows and doors by Revit type in the 3D view 'TBIM - Element types', with a legend. |
 | <img src="../pyRevit/pyRevit_extensions/TBIM.extension/TBIM.tab/Visualize.Panel/Data.pushbutton/icon.png" width="24"> | Visualize | Data | Color cells, faces or apertures by a TBIM property (e.g. thermal zone, occupancy type, exposure) in a dedicated 3D view, with a legend. |
 | <img src="../pyRevit/pyRevit_extensions/TBIM.extension/TBIM.tab/Visualize.Panel/Clear.pushbutton/icon.png" width="24"> | Visualize | Clear | Delete all the TBIM visualizations: shapes, 'TBIM - ' views and legends. |
+| <img src="../pyRevit/pyRevit_extensions/TBIM.extension/TBIM.tab/Export.Panel/IFC.pushbutton/icon.png" width="24"> | Export | IFC | Export the Revit model to IFC (IFC4 RV/DTV, IFC2x3 CV2, IFC4x3) in `<project>/export`, with the TBIM parameters as property sets, base quantities and space boundaries. |
+| <img src="../pyRevit/pyRevit_extensions/TBIM.extension/TBIM.tab/Export.Panel/Topologic.pushbutton/icon.png" width="24"> | Export | Topologic | Export a Topologic model of the workflow to `<project>/export`: topologicpy JSON (geometry, dictionaries, apertures), BREP, OBJ or the dual graph of the cells as JSON. |
 
 > The **TopologicalBIM** panel (step 5: windows and doors on the styled CellComplex) is not part of this
 > release yet. The tutorial shows its result, obtained with the stand-in of `examples/demo/run_offline.py`.
@@ -137,16 +139,27 @@ The projects folder is `<tbim>/projects` unless `projects_root` is set in `tbim_
 
 ### Example projects
 
-The repository ships two complete projects, with the data of every step of the workflow (the Revit models
-are not distributed: open an empty model, **Project > Open** the folder and run the steps, or use
-**Visualize** on the existing data).
+The repository ships seven complete projects. Each one has its inputs, the TBIM data of every step (`json/`),
+the Revit 2026 model at the end of the workflow and its exports (`export/`: IFC and Topologic models). Open the
+`.rvt` to explore the result, or start from an empty model, **Project > Open** the folder and run the steps.
 
-| Project | | |
+| Project | Cells | |
 |---|---|---|
-| [`projects/Demo_School`](../projects/Demo_School) | 9 cells, 2 blocks, 2 storeys | The school of the [tutorial](#4-tutorial-the-demo-school-step-by-step), at the end of step 6. |
-| [`projects/Residential_1960s`](../projects/Residential_1960s) | 112 cells, 3 blocks, 6 storeys + attic | An anonymized 1960s residential building reconstructed from archive drawings: two flats per storey, hipped clay-tile roof, 1960s constructions and U-values. See its [README](../projects/Residential_1960s/README.md) and [video](../projects/Residential_1960s/video/tbim_residential_1960s.mp4). |
+| [`Demo_School`](../projects/Demo_School) | 9 | The school of the [tutorial](#4-tutorial-the-demo-school-step-by-step), at the end of step 6. |
+| [`Residential_1960s`](../projects/Residential_1960s) | 112 | An anonymized 1960s residential building reconstructed from archive drawings ([README](../projects/Residential_1960s/README.md), [video](../projects/Residential_1960s/video/tbim_residential_1960s.mp4)). |
+| [`Office_Tower`](../projects/Office_Tower) | 181 | Invented 20-storey office tower. |
+| [`School`](../projects/School) | 23 | Invented two-storey school with a gym. |
+| [`Shopping_Centre`](../projects/Shopping_Centre) | 37 | Invented two-level shopping centre. |
+| [`Masseria`](../projects/Masseria) | 17 | Invented fortified farmhouse around a courtyard. |
+| [`Town_Hall`](../projects/Town_Hall) | 35 | Invented town hall with a clock tower. |
 
-![The Residential 1960s case study](../projects/Residential_1960s/img/06_ibim_3d.png)
+![Six example buildings going through the workflow](video/tbim_six_buildings.gif)
+
+The invented buildings are written with `tools/building_kit.py`: a `make_model.py` lists the rooms of each
+storey as boxes (plus attics under hipped or gable roofs) with their occupancy type, and the ILDs, InstanceBIM
+data, IRSs and window/door rules; running it writes the BReps and all the JSON inputs of the project.
+`tools/assign_rooms.py` then plays the role of Loads > Assignment (occupancy and space names from the room
+list) and `tools/topologicalbim_standin.py` the role of the TopologicalBIM panel (windows and doors by rules).
 
 ---
 
@@ -327,6 +340,10 @@ All the files are in the `json` folder of the project (the *data folder*).
 | `tbim_CellComplex_TBIM.json`, `..._TBIM_AperturesLocation.json` | TopologicalBIM | TBIM with apertures, aperture locations |
 | `tbim_CellComplex_IBIM.json` | InstanceBIM | InstanceBIM |
 | `tbim.log` | all | Messages, when dialogs are off |
+
+The **Export** commands write to the `export` folder of the project (next to `json`): `<model>.ifc`, and
+`tbim_<model>.json/.brep/.obj` and `tbim_<model>_graph.json` (nodes with the cell properties, edges of
+kind `door`, `wall` or `slab`; coordinates in centimetres).
 
 CellComplex files are topologicpy JSON exports: open them with `Topology.ByJSONPath` or with
 `tbim.topo.load_cellcomplex`, which also restores the cell and face dictionaries.

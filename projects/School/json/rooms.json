@@ -1,0 +1,232 @@
+[
+    {
+        "center": [
+            350.0,
+            325.0,
+            175.0
+        ],
+        "pr_OccupancyType": "Circulation:EntranceHall",
+        "space": "0.01",
+        "name": "Entrance hall"
+    },
+    {
+        "center": [
+            1050.0,
+            325.0,
+            175.0
+        ],
+        "pr_OccupancyType": "Office:Administration",
+        "space": "0.02",
+        "name": "Administration"
+    },
+    {
+        "center": [
+            1750.0,
+            325.0,
+            175.0
+        ],
+        "pr_OccupancyType": "Education:Classroom",
+        "space": "0.03",
+        "name": "Classroom 1A"
+    },
+    {
+        "center": [
+            2450.0,
+            325.0,
+            175.0
+        ],
+        "pr_OccupancyType": "Education:Classroom",
+        "space": "0.04",
+        "name": "Classroom 1B"
+    },
+    {
+        "center": [
+            3150.0,
+            325.0,
+            175.0
+        ],
+        "pr_OccupancyType": "Education:Classroom",
+        "space": "0.05",
+        "name": "Classroom 2A"
+    },
+    {
+        "center": [
+            3850.0,
+            325.0,
+            175.0
+        ],
+        "pr_OccupancyType": "Education:Classroom",
+        "space": "0.06",
+        "name": "Classroom 2B"
+    },
+    {
+        "center": [
+            2100.0,
+            800.0,
+            175.0
+        ],
+        "pr_OccupancyType": "Circulation:Corridor",
+        "space": "0.COR",
+        "name": "Corridor"
+    },
+    {
+        "center": [
+            175.0,
+            1250.0,
+            175.0
+        ],
+        "pr_OccupancyType": "Circulation:Stair",
+        "space": "0.STAIR",
+        "name": "Stair"
+    },
+    {
+        "center": [
+            525.0,
+            1250.0,
+            175.0
+        ],
+        "pr_OccupancyType": "Support:Restroom",
+        "space": "0.WC",
+        "name": "Toilets"
+    },
+    {
+        "center": [
+            350.0,
+            325.0,
+            525.0
+        ],
+        "pr_OccupancyType": "Education:Library",
+        "space": "1.01",
+        "name": "Library"
+    },
+    {
+        "center": [
+            1050.0,
+            325.0,
+            525.0
+        ],
+        "pr_OccupancyType": "Education:Laboratory",
+        "space": "1.02",
+        "name": "Science lab"
+    },
+    {
+        "center": [
+            1750.0,
+            325.0,
+            525.0
+        ],
+        "pr_OccupancyType": "Education:Classroom",
+        "space": "1.03",
+        "name": "Classroom 3A"
+    },
+    {
+        "center": [
+            2450.0,
+            325.0,
+            525.0
+        ],
+        "pr_OccupancyType": "Education:Classroom",
+        "space": "1.04",
+        "name": "Classroom 3B"
+    },
+    {
+        "center": [
+            3150.0,
+            325.0,
+            525.0
+        ],
+        "pr_OccupancyType": "Education:Classroom",
+        "space": "1.05",
+        "name": "Classroom 4A"
+    },
+    {
+        "center": [
+            3850.0,
+            325.0,
+            525.0
+        ],
+        "pr_OccupancyType": "Education:Classroom",
+        "space": "1.06",
+        "name": "Classroom 4B"
+    },
+    {
+        "center": [
+            2100.0,
+            800.0,
+            525.0
+        ],
+        "pr_OccupancyType": "Circulation:Corridor",
+        "space": "1.COR",
+        "name": "Corridor"
+    },
+    {
+        "center": [
+            175.0,
+            1250.0,
+            525.0
+        ],
+        "pr_OccupancyType": "Circulation:Stair",
+        "space": "1.STAIR",
+        "name": "Stair"
+    },
+    {
+        "center": [
+            525.0,
+            1250.0,
+            525.0
+        ],
+        "pr_OccupancyType": "Support:Restroom",
+        "space": "1.WC",
+        "name": "Toilets"
+    },
+    {
+        "center": [
+            5100.0,
+            600.0,
+            375.0
+        ],
+        "pr_OccupancyType": "Sports:Gym",
+        "space": "G.GYM",
+        "name": "Gym"
+    },
+    {
+        "center": [
+            4500.0,
+            1500.0,
+            175.0
+        ],
+        "pr_OccupancyType": "Support:ChangingRoom",
+        "space": "G.01",
+        "name": "Changing room A"
+    },
+    {
+        "center": [
+            5100.0,
+            1500.0,
+            175.0
+        ],
+        "pr_OccupancyType": "Support:ChangingRoom",
+        "space": "G.02",
+        "name": "Changing room B"
+    },
+    {
+        "center": [
+            5700.0,
+            1500.0,
+            175.0
+        ],
+        "pr_OccupancyType": "Storage:Equipment",
+        "space": "G.03",
+        "name": "Equipment store"
+    },
+    {
+        "center": [
+            5100.000000000001,
+            600.0000000000001,
+            810.0
+        ],
+        "pr_OccupancyType": "Unconditioned:Attic",
+        "space": "G.ATTIC",
+        "name": "Gym roof void"
+    }
+]

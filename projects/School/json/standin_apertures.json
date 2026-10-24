@@ -1,0 +1,107 @@
+{
+    "windows": [
+        [
+            "Classroom",
+            "TBIM_Finestra_Aula_300x180",
+            300,
+            180,
+            100
+        ],
+        [
+            "Library",
+            "TBIM_Finestra_Aula_300x180",
+            300,
+            180,
+            100
+        ],
+        [
+            "Laboratory",
+            "TBIM_Finestra_Aula_300x180",
+            300,
+            180,
+            100
+        ],
+        [
+            "Administration",
+            "TBIM_Finestra_Ufficio_150x150",
+            150,
+            150,
+            100
+        ],
+        [
+            "Corridor",
+            "TBIM_Finestra_Corridoio_150x150",
+            150,
+            150,
+            100
+        ],
+        [
+            "Stair",
+            "TBIM_Finestra_Scala_100x200",
+            100,
+            200,
+            90
+        ],
+        [
+            "Restroom",
+            "TBIM_Finestra_Bagno_80x60",
+            80,
+            60,
+            200
+        ],
+        [
+            "Gym",
+            "TBIM_Finestra_Nastro_Palestra_600x120",
+            600,
+            120,
+            450
+        ],
+        [
+            "ChangingRoom",
+            "TBIM_Finestra_Bagno_80x60",
+            80,
+            60,
+            200
+        ]
+    ],
+    "external_doors": [
+        [
+            "EntranceHall",
+            "TBIM_Portone_Ingresso_200x250",
+            200,
+            250
+        ],
+        [
+            "Gym",
+            "TBIM_Porta_Antipanico_150x240",
+            150,
+            240
+        ]
+    ],
+    "doors": [
+        [
+            "Corridor",
+            "",
+            "TBIM_Porta_Aula_100x220",
+            100,
+            220
+        ],
+        [
+            "Gym",
+            "",
+            "TBIM_Porta_Palestra_120x220",
+            120,
+            220
+        ]
+    ],
+    "window_data": {
+        "pr_FrameMaterial": "Aluminium, no thermal break",
+        "pr_Glazing": "Double glazing 4-6-4",
+        "pr_ThermalTransmittance": 3.3,
+        "pr_SolarFactor": 0.75,
+        "pr_ConstructionYear": 1978
+    },
+    "door_data": {
+        "pr_ConstructionYear": 1978
+    }
+}

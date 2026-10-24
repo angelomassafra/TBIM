@@ -1,0 +1,5927 @@
+[
+    {
+        "apertures": [],
+        "coordinates": [
+            0.0,
+            800.0,
+            0.0
+        ],
+        "dictionary": {
+            "toplevel": false,
+            "uuid": "5904ba90-cf7e-11f1-b9b5-0072eeef51b3"
+        },
+        "type": "Vertex",
+        "uuid": "5904ba90-cf7e-11f1-b9b5-0072eeef51b3"
+    },
+    {
+        "apertures": [],
+        "coordinates": [
+            800.0,
+            800.0,
+            0.0
+        ],
+        "dictionary": {
+            "toplevel": false,
+            "uuid": "5904ba91-cf7e-11f1-a057-0072eeef51b3"
+        },
+        "type": "Vertex",
+        "uuid": "5904ba91-cf7e-11f1-a057-0072eeef51b3"
+    },
+    {
+        "apertures": [],
+        "coordinates": [
+            800.0,
+            0.0,
+            0.0
+        ],
+        "dictionary": {
+            "toplevel": false,
+            "uuid": "5904ba92-cf7e-11f1-9b4c-0072eeef51b3"
+        },
+        "type": "Vertex",
+        "uuid": "5904ba92-cf7e-11f1-9b4c-0072eeef51b3"
+    },
+    {
+        "apertures": [],
+        "coordinates": [
+            0.0,
+            0.0,
+            0.0
+        ],
+        "dictionary": {
+            "toplevel": false,
+            "uuid": "5904ba93-cf7e-11f1-ab17-0072eeef51b3"
+        },
+        "type": "Vertex",
+        "uuid": "5904ba93-cf7e-11f1-ab17-0072eeef51b3"
+    },
+    {
+        "apertures": [],
+        "coordinates": [
+            800.0,
+            800.0,
+            500.0
+        ],
+        "dictionary": {
+            "toplevel": false,
+            "uuid": "5904ba94-cf7e-11f1-b314-0072eeef51b3"
+        },
+        "type": "Vertex",
+        "uuid": "5904ba94-cf7e-11f1-b314-0072eeef51b3"
+    },
+    {
+        "apertures": [],
+        "coordinates": [
+            0.0,
+            800.0,
+            500.0
+        ],
+        "dictionary": {
+            "toplevel": false,
+            "uuid": "5904ce98-cf7e-11f1-861c-0072eeef51b3"
+        },
+        "type": "Vertex",
+        "uuid": "5904ce98-cf7e-11f1-861c-0072eeef51b3"
+    },
+    {
+        "apertures": [],
+        "coordinates": [
+            800.0,
+            0.0,
+            500.0
+        ],
+        "dictionary": {
+            "toplevel": false,
+            "uuid": "5904ce99-cf7e-11f1-a0df-0072eeef51b3"
+        },
+        "type": "Vertex",
+        "uuid": "5904ce99-cf7e-11f1-a0df-0072eeef51b3"
+    },
+    {
+        "apertures": [],
+        "coordinates": [
+            0.0,
+            0.0,
+            500.0
+        ],
+        "dictionary": {
+            "toplevel": false,
+            "uuid": "5904ce9a-cf7e-11f1-9017-0072eeef51b3"
+        },
+        "type": "Vertex",
+        "uuid": "5904ce9a-cf7e-11f1-9017-0072eeef51b3"
+    },
+    {
+        "apertures": [],
+        "coordinates": [
+            0.0,
+            1500.0,
+            0.0
+        ],
+        "dictionary": {
+            "toplevel": false,
+            "uuid": "5904ce9b-cf7e-11f1-9cc4-0072eeef51b3"
+        },
+        "type": "Vertex",
+        "uuid": "5904ce9b-cf7e-11f1-9cc4-0072eeef51b3"
+    },
+    {
+        "apertures": [],
+        "coordinates": [
+            800.0,
+            1500.0,
+            0.0
+        ],
+        "dictionary": {
+            "toplevel": false,
+            "uuid": "5904ce9c-cf7e-11f1-bc18-0072eeef51b3"
+        },
+        "type": "Vertex",
+        "uuid": "5904ce9c-cf7e-11f1-bc18-0072eeef51b3"
+    },
+    {
+        "apertures": [],
+        "coordinates": [
+            800.0,
+            1500.0,
+            500.0
+        ],
+        "dictionary": {
+            "toplevel": false,
+            "uuid": "5904ce9d-cf7e-11f1-9a56-0072eeef51b3"
+        },
+        "type": "Vertex",
+        "uuid": "5904ce9d-cf7e-11f1-9a56-0072eeef51b3"
+    },
+    {
+        "apertures": [],
+        "coordinates": [
+            0.0,
+            1500.0,
+            500.0
+        ],
+        "dictionary": {
+            "toplevel": false,
+            "uuid": "5904ce9e-cf7e-11f1-a889-0072eeef51b3"
+        },
+        "type": "Vertex",
+        "uuid": "5904ce9e-cf7e-11f1-a889-0072eeef51b3"
+    },
+    {
+        "apertures": [],
+        "coordinates": [
+            1500.0,
+            800.0,
+            0.0
+        ],
+        "dictionary": {
+            "toplevel": false,
+            "uuid": "5904ce9f-cf7e-11f1-b4ed-0072eeef51b3"
+        },
+        "type": "Vertex",
+        "uuid": "5904ce9f-cf7e-11f1-b4ed-0072eeef51b3"
+    },
+    {
+        "apertures": [],
+        "coordinates": [
+            1500.0,
+            0.0,
+            0.0
+        ],
+        "dictionary": {
+            "toplevel": false,
+            "uuid": "5904cea0-cf7e-11f1-bb6b-0072eeef51b3"
+        },
+        "type": "Vertex",
+        "uuid": "5904cea0-cf7e-11f1-bb6b-0072eeef51b3"
+    },
+    {
+        "apertures": [],
+        "coordinates": [
+            1500.0,
+            800.0,
+            500.0
+        ],
+        "dictionary": {
+            "toplevel": false,
+            "uuid": "5904cea1-cf7e-11f1-9dc9-0072eeef51b3"
+        },
+        "type": "Vertex",
+        "uuid": "5904cea1-cf7e-11f1-9dc9-0072eeef51b3"
+    },
+    {
+        "apertures": [],
+        "coordinates": [
+            1500.0,
+            0.0,
+            500.0
+        ],
+        "dictionary": {
+            "toplevel": false,
+            "uuid": "5904cea2-cf7e-11f1-b4ff-0072eeef51b3"
+        },
+        "type": "Vertex",
+        "uuid": "5904cea2-cf7e-11f1-b4ff-0072eeef51b3"
+    },
+    {
+        "apertures": [],
+        "coordinates": [
+            800.0,
+            2200.0,
+            0.0
+        ],
+        "dictionary": {
+            "toplevel": false,
+            "uuid": "5904cea3-cf7e-11f1-8812-0072eeef51b3"
+        },
+        "type": "Vertex",
+        "uuid": "5904cea3-cf7e-11f1-8812-0072eeef51b3"
+    },
+    {
+        "apertures": [],
+        "coordinates": [
+            0.0,
+            2200.0,
+            0.0
+        ],
+        "dictionary": {
+            "toplevel": false,
+            "uuid": "5904cea4-cf7e-11f1-9a2f-0072eeef51b3"
+        },
+        "type": "Vertex",
+        "uuid": "5904cea4-cf7e-11f1-9a2f-0072eeef51b3"
+    },
+    {
+        "apertures": [],
+        "coordinates": [
+            800.0,
+            2200.0,
+            500.0
+        ],
+        "dictionary": {
+            "toplevel": false,
+            "uuid": "5904f644-cf7e-11f1-8adc-0072eeef51b3"
+        },
+        "type": "Vertex",
+        "uuid": "5904f644-cf7e-11f1-8adc-0072eeef51b3"
+    },
+    {
+        "apertures": [],
+        "coordinates": [
+            750.0,
+            2200.0,
+            500.0
+        ],
+        "dictionary": {
+            "toplevel": false,
+            "uuid": "5904f645-cf7e-11f1-a6b7-0072eeef51b3"
+        },
+        "type": "Vertex",
+        "uuid": "5904f645-cf7e-11f1-a6b7-0072eeef51b3"
+    },
+    {
+        "apertures": [],
+        "coordinates": [
+            0.0,
+            2200.0,
+            500.0
+        ],
+        "dictionary": {
+            "toplevel": false,
+            "uuid": "5904f646-cf7e-11f1-9422-0072eeef51b3"
+        },
+        "type": "Vertex",
+        "uuid": "5904f646-cf7e-11f1-9422-0072eeef51b3"
+    },
+    {
+        "apertures": [],
+        "coordinates": [
+            2200.0,
+            800.0,
+            0.0
+        ],
+        "dictionary": {
+            "toplevel": false,
+            "uuid": "5904f647-cf7e-11f1-8007-0072eeef51b3"
+        },
+        "type": "Vertex",
+        "uuid": "5904f647-cf7e-11f1-8007-0072eeef51b3"
+    },
+    {
+        "apertures": [],
+        "coordinates": [
+            2200.0,
+            0.0,
+            0.0
+        ],
+        "dictionary": {
+            "toplevel": false,
+            "uuid": "5904f648-cf7e-11f1-84f7-0072eeef51b3"
+        },
+        "type": "Vertex",
+        "uuid": "5904f648-cf7e-11f1-84f7-0072eeef51b3"
+    },
+    {
+        "apertures": [],
+        "coordinates": [
+            2200.0,
+            800.0,
+            500.0
+        ],
+        "dictionary": {
+            "toplevel": false,
+            "uuid": "5904f649-cf7e-11f1-a8b9-0072eeef51b3"
+        },
+        "type": "Vertex",
+        "uuid": "5904f649-cf7e-11f1-a8b9-0072eeef51b3"
+    },
+    {
+        "apertures": [],
+        "coordinates": [
+            2200.0,
+            0.0,
+            500.0
+        ],
+        "dictionary": {
+            "toplevel": false,
+            "uuid": "5904f64a-cf7e-11f1-a07f-0072eeef51b3"
+        },
+        "type": "Vertex",
+        "uuid": "5904f64a-cf7e-11f1-a07f-0072eeef51b3"
+    },
+    {
+        "apertures": [],
+        "coordinates": [
+            0.0,
+            3000.0,
+            0.0
+        ],
+        "dictionary": {
+            "toplevel": false,
+            "uuid": "5904f64b-cf7e-11f1-a956-0072eeef51b3"
+        },
+        "type": "Vertex",
+        "uuid": "5904f64b-cf7e-11f1-a956-0072eeef51b3"
+    },
+    {
+        "apertures": [],
+        "coordinates": [
+            1500.0,
+            3000.0,
+            0.0
+        ],
+        "dictionary": {
+            "toplevel": false,
+            "uuid": "5904f64c-cf7e-11f1-b0fe-0072eeef51b3"
+        },
+        "type": "Vertex",
+        "uuid": "5904f64c-cf7e-11f1-b0fe-0072eeef51b3"
+    },
+    {
+        "apertures": [],
+        "coordinates": [
+            1500.0,
+            2200.0,
+            0.0
+        ],
+        "dictionary": {
+            "toplevel": false,
+            "uuid": "5904f64d-cf7e-11f1-90be-0072eeef51b3"
+        },
+        "type": "Vertex",
+        "uuid": "5904f64d-cf7e-11f1-90be-0072eeef51b3"
+    },
+    {
+        "apertures": [],
+        "coordinates": [
+            1500.0,
+            3000.0,
+            500.0
+        ],
+        "dictionary": {
+            "toplevel": false,
+            "uuid": "5904f64e-cf7e-11f1-996b-0072eeef51b3"
+        },
+        "type": "Vertex",
+        "uuid": "5904f64e-cf7e-11f1-996b-0072eeef51b3"
+    },
+    {
+        "apertures": [],
+        "coordinates": [
+            0.0,
+            3000.0,
+            500.0
+        ],
+        "dictionary": {
+            "toplevel": false,
+            "uuid": "5904f64f-cf7e-11f1-a19d-0072eeef51b3"
+        },
+        "type": "Vertex",
+        "uuid": "5904f64f-cf7e-11f1-a19d-0072eeef51b3"
+    },
+    {
+        "apertures": [],
+        "coordinates": [
+            750.0,
+            3000.0,
+            500.0
+        ],
+        "dictionary": {
+            "toplevel": false,
+            "uuid": "5904f650-cf7e-11f1-85c9-0072eeef51b3"
+        },
+        "type": "Vertex",
+        "uuid": "5904f650-cf7e-11f1-85c9-0072eeef51b3"
+    },
+    {
+        "apertures": [],
+        "coordinates": [
+            1500.0,
+            2200.0,
+            500.0
+        ],
+        "dictionary": {
+            "toplevel": false,
+            "uuid": "59051d49-cf7e-11f1-acb2-0072eeef51b3"
+        },
+        "type": "Vertex",
+        "uuid": "59051d49-cf7e-11f1-acb2-0072eeef51b3"
+    },
+    {
+        "apertures": [],
+        "coordinates": [
+            3000.0,
+            800.0,
+            0.0
+        ],
+        "dictionary": {
+            "toplevel": false,
+            "uuid": "59051d4a-cf7e-11f1-8ab4-0072eeef51b3"
+        },
+        "type": "Vertex",
+        "uuid": "59051d4a-cf7e-11f1-8ab4-0072eeef51b3"
+    },
+    {
+        "apertures": [],
+        "coordinates": [
+            3000.0,
+            0.0,
+            0.0
+        ],
+        "dictionary": {
+            "toplevel": false,
+            "uuid": "59051d4b-cf7e-11f1-841b-0072eeef51b3"
+        },
+        "type": "Vertex",
+        "uuid": "59051d4b-cf7e-11f1-841b-0072eeef51b3"
+    },
+    {
+        "apertures": [],
+        "coordinates": [
+            3000.0,
+            800.0,
+            500.0
+        ],
+        "dictionary": {
+            "toplevel": false,
+            "uuid": "59051d4c-cf7e-11f1-8d81-0072eeef51b3"
+        },
+        "type": "Vertex",
+        "uuid": "59051d4c-cf7e-11f1-8d81-0072eeef51b3"
+    },
+    {
+        "apertures": [],
+        "coordinates": [
+            3000.0,
+            0.0,
+            500.0
+        ],
+        "dictionary": {
+            "toplevel": false,
+            "uuid": "59051d4d-cf7e-11f1-8260-0072eeef51b3"
+        },
+        "type": "Vertex",
+        "uuid": "59051d4d-cf7e-11f1-8260-0072eeef51b3"
+    },
+    {
+        "apertures": [],
+        "coordinates": [
+            2200.0,
+            3000.0,
+            0.0
+        ],
+        "dictionary": {
+            "toplevel": false,
+            "uuid": "59051d4e-cf7e-11f1-8918-0072eeef51b3"
+        },
+        "type": "Vertex",
+        "uuid": "59051d4e-cf7e-11f1-8918-0072eeef51b3"
+    },
+    {
+        "apertures": [],
+        "coordinates": [
+            2200.0,
+            2200.0,
+            0.0
+        ],
+        "dictionary": {
+            "toplevel": false,
+            "uuid": "59051d4f-cf7e-11f1-850a-0072eeef51b3"
+        },
+        "type": "Vertex",
+        "uuid": "59051d4f-cf7e-11f1-850a-0072eeef51b3"
+    },
+    {
+        "apertures": [],
+        "coordinates": [
+            2200.0,
+            3000.0,
+            500.0
+        ],
+        "dictionary": {
+            "toplevel": false,
+            "uuid": "59051d50-cf7e-11f1-a971-0072eeef51b3"
+        },
+        "type": "Vertex",
+        "uuid": "59051d50-cf7e-11f1-a971-0072eeef51b3"
+    },
+    {
+        "apertures": [],
+        "coordinates": [
+            2200.0,
+            2200.0,
+            500.0
+        ],
+        "dictionary": {
+            "toplevel": false,
+            "uuid": "59051d51-cf7e-11f1-8b19-0072eeef51b3"
+        },
+        "type": "Vertex",
+        "uuid": "59051d51-cf7e-11f1-8b19-0072eeef51b3"
+    },
+    {
+        "apertures": [],
+        "coordinates": [
+            750.0,
+            3000.0,
+            900.0
+        ],
+        "dictionary": {
+            "toplevel": false,
+            "uuid": "59051d52-cf7e-11f1-90f2-0072eeef51b3"
+        },
+        "type": "Vertex",
+        "uuid": "59051d52-cf7e-11f1-90f2-0072eeef51b3"
+    },
+    {
+        "apertures": [],
+        "coordinates": [
+            0.0,
+            3000.0,
+            900.0
+        ],
+        "dictionary": {
+            "toplevel": false,
+            "uuid": "59051d53-cf7e-11f1-a6fb-0072eeef51b3"
+        },
+        "type": "Vertex",
+        "uuid": "59051d53-cf7e-11f1-a6fb-0072eeef51b3"
+    },
+    {
+        "apertures": [],
+        "coordinates": [
+            750.0,
+            2200.0,
+            900.0
+        ],
+        "dictionary": {
+            "toplevel": false,
+            "uuid": "59051d54-cf7e-11f1-b0e2-0072eeef51b3"
+        },
+        "type": "Vertex",
+        "uuid": "59051d54-cf7e-11f1-b0e2-0072eeef51b3"
+    },
+    {
+        "apertures": [],
+        "coordinates": [
+            0.0,
+            2200.0,
+            900.0
+        ],
+        "dictionary": {
+            "toplevel": false,
+            "uuid": "59051d55-cf7e-11f1-abbf-0072eeef51b3"
+        },
+        "type": "Vertex",
+        "uuid": "59051d55-cf7e-11f1-abbf-0072eeef51b3"
+    },
+    {
+        "apertures": [],
+        "coordinates": [
+            1500.0,
+            3000.0,
+            900.0
+        ],
+        "dictionary": {
+            "toplevel": false,
+            "uuid": "5905499f-cf7e-11f1-bdf6-0072eeef51b3"
+        },
+        "type": "Vertex",
+        "uuid": "5905499f-cf7e-11f1-bdf6-0072eeef51b3"
+    },
+    {
+        "apertures": [],
+        "coordinates": [
+            1500.0,
+            2200.0,
+            900.0
+        ],
+        "dictionary": {
+            "toplevel": false,
+            "uuid": "590549a0-cf7e-11f1-9bb7-0072eeef51b3"
+        },
+        "type": "Vertex",
+        "uuid": "590549a0-cf7e-11f1-9bb7-0072eeef51b3"
+    },
+    {
+        "apertures": [],
+        "coordinates": [
+            2200.0,
+            1500.0,
+            0.0
+        ],
+        "dictionary": {
+            "toplevel": false,
+            "uuid": "590549a1-cf7e-11f1-bbca-0072eeef51b3"
+        },
+        "type": "Vertex",
+        "uuid": "590549a1-cf7e-11f1-bbca-0072eeef51b3"
+    },
+    {
+        "apertures": [],
+        "coordinates": [
+            3000.0,
+            1500.0,
+            0.0
+        ],
+        "dictionary": {
+            "toplevel": false,
+            "uuid": "590549a2-cf7e-11f1-a359-0072eeef51b3"
+        },
+        "type": "Vertex",
+        "uuid": "590549a2-cf7e-11f1-a359-0072eeef51b3"
+    },
+    {
+        "apertures": [],
+        "coordinates": [
+            3000.0,
+            1500.0,
+            500.0
+        ],
+        "dictionary": {
+            "toplevel": false,
+            "uuid": "590549a3-cf7e-11f1-b03b-0072eeef51b3"
+        },
+        "type": "Vertex",
+        "uuid": "590549a3-cf7e-11f1-b03b-0072eeef51b3"
+    },
+    {
+        "apertures": [],
+        "coordinates": [
+            2200.0,
+            1500.0,
+            500.0
+        ],
+        "dictionary": {
+            "toplevel": false,
+            "uuid": "590549a4-cf7e-11f1-8ff9-0072eeef51b3"
+        },
+        "type": "Vertex",
+        "uuid": "590549a4-cf7e-11f1-8ff9-0072eeef51b3"
+    },
+    {
+        "apertures": [],
+        "coordinates": [
+            3000.0,
+            800.0,
+            900.0
+        ],
+        "dictionary": {
+            "toplevel": false,
+            "uuid": "590549a5-cf7e-11f1-8c9f-0072eeef51b3"
+        },
+        "type": "Vertex",
+        "uuid": "590549a5-cf7e-11f1-8c9f-0072eeef51b3"
+    },
+    {
+        "apertures": [],
+        "coordinates": [
+            2200.0,
+            800.0,
+            900.0
+        ],
+        "dictionary": {
+            "toplevel": false,
+            "uuid": "590549a6-cf7e-11f1-b51b-0072eeef51b3"
+        },
+        "type": "Vertex",
+        "uuid": "590549a6-cf7e-11f1-b51b-0072eeef51b3"
+    },
+    {
+        "apertures": [],
+        "coordinates": [
+            3000.0,
+            0.0,
+            900.0
+        ],
+        "dictionary": {
+            "toplevel": false,
+            "uuid": "590549a7-cf7e-11f1-8f69-0072eeef51b3"
+        },
+        "type": "Vertex",
+        "uuid": "590549a7-cf7e-11f1-8f69-0072eeef51b3"
+    },
+    {
+        "apertures": [],
+        "coordinates": [
+            2200.0,
+            0.0,
+            900.0
+        ],
+        "dictionary": {
+            "toplevel": false,
+            "uuid": "590549a8-cf7e-11f1-9af0-0072eeef51b3"
+        },
+        "type": "Vertex",
+        "uuid": "590549a8-cf7e-11f1-9af0-0072eeef51b3"
+    },
+    {
+        "apertures": [],
+        "coordinates": [
+            2350.0,
+            650.0,
+            900.0
+        ],
+        "dictionary": {
+            "toplevel": false,
+            "uuid": "590549a9-cf7e-11f1-9854-0072eeef51b3"
+        },
+        "type": "Vertex",
+        "uuid": "590549a9-cf7e-11f1-9854-0072eeef51b3"
+    },
+    {
+        "apertures": [],
+        "coordinates": [
+            2850.0,
+            650.0,
+            900.0
+        ],
+        "dictionary": {
+            "toplevel": false,
+            "uuid": "590549aa-cf7e-11f1-8570-0072eeef51b3"
+        },
+        "type": "Vertex",
+        "uuid": "590549aa-cf7e-11f1-8570-0072eeef51b3"
+    },
+    {
+        "apertures": [],
+        "coordinates": [
+            2850.0,
+            150.0,
+            900.0
+        ],
+        "dictionary": {
+            "toplevel": false,
+            "uuid": "590549ab-cf7e-11f1-a388-0072eeef51b3"
+        },
+        "type": "Vertex",
+        "uuid": "590549ab-cf7e-11f1-a388-0072eeef51b3"
+    },
+    {
+        "apertures": [],
+        "coordinates": [
+            2350.0,
+            150.0,
+            900.0
+        ],
+        "dictionary": {
+            "toplevel": false,
+            "uuid": "590570ac-cf7e-11f1-92db-0072eeef51b3"
+        },
+        "type": "Vertex",
+        "uuid": "590570ac-cf7e-11f1-92db-0072eeef51b3"
+    },
+    {
+        "apertures": [],
+        "coordinates": [
+            3000.0,
+            3000.0,
+            0.0
+        ],
+        "dictionary": {
+            "toplevel": false,
+            "uuid": "590570ad-cf7e-11f1-aa9e-0072eeef51b3"
+        },
+        "type": "Vertex",
+        "uuid": "590570ad-cf7e-11f1-aa9e-0072eeef51b3"
+    },
+    {
+        "apertures": [],
+        "coordinates": [
+            3000.0,
+            2200.0,
+            0.0
+        ],
+        "dictionary": {
+            "toplevel": false,
+            "uuid": "590570ae-cf7e-11f1-a274-0072eeef51b3"
+        },
+        "type": "Vertex",
+        "uuid": "590570ae-cf7e-11f1-a274-0072eeef51b3"
+    },
+    {
+        "apertures": [],
+        "coordinates": [
+            3000.0,
+            3000.0,
+            500.0
+        ],
+        "dictionary": {
+            "toplevel": false,
+            "uuid": "590570af-cf7e-11f1-83a1-0072eeef51b3"
+        },
+        "type": "Vertex",
+        "uuid": "590570af-cf7e-11f1-83a1-0072eeef51b3"
+    },
+    {
+        "apertures": [],
+        "coordinates": [
+            2250.0,
+            3000.0,
+            500.0
+        ],
+        "dictionary": {
+            "toplevel": false,
+            "uuid": "590570b0-cf7e-11f1-8018-0072eeef51b3"
+        },
+        "type": "Vertex",
+        "uuid": "590570b0-cf7e-11f1-8018-0072eeef51b3"
+    },
+    {
+        "apertures": [],
+        "coordinates": [
+            3000.0,
+            2200.0,
+            500.0
+        ],
+        "dictionary": {
+            "toplevel": false,
+            "uuid": "590570b1-cf7e-11f1-80bd-0072eeef51b3"
+        },
+        "type": "Vertex",
+        "uuid": "590570b1-cf7e-11f1-80bd-0072eeef51b3"
+    },
+    {
+        "apertures": [],
+        "coordinates": [
+            2250.0,
+            2200.0,
+            500.0
+        ],
+        "dictionary": {
+            "toplevel": false,
+            "uuid": "590570b2-cf7e-11f1-ba47-0072eeef51b3"
+        },
+        "type": "Vertex",
+        "uuid": "590570b2-cf7e-11f1-ba47-0072eeef51b3"
+    },
+    {
+        "apertures": [],
+        "coordinates": [
+            2250.0,
+            3000.0,
+            900.0
+        ],
+        "dictionary": {
+            "toplevel": false,
+            "uuid": "590570b3-cf7e-11f1-888d-0072eeef51b3"
+        },
+        "type": "Vertex",
+        "uuid": "590570b3-cf7e-11f1-888d-0072eeef51b3"
+    },
+    {
+        "apertures": [],
+        "coordinates": [
+            2250.0,
+            2200.0,
+            900.0
+        ],
+        "dictionary": {
+            "toplevel": false,
+            "uuid": "590570b4-cf7e-11f1-b6da-0072eeef51b3"
+        },
+        "type": "Vertex",
+        "uuid": "590570b4-cf7e-11f1-b6da-0072eeef51b3"
+    },
+    {
+        "apertures": [],
+        "coordinates": [
+            2850.0,
+            650.0,
+            1250.0
+        ],
+        "dictionary": {
+            "toplevel": false,
+            "uuid": "590570b5-cf7e-11f1-b566-0072eeef51b3"
+        },
+        "type": "Vertex",
+        "uuid": "590570b5-cf7e-11f1-b566-0072eeef51b3"
+    },
+    {
+        "apertures": [],
+        "coordinates": [
+            2350.0,
+            650.0,
+            1250.0
+        ],
+        "dictionary": {
+            "toplevel": false,
+            "uuid": "590570b6-cf7e-11f1-9118-0072eeef51b3"
+        },
+        "type": "Vertex",
+        "uuid": "590570b6-cf7e-11f1-9118-0072eeef51b3"
+    },
+    {
+        "apertures": [],
+        "coordinates": [
+            2850.0,
+            150.0,
+            1250.0
+        ],
+        "dictionary": {
+            "toplevel": false,
+            "uuid": "5905976a-cf7e-11f1-8889-0072eeef51b3"
+        },
+        "type": "Vertex",
+        "uuid": "5905976a-cf7e-11f1-8889-0072eeef51b3"
+    },
+    {
+        "apertures": [],
+        "coordinates": [
+            2350.0,
+            150.0,
+            1250.0
+        ],
+        "dictionary": {
+            "toplevel": false,
+            "uuid": "5905976b-cf7e-11f1-a354-0072eeef51b3"
+        },
+        "type": "Vertex",
+        "uuid": "5905976b-cf7e-11f1-a354-0072eeef51b3"
+    },
+    {
+        "apertures": [],
+        "coordinates": [
+            3000.0,
+            3000.0,
+            900.0
+        ],
+        "dictionary": {
+            "toplevel": false,
+            "uuid": "5905976c-cf7e-11f1-9406-0072eeef51b3"
+        },
+        "type": "Vertex",
+        "uuid": "5905976c-cf7e-11f1-9406-0072eeef51b3"
+    },
+    {
+        "apertures": [],
+        "coordinates": [
+            3000.0,
+            2200.0,
+            900.0
+        ],
+        "dictionary": {
+            "toplevel": false,
+            "uuid": "5905976d-cf7e-11f1-bea0-0072eeef51b3"
+        },
+        "type": "Vertex",
+        "uuid": "5905976d-cf7e-11f1-bea0-0072eeef51b3"
+    },
+    {
+        "apertures": [],
+        "dictionary": {
+            "toplevel": false,
+            "uuid": "5905976e-cf7e-11f1-b8b1-0072eeef51b3"
+        },
+        "type": "Edge",
+        "uuid": "5905976e-cf7e-11f1-b8b1-0072eeef51b3",
+        "vertices": [
+            "5904ba90-cf7e-11f1-b9b5-0072eeef51b3",
+            "5904ba91-cf7e-11f1-a057-0072eeef51b3"
+        ]
+    },
+    {
+        "apertures": [],
+        "dictionary": {
+            "toplevel": false,
+            "uuid": "5905976f-cf7e-11f1-b62f-0072eeef51b3"
+        },
+        "type": "Edge",
+        "uuid": "5905976f-cf7e-11f1-b62f-0072eeef51b3",
+        "vertices": [
+            "5904ba91-cf7e-11f1-a057-0072eeef51b3",
+            "5904ba92-cf7e-11f1-9b4c-0072eeef51b3"
+        ]
+    },
+    {
+        "apertures": [],
+        "dictionary": {
+            "toplevel": false,
+            "uuid": "59059770-cf7e-11f1-9eeb-0072eeef51b3"
+        },
+        "type": "Edge",
+        "uuid": "59059770-cf7e-11f1-9eeb-0072eeef51b3",
+        "vertices": [
+            "5904ba92-cf7e-11f1-9b4c-0072eeef51b3",
+            "5904ba93-cf7e-11f1-ab17-0072eeef51b3"
+        ]
+    },
+    {
+        "apertures": [],
+        "dictionary": {
+            "toplevel": false,
+            "uuid": "5905be5f-cf7e-11f1-bdc1-0072eeef51b3"
+        },
+        "type": "Edge",
+        "uuid": "5905be5f-cf7e-11f1-bdc1-0072eeef51b3",
+        "vertices": [
+            "5904ba93-cf7e-11f1-ab17-0072eeef51b3",
+            "5904ba90-cf7e-11f1-b9b5-0072eeef51b3"
+        ]
+    },
+    {
+        "apertures": [],
+        "dictionary": {
+            "toplevel": false,
+            "uuid": "5905be60-cf7e-11f1-a953-0072eeef51b3"
+        },
+        "type": "Edge",
+        "uuid": "5905be60-cf7e-11f1-a953-0072eeef51b3",
+        "vertices": [
+            "5904ba94-cf7e-11f1-b314-0072eeef51b3",
+            "5904ba91-cf7e-11f1-a057-0072eeef51b3"
+        ]
+    },
+    {
+        "apertures": [],
+        "dictionary": {
+            "toplevel": false,
+            "uuid": "5905be61-cf7e-11f1-8b14-0072eeef51b3"
+        },
+        "type": "Edge",
+        "uuid": "5905be61-cf7e-11f1-8b14-0072eeef51b3",
+        "vertices": [
+            "5904ce98-cf7e-11f1-861c-0072eeef51b3",
+            "5904ba94-cf7e-11f1-b314-0072eeef51b3"
+        ]
+    },
+    {
+        "apertures": [],
+        "dictionary": {
+            "toplevel": false,
+            "uuid": "5905be62-cf7e-11f1-a785-0072eeef51b3"
+        },
+        "type": "Edge",
+        "uuid": "5905be62-cf7e-11f1-a785-0072eeef51b3",
+        "vertices": [
+            "5904ba90-cf7e-11f1-b9b5-0072eeef51b3",
+            "5904ce98-cf7e-11f1-861c-0072eeef51b3"
+        ]
+    },
+    {
+        "apertures": [],
+        "dictionary": {
+            "toplevel": false,
+            "uuid": "5905be63-cf7e-11f1-831c-0072eeef51b3"
+        },
+        "type": "Edge",
+        "uuid": "5905be63-cf7e-11f1-831c-0072eeef51b3",
+        "vertices": [
+            "5904ce99-cf7e-11f1-a0df-0072eeef51b3",
+            "5904ba92-cf7e-11f1-9b4c-0072eeef51b3"
+        ]
+    },
+    {
+        "apertures": [],
+        "dictionary": {
+            "toplevel": false,
+            "uuid": "5905be64-cf7e-11f1-910e-0072eeef51b3"
+        },
+        "type": "Edge",
+        "uuid": "5905be64-cf7e-11f1-910e-0072eeef51b3",
+        "vertices": [
+            "5904ba94-cf7e-11f1-b314-0072eeef51b3",
+            "5904ce99-cf7e-11f1-a0df-0072eeef51b3"
+        ]
+    },
+    {
+        "apertures": [],
+        "dictionary": {
+            "toplevel": false,
+            "uuid": "5905be65-cf7e-11f1-9aaf-0072eeef51b3"
+        },
+        "type": "Edge",
+        "uuid": "5905be65-cf7e-11f1-9aaf-0072eeef51b3",
+        "vertices": [
+            "5904ce9a-cf7e-11f1-9017-0072eeef51b3",
+            "5904ba93-cf7e-11f1-ab17-0072eeef51b3"
+        ]
+    },
+    {
+        "apertures": [],
+        "dictionary": {
+            "toplevel": false,
+            "uuid": "5905e560-cf7e-11f1-8499-0072eeef51b3"
+        },
+        "type": "Edge",
+        "uuid": "5905e560-cf7e-11f1-8499-0072eeef51b3",
+        "vertices": [
+            "5904ce99-cf7e-11f1-a0df-0072eeef51b3",
+            "5904ce9a-cf7e-11f1-9017-0072eeef51b3"
+        ]
+    },
+    {
+        "apertures": [],
+        "dictionary": {
+            "toplevel": false,
+            "uuid": "5905e561-cf7e-11f1-9816-0072eeef51b3"
+        },
+        "type": "Edge",
+        "uuid": "5905e561-cf7e-11f1-9816-0072eeef51b3",
+        "vertices": [
+            "5904ce9a-cf7e-11f1-9017-0072eeef51b3",
+            "5904ce98-cf7e-11f1-861c-0072eeef51b3"
+        ]
+    },
+    {
+        "apertures": [],
+        "dictionary": {
+            "toplevel": false,
+            "uuid": "5905e562-cf7e-11f1-a03a-0072eeef51b3"
+        },
+        "type": "Edge",
+        "uuid": "5905e562-cf7e-11f1-a03a-0072eeef51b3",
+        "vertices": [
+            "5904ce9b-cf7e-11f1-9cc4-0072eeef51b3",
+            "5904ce9c-cf7e-11f1-bc18-0072eeef51b3"
+        ]
+    },
+    {
+        "apertures": [],
+        "dictionary": {
+            "toplevel": false,
+            "uuid": "5905e563-cf7e-11f1-940c-0072eeef51b3"
+        },
+        "type": "Edge",
+        "uuid": "5905e563-cf7e-11f1-940c-0072eeef51b3",
+        "vertices": [
+            "5904ce9c-cf7e-11f1-bc18-0072eeef51b3",
+            "5904ba91-cf7e-11f1-a057-0072eeef51b3"
+        ]
+    },
+    {
+        "apertures": [],
+        "dictionary": {
+            "toplevel": false,
+            "uuid": "5905e564-cf7e-11f1-8f56-0072eeef51b3"
+        },
+        "type": "Edge",
+        "uuid": "5905e564-cf7e-11f1-8f56-0072eeef51b3",
+        "vertices": [
+            "5904ba90-cf7e-11f1-b9b5-0072eeef51b3",
+            "5904ce9b-cf7e-11f1-9cc4-0072eeef51b3"
+        ]
+    },
+    {
+        "apertures": [],
+        "dictionary": {
+            "toplevel": false,
+            "uuid": "5905e565-cf7e-11f1-a591-0072eeef51b3"
+        },
+        "type": "Edge",
+        "uuid": "5905e565-cf7e-11f1-a591-0072eeef51b3",
+        "vertices": [
+            "5904ce9d-cf7e-11f1-9a56-0072eeef51b3",
+            "5904ce9c-cf7e-11f1-bc18-0072eeef51b3"
+        ]
+    },
+    {
+        "apertures": [],
+        "dictionary": {
+            "toplevel": false,
+            "uuid": "5905e566-cf7e-11f1-a377-0072eeef51b3"
+        },
+        "type": "Edge",
+        "uuid": "5905e566-cf7e-11f1-a377-0072eeef51b3",
+        "vertices": [
+            "5904ce9e-cf7e-11f1-a889-0072eeef51b3",
+            "5904ce9d-cf7e-11f1-9a56-0072eeef51b3"
+        ]
+    },
+    {
+        "apertures": [],
+        "dictionary": {
+            "toplevel": false,
+            "uuid": "59060c72-cf7e-11f1-997c-0072eeef51b3"
+        },
+        "type": "Edge",
+        "uuid": "59060c72-cf7e-11f1-997c-0072eeef51b3",
+        "vertices": [
+            "5904ce9b-cf7e-11f1-9cc4-0072eeef51b3",
+            "5904ce9e-cf7e-11f1-a889-0072eeef51b3"
+        ]
+    },
+    {
+        "apertures": [],
+        "dictionary": {
+            "toplevel": false,
+            "uuid": "59060c73-cf7e-11f1-8d9e-0072eeef51b3"
+        },
+        "type": "Edge",
+        "uuid": "59060c73-cf7e-11f1-8d9e-0072eeef51b3",
+        "vertices": [
+            "5904ce9d-cf7e-11f1-9a56-0072eeef51b3",
+            "5904ba94-cf7e-11f1-b314-0072eeef51b3"
+        ]
+    },
+    {
+        "apertures": [],
+        "dictionary": {
+            "toplevel": false,
+            "uuid": "59060c74-cf7e-11f1-bc05-0072eeef51b3"
+        },
+        "type": "Edge",
+        "uuid": "59060c74-cf7e-11f1-bc05-0072eeef51b3",
+        "vertices": [
+            "5904ce98-cf7e-11f1-861c-0072eeef51b3",
+            "5904ce9e-cf7e-11f1-a889-0072eeef51b3"
+        ]
+    },
+    {
+        "apertures": [],
+        "dictionary": {
+            "toplevel": false,
+            "uuid": "59060c75-cf7e-11f1-bd17-0072eeef51b3"
+        },
+        "type": "Edge",
+        "uuid": "59060c75-cf7e-11f1-bd17-0072eeef51b3",
+        "vertices": [
+            "5904ba91-cf7e-11f1-a057-0072eeef51b3",
+            "5904ce9f-cf7e-11f1-b4ed-0072eeef51b3"
+        ]
+    },
+    {
+        "apertures": [],
+        "dictionary": {
+            "toplevel": false,
+            "uuid": "59060c76-cf7e-11f1-9181-0072eeef51b3"
+        },
+        "type": "Edge",
+        "uuid": "59060c76-cf7e-11f1-9181-0072eeef51b3",
+        "vertices": [
+            "5904ce9f-cf7e-11f1-b4ed-0072eeef51b3",
+            "5904cea0-cf7e-11f1-bb6b-0072eeef51b3"
+        ]
+    },
+    {
+        "apertures": [],
+        "dictionary": {
+            "toplevel": false,
+            "uuid": "59060c77-cf7e-11f1-b93b-0072eeef51b3"
+        },
+        "type": "Edge",
+        "uuid": "59060c77-cf7e-11f1-b93b-0072eeef51b3",
+        "vertices": [
+            "5904cea0-cf7e-11f1-bb6b-0072eeef51b3",
+            "5904ba92-cf7e-11f1-9b4c-0072eeef51b3"
+        ]
+    },
+    {
+        "apertures": [],
+        "dictionary": {
+            "toplevel": false,
+            "uuid": "59060c78-cf7e-11f1-9528-0072eeef51b3"
+        },
+        "type": "Edge",
+        "uuid": "59060c78-cf7e-11f1-9528-0072eeef51b3",
+        "vertices": [
+            "5904cea1-cf7e-11f1-9dc9-0072eeef51b3",
+            "5904ce9f-cf7e-11f1-b4ed-0072eeef51b3"
+        ]
+    },
+    {
+        "apertures": [],
+        "dictionary": {
+            "toplevel": false,
+            "uuid": "59060c79-cf7e-11f1-a914-0072eeef51b3"
+        },
+        "type": "Edge",
+        "uuid": "59060c79-cf7e-11f1-a914-0072eeef51b3",
+        "vertices": [
+            "5904ba94-cf7e-11f1-b314-0072eeef51b3",
+            "5904cea1-cf7e-11f1-9dc9-0072eeef51b3"
+        ]
+    },
+    {
+        "apertures": [],
+        "dictionary": {
+            "toplevel": false,
+            "uuid": "5906337e-cf7e-11f1-86f0-0072eeef51b3"
+        },
+        "type": "Edge",
+        "uuid": "5906337e-cf7e-11f1-86f0-0072eeef51b3",
+        "vertices": [
+            "5904cea2-cf7e-11f1-b4ff-0072eeef51b3",
+            "5904cea0-cf7e-11f1-bb6b-0072eeef51b3"
+        ]
+    },
+    {
+        "apertures": [],
+        "dictionary": {
+            "toplevel": false,
+            "uuid": "5906337f-cf7e-11f1-a058-0072eeef51b3"
+        },
+        "type": "Edge",
+        "uuid": "5906337f-cf7e-11f1-a058-0072eeef51b3",
+        "vertices": [
+            "5904cea1-cf7e-11f1-9dc9-0072eeef51b3",
+            "5904cea2-cf7e-11f1-b4ff-0072eeef51b3"
+        ]
+    },
+    {
+        "apertures": [],
+        "dictionary": {
+            "toplevel": false,
+            "uuid": "59063380-cf7e-11f1-9ae9-0072eeef51b3"
+        },
+        "type": "Edge",
+        "uuid": "59063380-cf7e-11f1-9ae9-0072eeef51b3",
+        "vertices": [
+            "5904cea2-cf7e-11f1-b4ff-0072eeef51b3",
+            "5904ce99-cf7e-11f1-a0df-0072eeef51b3"
+        ]
+    },
+    {
+        "apertures": [],
+        "dictionary": {
+            "toplevel": false,
+            "uuid": "59063381-cf7e-11f1-95b8-0072eeef51b3"
+        },
+        "type": "Edge",
+        "uuid": "59063381-cf7e-11f1-95b8-0072eeef51b3",
+        "vertices": [
+            "5904cea4-cf7e-11f1-9a2f-0072eeef51b3",
+            "5904cea3-cf7e-11f1-8812-0072eeef51b3"
+        ]
+    },
+    {
+        "apertures": [],
+        "dictionary": {
+            "toplevel": false,
+            "uuid": "59064756-cf7e-11f1-94e4-0072eeef51b3"
+        },
+        "type": "Edge",
+        "uuid": "59064756-cf7e-11f1-94e4-0072eeef51b3",
+        "vertices": [
+            "5904cea3-cf7e-11f1-8812-0072eeef51b3",
+            "5904ce9c-cf7e-11f1-bc18-0072eeef51b3"
+        ]
+    },
+    {
+        "apertures": [],
+        "dictionary": {
+            "toplevel": false,
+            "uuid": "59064757-cf7e-11f1-924e-0072eeef51b3"
+        },
+        "type": "Edge",
+        "uuid": "59064757-cf7e-11f1-924e-0072eeef51b3",
+        "vertices": [
+            "5904ce9b-cf7e-11f1-9cc4-0072eeef51b3",
+            "5904cea4-cf7e-11f1-9a2f-0072eeef51b3"
+        ]
+    },
+    {
+        "apertures": [],
+        "dictionary": {
+            "toplevel": false,
+            "uuid": "59064758-cf7e-11f1-a40a-0072eeef51b3"
+        },
+        "type": "Edge",
+        "uuid": "59064758-cf7e-11f1-a40a-0072eeef51b3",
+        "vertices": [
+            "5904f644-cf7e-11f1-8adc-0072eeef51b3",
+            "5904cea3-cf7e-11f1-8812-0072eeef51b3"
+        ]
+    },
+    {
+        "apertures": [],
+        "dictionary": {
+            "toplevel": false,
+            "uuid": "59064759-cf7e-11f1-8c39-0072eeef51b3"
+        },
+        "type": "Edge",
+        "uuid": "59064759-cf7e-11f1-8c39-0072eeef51b3",
+        "vertices": [
+            "5904f645-cf7e-11f1-a6b7-0072eeef51b3",
+            "5904f644-cf7e-11f1-8adc-0072eeef51b3"
+        ]
+    },
+    {
+        "apertures": [],
+        "dictionary": {
+            "toplevel": false,
+            "uuid": "5906475a-cf7e-11f1-a044-0072eeef51b3"
+        },
+        "type": "Edge",
+        "uuid": "5906475a-cf7e-11f1-a044-0072eeef51b3",
+        "vertices": [
+            "5904f646-cf7e-11f1-9422-0072eeef51b3",
+            "5904f645-cf7e-11f1-a6b7-0072eeef51b3"
+        ]
+    },
+    {
+        "apertures": [],
+        "dictionary": {
+            "toplevel": false,
+            "uuid": "5906475b-cf7e-11f1-80fa-0072eeef51b3"
+        },
+        "type": "Edge",
+        "uuid": "5906475b-cf7e-11f1-80fa-0072eeef51b3",
+        "vertices": [
+            "5904cea4-cf7e-11f1-9a2f-0072eeef51b3",
+            "5904f646-cf7e-11f1-9422-0072eeef51b3"
+        ]
+    },
+    {
+        "apertures": [],
+        "dictionary": {
+            "toplevel": false,
+            "uuid": "5906475c-cf7e-11f1-a978-0072eeef51b3"
+        },
+        "type": "Edge",
+        "uuid": "5906475c-cf7e-11f1-a978-0072eeef51b3",
+        "vertices": [
+            "5904f644-cf7e-11f1-8adc-0072eeef51b3",
+            "5904ce9d-cf7e-11f1-9a56-0072eeef51b3"
+        ]
+    },
+    {
+        "apertures": [],
+        "dictionary": {
+            "toplevel": false,
+            "uuid": "59066e97-cf7e-11f1-a34f-0072eeef51b3"
+        },
+        "type": "Edge",
+        "uuid": "59066e97-cf7e-11f1-a34f-0072eeef51b3",
+        "vertices": [
+            "5904ce9e-cf7e-11f1-a889-0072eeef51b3",
+            "5904f646-cf7e-11f1-9422-0072eeef51b3"
+        ]
+    },
+    {
+        "apertures": [],
+        "dictionary": {
+            "toplevel": false,
+            "uuid": "59066e98-cf7e-11f1-80b4-0072eeef51b3"
+        },
+        "type": "Edge",
+        "uuid": "59066e98-cf7e-11f1-80b4-0072eeef51b3",
+        "vertices": [
+            "5904ce9f-cf7e-11f1-b4ed-0072eeef51b3",
+            "5904f647-cf7e-11f1-8007-0072eeef51b3"
+        ]
+    },
+    {
+        "apertures": [],
+        "dictionary": {
+            "toplevel": false,
+            "uuid": "59066e99-cf7e-11f1-b6e7-0072eeef51b3"
+        },
+        "type": "Edge",
+        "uuid": "59066e99-cf7e-11f1-b6e7-0072eeef51b3",
+        "vertices": [
+            "5904f647-cf7e-11f1-8007-0072eeef51b3",
+            "5904f648-cf7e-11f1-84f7-0072eeef51b3"
+        ]
+    },
+    {
+        "apertures": [],
+        "dictionary": {
+            "toplevel": false,
+            "uuid": "59066e9a-cf7e-11f1-9933-0072eeef51b3"
+        },
+        "type": "Edge",
+        "uuid": "59066e9a-cf7e-11f1-9933-0072eeef51b3",
+        "vertices": [
+            "5904f648-cf7e-11f1-84f7-0072eeef51b3",
+            "5904cea0-cf7e-11f1-bb6b-0072eeef51b3"
+        ]
+    },
+    {
+        "apertures": [],
+        "dictionary": {
+            "toplevel": false,
+            "uuid": "5906961e-cf7e-11f1-9645-0072eeef51b3"
+        },
+        "type": "Edge",
+        "uuid": "5906961e-cf7e-11f1-9645-0072eeef51b3",
+        "vertices": [
+            "5904f649-cf7e-11f1-a8b9-0072eeef51b3",
+            "5904f647-cf7e-11f1-8007-0072eeef51b3"
+        ]
+    },
+    {
+        "apertures": [],
+        "dictionary": {
+            "toplevel": false,
+            "uuid": "5906961f-cf7e-11f1-bda7-0072eeef51b3"
+        },
+        "type": "Edge",
+        "uuid": "5906961f-cf7e-11f1-bda7-0072eeef51b3",
+        "vertices": [
+            "5904cea1-cf7e-11f1-9dc9-0072eeef51b3",
+            "5904f649-cf7e-11f1-a8b9-0072eeef51b3"
+        ]
+    },
+    {
+        "apertures": [],
+        "dictionary": {
+            "toplevel": false,
+            "uuid": "59069620-cf7e-11f1-ac65-0072eeef51b3"
+        },
+        "type": "Edge",
+        "uuid": "59069620-cf7e-11f1-ac65-0072eeef51b3",
+        "vertices": [
+            "5904f64a-cf7e-11f1-a07f-0072eeef51b3",
+            "5904f648-cf7e-11f1-84f7-0072eeef51b3"
+        ]
+    },
+    {
+        "apertures": [],
+        "dictionary": {
+            "toplevel": false,
+            "uuid": "59069621-cf7e-11f1-9a8d-0072eeef51b3"
+        },
+        "type": "Edge",
+        "uuid": "59069621-cf7e-11f1-9a8d-0072eeef51b3",
+        "vertices": [
+            "5904f649-cf7e-11f1-a8b9-0072eeef51b3",
+            "5904f64a-cf7e-11f1-a07f-0072eeef51b3"
+        ]
+    },
+    {
+        "apertures": [],
+        "dictionary": {
+            "toplevel": false,
+            "uuid": "59069622-cf7e-11f1-9a39-0072eeef51b3"
+        },
+        "type": "Edge",
+        "uuid": "59069622-cf7e-11f1-9a39-0072eeef51b3",
+        "vertices": [
+            "5904f64a-cf7e-11f1-a07f-0072eeef51b3",
+            "5904cea2-cf7e-11f1-b4ff-0072eeef51b3"
+        ]
+    },
+    {
+        "apertures": [],
+        "dictionary": {
+            "toplevel": false,
+            "uuid": "59069623-cf7e-11f1-8fc1-0072eeef51b3"
+        },
+        "type": "Edge",
+        "uuid": "59069623-cf7e-11f1-8fc1-0072eeef51b3",
+        "vertices": [
+            "5904f64b-cf7e-11f1-a956-0072eeef51b3",
+            "5904f64c-cf7e-11f1-b0fe-0072eeef51b3"
+        ]
+    },
+    {
+        "apertures": [],
+        "dictionary": {
+            "toplevel": false,
+            "uuid": "59069624-cf7e-11f1-9030-0072eeef51b3"
+        },
+        "type": "Edge",
+        "uuid": "59069624-cf7e-11f1-9030-0072eeef51b3",
+        "vertices": [
+            "5904f64c-cf7e-11f1-b0fe-0072eeef51b3",
+            "5904f64d-cf7e-11f1-90be-0072eeef51b3"
+        ]
+    },
+    {
+        "apertures": [],
+        "dictionary": {
+            "toplevel": false,
+            "uuid": "59069625-cf7e-11f1-b3e3-0072eeef51b3"
+        },
+        "type": "Edge",
+        "uuid": "59069625-cf7e-11f1-b3e3-0072eeef51b3",
+        "vertices": [
+            "5904f64d-cf7e-11f1-90be-0072eeef51b3",
+            "5904cea3-cf7e-11f1-8812-0072eeef51b3"
+        ]
+    },
+    {
+        "apertures": [],
+        "dictionary": {
+            "toplevel": false,
+            "uuid": "5906bd1c-cf7e-11f1-98ca-0072eeef51b3"
+        },
+        "type": "Edge",
+        "uuid": "5906bd1c-cf7e-11f1-98ca-0072eeef51b3",
+        "vertices": [
+            "5904cea4-cf7e-11f1-9a2f-0072eeef51b3",
+            "5904f64b-cf7e-11f1-a956-0072eeef51b3"
+        ]
+    },
+    {
+        "apertures": [],
+        "dictionary": {
+            "toplevel": false,
+            "uuid": "5906bd1d-cf7e-11f1-af9c-0072eeef51b3"
+        },
+        "type": "Edge",
+        "uuid": "5906bd1d-cf7e-11f1-af9c-0072eeef51b3",
+        "vertices": [
+            "5904f64e-cf7e-11f1-996b-0072eeef51b3",
+            "5904f64c-cf7e-11f1-b0fe-0072eeef51b3"
+        ]
+    },
+    {
+        "apertures": [],
+        "dictionary": {
+            "toplevel": false,
+            "uuid": "5906bd1e-cf7e-11f1-8ecf-0072eeef51b3"
+        },
+        "type": "Edge",
+        "uuid": "5906bd1e-cf7e-11f1-8ecf-0072eeef51b3",
+        "vertices": [
+            "5904f64f-cf7e-11f1-a19d-0072eeef51b3",
+            "5904f650-cf7e-11f1-85c9-0072eeef51b3"
+        ]
+    },
+    {
+        "apertures": [],
+        "dictionary": {
+            "toplevel": false,
+            "uuid": "5906bd1f-cf7e-11f1-b55d-0072eeef51b3"
+        },
+        "type": "Edge",
+        "uuid": "5906bd1f-cf7e-11f1-b55d-0072eeef51b3",
+        "vertices": [
+            "5904f650-cf7e-11f1-85c9-0072eeef51b3",
+            "5904f64e-cf7e-11f1-996b-0072eeef51b3"
+        ]
+    },
+    {
+        "apertures": [],
+        "dictionary": {
+            "toplevel": false,
+            "uuid": "5906bd20-cf7e-11f1-9f70-0072eeef51b3"
+        },
+        "type": "Edge",
+        "uuid": "5906bd20-cf7e-11f1-9f70-0072eeef51b3",
+        "vertices": [
+            "5904f64b-cf7e-11f1-a956-0072eeef51b3",
+            "5904f64f-cf7e-11f1-a19d-0072eeef51b3"
+        ]
+    },
+    {
+        "apertures": [],
+        "dictionary": {
+            "toplevel": false,
+            "uuid": "5906bd21-cf7e-11f1-817f-0072eeef51b3"
+        },
+        "type": "Edge",
+        "uuid": "5906bd21-cf7e-11f1-817f-0072eeef51b3",
+        "vertices": [
+            "59051d49-cf7e-11f1-acb2-0072eeef51b3",
+            "5904f64d-cf7e-11f1-90be-0072eeef51b3"
+        ]
+    },
+    {
+        "apertures": [],
+        "dictionary": {
+            "toplevel": false,
+            "uuid": "5906bd22-cf7e-11f1-8db7-0072eeef51b3"
+        },
+        "type": "Edge",
+        "uuid": "5906bd22-cf7e-11f1-8db7-0072eeef51b3",
+        "vertices": [
+            "5904f64e-cf7e-11f1-996b-0072eeef51b3",
+            "59051d49-cf7e-11f1-acb2-0072eeef51b3"
+        ]
+    },
+    {
+        "apertures": [],
+        "dictionary": {
+            "toplevel": false,
+            "uuid": "5906bd23-cf7e-11f1-a518-0072eeef51b3"
+        },
+        "type": "Edge",
+        "uuid": "5906bd23-cf7e-11f1-a518-0072eeef51b3",
+        "vertices": [
+            "59051d49-cf7e-11f1-acb2-0072eeef51b3",
+            "5904f644-cf7e-11f1-8adc-0072eeef51b3"
+        ]
+    },
+    {
+        "apertures": [],
+        "dictionary": {
+            "toplevel": false,
+            "uuid": "5906e432-cf7e-11f1-aad9-0072eeef51b3"
+        },
+        "type": "Edge",
+        "uuid": "5906e432-cf7e-11f1-aad9-0072eeef51b3",
+        "vertices": [
+            "5904f646-cf7e-11f1-9422-0072eeef51b3",
+            "5904f64f-cf7e-11f1-a19d-0072eeef51b3"
+        ]
+    },
+    {
+        "apertures": [],
+        "dictionary": {
+            "toplevel": false,
+            "uuid": "5906e433-cf7e-11f1-933d-0072eeef51b3"
+        },
+        "type": "Edge",
+        "uuid": "5906e433-cf7e-11f1-933d-0072eeef51b3",
+        "vertices": [
+            "5904f645-cf7e-11f1-a6b7-0072eeef51b3",
+            "5904f650-cf7e-11f1-85c9-0072eeef51b3"
+        ]
+    },
+    {
+        "apertures": [],
+        "dictionary": {
+            "toplevel": false,
+            "uuid": "5906e434-cf7e-11f1-a8bc-0072eeef51b3"
+        },
+        "type": "Edge",
+        "uuid": "5906e434-cf7e-11f1-a8bc-0072eeef51b3",
+        "vertices": [
+            "5904f647-cf7e-11f1-8007-0072eeef51b3",
+            "59051d4a-cf7e-11f1-8ab4-0072eeef51b3"
+        ]
+    },
+    {
+        "apertures": [],
+        "dictionary": {
+            "toplevel": false,
+            "uuid": "5906e435-cf7e-11f1-a327-0072eeef51b3"
+        },
+        "type": "Edge",
+        "uuid": "5906e435-cf7e-11f1-a327-0072eeef51b3",
+        "vertices": [
+            "59051d4a-cf7e-11f1-8ab4-0072eeef51b3",
+            "59051d4b-cf7e-11f1-841b-0072eeef51b3"
+        ]
+    },
+    {
+        "apertures": [],
+        "dictionary": {
+            "toplevel": false,
+            "uuid": "5906e436-cf7e-11f1-b520-0072eeef51b3"
+        },
+        "type": "Edge",
+        "uuid": "5906e436-cf7e-11f1-b520-0072eeef51b3",
+        "vertices": [
+            "59051d4b-cf7e-11f1-841b-0072eeef51b3",
+            "5904f648-cf7e-11f1-84f7-0072eeef51b3"
+        ]
+    },
+    {
+        "apertures": [],
+        "dictionary": {
+            "toplevel": false,
+            "uuid": "5906e437-cf7e-11f1-8f13-0072eeef51b3"
+        },
+        "type": "Edge",
+        "uuid": "5906e437-cf7e-11f1-8f13-0072eeef51b3",
+        "vertices": [
+            "59051d4c-cf7e-11f1-8d81-0072eeef51b3",
+            "59051d4a-cf7e-11f1-8ab4-0072eeef51b3"
+        ]
+    },
+    {
+        "apertures": [],
+        "dictionary": {
+            "toplevel": false,
+            "uuid": "5906e438-cf7e-11f1-bd74-0072eeef51b3"
+        },
+        "type": "Edge",
+        "uuid": "5906e438-cf7e-11f1-bd74-0072eeef51b3",
+        "vertices": [
+            "5904f649-cf7e-11f1-a8b9-0072eeef51b3",
+            "59051d4c-cf7e-11f1-8d81-0072eeef51b3"
+        ]
+    },
+    {
+        "apertures": [],
+        "dictionary": {
+            "toplevel": false,
+            "uuid": "5906e439-cf7e-11f1-a2ce-0072eeef51b3"
+        },
+        "type": "Edge",
+        "uuid": "5906e439-cf7e-11f1-a2ce-0072eeef51b3",
+        "vertices": [
+            "59051d4d-cf7e-11f1-8260-0072eeef51b3",
+            "59051d4b-cf7e-11f1-841b-0072eeef51b3"
+        ]
+    },
+    {
+        "apertures": [],
+        "dictionary": {
+            "toplevel": false,
+            "uuid": "59070b4c-cf7e-11f1-862b-0072eeef51b3"
+        },
+        "type": "Edge",
+        "uuid": "59070b4c-cf7e-11f1-862b-0072eeef51b3",
+        "vertices": [
+            "59051d4c-cf7e-11f1-8d81-0072eeef51b3",
+            "59051d4d-cf7e-11f1-8260-0072eeef51b3"
+        ]
+    },
+    {
+        "apertures": [],
+        "dictionary": {
+            "toplevel": false,
+            "uuid": "59070b4d-cf7e-11f1-9df5-0072eeef51b3"
+        },
+        "type": "Edge",
+        "uuid": "59070b4d-cf7e-11f1-9df5-0072eeef51b3",
+        "vertices": [
+            "59051d4d-cf7e-11f1-8260-0072eeef51b3",
+            "5904f64a-cf7e-11f1-a07f-0072eeef51b3"
+        ]
+    },
+    {
+        "apertures": [],
+        "dictionary": {
+            "toplevel": false,
+            "uuid": "59070b4e-cf7e-11f1-89f4-0072eeef51b3"
+        },
+        "type": "Edge",
+        "uuid": "59070b4e-cf7e-11f1-89f4-0072eeef51b3",
+        "vertices": [
+            "5904f64c-cf7e-11f1-b0fe-0072eeef51b3",
+            "59051d4e-cf7e-11f1-8918-0072eeef51b3"
+        ]
+    },
+    {
+        "apertures": [],
+        "dictionary": {
+            "toplevel": false,
+            "uuid": "59071f47-cf7e-11f1-829e-0072eeef51b3"
+        },
+        "type": "Edge",
+        "uuid": "59071f47-cf7e-11f1-829e-0072eeef51b3",
+        "vertices": [
+            "59051d4e-cf7e-11f1-8918-0072eeef51b3",
+            "59051d4f-cf7e-11f1-850a-0072eeef51b3"
+        ]
+    },
+    {
+        "apertures": [],
+        "dictionary": {
+            "toplevel": false,
+            "uuid": "59071f48-cf7e-11f1-8b56-0072eeef51b3"
+        },
+        "type": "Edge",
+        "uuid": "59071f48-cf7e-11f1-8b56-0072eeef51b3",
+        "vertices": [
+            "59051d4f-cf7e-11f1-850a-0072eeef51b3",
+            "5904f64d-cf7e-11f1-90be-0072eeef51b3"
+        ]
+    },
+    {
+        "apertures": [],
+        "dictionary": {
+            "toplevel": false,
+            "uuid": "59071f49-cf7e-11f1-8484-0072eeef51b3"
+        },
+        "type": "Edge",
+        "uuid": "59071f49-cf7e-11f1-8484-0072eeef51b3",
+        "vertices": [
+            "59051d50-cf7e-11f1-a971-0072eeef51b3",
+            "59051d4e-cf7e-11f1-8918-0072eeef51b3"
+        ]
+    },
+    {
+        "apertures": [],
+        "dictionary": {
+            "toplevel": false,
+            "uuid": "59071f4a-cf7e-11f1-9296-0072eeef51b3"
+        },
+        "type": "Edge",
+        "uuid": "59071f4a-cf7e-11f1-9296-0072eeef51b3",
+        "vertices": [
+            "5904f64e-cf7e-11f1-996b-0072eeef51b3",
+            "59051d50-cf7e-11f1-a971-0072eeef51b3"
+        ]
+    },
+    {
+        "apertures": [],
+        "dictionary": {
+            "toplevel": false,
+            "uuid": "59071f4b-cf7e-11f1-864c-0072eeef51b3"
+        },
+        "type": "Edge",
+        "uuid": "59071f4b-cf7e-11f1-864c-0072eeef51b3",
+        "vertices": [
+            "59051d51-cf7e-11f1-8b19-0072eeef51b3",
+            "59051d4f-cf7e-11f1-850a-0072eeef51b3"
+        ]
+    },
+    {
+        "apertures": [],
+        "dictionary": {
+            "toplevel": false,
+            "uuid": "59071f4c-cf7e-11f1-85b1-0072eeef51b3"
+        },
+        "type": "Edge",
+        "uuid": "59071f4c-cf7e-11f1-85b1-0072eeef51b3",
+        "vertices": [
+            "59051d50-cf7e-11f1-a971-0072eeef51b3",
+            "59051d51-cf7e-11f1-8b19-0072eeef51b3"
+        ]
+    },
+    {
+        "apertures": [],
+        "dictionary": {
+            "toplevel": false,
+            "uuid": "59071f4d-cf7e-11f1-a1af-0072eeef51b3"
+        },
+        "type": "Edge",
+        "uuid": "59071f4d-cf7e-11f1-a1af-0072eeef51b3",
+        "vertices": [
+            "59051d51-cf7e-11f1-8b19-0072eeef51b3",
+            "59051d49-cf7e-11f1-acb2-0072eeef51b3"
+        ]
+    },
+    {
+        "apertures": [],
+        "dictionary": {
+            "toplevel": false,
+            "uuid": "59071f4e-cf7e-11f1-ad82-0072eeef51b3"
+        },
+        "type": "Edge",
+        "uuid": "59071f4e-cf7e-11f1-ad82-0072eeef51b3",
+        "vertices": [
+            "59051d52-cf7e-11f1-90f2-0072eeef51b3",
+            "5904f650-cf7e-11f1-85c9-0072eeef51b3"
+        ]
+    },
+    {
+        "apertures": [],
+        "dictionary": {
+            "toplevel": false,
+            "uuid": "59071f4f-cf7e-11f1-8c57-0072eeef51b3"
+        },
+        "type": "Edge",
+        "uuid": "59071f4f-cf7e-11f1-8c57-0072eeef51b3",
+        "vertices": [
+            "59051d53-cf7e-11f1-a6fb-0072eeef51b3",
+            "59051d52-cf7e-11f1-90f2-0072eeef51b3"
+        ]
+    },
+    {
+        "apertures": [],
+        "dictionary": {
+            "toplevel": false,
+            "uuid": "59071f50-cf7e-11f1-9a07-0072eeef51b3"
+        },
+        "type": "Edge",
+        "uuid": "59071f50-cf7e-11f1-9a07-0072eeef51b3",
+        "vertices": [
+            "5904f64f-cf7e-11f1-a19d-0072eeef51b3",
+            "59051d53-cf7e-11f1-a6fb-0072eeef51b3"
+        ]
+    },
+    {
+        "apertures": [],
+        "dictionary": {
+            "toplevel": false,
+            "uuid": "59071f51-cf7e-11f1-bb9c-0072eeef51b3"
+        },
+        "type": "Edge",
+        "uuid": "59071f51-cf7e-11f1-bb9c-0072eeef51b3",
+        "vertices": [
+            "59051d54-cf7e-11f1-b0e2-0072eeef51b3",
+            "5904f645-cf7e-11f1-a6b7-0072eeef51b3"
+        ]
+    },
+    {
+        "apertures": [],
+        "dictionary": {
+            "toplevel": false,
+            "uuid": "59075a45-cf7e-11f1-8c6d-0072eeef51b3"
+        },
+        "type": "Edge",
+        "uuid": "59075a45-cf7e-11f1-8c6d-0072eeef51b3",
+        "vertices": [
+            "59051d52-cf7e-11f1-90f2-0072eeef51b3",
+            "59051d54-cf7e-11f1-b0e2-0072eeef51b3"
+        ]
+    },
+    {
+        "apertures": [],
+        "dictionary": {
+            "toplevel": false,
+            "uuid": "59075a46-cf7e-11f1-a8f4-0072eeef51b3"
+        },
+        "type": "Edge",
+        "uuid": "59075a46-cf7e-11f1-a8f4-0072eeef51b3",
+        "vertices": [
+            "59051d55-cf7e-11f1-abbf-0072eeef51b3",
+            "5904f646-cf7e-11f1-9422-0072eeef51b3"
+        ]
+    },
+    {
+        "apertures": [],
+        "dictionary": {
+            "toplevel": false,
+            "uuid": "59075a47-cf7e-11f1-bbee-0072eeef51b3"
+        },
+        "type": "Edge",
+        "uuid": "59075a47-cf7e-11f1-bbee-0072eeef51b3",
+        "vertices": [
+            "59051d54-cf7e-11f1-b0e2-0072eeef51b3",
+            "59051d55-cf7e-11f1-abbf-0072eeef51b3"
+        ]
+    },
+    {
+        "apertures": [],
+        "dictionary": {
+            "toplevel": false,
+            "uuid": "59075a48-cf7e-11f1-9b70-0072eeef51b3"
+        },
+        "type": "Edge",
+        "uuid": "59075a48-cf7e-11f1-9b70-0072eeef51b3",
+        "vertices": [
+            "59051d55-cf7e-11f1-abbf-0072eeef51b3",
+            "59051d53-cf7e-11f1-a6fb-0072eeef51b3"
+        ]
+    },
+    {
+        "apertures": [],
+        "dictionary": {
+            "toplevel": false,
+            "uuid": "59075a49-cf7e-11f1-aa3d-0072eeef51b3"
+        },
+        "type": "Edge",
+        "uuid": "59075a49-cf7e-11f1-aa3d-0072eeef51b3",
+        "vertices": [
+            "5905499f-cf7e-11f1-bdf6-0072eeef51b3",
+            "5904f64e-cf7e-11f1-996b-0072eeef51b3"
+        ]
+    },
+    {
+        "apertures": [],
+        "dictionary": {
+            "toplevel": false,
+            "uuid": "59075a4a-cf7e-11f1-8a18-0072eeef51b3"
+        },
+        "type": "Edge",
+        "uuid": "59075a4a-cf7e-11f1-8a18-0072eeef51b3",
+        "vertices": [
+            "59051d52-cf7e-11f1-90f2-0072eeef51b3",
+            "5905499f-cf7e-11f1-bdf6-0072eeef51b3"
+        ]
+    },
+    {
+        "apertures": [],
+        "dictionary": {
+            "toplevel": false,
+            "uuid": "59075a4b-cf7e-11f1-8a08-0072eeef51b3"
+        },
+        "type": "Edge",
+        "uuid": "59075a4b-cf7e-11f1-8a08-0072eeef51b3",
+        "vertices": [
+            "590549a0-cf7e-11f1-9bb7-0072eeef51b3",
+            "59051d49-cf7e-11f1-acb2-0072eeef51b3"
+        ]
+    },
+    {
+        "apertures": [],
+        "dictionary": {
+            "toplevel": false,
+            "uuid": "59075a4c-cf7e-11f1-8bb4-0072eeef51b3"
+        },
+        "type": "Edge",
+        "uuid": "59075a4c-cf7e-11f1-8bb4-0072eeef51b3",
+        "vertices": [
+            "5905499f-cf7e-11f1-bdf6-0072eeef51b3",
+            "590549a0-cf7e-11f1-9bb7-0072eeef51b3"
+        ]
+    },
+    {
+        "apertures": [],
+        "dictionary": {
+            "toplevel": false,
+            "uuid": "590781d5-cf7e-11f1-a590-0072eeef51b3"
+        },
+        "type": "Edge",
+        "uuid": "590781d5-cf7e-11f1-a590-0072eeef51b3",
+        "vertices": [
+            "590549a0-cf7e-11f1-9bb7-0072eeef51b3",
+            "59051d54-cf7e-11f1-b0e2-0072eeef51b3"
+        ]
+    },
+    {
+        "apertures": [],
+        "dictionary": {
+            "toplevel": false,
+            "uuid": "590781d6-cf7e-11f1-9697-0072eeef51b3"
+        },
+        "type": "Edge",
+        "uuid": "590781d6-cf7e-11f1-9697-0072eeef51b3",
+        "vertices": [
+            "590549a1-cf7e-11f1-bbca-0072eeef51b3",
+            "590549a2-cf7e-11f1-a359-0072eeef51b3"
+        ]
+    },
+    {
+        "apertures": [],
+        "dictionary": {
+            "toplevel": false,
+            "uuid": "590781d7-cf7e-11f1-ab73-0072eeef51b3"
+        },
+        "type": "Edge",
+        "uuid": "590781d7-cf7e-11f1-ab73-0072eeef51b3",
+        "vertices": [
+            "590549a2-cf7e-11f1-a359-0072eeef51b3",
+            "59051d4a-cf7e-11f1-8ab4-0072eeef51b3"
+        ]
+    },
+    {
+        "apertures": [],
+        "dictionary": {
+            "toplevel": false,
+            "uuid": "590781d8-cf7e-11f1-a8fc-0072eeef51b3"
+        },
+        "type": "Edge",
+        "uuid": "590781d8-cf7e-11f1-a8fc-0072eeef51b3",
+        "vertices": [
+            "5904f647-cf7e-11f1-8007-0072eeef51b3",
+            "590549a1-cf7e-11f1-bbca-0072eeef51b3"
+        ]
+    },
+    {
+        "apertures": [],
+        "dictionary": {
+            "toplevel": false,
+            "uuid": "590781d9-cf7e-11f1-859d-0072eeef51b3"
+        },
+        "type": "Edge",
+        "uuid": "590781d9-cf7e-11f1-859d-0072eeef51b3",
+        "vertices": [
+            "590549a3-cf7e-11f1-b03b-0072eeef51b3",
+            "590549a2-cf7e-11f1-a359-0072eeef51b3"
+        ]
+    },
+    {
+        "apertures": [],
+        "dictionary": {
+            "toplevel": false,
+            "uuid": "590781da-cf7e-11f1-811b-0072eeef51b3"
+        },
+        "type": "Edge",
+        "uuid": "590781da-cf7e-11f1-811b-0072eeef51b3",
+        "vertices": [
+            "590549a4-cf7e-11f1-8ff9-0072eeef51b3",
+            "590549a3-cf7e-11f1-b03b-0072eeef51b3"
+        ]
+    },
+    {
+        "apertures": [],
+        "dictionary": {
+            "toplevel": false,
+            "uuid": "590781db-cf7e-11f1-8099-0072eeef51b3"
+        },
+        "type": "Edge",
+        "uuid": "590781db-cf7e-11f1-8099-0072eeef51b3",
+        "vertices": [
+            "590549a1-cf7e-11f1-bbca-0072eeef51b3",
+            "590549a4-cf7e-11f1-8ff9-0072eeef51b3"
+        ]
+    },
+    {
+        "apertures": [],
+        "dictionary": {
+            "toplevel": false,
+            "uuid": "590781dc-cf7e-11f1-9e6b-0072eeef51b3"
+        },
+        "type": "Edge",
+        "uuid": "590781dc-cf7e-11f1-9e6b-0072eeef51b3",
+        "vertices": [
+            "590549a3-cf7e-11f1-b03b-0072eeef51b3",
+            "59051d4c-cf7e-11f1-8d81-0072eeef51b3"
+        ]
+    },
+    {
+        "apertures": [],
+        "dictionary": {
+            "toplevel": false,
+            "uuid": "590781dd-cf7e-11f1-aeee-0072eeef51b3"
+        },
+        "type": "Edge",
+        "uuid": "590781dd-cf7e-11f1-aeee-0072eeef51b3",
+        "vertices": [
+            "5904f649-cf7e-11f1-a8b9-0072eeef51b3",
+            "590549a4-cf7e-11f1-8ff9-0072eeef51b3"
+        ]
+    },
+    {
+        "apertures": [],
+        "dictionary": {
+            "toplevel": false,
+            "uuid": "5907a93c-cf7e-11f1-86ac-0072eeef51b3"
+        },
+        "type": "Edge",
+        "uuid": "5907a93c-cf7e-11f1-86ac-0072eeef51b3",
+        "vertices": [
+            "590549a5-cf7e-11f1-8c9f-0072eeef51b3",
+            "59051d4c-cf7e-11f1-8d81-0072eeef51b3"
+        ]
+    },
+    {
+        "apertures": [],
+        "dictionary": {
+            "toplevel": false,
+            "uuid": "5907a93d-cf7e-11f1-ad62-0072eeef51b3"
+        },
+        "type": "Edge",
+        "uuid": "5907a93d-cf7e-11f1-ad62-0072eeef51b3",
+        "vertices": [
+            "590549a6-cf7e-11f1-b51b-0072eeef51b3",
+            "590549a5-cf7e-11f1-8c9f-0072eeef51b3"
+        ]
+    },
+    {
+        "apertures": [],
+        "dictionary": {
+            "toplevel": false,
+            "uuid": "5907a93e-cf7e-11f1-b492-0072eeef51b3"
+        },
+        "type": "Edge",
+        "uuid": "5907a93e-cf7e-11f1-b492-0072eeef51b3",
+        "vertices": [
+            "5904f649-cf7e-11f1-a8b9-0072eeef51b3",
+            "590549a6-cf7e-11f1-b51b-0072eeef51b3"
+        ]
+    },
+    {
+        "apertures": [],
+        "dictionary": {
+            "toplevel": false,
+            "uuid": "5907a93f-cf7e-11f1-a089-0072eeef51b3"
+        },
+        "type": "Edge",
+        "uuid": "5907a93f-cf7e-11f1-a089-0072eeef51b3",
+        "vertices": [
+            "590549a7-cf7e-11f1-8f69-0072eeef51b3",
+            "59051d4d-cf7e-11f1-8260-0072eeef51b3"
+        ]
+    },
+    {
+        "apertures": [],
+        "dictionary": {
+            "toplevel": false,
+            "uuid": "5907a940-cf7e-11f1-921c-0072eeef51b3"
+        },
+        "type": "Edge",
+        "uuid": "5907a940-cf7e-11f1-921c-0072eeef51b3",
+        "vertices": [
+            "590549a5-cf7e-11f1-8c9f-0072eeef51b3",
+            "590549a7-cf7e-11f1-8f69-0072eeef51b3"
+        ]
+    },
+    {
+        "apertures": [],
+        "dictionary": {
+            "toplevel": false,
+            "uuid": "5907a941-cf7e-11f1-bca1-0072eeef51b3"
+        },
+        "type": "Edge",
+        "uuid": "5907a941-cf7e-11f1-bca1-0072eeef51b3",
+        "vertices": [
+            "590549a8-cf7e-11f1-9af0-0072eeef51b3",
+            "5904f64a-cf7e-11f1-a07f-0072eeef51b3"
+        ]
+    },
+    {
+        "apertures": [],
+        "dictionary": {
+            "toplevel": false,
+            "uuid": "5907a942-cf7e-11f1-81d6-0072eeef51b3"
+        },
+        "type": "Edge",
+        "uuid": "5907a942-cf7e-11f1-81d6-0072eeef51b3",
+        "vertices": [
+            "590549a7-cf7e-11f1-8f69-0072eeef51b3",
+            "590549a8-cf7e-11f1-9af0-0072eeef51b3"
+        ]
+    },
+    {
+        "apertures": [],
+        "dictionary": {
+            "toplevel": false,
+            "uuid": "5907a943-cf7e-11f1-a438-0072eeef51b3"
+        },
+        "type": "Edge",
+        "uuid": "5907a943-cf7e-11f1-a438-0072eeef51b3",
+        "vertices": [
+            "590549a8-cf7e-11f1-9af0-0072eeef51b3",
+            "590549a6-cf7e-11f1-b51b-0072eeef51b3"
+        ]
+    },
+    {
+        "apertures": [],
+        "dictionary": {
+            "toplevel": false,
+            "uuid": "5907d019-cf7e-11f1-aff3-0072eeef51b3"
+        },
+        "type": "Edge",
+        "uuid": "5907d019-cf7e-11f1-aff3-0072eeef51b3",
+        "vertices": [
+            "590549a9-cf7e-11f1-9854-0072eeef51b3",
+            "590549aa-cf7e-11f1-8570-0072eeef51b3"
+        ]
+    },
+    {
+        "apertures": [],
+        "dictionary": {
+            "toplevel": false,
+            "uuid": "5907d01a-cf7e-11f1-bc45-0072eeef51b3"
+        },
+        "type": "Edge",
+        "uuid": "5907d01a-cf7e-11f1-bc45-0072eeef51b3",
+        "vertices": [
+            "590549aa-cf7e-11f1-8570-0072eeef51b3",
+            "590549ab-cf7e-11f1-a388-0072eeef51b3"
+        ]
+    },
+    {
+        "apertures": [],
+        "dictionary": {
+            "toplevel": false,
+            "uuid": "5907d01b-cf7e-11f1-80d8-0072eeef51b3"
+        },
+        "type": "Edge",
+        "uuid": "5907d01b-cf7e-11f1-80d8-0072eeef51b3",
+        "vertices": [
+            "590549ab-cf7e-11f1-a388-0072eeef51b3",
+            "590570ac-cf7e-11f1-92db-0072eeef51b3"
+        ]
+    },
+    {
+        "apertures": [],
+        "dictionary": {
+            "toplevel": false,
+            "uuid": "5907d01c-cf7e-11f1-b307-0072eeef51b3"
+        },
+        "type": "Edge",
+        "uuid": "5907d01c-cf7e-11f1-b307-0072eeef51b3",
+        "vertices": [
+            "590570ac-cf7e-11f1-92db-0072eeef51b3",
+            "590549a9-cf7e-11f1-9854-0072eeef51b3"
+        ]
+    },
+    {
+        "apertures": [],
+        "dictionary": {
+            "toplevel": false,
+            "uuid": "5907d01d-cf7e-11f1-b41e-0072eeef51b3"
+        },
+        "type": "Edge",
+        "uuid": "5907d01d-cf7e-11f1-b41e-0072eeef51b3",
+        "vertices": [
+            "59051d4e-cf7e-11f1-8918-0072eeef51b3",
+            "590570ad-cf7e-11f1-aa9e-0072eeef51b3"
+        ]
+    },
+    {
+        "apertures": [],
+        "dictionary": {
+            "toplevel": false,
+            "uuid": "5907d01e-cf7e-11f1-8fa7-0072eeef51b3"
+        },
+        "type": "Edge",
+        "uuid": "5907d01e-cf7e-11f1-8fa7-0072eeef51b3",
+        "vertices": [
+            "590570ad-cf7e-11f1-aa9e-0072eeef51b3",
+            "590570ae-cf7e-11f1-a274-0072eeef51b3"
+        ]
+    },
+    {
+        "apertures": [],
+        "dictionary": {
+            "toplevel": false,
+            "uuid": "5907d01f-cf7e-11f1-9c80-0072eeef51b3"
+        },
+        "type": "Edge",
+        "uuid": "5907d01f-cf7e-11f1-9c80-0072eeef51b3",
+        "vertices": [
+            "590570ae-cf7e-11f1-a274-0072eeef51b3",
+            "59051d4f-cf7e-11f1-850a-0072eeef51b3"
+        ]
+    },
+    {
+        "apertures": [],
+        "dictionary": {
+            "toplevel": false,
+            "uuid": "5907d020-cf7e-11f1-b13f-0072eeef51b3"
+        },
+        "type": "Edge",
+        "uuid": "5907d020-cf7e-11f1-b13f-0072eeef51b3",
+        "vertices": [
+            "590570af-cf7e-11f1-83a1-0072eeef51b3",
+            "590570ad-cf7e-11f1-aa9e-0072eeef51b3"
+        ]
+    },
+    {
+        "apertures": [],
+        "dictionary": {
+            "toplevel": false,
+            "uuid": "5907f6dd-cf7e-11f1-b73e-0072eeef51b3"
+        },
+        "type": "Edge",
+        "uuid": "5907f6dd-cf7e-11f1-b73e-0072eeef51b3",
+        "vertices": [
+            "59051d50-cf7e-11f1-a971-0072eeef51b3",
+            "590570b0-cf7e-11f1-8018-0072eeef51b3"
+        ]
+    },
+    {
+        "apertures": [],
+        "dictionary": {
+            "toplevel": false,
+            "uuid": "5907f6de-cf7e-11f1-8757-0072eeef51b3"
+        },
+        "type": "Edge",
+        "uuid": "5907f6de-cf7e-11f1-8757-0072eeef51b3",
+        "vertices": [
+            "590570b0-cf7e-11f1-8018-0072eeef51b3",
+            "590570af-cf7e-11f1-83a1-0072eeef51b3"
+        ]
+    },
+    {
+        "apertures": [],
+        "dictionary": {
+            "toplevel": false,
+            "uuid": "5907f6df-cf7e-11f1-937f-0072eeef51b3"
+        },
+        "type": "Edge",
+        "uuid": "5907f6df-cf7e-11f1-937f-0072eeef51b3",
+        "vertices": [
+            "590570b1-cf7e-11f1-80bd-0072eeef51b3",
+            "590570ae-cf7e-11f1-a274-0072eeef51b3"
+        ]
+    },
+    {
+        "apertures": [],
+        "dictionary": {
+            "toplevel": false,
+            "uuid": "5907f6e0-cf7e-11f1-b955-0072eeef51b3"
+        },
+        "type": "Edge",
+        "uuid": "5907f6e0-cf7e-11f1-b955-0072eeef51b3",
+        "vertices": [
+            "590570af-cf7e-11f1-83a1-0072eeef51b3",
+            "590570b1-cf7e-11f1-80bd-0072eeef51b3"
+        ]
+    },
+    {
+        "apertures": [],
+        "dictionary": {
+            "toplevel": false,
+            "uuid": "5907f6e1-cf7e-11f1-9ac4-0072eeef51b3"
+        },
+        "type": "Edge",
+        "uuid": "5907f6e1-cf7e-11f1-9ac4-0072eeef51b3",
+        "vertices": [
+            "590570b1-cf7e-11f1-80bd-0072eeef51b3",
+            "590570b2-cf7e-11f1-ba47-0072eeef51b3"
+        ]
+    },
+    {
+        "apertures": [],
+        "dictionary": {
+            "toplevel": false,
+            "uuid": "5907f6e2-cf7e-11f1-bd67-0072eeef51b3"
+        },
+        "type": "Edge",
+        "uuid": "5907f6e2-cf7e-11f1-bd67-0072eeef51b3",
+        "vertices": [
+            "590570b2-cf7e-11f1-ba47-0072eeef51b3",
+            "59051d51-cf7e-11f1-8b19-0072eeef51b3"
+        ]
+    },
+    {
+        "apertures": [],
+        "dictionary": {
+            "toplevel": false,
+            "uuid": "5907f6e3-cf7e-11f1-96a0-0072eeef51b3"
+        },
+        "type": "Edge",
+        "uuid": "5907f6e3-cf7e-11f1-96a0-0072eeef51b3",
+        "vertices": [
+            "590570b2-cf7e-11f1-ba47-0072eeef51b3",
+            "590570b0-cf7e-11f1-8018-0072eeef51b3"
+        ]
+    },
+    {
+        "apertures": [],
+        "dictionary": {
+            "toplevel": false,
+            "uuid": "5907f6e4-cf7e-11f1-8df0-0072eeef51b3"
+        },
+        "type": "Edge",
+        "uuid": "5907f6e4-cf7e-11f1-8df0-0072eeef51b3",
+        "vertices": [
+            "590570b3-cf7e-11f1-888d-0072eeef51b3",
+            "590570b0-cf7e-11f1-8018-0072eeef51b3"
+        ]
+    },
+    {
+        "apertures": [],
+        "dictionary": {
+            "toplevel": false,
+            "uuid": "5907f6e5-cf7e-11f1-a4e1-0072eeef51b3"
+        },
+        "type": "Edge",
+        "uuid": "5907f6e5-cf7e-11f1-a4e1-0072eeef51b3",
+        "vertices": [
+            "5905499f-cf7e-11f1-bdf6-0072eeef51b3",
+            "590570b3-cf7e-11f1-888d-0072eeef51b3"
+        ]
+    },
+    {
+        "apertures": [],
+        "dictionary": {
+            "toplevel": false,
+            "uuid": "59081dea-cf7e-11f1-bf54-0072eeef51b3"
+        },
+        "type": "Edge",
+        "uuid": "59081dea-cf7e-11f1-bf54-0072eeef51b3",
+        "vertices": [
+            "590570b4-cf7e-11f1-b6da-0072eeef51b3",
+            "590570b2-cf7e-11f1-ba47-0072eeef51b3"
+        ]
+    },
+    {
+        "apertures": [],
+        "dictionary": {
+            "toplevel": false,
+            "uuid": "59081deb-cf7e-11f1-a16b-0072eeef51b3"
+        },
+        "type": "Edge",
+        "uuid": "59081deb-cf7e-11f1-a16b-0072eeef51b3",
+        "vertices": [
+            "590570b3-cf7e-11f1-888d-0072eeef51b3",
+            "590570b4-cf7e-11f1-b6da-0072eeef51b3"
+        ]
+    },
+    {
+        "apertures": [],
+        "dictionary": {
+            "toplevel": false,
+            "uuid": "59081dec-cf7e-11f1-81e8-0072eeef51b3"
+        },
+        "type": "Edge",
+        "uuid": "59081dec-cf7e-11f1-81e8-0072eeef51b3",
+        "vertices": [
+            "590570b4-cf7e-11f1-b6da-0072eeef51b3",
+            "590549a0-cf7e-11f1-9bb7-0072eeef51b3"
+        ]
+    },
+    {
+        "apertures": [],
+        "dictionary": {
+            "toplevel": false,
+            "uuid": "59081ded-cf7e-11f1-8ca1-0072eeef51b3"
+        },
+        "type": "Edge",
+        "uuid": "59081ded-cf7e-11f1-8ca1-0072eeef51b3",
+        "vertices": [
+            "590570ae-cf7e-11f1-a274-0072eeef51b3",
+            "590549a2-cf7e-11f1-a359-0072eeef51b3"
+        ]
+    },
+    {
+        "apertures": [],
+        "dictionary": {
+            "toplevel": false,
+            "uuid": "59081dee-cf7e-11f1-a3f6-0072eeef51b3"
+        },
+        "type": "Edge",
+        "uuid": "59081dee-cf7e-11f1-a3f6-0072eeef51b3",
+        "vertices": [
+            "590549a1-cf7e-11f1-bbca-0072eeef51b3",
+            "59051d4f-cf7e-11f1-850a-0072eeef51b3"
+        ]
+    },
+    {
+        "apertures": [],
+        "dictionary": {
+            "toplevel": false,
+            "uuid": "59081def-cf7e-11f1-80de-0072eeef51b3"
+        },
+        "type": "Edge",
+        "uuid": "59081def-cf7e-11f1-80de-0072eeef51b3",
+        "vertices": [
+            "590570b1-cf7e-11f1-80bd-0072eeef51b3",
+            "590549a3-cf7e-11f1-b03b-0072eeef51b3"
+        ]
+    },
+    {
+        "apertures": [],
+        "dictionary": {
+            "toplevel": false,
+            "uuid": "59081df0-cf7e-11f1-b4fe-0072eeef51b3"
+        },
+        "type": "Edge",
+        "uuid": "59081df0-cf7e-11f1-b4fe-0072eeef51b3",
+        "vertices": [
+            "590549a4-cf7e-11f1-8ff9-0072eeef51b3",
+            "59051d51-cf7e-11f1-8b19-0072eeef51b3"
+        ]
+    },
+    {
+        "apertures": [],
+        "dictionary": {
+            "toplevel": false,
+            "uuid": "59081df1-cf7e-11f1-88d7-0072eeef51b3"
+        },
+        "type": "Edge",
+        "uuid": "59081df1-cf7e-11f1-88d7-0072eeef51b3",
+        "vertices": [
+            "590570b5-cf7e-11f1-b566-0072eeef51b3",
+            "590549aa-cf7e-11f1-8570-0072eeef51b3"
+        ]
+    },
+    {
+        "apertures": [],
+        "dictionary": {
+            "toplevel": false,
+            "uuid": "590844ee-cf7e-11f1-8a5a-0072eeef51b3"
+        },
+        "type": "Edge",
+        "uuid": "590844ee-cf7e-11f1-8a5a-0072eeef51b3",
+        "vertices": [
+            "590570b6-cf7e-11f1-9118-0072eeef51b3",
+            "590570b5-cf7e-11f1-b566-0072eeef51b3"
+        ]
+    },
+    {
+        "apertures": [],
+        "dictionary": {
+            "toplevel": false,
+            "uuid": "590844ef-cf7e-11f1-bce0-0072eeef51b3"
+        },
+        "type": "Edge",
+        "uuid": "590844ef-cf7e-11f1-bce0-0072eeef51b3",
+        "vertices": [
+            "590549a9-cf7e-11f1-9854-0072eeef51b3",
+            "590570b6-cf7e-11f1-9118-0072eeef51b3"
+        ]
+    },
+    {
+        "apertures": [],
+        "dictionary": {
+            "toplevel": false,
+            "uuid": "590844f0-cf7e-11f1-a8f7-0072eeef51b3"
+        },
+        "type": "Edge",
+        "uuid": "590844f0-cf7e-11f1-a8f7-0072eeef51b3",
+        "vertices": [
+            "5905976a-cf7e-11f1-8889-0072eeef51b3",
+            "590549ab-cf7e-11f1-a388-0072eeef51b3"
+        ]
+    },
+    {
+        "apertures": [],
+        "dictionary": {
+            "toplevel": false,
+            "uuid": "590844f1-cf7e-11f1-b880-0072eeef51b3"
+        },
+        "type": "Edge",
+        "uuid": "590844f1-cf7e-11f1-b880-0072eeef51b3",
+        "vertices": [
+            "590570b5-cf7e-11f1-b566-0072eeef51b3",
+            "5905976a-cf7e-11f1-8889-0072eeef51b3"
+        ]
+    },
+    {
+        "apertures": [],
+        "dictionary": {
+            "toplevel": false,
+            "uuid": "590844f2-cf7e-11f1-abcb-0072eeef51b3"
+        },
+        "type": "Edge",
+        "uuid": "590844f2-cf7e-11f1-abcb-0072eeef51b3",
+        "vertices": [
+            "5905976b-cf7e-11f1-a354-0072eeef51b3",
+            "590570ac-cf7e-11f1-92db-0072eeef51b3"
+        ]
+    },
+    {
+        "apertures": [],
+        "dictionary": {
+            "toplevel": false,
+            "uuid": "590844f3-cf7e-11f1-a73e-0072eeef51b3"
+        },
+        "type": "Edge",
+        "uuid": "590844f3-cf7e-11f1-a73e-0072eeef51b3",
+        "vertices": [
+            "5905976a-cf7e-11f1-8889-0072eeef51b3",
+            "5905976b-cf7e-11f1-a354-0072eeef51b3"
+        ]
+    },
+    {
+        "apertures": [],
+        "dictionary": {
+            "toplevel": false,
+            "uuid": "590844f4-cf7e-11f1-9da5-0072eeef51b3"
+        },
+        "type": "Edge",
+        "uuid": "590844f4-cf7e-11f1-9da5-0072eeef51b3",
+        "vertices": [
+            "5905976b-cf7e-11f1-a354-0072eeef51b3",
+            "590570b6-cf7e-11f1-9118-0072eeef51b3"
+        ]
+    },
+    {
+        "apertures": [],
+        "dictionary": {
+            "toplevel": false,
+            "uuid": "590844f5-cf7e-11f1-8e57-0072eeef51b3"
+        },
+        "type": "Edge",
+        "uuid": "590844f5-cf7e-11f1-8e57-0072eeef51b3",
+        "vertices": [
+            "5905976c-cf7e-11f1-9406-0072eeef51b3",
+            "590570af-cf7e-11f1-83a1-0072eeef51b3"
+        ]
+    },
+    {
+        "apertures": [],
+        "dictionary": {
+            "toplevel": false,
+            "uuid": "59086c02-cf7e-11f1-b9d3-0072eeef51b3"
+        },
+        "type": "Edge",
+        "uuid": "59086c02-cf7e-11f1-b9d3-0072eeef51b3",
+        "vertices": [
+            "590570b3-cf7e-11f1-888d-0072eeef51b3",
+            "5905976c-cf7e-11f1-9406-0072eeef51b3"
+        ]
+    },
+    {
+        "apertures": [],
+        "dictionary": {
+            "toplevel": false,
+            "uuid": "59086c03-cf7e-11f1-9979-0072eeef51b3"
+        },
+        "type": "Edge",
+        "uuid": "59086c03-cf7e-11f1-9979-0072eeef51b3",
+        "vertices": [
+            "5905976d-cf7e-11f1-bea0-0072eeef51b3",
+            "590570b1-cf7e-11f1-80bd-0072eeef51b3"
+        ]
+    },
+    {
+        "apertures": [],
+        "dictionary": {
+            "toplevel": false,
+            "uuid": "59086c04-cf7e-11f1-be5f-0072eeef51b3"
+        },
+        "type": "Edge",
+        "uuid": "59086c04-cf7e-11f1-be5f-0072eeef51b3",
+        "vertices": [
+            "5905976c-cf7e-11f1-9406-0072eeef51b3",
+            "5905976d-cf7e-11f1-bea0-0072eeef51b3"
+        ]
+    },
+    {
+        "apertures": [],
+        "dictionary": {
+            "toplevel": false,
+            "uuid": "59086c05-cf7e-11f1-9ed0-0072eeef51b3"
+        },
+        "type": "Edge",
+        "uuid": "59086c05-cf7e-11f1-9ed0-0072eeef51b3",
+        "vertices": [
+            "5905976d-cf7e-11f1-bea0-0072eeef51b3",
+            "590570b4-cf7e-11f1-b6da-0072eeef51b3"
+        ]
+    },
+    {
+        "apertures": [],
+        "dictionary": {
+            "toplevel": false,
+            "uuid": "59086c06-cf7e-11f1-8bd0-0072eeef51b3"
+        },
+        "edges": [
+            "5905976e-cf7e-11f1-b8b1-0072eeef51b3",
+            "5905976f-cf7e-11f1-b62f-0072eeef51b3",
+            "59059770-cf7e-11f1-9eeb-0072eeef51b3",
+            "5905be5f-cf7e-11f1-bdc1-0072eeef51b3"
+        ],
+        "type": "Wire",
+        "uuid": "59086c06-cf7e-11f1-8bd0-0072eeef51b3"
+    },
+    {
+        "apertures": [],
+        "dictionary": {
+            "toplevel": false,
+            "uuid": "59086c07-cf7e-11f1-b81a-0072eeef51b3"
+        },
+        "edges": [
+            "5905be62-cf7e-11f1-a785-0072eeef51b3",
+            "5905be61-cf7e-11f1-8b14-0072eeef51b3",
+            "5905be60-cf7e-11f1-a953-0072eeef51b3",
+            "5905976e-cf7e-11f1-b8b1-0072eeef51b3"
+        ],
+        "type": "Wire",
+        "uuid": "59086c07-cf7e-11f1-b81a-0072eeef51b3"
+    },
+    {
+        "apertures": [],
+        "dictionary": {
+            "toplevel": false,
+            "uuid": "5908a6d1-cf7e-11f1-88bf-0072eeef51b3"
+        },
+        "edges": [
+            "5905be60-cf7e-11f1-a953-0072eeef51b3",
+            "5905be64-cf7e-11f1-910e-0072eeef51b3",
+            "5905be63-cf7e-11f1-831c-0072eeef51b3",
+            "5905976f-cf7e-11f1-b62f-0072eeef51b3"
+        ],
+        "type": "Wire",
+        "uuid": "5908a6d1-cf7e-11f1-88bf-0072eeef51b3"
+    },
+    {
+        "apertures": [],
+        "dictionary": {
+            "toplevel": false,
+            "uuid": "5908a6d2-cf7e-11f1-a80e-0072eeef51b3"
+        },
+        "edges": [
+            "5905be63-cf7e-11f1-831c-0072eeef51b3",
+            "5905e560-cf7e-11f1-8499-0072eeef51b3",
+            "5905be65-cf7e-11f1-9aaf-0072eeef51b3",
+            "59059770-cf7e-11f1-9eeb-0072eeef51b3"
+        ],
+        "type": "Wire",
+        "uuid": "5908a6d2-cf7e-11f1-a80e-0072eeef51b3"
+    },
+    {
+        "apertures": [],
+        "dictionary": {
+            "toplevel": false,
+            "uuid": "5908a6d3-cf7e-11f1-a3fe-0072eeef51b3"
+        },
+        "edges": [
+            "5905be65-cf7e-11f1-9aaf-0072eeef51b3",
+            "5905e561-cf7e-11f1-9816-0072eeef51b3",
+            "5905be62-cf7e-11f1-a785-0072eeef51b3",
+            "5905be5f-cf7e-11f1-bdc1-0072eeef51b3"
+        ],
+        "type": "Wire",
+        "uuid": "5908a6d3-cf7e-11f1-a3fe-0072eeef51b3"
+    },
+    {
+        "apertures": [],
+        "dictionary": {
+            "toplevel": false,
+            "uuid": "5908ce22-cf7e-11f1-9348-0072eeef51b3"
+        },
+        "edges": [
+            "5905e561-cf7e-11f1-9816-0072eeef51b3",
+            "5905e560-cf7e-11f1-8499-0072eeef51b3",
+            "5905be64-cf7e-11f1-910e-0072eeef51b3",
+            "5905be61-cf7e-11f1-8b14-0072eeef51b3"
+        ],
+        "type": "Wire",
+        "uuid": "5908ce22-cf7e-11f1-9348-0072eeef51b3"
+    },
+    {
+        "apertures": [],
+        "dictionary": {
+            "toplevel": false,
+            "uuid": "5908ce23-cf7e-11f1-83b7-0072eeef51b3"
+        },
+        "edges": [
+            "5905e562-cf7e-11f1-a03a-0072eeef51b3",
+            "5905e563-cf7e-11f1-940c-0072eeef51b3",
+            "5905976e-cf7e-11f1-b8b1-0072eeef51b3",
+            "5905e564-cf7e-11f1-8f56-0072eeef51b3"
+        ],
+        "type": "Wire",
+        "uuid": "5908ce23-cf7e-11f1-83b7-0072eeef51b3"
+    },
+    {
+        "apertures": [],
+        "dictionary": {
+            "toplevel": false,
+            "uuid": "5908f598-cf7e-11f1-97fe-0072eeef51b3"
+        },
+        "edges": [
+            "59060c72-cf7e-11f1-997c-0072eeef51b3",
+            "5905e566-cf7e-11f1-a377-0072eeef51b3",
+            "5905e565-cf7e-11f1-a591-0072eeef51b3",
+            "5905e562-cf7e-11f1-a03a-0072eeef51b3"
+        ],
+        "type": "Wire",
+        "uuid": "5908f598-cf7e-11f1-97fe-0072eeef51b3"
+    },
+    {
+        "apertures": [],
+        "dictionary": {
+            "toplevel": false,
+            "uuid": "5909099c-cf7e-11f1-b56b-0072eeef51b3"
+        },
+        "edges": [
+            "5905e565-cf7e-11f1-a591-0072eeef51b3",
+            "59060c73-cf7e-11f1-8d9e-0072eeef51b3",
+            "5905be60-cf7e-11f1-a953-0072eeef51b3",
+            "5905e563-cf7e-11f1-940c-0072eeef51b3"
+        ],
+        "type": "Wire",
+        "uuid": "5909099c-cf7e-11f1-b56b-0072eeef51b3"
+    },
+    {
+        "apertures": [],
+        "dictionary": {
+            "toplevel": false,
+            "uuid": "5909099d-cf7e-11f1-b179-0072eeef51b3"
+        },
+        "edges": [
+            "5905be62-cf7e-11f1-a785-0072eeef51b3",
+            "59060c74-cf7e-11f1-bc05-0072eeef51b3",
+            "59060c72-cf7e-11f1-997c-0072eeef51b3",
+            "5905e564-cf7e-11f1-8f56-0072eeef51b3"
+        ],
+        "type": "Wire",
+        "uuid": "5909099d-cf7e-11f1-b179-0072eeef51b3"
+    },
+    {
+        "apertures": [],
+        "dictionary": {
+            "toplevel": false,
+            "uuid": "5909099e-cf7e-11f1-ad96-0072eeef51b3"
+        },
+        "edges": [
+            "59060c74-cf7e-11f1-bc05-0072eeef51b3",
+            "5905be61-cf7e-11f1-8b14-0072eeef51b3",
+            "59060c73-cf7e-11f1-8d9e-0072eeef51b3",
+            "5905e566-cf7e-11f1-a377-0072eeef51b3"
+        ],
+        "type": "Wire",
+        "uuid": "5909099e-cf7e-11f1-ad96-0072eeef51b3"
+    },
+    {
+        "apertures": [],
+        "dictionary": {
+            "toplevel": false,
+            "uuid": "590930eb-cf7e-11f1-8471-0072eeef51b3"
+        },
+        "edges": [
+            "59060c75-cf7e-11f1-bd17-0072eeef51b3",
+            "59060c76-cf7e-11f1-9181-0072eeef51b3",
+            "59060c77-cf7e-11f1-b93b-0072eeef51b3",
+            "5905976f-cf7e-11f1-b62f-0072eeef51b3"
+        ],
+        "type": "Wire",
+        "uuid": "590930eb-cf7e-11f1-8471-0072eeef51b3"
+    },
+    {
+        "apertures": [],
+        "dictionary": {
+            "toplevel": false,
+            "uuid": "590930ec-cf7e-11f1-adba-0072eeef51b3"
+        },
+        "edges": [
+            "5905be60-cf7e-11f1-a953-0072eeef51b3",
+            "59060c79-cf7e-11f1-a914-0072eeef51b3",
+            "59060c78-cf7e-11f1-9528-0072eeef51b3",
+            "59060c75-cf7e-11f1-bd17-0072eeef51b3"
+        ],
+        "type": "Wire",
+        "uuid": "590930ec-cf7e-11f1-adba-0072eeef51b3"
+    },
+    {
+        "apertures": [],
+        "dictionary": {
+            "toplevel": false,
+            "uuid": "59095887-cf7e-11f1-a9a9-0072eeef51b3"
+        },
+        "edges": [
+            "59060c78-cf7e-11f1-9528-0072eeef51b3",
+            "5906337f-cf7e-11f1-a058-0072eeef51b3",
+            "5906337e-cf7e-11f1-86f0-0072eeef51b3",
+            "59060c76-cf7e-11f1-9181-0072eeef51b3"
+        ],
+        "type": "Wire",
+        "uuid": "59095887-cf7e-11f1-a9a9-0072eeef51b3"
+    },
+    {
+        "apertures": [],
+        "dictionary": {
+            "toplevel": false,
+            "uuid": "59095888-cf7e-11f1-ae8b-0072eeef51b3"
+        },
+        "edges": [
+            "5906337e-cf7e-11f1-86f0-0072eeef51b3",
+            "59063380-cf7e-11f1-9ae9-0072eeef51b3",
+            "5905be63-cf7e-11f1-831c-0072eeef51b3",
+            "59060c77-cf7e-11f1-b93b-0072eeef51b3"
+        ],
+        "type": "Wire",
+        "uuid": "59095888-cf7e-11f1-ae8b-0072eeef51b3"
+    },
+    {
+        "apertures": [],
+        "dictionary": {
+            "toplevel": false,
+            "uuid": "59095889-cf7e-11f1-8515-0072eeef51b3"
+        },
+        "edges": [
+            "5905be64-cf7e-11f1-910e-0072eeef51b3",
+            "59063380-cf7e-11f1-9ae9-0072eeef51b3",
+            "5906337f-cf7e-11f1-a058-0072eeef51b3",
+            "59060c79-cf7e-11f1-a914-0072eeef51b3"
+        ],
+        "type": "Wire",
+        "uuid": "59095889-cf7e-11f1-8515-0072eeef51b3"
+    },
+    {
+        "apertures": [],
+        "dictionary": {
+            "toplevel": false,
+            "uuid": "590980a6-cf7e-11f1-8496-0072eeef51b3"
+        },
+        "edges": [
+            "59064756-cf7e-11f1-94e4-0072eeef51b3",
+            "5905e562-cf7e-11f1-a03a-0072eeef51b3",
+            "59064757-cf7e-11f1-924e-0072eeef51b3",
+            "59063381-cf7e-11f1-95b8-0072eeef51b3"
+        ],
+        "type": "Wire",
+        "uuid": "590980a6-cf7e-11f1-8496-0072eeef51b3"
+    },
+    {
+        "apertures": [],
+        "dictionary": {
+            "toplevel": false,
+            "uuid": "590980a7-cf7e-11f1-a9dd-0072eeef51b3"
+        },
+        "edges": [
+            "59063381-cf7e-11f1-95b8-0072eeef51b3",
+            "5906475b-cf7e-11f1-80fa-0072eeef51b3",
+            "5906475a-cf7e-11f1-a044-0072eeef51b3",
+            "59064759-cf7e-11f1-8c39-0072eeef51b3",
+            "59064758-cf7e-11f1-a40a-0072eeef51b3"
+        ],
+        "type": "Wire",
+        "uuid": "590980a7-cf7e-11f1-a9dd-0072eeef51b3"
+    },
+    {
+        "apertures": [],
+        "dictionary": {
+            "toplevel": false,
+            "uuid": "5909a6c2-cf7e-11f1-acd2-0072eeef51b3"
+        },
+        "edges": [
+            "59064758-cf7e-11f1-a40a-0072eeef51b3",
+            "5906475c-cf7e-11f1-a978-0072eeef51b3",
+            "5905e565-cf7e-11f1-a591-0072eeef51b3",
+            "59064756-cf7e-11f1-94e4-0072eeef51b3"
+        ],
+        "type": "Wire",
+        "uuid": "5909a6c2-cf7e-11f1-acd2-0072eeef51b3"
+    },
+    {
+        "apertures": [],
+        "dictionary": {
+            "toplevel": false,
+            "uuid": "5909a6c3-cf7e-11f1-bfaa-0072eeef51b3"
+        },
+        "edges": [
+            "59060c72-cf7e-11f1-997c-0072eeef51b3",
+            "59066e97-cf7e-11f1-a34f-0072eeef51b3",
+            "5906475b-cf7e-11f1-80fa-0072eeef51b3",
+            "59064757-cf7e-11f1-924e-0072eeef51b3"
+        ],
+        "type": "Wire",
+        "uuid": "5909a6c3-cf7e-11f1-bfaa-0072eeef51b3"
+    },
+    {
+        "apertures": [],
+        "dictionary": {
+            "toplevel": false,
+            "uuid": "5909cd75-cf7e-11f1-8902-0072eeef51b3"
+        },
+        "edges": [
+            "59064759-cf7e-11f1-8c39-0072eeef51b3",
+            "5906475a-cf7e-11f1-a044-0072eeef51b3",
+            "59066e97-cf7e-11f1-a34f-0072eeef51b3",
+            "5905e566-cf7e-11f1-a377-0072eeef51b3",
+            "5906475c-cf7e-11f1-a978-0072eeef51b3"
+        ],
+        "type": "Wire",
+        "uuid": "5909cd75-cf7e-11f1-8902-0072eeef51b3"
+    },
+    {
+        "apertures": [],
+        "dictionary": {
+            "toplevel": false,
+            "uuid": "5909cd76-cf7e-11f1-a2b4-0072eeef51b3"
+        },
+        "edges": [
+            "59066e98-cf7e-11f1-80b4-0072eeef51b3",
+            "59066e99-cf7e-11f1-b6e7-0072eeef51b3",
+            "59066e9a-cf7e-11f1-9933-0072eeef51b3",
+            "59060c76-cf7e-11f1-9181-0072eeef51b3"
+        ],
+        "type": "Wire",
+        "uuid": "5909cd76-cf7e-11f1-a2b4-0072eeef51b3"
+    },
+    {
+        "apertures": [],
+        "dictionary": {
+            "toplevel": false,
+            "uuid": "5909cd77-cf7e-11f1-a303-0072eeef51b3"
+        },
+        "edges": [
+            "59060c78-cf7e-11f1-9528-0072eeef51b3",
+            "5906961f-cf7e-11f1-bda7-0072eeef51b3",
+            "5906961e-cf7e-11f1-9645-0072eeef51b3",
+            "59066e98-cf7e-11f1-80b4-0072eeef51b3"
+        ],
+        "type": "Wire",
+        "uuid": "5909cd77-cf7e-11f1-a303-0072eeef51b3"
+    },
+    {
+        "apertures": [],
+        "dictionary": {
+            "toplevel": false,
+            "uuid": "5909f481-cf7e-11f1-8dfa-0072eeef51b3"
+        },
+        "edges": [
+            "5906961e-cf7e-11f1-9645-0072eeef51b3",
+            "59069621-cf7e-11f1-9a8d-0072eeef51b3",
+            "59069620-cf7e-11f1-ac65-0072eeef51b3",
+            "59066e99-cf7e-11f1-b6e7-0072eeef51b3"
+        ],
+        "type": "Wire",
+        "uuid": "5909f481-cf7e-11f1-8dfa-0072eeef51b3"
+    },
+    {
+        "apertures": [],
+        "dictionary": {
+            "toplevel": false,
+            "uuid": "5909f482-cf7e-11f1-98de-0072eeef51b3"
+        },
+        "edges": [
+            "59069620-cf7e-11f1-ac65-0072eeef51b3",
+            "59069622-cf7e-11f1-9a39-0072eeef51b3",
+            "5906337e-cf7e-11f1-86f0-0072eeef51b3",
+            "59066e9a-cf7e-11f1-9933-0072eeef51b3"
+        ],
+        "type": "Wire",
+        "uuid": "5909f482-cf7e-11f1-98de-0072eeef51b3"
+    },
+    {
+        "apertures": [],
+        "dictionary": {
+            "toplevel": false,
+            "uuid": "590a1b8b-cf7e-11f1-8ec7-0072eeef51b3"
+        },
+        "edges": [
+            "5906337f-cf7e-11f1-a058-0072eeef51b3",
+            "59069622-cf7e-11f1-9a39-0072eeef51b3",
+            "59069621-cf7e-11f1-9a8d-0072eeef51b3",
+            "5906961f-cf7e-11f1-bda7-0072eeef51b3"
+        ],
+        "type": "Wire",
+        "uuid": "590a1b8b-cf7e-11f1-8ec7-0072eeef51b3"
+    },
+    {
+        "apertures": [],
+        "dictionary": {
+            "toplevel": false,
+            "uuid": "590a1b8c-cf7e-11f1-b67c-0072eeef51b3"
+        },
+        "edges": [
+            "59069623-cf7e-11f1-8fc1-0072eeef51b3",
+            "59069624-cf7e-11f1-9030-0072eeef51b3",
+            "59069625-cf7e-11f1-b3e3-0072eeef51b3",
+            "59063381-cf7e-11f1-95b8-0072eeef51b3",
+            "5906bd1c-cf7e-11f1-98ca-0072eeef51b3"
+        ],
+        "type": "Wire",
+        "uuid": "590a1b8c-cf7e-11f1-b67c-0072eeef51b3"
+    },
+    {
+        "apertures": [],
+        "dictionary": {
+            "toplevel": false,
+            "uuid": "590a429c-cf7e-11f1-84f5-0072eeef51b3"
+        },
+        "edges": [
+            "5906bd20-cf7e-11f1-9f70-0072eeef51b3",
+            "5906bd1e-cf7e-11f1-8ecf-0072eeef51b3",
+            "5906bd1f-cf7e-11f1-b55d-0072eeef51b3",
+            "5906bd1d-cf7e-11f1-af9c-0072eeef51b3",
+            "59069623-cf7e-11f1-8fc1-0072eeef51b3"
+        ],
+        "type": "Wire",
+        "uuid": "590a429c-cf7e-11f1-84f5-0072eeef51b3"
+    },
+    {
+        "apertures": [],
+        "dictionary": {
+            "toplevel": false,
+            "uuid": "590a429d-cf7e-11f1-844e-0072eeef51b3"
+        },
+        "edges": [
+            "5906bd1d-cf7e-11f1-af9c-0072eeef51b3",
+            "5906bd22-cf7e-11f1-8db7-0072eeef51b3",
+            "5906bd21-cf7e-11f1-817f-0072eeef51b3",
+            "59069624-cf7e-11f1-9030-0072eeef51b3"
+        ],
+        "type": "Wire",
+        "uuid": "590a429d-cf7e-11f1-844e-0072eeef51b3"
+    },
+    {
+        "apertures": [],
+        "dictionary": {
+            "toplevel": false,
+            "uuid": "590a429e-cf7e-11f1-8b82-0072eeef51b3"
+        },
+        "edges": [
+            "5906bd21-cf7e-11f1-817f-0072eeef51b3",
+            "5906bd23-cf7e-11f1-a518-0072eeef51b3",
+            "59064758-cf7e-11f1-a40a-0072eeef51b3",
+            "59069625-cf7e-11f1-b3e3-0072eeef51b3"
+        ],
+        "type": "Wire",
+        "uuid": "590a429e-cf7e-11f1-8b82-0072eeef51b3"
+    },
+    {
+        "apertures": [],
+        "dictionary": {
+            "toplevel": false,
+            "uuid": "590a69aa-cf7e-11f1-ad71-0072eeef51b3"
+        },
+        "edges": [
+            "5906475b-cf7e-11f1-80fa-0072eeef51b3",
+            "5906e432-cf7e-11f1-aad9-0072eeef51b3",
+            "5906bd20-cf7e-11f1-9f70-0072eeef51b3",
+            "5906bd1c-cf7e-11f1-98ca-0072eeef51b3"
+        ],
+        "type": "Wire",
+        "uuid": "590a69aa-cf7e-11f1-ad71-0072eeef51b3"
+    },
+    {
+        "apertures": [],
+        "dictionary": {
+            "toplevel": false,
+            "uuid": "590a7d87-cf7e-11f1-8db6-0072eeef51b3"
+        },
+        "edges": [
+            "5906475a-cf7e-11f1-a044-0072eeef51b3",
+            "5906e433-cf7e-11f1-933d-0072eeef51b3",
+            "5906bd1e-cf7e-11f1-8ecf-0072eeef51b3",
+            "5906e432-cf7e-11f1-aad9-0072eeef51b3"
+        ],
+        "type": "Wire",
+        "uuid": "590a7d87-cf7e-11f1-8db6-0072eeef51b3"
+    },
+    {
+        "apertures": [],
+        "dictionary": {
+            "toplevel": false,
+            "uuid": "590a7d88-cf7e-11f1-a937-0072eeef51b3"
+        },
+        "edges": [
+            "5906e433-cf7e-11f1-933d-0072eeef51b3",
+            "59064759-cf7e-11f1-8c39-0072eeef51b3",
+            "5906bd23-cf7e-11f1-a518-0072eeef51b3",
+            "5906bd22-cf7e-11f1-8db7-0072eeef51b3",
+            "5906bd1f-cf7e-11f1-b55d-0072eeef51b3"
+        ],
+        "type": "Wire",
+        "uuid": "590a7d88-cf7e-11f1-a937-0072eeef51b3"
+    },
+    {
+        "apertures": [],
+        "dictionary": {
+            "toplevel": false,
+            "uuid": "590aa4a6-cf7e-11f1-92e5-0072eeef51b3"
+        },
+        "edges": [
+            "5906e434-cf7e-11f1-a8bc-0072eeef51b3",
+            "5906e435-cf7e-11f1-a327-0072eeef51b3",
+            "5906e436-cf7e-11f1-b520-0072eeef51b3",
+            "59066e99-cf7e-11f1-b6e7-0072eeef51b3"
+        ],
+        "type": "Wire",
+        "uuid": "590aa4a6-cf7e-11f1-92e5-0072eeef51b3"
+    },
+    {
+        "apertures": [],
+        "dictionary": {
+            "toplevel": false,
+            "uuid": "590aa4a7-cf7e-11f1-9d7e-0072eeef51b3"
+        },
+        "edges": [
+            "5906961e-cf7e-11f1-9645-0072eeef51b3",
+            "5906e438-cf7e-11f1-bd74-0072eeef51b3",
+            "5906e437-cf7e-11f1-8f13-0072eeef51b3",
+            "5906e434-cf7e-11f1-a8bc-0072eeef51b3"
+        ],
+        "type": "Wire",
+        "uuid": "590aa4a7-cf7e-11f1-9d7e-0072eeef51b3"
+    },
+    {
+        "apertures": [],
+        "dictionary": {
+            "toplevel": false,
+            "uuid": "590acbb6-cf7e-11f1-ab2a-0072eeef51b3"
+        },
+        "edges": [
+            "5906e437-cf7e-11f1-8f13-0072eeef51b3",
+            "59070b4c-cf7e-11f1-862b-0072eeef51b3",
+            "5906e439-cf7e-11f1-a2ce-0072eeef51b3",
+            "5906e435-cf7e-11f1-a327-0072eeef51b3"
+        ],
+        "type": "Wire",
+        "uuid": "590acbb6-cf7e-11f1-ab2a-0072eeef51b3"
+    },
+    {
+        "apertures": [],
+        "dictionary": {
+            "toplevel": false,
+            "uuid": "590acbb7-cf7e-11f1-be0b-0072eeef51b3"
+        },
+        "edges": [
+            "5906e439-cf7e-11f1-a2ce-0072eeef51b3",
+            "59070b4d-cf7e-11f1-9df5-0072eeef51b3",
+            "59069620-cf7e-11f1-ac65-0072eeef51b3",
+            "5906e436-cf7e-11f1-b520-0072eeef51b3"
+        ],
+        "type": "Wire",
+        "uuid": "590acbb7-cf7e-11f1-be0b-0072eeef51b3"
+    },
+    {
+        "apertures": [],
+        "dictionary": {
+            "toplevel": false,
+            "uuid": "590acbb8-cf7e-11f1-bc81-0072eeef51b3"
+        },
+        "edges": [
+            "59069621-cf7e-11f1-9a8d-0072eeef51b3",
+            "59070b4d-cf7e-11f1-9df5-0072eeef51b3",
+            "59070b4c-cf7e-11f1-862b-0072eeef51b3",
+            "5906e438-cf7e-11f1-bd74-0072eeef51b3"
+        ],
+        "type": "Wire",
+        "uuid": "590acbb8-cf7e-11f1-bc81-0072eeef51b3"
+    },
+    {
+        "apertures": [],
+        "dictionary": {
+            "toplevel": false,
+            "uuid": "590af2c1-cf7e-11f1-adb5-0072eeef51b3"
+        },
+        "edges": [
+            "59070b4e-cf7e-11f1-89f4-0072eeef51b3",
+            "59071f47-cf7e-11f1-829e-0072eeef51b3",
+            "59071f48-cf7e-11f1-8b56-0072eeef51b3",
+            "59069624-cf7e-11f1-9030-0072eeef51b3"
+        ],
+        "type": "Wire",
+        "uuid": "590af2c1-cf7e-11f1-adb5-0072eeef51b3"
+    },
+    {
+        "apertures": [],
+        "dictionary": {
+            "toplevel": false,
+            "uuid": "590af2c2-cf7e-11f1-80ef-0072eeef51b3"
+        },
+        "edges": [
+            "5906bd1d-cf7e-11f1-af9c-0072eeef51b3",
+            "59071f4a-cf7e-11f1-9296-0072eeef51b3",
+            "59071f49-cf7e-11f1-8484-0072eeef51b3",
+            "59070b4e-cf7e-11f1-89f4-0072eeef51b3"
+        ],
+        "type": "Wire",
+        "uuid": "590af2c2-cf7e-11f1-80ef-0072eeef51b3"
+    },
+    {
+        "apertures": [],
+        "dictionary": {
+            "toplevel": false,
+            "uuid": "590b19d4-cf7e-11f1-8031-0072eeef51b3"
+        },
+        "edges": [
+            "59071f49-cf7e-11f1-8484-0072eeef51b3",
+            "59071f4c-cf7e-11f1-85b1-0072eeef51b3",
+            "59071f4b-cf7e-11f1-864c-0072eeef51b3",
+            "59071f47-cf7e-11f1-829e-0072eeef51b3"
+        ],
+        "type": "Wire",
+        "uuid": "590b19d4-cf7e-11f1-8031-0072eeef51b3"
+    },
+    {
+        "apertures": [],
+        "dictionary": {
+            "toplevel": false,
+            "uuid": "590b19d5-cf7e-11f1-8482-0072eeef51b3"
+        },
+        "edges": [
+            "59071f4b-cf7e-11f1-864c-0072eeef51b3",
+            "59071f4d-cf7e-11f1-a1af-0072eeef51b3",
+            "5906bd21-cf7e-11f1-817f-0072eeef51b3",
+            "59071f48-cf7e-11f1-8b56-0072eeef51b3"
+        ],
+        "type": "Wire",
+        "uuid": "590b19d5-cf7e-11f1-8482-0072eeef51b3"
+    },
+    {
+        "apertures": [],
+        "dictionary": {
+            "toplevel": false,
+            "uuid": "590b40e3-cf7e-11f1-bec1-0072eeef51b3"
+        },
+        "edges": [
+            "5906bd22-cf7e-11f1-8db7-0072eeef51b3",
+            "59071f4d-cf7e-11f1-a1af-0072eeef51b3",
+            "59071f4c-cf7e-11f1-85b1-0072eeef51b3",
+            "59071f4a-cf7e-11f1-9296-0072eeef51b3"
+        ],
+        "type": "Wire",
+        "uuid": "590b40e3-cf7e-11f1-bec1-0072eeef51b3"
+    },
+    {
+        "apertures": [],
+        "dictionary": {
+            "toplevel": false,
+            "uuid": "590b40e4-cf7e-11f1-8c64-0072eeef51b3"
+        },
+        "edges": [
+            "59071f50-cf7e-11f1-9a07-0072eeef51b3",
+            "59071f4f-cf7e-11f1-8c57-0072eeef51b3",
+            "59071f4e-cf7e-11f1-ad82-0072eeef51b3",
+            "5906bd1e-cf7e-11f1-8ecf-0072eeef51b3"
+        ],
+        "type": "Wire",
+        "uuid": "590b40e4-cf7e-11f1-8c64-0072eeef51b3"
+    },
+    {
+        "apertures": [],
+        "dictionary": {
+            "toplevel": false,
+            "uuid": "590b6c09-cf7e-11f1-a95f-0072eeef51b3"
+        },
+        "edges": [
+            "59071f4e-cf7e-11f1-ad82-0072eeef51b3",
+            "59075a45-cf7e-11f1-8c6d-0072eeef51b3",
+            "59071f51-cf7e-11f1-bb9c-0072eeef51b3",
+            "5906e433-cf7e-11f1-933d-0072eeef51b3"
+        ],
+        "type": "Wire",
+        "uuid": "590b6c09-cf7e-11f1-a95f-0072eeef51b3"
+    },
+    {
+        "apertures": [],
+        "dictionary": {
+            "toplevel": false,
+            "uuid": "590b6c0a-cf7e-11f1-a1fb-0072eeef51b3"
+        },
+        "edges": [
+            "59071f51-cf7e-11f1-bb9c-0072eeef51b3",
+            "59075a47-cf7e-11f1-bbee-0072eeef51b3",
+            "59075a46-cf7e-11f1-a8f4-0072eeef51b3",
+            "5906475a-cf7e-11f1-a044-0072eeef51b3"
+        ],
+        "type": "Wire",
+        "uuid": "590b6c0a-cf7e-11f1-a1fb-0072eeef51b3"
+    },
+    {
+        "apertures": [],
+        "dictionary": {
+            "toplevel": false,
+            "uuid": "590b6c0b-cf7e-11f1-a616-0072eeef51b3"
+        },
+        "edges": [
+            "59075a46-cf7e-11f1-a8f4-0072eeef51b3",
+            "59075a48-cf7e-11f1-9b70-0072eeef51b3",
+            "59071f50-cf7e-11f1-9a07-0072eeef51b3",
+            "5906e432-cf7e-11f1-aad9-0072eeef51b3"
+        ],
+        "type": "Wire",
+        "uuid": "590b6c0b-cf7e-11f1-a616-0072eeef51b3"
+    },
+    {
+        "apertures": [],
+        "dictionary": {
+            "toplevel": false,
+            "uuid": "590b9365-cf7e-11f1-83b7-0072eeef51b3"
+        },
+        "edges": [
+            "59075a48-cf7e-11f1-9b70-0072eeef51b3",
+            "59075a47-cf7e-11f1-bbee-0072eeef51b3",
+            "59075a45-cf7e-11f1-8c6d-0072eeef51b3",
+            "59071f4f-cf7e-11f1-8c57-0072eeef51b3"
+        ],
+        "type": "Wire",
+        "uuid": "590b9365-cf7e-11f1-83b7-0072eeef51b3"
+    },
+    {
+        "apertures": [],
+        "dictionary": {
+            "toplevel": false,
+            "uuid": "590b9366-cf7e-11f1-8b35-0072eeef51b3"
+        },
+        "edges": [
+            "59071f4e-cf7e-11f1-ad82-0072eeef51b3",
+            "59075a4a-cf7e-11f1-8a18-0072eeef51b3",
+            "59075a49-cf7e-11f1-aa3d-0072eeef51b3",
+            "5906bd1f-cf7e-11f1-b55d-0072eeef51b3"
+        ],
+        "type": "Wire",
+        "uuid": "590b9366-cf7e-11f1-8b35-0072eeef51b3"
+    },
+    {
+        "apertures": [],
+        "dictionary": {
+            "toplevel": false,
+            "uuid": "590b9367-cf7e-11f1-aadb-0072eeef51b3"
+        },
+        "edges": [
+            "59075a49-cf7e-11f1-aa3d-0072eeef51b3",
+            "59075a4c-cf7e-11f1-8bb4-0072eeef51b3",
+            "59075a4b-cf7e-11f1-8a08-0072eeef51b3",
+            "5906bd22-cf7e-11f1-8db7-0072eeef51b3"
+        ],
+        "type": "Wire",
+        "uuid": "590b9367-cf7e-11f1-aadb-0072eeef51b3"
+    },
+    {
+        "apertures": [],
+        "dictionary": {
+            "toplevel": false,
+            "uuid": "590bd87f-cf7e-11f1-8d40-0072eeef51b3"
+        },
+        "edges": [
+            "59075a4b-cf7e-11f1-8a08-0072eeef51b3",
+            "590781d5-cf7e-11f1-a590-0072eeef51b3",
+            "59071f51-cf7e-11f1-bb9c-0072eeef51b3",
+            "59064759-cf7e-11f1-8c39-0072eeef51b3",
+            "5906bd23-cf7e-11f1-a518-0072eeef51b3"
+        ],
+        "type": "Wire",
+        "uuid": "590bd87f-cf7e-11f1-8d40-0072eeef51b3"
+    },
+    {
+        "apertures": [],
+        "dictionary": {
+            "toplevel": false,
+            "uuid": "590bd880-cf7e-11f1-9a83-0072eeef51b3"
+        },
+        "edges": [
+            "59075a45-cf7e-11f1-8c6d-0072eeef51b3",
+            "590781d5-cf7e-11f1-a590-0072eeef51b3",
+            "59075a4c-cf7e-11f1-8bb4-0072eeef51b3",
+            "59075a4a-cf7e-11f1-8a18-0072eeef51b3"
+        ],
+        "type": "Wire",
+        "uuid": "590bd880-cf7e-11f1-9a83-0072eeef51b3"
+    },
+    {
+        "apertures": [],
+        "dictionary": {
+            "toplevel": false,
+            "uuid": "590c0021-cf7e-11f1-aac9-0072eeef51b3"
+        },
+        "edges": [
+            "590781d6-cf7e-11f1-9697-0072eeef51b3",
+            "590781d7-cf7e-11f1-ab73-0072eeef51b3",
+            "5906e434-cf7e-11f1-a8bc-0072eeef51b3",
+            "590781d8-cf7e-11f1-a8fc-0072eeef51b3"
+        ],
+        "type": "Wire",
+        "uuid": "590c0021-cf7e-11f1-aac9-0072eeef51b3"
+    },
+    {
+        "apertures": [],
+        "dictionary": {
+            "toplevel": false,
+            "uuid": "590c0022-cf7e-11f1-859f-0072eeef51b3"
+        },
+        "edges": [
+            "590781db-cf7e-11f1-8099-0072eeef51b3",
+            "590781da-cf7e-11f1-811b-0072eeef51b3",
+            "590781d9-cf7e-11f1-859d-0072eeef51b3",
+            "590781d6-cf7e-11f1-9697-0072eeef51b3"
+        ],
+        "type": "Wire",
+        "uuid": "590c0022-cf7e-11f1-859f-0072eeef51b3"
+    },
+    {
+        "apertures": [],
+        "dictionary": {
+            "toplevel": false,
+            "uuid": "590c1893-cf7e-11f1-9223-0072eeef51b3"
+        },
+        "edges": [
+            "590781d9-cf7e-11f1-859d-0072eeef51b3",
+            "590781dc-cf7e-11f1-9e6b-0072eeef51b3",
+            "5906e437-cf7e-11f1-8f13-0072eeef51b3",
+            "590781d7-cf7e-11f1-ab73-0072eeef51b3"
+        ],
+        "type": "Wire",
+        "uuid": "590c1893-cf7e-11f1-9223-0072eeef51b3"
+    },
+    {
+        "apertures": [],
+        "dictionary": {
+            "toplevel": false,
+            "uuid": "590c1894-cf7e-11f1-8f2e-0072eeef51b3"
+        },
+        "edges": [
+            "5906961e-cf7e-11f1-9645-0072eeef51b3",
+            "590781dd-cf7e-11f1-aeee-0072eeef51b3",
+            "590781db-cf7e-11f1-8099-0072eeef51b3",
+            "590781d8-cf7e-11f1-a8fc-0072eeef51b3"
+        ],
+        "type": "Wire",
+        "uuid": "590c1894-cf7e-11f1-8f2e-0072eeef51b3"
+    },
+    {
+        "apertures": [],
+        "dictionary": {
+            "toplevel": false,
+            "uuid": "590c403a-cf7e-11f1-86cc-0072eeef51b3"
+        },
+        "edges": [
+            "590781dd-cf7e-11f1-aeee-0072eeef51b3",
+            "5906e438-cf7e-11f1-bd74-0072eeef51b3",
+            "590781dc-cf7e-11f1-9e6b-0072eeef51b3",
+            "590781da-cf7e-11f1-811b-0072eeef51b3"
+        ],
+        "type": "Wire",
+        "uuid": "590c403a-cf7e-11f1-86cc-0072eeef51b3"
+    },
+    {
+        "apertures": [],
+        "dictionary": {
+            "toplevel": false,
+            "uuid": "590c403b-cf7e-11f1-88a8-0072eeef51b3"
+        },
+        "edges": [
+            "5907a93e-cf7e-11f1-b492-0072eeef51b3",
+            "5907a93d-cf7e-11f1-ad62-0072eeef51b3",
+            "5907a93c-cf7e-11f1-86ac-0072eeef51b3",
+            "5906e438-cf7e-11f1-bd74-0072eeef51b3"
+        ],
+        "type": "Wire",
+        "uuid": "590c403b-cf7e-11f1-88a8-0072eeef51b3"
+    },
+    {
+        "apertures": [],
+        "dictionary": {
+            "toplevel": false,
+            "uuid": "590c403c-cf7e-11f1-8bd3-0072eeef51b3"
+        },
+        "edges": [
+            "5907a93c-cf7e-11f1-86ac-0072eeef51b3",
+            "5907a940-cf7e-11f1-921c-0072eeef51b3",
+            "5907a93f-cf7e-11f1-a089-0072eeef51b3",
+            "59070b4c-cf7e-11f1-862b-0072eeef51b3"
+        ],
+        "type": "Wire",
+        "uuid": "590c403c-cf7e-11f1-8bd3-0072eeef51b3"
+    },
+    {
+        "apertures": [],
+        "dictionary": {
+            "toplevel": false,
+            "uuid": "590c6732-cf7e-11f1-be84-0072eeef51b3"
+        },
+        "edges": [
+            "5907a93f-cf7e-11f1-a089-0072eeef51b3",
+            "5907a942-cf7e-11f1-81d6-0072eeef51b3",
+            "5907a941-cf7e-11f1-bca1-0072eeef51b3",
+            "59070b4d-cf7e-11f1-9df5-0072eeef51b3"
+        ],
+        "type": "Wire",
+        "uuid": "590c6732-cf7e-11f1-be84-0072eeef51b3"
+    },
+    {
+        "apertures": [],
+        "dictionary": {
+            "toplevel": false,
+            "uuid": "590c6733-cf7e-11f1-b854-0072eeef51b3"
+        },
+        "edges": [
+            "59069621-cf7e-11f1-9a8d-0072eeef51b3",
+            "5907a941-cf7e-11f1-bca1-0072eeef51b3",
+            "5907a943-cf7e-11f1-a438-0072eeef51b3",
+            "5907a93e-cf7e-11f1-b492-0072eeef51b3"
+        ],
+        "type": "Wire",
+        "uuid": "590c6733-cf7e-11f1-b854-0072eeef51b3"
+    },
+    {
+        "apertures": [],
+        "dictionary": {
+            "toplevel": false,
+            "uuid": "590c8e3b-cf7e-11f1-8d43-0072eeef51b3"
+        },
+        "edges": [
+            "5907a943-cf7e-11f1-a438-0072eeef51b3",
+            "5907a942-cf7e-11f1-81d6-0072eeef51b3",
+            "5907a940-cf7e-11f1-921c-0072eeef51b3",
+            "5907a93d-cf7e-11f1-ad62-0072eeef51b3"
+        ],
+        "type": "Wire",
+        "uuid": "590c8e3b-cf7e-11f1-8d43-0072eeef51b3"
+    },
+    {
+        "apertures": [],
+        "dictionary": {
+            "toplevel": false,
+            "uuid": "590c8e3c-cf7e-11f1-bc92-0072eeef51b3"
+        },
+        "edges": [
+            "5907d019-cf7e-11f1-aff3-0072eeef51b3",
+            "5907d01a-cf7e-11f1-bc45-0072eeef51b3",
+            "5907d01b-cf7e-11f1-80d8-0072eeef51b3",
+            "5907d01c-cf7e-11f1-b307-0072eeef51b3"
+        ],
+        "type": "Wire",
+        "uuid": "590c8e3c-cf7e-11f1-bc92-0072eeef51b3"
+    },
+    {
+        "apertures": [],
+        "dictionary": {
+            "toplevel": false
+        },
+        "edges": [
+            "5907d01c-cf7e-11f1-b307-0072eeef51b3",
+            "5907d01b-cf7e-11f1-80d8-0072eeef51b3",
+            "5907d01a-cf7e-11f1-bc45-0072eeef51b3",
+            "5907d019-cf7e-11f1-aff3-0072eeef51b3"
+        ],
+        "type": "Wire",
+        "uuid": "590c8e3c-cf7e-11f1-bc92-0072eeef51b3"
+    },
+    {
+        "apertures": [],
+        "dictionary": {
+            "toplevel": false,
+            "uuid": "590cb539-cf7e-11f1-a2b5-0072eeef51b3"
+        },
+        "edges": [
+            "5907d01d-cf7e-11f1-b41e-0072eeef51b3",
+            "5907d01e-cf7e-11f1-8fa7-0072eeef51b3",
+            "5907d01f-cf7e-11f1-9c80-0072eeef51b3",
+            "59071f47-cf7e-11f1-829e-0072eeef51b3"
+        ],
+        "type": "Wire",
+        "uuid": "590cb539-cf7e-11f1-a2b5-0072eeef51b3"
+    },
+    {
+        "apertures": [],
+        "dictionary": {
+            "toplevel": false,
+            "uuid": "590cdced-cf7e-11f1-8513-0072eeef51b3"
+        },
+        "edges": [
+            "59071f49-cf7e-11f1-8484-0072eeef51b3",
+            "5907f6dd-cf7e-11f1-b73e-0072eeef51b3",
+            "5907f6de-cf7e-11f1-8757-0072eeef51b3",
+            "5907d020-cf7e-11f1-b13f-0072eeef51b3",
+            "5907d01d-cf7e-11f1-b41e-0072eeef51b3"
+        ],
+        "type": "Wire",
+        "uuid": "590cdced-cf7e-11f1-8513-0072eeef51b3"
+    },
+    {
+        "apertures": [],
+        "dictionary": {
+            "toplevel": false,
+            "uuid": "590cdcee-cf7e-11f1-896b-0072eeef51b3"
+        },
+        "edges": [
+            "5907d020-cf7e-11f1-b13f-0072eeef51b3",
+            "5907f6e0-cf7e-11f1-b955-0072eeef51b3",
+            "5907f6df-cf7e-11f1-937f-0072eeef51b3",
+            "5907d01e-cf7e-11f1-8fa7-0072eeef51b3"
+        ],
+        "type": "Wire",
+        "uuid": "590cdcee-cf7e-11f1-896b-0072eeef51b3"
+    },
+    {
+        "apertures": [],
+        "dictionary": {
+            "toplevel": false,
+            "uuid": "590cdcef-cf7e-11f1-9bf0-0072eeef51b3"
+        },
+        "edges": [
+            "5907f6df-cf7e-11f1-937f-0072eeef51b3",
+            "5907f6e1-cf7e-11f1-9ac4-0072eeef51b3",
+            "5907f6e2-cf7e-11f1-bd67-0072eeef51b3",
+            "59071f4b-cf7e-11f1-864c-0072eeef51b3",
+            "5907d01f-cf7e-11f1-9c80-0072eeef51b3"
+        ],
+        "type": "Wire",
+        "uuid": "590cdcef-cf7e-11f1-9bf0-0072eeef51b3"
+    },
+    {
+        "apertures": [],
+        "dictionary": {
+            "toplevel": false,
+            "uuid": "590d0367-cf7e-11f1-a7c8-0072eeef51b3"
+        },
+        "edges": [
+            "59071f4c-cf7e-11f1-85b1-0072eeef51b3",
+            "5907f6e2-cf7e-11f1-bd67-0072eeef51b3",
+            "5907f6e3-cf7e-11f1-96a0-0072eeef51b3",
+            "5907f6dd-cf7e-11f1-b73e-0072eeef51b3"
+        ],
+        "type": "Wire",
+        "uuid": "590d0367-cf7e-11f1-a7c8-0072eeef51b3"
+    },
+    {
+        "apertures": [],
+        "dictionary": {
+            "toplevel": false,
+            "uuid": "590d0368-cf7e-11f1-9fd9-0072eeef51b3"
+        },
+        "edges": [
+            "5907f6e3-cf7e-11f1-96a0-0072eeef51b3",
+            "5907f6e1-cf7e-11f1-9ac4-0072eeef51b3",
+            "5907f6e0-cf7e-11f1-b955-0072eeef51b3",
+            "5907f6de-cf7e-11f1-8757-0072eeef51b3"
+        ],
+        "type": "Wire",
+        "uuid": "590d0368-cf7e-11f1-9fd9-0072eeef51b3"
+    },
+    {
+        "apertures": [],
+        "dictionary": {
+            "toplevel": false,
+            "uuid": "590d2a81-cf7e-11f1-96fb-0072eeef51b3"
+        },
+        "edges": [
+            "59075a49-cf7e-11f1-aa3d-0072eeef51b3",
+            "5907f6e5-cf7e-11f1-a4e1-0072eeef51b3",
+            "5907f6e4-cf7e-11f1-8df0-0072eeef51b3",
+            "5907f6dd-cf7e-11f1-b73e-0072eeef51b3",
+            "59071f4a-cf7e-11f1-9296-0072eeef51b3"
+        ],
+        "type": "Wire",
+        "uuid": "590d2a81-cf7e-11f1-96fb-0072eeef51b3"
+    },
+    {
+        "apertures": [],
+        "dictionary": {
+            "toplevel": false,
+            "uuid": "590d2a82-cf7e-11f1-b36d-0072eeef51b3"
+        },
+        "edges": [
+            "5907f6e4-cf7e-11f1-8df0-0072eeef51b3",
+            "59081deb-cf7e-11f1-a16b-0072eeef51b3",
+            "59081dea-cf7e-11f1-bf54-0072eeef51b3",
+            "5907f6e3-cf7e-11f1-96a0-0072eeef51b3"
+        ],
+        "type": "Wire",
+        "uuid": "590d2a82-cf7e-11f1-b36d-0072eeef51b3"
+    },
+    {
+        "apertures": [],
+        "dictionary": {
+            "toplevel": false,
+            "uuid": "590d515b-cf7e-11f1-9050-0072eeef51b3"
+        },
+        "edges": [
+            "59081dea-cf7e-11f1-bf54-0072eeef51b3",
+            "59081dec-cf7e-11f1-81e8-0072eeef51b3",
+            "59075a4b-cf7e-11f1-8a08-0072eeef51b3",
+            "59071f4d-cf7e-11f1-a1af-0072eeef51b3",
+            "5907f6e2-cf7e-11f1-bd67-0072eeef51b3"
+        ],
+        "type": "Wire",
+        "uuid": "590d515b-cf7e-11f1-9050-0072eeef51b3"
+    },
+    {
+        "apertures": [],
+        "dictionary": {
+            "toplevel": false,
+            "uuid": "590d515c-cf7e-11f1-8e0b-0072eeef51b3"
+        },
+        "edges": [
+            "59075a4c-cf7e-11f1-8bb4-0072eeef51b3",
+            "59081dec-cf7e-11f1-81e8-0072eeef51b3",
+            "59081deb-cf7e-11f1-a16b-0072eeef51b3",
+            "5907f6e5-cf7e-11f1-a4e1-0072eeef51b3"
+        ],
+        "type": "Wire",
+        "uuid": "590d515c-cf7e-11f1-8e0b-0072eeef51b3"
+    },
+    {
+        "apertures": [],
+        "dictionary": {
+            "toplevel": false,
+            "uuid": "590d787d-cf7e-11f1-a402-0072eeef51b3"
+        },
+        "edges": [
+            "59081ded-cf7e-11f1-8ca1-0072eeef51b3",
+            "590781d6-cf7e-11f1-9697-0072eeef51b3",
+            "59081dee-cf7e-11f1-a3f6-0072eeef51b3",
+            "5907d01f-cf7e-11f1-9c80-0072eeef51b3"
+        ],
+        "type": "Wire",
+        "uuid": "590d787d-cf7e-11f1-a402-0072eeef51b3"
+    },
+    {
+        "apertures": [],
+        "dictionary": {
+            "toplevel": false,
+            "uuid": "590d9fa1-cf7e-11f1-b43c-0072eeef51b3"
+        },
+        "edges": [
+            "5907f6df-cf7e-11f1-937f-0072eeef51b3",
+            "59081def-cf7e-11f1-80de-0072eeef51b3",
+            "590781d9-cf7e-11f1-859d-0072eeef51b3",
+            "59081ded-cf7e-11f1-8ca1-0072eeef51b3"
+        ],
+        "type": "Wire",
+        "uuid": "590d9fa1-cf7e-11f1-b43c-0072eeef51b3"
+    },
+    {
+        "apertures": [],
+        "dictionary": {
+            "toplevel": false,
+            "uuid": "590d9fa2-cf7e-11f1-92f2-0072eeef51b3"
+        },
+        "edges": [
+            "590781db-cf7e-11f1-8099-0072eeef51b3",
+            "59081df0-cf7e-11f1-b4fe-0072eeef51b3",
+            "59071f4b-cf7e-11f1-864c-0072eeef51b3",
+            "59081dee-cf7e-11f1-a3f6-0072eeef51b3"
+        ],
+        "type": "Wire",
+        "uuid": "590d9fa2-cf7e-11f1-92f2-0072eeef51b3"
+    },
+    {
+        "apertures": [],
+        "dictionary": {
+            "toplevel": false,
+            "uuid": "590d9fa3-cf7e-11f1-9075-0072eeef51b3"
+        },
+        "edges": [
+            "5907f6e1-cf7e-11f1-9ac4-0072eeef51b3",
+            "5907f6e2-cf7e-11f1-bd67-0072eeef51b3",
+            "59081df0-cf7e-11f1-b4fe-0072eeef51b3",
+            "590781da-cf7e-11f1-811b-0072eeef51b3",
+            "59081def-cf7e-11f1-80de-0072eeef51b3"
+        ],
+        "type": "Wire",
+        "uuid": "590d9fa3-cf7e-11f1-9075-0072eeef51b3"
+    },
+    {
+        "apertures": [],
+        "dictionary": {
+            "toplevel": false,
+            "uuid": "590dd5ae-cf7e-11f1-a774-0072eeef51b3"
+        },
+        "edges": [
+            "590844ef-cf7e-11f1-bce0-0072eeef51b3",
+            "590844ee-cf7e-11f1-8a5a-0072eeef51b3",
+            "59081df1-cf7e-11f1-88d7-0072eeef51b3",
+            "5907d019-cf7e-11f1-aff3-0072eeef51b3"
+        ],
+        "type": "Wire",
+        "uuid": "590dd5ae-cf7e-11f1-a774-0072eeef51b3"
+    },
+    {
+        "apertures": [],
+        "dictionary": {
+            "toplevel": false,
+            "uuid": "590dd5af-cf7e-11f1-8449-0072eeef51b3"
+        },
+        "edges": [
+            "59081df1-cf7e-11f1-88d7-0072eeef51b3",
+            "590844f1-cf7e-11f1-b880-0072eeef51b3",
+            "590844f0-cf7e-11f1-a8f7-0072eeef51b3",
+            "5907d01a-cf7e-11f1-bc45-0072eeef51b3"
+        ],
+        "type": "Wire",
+        "uuid": "590dd5af-cf7e-11f1-8449-0072eeef51b3"
+    },
+    {
+        "apertures": [],
+        "dictionary": {
+            "toplevel": false,
+            "uuid": "590dfd26-cf7e-11f1-b168-0072eeef51b3"
+        },
+        "edges": [
+            "590844f0-cf7e-11f1-a8f7-0072eeef51b3",
+            "590844f3-cf7e-11f1-a73e-0072eeef51b3",
+            "590844f2-cf7e-11f1-abcb-0072eeef51b3",
+            "5907d01b-cf7e-11f1-80d8-0072eeef51b3"
+        ],
+        "type": "Wire",
+        "uuid": "590dfd26-cf7e-11f1-b168-0072eeef51b3"
+    },
+    {
+        "apertures": [],
+        "dictionary": {
+            "toplevel": false,
+            "uuid": "590dfd27-cf7e-11f1-8000-0072eeef51b3"
+        },
+        "edges": [
+            "590844f2-cf7e-11f1-abcb-0072eeef51b3",
+            "590844f4-cf7e-11f1-9da5-0072eeef51b3",
+            "590844ef-cf7e-11f1-bce0-0072eeef51b3",
+            "5907d01c-cf7e-11f1-b307-0072eeef51b3"
+        ],
+        "type": "Wire",
+        "uuid": "590dfd27-cf7e-11f1-8000-0072eeef51b3"
+    },
+    {
+        "apertures": [],
+        "dictionary": {
+            "toplevel": false,
+            "uuid": "590e2444-cf7e-11f1-9dcd-0072eeef51b3"
+        },
+        "edges": [
+            "590844f4-cf7e-11f1-9da5-0072eeef51b3",
+            "590844f3-cf7e-11f1-a73e-0072eeef51b3",
+            "590844f1-cf7e-11f1-b880-0072eeef51b3",
+            "590844ee-cf7e-11f1-8a5a-0072eeef51b3"
+        ],
+        "type": "Wire",
+        "uuid": "590e2444-cf7e-11f1-9dcd-0072eeef51b3"
+    },
+    {
+        "apertures": [],
+        "dictionary": {
+            "toplevel": false,
+            "uuid": "590e2445-cf7e-11f1-ae8b-0072eeef51b3"
+        },
+        "edges": [
+            "5907f6e4-cf7e-11f1-8df0-0072eeef51b3",
+            "59086c02-cf7e-11f1-b9d3-0072eeef51b3",
+            "590844f5-cf7e-11f1-8e57-0072eeef51b3",
+            "5907f6de-cf7e-11f1-8757-0072eeef51b3"
+        ],
+        "type": "Wire",
+        "uuid": "590e2445-cf7e-11f1-ae8b-0072eeef51b3"
+    },
+    {
+        "apertures": [],
+        "dictionary": {
+            "toplevel": false,
+            "uuid": "590e2446-cf7e-11f1-8b0f-0072eeef51b3"
+        },
+        "edges": [
+            "590844f5-cf7e-11f1-8e57-0072eeef51b3",
+            "59086c04-cf7e-11f1-be5f-0072eeef51b3",
+            "59086c03-cf7e-11f1-9979-0072eeef51b3",
+            "5907f6e0-cf7e-11f1-b955-0072eeef51b3"
+        ],
+        "type": "Wire",
+        "uuid": "590e2446-cf7e-11f1-8b0f-0072eeef51b3"
+    },
+    {
+        "apertures": [],
+        "dictionary": {
+            "toplevel": false,
+            "uuid": "590e57b9-cf7e-11f1-a27a-0072eeef51b3"
+        },
+        "edges": [
+            "59086c03-cf7e-11f1-9979-0072eeef51b3",
+            "59086c05-cf7e-11f1-9ed0-0072eeef51b3",
+            "59081dea-cf7e-11f1-bf54-0072eeef51b3",
+            "5907f6e1-cf7e-11f1-9ac4-0072eeef51b3"
+        ],
+        "type": "Wire",
+        "uuid": "590e57b9-cf7e-11f1-a27a-0072eeef51b3"
+    },
+    {
+        "apertures": [],
+        "dictionary": {
+            "toplevel": false,
+            "uuid": "590e6b9d-cf7e-11f1-8c69-0072eeef51b3"
+        },
+        "edges": [
+            "59081deb-cf7e-11f1-a16b-0072eeef51b3",
+            "59086c05-cf7e-11f1-9ed0-0072eeef51b3",
+            "59086c04-cf7e-11f1-be5f-0072eeef51b3",
+            "59086c02-cf7e-11f1-b9d3-0072eeef51b3"
+        ],
+        "type": "Wire",
+        "uuid": "590e6b9d-cf7e-11f1-8c69-0072eeef51b3"
+    },
+    {
+        "apertures": [],
+        "dictionary": {
+            "UID": "botHorFace0",
+            "pr_TopologicalType": "botHor",
+            "toplevel": false,
+            "uuid": "590e6b9e-cf7e-11f1-af3d-0072eeef51b3"
+        },
+        "type": "Face",
+        "uuid": "590e6b9e-cf7e-11f1-af3d-0072eeef51b3",
+        "wires": [
+            "59086c06-cf7e-11f1-8bd0-0072eeef51b3"
+        ]
+    },
+    {
+        "apertures": [],
+        "dictionary": {
+            "UID": "intVerFace0",
+            "pr_TopologicalType": "intVer",
+            "toplevel": false,
+            "uuid": "590e6b9f-cf7e-11f1-8a1a-0072eeef51b3"
+        },
+        "type": "Face",
+        "uuid": "590e6b9f-cf7e-11f1-8a1a-0072eeef51b3",
+        "wires": [
+            "59086c07-cf7e-11f1-b81a-0072eeef51b3"
+        ]
+    },
+    {
+        "apertures": [],
+        "dictionary": {
+            "UID": "intVerFace1",
+            "pr_TopologicalType": "intVer",
+            "toplevel": false,
+            "uuid": "590ea96e-cf7e-11f1-8175-0072eeef51b3"
+        },
+        "type": "Face",
+        "uuid": "590ea96e-cf7e-11f1-8175-0072eeef51b3",
+        "wires": [
+            "5908a6d1-cf7e-11f1-88bf-0072eeef51b3"
+        ]
+    },
+    {
+        "apertures": [],
+        "dictionary": {
+            "UID": "extVerFace0",
+            "pr_TopologicalType": "extVer",
+            "toplevel": false,
+            "uuid": "590ea96f-cf7e-11f1-89f1-0072eeef51b3"
+        },
+        "type": "Face",
+        "uuid": "590ea96f-cf7e-11f1-89f1-0072eeef51b3",
+        "wires": [
+            "5908a6d2-cf7e-11f1-a80e-0072eeef51b3"
+        ]
+    },
+    {
+        "apertures": [],
+        "dictionary": {
+            "UID": "extVerFace1",
+            "pr_TopologicalType": "extVer",
+            "toplevel": false,
+            "uuid": "590ed0d0-cf7e-11f1-924b-0072eeef51b3"
+        },
+        "type": "Face",
+        "uuid": "590ed0d0-cf7e-11f1-924b-0072eeef51b3",
+        "wires": [
+            "5908a6d3-cf7e-11f1-a3fe-0072eeef51b3"
+        ]
+    },
+    {
+        "apertures": [],
+        "dictionary": {
+            "UID": "topHorFace0",
+            "pr_TopologicalType": "topHor",
+            "toplevel": false,
+            "uuid": "590ef7d4-cf7e-11f1-91f2-0072eeef51b3"
+        },
+        "type": "Face",
+        "uuid": "590ef7d4-cf7e-11f1-91f2-0072eeef51b3",
+        "wires": [
+            "5908ce22-cf7e-11f1-9348-0072eeef51b3"
+        ]
+    },
+    {
+        "apertures": [],
+        "dictionary": {
+            "UID": "botHorFace1",
+            "pr_TopologicalType": "botHor",
+            "toplevel": false,
+            "uuid": "590f0bbd-cf7e-11f1-ac56-0072eeef51b3"
+        },
+        "type": "Face",
+        "uuid": "590f0bbd-cf7e-11f1-ac56-0072eeef51b3",
+        "wires": [
+            "5908ce23-cf7e-11f1-83b7-0072eeef51b3"
+        ]
+    },
+    {
+        "apertures": [],
+        "dictionary": {
+            "UID": "intVerFace2",
+            "pr_TopologicalType": "intVer",
+            "toplevel": false,
+            "uuid": "590f0bbe-cf7e-11f1-b81c-0072eeef51b3"
+        },
+        "type": "Face",
+        "uuid": "590f0bbe-cf7e-11f1-b81c-0072eeef51b3",
+        "wires": [
+            "5908f598-cf7e-11f1-97fe-0072eeef51b3"
+        ]
+    },
+    {
+        "apertures": [],
+        "dictionary": {
+            "UID": "extVerFace2",
+            "pr_TopologicalType": "extVer",
+            "toplevel": false,
+            "uuid": "590f3a17-cf7e-11f1-bc59-0072eeef51b3"
+        },
+        "type": "Face",
+        "uuid": "590f3a17-cf7e-11f1-bc59-0072eeef51b3",
+        "wires": [
+            "5909099c-cf7e-11f1-b56b-0072eeef51b3"
+        ]
+    },
+    {
+        "apertures": [],
+        "dictionary": {
+            "UID": "extVerFace3",
+            "pr_TopologicalType": "extVer",
+            "toplevel": false,
+            "uuid": "590f4e01-cf7e-11f1-a6fc-0072eeef51b3"
+        },
+        "type": "Face",
+        "uuid": "590f4e01-cf7e-11f1-a6fc-0072eeef51b3",
+        "wires": [
+            "5909099d-cf7e-11f1-b179-0072eeef51b3"
+        ]
+    },
+    {
+        "apertures": [],
+        "dictionary": {
+            "UID": "topHorFace1",
+            "pr_TopologicalType": "topHor",
+            "toplevel": false,
+            "uuid": "590f7584-cf7e-11f1-b3aa-0072eeef51b3"
+        },
+        "type": "Face",
+        "uuid": "590f7584-cf7e-11f1-b3aa-0072eeef51b3",
+        "wires": [
+            "5909099e-cf7e-11f1-ad96-0072eeef51b3"
+        ]
+    },
+    {
+        "apertures": [],
+        "dictionary": {
+            "UID": "botHorFace2",
+            "pr_TopologicalType": "botHor",
+            "toplevel": false,
+            "uuid": "590f7585-cf7e-11f1-beab-0072eeef51b3"
+        },
+        "type": "Face",
+        "uuid": "590f7585-cf7e-11f1-beab-0072eeef51b3",
+        "wires": [
+            "590930eb-cf7e-11f1-8471-0072eeef51b3"
+        ]
+    },
+    {
+        "apertures": [],
+        "dictionary": {
+            "UID": "extVerFace4",
+            "pr_TopologicalType": "extVer",
+            "toplevel": false,
+            "uuid": "590f9ca1-cf7e-11f1-b830-0072eeef51b3"
+        },
+        "type": "Face",
+        "uuid": "590f9ca1-cf7e-11f1-b830-0072eeef51b3",
+        "wires": [
+            "590930ec-cf7e-11f1-adba-0072eeef51b3"
+        ]
+    },
+    {
+        "apertures": [],
+        "dictionary": {
+            "UID": "intVerFace3",
+            "pr_TopologicalType": "intVer",
+            "toplevel": false,
+            "uuid": "590f9ca2-cf7e-11f1-a3e9-0072eeef51b3"
+        },
+        "type": "Face",
+        "uuid": "590f9ca2-cf7e-11f1-a3e9-0072eeef51b3",
+        "wires": [
+            "59095887-cf7e-11f1-a9a9-0072eeef51b3"
+        ]
+    },
+    {
+        "apertures": [],
+        "dictionary": {
+            "UID": "extVerFace5",
+            "pr_TopologicalType": "extVer",
+            "toplevel": false,
+            "uuid": "590fc37e-cf7e-11f1-a2be-0072eeef51b3"
+        },
+        "type": "Face",
+        "uuid": "590fc37e-cf7e-11f1-a2be-0072eeef51b3",
+        "wires": [
+            "59095888-cf7e-11f1-ae8b-0072eeef51b3"
+        ]
+    },
+    {
+        "apertures": [],
+        "dictionary": {
+            "UID": "topHorFace2",
+            "pr_TopologicalType": "topHor",
+            "toplevel": false,
+            "uuid": "590fea89-cf7e-11f1-a44f-0072eeef51b3"
+        },
+        "type": "Face",
+        "uuid": "590fea89-cf7e-11f1-a44f-0072eeef51b3",
+        "wires": [
+            "59095889-cf7e-11f1-8515-0072eeef51b3"
+        ]
+    },
+    {
+        "apertures": [],
+        "dictionary": {
+            "UID": "botHorFace3",
+            "pr_TopologicalType": "botHor",
+            "toplevel": false,
+            "uuid": "590fea8a-cf7e-11f1-bef7-0072eeef51b3"
+        },
+        "type": "Face",
+        "uuid": "590fea8a-cf7e-11f1-bef7-0072eeef51b3",
+        "wires": [
+            "590980a6-cf7e-11f1-8496-0072eeef51b3"
+        ]
+    },
+    {
+        "apertures": [],
+        "dictionary": {
+            "UID": "intVerFace4",
+            "pr_TopologicalType": "intVer",
+            "toplevel": false,
+            "uuid": "59101196-cf7e-11f1-9627-0072eeef51b3"
+        },
+        "type": "Face",
+        "uuid": "59101196-cf7e-11f1-9627-0072eeef51b3",
+        "wires": [
+            "590980a7-cf7e-11f1-a9dd-0072eeef51b3"
+        ]
+    },
+    {
+        "apertures": [],
+        "dictionary": {
+            "UID": "extVerFace6",
+            "pr_TopologicalType": "extVer",
+            "toplevel": false,
+            "uuid": "591039b0-cf7e-11f1-b1f9-0072eeef51b3"
+        },
+        "type": "Face",
+        "uuid": "591039b0-cf7e-11f1-b1f9-0072eeef51b3",
+        "wires": [
+            "5909a6c2-cf7e-11f1-acd2-0072eeef51b3"
+        ]
+    },
+    {
+        "apertures": [],
+        "dictionary": {
+            "UID": "extVerFace7",
+            "pr_TopologicalType": "extVer",
+            "toplevel": false,
+            "uuid": "591039b1-cf7e-11f1-9739-0072eeef51b3"
+        },
+        "type": "Face",
+        "uuid": "591039b1-cf7e-11f1-9739-0072eeef51b3",
+        "wires": [
+            "5909a6c3-cf7e-11f1-bfaa-0072eeef51b3"
+        ]
+    },
+    {
+        "apertures": [],
+        "dictionary": {
+            "UID": "topHorFace3",
+            "pr_TopologicalType": "topHor",
+            "toplevel": false,
+            "uuid": "59106200-cf7e-11f1-bccb-0072eeef51b3"
+        },
+        "type": "Face",
+        "uuid": "59106200-cf7e-11f1-bccb-0072eeef51b3",
+        "wires": [
+            "5909cd75-cf7e-11f1-8902-0072eeef51b3"
+        ]
+    },
+    {
+        "apertures": [],
+        "dictionary": {
+            "UID": "botHorFace4",
+            "pr_TopologicalType": "botHor",
+            "toplevel": false,
+            "uuid": "591088ea-cf7e-11f1-b29a-0072eeef51b3"
+        },
+        "type": "Face",
+        "uuid": "591088ea-cf7e-11f1-b29a-0072eeef51b3",
+        "wires": [
+            "5909cd76-cf7e-11f1-a2b4-0072eeef51b3"
+        ]
+    },
+    {
+        "apertures": [],
+        "dictionary": {
+            "UID": "extVerFace8",
+            "pr_TopologicalType": "extVer",
+            "toplevel": false,
+            "uuid": "591088eb-cf7e-11f1-b651-0072eeef51b3"
+        },
+        "type": "Face",
+        "uuid": "591088eb-cf7e-11f1-b651-0072eeef51b3",
+        "wires": [
+            "5909cd77-cf7e-11f1-a303-0072eeef51b3"
+        ]
+    },
+    {
+        "apertures": [],
+        "dictionary": {
+            "UID": "intVerFace5",
+            "pr_TopologicalType": "intVer",
+            "toplevel": false,
+            "uuid": "5910aff5-cf7e-11f1-b333-0072eeef51b3"
+        },
+        "type": "Face",
+        "uuid": "5910aff5-cf7e-11f1-b333-0072eeef51b3",
+        "wires": [
+            "5909f481-cf7e-11f1-8dfa-0072eeef51b3"
+        ]
+    },
+    {
+        "apertures": [],
+        "dictionary": {
+            "UID": "extVerFace9",
+            "pr_TopologicalType": "extVer",
+            "toplevel": false,
+            "uuid": "5910aff6-cf7e-11f1-84fa-0072eeef51b3"
+        },
+        "type": "Face",
+        "uuid": "5910aff6-cf7e-11f1-84fa-0072eeef51b3",
+        "wires": [
+            "5909f482-cf7e-11f1-98de-0072eeef51b3"
+        ]
+    },
+    {
+        "apertures": [],
+        "dictionary": {
+            "UID": "topHorFace4",
+            "pr_TopologicalType": "topHor",
+            "toplevel": false,
+            "uuid": "5910d707-cf7e-11f1-bfb9-0072eeef51b3"
+        },
+        "type": "Face",
+        "uuid": "5910d707-cf7e-11f1-bfb9-0072eeef51b3",
+        "wires": [
+            "590a1b8b-cf7e-11f1-8ec7-0072eeef51b3"
+        ]
+    },
+    {
+        "apertures": [],
+        "dictionary": {
+            "UID": "botHorFace5",
+            "pr_TopologicalType": "botHor",
+            "toplevel": false,
+            "uuid": "5910d708-cf7e-11f1-9a97-0072eeef51b3"
+        },
+        "type": "Face",
+        "uuid": "5910d708-cf7e-11f1-9a97-0072eeef51b3",
+        "wires": [
+            "590a1b8c-cf7e-11f1-b67c-0072eeef51b3"
+        ]
+    },
+    {
+        "apertures": [],
+        "dictionary": {
+            "UID": "extVerFace10",
+            "pr_TopologicalType": "extVer",
+            "toplevel": false,
+            "uuid": "59111235-cf7e-11f1-a5b8-0072eeef51b3"
+        },
+        "type": "Face",
+        "uuid": "59111235-cf7e-11f1-a5b8-0072eeef51b3",
+        "wires": [
+            "590a429c-cf7e-11f1-84f5-0072eeef51b3"
+        ]
+    },
+    {
+        "apertures": [],
+        "dictionary": {
+            "UID": "intVerFace6",
+            "pr_TopologicalType": "intVer",
+            "toplevel": false,
+            "uuid": "59111236-cf7e-11f1-95e3-0072eeef51b3"
+        },
+        "type": "Face",
+        "uuid": "59111236-cf7e-11f1-95e3-0072eeef51b3",
+        "wires": [
+            "590a429d-cf7e-11f1-844e-0072eeef51b3"
+        ]
+    },
+    {
+        "apertures": [],
+        "dictionary": {
+            "UID": "extVerFace11",
+            "pr_TopologicalType": "extVer",
+            "toplevel": false,
+            "uuid": "59113988-cf7e-11f1-8a61-0072eeef51b3"
+        },
+        "type": "Face",
+        "uuid": "59113988-cf7e-11f1-8a61-0072eeef51b3",
+        "wires": [
+            "590a429e-cf7e-11f1-8b82-0072eeef51b3"
+        ]
+    },
+    {
+        "apertures": [],
+        "dictionary": {
+            "UID": "extVerFace12",
+            "pr_TopologicalType": "extVer",
+            "toplevel": false,
+            "uuid": "59113989-cf7e-11f1-b91f-0072eeef51b3"
+        },
+        "type": "Face",
+        "uuid": "59113989-cf7e-11f1-b91f-0072eeef51b3",
+        "wires": [
+            "590a69aa-cf7e-11f1-ad71-0072eeef51b3"
+        ]
+    },
+    {
+        "apertures": [],
+        "dictionary": {
+            "UID": "intHorFace0",
+            "pr_TopologicalType": "intHor",
+            "toplevel": false,
+            "uuid": "591160e9-cf7e-11f1-a7a4-0072eeef51b3"
+        },
+        "type": "Face",
+        "uuid": "591160e9-cf7e-11f1-a7a4-0072eeef51b3",
+        "wires": [
+            "590a7d87-cf7e-11f1-8db6-0072eeef51b3"
+        ]
+    },
+    {
+        "apertures": [],
+        "dictionary": {
+            "UID": "intHorFace1",
+            "pr_TopologicalType": "intHor",
+            "toplevel": false,
+            "uuid": "591187f3-cf7e-11f1-b273-0072eeef51b3"
+        },
+        "type": "Face",
+        "uuid": "591187f3-cf7e-11f1-b273-0072eeef51b3",
+        "wires": [
+            "590a7d88-cf7e-11f1-a937-0072eeef51b3"
+        ]
+    },
+    {
+        "apertures": [],
+        "dictionary": {
+            "UID": "botHorFace6",
+            "pr_TopologicalType": "botHor",
+            "toplevel": false,
+            "uuid": "591187f4-cf7e-11f1-9a5a-0072eeef51b3"
+        },
+        "type": "Face",
+        "uuid": "591187f4-cf7e-11f1-9a5a-0072eeef51b3",
+        "wires": [
+            "590aa4a6-cf7e-11f1-92e5-0072eeef51b3"
+        ]
+    },
+    {
+        "apertures": [],
+        "dictionary": {
+            "UID": "intVerFace7",
+            "pr_TopologicalType": "intVer",
+            "toplevel": false,
+            "uuid": "5911af06-cf7e-11f1-9126-0072eeef51b3"
+        },
+        "type": "Face",
+        "uuid": "5911af06-cf7e-11f1-9126-0072eeef51b3",
+        "wires": [
+            "590aa4a7-cf7e-11f1-9d7e-0072eeef51b3"
+        ]
+    },
+    {
+        "apertures": [],
+        "dictionary": {
+            "UID": "extVerFace13",
+            "pr_TopologicalType": "extVer",
+            "toplevel": false,
+            "uuid": "5911c2da-cf7e-11f1-bd80-0072eeef51b3"
+        },
+        "type": "Face",
+        "uuid": "5911c2da-cf7e-11f1-bd80-0072eeef51b3",
+        "wires": [
+            "590acbb6-cf7e-11f1-ab2a-0072eeef51b3"
+        ]
+    },
+    {
+        "apertures": [],
+        "dictionary": {
+            "UID": "extVerFace14",
+            "pr_TopologicalType": "extVer",
+            "toplevel": false,
+            "uuid": "5911ea0e-cf7e-11f1-8f14-0072eeef51b3"
+        },
+        "type": "Face",
+        "uuid": "5911ea0e-cf7e-11f1-8f14-0072eeef51b3",
+        "wires": [
+            "590acbb7-cf7e-11f1-be0b-0072eeef51b3"
+        ]
+    },
+    {
+        "apertures": [],
+        "dictionary": {
+            "UID": "intHorFace2",
+            "pr_TopologicalType": "intHor",
+            "toplevel": false,
+            "uuid": "5911ea0f-cf7e-11f1-9f6c-0072eeef51b3"
+        },
+        "type": "Face",
+        "uuid": "5911ea0f-cf7e-11f1-9f6c-0072eeef51b3",
+        "wires": [
+            "590acbb8-cf7e-11f1-bc81-0072eeef51b3"
+        ]
+    },
+    {
+        "apertures": [],
+        "dictionary": {
+            "UID": "botHorFace7",
+            "pr_TopologicalType": "botHor",
+            "toplevel": false,
+            "uuid": "59121115-cf7e-11f1-b9f1-0072eeef51b3"
+        },
+        "type": "Face",
+        "uuid": "59121115-cf7e-11f1-b9f1-0072eeef51b3",
+        "wires": [
+            "590af2c1-cf7e-11f1-adb5-0072eeef51b3"
+        ]
+    },
+    {
+        "apertures": [],
+        "dictionary": {
+            "UID": "extVerFace15",
+            "pr_TopologicalType": "extVer",
+            "toplevel": false,
+            "uuid": "59121116-cf7e-11f1-af92-0072eeef51b3"
+        },
+        "type": "Face",
+        "uuid": "59121116-cf7e-11f1-af92-0072eeef51b3",
+        "wires": [
+            "590af2c2-cf7e-11f1-80ef-0072eeef51b3"
+        ]
+    },
+    {
+        "apertures": [],
+        "dictionary": {
+            "UID": "intVerFace8",
+            "pr_TopologicalType": "intVer",
+            "toplevel": false,
+            "uuid": "59123821-cf7e-11f1-953a-0072eeef51b3"
+        },
+        "type": "Face",
+        "uuid": "59123821-cf7e-11f1-953a-0072eeef51b3",
+        "wires": [
+            "590b19d4-cf7e-11f1-8031-0072eeef51b3"
+        ]
+    },
+    {
+        "apertures": [],
+        "dictionary": {
+            "UID": "extVerFace16",
+            "pr_TopologicalType": "extVer",
+            "toplevel": false,
+            "uuid": "59125f28-cf7e-11f1-8ca0-0072eeef51b3"
+        },
+        "type": "Face",
+        "uuid": "59125f28-cf7e-11f1-8ca0-0072eeef51b3",
+        "wires": [
+            "590b19d5-cf7e-11f1-8482-0072eeef51b3"
+        ]
+    },
+    {
+        "apertures": [],
+        "dictionary": {
+            "UID": "intHorFace3",
+            "pr_TopologicalType": "intHor",
+            "toplevel": false,
+            "uuid": "59125f29-cf7e-11f1-8380-0072eeef51b3"
+        },
+        "type": "Face",
+        "uuid": "59125f29-cf7e-11f1-8380-0072eeef51b3",
+        "wires": [
+            "590b40e3-cf7e-11f1-bec1-0072eeef51b3"
+        ]
+    },
+    {
+        "apertures": [],
+        "dictionary": {
+            "UID": "extVerFace17",
+            "pr_TopologicalType": "extVer",
+            "toplevel": false,
+            "uuid": "59128bf4-cf7e-11f1-b329-0072eeef51b3"
+        },
+        "type": "Face",
+        "uuid": "59128bf4-cf7e-11f1-b329-0072eeef51b3",
+        "wires": [
+            "590b40e4-cf7e-11f1-8c64-0072eeef51b3"
+        ]
+    },
+    {
+        "apertures": [],
+        "dictionary": {
+            "UID": "intVerFace9",
+            "pr_TopologicalType": "intVer",
+            "toplevel": false,
+            "uuid": "5912b379-cf7e-11f1-83d3-0072eeef51b3"
+        },
+        "type": "Face",
+        "uuid": "5912b379-cf7e-11f1-83d3-0072eeef51b3",
+        "wires": [
+            "590b6c09-cf7e-11f1-a95f-0072eeef51b3"
+        ]
+    },
+    {
+        "apertures": [],
+        "dictionary": {
+            "UID": "extVerFace18",
+            "pr_TopologicalType": "extVer",
+            "toplevel": false,
+            "uuid": "5912da71-cf7e-11f1-90da-0072eeef51b3"
+        },
+        "type": "Face",
+        "uuid": "5912da71-cf7e-11f1-90da-0072eeef51b3",
+        "wires": [
+            "590b6c0a-cf7e-11f1-a1fb-0072eeef51b3"
+        ]
+    },
+    {
+        "apertures": [],
+        "dictionary": {
+            "UID": "extVerFace19",
+            "pr_TopologicalType": "extVer",
+            "toplevel": false,
+            "uuid": "5912da72-cf7e-11f1-9715-0072eeef51b3"
+        },
+        "type": "Face",
+        "uuid": "5912da72-cf7e-11f1-9715-0072eeef51b3",
+        "wires": [
+            "590b6c0b-cf7e-11f1-a616-0072eeef51b3"
+        ]
+    },
+    {
+        "apertures": [],
+        "dictionary": {
+            "UID": "topHorFace5",
+            "pr_TopologicalType": "topHor",
+            "toplevel": false,
+            "uuid": "591301b3-cf7e-11f1-bfe6-0072eeef51b3"
+        },
+        "type": "Face",
+        "uuid": "591301b3-cf7e-11f1-bfe6-0072eeef51b3",
+        "wires": [
+            "590b9365-cf7e-11f1-83b7-0072eeef51b3"
+        ]
+    },
+    {
+        "apertures": [],
+        "dictionary": {
+            "UID": "extVerFace20",
+            "pr_TopologicalType": "extVer",
+            "toplevel": false,
+            "uuid": "59132887-cf7e-11f1-90ca-0072eeef51b3"
+        },
+        "type": "Face",
+        "uuid": "59132887-cf7e-11f1-90ca-0072eeef51b3",
+        "wires": [
+            "590b9366-cf7e-11f1-8b35-0072eeef51b3"
+        ]
+    },
+    {
+        "apertures": [],
+        "dictionary": {
+            "UID": "intVerFace10",
+            "pr_TopologicalType": "intVer",
+            "toplevel": false,
+            "uuid": "59132888-cf7e-11f1-9288-0072eeef51b3"
+        },
+        "type": "Face",
+        "uuid": "59132888-cf7e-11f1-9288-0072eeef51b3",
+        "wires": [
+            "590b9367-cf7e-11f1-aadb-0072eeef51b3"
+        ]
+    },
+    {
+        "apertures": [],
+        "dictionary": {
+            "UID": "extVerFace21",
+            "pr_TopologicalType": "extVer",
+            "toplevel": false,
+            "uuid": "59134f8e-cf7e-11f1-b7eb-0072eeef51b3"
+        },
+        "type": "Face",
+        "uuid": "59134f8e-cf7e-11f1-b7eb-0072eeef51b3",
+        "wires": [
+            "590bd87f-cf7e-11f1-8d40-0072eeef51b3"
+        ]
+    },
+    {
+        "apertures": [],
+        "dictionary": {
+            "UID": "topHorFace6",
+            "pr_TopologicalType": "topHor",
+            "toplevel": false,
+            "uuid": "59134f8f-cf7e-11f1-8682-0072eeef51b3"
+        },
+        "type": "Face",
+        "uuid": "59134f8f-cf7e-11f1-8682-0072eeef51b3",
+        "wires": [
+            "590bd880-cf7e-11f1-9a83-0072eeef51b3"
+        ]
+    },
+    {
+        "apertures": [],
+        "dictionary": {
+            "UID": "botHorFace8",
+            "pr_TopologicalType": "botHor",
+            "toplevel": false,
+            "uuid": "59138a5c-cf7e-11f1-8d1d-0072eeef51b3"
+        },
+        "type": "Face",
+        "uuid": "59138a5c-cf7e-11f1-8d1d-0072eeef51b3",
+        "wires": [
+            "590c0021-cf7e-11f1-aac9-0072eeef51b3"
+        ]
+    },
+    {
+        "apertures": [],
+        "dictionary": {
+            "UID": "intVerFace11",
+            "pr_TopologicalType": "intVer",
+            "toplevel": false,
+            "uuid": "59139d0d-cf7e-11f1-a0da-0072eeef51b3"
+        },
+        "type": "Face",
+        "uuid": "59139d0d-cf7e-11f1-a0da-0072eeef51b3",
+        "wires": [
+            "590c0022-cf7e-11f1-859f-0072eeef51b3"
+        ]
+    },
+    {
+        "apertures": [],
+        "dictionary": {
+            "UID": "extVerFace22",
+            "pr_TopologicalType": "extVer",
+            "toplevel": false,
+            "uuid": "59139d0e-cf7e-11f1-afcb-0072eeef51b3"
+        },
+        "type": "Face",
+        "uuid": "59139d0e-cf7e-11f1-afcb-0072eeef51b3",
+        "wires": [
+            "590c1893-cf7e-11f1-9223-0072eeef51b3"
+        ]
+    },
+    {
+        "apertures": [],
+        "dictionary": {
+            "UID": "extVerFace23",
+            "pr_TopologicalType": "extVer",
+            "toplevel": false,
+            "uuid": "5913c481-cf7e-11f1-8fb4-0072eeef51b3"
+        },
+        "type": "Face",
+        "uuid": "5913c481-cf7e-11f1-8fb4-0072eeef51b3",
+        "wires": [
+            "590c1894-cf7e-11f1-8f2e-0072eeef51b3"
+        ]
+    },
+    {
+        "apertures": [],
+        "dictionary": {
+            "UID": "topHorFace7",
+            "pr_TopologicalType": "topHor",
+            "toplevel": false,
+            "uuid": "5913ec02-cf7e-11f1-8ab3-0072eeef51b3"
+        },
+        "type": "Face",
+        "uuid": "5913ec02-cf7e-11f1-8ab3-0072eeef51b3",
+        "wires": [
+            "590c403a-cf7e-11f1-86cc-0072eeef51b3"
+        ]
+    },
+    {
+        "apertures": [],
+        "dictionary": {
+            "UID": "extVerFace24",
+            "pr_TopologicalType": "extVer",
+            "toplevel": false,
+            "uuid": "5913ec03-cf7e-11f1-a2a7-0072eeef51b3"
+        },
+        "type": "Face",
+        "uuid": "5913ec03-cf7e-11f1-a2a7-0072eeef51b3",
+        "wires": [
+            "590c403b-cf7e-11f1-88a8-0072eeef51b3"
+        ]
+    },
+    {
+        "apertures": [],
+        "dictionary": {
+            "UID": "extVerFace25",
+            "pr_TopologicalType": "extVer",
+            "toplevel": false,
+            "uuid": "591412fa-cf7e-11f1-9e45-0072eeef51b3"
+        },
+        "type": "Face",
+        "uuid": "591412fa-cf7e-11f1-9e45-0072eeef51b3",
+        "wires": [
+            "590c403c-cf7e-11f1-8bd3-0072eeef51b3"
+        ]
+    },
+    {
+        "apertures": [],
+        "dictionary": {
+            "UID": "extVerFace26",
+            "pr_TopologicalType": "extVer",
+            "toplevel": false,
+            "uuid": "591412fb-cf7e-11f1-8773-0072eeef51b3"
+        },
+        "type": "Face",
+        "uuid": "591412fb-cf7e-11f1-8773-0072eeef51b3",
+        "wires": [
+            "590c6732-cf7e-11f1-be84-0072eeef51b3"
+        ]
+    },
+    {
+        "apertures": [],
+        "dictionary": {
+            "UID": "extVerFace27",
+            "pr_TopologicalType": "extVer",
+            "toplevel": false,
+            "uuid": "59143a06-cf7e-11f1-bfce-0072eeef51b3"
+        },
+        "type": "Face",
+        "uuid": "59143a06-cf7e-11f1-bfce-0072eeef51b3",
+        "wires": [
+            "590c6733-cf7e-11f1-b854-0072eeef51b3"
+        ]
+    },
+    {
+        "apertures": [],
+        "dictionary": {
+            "UID": "topHorFace8",
+            "pr_TopologicalType": "topHor",
+            "toplevel": false,
+            "uuid": "59146113-cf7e-11f1-ab85-0072eeef51b3"
+        },
+        "type": "Face",
+        "uuid": "59146113-cf7e-11f1-ab85-0072eeef51b3",
+        "wires": [
+            "590c8e3b-cf7e-11f1-8d43-0072eeef51b3",
+            "590c8e3c-cf7e-11f1-bc92-0072eeef51b3"
+        ]
+    },
+    {
+        "apertures": [],
+        "dictionary": {
+            "UID": "intHorFace4",
+            "pr_TopologicalType": "intHor",
+            "toplevel": false,
+            "uuid": "59146114-cf7e-11f1-a754-0072eeef51b3"
+        },
+        "type": "Face",
+        "uuid": "59146114-cf7e-11f1-a754-0072eeef51b3",
+        "wires": [
+            "590c8e3c-cf7e-11f1-bc92-0072eeef51b3"
+        ]
+    },
+    {
+        "apertures": [],
+        "dictionary": {
+            "UID": "botHorFace9",
+            "pr_TopologicalType": "botHor",
+            "toplevel": false,
+            "uuid": "59148822-cf7e-11f1-b54a-0072eeef51b3"
+        },
+        "type": "Face",
+        "uuid": "59148822-cf7e-11f1-b54a-0072eeef51b3",
+        "wires": [
+            "590cb539-cf7e-11f1-a2b5-0072eeef51b3"
+        ]
+    },
+    {
+        "apertures": [],
+        "dictionary": {
+            "UID": "extVerFace28",
+            "pr_TopologicalType": "extVer",
+            "toplevel": false,
+            "uuid": "5914af2d-cf7e-11f1-bd6e-0072eeef51b3"
+        },
+        "type": "Face",
+        "uuid": "5914af2d-cf7e-11f1-bd6e-0072eeef51b3",
+        "wires": [
+            "590cdced-cf7e-11f1-8513-0072eeef51b3"
+        ]
+    },
+    {
+        "apertures": [],
+        "dictionary": {
+            "UID": "extVerFace29",
+            "pr_TopologicalType": "extVer",
+            "toplevel": false,
+            "uuid": "5914d660-cf7e-11f1-a869-0072eeef51b3"
+        },
+        "type": "Face",
+        "uuid": "5914d660-cf7e-11f1-a869-0072eeef51b3",
+        "wires": [
+            "590cdcee-cf7e-11f1-896b-0072eeef51b3"
+        ]
+    },
+    {
+        "apertures": [],
+        "dictionary": {
+            "UID": "intVerFace12",
+            "pr_TopologicalType": "intVer",
+            "toplevel": false,
+            "uuid": "5914d661-cf7e-11f1-a99b-0072eeef51b3"
+        },
+        "type": "Face",
+        "uuid": "5914d661-cf7e-11f1-a99b-0072eeef51b3",
+        "wires": [
+            "590cdcef-cf7e-11f1-9bf0-0072eeef51b3"
+        ]
+    },
+    {
+        "apertures": [],
+        "dictionary": {
+            "UID": "intHorFace5",
+            "pr_TopologicalType": "intHor",
+            "toplevel": false,
+            "uuid": "5914fd8d-cf7e-11f1-bbd8-0072eeef51b3"
+        },
+        "type": "Face",
+        "uuid": "5914fd8d-cf7e-11f1-bbd8-0072eeef51b3",
+        "wires": [
+            "590d0367-cf7e-11f1-a7c8-0072eeef51b3"
+        ]
+    },
+    {
+        "apertures": [],
+        "dictionary": {
+            "UID": "intHorFace6",
+            "pr_TopologicalType": "intHor",
+            "toplevel": false,
+            "uuid": "5914fd8e-cf7e-11f1-abc2-0072eeef51b3"
+        },
+        "type": "Face",
+        "uuid": "5914fd8e-cf7e-11f1-abc2-0072eeef51b3",
+        "wires": [
+            "590d0368-cf7e-11f1-9fd9-0072eeef51b3"
+        ]
+    },
+    {
+        "apertures": [],
+        "dictionary": {
+            "UID": "extVerFace30",
+            "pr_TopologicalType": "extVer",
+            "toplevel": false,
+            "uuid": "59152469-cf7e-11f1-8065-0072eeef51b3"
+        },
+        "type": "Face",
+        "uuid": "59152469-cf7e-11f1-8065-0072eeef51b3",
+        "wires": [
+            "590d2a81-cf7e-11f1-96fb-0072eeef51b3"
+        ]
+    },
+    {
+        "apertures": [],
+        "dictionary": {
+            "UID": "intVerFace13",
+            "pr_TopologicalType": "intVer",
+            "toplevel": false,
+            "uuid": "59154b73-cf7e-11f1-a915-0072eeef51b3"
+        },
+        "type": "Face",
+        "uuid": "59154b73-cf7e-11f1-a915-0072eeef51b3",
+        "wires": [
+            "590d2a82-cf7e-11f1-b36d-0072eeef51b3"
+        ]
+    },
+    {
+        "apertures": [],
+        "dictionary": {
+            "UID": "extVerFace31",
+            "pr_TopologicalType": "extVer",
+            "toplevel": false,
+            "uuid": "59154b74-cf7e-11f1-9def-0072eeef51b3"
+        },
+        "type": "Face",
+        "uuid": "59154b74-cf7e-11f1-9def-0072eeef51b3",
+        "wires": [
+            "590d515b-cf7e-11f1-9050-0072eeef51b3"
+        ]
+    },
+    {
+        "apertures": [],
+        "dictionary": {
+            "UID": "topHorFace9",
+            "pr_TopologicalType": "topHor",
+            "toplevel": false,
+            "uuid": "59157282-cf7e-11f1-87f9-0072eeef51b3"
+        },
+        "type": "Face",
+        "uuid": "59157282-cf7e-11f1-87f9-0072eeef51b3",
+        "wires": [
+            "590d515c-cf7e-11f1-8e0b-0072eeef51b3"
+        ]
+    },
+    {
+        "apertures": [],
+        "dictionary": {
+            "UID": "botHorFace10",
+            "pr_TopologicalType": "botHor",
+            "toplevel": false,
+            "uuid": "5915998f-cf7e-11f1-90de-0072eeef51b3"
+        },
+        "type": "Face",
+        "uuid": "5915998f-cf7e-11f1-90de-0072eeef51b3",
+        "wires": [
+            "590d787d-cf7e-11f1-a402-0072eeef51b3"
+        ]
+    },
+    {
+        "apertures": [],
+        "dictionary": {
+            "UID": "extVerFace32",
+            "pr_TopologicalType": "extVer",
+            "toplevel": false,
+            "uuid": "59159990-cf7e-11f1-ad52-0072eeef51b3"
+        },
+        "type": "Face",
+        "uuid": "59159990-cf7e-11f1-ad52-0072eeef51b3",
+        "wires": [
+            "590d9fa1-cf7e-11f1-b43c-0072eeef51b3"
+        ]
+    },
+    {
+        "apertures": [],
+        "dictionary": {
+            "UID": "extVerFace33",
+            "pr_TopologicalType": "extVer",
+            "toplevel": false,
+            "uuid": "5915c09c-cf7e-11f1-a8d8-0072eeef51b3"
+        },
+        "type": "Face",
+        "uuid": "5915c09c-cf7e-11f1-a8d8-0072eeef51b3",
+        "wires": [
+            "590d9fa2-cf7e-11f1-92f2-0072eeef51b3"
+        ]
+    },
+    {
+        "apertures": [],
+        "dictionary": {
+            "UID": "topHorFace10",
+            "pr_TopologicalType": "topHor",
+            "toplevel": false,
+            "uuid": "5915c09d-cf7e-11f1-9a7e-0072eeef51b3"
+        },
+        "type": "Face",
+        "uuid": "5915c09d-cf7e-11f1-9a7e-0072eeef51b3",
+        "wires": [
+            "590d9fa3-cf7e-11f1-9075-0072eeef51b3"
+        ]
+    },
+    {
+        "apertures": [],
+        "dictionary": {
+            "UID": "extVerFace34",
+            "pr_TopologicalType": "extVer",
+            "toplevel": false,
+            "uuid": "5915e7ad-cf7e-11f1-a62b-0072eeef51b3"
+        },
+        "type": "Face",
+        "uuid": "5915e7ad-cf7e-11f1-a62b-0072eeef51b3",
+        "wires": [
+            "590dd5ae-cf7e-11f1-a774-0072eeef51b3"
+        ]
+    },
+    {
+        "apertures": [],
+        "dictionary": {
+            "UID": "extVerFace35",
+            "pr_TopologicalType": "extVer",
+            "toplevel": false,
+            "uuid": "5915e7ae-cf7e-11f1-b475-0072eeef51b3"
+        },
+        "type": "Face",
+        "uuid": "5915e7ae-cf7e-11f1-b475-0072eeef51b3",
+        "wires": [
+            "590dd5af-cf7e-11f1-8449-0072eeef51b3"
+        ]
+    },
+    {
+        "apertures": [],
+        "dictionary": {
+            "UID": "extVerFace36",
+            "pr_TopologicalType": "extVer",
+            "toplevel": false,
+            "uuid": "59162277-cf7e-11f1-899d-0072eeef51b3"
+        },
+        "type": "Face",
+        "uuid": "59162277-cf7e-11f1-899d-0072eeef51b3",
+        "wires": [
+            "590dfd26-cf7e-11f1-b168-0072eeef51b3"
+        ]
+    },
+    {
+        "apertures": [],
+        "dictionary": {
+            "UID": "extVerFace37",
+            "pr_TopologicalType": "extVer",
+            "toplevel": false,
+            "uuid": "59162278-cf7e-11f1-8563-0072eeef51b3"
+        },
+        "type": "Face",
+        "uuid": "59162278-cf7e-11f1-8563-0072eeef51b3",
+        "wires": [
+            "590dfd27-cf7e-11f1-8000-0072eeef51b3"
+        ]
+    },
+    {
+        "apertures": [],
+        "dictionary": {
+            "UID": "topHorFace11",
+            "pr_TopologicalType": "topHor",
+            "toplevel": false,
+            "uuid": "59162279-cf7e-11f1-bedb-0072eeef51b3"
+        },
+        "type": "Face",
+        "uuid": "59162279-cf7e-11f1-bedb-0072eeef51b3",
+        "wires": [
+            "590e2444-cf7e-11f1-9dcd-0072eeef51b3"
+        ]
+    },
+    {
+        "apertures": [],
+        "dictionary": {
+            "UID": "extVerFace38",
+            "pr_TopologicalType": "extVer",
+            "toplevel": false,
+            "uuid": "59165ea9-cf7e-11f1-94e5-0072eeef51b3"
+        },
+        "type": "Face",
+        "uuid": "59165ea9-cf7e-11f1-94e5-0072eeef51b3",
+        "wires": [
+            "590e2445-cf7e-11f1-ae8b-0072eeef51b3"
+        ]
+    },
+    {
+        "apertures": [],
+        "dictionary": {
+            "UID": "extVerFace39",
+            "pr_TopologicalType": "extVer",
+            "toplevel": false,
+            "uuid": "59165eaa-cf7e-11f1-8b07-0072eeef51b3"
+        },
+        "type": "Face",
+        "uuid": "59165eaa-cf7e-11f1-8b07-0072eeef51b3",
+        "wires": [
+            "590e2446-cf7e-11f1-8b0f-0072eeef51b3"
+        ]
+    },
+    {
+        "apertures": [],
+        "dictionary": {
+            "UID": "extVerFace40",
+            "pr_TopologicalType": "extVer",
+            "toplevel": false,
+            "uuid": "591699c8-cf7e-11f1-9732-0072eeef51b3"
+        },
+        "type": "Face",
+        "uuid": "591699c8-cf7e-11f1-9732-0072eeef51b3",
+        "wires": [
+            "590e57b9-cf7e-11f1-a27a-0072eeef51b3"
+        ]
+    },
+    {
+        "apertures": [],
+        "dictionary": {
+            "UID": "topHorFace12",
+            "pr_TopologicalType": "topHor",
+            "toplevel": false,
+            "uuid": "591699c9-cf7e-11f1-b762-0072eeef51b3"
+        },
+        "type": "Face",
+        "uuid": "591699c9-cf7e-11f1-b762-0072eeef51b3",
+        "wires": [
+            "590e6b9d-cf7e-11f1-8c69-0072eeef51b3"
+        ]
+    },
+    {
+        "apertures": [],
+        "dictionary": {
+            "toplevel": false,
+            "uuid": "5916c127-cf7e-11f1-a269-0072eeef51b3"
+        },
+        "faces": [
+            "590e6b9e-cf7e-11f1-af3d-0072eeef51b3",
+            "590e6b9f-cf7e-11f1-8a1a-0072eeef51b3",
+            "590ea96e-cf7e-11f1-8175-0072eeef51b3",
+            "590ea96f-cf7e-11f1-89f1-0072eeef51b3",
+            "590ed0d0-cf7e-11f1-924b-0072eeef51b3",
+            "590ef7d4-cf7e-11f1-91f2-0072eeef51b3"
+        ],
+        "type": "Shell",
+        "uuid": "5916c127-cf7e-11f1-a269-0072eeef51b3"
+    },
+    {
+        "apertures": [],
+        "dictionary": {
+            "toplevel": false,
+            "uuid": "5916e830-cf7e-11f1-a952-0072eeef51b3"
+        },
+        "faces": [
+            "590f0bbd-cf7e-11f1-ac56-0072eeef51b3",
+            "590f0bbe-cf7e-11f1-b81c-0072eeef51b3",
+            "590f3a17-cf7e-11f1-bc59-0072eeef51b3",
+            "590e6b9f-cf7e-11f1-8a1a-0072eeef51b3",
+            "590f4e01-cf7e-11f1-a6fc-0072eeef51b3",
+            "590f7584-cf7e-11f1-b3aa-0072eeef51b3"
+        ],
+        "type": "Shell",
+        "uuid": "5916e830-cf7e-11f1-a952-0072eeef51b3"
+    },
+    {
+        "apertures": [],
+        "dictionary": {
+            "toplevel": false,
+            "uuid": "59173676-cf7e-11f1-8197-0072eeef51b3"
+        },
+        "faces": [
+            "590f7585-cf7e-11f1-beab-0072eeef51b3",
+            "590f9ca1-cf7e-11f1-b830-0072eeef51b3",
+            "590f9ca2-cf7e-11f1-a3e9-0072eeef51b3",
+            "590fc37e-cf7e-11f1-a2be-0072eeef51b3",
+            "590ea96e-cf7e-11f1-8175-0072eeef51b3",
+            "590fea89-cf7e-11f1-a44f-0072eeef51b3"
+        ],
+        "type": "Shell",
+        "uuid": "59173676-cf7e-11f1-8197-0072eeef51b3"
+    },
+    {
+        "apertures": [],
+        "dictionary": {
+            "toplevel": false,
+            "uuid": "59175d8f-cf7e-11f1-a0c6-0072eeef51b3"
+        },
+        "faces": [
+            "590fea8a-cf7e-11f1-bef7-0072eeef51b3",
+            "59101196-cf7e-11f1-9627-0072eeef51b3",
+            "591039b0-cf7e-11f1-b1f9-0072eeef51b3",
+            "590f0bbe-cf7e-11f1-b81c-0072eeef51b3",
+            "591039b1-cf7e-11f1-9739-0072eeef51b3",
+            "59106200-cf7e-11f1-bccb-0072eeef51b3"
+        ],
+        "type": "Shell",
+        "uuid": "59175d8f-cf7e-11f1-a0c6-0072eeef51b3"
+    },
+    {
+        "apertures": [],
+        "dictionary": {
+            "toplevel": false,
+            "uuid": "5917acff-cf7e-11f1-89ee-0072eeef51b3"
+        },
+        "faces": [
+            "591088ea-cf7e-11f1-b29a-0072eeef51b3",
+            "591088eb-cf7e-11f1-b651-0072eeef51b3",
+            "5910aff5-cf7e-11f1-b333-0072eeef51b3",
+            "5910aff6-cf7e-11f1-84fa-0072eeef51b3",
+            "590f9ca2-cf7e-11f1-a3e9-0072eeef51b3",
+            "5910d707-cf7e-11f1-bfb9-0072eeef51b3"
+        ],
+        "type": "Shell",
+        "uuid": "5917acff-cf7e-11f1-89ee-0072eeef51b3"
+    },
+    {
+        "apertures": [],
+        "dictionary": {
+            "toplevel": false,
+            "uuid": "5917ad00-cf7e-11f1-b6df-0072eeef51b3"
+        },
+        "faces": [
+            "5910d708-cf7e-11f1-9a97-0072eeef51b3",
+            "59111235-cf7e-11f1-a5b8-0072eeef51b3",
+            "59111236-cf7e-11f1-95e3-0072eeef51b3",
+            "59113988-cf7e-11f1-8a61-0072eeef51b3",
+            "59101196-cf7e-11f1-9627-0072eeef51b3",
+            "59113989-cf7e-11f1-b91f-0072eeef51b3",
+            "591160e9-cf7e-11f1-a7a4-0072eeef51b3",
+            "591187f3-cf7e-11f1-b273-0072eeef51b3"
+        ],
+        "type": "Shell",
+        "uuid": "5917ad00-cf7e-11f1-b6df-0072eeef51b3"
+    },
+    {
+        "apertures": [],
+        "dictionary": {
+            "toplevel": false,
+            "uuid": "59180f4a-cf7e-11f1-af6d-0072eeef51b3"
+        },
+        "faces": [
+            "591187f4-cf7e-11f1-9a5a-0072eeef51b3",
+            "5911af06-cf7e-11f1-9126-0072eeef51b3",
+            "5911c2da-cf7e-11f1-bd80-0072eeef51b3",
+            "5911ea0e-cf7e-11f1-8f14-0072eeef51b3",
+            "5910aff5-cf7e-11f1-b333-0072eeef51b3",
+            "5911ea0f-cf7e-11f1-9f6c-0072eeef51b3"
+        ],
+        "type": "Shell",
+        "uuid": "59180f4a-cf7e-11f1-af6d-0072eeef51b3"
+    },
+    {
+        "apertures": [],
+        "dictionary": {
+            "toplevel": false,
+            "uuid": "5918378b-cf7e-11f1-aea2-0072eeef51b3"
+        },
+        "faces": [
+            "59121115-cf7e-11f1-b9f1-0072eeef51b3",
+            "59121116-cf7e-11f1-af92-0072eeef51b3",
+            "59123821-cf7e-11f1-953a-0072eeef51b3",
+            "59125f28-cf7e-11f1-8ca0-0072eeef51b3",
+            "59111236-cf7e-11f1-95e3-0072eeef51b3",
+            "59125f29-cf7e-11f1-8380-0072eeef51b3"
+        ],
+        "type": "Shell",
+        "uuid": "5918378b-cf7e-11f1-aea2-0072eeef51b3"
+    },
+    {
+        "apertures": [],
+        "dictionary": {
+            "toplevel": false,
+            "uuid": "59188588-cf7e-11f1-9dc1-0072eeef51b3"
+        },
+        "faces": [
+            "591160e9-cf7e-11f1-a7a4-0072eeef51b3",
+            "59128bf4-cf7e-11f1-b329-0072eeef51b3",
+            "5912b379-cf7e-11f1-83d3-0072eeef51b3",
+            "5912da71-cf7e-11f1-90da-0072eeef51b3",
+            "5912da72-cf7e-11f1-9715-0072eeef51b3",
+            "591301b3-cf7e-11f1-bfe6-0072eeef51b3"
+        ],
+        "type": "Shell",
+        "uuid": "59188588-cf7e-11f1-9dc1-0072eeef51b3"
+    },
+    {
+        "apertures": [],
+        "dictionary": {
+            "toplevel": false,
+            "uuid": "5918ac97-cf7e-11f1-8837-0072eeef51b3"
+        },
+        "faces": [
+            "591187f3-cf7e-11f1-b273-0072eeef51b3",
+            "59132887-cf7e-11f1-90ca-0072eeef51b3",
+            "59132888-cf7e-11f1-9288-0072eeef51b3",
+            "59134f8e-cf7e-11f1-b7eb-0072eeef51b3",
+            "5912b379-cf7e-11f1-83d3-0072eeef51b3",
+            "59134f8f-cf7e-11f1-8682-0072eeef51b3"
+        ],
+        "type": "Shell",
+        "uuid": "5918ac97-cf7e-11f1-8837-0072eeef51b3"
+    },
+    {
+        "apertures": [],
+        "dictionary": {
+            "toplevel": false,
+            "uuid": "5918e7b7-cf7e-11f1-8001-0072eeef51b3"
+        },
+        "faces": [
+            "59138a5c-cf7e-11f1-8d1d-0072eeef51b3",
+            "59139d0d-cf7e-11f1-a0da-0072eeef51b3",
+            "59139d0e-cf7e-11f1-afcb-0072eeef51b3",
+            "5911af06-cf7e-11f1-9126-0072eeef51b3",
+            "5913c481-cf7e-11f1-8fb4-0072eeef51b3",
+            "5913ec02-cf7e-11f1-8ab3-0072eeef51b3"
+        ],
+        "type": "Shell",
+        "uuid": "5918e7b7-cf7e-11f1-8001-0072eeef51b3"
+    },
+    {
+        "apertures": [],
+        "dictionary": {
+            "toplevel": false,
+            "uuid": "59190c22-cf7e-11f1-8cb3-0072eeef51b3"
+        },
+        "faces": [
+            "5911ea0f-cf7e-11f1-9f6c-0072eeef51b3",
+            "5913ec03-cf7e-11f1-a2a7-0072eeef51b3",
+            "591412fa-cf7e-11f1-9e45-0072eeef51b3",
+            "591412fb-cf7e-11f1-8773-0072eeef51b3",
+            "59143a06-cf7e-11f1-bfce-0072eeef51b3",
+            "59146113-cf7e-11f1-ab85-0072eeef51b3",
+            "59146114-cf7e-11f1-a754-0072eeef51b3"
+        ],
+        "type": "Shell",
+        "uuid": "59190c22-cf7e-11f1-8cb3-0072eeef51b3"
+    },
+    {
+        "apertures": [],
+        "dictionary": {
+            "toplevel": false,
+            "uuid": "59195a8e-cf7e-11f1-a321-0072eeef51b3"
+        },
+        "faces": [
+            "59148822-cf7e-11f1-b54a-0072eeef51b3",
+            "5914af2d-cf7e-11f1-bd6e-0072eeef51b3",
+            "5914d660-cf7e-11f1-a869-0072eeef51b3",
+            "5914d661-cf7e-11f1-a99b-0072eeef51b3",
+            "59123821-cf7e-11f1-953a-0072eeef51b3",
+            "5914fd8d-cf7e-11f1-bbd8-0072eeef51b3",
+            "5914fd8e-cf7e-11f1-abc2-0072eeef51b3"
+        ],
+        "type": "Shell",
+        "uuid": "59195a8e-cf7e-11f1-a321-0072eeef51b3"
+    },
+    {
+        "apertures": [],
+        "dictionary": {
+            "toplevel": false,
+            "uuid": "5919b9e9-cf7e-11f1-aa85-0072eeef51b3"
+        },
+        "faces": [
+            "59125f29-cf7e-11f1-8380-0072eeef51b3",
+            "5914fd8d-cf7e-11f1-bbd8-0072eeef51b3",
+            "59152469-cf7e-11f1-8065-0072eeef51b3",
+            "59154b73-cf7e-11f1-a915-0072eeef51b3",
+            "59154b74-cf7e-11f1-9def-0072eeef51b3",
+            "59132888-cf7e-11f1-9288-0072eeef51b3",
+            "59157282-cf7e-11f1-87f9-0072eeef51b3"
+        ],
+        "type": "Shell",
+        "uuid": "5919b9e9-cf7e-11f1-aa85-0072eeef51b3"
+    },
+    {
+        "apertures": [],
+        "dictionary": {
+            "toplevel": false,
+            "uuid": "5919f576-cf7e-11f1-a2bb-0072eeef51b3"
+        },
+        "faces": [
+            "5915998f-cf7e-11f1-90de-0072eeef51b3",
+            "5914d661-cf7e-11f1-a99b-0072eeef51b3",
+            "59159990-cf7e-11f1-ad52-0072eeef51b3",
+            "59139d0d-cf7e-11f1-a0da-0072eeef51b3",
+            "5915c09c-cf7e-11f1-a8d8-0072eeef51b3",
+            "5915c09d-cf7e-11f1-9a7e-0072eeef51b3"
+        ],
+        "type": "Shell",
+        "uuid": "5919f576-cf7e-11f1-a2bb-0072eeef51b3"
+    },
+    {
+        "apertures": [],
+        "dictionary": {
+            "toplevel": false,
+            "uuid": "591a1c6c-cf7e-11f1-9547-0072eeef51b3"
+        },
+        "faces": [
+            "59146114-cf7e-11f1-a754-0072eeef51b3",
+            "5915e7ad-cf7e-11f1-a62b-0072eeef51b3",
+            "5915e7ae-cf7e-11f1-b475-0072eeef51b3",
+            "59162277-cf7e-11f1-899d-0072eeef51b3",
+            "59162278-cf7e-11f1-8563-0072eeef51b3",
+            "59162279-cf7e-11f1-bedb-0072eeef51b3"
+        ],
+        "type": "Shell",
+        "uuid": "591a1c6c-cf7e-11f1-9547-0072eeef51b3"
+    },
+    {
+        "apertures": [],
+        "dictionary": {
+            "toplevel": false,
+            "uuid": "591a4373-cf7e-11f1-94c6-0072eeef51b3"
+        },
+        "faces": [
+            "5914fd8e-cf7e-11f1-abc2-0072eeef51b3",
+            "59165ea9-cf7e-11f1-94e5-0072eeef51b3",
+            "59165eaa-cf7e-11f1-8b07-0072eeef51b3",
+            "591699c8-cf7e-11f1-9732-0072eeef51b3",
+            "59154b73-cf7e-11f1-a915-0072eeef51b3",
+            "591699c9-cf7e-11f1-b762-0072eeef51b3"
+        ],
+        "type": "Shell",
+        "uuid": "591a4373-cf7e-11f1-94c6-0072eeef51b3"
+    },
+    {
+        "apertures": [],
+        "dictionary": {
+            "UID": "Cell0",
+            "rl_HasLocation_tpBB": "Corpo_Basso",
+            "rl_HasLocation_tpBS": "BuildingStorey_0cm",
+            "toplevel": false,
+            "uuid": "591a9198-cf7e-11f1-849d-0072eeef51b3"
+        },
+        "shells": [
+            "5916c127-cf7e-11f1-a269-0072eeef51b3"
+        ],
+        "type": "Cell",
+        "uuid": "591a9198-cf7e-11f1-849d-0072eeef51b3"
+    },
+    {
+        "apertures": [],
+        "dictionary": {
+            "UID": "Cell1",
+            "rl_HasLocation_tpBB": "Corpo_Basso",
+            "rl_HasLocation_tpBS": "BuildingStorey_0cm",
+            "toplevel": false,
+            "uuid": "591b06a7-cf7e-11f1-86eb-0072eeef51b3"
+        },
+        "shells": [
+            "5916e830-cf7e-11f1-a952-0072eeef51b3"
+        ],
+        "type": "Cell",
+        "uuid": "591b06a7-cf7e-11f1-86eb-0072eeef51b3"
+    },
+    {
+        "apertures": [],
+        "dictionary": {
+            "UID": "Cell2",
+            "rl_HasLocation_tpBB": "Corpo_Basso",
+            "rl_HasLocation_tpBS": "BuildingStorey_0cm",
+            "toplevel": false,
+            "uuid": "591b7ded-cf7e-11f1-8f36-0072eeef51b3"
+        },
+        "shells": [
+            "59173676-cf7e-11f1-8197-0072eeef51b3"
+        ],
+        "type": "Cell",
+        "uuid": "591b7ded-cf7e-11f1-8f36-0072eeef51b3"
+    },
+    {
+        "apertures": [],
+        "dictionary": {
+            "UID": "Cell3",
+            "rl_HasLocation_tpBB": "Corpo_Basso",
+            "rl_HasLocation_tpBS": "BuildingStorey_0cm",
+            "toplevel": false,
+            "uuid": "591bf371-cf7e-11f1-989f-0072eeef51b3"
+        },
+        "shells": [
+            "59175d8f-cf7e-11f1-a0c6-0072eeef51b3"
+        ],
+        "type": "Cell",
+        "uuid": "591bf371-cf7e-11f1-989f-0072eeef51b3"
+    },
+    {
+        "apertures": [],
+        "dictionary": {
+            "UID": "Cell4",
+            "rl_HasLocation_tpBB": "Corpo_Basso",
+            "rl_HasLocation_tpBS": "BuildingStorey_0cm",
+            "toplevel": false,
+            "uuid": "591c8fa5-cf7e-11f1-b7a9-0072eeef51b3"
+        },
+        "shells": [
+            "5917acff-cf7e-11f1-89ee-0072eeef51b3"
+        ],
+        "type": "Cell",
+        "uuid": "591c8fa5-cf7e-11f1-b7a9-0072eeef51b3"
+    },
+    {
+        "apertures": [],
+        "dictionary": {
+            "UID": "Cell5",
+            "rl_HasLocation_tpBB": "Corpo_Basso",
+            "rl_HasLocation_tpBS": "BuildingStorey_0cm",
+            "toplevel": false,
+            "uuid": "591cddc0-cf7e-11f1-973d-0072eeef51b3"
+        },
+        "shells": [
+            "5917ad00-cf7e-11f1-b6df-0072eeef51b3"
+        ],
+        "type": "Cell",
+        "uuid": "591cddc0-cf7e-11f1-973d-0072eeef51b3"
+    },
+    {
+        "apertures": [],
+        "dictionary": {
+            "UID": "Cell6",
+            "rl_HasLocation_tpBB": "Corpo_Basso",
+            "rl_HasLocation_tpBS": "BuildingStorey_0cm",
+            "toplevel": false,
+            "uuid": "591d68f9-cf7e-11f1-9da5-0072eeef51b3"
+        },
+        "shells": [
+            "59180f4a-cf7e-11f1-af6d-0072eeef51b3"
+        ],
+        "type": "Cell",
+        "uuid": "591d68f9-cf7e-11f1-9da5-0072eeef51b3"
+    },
+    {
+        "apertures": [],
+        "dictionary": {
+            "UID": "Cell7",
+            "rl_HasLocation_tpBB": "Corpo_Basso",
+            "rl_HasLocation_tpBS": "BuildingStorey_0cm",
+            "toplevel": false,
+            "uuid": "591df236-cf7e-11f1-bc45-0072eeef51b3"
+        },
+        "shells": [
+            "5918378b-cf7e-11f1-aea2-0072eeef51b3"
+        ],
+        "type": "Cell",
+        "uuid": "591df236-cf7e-11f1-bc45-0072eeef51b3"
+    },
+    {
+        "apertures": [],
+        "dictionary": {
+            "UID": "Cell8",
+            "rl_HasLocation_tpBB": "Casa_Padronale",
+            "rl_HasLocation_tpBS": "BuildingStorey_500cm",
+            "toplevel": false,
+            "uuid": "591e7c08-cf7e-11f1-b56b-0072eeef51b3"
+        },
+        "shells": [
+            "59188588-cf7e-11f1-9dc1-0072eeef51b3"
+        ],
+        "type": "Cell",
+        "uuid": "591e7c08-cf7e-11f1-b56b-0072eeef51b3"
+    },
+    {
+        "apertures": [],
+        "dictionary": {
+            "UID": "Cell9",
+            "rl_HasLocation_tpBB": "Casa_Padronale",
+            "rl_HasLocation_tpBS": "BuildingStorey_500cm",
+            "toplevel": false,
+            "uuid": "591ef122-cf7e-11f1-a0cb-0072eeef51b3"
+        },
+        "shells": [
+            "5918ac97-cf7e-11f1-8837-0072eeef51b3"
+        ],
+        "type": "Cell",
+        "uuid": "591ef122-cf7e-11f1-a0cb-0072eeef51b3"
+    },
+    {
+        "apertures": [],
+        "dictionary": {
+            "UID": "Cell10",
+            "rl_HasLocation_tpBB": "Corpo_Basso",
+            "rl_HasLocation_tpBS": "BuildingStorey_0cm",
+            "toplevel": false,
+            "uuid": "591f6647-cf7e-11f1-ba4b-0072eeef51b3"
+        },
+        "shells": [
+            "5918e7b7-cf7e-11f1-8001-0072eeef51b3"
+        ],
+        "type": "Cell",
+        "uuid": "591f6647-cf7e-11f1-ba4b-0072eeef51b3"
+    },
+    {
+        "apertures": [],
+        "dictionary": {
+            "UID": "Cell11",
+            "rl_HasLocation_tpBB": "Torre",
+            "rl_HasLocation_tpBS": "BuildingStorey_500cm",
+            "toplevel": false,
+            "uuid": "591fc865-cf7e-11f1-8df8-0072eeef51b3"
+        },
+        "shells": [
+            "59190c22-cf7e-11f1-8cb3-0072eeef51b3"
+        ],
+        "type": "Cell",
+        "uuid": "591fc865-cf7e-11f1-8df8-0072eeef51b3"
+    },
+    {
+        "apertures": [],
+        "dictionary": {
+            "UID": "Cell12",
+            "rl_HasLocation_tpBB": "Corpo_Basso",
+            "rl_HasLocation_tpBS": "BuildingStorey_0cm",
+            "toplevel": false,
+            "uuid": "59205559-cf7e-11f1-bf4f-0072eeef51b3"
+        },
+        "shells": [
+            "59195a8e-cf7e-11f1-a321-0072eeef51b3"
+        ],
+        "type": "Cell",
+        "uuid": "59205559-cf7e-11f1-bf4f-0072eeef51b3"
+    },
+    {
+        "apertures": [],
+        "dictionary": {
+            "UID": "Cell13",
+            "rl_HasLocation_tpBB": "Casa_Padronale",
+            "rl_HasLocation_tpBS": "BuildingStorey_500cm",
+            "toplevel": false,
+            "uuid": "5920f456-cf7e-11f1-baed-0072eeef51b3"
+        },
+        "shells": [
+            "5919b9e9-cf7e-11f1-aa85-0072eeef51b3"
+        ],
+        "type": "Cell",
+        "uuid": "5920f456-cf7e-11f1-baed-0072eeef51b3"
+    },
+    {
+        "apertures": [],
+        "dictionary": {
+            "UID": "Cell14",
+            "rl_HasLocation_tpBB": "Corpo_Basso",
+            "rl_HasLocation_tpBS": "BuildingStorey_0cm",
+            "toplevel": false,
+            "uuid": "59218c2d-cf7e-11f1-ae78-0072eeef51b3"
+        },
+        "shells": [
+            "5919f576-cf7e-11f1-a2bb-0072eeef51b3"
+        ],
+        "type": "Cell",
+        "uuid": "59218c2d-cf7e-11f1-ae78-0072eeef51b3"
+    },
+    {
+        "apertures": [],
+        "dictionary": {
+            "UID": "Cell15",
+            "rl_HasLocation_tpBB": "Torre",
+            "rl_HasLocation_tpBS": "BuildingStorey_900cm",
+            "toplevel": false,
+            "uuid": "5922286b-cf7e-11f1-a437-0072eeef51b3"
+        },
+        "shells": [
+            "591a1c6c-cf7e-11f1-9547-0072eeef51b3"
+        ],
+        "type": "Cell",
+        "uuid": "5922286b-cf7e-11f1-a437-0072eeef51b3"
+    },
+    {
+        "apertures": [],
+        "dictionary": {
+            "UID": "Cell16",
+            "rl_HasLocation_tpBB": "Casa_Padronale",
+            "rl_HasLocation_tpBS": "BuildingStorey_500cm",
+            "toplevel": false,
+            "uuid": "5923149d-cf7e-11f1-896e-0072eeef51b3"
+        },
+        "shells": [
+            "591a4373-cf7e-11f1-94c6-0072eeef51b3"
+        ],
+        "type": "Cell",
+        "uuid": "5923149d-cf7e-11f1-896e-0072eeef51b3"
+    },
+    {
+        "apertures": [],
+        "cells": [
+            "591a9198-cf7e-11f1-849d-0072eeef51b3",
+            "591b06a7-cf7e-11f1-86eb-0072eeef51b3",
+            "591b7ded-cf7e-11f1-8f36-0072eeef51b3",
+            "591bf371-cf7e-11f1-989f-0072eeef51b3",
+            "591c8fa5-cf7e-11f1-b7a9-0072eeef51b3",
+            "591cddc0-cf7e-11f1-973d-0072eeef51b3",
+            "591d68f9-cf7e-11f1-9da5-0072eeef51b3",
+            "591df236-cf7e-11f1-bc45-0072eeef51b3",
+            "591e7c08-cf7e-11f1-b56b-0072eeef51b3",
+            "591ef122-cf7e-11f1-a0cb-0072eeef51b3",
+            "591f6647-cf7e-11f1-ba4b-0072eeef51b3",
+            "591fc865-cf7e-11f1-8df8-0072eeef51b3",
+            "59205559-cf7e-11f1-bf4f-0072eeef51b3",
+            "5920f456-cf7e-11f1-baed-0072eeef51b3",
+            "59218c2d-cf7e-11f1-ae78-0072eeef51b3",
+            "5922286b-cf7e-11f1-a437-0072eeef51b3",
+            "5923149d-cf7e-11f1-896e-0072eeef51b3"
+        ],
+        "dictionary": {
+            "toplevel": true,
+            "uuid": "5923631e-cf7e-11f1-b77c-0072eeef51b3"
+        },
+        "type": "CellComplex",
+        "uuid": "5923631e-cf7e-11f1-b77c-0072eeef51b3"
+    }
+]

@@ -1,0 +1,70 @@
+[
+    {
+        "UID": "Cell0",
+        "pr_OccupancyType": "Agricultural:Storage"
+    },
+    {
+        "UID": "Cell1",
+        "pr_OccupancyType": "Agricultural:Storage"
+    },
+    {
+        "UID": "Cell10",
+        "pr_OccupancyType": "Agricultural:Stable"
+    },
+    {
+        "UID": "Cell11",
+        "pr_OccupancyType": "Defensive:Tower"
+    },
+    {
+        "UID": "Cell12",
+        "pr_OccupancyType": "Agricultural:WineCellar"
+    },
+    {
+        "UID": "Cell13",
+        "pr_OccupancyType": "Residential:Kitchen"
+    },
+    {
+        "UID": "Cell14",
+        "pr_OccupancyType": "Residential:Dwelling"
+    },
+    {
+        "UID": "Cell15",
+        "pr_OccupancyType": "Agricultural:Dovecote"
+    },
+    {
+        "UID": "Cell16",
+        "pr_OccupancyType": "Residential:Bedroom"
+    },
+    {
+        "UID": "Cell2",
+        "pr_OccupancyType": "Circulation:Passage"
+    },
+    {
+        "UID": "Cell3",
+        "pr_OccupancyType": "Agricultural:Granary"
+    },
+    {
+        "UID": "Cell4",
+        "pr_OccupancyType": "Agricultural:Stable"
+    },
+    {
+        "UID": "Cell5",
+        "pr_OccupancyType": "Agricultural:OilMill"
+    },
+    {
+        "UID": "Cell6",
+        "pr_OccupancyType": "Agricultural:Stable"
+    },
+    {
+        "UID": "Cell7",
+        "pr_OccupancyType": "Religious:Chapel"
+    },
+    {
+        "UID": "Cell8",
+        "pr_OccupancyType": "Residential:Bedroom"
+    },
+    {
+        "UID": "Cell9",
+        "pr_OccupancyType": "Residential:LivingRoom"
+    }
+]

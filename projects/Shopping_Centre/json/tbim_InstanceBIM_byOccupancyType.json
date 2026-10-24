@@ -1,0 +1,62 @@
+[
+    {
+        "pr_OccupancyType": "Retail:Shop",
+        "pr_OccupancyDensityOperation": 0.25,
+        "pr_OccupancyDensitySafety": 0.25,
+        "pr_MechanicalVentilationRatePerPerson": 40,
+        "pr_MechanicalVentilationRatePerVolume": 0,
+        "pr_NaturalVentilationRate": 0,
+        "pr_SpaceTemperatureWinterMin": 20,
+        "pr_SpaceTemperatureSummerMax": 26
+    },
+    {
+        "pr_OccupancyType": "Retail:DepartmentStore",
+        "pr_OccupancyDensityOperation": 0.2,
+        "pr_OccupancyDensitySafety": 0.2,
+        "pr_MechanicalVentilationRatePerPerson": 40,
+        "pr_MechanicalVentilationRatePerVolume": 0,
+        "pr_NaturalVentilationRate": 0,
+        "pr_SpaceTemperatureWinterMin": 20,
+        "pr_SpaceTemperatureSummerMax": 26
+    },
+    {
+        "pr_OccupancyType": "Food:FoodCourt",
+        "pr_OccupancyDensityOperation": 0.7,
+        "pr_OccupancyDensitySafety": 0.7,
+        "pr_MechanicalVentilationRatePerPerson": 40,
+        "pr_MechanicalVentilationRatePerVolume": 0,
+        "pr_NaturalVentilationRate": 0,
+        "pr_SpaceTemperatureWinterMin": 20,
+        "pr_SpaceTemperatureSummerMax": 26
+    },
+    {
+        "pr_OccupancyType": "Circulation:Gallery",
+        "pr_OccupancyDensityOperation": 0.3,
+        "pr_OccupancyDensitySafety": 0.3,
+        "pr_MechanicalVentilationRatePerPerson": 40,
+        "pr_MechanicalVentilationRatePerVolume": 0,
+        "pr_NaturalVentilationRate": 0,
+        "pr_SpaceTemperatureWinterMin": 18,
+        "pr_SpaceTemperatureSummerMax": 27
+    },
+    {
+        "pr_OccupancyType": "Circulation:EntranceHall",
+        "pr_OccupancyDensityOperation": 0.3,
+        "pr_OccupancyDensitySafety": 0.3,
+        "pr_MechanicalVentilationRatePerPerson": 40,
+        "pr_MechanicalVentilationRatePerVolume": 0,
+        "pr_NaturalVentilationRate": 0,
+        "pr_SpaceTemperatureWinterMin": 18,
+        "pr_SpaceTemperatureSummerMax": 27
+    },
+    {
+        "pr_OccupancyType": "Technical:Plant",
+        "pr_OccupancyDensityOperation": 0,
+        "pr_OccupancyDensitySafety": 0,
+        "pr_MechanicalVentilationRatePerPerson": 0,
+        "pr_MechanicalVentilationRatePerVolume": 0,
+        "pr_NaturalVentilationRate": 2.0,
+        "pr_SpaceTemperatureWinterMin": "NaN",
+        "pr_SpaceTemperatureSummerMax": "NaN"
+    }
+]

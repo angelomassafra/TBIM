@@ -1,0 +1,2 @@
+title: "Topologic"
+tooltip: "Export a Topologic model of the workflow (Controllers ... InstanceBIM) to the export folder of the TBIM project: topologicpy JSON with dictionaries and apertures, BREP, OBJ or the dual graph of the cells as JSON."

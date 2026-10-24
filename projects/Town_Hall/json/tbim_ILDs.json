@@ -1,0 +1,122 @@
+[
+    {
+        "pr_OccupancyType": "Default",
+        "pr_CirculationType": "NoCirculation",
+        "pr_IsOccupied": false,
+        "pr_IsHeated": false,
+        "pr_IsCooled": false,
+        "pr_IsNaturallyVentilated": false,
+        "pr_IsMechanicallyVentilated": false,
+        "pr_AreaPerOccupantPeak": 0
+    },
+    {
+        "pr_OccupancyType": "Office:PublicDesk",
+        "pr_CirculationType": "NoCirculation",
+        "pr_IsOccupied": true,
+        "pr_IsHeated": true,
+        "pr_IsCooled": true,
+        "pr_IsNaturallyVentilated": true,
+        "pr_IsMechanicallyVentilated": false,
+        "pr_AreaPerOccupantPeak": 5.0
+    },
+    {
+        "pr_OccupancyType": "Office:Registry",
+        "pr_CirculationType": "NoCirculation",
+        "pr_IsOccupied": true,
+        "pr_IsHeated": true,
+        "pr_IsCooled": true,
+        "pr_IsNaturallyVentilated": true,
+        "pr_IsMechanicallyVentilated": false,
+        "pr_AreaPerOccupantPeak": 8.0
+    },
+    {
+        "pr_OccupancyType": "Office:Private",
+        "pr_CirculationType": "NoCirculation",
+        "pr_IsOccupied": true,
+        "pr_IsHeated": true,
+        "pr_IsCooled": true,
+        "pr_IsNaturallyVentilated": true,
+        "pr_IsMechanicallyVentilated": false,
+        "pr_AreaPerOccupantPeak": 15.0
+    },
+    {
+        "pr_OccupancyType": "Office:Administration",
+        "pr_CirculationType": "NoCirculation",
+        "pr_IsOccupied": true,
+        "pr_IsHeated": true,
+        "pr_IsCooled": true,
+        "pr_IsNaturallyVentilated": true,
+        "pr_IsMechanicallyVentilated": false,
+        "pr_AreaPerOccupantPeak": 10.0
+    },
+    {
+        "pr_OccupancyType": "Archive:Records",
+        "pr_CirculationType": "NoCirculation",
+        "pr_IsOccupied": false,
+        "pr_IsHeated": true,
+        "pr_IsCooled": false,
+        "pr_IsNaturallyVentilated": false,
+        "pr_IsMechanicallyVentilated": true,
+        "pr_AreaPerOccupantPeak": 0
+    },
+    {
+        "pr_OccupancyType": "Circulation:Corridor",
+        "pr_CirculationType": "PublicCirculation",
+        "pr_IsOccupied": false,
+        "pr_IsHeated": true,
+        "pr_IsCooled": false,
+        "pr_IsNaturallyVentilated": true,
+        "pr_IsMechanicallyVentilated": false,
+        "pr_AreaPerOccupantPeak": 0
+    },
+    {
+        "pr_OccupancyType": "Circulation:EntranceHall",
+        "pr_CirculationType": "PublicCirculation",
+        "pr_IsOccupied": true,
+        "pr_IsHeated": true,
+        "pr_IsCooled": false,
+        "pr_IsNaturallyVentilated": true,
+        "pr_IsMechanicallyVentilated": false,
+        "pr_AreaPerOccupantPeak": 4.0
+    },
+    {
+        "pr_OccupancyType": "Assembly:CouncilChamber",
+        "pr_CirculationType": "NoCirculation",
+        "pr_IsOccupied": true,
+        "pr_IsHeated": true,
+        "pr_IsCooled": true,
+        "pr_IsNaturallyVentilated": false,
+        "pr_IsMechanicallyVentilated": true,
+        "pr_AreaPerOccupantPeak": 1.2
+    },
+    {
+        "pr_OccupancyType": "Unconditioned:Attic",
+        "pr_CirculationType": "NoCirculation",
+        "pr_IsOccupied": false,
+        "pr_IsHeated": false,
+        "pr_IsCooled": false,
+        "pr_IsNaturallyVentilated": true,
+        "pr_IsMechanicallyVentilated": false,
+        "pr_AreaPerOccupantPeak": 0
+    },
+    {
+        "pr_OccupancyType": "Civic:ClockTower",
+        "pr_CirculationType": "NoCirculation",
+        "pr_IsOccupied": false,
+        "pr_IsHeated": false,
+        "pr_IsCooled": false,
+        "pr_IsNaturallyVentilated": true,
+        "pr_IsMechanicallyVentilated": false,
+        "pr_AreaPerOccupantPeak": 0
+    },
+    {
+        "pr_OccupancyType": "Civic:Belfry",
+        "pr_CirculationType": "NoCirculation",
+        "pr_IsOccupied": false,
+        "pr_IsHeated": false,
+        "pr_IsCooled": false,
+        "pr_IsNaturallyVentilated": true,
+        "pr_IsMechanicallyVentilated": false,
+        "pr_AreaPerOccupantPeak": 0
+    }
+]

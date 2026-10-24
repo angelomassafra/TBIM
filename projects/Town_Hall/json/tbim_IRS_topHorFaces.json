@@ -1,0 +1,16 @@
+[
+    {
+        "cnFC_equalTo_pr_TopologicalType": "topHor",
+        "stFC_RoofTypeName": "TBIM_Copertura_Torre_Piombo_200",
+        "stFC_ThermalTransmittance": 2.5,
+        "stFC_Layers": "Lead sheet / timber boarding / beams",
+        "stFC_ConstructionYear": 1912
+    },
+    {
+        "cnFC_equalTo_pr_TopologicalType": "extInc",
+        "stFC_RoofTypeName": "TBIM_Tetto_Coppi_Capriate_250",
+        "stFC_ThermalTransmittance": 2.2,
+        "stFC_Layers": "Clay tiles (coppi) / clay tiles board / timber trusses",
+        "stFC_ConstructionYear": 1912
+    }
+]

@@ -1,0 +1,122 @@
+[
+    {
+        "pr_OccupancyType": "Education:Classroom",
+        "pr_OccupancyDensityOperation": 0.45,
+        "pr_OccupancyDensitySafety": 0.45,
+        "pr_MechanicalVentilationRatePerPerson": 25,
+        "pr_MechanicalVentilationRatePerVolume": 0,
+        "pr_NaturalVentilationRate": 3.0,
+        "pr_SpaceTemperatureWinterMin": 20,
+        "pr_SpaceTemperatureSummerMax": "NaN"
+    },
+    {
+        "pr_OccupancyType": "Education:Library",
+        "pr_OccupancyDensityOperation": 0.2,
+        "pr_OccupancyDensitySafety": 0.2,
+        "pr_MechanicalVentilationRatePerPerson": 25,
+        "pr_MechanicalVentilationRatePerVolume": 0,
+        "pr_NaturalVentilationRate": 2.0,
+        "pr_SpaceTemperatureWinterMin": 20,
+        "pr_SpaceTemperatureSummerMax": "NaN"
+    },
+    {
+        "pr_OccupancyType": "Education:Laboratory",
+        "pr_OccupancyDensityOperation": 0.35,
+        "pr_OccupancyDensitySafety": 0.35,
+        "pr_MechanicalVentilationRatePerPerson": 25,
+        "pr_MechanicalVentilationRatePerVolume": 0,
+        "pr_NaturalVentilationRate": 3.0,
+        "pr_SpaceTemperatureWinterMin": 20,
+        "pr_SpaceTemperatureSummerMax": "NaN"
+    },
+    {
+        "pr_OccupancyType": "Office:Administration",
+        "pr_OccupancyDensityOperation": 0.1,
+        "pr_OccupancyDensitySafety": 0.1,
+        "pr_MechanicalVentilationRatePerPerson": 25,
+        "pr_MechanicalVentilationRatePerVolume": 0,
+        "pr_NaturalVentilationRate": 1.5,
+        "pr_SpaceTemperatureWinterMin": 20,
+        "pr_SpaceTemperatureSummerMax": "NaN"
+    },
+    {
+        "pr_OccupancyType": "Circulation:EntranceHall",
+        "pr_OccupancyDensityOperation": 0,
+        "pr_OccupancyDensitySafety": 0,
+        "pr_MechanicalVentilationRatePerPerson": 0,
+        "pr_MechanicalVentilationRatePerVolume": 0,
+        "pr_NaturalVentilationRate": 1.0,
+        "pr_SpaceTemperatureWinterMin": 18,
+        "pr_SpaceTemperatureSummerMax": "NaN"
+    },
+    {
+        "pr_OccupancyType": "Circulation:Corridor",
+        "pr_OccupancyDensityOperation": 0,
+        "pr_OccupancyDensitySafety": 0,
+        "pr_MechanicalVentilationRatePerPerson": 0,
+        "pr_MechanicalVentilationRatePerVolume": 0,
+        "pr_NaturalVentilationRate": 1.0,
+        "pr_SpaceTemperatureWinterMin": 18,
+        "pr_SpaceTemperatureSummerMax": "NaN"
+    },
+    {
+        "pr_OccupancyType": "Circulation:Stair",
+        "pr_OccupancyDensityOperation": 0,
+        "pr_OccupancyDensitySafety": 0,
+        "pr_MechanicalVentilationRatePerPerson": 0,
+        "pr_MechanicalVentilationRatePerVolume": 0,
+        "pr_NaturalVentilationRate": 1.0,
+        "pr_SpaceTemperatureWinterMin": 18,
+        "pr_SpaceTemperatureSummerMax": "NaN"
+    },
+    {
+        "pr_OccupancyType": "Support:Restroom",
+        "pr_OccupancyDensityOperation": 0,
+        "pr_OccupancyDensitySafety": 0,
+        "pr_MechanicalVentilationRatePerPerson": 0,
+        "pr_MechanicalVentilationRatePerVolume": 0,
+        "pr_NaturalVentilationRate": 4.0,
+        "pr_SpaceTemperatureWinterMin": 20,
+        "pr_SpaceTemperatureSummerMax": "NaN"
+    },
+    {
+        "pr_OccupancyType": "Sports:Gym",
+        "pr_OccupancyDensityOperation": 0.15,
+        "pr_OccupancyDensitySafety": 0.15,
+        "pr_MechanicalVentilationRatePerPerson": 40,
+        "pr_MechanicalVentilationRatePerVolume": 0,
+        "pr_NaturalVentilationRate": 2.0,
+        "pr_SpaceTemperatureWinterMin": 18,
+        "pr_SpaceTemperatureSummerMax": "NaN"
+    },
+    {
+        "pr_OccupancyType": "Support:ChangingRoom",
+        "pr_OccupancyDensityOperation": 0.3,
+        "pr_OccupancyDensitySafety": 0.3,
+        "pr_MechanicalVentilationRatePerPerson": 40,
+        "pr_MechanicalVentilationRatePerVolume": 0,
+        "pr_NaturalVentilationRate": 4.0,
+        "pr_SpaceTemperatureWinterMin": 22,
+        "pr_SpaceTemperatureSummerMax": "NaN"
+    },
+    {
+        "pr_OccupancyType": "Storage:Equipment",
+        "pr_OccupancyDensityOperation": 0,
+        "pr_OccupancyDensitySafety": 0,
+        "pr_MechanicalVentilationRatePerPerson": 0,
+        "pr_MechanicalVentilationRatePerVolume": 0,
+        "pr_NaturalVentilationRate": 0.5,
+        "pr_SpaceTemperatureWinterMin": "NaN",
+        "pr_SpaceTemperatureSummerMax": "NaN"
+    },
+    {
+        "pr_OccupancyType": "Unconditioned:Attic",
+        "pr_OccupancyDensityOperation": 0,
+        "pr_OccupancyDensitySafety": 0,
+        "pr_MechanicalVentilationRatePerPerson": 0,
+        "pr_MechanicalVentilationRatePerVolume": 0,
+        "pr_NaturalVentilationRate": 1.0,
+        "pr_SpaceTemperatureWinterMin": "NaN",
+        "pr_SpaceTemperatureSummerMax": "NaN"
+    }
+]

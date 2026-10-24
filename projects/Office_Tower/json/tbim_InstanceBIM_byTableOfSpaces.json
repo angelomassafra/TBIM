@@ -1,0 +1,1269 @@
+[
+    {
+        "UID": "00.CORE",
+        "pr_SpaceName": "Core (00.CORE)",
+        "pr_NetArea": "ByModel",
+        "pr_FinishFloor": "Stone",
+        "pr_ConstructionYear": 2022
+    },
+    {
+        "UID": "00.SW",
+        "pr_SpaceName": "Cafe (00.SW)",
+        "pr_NetArea": "ByModel",
+        "pr_FinishFloor": "Stone",
+        "pr_ConstructionYear": 2022
+    },
+    {
+        "UID": "00.S",
+        "pr_SpaceName": "Lobby (00.S)",
+        "pr_NetArea": "ByModel",
+        "pr_FinishFloor": "Stone",
+        "pr_ConstructionYear": 2022
+    },
+    {
+        "UID": "00.SE",
+        "pr_SpaceName": "Shop (00.SE)",
+        "pr_NetArea": "ByModel",
+        "pr_FinishFloor": "Stone",
+        "pr_ConstructionYear": 2022
+    },
+    {
+        "UID": "00.E",
+        "pr_SpaceName": "Lobby (00.E)",
+        "pr_NetArea": "ByModel",
+        "pr_FinishFloor": "Stone",
+        "pr_ConstructionYear": 2022
+    },
+    {
+        "UID": "00.NE",
+        "pr_SpaceName": "Shop (00.NE)",
+        "pr_NetArea": "ByModel",
+        "pr_FinishFloor": "Stone",
+        "pr_ConstructionYear": 2022
+    },
+    {
+        "UID": "00.N",
+        "pr_SpaceName": "Lobby (00.N)",
+        "pr_NetArea": "ByModel",
+        "pr_FinishFloor": "Stone",
+        "pr_ConstructionYear": 2022
+    },
+    {
+        "UID": "00.NW",
+        "pr_SpaceName": "Reception (00.NW)",
+        "pr_NetArea": "ByModel",
+        "pr_FinishFloor": "Raised access floor",
+        "pr_ConstructionYear": 2022
+    },
+    {
+        "UID": "00.W",
+        "pr_SpaceName": "Lobby (00.W)",
+        "pr_NetArea": "ByModel",
+        "pr_FinishFloor": "Stone",
+        "pr_ConstructionYear": 2022
+    },
+    {
+        "UID": "01.CORE",
+        "pr_SpaceName": "Core (01.CORE)",
+        "pr_NetArea": "ByModel",
+        "pr_FinishFloor": "Stone",
+        "pr_ConstructionYear": 2022
+    },
+    {
+        "UID": "01.SW",
+        "pr_SpaceName": "Open-plan office (01.SW)",
+        "pr_NetArea": "ByModel",
+        "pr_FinishFloor": "Raised access floor",
+        "pr_ConstructionYear": 2022
+    },
+    {
+        "UID": "01.S",
+        "pr_SpaceName": "Open-plan office (01.S)",
+        "pr_NetArea": "ByModel",
+        "pr_FinishFloor": "Raised access floor",
+        "pr_ConstructionYear": 2022
+    },
+    {
+        "UID": "01.SE",
+        "pr_SpaceName": "Open-plan office (01.SE)",
+        "pr_NetArea": "ByModel",
+        "pr_FinishFloor": "Raised access floor",
+        "pr_ConstructionYear": 2022
+    },
+    {
+        "UID": "01.E",
+        "pr_SpaceName": "Meeting room (01.E)",
+        "pr_NetArea": "ByModel",
+        "pr_FinishFloor": "Raised access floor",
+        "pr_ConstructionYear": 2022
+    },
+    {
+        "UID": "01.NE",
+        "pr_SpaceName": "Open-plan office (01.NE)",
+        "pr_NetArea": "ByModel",
+        "pr_FinishFloor": "Raised access floor",
+        "pr_ConstructionYear": 2022
+    },
+    {
+        "UID": "01.N",
+        "pr_SpaceName": "Open-plan office (01.N)",
+        "pr_NetArea": "ByModel",
+        "pr_FinishFloor": "Raised access floor",
+        "pr_ConstructionYear": 2022
+    },
+    {
+        "UID": "01.NW",
+        "pr_SpaceName": "Open-plan office (01.NW)",
+        "pr_NetArea": "ByModel",
+        "pr_FinishFloor": "Raised access floor",
+        "pr_ConstructionYear": 2022
+    },
+    {
+        "UID": "01.W",
+        "pr_SpaceName": "Private offices (01.W)",
+        "pr_NetArea": "ByModel",
+        "pr_FinishFloor": "Raised access floor",
+        "pr_ConstructionYear": 2022
+    },
+    {
+        "UID": "02.CORE",
+        "pr_SpaceName": "Core (02.CORE)",
+        "pr_NetArea": "ByModel",
+        "pr_FinishFloor": "Stone",
+        "pr_ConstructionYear": 2022
+    },
+    {
+        "UID": "02.SW",
+        "pr_SpaceName": "Open-plan office (02.SW)",
+        "pr_NetArea": "ByModel",
+        "pr_FinishFloor": "Raised access floor",
+        "pr_ConstructionYear": 2022
+    },
+    {
+        "UID": "02.S",
+        "pr_SpaceName": "Open-plan office (02.S)",
+        "pr_NetArea": "ByModel",
+        "pr_FinishFloor": "Raised access floor",
+        "pr_ConstructionYear": 2022
+    },
+    {
+        "UID": "02.SE",
+        "pr_SpaceName": "Open-plan office (02.SE)",
+        "pr_NetArea": "ByModel",
+        "pr_FinishFloor": "Raised access floor",
+        "pr_ConstructionYear": 2022
+    },
+    {
+        "UID": "02.E",
+        "pr_SpaceName": "Meeting room (02.E)",
+        "pr_NetArea": "ByModel",
+        "pr_FinishFloor": "Raised access floor",
+        "pr_ConstructionYear": 2022
+    },
+    {
+        "UID": "02.NE",
+        "pr_SpaceName": "Open-plan office (02.NE)",
+        "pr_NetArea": "ByModel",
+        "pr_FinishFloor": "Raised access floor",
+        "pr_ConstructionYear": 2022
+    },
+    {
+        "UID": "02.N",
+        "pr_SpaceName": "Open-plan office (02.N)",
+        "pr_NetArea": "ByModel",
+        "pr_FinishFloor": "Raised access floor",
+        "pr_ConstructionYear": 2022
+    },
+    {
+        "UID": "02.NW",
+        "pr_SpaceName": "Open-plan office (02.NW)",
+        "pr_NetArea": "ByModel",
+        "pr_FinishFloor": "Raised access floor",
+        "pr_ConstructionYear": 2022
+    },
+    {
+        "UID": "02.W",
+        "pr_SpaceName": "Private offices (02.W)",
+        "pr_NetArea": "ByModel",
+        "pr_FinishFloor": "Raised access floor",
+        "pr_ConstructionYear": 2022
+    },
+    {
+        "UID": "03.CORE",
+        "pr_SpaceName": "Core (03.CORE)",
+        "pr_NetArea": "ByModel",
+        "pr_FinishFloor": "Stone",
+        "pr_ConstructionYear": 2022
+    },
+    {
+        "UID": "03.SW",
+        "pr_SpaceName": "Open-plan office (03.SW)",
+        "pr_NetArea": "ByModel",
+        "pr_FinishFloor": "Raised access floor",
+        "pr_ConstructionYear": 2022
+    },
+    {
+        "UID": "03.S",
+        "pr_SpaceName": "Open-plan office (03.S)",
+        "pr_NetArea": "ByModel",
+        "pr_FinishFloor": "Raised access floor",
+        "pr_ConstructionYear": 2022
+    },
+    {
+        "UID": "03.SE",
+        "pr_SpaceName": "Open-plan office (03.SE)",
+        "pr_NetArea": "ByModel",
+        "pr_FinishFloor": "Raised access floor",
+        "pr_ConstructionYear": 2022
+    },
+    {
+        "UID": "03.E",
+        "pr_SpaceName": "Meeting room (03.E)",
+        "pr_NetArea": "ByModel",
+        "pr_FinishFloor": "Raised access floor",
+        "pr_ConstructionYear": 2022
+    },
+    {
+        "UID": "03.NE",
+        "pr_SpaceName": "Open-plan office (03.NE)",
+        "pr_NetArea": "ByModel",
+        "pr_FinishFloor": "Raised access floor",
+        "pr_ConstructionYear": 2022
+    },
+    {
+        "UID": "03.N",
+        "pr_SpaceName": "Open-plan office (03.N)",
+        "pr_NetArea": "ByModel",
+        "pr_FinishFloor": "Raised access floor",
+        "pr_ConstructionYear": 2022
+    },
+    {
+        "UID": "03.NW",
+        "pr_SpaceName": "Open-plan office (03.NW)",
+        "pr_NetArea": "ByModel",
+        "pr_FinishFloor": "Raised access floor",
+        "pr_ConstructionYear": 2022
+    },
+    {
+        "UID": "03.W",
+        "pr_SpaceName": "Private offices (03.W)",
+        "pr_NetArea": "ByModel",
+        "pr_FinishFloor": "Raised access floor",
+        "pr_ConstructionYear": 2022
+    },
+    {
+        "UID": "04.CORE",
+        "pr_SpaceName": "Core (04.CORE)",
+        "pr_NetArea": "ByModel",
+        "pr_FinishFloor": "Stone",
+        "pr_ConstructionYear": 2022
+    },
+    {
+        "UID": "04.SW",
+        "pr_SpaceName": "Open-plan office (04.SW)",
+        "pr_NetArea": "ByModel",
+        "pr_FinishFloor": "Raised access floor",
+        "pr_ConstructionYear": 2022
+    },
+    {
+        "UID": "04.S",
+        "pr_SpaceName": "Open-plan office (04.S)",
+        "pr_NetArea": "ByModel",
+        "pr_FinishFloor": "Raised access floor",
+        "pr_ConstructionYear": 2022
+    },
+    {
+        "UID": "04.SE",
+        "pr_SpaceName": "Open-plan office (04.SE)",
+        "pr_NetArea": "ByModel",
+        "pr_FinishFloor": "Raised access floor",
+        "pr_ConstructionYear": 2022
+    },
+    {
+        "UID": "04.E",
+        "pr_SpaceName": "Meeting room (04.E)",
+        "pr_NetArea": "ByModel",
+        "pr_FinishFloor": "Raised access floor",
+        "pr_ConstructionYear": 2022
+    },
+    {
+        "UID": "04.NE",
+        "pr_SpaceName": "Open-plan office (04.NE)",
+        "pr_NetArea": "ByModel",
+        "pr_FinishFloor": "Raised access floor",
+        "pr_ConstructionYear": 2022
+    },
+    {
+        "UID": "04.N",
+        "pr_SpaceName": "Open-plan office (04.N)",
+        "pr_NetArea": "ByModel",
+        "pr_FinishFloor": "Raised access floor",
+        "pr_ConstructionYear": 2022
+    },
+    {
+        "UID": "04.NW",
+        "pr_SpaceName": "Open-plan office (04.NW)",
+        "pr_NetArea": "ByModel",
+        "pr_FinishFloor": "Raised access floor",
+        "pr_ConstructionYear": 2022
+    },
+    {
+        "UID": "04.W",
+        "pr_SpaceName": "Private offices (04.W)",
+        "pr_NetArea": "ByModel",
+        "pr_FinishFloor": "Raised access floor",
+        "pr_ConstructionYear": 2022
+    },
+    {
+        "UID": "05.CORE",
+        "pr_SpaceName": "Core (05.CORE)",
+        "pr_NetArea": "ByModel",
+        "pr_FinishFloor": "Stone",
+        "pr_ConstructionYear": 2022
+    },
+    {
+        "UID": "05.SW",
+        "pr_SpaceName": "Open-plan office (05.SW)",
+        "pr_NetArea": "ByModel",
+        "pr_FinishFloor": "Raised access floor",
+        "pr_ConstructionYear": 2022
+    },
+    {
+        "UID": "05.S",
+        "pr_SpaceName": "Open-plan office (05.S)",
+        "pr_NetArea": "ByModel",
+        "pr_FinishFloor": "Raised access floor",
+        "pr_ConstructionYear": 2022
+    },
+    {
+        "UID": "05.SE",
+        "pr_SpaceName": "Open-plan office (05.SE)",
+        "pr_NetArea": "ByModel",
+        "pr_FinishFloor": "Raised access floor",
+        "pr_ConstructionYear": 2022
+    },
+    {
+        "UID": "05.E",
+        "pr_SpaceName": "Meeting room (05.E)",
+        "pr_NetArea": "ByModel",
+        "pr_FinishFloor": "Raised access floor",
+        "pr_ConstructionYear": 2022
+    },
+    {
+        "UID": "05.NE",
+        "pr_SpaceName": "Open-plan office (05.NE)",
+        "pr_NetArea": "ByModel",
+        "pr_FinishFloor": "Raised access floor",
+        "pr_ConstructionYear": 2022
+    },
+    {
+        "UID": "05.N",
+        "pr_SpaceName": "Open-plan office (05.N)",
+        "pr_NetArea": "ByModel",
+        "pr_FinishFloor": "Raised access floor",
+        "pr_ConstructionYear": 2022
+    },
+    {
+        "UID": "05.NW",
+        "pr_SpaceName": "Open-plan office (05.NW)",
+        "pr_NetArea": "ByModel",
+        "pr_FinishFloor": "Raised access floor",
+        "pr_ConstructionYear": 2022
+    },
+    {
+        "UID": "05.W",
+        "pr_SpaceName": "Private offices (05.W)",
+        "pr_NetArea": "ByModel",
+        "pr_FinishFloor": "Raised access floor",
+        "pr_ConstructionYear": 2022
+    },
+    {
+        "UID": "06.CORE",
+        "pr_SpaceName": "Core (06.CORE)",
+        "pr_NetArea": "ByModel",
+        "pr_FinishFloor": "Stone",
+        "pr_ConstructionYear": 2022
+    },
+    {
+        "UID": "06.SW",
+        "pr_SpaceName": "Open-plan office (06.SW)",
+        "pr_NetArea": "ByModel",
+        "pr_FinishFloor": "Raised access floor",
+        "pr_ConstructionYear": 2022
+    },
+    {
+        "UID": "06.S",
+        "pr_SpaceName": "Open-plan office (06.S)",
+        "pr_NetArea": "ByModel",
+        "pr_FinishFloor": "Raised access floor",
+        "pr_ConstructionYear": 2022
+    },
+    {
+        "UID": "06.SE",
+        "pr_SpaceName": "Open-plan office (06.SE)",
+        "pr_NetArea": "ByModel",
+        "pr_FinishFloor": "Raised access floor",
+        "pr_ConstructionYear": 2022
+    },
+    {
+        "UID": "06.E",
+        "pr_SpaceName": "Meeting room (06.E)",
+        "pr_NetArea": "ByModel",
+        "pr_FinishFloor": "Raised access floor",
+        "pr_ConstructionYear": 2022
+    },
+    {
+        "UID": "06.NE",
+        "pr_SpaceName": "Open-plan office (06.NE)",
+        "pr_NetArea": "ByModel",
+        "pr_FinishFloor": "Raised access floor",
+        "pr_ConstructionYear": 2022
+    },
+    {
+        "UID": "06.N",
+        "pr_SpaceName": "Open-plan office (06.N)",
+        "pr_NetArea": "ByModel",
+        "pr_FinishFloor": "Raised access floor",
+        "pr_ConstructionYear": 2022
+    },
+    {
+        "UID": "06.NW",
+        "pr_SpaceName": "Open-plan office (06.NW)",
+        "pr_NetArea": "ByModel",
+        "pr_FinishFloor": "Raised access floor",
+        "pr_ConstructionYear": 2022
+    },
+    {
+        "UID": "06.W",
+        "pr_SpaceName": "Private offices (06.W)",
+        "pr_NetArea": "ByModel",
+        "pr_FinishFloor": "Raised access floor",
+        "pr_ConstructionYear": 2022
+    },
+    {
+        "UID": "07.CORE",
+        "pr_SpaceName": "Core (07.CORE)",
+        "pr_NetArea": "ByModel",
+        "pr_FinishFloor": "Stone",
+        "pr_ConstructionYear": 2022
+    },
+    {
+        "UID": "07.SW",
+        "pr_SpaceName": "Open-plan office (07.SW)",
+        "pr_NetArea": "ByModel",
+        "pr_FinishFloor": "Raised access floor",
+        "pr_ConstructionYear": 2022
+    },
+    {
+        "UID": "07.S",
+        "pr_SpaceName": "Open-plan office (07.S)",
+        "pr_NetArea": "ByModel",
+        "pr_FinishFloor": "Raised access floor",
+        "pr_ConstructionYear": 2022
+    },
+    {
+        "UID": "07.SE",
+        "pr_SpaceName": "Open-plan office (07.SE)",
+        "pr_NetArea": "ByModel",
+        "pr_FinishFloor": "Raised access floor",
+        "pr_ConstructionYear": 2022
+    },
+    {
+        "UID": "07.E",
+        "pr_SpaceName": "Meeting room (07.E)",
+        "pr_NetArea": "ByModel",
+        "pr_FinishFloor": "Raised access floor",
+        "pr_ConstructionYear": 2022
+    },
+    {
+        "UID": "07.NE",
+        "pr_SpaceName": "Open-plan office (07.NE)",
+        "pr_NetArea": "ByModel",
+        "pr_FinishFloor": "Raised access floor",
+        "pr_ConstructionYear": 2022
+    },
+    {
+        "UID": "07.N",
+        "pr_SpaceName": "Open-plan office (07.N)",
+        "pr_NetArea": "ByModel",
+        "pr_FinishFloor": "Raised access floor",
+        "pr_ConstructionYear": 2022
+    },
+    {
+        "UID": "07.NW",
+        "pr_SpaceName": "Open-plan office (07.NW)",
+        "pr_NetArea": "ByModel",
+        "pr_FinishFloor": "Raised access floor",
+        "pr_ConstructionYear": 2022
+    },
+    {
+        "UID": "07.W",
+        "pr_SpaceName": "Private offices (07.W)",
+        "pr_NetArea": "ByModel",
+        "pr_FinishFloor": "Raised access floor",
+        "pr_ConstructionYear": 2022
+    },
+    {
+        "UID": "08.CORE",
+        "pr_SpaceName": "Core (08.CORE)",
+        "pr_NetArea": "ByModel",
+        "pr_FinishFloor": "Stone",
+        "pr_ConstructionYear": 2022
+    },
+    {
+        "UID": "08.SW",
+        "pr_SpaceName": "Open-plan office (08.SW)",
+        "pr_NetArea": "ByModel",
+        "pr_FinishFloor": "Raised access floor",
+        "pr_ConstructionYear": 2022
+    },
+    {
+        "UID": "08.S",
+        "pr_SpaceName": "Open-plan office (08.S)",
+        "pr_NetArea": "ByModel",
+        "pr_FinishFloor": "Raised access floor",
+        "pr_ConstructionYear": 2022
+    },
+    {
+        "UID": "08.SE",
+        "pr_SpaceName": "Open-plan office (08.SE)",
+        "pr_NetArea": "ByModel",
+        "pr_FinishFloor": "Raised access floor",
+        "pr_ConstructionYear": 2022
+    },
+    {
+        "UID": "08.E",
+        "pr_SpaceName": "Meeting room (08.E)",
+        "pr_NetArea": "ByModel",
+        "pr_FinishFloor": "Raised access floor",
+        "pr_ConstructionYear": 2022
+    },
+    {
+        "UID": "08.NE",
+        "pr_SpaceName": "Open-plan office (08.NE)",
+        "pr_NetArea": "ByModel",
+        "pr_FinishFloor": "Raised access floor",
+        "pr_ConstructionYear": 2022
+    },
+    {
+        "UID": "08.N",
+        "pr_SpaceName": "Open-plan office (08.N)",
+        "pr_NetArea": "ByModel",
+        "pr_FinishFloor": "Raised access floor",
+        "pr_ConstructionYear": 2022
+    },
+    {
+        "UID": "08.NW",
+        "pr_SpaceName": "Open-plan office (08.NW)",
+        "pr_NetArea": "ByModel",
+        "pr_FinishFloor": "Raised access floor",
+        "pr_ConstructionYear": 2022
+    },
+    {
+        "UID": "08.W",
+        "pr_SpaceName": "Private offices (08.W)",
+        "pr_NetArea": "ByModel",
+        "pr_FinishFloor": "Raised access floor",
+        "pr_ConstructionYear": 2022
+    },
+    {
+        "UID": "09.CORE",
+        "pr_SpaceName": "Core (09.CORE)",
+        "pr_NetArea": "ByModel",
+        "pr_FinishFloor": "Stone",
+        "pr_ConstructionYear": 2022
+    },
+    {
+        "UID": "09.SW",
+        "pr_SpaceName": "Open-plan office (09.SW)",
+        "pr_NetArea": "ByModel",
+        "pr_FinishFloor": "Raised access floor",
+        "pr_ConstructionYear": 2022
+    },
+    {
+        "UID": "09.S",
+        "pr_SpaceName": "Open-plan office (09.S)",
+        "pr_NetArea": "ByModel",
+        "pr_FinishFloor": "Raised access floor",
+        "pr_ConstructionYear": 2022
+    },
+    {
+        "UID": "09.SE",
+        "pr_SpaceName": "Open-plan office (09.SE)",
+        "pr_NetArea": "ByModel",
+        "pr_FinishFloor": "Raised access floor",
+        "pr_ConstructionYear": 2022
+    },
+    {
+        "UID": "09.E",
+        "pr_SpaceName": "Meeting room (09.E)",
+        "pr_NetArea": "ByModel",
+        "pr_FinishFloor": "Raised access floor",
+        "pr_ConstructionYear": 2022
+    },
+    {
+        "UID": "09.NE",
+        "pr_SpaceName": "Open-plan office (09.NE)",
+        "pr_NetArea": "ByModel",
+        "pr_FinishFloor": "Raised access floor",
+        "pr_ConstructionYear": 2022
+    },
+    {
+        "UID": "09.N",
+        "pr_SpaceName": "Open-plan office (09.N)",
+        "pr_NetArea": "ByModel",
+        "pr_FinishFloor": "Raised access floor",
+        "pr_ConstructionYear": 2022
+    },
+    {
+        "UID": "09.NW",
+        "pr_SpaceName": "Open-plan office (09.NW)",
+        "pr_NetArea": "ByModel",
+        "pr_FinishFloor": "Raised access floor",
+        "pr_ConstructionYear": 2022
+    },
+    {
+        "UID": "09.W",
+        "pr_SpaceName": "Private offices (09.W)",
+        "pr_NetArea": "ByModel",
+        "pr_FinishFloor": "Raised access floor",
+        "pr_ConstructionYear": 2022
+    },
+    {
+        "UID": "10.CORE",
+        "pr_SpaceName": "Core (10.CORE)",
+        "pr_NetArea": "ByModel",
+        "pr_FinishFloor": "Stone",
+        "pr_ConstructionYear": 2022
+    },
+    {
+        "UID": "10.SW",
+        "pr_SpaceName": "Open-plan office (10.SW)",
+        "pr_NetArea": "ByModel",
+        "pr_FinishFloor": "Raised access floor",
+        "pr_ConstructionYear": 2022
+    },
+    {
+        "UID": "10.S",
+        "pr_SpaceName": "Open-plan office (10.S)",
+        "pr_NetArea": "ByModel",
+        "pr_FinishFloor": "Raised access floor",
+        "pr_ConstructionYear": 2022
+    },
+    {
+        "UID": "10.SE",
+        "pr_SpaceName": "Open-plan office (10.SE)",
+        "pr_NetArea": "ByModel",
+        "pr_FinishFloor": "Raised access floor",
+        "pr_ConstructionYear": 2022
+    },
+    {
+        "UID": "10.E",
+        "pr_SpaceName": "Meeting room (10.E)",
+        "pr_NetArea": "ByModel",
+        "pr_FinishFloor": "Raised access floor",
+        "pr_ConstructionYear": 2022
+    },
+    {
+        "UID": "10.NE",
+        "pr_SpaceName": "Open-plan office (10.NE)",
+        "pr_NetArea": "ByModel",
+        "pr_FinishFloor": "Raised access floor",
+        "pr_ConstructionYear": 2022
+    },
+    {
+        "UID": "10.N",
+        "pr_SpaceName": "Open-plan office (10.N)",
+        "pr_NetArea": "ByModel",
+        "pr_FinishFloor": "Raised access floor",
+        "pr_ConstructionYear": 2022
+    },
+    {
+        "UID": "10.NW",
+        "pr_SpaceName": "Open-plan office (10.NW)",
+        "pr_NetArea": "ByModel",
+        "pr_FinishFloor": "Raised access floor",
+        "pr_ConstructionYear": 2022
+    },
+    {
+        "UID": "10.W",
+        "pr_SpaceName": "Private offices (10.W)",
+        "pr_NetArea": "ByModel",
+        "pr_FinishFloor": "Raised access floor",
+        "pr_ConstructionYear": 2022
+    },
+    {
+        "UID": "11.CORE",
+        "pr_SpaceName": "Core (11.CORE)",
+        "pr_NetArea": "ByModel",
+        "pr_FinishFloor": "Stone",
+        "pr_ConstructionYear": 2022
+    },
+    {
+        "UID": "11.SW",
+        "pr_SpaceName": "Open-plan office (11.SW)",
+        "pr_NetArea": "ByModel",
+        "pr_FinishFloor": "Raised access floor",
+        "pr_ConstructionYear": 2022
+    },
+    {
+        "UID": "11.S",
+        "pr_SpaceName": "Open-plan office (11.S)",
+        "pr_NetArea": "ByModel",
+        "pr_FinishFloor": "Raised access floor",
+        "pr_ConstructionYear": 2022
+    },
+    {
+        "UID": "11.SE",
+        "pr_SpaceName": "Open-plan office (11.SE)",
+        "pr_NetArea": "ByModel",
+        "pr_FinishFloor": "Raised access floor",
+        "pr_ConstructionYear": 2022
+    },
+    {
+        "UID": "11.E",
+        "pr_SpaceName": "Meeting room (11.E)",
+        "pr_NetArea": "ByModel",
+        "pr_FinishFloor": "Raised access floor",
+        "pr_ConstructionYear": 2022
+    },
+    {
+        "UID": "11.NE",
+        "pr_SpaceName": "Open-plan office (11.NE)",
+        "pr_NetArea": "ByModel",
+        "pr_FinishFloor": "Raised access floor",
+        "pr_ConstructionYear": 2022
+    },
+    {
+        "UID": "11.N",
+        "pr_SpaceName": "Open-plan office (11.N)",
+        "pr_NetArea": "ByModel",
+        "pr_FinishFloor": "Raised access floor",
+        "pr_ConstructionYear": 2022
+    },
+    {
+        "UID": "11.NW",
+        "pr_SpaceName": "Open-plan office (11.NW)",
+        "pr_NetArea": "ByModel",
+        "pr_FinishFloor": "Raised access floor",
+        "pr_ConstructionYear": 2022
+    },
+    {
+        "UID": "11.W",
+        "pr_SpaceName": "Private offices (11.W)",
+        "pr_NetArea": "ByModel",
+        "pr_FinishFloor": "Raised access floor",
+        "pr_ConstructionYear": 2022
+    },
+    {
+        "UID": "12.CORE",
+        "pr_SpaceName": "Core (12.CORE)",
+        "pr_NetArea": "ByModel",
+        "pr_FinishFloor": "Stone",
+        "pr_ConstructionYear": 2022
+    },
+    {
+        "UID": "12.SW",
+        "pr_SpaceName": "Open-plan office (12.SW)",
+        "pr_NetArea": "ByModel",
+        "pr_FinishFloor": "Raised access floor",
+        "pr_ConstructionYear": 2022
+    },
+    {
+        "UID": "12.S",
+        "pr_SpaceName": "Open-plan office (12.S)",
+        "pr_NetArea": "ByModel",
+        "pr_FinishFloor": "Raised access floor",
+        "pr_ConstructionYear": 2022
+    },
+    {
+        "UID": "12.SE",
+        "pr_SpaceName": "Open-plan office (12.SE)",
+        "pr_NetArea": "ByModel",
+        "pr_FinishFloor": "Raised access floor",
+        "pr_ConstructionYear": 2022
+    },
+    {
+        "UID": "12.E",
+        "pr_SpaceName": "Meeting room (12.E)",
+        "pr_NetArea": "ByModel",
+        "pr_FinishFloor": "Raised access floor",
+        "pr_ConstructionYear": 2022
+    },
+    {
+        "UID": "12.NE",
+        "pr_SpaceName": "Open-plan office (12.NE)",
+        "pr_NetArea": "ByModel",
+        "pr_FinishFloor": "Raised access floor",
+        "pr_ConstructionYear": 2022
+    },
+    {
+        "UID": "12.N",
+        "pr_SpaceName": "Open-plan office (12.N)",
+        "pr_NetArea": "ByModel",
+        "pr_FinishFloor": "Raised access floor",
+        "pr_ConstructionYear": 2022
+    },
+    {
+        "UID": "12.NW",
+        "pr_SpaceName": "Open-plan office (12.NW)",
+        "pr_NetArea": "ByModel",
+        "pr_FinishFloor": "Raised access floor",
+        "pr_ConstructionYear": 2022
+    },
+    {
+        "UID": "12.W",
+        "pr_SpaceName": "Private offices (12.W)",
+        "pr_NetArea": "ByModel",
+        "pr_FinishFloor": "Raised access floor",
+        "pr_ConstructionYear": 2022
+    },
+    {
+        "UID": "13.CORE",
+        "pr_SpaceName": "Core (13.CORE)",
+        "pr_NetArea": "ByModel",
+        "pr_FinishFloor": "Stone",
+        "pr_ConstructionYear": 2022
+    },
+    {
+        "UID": "13.SW",
+        "pr_SpaceName": "Open-plan office (13.SW)",
+        "pr_NetArea": "ByModel",
+        "pr_FinishFloor": "Raised access floor",
+        "pr_ConstructionYear": 2022
+    },
+    {
+        "UID": "13.S",
+        "pr_SpaceName": "Open-plan office (13.S)",
+        "pr_NetArea": "ByModel",
+        "pr_FinishFloor": "Raised access floor",
+        "pr_ConstructionYear": 2022
+    },
+    {
+        "UID": "13.SE",
+        "pr_SpaceName": "Open-plan office (13.SE)",
+        "pr_NetArea": "ByModel",
+        "pr_FinishFloor": "Raised access floor",
+        "pr_ConstructionYear": 2022
+    },
+    {
+        "UID": "13.E",
+        "pr_SpaceName": "Meeting room (13.E)",
+        "pr_NetArea": "ByModel",
+        "pr_FinishFloor": "Raised access floor",
+        "pr_ConstructionYear": 2022
+    },
+    {
+        "UID": "13.NE",
+        "pr_SpaceName": "Open-plan office (13.NE)",
+        "pr_NetArea": "ByModel",
+        "pr_FinishFloor": "Raised access floor",
+        "pr_ConstructionYear": 2022
+    },
+    {
+        "UID": "13.N",
+        "pr_SpaceName": "Open-plan office (13.N)",
+        "pr_NetArea": "ByModel",
+        "pr_FinishFloor": "Raised access floor",
+        "pr_ConstructionYear": 2022
+    },
+    {
+        "UID": "13.NW",
+        "pr_SpaceName": "Open-plan office (13.NW)",
+        "pr_NetArea": "ByModel",
+        "pr_FinishFloor": "Raised access floor",
+        "pr_ConstructionYear": 2022
+    },
+    {
+        "UID": "13.W",
+        "pr_SpaceName": "Private offices (13.W)",
+        "pr_NetArea": "ByModel",
+        "pr_FinishFloor": "Raised access floor",
+        "pr_ConstructionYear": 2022
+    },
+    {
+        "UID": "14.CORE",
+        "pr_SpaceName": "Core (14.CORE)",
+        "pr_NetArea": "ByModel",
+        "pr_FinishFloor": "Stone",
+        "pr_ConstructionYear": 2022
+    },
+    {
+        "UID": "14.SW",
+        "pr_SpaceName": "Open-plan office (14.SW)",
+        "pr_NetArea": "ByModel",
+        "pr_FinishFloor": "Raised access floor",
+        "pr_ConstructionYear": 2022
+    },
+    {
+        "UID": "14.S",
+        "pr_SpaceName": "Open-plan office (14.S)",
+        "pr_NetArea": "ByModel",
+        "pr_FinishFloor": "Raised access floor",
+        "pr_ConstructionYear": 2022
+    },
+    {
+        "UID": "14.SE",
+        "pr_SpaceName": "Open-plan office (14.SE)",
+        "pr_NetArea": "ByModel",
+        "pr_FinishFloor": "Raised access floor",
+        "pr_ConstructionYear": 2022
+    },
+    {
+        "UID": "14.E",
+        "pr_SpaceName": "Meeting room (14.E)",
+        "pr_NetArea": "ByModel",
+        "pr_FinishFloor": "Raised access floor",
+        "pr_ConstructionYear": 2022
+    },
+    {
+        "UID": "14.NE",
+        "pr_SpaceName": "Open-plan office (14.NE)",
+        "pr_NetArea": "ByModel",
+        "pr_FinishFloor": "Raised access floor",
+        "pr_ConstructionYear": 2022
+    },
+    {
+        "UID": "14.N",
+        "pr_SpaceName": "Open-plan office (14.N)",
+        "pr_NetArea": "ByModel",
+        "pr_FinishFloor": "Raised access floor",
+        "pr_ConstructionYear": 2022
+    },
+    {
+        "UID": "14.NW",
+        "pr_SpaceName": "Open-plan office (14.NW)",
+        "pr_NetArea": "ByModel",
+        "pr_FinishFloor": "Raised access floor",
+        "pr_ConstructionYear": 2022
+    },
+    {
+        "UID": "14.W",
+        "pr_SpaceName": "Private offices (14.W)",
+        "pr_NetArea": "ByModel",
+        "pr_FinishFloor": "Raised access floor",
+        "pr_ConstructionYear": 2022
+    },
+    {
+        "UID": "15.CORE",
+        "pr_SpaceName": "Core (15.CORE)",
+        "pr_NetArea": "ByModel",
+        "pr_FinishFloor": "Stone",
+        "pr_ConstructionYear": 2022
+    },
+    {
+        "UID": "15.SW",
+        "pr_SpaceName": "Open-plan office (15.SW)",
+        "pr_NetArea": "ByModel",
+        "pr_FinishFloor": "Raised access floor",
+        "pr_ConstructionYear": 2022
+    },
+    {
+        "UID": "15.S",
+        "pr_SpaceName": "Open-plan office (15.S)",
+        "pr_NetArea": "ByModel",
+        "pr_FinishFloor": "Raised access floor",
+        "pr_ConstructionYear": 2022
+    },
+    {
+        "UID": "15.SE",
+        "pr_SpaceName": "Open-plan office (15.SE)",
+        "pr_NetArea": "ByModel",
+        "pr_FinishFloor": "Raised access floor",
+        "pr_ConstructionYear": 2022
+    },
+    {
+        "UID": "15.E",
+        "pr_SpaceName": "Meeting room (15.E)",
+        "pr_NetArea": "ByModel",
+        "pr_FinishFloor": "Raised access floor",
+        "pr_ConstructionYear": 2022
+    },
+    {
+        "UID": "15.NE",
+        "pr_SpaceName": "Open-plan office (15.NE)",
+        "pr_NetArea": "ByModel",
+        "pr_FinishFloor": "Raised access floor",
+        "pr_ConstructionYear": 2022
+    },
+    {
+        "UID": "15.N",
+        "pr_SpaceName": "Open-plan office (15.N)",
+        "pr_NetArea": "ByModel",
+        "pr_FinishFloor": "Raised access floor",
+        "pr_ConstructionYear": 2022
+    },
+    {
+        "UID": "15.NW",
+        "pr_SpaceName": "Open-plan office (15.NW)",
+        "pr_NetArea": "ByModel",
+        "pr_FinishFloor": "Raised access floor",
+        "pr_ConstructionYear": 2022
+    },
+    {
+        "UID": "15.W",
+        "pr_SpaceName": "Private offices (15.W)",
+        "pr_NetArea": "ByModel",
+        "pr_FinishFloor": "Raised access floor",
+        "pr_ConstructionYear": 2022
+    },
+    {
+        "UID": "16.CORE",
+        "pr_SpaceName": "Core (16.CORE)",
+        "pr_NetArea": "ByModel",
+        "pr_FinishFloor": "Stone",
+        "pr_ConstructionYear": 2022
+    },
+    {
+        "UID": "16.SW",
+        "pr_SpaceName": "Open-plan office (16.SW)",
+        "pr_NetArea": "ByModel",
+        "pr_FinishFloor": "Raised access floor",
+        "pr_ConstructionYear": 2022
+    },
+    {
+        "UID": "16.S",
+        "pr_SpaceName": "Open-plan office (16.S)",
+        "pr_NetArea": "ByModel",
+        "pr_FinishFloor": "Raised access floor",
+        "pr_ConstructionYear": 2022
+    },
+    {
+        "UID": "16.SE",
+        "pr_SpaceName": "Open-plan office (16.SE)",
+        "pr_NetArea": "ByModel",
+        "pr_FinishFloor": "Raised access floor",
+        "pr_ConstructionYear": 2022
+    },
+    {
+        "UID": "16.E",
+        "pr_SpaceName": "Meeting room (16.E)",
+        "pr_NetArea": "ByModel",
+        "pr_FinishFloor": "Raised access floor",
+        "pr_ConstructionYear": 2022
+    },
+    {
+        "UID": "16.NE",
+        "pr_SpaceName": "Open-plan office (16.NE)",
+        "pr_NetArea": "ByModel",
+        "pr_FinishFloor": "Raised access floor",
+        "pr_ConstructionYear": 2022
+    },
+    {
+        "UID": "16.N",
+        "pr_SpaceName": "Open-plan office (16.N)",
+        "pr_NetArea": "ByModel",
+        "pr_FinishFloor": "Raised access floor",
+        "pr_ConstructionYear": 2022
+    },
+    {
+        "UID": "16.NW",
+        "pr_SpaceName": "Open-plan office (16.NW)",
+        "pr_NetArea": "ByModel",
+        "pr_FinishFloor": "Raised access floor",
+        "pr_ConstructionYear": 2022
+    },
+    {
+        "UID": "16.W",
+        "pr_SpaceName": "Private offices (16.W)",
+        "pr_NetArea": "ByModel",
+        "pr_FinishFloor": "Raised access floor",
+        "pr_ConstructionYear": 2022
+    },
+    {
+        "UID": "17.CORE",
+        "pr_SpaceName": "Core (17.CORE)",
+        "pr_NetArea": "ByModel",
+        "pr_FinishFloor": "Stone",
+        "pr_ConstructionYear": 2022
+    },
+    {
+        "UID": "17.SW",
+        "pr_SpaceName": "Open-plan office (17.SW)",
+        "pr_NetArea": "ByModel",
+        "pr_FinishFloor": "Raised access floor",
+        "pr_ConstructionYear": 2022
+    },
+    {
+        "UID": "17.S",
+        "pr_SpaceName": "Open-plan office (17.S)",
+        "pr_NetArea": "ByModel",
+        "pr_FinishFloor": "Raised access floor",
+        "pr_ConstructionYear": 2022
+    },
+    {
+        "UID": "17.SE",
+        "pr_SpaceName": "Open-plan office (17.SE)",
+        "pr_NetArea": "ByModel",
+        "pr_FinishFloor": "Raised access floor",
+        "pr_ConstructionYear": 2022
+    },
+    {
+        "UID": "17.E",
+        "pr_SpaceName": "Meeting room (17.E)",
+        "pr_NetArea": "ByModel",
+        "pr_FinishFloor": "Raised access floor",
+        "pr_ConstructionYear": 2022
+    },
+    {
+        "UID": "17.NE",
+        "pr_SpaceName": "Open-plan office (17.NE)",
+        "pr_NetArea": "ByModel",
+        "pr_FinishFloor": "Raised access floor",
+        "pr_ConstructionYear": 2022
+    },
+    {
+        "UID": "17.N",
+        "pr_SpaceName": "Open-plan office (17.N)",
+        "pr_NetArea": "ByModel",
+        "pr_FinishFloor": "Raised access floor",
+        "pr_ConstructionYear": 2022
+    },
+    {
+        "UID": "17.NW",
+        "pr_SpaceName": "Open-plan office (17.NW)",
+        "pr_NetArea": "ByModel",
+        "pr_FinishFloor": "Raised access floor",
+        "pr_ConstructionYear": 2022
+    },
+    {
+        "UID": "17.W",
+        "pr_SpaceName": "Private offices (17.W)",
+        "pr_NetArea": "ByModel",
+        "pr_FinishFloor": "Raised access floor",
+        "pr_ConstructionYear": 2022
+    },
+    {
+        "UID": "18.CORE",
+        "pr_SpaceName": "Core (18.CORE)",
+        "pr_NetArea": "ByModel",
+        "pr_FinishFloor": "Stone",
+        "pr_ConstructionYear": 2022
+    },
+    {
+        "UID": "18.SW",
+        "pr_SpaceName": "Open-plan office (18.SW)",
+        "pr_NetArea": "ByModel",
+        "pr_FinishFloor": "Raised access floor",
+        "pr_ConstructionYear": 2022
+    },
+    {
+        "UID": "18.S",
+        "pr_SpaceName": "Open-plan office (18.S)",
+        "pr_NetArea": "ByModel",
+        "pr_FinishFloor": "Raised access floor",
+        "pr_ConstructionYear": 2022
+    },
+    {
+        "UID": "18.SE",
+        "pr_SpaceName": "Open-plan office (18.SE)",
+        "pr_NetArea": "ByModel",
+        "pr_FinishFloor": "Raised access floor",
+        "pr_ConstructionYear": 2022
+    },
+    {
+        "UID": "18.E",
+        "pr_SpaceName": "Meeting room (18.E)",
+        "pr_NetArea": "ByModel",
+        "pr_FinishFloor": "Raised access floor",
+        "pr_ConstructionYear": 2022
+    },
+    {
+        "UID": "18.NE",
+        "pr_SpaceName": "Open-plan office (18.NE)",
+        "pr_NetArea": "ByModel",
+        "pr_FinishFloor": "Raised access floor",
+        "pr_ConstructionYear": 2022
+    },
+    {
+        "UID": "18.N",
+        "pr_SpaceName": "Open-plan office (18.N)",
+        "pr_NetArea": "ByModel",
+        "pr_FinishFloor": "Raised access floor",
+        "pr_ConstructionYear": 2022
+    },
+    {
+        "UID": "18.NW",
+        "pr_SpaceName": "Open-plan office (18.NW)",
+        "pr_NetArea": "ByModel",
+        "pr_FinishFloor": "Raised access floor",
+        "pr_ConstructionYear": 2022
+    },
+    {
+        "UID": "18.W",
+        "pr_SpaceName": "Private offices (18.W)",
+        "pr_NetArea": "ByModel",
+        "pr_FinishFloor": "Raised access floor",
+        "pr_ConstructionYear": 2022
+    },
+    {
+        "UID": "19.CORE",
+        "pr_SpaceName": "Core (19.CORE)",
+        "pr_NetArea": "ByModel",
+        "pr_FinishFloor": "Stone",
+        "pr_ConstructionYear": 2022
+    },
+    {
+        "UID": "19.SW",
+        "pr_SpaceName": "Open-plan office (19.SW)",
+        "pr_NetArea": "ByModel",
+        "pr_FinishFloor": "Raised access floor",
+        "pr_ConstructionYear": 2022
+    },
+    {
+        "UID": "19.S",
+        "pr_SpaceName": "Open-plan office (19.S)",
+        "pr_NetArea": "ByModel",
+        "pr_FinishFloor": "Raised access floor",
+        "pr_ConstructionYear": 2022
+    },
+    {
+        "UID": "19.SE",
+        "pr_SpaceName": "Open-plan office (19.SE)",
+        "pr_NetArea": "ByModel",
+        "pr_FinishFloor": "Raised access floor",
+        "pr_ConstructionYear": 2022
+    },
+    {
+        "UID": "19.E",
+        "pr_SpaceName": "Meeting room (19.E)",
+        "pr_NetArea": "ByModel",
+        "pr_FinishFloor": "Raised access floor",
+        "pr_ConstructionYear": 2022
+    },
+    {
+        "UID": "19.NE",
+        "pr_SpaceName": "Open-plan office (19.NE)",
+        "pr_NetArea": "ByModel",
+        "pr_FinishFloor": "Raised access floor",
+        "pr_ConstructionYear": 2022
+    },
+    {
+        "UID": "19.N",
+        "pr_SpaceName": "Open-plan office (19.N)",
+        "pr_NetArea": "ByModel",
+        "pr_FinishFloor": "Raised access floor",
+        "pr_ConstructionYear": 2022
+    },
+    {
+        "UID": "19.NW",
+        "pr_SpaceName": "Open-plan office (19.NW)",
+        "pr_NetArea": "ByModel",
+        "pr_FinishFloor": "Raised access floor",
+        "pr_ConstructionYear": 2022
+    },
+    {
+        "UID": "19.W",
+        "pr_SpaceName": "Private offices (19.W)",
+        "pr_NetArea": "ByModel",
+        "pr_FinishFloor": "Raised access floor",
+        "pr_ConstructionYear": 2022
+    },
+    {
+        "UID": "RF.PLANT",
+        "pr_SpaceName": "Plant room (RF.PLANT)",
+        "pr_NetArea": "ByModel",
+        "pr_FinishFloor": "Stone",
+        "pr_ConstructionYear": 2022
+    }
+]

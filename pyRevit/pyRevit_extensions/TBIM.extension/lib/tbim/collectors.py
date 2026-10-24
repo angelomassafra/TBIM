@@ -98,7 +98,7 @@ def create_walls(doc, faces, level_list, wall_type_id, cc=None):
     With ``cc``, the exterior side of the walls on external faces faces away from the building
     (Wall.Create picks it from the direction of the profile), so layered types are not inside out.
     """
-    created, failed = 0, []
+    created, failed, to_orient = 0, [], []
     tolerance = doc.Application.ShortCurveTolerance
     with revit.transaction(doc, "Create walls"):
         for face in faces:
@@ -111,22 +111,31 @@ def create_walls(doc, faces, level_list, wall_type_id, cc=None):
                     profile.Add(Line.CreateBound(start, end))
             zmin, _ = topo.z_range(face)
             base = revit.nearest_level(level_list, cm_to_ft(zmin))
+            wall = None
             try:
                 wall = Wall.Create(doc, profile, wall_type_id, base.Id, False)
                 # the face UID lets Loads, Styles and InstanceBIM update the wall
                 props = topo.props(face)
-                external = cc is not None and props.get("pr_TopologicalType") == "extVer"
-                cells = topo.adjacent_cells(face, cc) if external else []
-                if cells:
-                    outward = topo.outward_normal(face, cells[0])
-                    if wall.Orientation.DotProduct(XYZ(outward[0], outward[1], outward[2])) < 0:
-                        wall.Flip()
                 revit.set_by_name(wall, "UID", props["UID"])
                 revit.set_by_name(wall, "pr_TopologicalType", props["pr_TopologicalType"])
                 revit.set_by_name(wall, "rl_HasLocation_tpBS", base.Name)
+                external = cc is not None and props.get("pr_TopologicalType") == "extVer"
+                cells = topo.adjacent_cells(face, cc) if external else []
+                if cells:
+                    to_orient.append((wall, topo.outward_normal(face, cells[0])))
                 created += 1
             except Exception as e:
                 failed.append("%s: %s" % (topo.get(face, "UID", "face"), e))
+                if wall is not None and wall.IsValidObject:
+                    doc.Delete(wall.Id)
+        # Wall.Orientation needs the wall geometry: regenerate once, then flip
+        doc.Regenerate()
+        for wall, outward in to_orient:
+            try:
+                if wall.Orientation.DotProduct(XYZ(outward[0], outward[1], outward[2])) < 0:
+                    wall.Flip()
+            except Exception as e:
+                failed.append("%s (orientation): %s" % (revit.uid(wall), e))
     return created, failed
 
 

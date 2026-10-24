@@ -21,6 +21,7 @@ PANEL_COLORS = {
     "Project": (142, 108, 199),
     "InstanceBIM": (255, 211, 36),
     "Visualize": (31, 163, 163),
+    "Export": (214, 96, 77),
 }
 
 
@@ -160,6 +161,27 @@ def g_update_data(d):
     line(d, (40, 56), (48, 64), (56, 56))
 
 
+def export_arrow(d):
+    line(d, (48, 20), (48, 46))
+    line(d, (39, 37), (48, 46), (57, 37))
+
+
+def g_ifc(d):
+    export_arrow(d)
+    line(d, (24, 56), (24, 74), (72, 74), (72, 56))
+    for x in (34, 48, 62):
+        dot(d, x, 63, 4)
+
+
+def g_topologic(d):
+    export_arrow(d)
+    line(d, (24, 56), (24, 74), (72, 74), (72, 56))
+    line(d, (34, 64), (48, 58), (62, 64))
+    dot(d, 34, 64, 4)
+    dot(d, 48, 58, 4)
+    dot(d, 62, 64, 4)
+
+
 ICONS = {
     "Project.Panel/New.pushbutton": ("Project", g_new),
     "Project.Panel/Open.pushbutton": ("Project", g_open),
@@ -176,6 +198,8 @@ ICONS = {
     "InstanceBIM.Panel/CellComplex.pulldown/ByModel.pushbutton": ("InstanceBIM", g_by_model),
     "InstanceBIM.Panel/Revit.pulldown": ("InstanceBIM", g_revit),
     "InstanceBIM.Panel/Revit.pulldown/UpdateData.pushbutton": ("InstanceBIM", g_update_data),
+    "Export.Panel/IFC.pushbutton": ("Export", g_ifc),
+    "Export.Panel/Topologic.pushbutton": ("Export", g_topologic),
 }
 
 

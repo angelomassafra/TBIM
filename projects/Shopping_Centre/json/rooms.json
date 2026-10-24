@@ -1,0 +1,372 @@
+[
+    {
+        "center": [
+            500.0,
+            800.0,
+            250.0
+        ],
+        "pr_OccupancyType": "Retail:Shop",
+        "space": "0S.01",
+        "name": "Shop 0S01"
+    },
+    {
+        "center": [
+            1500.0,
+            800.0,
+            250.0
+        ],
+        "pr_OccupancyType": "Retail:Shop",
+        "space": "0S.02",
+        "name": "Shop 0S02"
+    },
+    {
+        "center": [
+            2500.0,
+            800.0,
+            250.0
+        ],
+        "pr_OccupancyType": "Retail:Shop",
+        "space": "0S.03",
+        "name": "Shop 0S03"
+    },
+    {
+        "center": [
+            3500.0,
+            800.0,
+            250.0
+        ],
+        "pr_OccupancyType": "Retail:Shop",
+        "space": "0S.04",
+        "name": "Shop 0S04"
+    },
+    {
+        "center": [
+            4500.0,
+            800.0,
+            250.0
+        ],
+        "pr_OccupancyType": "Retail:Shop",
+        "space": "0S.05",
+        "name": "Shop 0S05"
+    },
+    {
+        "center": [
+            5500.0,
+            800.0,
+            250.0
+        ],
+        "pr_OccupancyType": "Retail:Shop",
+        "space": "0S.06",
+        "name": "Shop 0S06"
+    },
+    {
+        "center": [
+            6500.0,
+            800.0,
+            250.0
+        ],
+        "pr_OccupancyType": "Retail:Shop",
+        "space": "0S.07",
+        "name": "Shop 0S07"
+    },
+    {
+        "center": [
+            7500.0,
+            800.0,
+            250.0
+        ],
+        "pr_OccupancyType": "Retail:Shop",
+        "space": "0S.08",
+        "name": "Shop 0S08"
+    },
+    {
+        "center": [
+            500.0,
+            3200.0,
+            250.0
+        ],
+        "pr_OccupancyType": "Retail:Shop",
+        "space": "0N.01",
+        "name": "Shop 0N01"
+    },
+    {
+        "center": [
+            1500.0,
+            3200.0,
+            250.0
+        ],
+        "pr_OccupancyType": "Retail:Shop",
+        "space": "0N.02",
+        "name": "Shop 0N02"
+    },
+    {
+        "center": [
+            2500.0,
+            3200.0,
+            250.0
+        ],
+        "pr_OccupancyType": "Retail:Shop",
+        "space": "0N.03",
+        "name": "Shop 0N03"
+    },
+    {
+        "center": [
+            3500.0,
+            3200.0,
+            250.0
+        ],
+        "pr_OccupancyType": "Retail:Shop",
+        "space": "0N.04",
+        "name": "Shop 0N04"
+    },
+    {
+        "center": [
+            4500.0,
+            3200.0,
+            250.0
+        ],
+        "pr_OccupancyType": "Retail:Shop",
+        "space": "0N.05",
+        "name": "Shop 0N05"
+    },
+    {
+        "center": [
+            5500.0,
+            3200.0,
+            250.0
+        ],
+        "pr_OccupancyType": "Retail:Shop",
+        "space": "0N.06",
+        "name": "Shop 0N06"
+    },
+    {
+        "center": [
+            6500.0,
+            3200.0,
+            250.0
+        ],
+        "pr_OccupancyType": "Retail:Shop",
+        "space": "0N.07",
+        "name": "Shop 0N07"
+    },
+    {
+        "center": [
+            7500.0,
+            3200.0,
+            250.0
+        ],
+        "pr_OccupancyType": "Retail:Shop",
+        "space": "0N.08",
+        "name": "Shop 0N08"
+    },
+    {
+        "center": [
+            9500.0,
+            2000.0,
+            250.0
+        ],
+        "pr_OccupancyType": "Retail:DepartmentStore",
+        "space": "0.ANCHOR",
+        "name": "Department store"
+    },
+    {
+        "center": [
+            500.0,
+            800.0,
+            750.0
+        ],
+        "pr_OccupancyType": "Retail:Shop",
+        "space": "1S.01",
+        "name": "Shop 1S01"
+    },
+    {
+        "center": [
+            1500.0,
+            800.0,
+            750.0
+        ],
+        "pr_OccupancyType": "Retail:Shop",
+        "space": "1S.02",
+        "name": "Shop 1S02"
+    },
+    {
+        "center": [
+            2500.0,
+            800.0,
+            750.0
+        ],
+        "pr_OccupancyType": "Retail:Shop",
+        "space": "1S.03",
+        "name": "Shop 1S03"
+    },
+    {
+        "center": [
+            3500.0,
+            800.0,
+            750.0
+        ],
+        "pr_OccupancyType": "Retail:Shop",
+        "space": "1S.04",
+        "name": "Shop 1S04"
+    },
+    {
+        "center": [
+            4500.0,
+            800.0,
+            750.0
+        ],
+        "pr_OccupancyType": "Retail:Shop",
+        "space": "1S.05",
+        "name": "Shop 1S05"
+    },
+    {
+        "center": [
+            5500.0,
+            800.0,
+            750.0
+        ],
+        "pr_OccupancyType": "Retail:Shop",
+        "space": "1S.06",
+        "name": "Shop 1S06"
+    },
+    {
+        "center": [
+            6500.0,
+            800.0,
+            750.0
+        ],
+        "pr_OccupancyType": "Retail:Shop",
+        "space": "1S.07",
+        "name": "Shop 1S07"
+    },
+    {
+        "center": [
+            7500.0,
+            800.0,
+            750.0
+        ],
+        "pr_OccupancyType": "Retail:Shop",
+        "space": "1S.08",
+        "name": "Shop 1S08"
+    },
+    {
+        "center": [
+            3500.0,
+            3200.0,
+            750.0
+        ],
+        "pr_OccupancyType": "Retail:Shop",
+        "space": "1N.04",
+        "name": "Shop 1N04"
+    },
+    {
+        "center": [
+            4500.0,
+            3200.0,
+            750.0
+        ],
+        "pr_OccupancyType": "Retail:Shop",
+        "space": "1N.05",
+        "name": "Shop 1N05"
+    },
+    {
+        "center": [
+            5500.0,
+            3200.0,
+            750.0
+        ],
+        "pr_OccupancyType": "Retail:Shop",
+        "space": "1N.06",
+        "name": "Shop 1N06"
+    },
+    {
+        "center": [
+            6500.0,
+            3200.0,
+            750.0
+        ],
+        "pr_OccupancyType": "Retail:Shop",
+        "space": "1N.07",
+        "name": "Shop 1N07"
+    },
+    {
+        "center": [
+            7500.0,
+            3200.0,
+            750.0
+        ],
+        "pr_OccupancyType": "Retail:Shop",
+        "space": "1N.08",
+        "name": "Shop 1N08"
+    },
+    {
+        "center": [
+            9500.0,
+            2000.0,
+            750.0
+        ],
+        "pr_OccupancyType": "Retail:DepartmentStore",
+        "space": "1.ANCHOR",
+        "name": "Department store"
+    },
+    {
+        "center": [
+            1500.0,
+            3200.0,
+            750.0
+        ],
+        "pr_OccupancyType": "Food:FoodCourt",
+        "space": "1.FOOD",
+        "name": "Food court"
+    },
+    {
+        "center": [
+            2000.0,
+            2000.0,
+            500.0
+        ],
+        "pr_OccupancyType": "Circulation:Gallery",
+        "space": "G.W",
+        "name": "Gallery west"
+    },
+    {
+        "center": [
+            6000.0,
+            2000.0,
+            500.0
+        ],
+        "pr_OccupancyType": "Circulation:Gallery",
+        "space": "G.E",
+        "name": "Gallery east"
+    },
+    {
+        "center": [
+            -400.0,
+            2000.0,
+            500.0
+        ],
+        "pr_OccupancyType": "Circulation:EntranceHall",
+        "space": "G.ENTRY",
+        "name": "Entrance hall"
+    },
+    {
+        "center": [
+            2000.0,
+            900.0,
+            1200.0
+        ],
+        "pr_OccupancyType": "Technical:Plant",
+        "space": "R.P1",
+        "name": "Plant room 1"
+    },
+    {
+        "center": [
+            9750.0,
+            3000.0,
+            1200.0
+        ],
+        "pr_OccupancyType": "Technical:Plant",
+        "space": "R.P2",
+        "name": "Plant room 2"
+    }
+]

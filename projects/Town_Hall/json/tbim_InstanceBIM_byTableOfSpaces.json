@@ -1,0 +1,247 @@
+[
+    {
+        "UID": "0W.F1",
+        "pr_SpaceName": "Public desk (0W.F1)",
+        "pr_NetArea": "ByModel",
+        "pr_FinishFloor": "Terrazzo",
+        "pr_ConstructionYear": 1912
+    },
+    {
+        "UID": "0W.B1",
+        "pr_SpaceName": "Archive (0W.B1)",
+        "pr_NetArea": "ByModel",
+        "pr_FinishFloor": "Terrazzo",
+        "pr_ConstructionYear": 1912
+    },
+    {
+        "UID": "0W.F2",
+        "pr_SpaceName": "Registry office (0W.F2)",
+        "pr_NetArea": "ByModel",
+        "pr_FinishFloor": "Terrazzo",
+        "pr_ConstructionYear": 1912
+    },
+    {
+        "UID": "0W.B2",
+        "pr_SpaceName": "Archive (0W.B2)",
+        "pr_NetArea": "ByModel",
+        "pr_FinishFloor": "Terrazzo",
+        "pr_ConstructionYear": 1912
+    },
+    {
+        "UID": "0W.COR",
+        "pr_SpaceName": "Corridor (0W.COR)",
+        "pr_NetArea": "ByModel",
+        "pr_FinishFloor": "Terrazzo",
+        "pr_ConstructionYear": 1912
+    },
+    {
+        "UID": "0E.F1",
+        "pr_SpaceName": "Public desk (0E.F1)",
+        "pr_NetArea": "ByModel",
+        "pr_FinishFloor": "Terrazzo",
+        "pr_ConstructionYear": 1912
+    },
+    {
+        "UID": "0E.B1",
+        "pr_SpaceName": "Archive (0E.B1)",
+        "pr_NetArea": "ByModel",
+        "pr_FinishFloor": "Terrazzo",
+        "pr_ConstructionYear": 1912
+    },
+    {
+        "UID": "0E.F2",
+        "pr_SpaceName": "Registry office (0E.F2)",
+        "pr_NetArea": "ByModel",
+        "pr_FinishFloor": "Terrazzo",
+        "pr_ConstructionYear": 1912
+    },
+    {
+        "UID": "0E.B2",
+        "pr_SpaceName": "Archive (0E.B2)",
+        "pr_NetArea": "ByModel",
+        "pr_FinishFloor": "Terrazzo",
+        "pr_ConstructionYear": 1912
+    },
+    {
+        "UID": "0E.COR",
+        "pr_SpaceName": "Corridor (0E.COR)",
+        "pr_NetArea": "ByModel",
+        "pr_FinishFloor": "Terrazzo",
+        "pr_ConstructionYear": 1912
+    },
+    {
+        "UID": "1W.F1",
+        "pr_SpaceName": "Councillor office (1W.F1)",
+        "pr_NetArea": "ByModel",
+        "pr_FinishFloor": "Terrazzo",
+        "pr_ConstructionYear": 1912
+    },
+    {
+        "UID": "1W.B1",
+        "pr_SpaceName": "Secretariat (1W.B1)",
+        "pr_NetArea": "ByModel",
+        "pr_FinishFloor": "Terrazzo",
+        "pr_ConstructionYear": 1912
+    },
+    {
+        "UID": "1W.F2",
+        "pr_SpaceName": "Mayor office (1W.F2)",
+        "pr_NetArea": "ByModel",
+        "pr_FinishFloor": "Terrazzo",
+        "pr_ConstructionYear": 1912
+    },
+    {
+        "UID": "1W.B2",
+        "pr_SpaceName": "Secretariat (1W.B2)",
+        "pr_NetArea": "ByModel",
+        "pr_FinishFloor": "Terrazzo",
+        "pr_ConstructionYear": 1912
+    },
+    {
+        "UID": "1W.COR",
+        "pr_SpaceName": "Corridor (1W.COR)",
+        "pr_NetArea": "ByModel",
+        "pr_FinishFloor": "Terrazzo",
+        "pr_ConstructionYear": 1912
+    },
+    {
+        "UID": "1E.F1",
+        "pr_SpaceName": "Councillor office (1E.F1)",
+        "pr_NetArea": "ByModel",
+        "pr_FinishFloor": "Terrazzo",
+        "pr_ConstructionYear": 1912
+    },
+    {
+        "UID": "1E.B1",
+        "pr_SpaceName": "Secretariat (1E.B1)",
+        "pr_NetArea": "ByModel",
+        "pr_FinishFloor": "Terrazzo",
+        "pr_ConstructionYear": 1912
+    },
+    {
+        "UID": "1E.F2",
+        "pr_SpaceName": "Mayor office (1E.F2)",
+        "pr_NetArea": "ByModel",
+        "pr_FinishFloor": "Terrazzo",
+        "pr_ConstructionYear": 1912
+    },
+    {
+        "UID": "1E.B2",
+        "pr_SpaceName": "Secretariat (1E.B2)",
+        "pr_NetArea": "ByModel",
+        "pr_FinishFloor": "Terrazzo",
+        "pr_ConstructionYear": 1912
+    },
+    {
+        "UID": "1E.COR",
+        "pr_SpaceName": "Corridor (1E.COR)",
+        "pr_NetArea": "ByModel",
+        "pr_FinishFloor": "Terrazzo",
+        "pr_ConstructionYear": 1912
+    },
+    {
+        "UID": "2W.F1",
+        "pr_SpaceName": "Technical office (2W.F1)",
+        "pr_NetArea": "ByModel",
+        "pr_FinishFloor": "Terrazzo",
+        "pr_ConstructionYear": 1912
+    },
+    {
+        "UID": "2W.B1",
+        "pr_SpaceName": "Planning office (2W.B1)",
+        "pr_NetArea": "ByModel",
+        "pr_FinishFloor": "Terrazzo",
+        "pr_ConstructionYear": 1912
+    },
+    {
+        "UID": "2W.F2",
+        "pr_SpaceName": "Accounts office (2W.F2)",
+        "pr_NetArea": "ByModel",
+        "pr_FinishFloor": "Terrazzo",
+        "pr_ConstructionYear": 1912
+    },
+    {
+        "UID": "2W.B2",
+        "pr_SpaceName": "Planning office (2W.B2)",
+        "pr_NetArea": "ByModel",
+        "pr_FinishFloor": "Terrazzo",
+        "pr_ConstructionYear": 1912
+    },
+    {
+        "UID": "2W.COR",
+        "pr_SpaceName": "Corridor (2W.COR)",
+        "pr_NetArea": "ByModel",
+        "pr_FinishFloor": "Terrazzo",
+        "pr_ConstructionYear": 1912
+    },
+    {
+        "UID": "2E.F1",
+        "pr_SpaceName": "Technical office (2E.F1)",
+        "pr_NetArea": "ByModel",
+        "pr_FinishFloor": "Terrazzo",
+        "pr_ConstructionYear": 1912
+    },
+    {
+        "UID": "2E.B1",
+        "pr_SpaceName": "Planning office (2E.B1)",
+        "pr_NetArea": "ByModel",
+        "pr_FinishFloor": "Terrazzo",
+        "pr_ConstructionYear": 1912
+    },
+    {
+        "UID": "2E.F2",
+        "pr_SpaceName": "Accounts office (2E.F2)",
+        "pr_NetArea": "ByModel",
+        "pr_FinishFloor": "Terrazzo",
+        "pr_ConstructionYear": 1912
+    },
+    {
+        "UID": "2E.B2",
+        "pr_SpaceName": "Planning office (2E.B2)",
+        "pr_NetArea": "ByModel",
+        "pr_FinishFloor": "Terrazzo",
+        "pr_ConstructionYear": 1912
+    },
+    {
+        "UID": "2E.COR",
+        "pr_SpaceName": "Corridor (2E.COR)",
+        "pr_NetArea": "ByModel",
+        "pr_FinishFloor": "Terrazzo",
+        "pr_ConstructionYear": 1912
+    },
+    {
+        "UID": "0.HALL",
+        "pr_SpaceName": "Entrance hall (0.HALL)",
+        "pr_NetArea": "ByModel",
+        "pr_FinishFloor": "Terrazzo",
+        "pr_ConstructionYear": 1912
+    },
+    {
+        "UID": "1.CHAMBER",
+        "pr_SpaceName": "Council chamber (1.CHAMBER)",
+        "pr_NetArea": "ByModel",
+        "pr_FinishFloor": "Terrazzo",
+        "pr_ConstructionYear": 1912
+    },
+    {
+        "UID": "R.ATTIC",
+        "pr_SpaceName": "Attic (R.ATTIC)",
+        "pr_NetArea": "ByModel",
+        "pr_FinishFloor": "Terrazzo",
+        "pr_ConstructionYear": 1912
+    },
+    {
+        "UID": "T.CLOCK",
+        "pr_SpaceName": "Clock room (T.CLOCK)",
+        "pr_NetArea": "ByModel",
+        "pr_FinishFloor": "Terrazzo",
+        "pr_ConstructionYear": 1912
+    },
+    {
+        "UID": "T.BELFRY",
+        "pr_SpaceName": "Belfry (T.BELFRY)",
+        "pr_NetArea": "ByModel",
+        "pr_FinishFloor": "Terrazzo",
+        "pr_ConstructionYear": 1912
+    }
+]

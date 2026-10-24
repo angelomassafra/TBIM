@@ -1,0 +1,163 @@
+[
+    {
+        "UID": "0.01",
+        "pr_SpaceName": "Entrance hall (0.01)",
+        "pr_NetArea": "ByModel",
+        "pr_FinishFloor": "Linoleum",
+        "pr_ConstructionYear": 1978
+    },
+    {
+        "UID": "0.02",
+        "pr_SpaceName": "Administration (0.02)",
+        "pr_NetArea": "ByModel",
+        "pr_FinishFloor": "Linoleum",
+        "pr_ConstructionYear": 1978
+    },
+    {
+        "UID": "0.03",
+        "pr_SpaceName": "Classroom 1A (0.03)",
+        "pr_NetArea": "ByModel",
+        "pr_FinishFloor": "Linoleum",
+        "pr_ConstructionYear": 1978
+    },
+    {
+        "UID": "0.04",
+        "pr_SpaceName": "Classroom 1B (0.04)",
+        "pr_NetArea": "ByModel",
+        "pr_FinishFloor": "Linoleum",
+        "pr_ConstructionYear": 1978
+    },
+    {
+        "UID": "0.05",
+        "pr_SpaceName": "Classroom 2A (0.05)",
+        "pr_NetArea": "ByModel",
+        "pr_FinishFloor": "Linoleum",
+        "pr_ConstructionYear": 1978
+    },
+    {
+        "UID": "0.06",
+        "pr_SpaceName": "Classroom 2B (0.06)",
+        "pr_NetArea": "ByModel",
+        "pr_FinishFloor": "Linoleum",
+        "pr_ConstructionYear": 1978
+    },
+    {
+        "UID": "0.COR",
+        "pr_SpaceName": "Corridor (0.COR)",
+        "pr_NetArea": "ByModel",
+        "pr_FinishFloor": "Linoleum",
+        "pr_ConstructionYear": 1978
+    },
+    {
+        "UID": "0.STAIR",
+        "pr_SpaceName": "Stair (0.STAIR)",
+        "pr_NetArea": "ByModel",
+        "pr_FinishFloor": "Linoleum",
+        "pr_ConstructionYear": 1978
+    },
+    {
+        "UID": "0.WC",
+        "pr_SpaceName": "Toilets (0.WC)",
+        "pr_NetArea": "ByModel",
+        "pr_FinishFloor": "Linoleum",
+        "pr_ConstructionYear": 1978
+    },
+    {
+        "UID": "1.01",
+        "pr_SpaceName": "Library (1.01)",
+        "pr_NetArea": "ByModel",
+        "pr_FinishFloor": "Linoleum",
+        "pr_ConstructionYear": 1978
+    },
+    {
+        "UID": "1.02",
+        "pr_SpaceName": "Science lab (1.02)",
+        "pr_NetArea": "ByModel",
+        "pr_FinishFloor": "Linoleum",
+        "pr_ConstructionYear": 1978
+    },
+    {
+        "UID": "1.03",
+        "pr_SpaceName": "Classroom 3A (1.03)",
+        "pr_NetArea": "ByModel",
+        "pr_FinishFloor": "Linoleum",
+        "pr_ConstructionYear": 1978
+    },
+    {
+        "UID": "1.04",
+        "pr_SpaceName": "Classroom 3B (1.04)",
+        "pr_NetArea": "ByModel",
+        "pr_FinishFloor": "Linoleum",
+        "pr_ConstructionYear": 1978
+    },
+    {
+        "UID": "1.05",
+        "pr_SpaceName": "Classroom 4A (1.05)",
+        "pr_NetArea": "ByModel",
+        "pr_FinishFloor": "Linoleum",
+        "pr_ConstructionYear": 1978
+    },
+    {
+        "UID": "1.06",
+        "pr_SpaceName": "Classroom 4B (1.06)",
+        "pr_NetArea": "ByModel",
+        "pr_FinishFloor": "Linoleum",
+        "pr_ConstructionYear": 1978
+    },
+    {
+        "UID": "1.COR",
+        "pr_SpaceName": "Corridor (1.COR)",
+        "pr_NetArea": "ByModel",
+        "pr_FinishFloor": "Linoleum",
+        "pr_ConstructionYear": 1978
+    },
+    {
+        "UID": "1.STAIR",
+        "pr_SpaceName": "Stair (1.STAIR)",
+        "pr_NetArea": "ByModel",
+        "pr_FinishFloor": "Linoleum",
+        "pr_ConstructionYear": 1978
+    },
+    {
+        "UID": "1.WC",
+        "pr_SpaceName": "Toilets (1.WC)",
+        "pr_NetArea": "ByModel",
+        "pr_FinishFloor": "Linoleum",
+        "pr_ConstructionYear": 1978
+    },
+    {
+        "UID": "G.GYM",
+        "pr_SpaceName": "Gym (G.GYM)",
+        "pr_NetArea": "ByModel",
+        "pr_FinishFloor": "Sports flooring",
+        "pr_ConstructionYear": 1978
+    },
+    {
+        "UID": "G.01",
+        "pr_SpaceName": "Changing room A (G.01)",
+        "pr_NetArea": "ByModel",
+        "pr_FinishFloor": "Linoleum",
+        "pr_ConstructionYear": 1978
+    },
+    {
+        "UID": "G.02",
+        "pr_SpaceName": "Changing room B (G.02)",
+        "pr_NetArea": "ByModel",
+        "pr_FinishFloor": "Linoleum",
+        "pr_ConstructionYear": 1978
+    },
+    {
+        "UID": "G.03",
+        "pr_SpaceName": "Equipment store (G.03)",
+        "pr_NetArea": "ByModel",
+        "pr_FinishFloor": "Linoleum",
+        "pr_ConstructionYear": 1978
+    },
+    {
+        "UID": "G.ATTIC",
+        "pr_SpaceName": "Gym roof void (G.ATTIC)",
+        "pr_NetArea": "ByModel",
+        "pr_FinishFloor": "Linoleum",
+        "pr_ConstructionYear": 1978
+    }
+]

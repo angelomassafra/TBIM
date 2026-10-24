@@ -1,0 +1,86 @@
+{
+    "windows": [
+        [
+            "Shop",
+            "TBIM_Vetrina_Esterna_400x300",
+            400,
+            300,
+            40
+        ],
+        [
+            "DepartmentStore",
+            "TBIM_Vetrina_Esterna_600x300",
+            600,
+            300,
+            50
+        ],
+        [
+            "FoodCourt",
+            "TBIM_Vetrata_FoodCourt_800x300",
+            800,
+            300,
+            100
+        ],
+        [
+            "EntranceHall",
+            "TBIM_Vetrata_Ingresso_500x700",
+            500,
+            700,
+            50
+        ]
+    ],
+    "external_doors": [
+        [
+            "EntranceHall",
+            "TBIM_Porta_Automatica_400x300",
+            400,
+            300
+        ],
+        [
+            "DepartmentStore",
+            "TBIM_Porta_Automatica_300x300",
+            300,
+            300
+        ]
+    ],
+    "doors": [
+        [
+            "EntranceHall",
+            "Gallery",
+            "TBIM_Varco_Galleria_500x400",
+            500,
+            400
+        ],
+        [
+            "Gallery",
+            "DepartmentStore",
+            "TBIM_Varco_Grande_Magazzino_600x350",
+            600,
+            350
+        ],
+        [
+            "Gallery",
+            "FoodCourt",
+            "TBIM_Varco_Grande_Magazzino_600x350",
+            600,
+            350
+        ],
+        [
+            "Gallery",
+            "Shop",
+            "TBIM_Ingresso_Negozio_300x300",
+            300,
+            300
+        ]
+    ],
+    "window_data": {
+        "pr_FrameMaterial": "Aluminium, thermal break",
+        "pr_Glazing": "Double glazing, low-e",
+        "pr_ThermalTransmittance": 1.8,
+        "pr_SolarFactor": 0.4,
+        "pr_ConstructionYear": 2008
+    },
+    "door_data": {
+        "pr_ConstructionYear": 2008
+    }
+}

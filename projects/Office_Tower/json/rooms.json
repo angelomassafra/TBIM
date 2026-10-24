@@ -1,0 +1,1812 @@
+[
+    {
+        "center": [
+            1500.0,
+            1500.0,
+            250.0
+        ],
+        "pr_OccupancyType": "Circulation:Core",
+        "space": "00.CORE",
+        "name": "Core"
+    },
+    {
+        "center": [
+            500.0,
+            500.0,
+            250.0
+        ],
+        "pr_OccupancyType": "Food:Cafe",
+        "space": "00.SW",
+        "name": "Cafe"
+    },
+    {
+        "center": [
+            1500.0,
+            500.0,
+            250.0
+        ],
+        "pr_OccupancyType": "Circulation:Lobby",
+        "space": "00.S",
+        "name": "Lobby"
+    },
+    {
+        "center": [
+            2500.0,
+            500.0,
+            250.0
+        ],
+        "pr_OccupancyType": "Retail:Shop",
+        "space": "00.SE",
+        "name": "Shop"
+    },
+    {
+        "center": [
+            2500.0,
+            1500.0,
+            250.0
+        ],
+        "pr_OccupancyType": "Circulation:Lobby",
+        "space": "00.E",
+        "name": "Lobby"
+    },
+    {
+        "center": [
+            2500.0,
+            2500.0,
+            250.0
+        ],
+        "pr_OccupancyType": "Retail:Shop",
+        "space": "00.NE",
+        "name": "Shop"
+    },
+    {
+        "center": [
+            1500.0,
+            2500.0,
+            250.0
+        ],
+        "pr_OccupancyType": "Circulation:Lobby",
+        "space": "00.N",
+        "name": "Lobby"
+    },
+    {
+        "center": [
+            500.0,
+            2500.0,
+            250.0
+        ],
+        "pr_OccupancyType": "Office:Reception",
+        "space": "00.NW",
+        "name": "Reception"
+    },
+    {
+        "center": [
+            500.0,
+            1500.0,
+            250.0
+        ],
+        "pr_OccupancyType": "Circulation:Lobby",
+        "space": "00.W",
+        "name": "Lobby"
+    },
+    {
+        "center": [
+            1500.0,
+            1500.0,
+            680.0
+        ],
+        "pr_OccupancyType": "Circulation:Core",
+        "space": "01.CORE",
+        "name": "Core"
+    },
+    {
+        "center": [
+            500.0,
+            500.0,
+            680.0
+        ],
+        "pr_OccupancyType": "Office:OpenPlan",
+        "space": "01.SW",
+        "name": "Open-plan office"
+    },
+    {
+        "center": [
+            1500.0,
+            500.0,
+            680.0
+        ],
+        "pr_OccupancyType": "Office:OpenPlan",
+        "space": "01.S",
+        "name": "Open-plan office"
+    },
+    {
+        "center": [
+            2500.0,
+            500.0,
+            680.0
+        ],
+        "pr_OccupancyType": "Office:OpenPlan",
+        "space": "01.SE",
+        "name": "Open-plan office"
+    },
+    {
+        "center": [
+            2500.0,
+            1500.0,
+            680.0
+        ],
+        "pr_OccupancyType": "Office:MeetingRoom",
+        "space": "01.E",
+        "name": "Meeting room"
+    },
+    {
+        "center": [
+            2500.0,
+            2500.0,
+            680.0
+        ],
+        "pr_OccupancyType": "Office:OpenPlan",
+        "space": "01.NE",
+        "name": "Open-plan office"
+    },
+    {
+        "center": [
+            1500.0,
+            2500.0,
+            680.0
+        ],
+        "pr_OccupancyType": "Office:OpenPlan",
+        "space": "01.N",
+        "name": "Open-plan office"
+    },
+    {
+        "center": [
+            500.0,
+            2500.0,
+            680.0
+        ],
+        "pr_OccupancyType": "Office:OpenPlan",
+        "space": "01.NW",
+        "name": "Open-plan office"
+    },
+    {
+        "center": [
+            500.0,
+            1500.0,
+            680.0
+        ],
+        "pr_OccupancyType": "Office:Private",
+        "space": "01.W",
+        "name": "Private offices"
+    },
+    {
+        "center": [
+            1500.0,
+            1500.0,
+            1040.0
+        ],
+        "pr_OccupancyType": "Circulation:Core",
+        "space": "02.CORE",
+        "name": "Core"
+    },
+    {
+        "center": [
+            500.0,
+            500.0,
+            1040.0
+        ],
+        "pr_OccupancyType": "Office:OpenPlan",
+        "space": "02.SW",
+        "name": "Open-plan office"
+    },
+    {
+        "center": [
+            1500.0,
+            500.0,
+            1040.0
+        ],
+        "pr_OccupancyType": "Office:OpenPlan",
+        "space": "02.S",
+        "name": "Open-plan office"
+    },
+    {
+        "center": [
+            2500.0,
+            500.0,
+            1040.0
+        ],
+        "pr_OccupancyType": "Office:OpenPlan",
+        "space": "02.SE",
+        "name": "Open-plan office"
+    },
+    {
+        "center": [
+            2500.0,
+            1500.0,
+            1040.0
+        ],
+        "pr_OccupancyType": "Office:MeetingRoom",
+        "space": "02.E",
+        "name": "Meeting room"
+    },
+    {
+        "center": [
+            2500.0,
+            2500.0,
+            1040.0
+        ],
+        "pr_OccupancyType": "Office:OpenPlan",
+        "space": "02.NE",
+        "name": "Open-plan office"
+    },
+    {
+        "center": [
+            1500.0,
+            2500.0,
+            1040.0
+        ],
+        "pr_OccupancyType": "Office:OpenPlan",
+        "space": "02.N",
+        "name": "Open-plan office"
+    },
+    {
+        "center": [
+            500.0,
+            2500.0,
+            1040.0
+        ],
+        "pr_OccupancyType": "Office:OpenPlan",
+        "space": "02.NW",
+        "name": "Open-plan office"
+    },
+    {
+        "center": [
+            500.0,
+            1500.0,
+            1040.0
+        ],
+        "pr_OccupancyType": "Office:Private",
+        "space": "02.W",
+        "name": "Private offices"
+    },
+    {
+        "center": [
+            1500.0,
+            1500.0,
+            1400.0
+        ],
+        "pr_OccupancyType": "Circulation:Core",
+        "space": "03.CORE",
+        "name": "Core"
+    },
+    {
+        "center": [
+            500.0,
+            500.0,
+            1400.0
+        ],
+        "pr_OccupancyType": "Office:OpenPlan",
+        "space": "03.SW",
+        "name": "Open-plan office"
+    },
+    {
+        "center": [
+            1500.0,
+            500.0,
+            1400.0
+        ],
+        "pr_OccupancyType": "Office:OpenPlan",
+        "space": "03.S",
+        "name": "Open-plan office"
+    },
+    {
+        "center": [
+            2500.0,
+            500.0,
+            1400.0
+        ],
+        "pr_OccupancyType": "Office:OpenPlan",
+        "space": "03.SE",
+        "name": "Open-plan office"
+    },
+    {
+        "center": [
+            2500.0,
+            1500.0,
+            1400.0
+        ],
+        "pr_OccupancyType": "Office:MeetingRoom",
+        "space": "03.E",
+        "name": "Meeting room"
+    },
+    {
+        "center": [
+            2500.0,
+            2500.0,
+            1400.0
+        ],
+        "pr_OccupancyType": "Office:OpenPlan",
+        "space": "03.NE",
+        "name": "Open-plan office"
+    },
+    {
+        "center": [
+            1500.0,
+            2500.0,
+            1400.0
+        ],
+        "pr_OccupancyType": "Office:OpenPlan",
+        "space": "03.N",
+        "name": "Open-plan office"
+    },
+    {
+        "center": [
+            500.0,
+            2500.0,
+            1400.0
+        ],
+        "pr_OccupancyType": "Office:OpenPlan",
+        "space": "03.NW",
+        "name": "Open-plan office"
+    },
+    {
+        "center": [
+            500.0,
+            1500.0,
+            1400.0
+        ],
+        "pr_OccupancyType": "Office:Private",
+        "space": "03.W",
+        "name": "Private offices"
+    },
+    {
+        "center": [
+            1500.0,
+            1500.0,
+            1760.0
+        ],
+        "pr_OccupancyType": "Circulation:Core",
+        "space": "04.CORE",
+        "name": "Core"
+    },
+    {
+        "center": [
+            500.0,
+            500.0,
+            1760.0
+        ],
+        "pr_OccupancyType": "Office:OpenPlan",
+        "space": "04.SW",
+        "name": "Open-plan office"
+    },
+    {
+        "center": [
+            1500.0,
+            500.0,
+            1760.0
+        ],
+        "pr_OccupancyType": "Office:OpenPlan",
+        "space": "04.S",
+        "name": "Open-plan office"
+    },
+    {
+        "center": [
+            2500.0,
+            500.0,
+            1760.0
+        ],
+        "pr_OccupancyType": "Office:OpenPlan",
+        "space": "04.SE",
+        "name": "Open-plan office"
+    },
+    {
+        "center": [
+            2500.0,
+            1500.0,
+            1760.0
+        ],
+        "pr_OccupancyType": "Office:MeetingRoom",
+        "space": "04.E",
+        "name": "Meeting room"
+    },
+    {
+        "center": [
+            2500.0,
+            2500.0,
+            1760.0
+        ],
+        "pr_OccupancyType": "Office:OpenPlan",
+        "space": "04.NE",
+        "name": "Open-plan office"
+    },
+    {
+        "center": [
+            1500.0,
+            2500.0,
+            1760.0
+        ],
+        "pr_OccupancyType": "Office:OpenPlan",
+        "space": "04.N",
+        "name": "Open-plan office"
+    },
+    {
+        "center": [
+            500.0,
+            2500.0,
+            1760.0
+        ],
+        "pr_OccupancyType": "Office:OpenPlan",
+        "space": "04.NW",
+        "name": "Open-plan office"
+    },
+    {
+        "center": [
+            500.0,
+            1500.0,
+            1760.0
+        ],
+        "pr_OccupancyType": "Office:Private",
+        "space": "04.W",
+        "name": "Private offices"
+    },
+    {
+        "center": [
+            1500.0,
+            1500.0,
+            2120.0
+        ],
+        "pr_OccupancyType": "Circulation:Core",
+        "space": "05.CORE",
+        "name": "Core"
+    },
+    {
+        "center": [
+            500.0,
+            500.0,
+            2120.0
+        ],
+        "pr_OccupancyType": "Office:OpenPlan",
+        "space": "05.SW",
+        "name": "Open-plan office"
+    },
+    {
+        "center": [
+            1500.0,
+            500.0,
+            2120.0
+        ],
+        "pr_OccupancyType": "Office:OpenPlan",
+        "space": "05.S",
+        "name": "Open-plan office"
+    },
+    {
+        "center": [
+            2500.0,
+            500.0,
+            2120.0
+        ],
+        "pr_OccupancyType": "Office:OpenPlan",
+        "space": "05.SE",
+        "name": "Open-plan office"
+    },
+    {
+        "center": [
+            2500.0,
+            1500.0,
+            2120.0
+        ],
+        "pr_OccupancyType": "Office:MeetingRoom",
+        "space": "05.E",
+        "name": "Meeting room"
+    },
+    {
+        "center": [
+            2500.0,
+            2500.0,
+            2120.0
+        ],
+        "pr_OccupancyType": "Office:OpenPlan",
+        "space": "05.NE",
+        "name": "Open-plan office"
+    },
+    {
+        "center": [
+            1500.0,
+            2500.0,
+            2120.0
+        ],
+        "pr_OccupancyType": "Office:OpenPlan",
+        "space": "05.N",
+        "name": "Open-plan office"
+    },
+    {
+        "center": [
+            500.0,
+            2500.0,
+            2120.0
+        ],
+        "pr_OccupancyType": "Office:OpenPlan",
+        "space": "05.NW",
+        "name": "Open-plan office"
+    },
+    {
+        "center": [
+            500.0,
+            1500.0,
+            2120.0
+        ],
+        "pr_OccupancyType": "Office:Private",
+        "space": "05.W",
+        "name": "Private offices"
+    },
+    {
+        "center": [
+            1500.0,
+            1500.0,
+            2480.0
+        ],
+        "pr_OccupancyType": "Circulation:Core",
+        "space": "06.CORE",
+        "name": "Core"
+    },
+    {
+        "center": [
+            500.0,
+            500.0,
+            2480.0
+        ],
+        "pr_OccupancyType": "Office:OpenPlan",
+        "space": "06.SW",
+        "name": "Open-plan office"
+    },
+    {
+        "center": [
+            1500.0,
+            500.0,
+            2480.0
+        ],
+        "pr_OccupancyType": "Office:OpenPlan",
+        "space": "06.S",
+        "name": "Open-plan office"
+    },
+    {
+        "center": [
+            2500.0,
+            500.0,
+            2480.0
+        ],
+        "pr_OccupancyType": "Office:OpenPlan",
+        "space": "06.SE",
+        "name": "Open-plan office"
+    },
+    {
+        "center": [
+            2500.0,
+            1500.0,
+            2480.0
+        ],
+        "pr_OccupancyType": "Office:MeetingRoom",
+        "space": "06.E",
+        "name": "Meeting room"
+    },
+    {
+        "center": [
+            2500.0,
+            2500.0,
+            2480.0
+        ],
+        "pr_OccupancyType": "Office:OpenPlan",
+        "space": "06.NE",
+        "name": "Open-plan office"
+    },
+    {
+        "center": [
+            1500.0,
+            2500.0,
+            2480.0
+        ],
+        "pr_OccupancyType": "Office:OpenPlan",
+        "space": "06.N",
+        "name": "Open-plan office"
+    },
+    {
+        "center": [
+            500.0,
+            2500.0,
+            2480.0
+        ],
+        "pr_OccupancyType": "Office:OpenPlan",
+        "space": "06.NW",
+        "name": "Open-plan office"
+    },
+    {
+        "center": [
+            500.0,
+            1500.0,
+            2480.0
+        ],
+        "pr_OccupancyType": "Office:Private",
+        "space": "06.W",
+        "name": "Private offices"
+    },
+    {
+        "center": [
+            1500.0,
+            1500.0,
+            2840.0
+        ],
+        "pr_OccupancyType": "Circulation:Core",
+        "space": "07.CORE",
+        "name": "Core"
+    },
+    {
+        "center": [
+            500.0,
+            500.0,
+            2840.0
+        ],
+        "pr_OccupancyType": "Office:OpenPlan",
+        "space": "07.SW",
+        "name": "Open-plan office"
+    },
+    {
+        "center": [
+            1500.0,
+            500.0,
+            2840.0
+        ],
+        "pr_OccupancyType": "Office:OpenPlan",
+        "space": "07.S",
+        "name": "Open-plan office"
+    },
+    {
+        "center": [
+            2500.0,
+            500.0,
+            2840.0
+        ],
+        "pr_OccupancyType": "Office:OpenPlan",
+        "space": "07.SE",
+        "name": "Open-plan office"
+    },
+    {
+        "center": [
+            2500.0,
+            1500.0,
+            2840.0
+        ],
+        "pr_OccupancyType": "Office:MeetingRoom",
+        "space": "07.E",
+        "name": "Meeting room"
+    },
+    {
+        "center": [
+            2500.0,
+            2500.0,
+            2840.0
+        ],
+        "pr_OccupancyType": "Office:OpenPlan",
+        "space": "07.NE",
+        "name": "Open-plan office"
+    },
+    {
+        "center": [
+            1500.0,
+            2500.0,
+            2840.0
+        ],
+        "pr_OccupancyType": "Office:OpenPlan",
+        "space": "07.N",
+        "name": "Open-plan office"
+    },
+    {
+        "center": [
+            500.0,
+            2500.0,
+            2840.0
+        ],
+        "pr_OccupancyType": "Office:OpenPlan",
+        "space": "07.NW",
+        "name": "Open-plan office"
+    },
+    {
+        "center": [
+            500.0,
+            1500.0,
+            2840.0
+        ],
+        "pr_OccupancyType": "Office:Private",
+        "space": "07.W",
+        "name": "Private offices"
+    },
+    {
+        "center": [
+            1500.0,
+            1500.0,
+            3200.0
+        ],
+        "pr_OccupancyType": "Circulation:Core",
+        "space": "08.CORE",
+        "name": "Core"
+    },
+    {
+        "center": [
+            500.0,
+            500.0,
+            3200.0
+        ],
+        "pr_OccupancyType": "Office:OpenPlan",
+        "space": "08.SW",
+        "name": "Open-plan office"
+    },
+    {
+        "center": [
+            1500.0,
+            500.0,
+            3200.0
+        ],
+        "pr_OccupancyType": "Office:OpenPlan",
+        "space": "08.S",
+        "name": "Open-plan office"
+    },
+    {
+        "center": [
+            2500.0,
+            500.0,
+            3200.0
+        ],
+        "pr_OccupancyType": "Office:OpenPlan",
+        "space": "08.SE",
+        "name": "Open-plan office"
+    },
+    {
+        "center": [
+            2500.0,
+            1500.0,
+            3200.0
+        ],
+        "pr_OccupancyType": "Office:MeetingRoom",
+        "space": "08.E",
+        "name": "Meeting room"
+    },
+    {
+        "center": [
+            2500.0,
+            2500.0,
+            3200.0
+        ],
+        "pr_OccupancyType": "Office:OpenPlan",
+        "space": "08.NE",
+        "name": "Open-plan office"
+    },
+    {
+        "center": [
+            1500.0,
+            2500.0,
+            3200.0
+        ],
+        "pr_OccupancyType": "Office:OpenPlan",
+        "space": "08.N",
+        "name": "Open-plan office"
+    },
+    {
+        "center": [
+            500.0,
+            2500.0,
+            3200.0
+        ],
+        "pr_OccupancyType": "Office:OpenPlan",
+        "space": "08.NW",
+        "name": "Open-plan office"
+    },
+    {
+        "center": [
+            500.0,
+            1500.0,
+            3200.0
+        ],
+        "pr_OccupancyType": "Office:Private",
+        "space": "08.W",
+        "name": "Private offices"
+    },
+    {
+        "center": [
+            1500.0,
+            1500.0,
+            3560.0
+        ],
+        "pr_OccupancyType": "Circulation:Core",
+        "space": "09.CORE",
+        "name": "Core"
+    },
+    {
+        "center": [
+            500.0,
+            500.0,
+            3560.0
+        ],
+        "pr_OccupancyType": "Office:OpenPlan",
+        "space": "09.SW",
+        "name": "Open-plan office"
+    },
+    {
+        "center": [
+            1500.0,
+            500.0,
+            3560.0
+        ],
+        "pr_OccupancyType": "Office:OpenPlan",
+        "space": "09.S",
+        "name": "Open-plan office"
+    },
+    {
+        "center": [
+            2500.0,
+            500.0,
+            3560.0
+        ],
+        "pr_OccupancyType": "Office:OpenPlan",
+        "space": "09.SE",
+        "name": "Open-plan office"
+    },
+    {
+        "center": [
+            2500.0,
+            1500.0,
+            3560.0
+        ],
+        "pr_OccupancyType": "Office:MeetingRoom",
+        "space": "09.E",
+        "name": "Meeting room"
+    },
+    {
+        "center": [
+            2500.0,
+            2500.0,
+            3560.0
+        ],
+        "pr_OccupancyType": "Office:OpenPlan",
+        "space": "09.NE",
+        "name": "Open-plan office"
+    },
+    {
+        "center": [
+            1500.0,
+            2500.0,
+            3560.0
+        ],
+        "pr_OccupancyType": "Office:OpenPlan",
+        "space": "09.N",
+        "name": "Open-plan office"
+    },
+    {
+        "center": [
+            500.0,
+            2500.0,
+            3560.0
+        ],
+        "pr_OccupancyType": "Office:OpenPlan",
+        "space": "09.NW",
+        "name": "Open-plan office"
+    },
+    {
+        "center": [
+            500.0,
+            1500.0,
+            3560.0
+        ],
+        "pr_OccupancyType": "Office:Private",
+        "space": "09.W",
+        "name": "Private offices"
+    },
+    {
+        "center": [
+            1500.0,
+            1500.0,
+            3920.0
+        ],
+        "pr_OccupancyType": "Circulation:Core",
+        "space": "10.CORE",
+        "name": "Core"
+    },
+    {
+        "center": [
+            500.0,
+            500.0,
+            3920.0
+        ],
+        "pr_OccupancyType": "Office:OpenPlan",
+        "space": "10.SW",
+        "name": "Open-plan office"
+    },
+    {
+        "center": [
+            1500.0,
+            500.0,
+            3920.0
+        ],
+        "pr_OccupancyType": "Office:OpenPlan",
+        "space": "10.S",
+        "name": "Open-plan office"
+    },
+    {
+        "center": [
+            2500.0,
+            500.0,
+            3920.0
+        ],
+        "pr_OccupancyType": "Office:OpenPlan",
+        "space": "10.SE",
+        "name": "Open-plan office"
+    },
+    {
+        "center": [
+            2500.0,
+            1500.0,
+            3920.0
+        ],
+        "pr_OccupancyType": "Office:MeetingRoom",
+        "space": "10.E",
+        "name": "Meeting room"
+    },
+    {
+        "center": [
+            2500.0,
+            2500.0,
+            3920.0
+        ],
+        "pr_OccupancyType": "Office:OpenPlan",
+        "space": "10.NE",
+        "name": "Open-plan office"
+    },
+    {
+        "center": [
+            1500.0,
+            2500.0,
+            3920.0
+        ],
+        "pr_OccupancyType": "Office:OpenPlan",
+        "space": "10.N",
+        "name": "Open-plan office"
+    },
+    {
+        "center": [
+            500.0,
+            2500.0,
+            3920.0
+        ],
+        "pr_OccupancyType": "Office:OpenPlan",
+        "space": "10.NW",
+        "name": "Open-plan office"
+    },
+    {
+        "center": [
+            500.0,
+            1500.0,
+            3920.0
+        ],
+        "pr_OccupancyType": "Office:Private",
+        "space": "10.W",
+        "name": "Private offices"
+    },
+    {
+        "center": [
+            1500.0,
+            1500.0,
+            4280.0
+        ],
+        "pr_OccupancyType": "Circulation:Core",
+        "space": "11.CORE",
+        "name": "Core"
+    },
+    {
+        "center": [
+            500.0,
+            500.0,
+            4280.0
+        ],
+        "pr_OccupancyType": "Office:OpenPlan",
+        "space": "11.SW",
+        "name": "Open-plan office"
+    },
+    {
+        "center": [
+            1500.0,
+            500.0,
+            4280.0
+        ],
+        "pr_OccupancyType": "Office:OpenPlan",
+        "space": "11.S",
+        "name": "Open-plan office"
+    },
+    {
+        "center": [
+            2500.0,
+            500.0,
+            4280.0
+        ],
+        "pr_OccupancyType": "Office:OpenPlan",
+        "space": "11.SE",
+        "name": "Open-plan office"
+    },
+    {
+        "center": [
+            2500.0,
+            1500.0,
+            4280.0
+        ],
+        "pr_OccupancyType": "Office:MeetingRoom",
+        "space": "11.E",
+        "name": "Meeting room"
+    },
+    {
+        "center": [
+            2500.0,
+            2500.0,
+            4280.0
+        ],
+        "pr_OccupancyType": "Office:OpenPlan",
+        "space": "11.NE",
+        "name": "Open-plan office"
+    },
+    {
+        "center": [
+            1500.0,
+            2500.0,
+            4280.0
+        ],
+        "pr_OccupancyType": "Office:OpenPlan",
+        "space": "11.N",
+        "name": "Open-plan office"
+    },
+    {
+        "center": [
+            500.0,
+            2500.0,
+            4280.0
+        ],
+        "pr_OccupancyType": "Office:OpenPlan",
+        "space": "11.NW",
+        "name": "Open-plan office"
+    },
+    {
+        "center": [
+            500.0,
+            1500.0,
+            4280.0
+        ],
+        "pr_OccupancyType": "Office:Private",
+        "space": "11.W",
+        "name": "Private offices"
+    },
+    {
+        "center": [
+            1500.0,
+            1500.0,
+            4640.0
+        ],
+        "pr_OccupancyType": "Circulation:Core",
+        "space": "12.CORE",
+        "name": "Core"
+    },
+    {
+        "center": [
+            500.0,
+            500.0,
+            4640.0
+        ],
+        "pr_OccupancyType": "Office:OpenPlan",
+        "space": "12.SW",
+        "name": "Open-plan office"
+    },
+    {
+        "center": [
+            1500.0,
+            500.0,
+            4640.0
+        ],
+        "pr_OccupancyType": "Office:OpenPlan",
+        "space": "12.S",
+        "name": "Open-plan office"
+    },
+    {
+        "center": [
+            2500.0,
+            500.0,
+            4640.0
+        ],
+        "pr_OccupancyType": "Office:OpenPlan",
+        "space": "12.SE",
+        "name": "Open-plan office"
+    },
+    {
+        "center": [
+            2500.0,
+            1500.0,
+            4640.0
+        ],
+        "pr_OccupancyType": "Office:MeetingRoom",
+        "space": "12.E",
+        "name": "Meeting room"
+    },
+    {
+        "center": [
+            2500.0,
+            2500.0,
+            4640.0
+        ],
+        "pr_OccupancyType": "Office:OpenPlan",
+        "space": "12.NE",
+        "name": "Open-plan office"
+    },
+    {
+        "center": [
+            1500.0,
+            2500.0,
+            4640.0
+        ],
+        "pr_OccupancyType": "Office:OpenPlan",
+        "space": "12.N",
+        "name": "Open-plan office"
+    },
+    {
+        "center": [
+            500.0,
+            2500.0,
+            4640.0
+        ],
+        "pr_OccupancyType": "Office:OpenPlan",
+        "space": "12.NW",
+        "name": "Open-plan office"
+    },
+    {
+        "center": [
+            500.0,
+            1500.0,
+            4640.0
+        ],
+        "pr_OccupancyType": "Office:Private",
+        "space": "12.W",
+        "name": "Private offices"
+    },
+    {
+        "center": [
+            1500.0,
+            1500.0,
+            5000.0
+        ],
+        "pr_OccupancyType": "Circulation:Core",
+        "space": "13.CORE",
+        "name": "Core"
+    },
+    {
+        "center": [
+            500.0,
+            500.0,
+            5000.0
+        ],
+        "pr_OccupancyType": "Office:OpenPlan",
+        "space": "13.SW",
+        "name": "Open-plan office"
+    },
+    {
+        "center": [
+            1500.0,
+            500.0,
+            5000.0
+        ],
+        "pr_OccupancyType": "Office:OpenPlan",
+        "space": "13.S",
+        "name": "Open-plan office"
+    },
+    {
+        "center": [
+            2500.0,
+            500.0,
+            5000.0
+        ],
+        "pr_OccupancyType": "Office:OpenPlan",
+        "space": "13.SE",
+        "name": "Open-plan office"
+    },
+    {
+        "center": [
+            2500.0,
+            1500.0,
+            5000.0
+        ],
+        "pr_OccupancyType": "Office:MeetingRoom",
+        "space": "13.E",
+        "name": "Meeting room"
+    },
+    {
+        "center": [
+            2500.0,
+            2500.0,
+            5000.0
+        ],
+        "pr_OccupancyType": "Office:OpenPlan",
+        "space": "13.NE",
+        "name": "Open-plan office"
+    },
+    {
+        "center": [
+            1500.0,
+            2500.0,
+            5000.0
+        ],
+        "pr_OccupancyType": "Office:OpenPlan",
+        "space": "13.N",
+        "name": "Open-plan office"
+    },
+    {
+        "center": [
+            500.0,
+            2500.0,
+            5000.0
+        ],
+        "pr_OccupancyType": "Office:OpenPlan",
+        "space": "13.NW",
+        "name": "Open-plan office"
+    },
+    {
+        "center": [
+            500.0,
+            1500.0,
+            5000.0
+        ],
+        "pr_OccupancyType": "Office:Private",
+        "space": "13.W",
+        "name": "Private offices"
+    },
+    {
+        "center": [
+            1500.0,
+            1500.0,
+            5360.0
+        ],
+        "pr_OccupancyType": "Circulation:Core",
+        "space": "14.CORE",
+        "name": "Core"
+    },
+    {
+        "center": [
+            500.0,
+            500.0,
+            5360.0
+        ],
+        "pr_OccupancyType": "Office:OpenPlan",
+        "space": "14.SW",
+        "name": "Open-plan office"
+    },
+    {
+        "center": [
+            1500.0,
+            500.0,
+            5360.0
+        ],
+        "pr_OccupancyType": "Office:OpenPlan",
+        "space": "14.S",
+        "name": "Open-plan office"
+    },
+    {
+        "center": [
+            2500.0,
+            500.0,
+            5360.0
+        ],
+        "pr_OccupancyType": "Office:OpenPlan",
+        "space": "14.SE",
+        "name": "Open-plan office"
+    },
+    {
+        "center": [
+            2500.0,
+            1500.0,
+            5360.0
+        ],
+        "pr_OccupancyType": "Office:MeetingRoom",
+        "space": "14.E",
+        "name": "Meeting room"
+    },
+    {
+        "center": [
+            2500.0,
+            2500.0,
+            5360.0
+        ],
+        "pr_OccupancyType": "Office:OpenPlan",
+        "space": "14.NE",
+        "name": "Open-plan office"
+    },
+    {
+        "center": [
+            1500.0,
+            2500.0,
+            5360.0
+        ],
+        "pr_OccupancyType": "Office:OpenPlan",
+        "space": "14.N",
+        "name": "Open-plan office"
+    },
+    {
+        "center": [
+            500.0,
+            2500.0,
+            5360.0
+        ],
+        "pr_OccupancyType": "Office:OpenPlan",
+        "space": "14.NW",
+        "name": "Open-plan office"
+    },
+    {
+        "center": [
+            500.0,
+            1500.0,
+            5360.0
+        ],
+        "pr_OccupancyType": "Office:Private",
+        "space": "14.W",
+        "name": "Private offices"
+    },
+    {
+        "center": [
+            1500.0,
+            1500.0,
+            5720.0
+        ],
+        "pr_OccupancyType": "Circulation:Core",
+        "space": "15.CORE",
+        "name": "Core"
+    },
+    {
+        "center": [
+            500.0,
+            500.0,
+            5720.0
+        ],
+        "pr_OccupancyType": "Office:OpenPlan",
+        "space": "15.SW",
+        "name": "Open-plan office"
+    },
+    {
+        "center": [
+            1500.0,
+            500.0,
+            5720.0
+        ],
+        "pr_OccupancyType": "Office:OpenPlan",
+        "space": "15.S",
+        "name": "Open-plan office"
+    },
+    {
+        "center": [
+            2500.0,
+            500.0,
+            5720.0
+        ],
+        "pr_OccupancyType": "Office:OpenPlan",
+        "space": "15.SE",
+        "name": "Open-plan office"
+    },
+    {
+        "center": [
+            2500.0,
+            1500.0,
+            5720.0
+        ],
+        "pr_OccupancyType": "Office:MeetingRoom",
+        "space": "15.E",
+        "name": "Meeting room"
+    },
+    {
+        "center": [
+            2500.0,
+            2500.0,
+            5720.0
+        ],
+        "pr_OccupancyType": "Office:OpenPlan",
+        "space": "15.NE",
+        "name": "Open-plan office"
+    },
+    {
+        "center": [
+            1500.0,
+            2500.0,
+            5720.0
+        ],
+        "pr_OccupancyType": "Office:OpenPlan",
+        "space": "15.N",
+        "name": "Open-plan office"
+    },
+    {
+        "center": [
+            500.0,
+            2500.0,
+            5720.0
+        ],
+        "pr_OccupancyType": "Office:OpenPlan",
+        "space": "15.NW",
+        "name": "Open-plan office"
+    },
+    {
+        "center": [
+            500.0,
+            1500.0,
+            5720.0
+        ],
+        "pr_OccupancyType": "Office:Private",
+        "space": "15.W",
+        "name": "Private offices"
+    },
+    {
+        "center": [
+            1500.0,
+            1500.0,
+            6080.0
+        ],
+        "pr_OccupancyType": "Circulation:Core",
+        "space": "16.CORE",
+        "name": "Core"
+    },
+    {
+        "center": [
+            500.0,
+            500.0,
+            6080.0
+        ],
+        "pr_OccupancyType": "Office:OpenPlan",
+        "space": "16.SW",
+        "name": "Open-plan office"
+    },
+    {
+        "center": [
+            1500.0,
+            500.0,
+            6080.0
+        ],
+        "pr_OccupancyType": "Office:OpenPlan",
+        "space": "16.S",
+        "name": "Open-plan office"
+    },
+    {
+        "center": [
+            2500.0,
+            500.0,
+            6080.0
+        ],
+        "pr_OccupancyType": "Office:OpenPlan",
+        "space": "16.SE",
+        "name": "Open-plan office"
+    },
+    {
+        "center": [
+            2500.0,
+            1500.0,
+            6080.0
+        ],
+        "pr_OccupancyType": "Office:MeetingRoom",
+        "space": "16.E",
+        "name": "Meeting room"
+    },
+    {
+        "center": [
+            2500.0,
+            2500.0,
+            6080.0
+        ],
+        "pr_OccupancyType": "Office:OpenPlan",
+        "space": "16.NE",
+        "name": "Open-plan office"
+    },
+    {
+        "center": [
+            1500.0,
+            2500.0,
+            6080.0
+        ],
+        "pr_OccupancyType": "Office:OpenPlan",
+        "space": "16.N",
+        "name": "Open-plan office"
+    },
+    {
+        "center": [
+            500.0,
+            2500.0,
+            6080.0
+        ],
+        "pr_OccupancyType": "Office:OpenPlan",
+        "space": "16.NW",
+        "name": "Open-plan office"
+    },
+    {
+        "center": [
+            500.0,
+            1500.0,
+            6080.0
+        ],
+        "pr_OccupancyType": "Office:Private",
+        "space": "16.W",
+        "name": "Private offices"
+    },
+    {
+        "center": [
+            1500.0,
+            1500.0,
+            6440.0
+        ],
+        "pr_OccupancyType": "Circulation:Core",
+        "space": "17.CORE",
+        "name": "Core"
+    },
+    {
+        "center": [
+            500.0,
+            500.0,
+            6440.0
+        ],
+        "pr_OccupancyType": "Office:OpenPlan",
+        "space": "17.SW",
+        "name": "Open-plan office"
+    },
+    {
+        "center": [
+            1500.0,
+            500.0,
+            6440.0
+        ],
+        "pr_OccupancyType": "Office:OpenPlan",
+        "space": "17.S",
+        "name": "Open-plan office"
+    },
+    {
+        "center": [
+            2500.0,
+            500.0,
+            6440.0
+        ],
+        "pr_OccupancyType": "Office:OpenPlan",
+        "space": "17.SE",
+        "name": "Open-plan office"
+    },
+    {
+        "center": [
+            2500.0,
+            1500.0,
+            6440.0
+        ],
+        "pr_OccupancyType": "Office:MeetingRoom",
+        "space": "17.E",
+        "name": "Meeting room"
+    },
+    {
+        "center": [
+            2500.0,
+            2500.0,
+            6440.0
+        ],
+        "pr_OccupancyType": "Office:OpenPlan",
+        "space": "17.NE",
+        "name": "Open-plan office"
+    },
+    {
+        "center": [
+            1500.0,
+            2500.0,
+            6440.0
+        ],
+        "pr_OccupancyType": "Office:OpenPlan",
+        "space": "17.N",
+        "name": "Open-plan office"
+    },
+    {
+        "center": [
+            500.0,
+            2500.0,
+            6440.0
+        ],
+        "pr_OccupancyType": "Office:OpenPlan",
+        "space": "17.NW",
+        "name": "Open-plan office"
+    },
+    {
+        "center": [
+            500.0,
+            1500.0,
+            6440.0
+        ],
+        "pr_OccupancyType": "Office:Private",
+        "space": "17.W",
+        "name": "Private offices"
+    },
+    {
+        "center": [
+            1500.0,
+            1500.0,
+            6800.0
+        ],
+        "pr_OccupancyType": "Circulation:Core",
+        "space": "18.CORE",
+        "name": "Core"
+    },
+    {
+        "center": [
+            500.0,
+            500.0,
+            6800.0
+        ],
+        "pr_OccupancyType": "Office:OpenPlan",
+        "space": "18.SW",
+        "name": "Open-plan office"
+    },
+    {
+        "center": [
+            1500.0,
+            500.0,
+            6800.0
+        ],
+        "pr_OccupancyType": "Office:OpenPlan",
+        "space": "18.S",
+        "name": "Open-plan office"
+    },
+    {
+        "center": [
+            2500.0,
+            500.0,
+            6800.0
+        ],
+        "pr_OccupancyType": "Office:OpenPlan",
+        "space": "18.SE",
+        "name": "Open-plan office"
+    },
+    {
+        "center": [
+            2500.0,
+            1500.0,
+            6800.0
+        ],
+        "pr_OccupancyType": "Office:MeetingRoom",
+        "space": "18.E",
+        "name": "Meeting room"
+    },
+    {
+        "center": [
+            2500.0,
+            2500.0,
+            6800.0
+        ],
+        "pr_OccupancyType": "Office:OpenPlan",
+        "space": "18.NE",
+        "name": "Open-plan office"
+    },
+    {
+        "center": [
+            1500.0,
+            2500.0,
+            6800.0
+        ],
+        "pr_OccupancyType": "Office:OpenPlan",
+        "space": "18.N",
+        "name": "Open-plan office"
+    },
+    {
+        "center": [
+            500.0,
+            2500.0,
+            6800.0
+        ],
+        "pr_OccupancyType": "Office:OpenPlan",
+        "space": "18.NW",
+        "name": "Open-plan office"
+    },
+    {
+        "center": [
+            500.0,
+            1500.0,
+            6800.0
+        ],
+        "pr_OccupancyType": "Office:Private",
+        "space": "18.W",
+        "name": "Private offices"
+    },
+    {
+        "center": [
+            1500.0,
+            1500.0,
+            7160.0
+        ],
+        "pr_OccupancyType": "Circulation:Core",
+        "space": "19.CORE",
+        "name": "Core"
+    },
+    {
+        "center": [
+            500.0,
+            500.0,
+            7160.0
+        ],
+        "pr_OccupancyType": "Office:OpenPlan",
+        "space": "19.SW",
+        "name": "Open-plan office"
+    },
+    {
+        "center": [
+            1500.0,
+            500.0,
+            7160.0
+        ],
+        "pr_OccupancyType": "Office:OpenPlan",
+        "space": "19.S",
+        "name": "Open-plan office"
+    },
+    {
+        "center": [
+            2500.0,
+            500.0,
+            7160.0
+        ],
+        "pr_OccupancyType": "Office:OpenPlan",
+        "space": "19.SE",
+        "name": "Open-plan office"
+    },
+    {
+        "center": [
+            2500.0,
+            1500.0,
+            7160.0
+        ],
+        "pr_OccupancyType": "Office:MeetingRoom",
+        "space": "19.E",
+        "name": "Meeting room"
+    },
+    {
+        "center": [
+            2500.0,
+            2500.0,
+            7160.0
+        ],
+        "pr_OccupancyType": "Office:OpenPlan",
+        "space": "19.NE",
+        "name": "Open-plan office"
+    },
+    {
+        "center": [
+            1500.0,
+            2500.0,
+            7160.0
+        ],
+        "pr_OccupancyType": "Office:OpenPlan",
+        "space": "19.N",
+        "name": "Open-plan office"
+    },
+    {
+        "center": [
+            500.0,
+            2500.0,
+            7160.0
+        ],
+        "pr_OccupancyType": "Office:OpenPlan",
+        "space": "19.NW",
+        "name": "Open-plan office"
+    },
+    {
+        "center": [
+            500.0,
+            1500.0,
+            7160.0
+        ],
+        "pr_OccupancyType": "Office:Private",
+        "space": "19.W",
+        "name": "Private offices"
+    },
+    {
+        "center": [
+            1500.0,
+            1500.0,
+            7590.0
+        ],
+        "pr_OccupancyType": "Technical:Plant",
+        "space": "RF.PLANT",
+        "name": "Plant room"
+    }
+]

@@ -1,0 +1,150 @@
+[
+    {
+        "UID": "Cell0",
+        "pr_OccupancyType": "Retail:Shop"
+    },
+    {
+        "UID": "Cell1",
+        "pr_OccupancyType": "Circulation:Gallery"
+    },
+    {
+        "UID": "Cell10",
+        "pr_OccupancyType": "Retail:Shop"
+    },
+    {
+        "UID": "Cell11",
+        "pr_OccupancyType": "Circulation:Gallery"
+    },
+    {
+        "UID": "Cell12",
+        "pr_OccupancyType": "Retail:Shop"
+    },
+    {
+        "UID": "Cell13",
+        "pr_OccupancyType": "Retail:Shop"
+    },
+    {
+        "UID": "Cell14",
+        "pr_OccupancyType": "Retail:Shop"
+    },
+    {
+        "UID": "Cell15",
+        "pr_OccupancyType": "Retail:Shop"
+    },
+    {
+        "UID": "Cell16",
+        "pr_OccupancyType": "Retail:Shop"
+    },
+    {
+        "UID": "Cell17",
+        "pr_OccupancyType": "Retail:Shop"
+    },
+    {
+        "UID": "Cell18",
+        "pr_OccupancyType": "Retail:Shop"
+    },
+    {
+        "UID": "Cell19",
+        "pr_OccupancyType": "Retail:Shop"
+    },
+    {
+        "UID": "Cell2",
+        "pr_OccupancyType": "Retail:Shop"
+    },
+    {
+        "UID": "Cell20",
+        "pr_OccupancyType": "Retail:Shop"
+    },
+    {
+        "UID": "Cell21",
+        "pr_OccupancyType": "Retail:Shop"
+    },
+    {
+        "UID": "Cell22",
+        "pr_OccupancyType": "Retail:Shop"
+    },
+    {
+        "UID": "Cell23",
+        "pr_OccupancyType": "Retail:Shop"
+    },
+    {
+        "UID": "Cell24",
+        "pr_OccupancyType": "Retail:Shop"
+    },
+    {
+        "UID": "Cell25",
+        "pr_OccupancyType": "Retail:DepartmentStore"
+    },
+    {
+        "UID": "Cell26",
+        "pr_OccupancyType": "Retail:DepartmentStore"
+    },
+    {
+        "UID": "Cell27",
+        "pr_OccupancyType": "Retail:Shop"
+    },
+    {
+        "UID": "Cell28",
+        "pr_OccupancyType": "Retail:Shop"
+    },
+    {
+        "UID": "Cell29",
+        "pr_OccupancyType": "Retail:Shop"
+    },
+    {
+        "UID": "Cell3",
+        "pr_OccupancyType": "Circulation:EntranceHall"
+    },
+    {
+        "UID": "Cell30",
+        "pr_OccupancyType": "Retail:Shop"
+    },
+    {
+        "UID": "Cell31",
+        "pr_OccupancyType": "Retail:Shop"
+    },
+    {
+        "UID": "Cell32",
+        "pr_OccupancyType": "Retail:Shop"
+    },
+    {
+        "UID": "Cell33",
+        "pr_OccupancyType": "Retail:Shop"
+    },
+    {
+        "UID": "Cell34",
+        "pr_OccupancyType": "Retail:Shop"
+    },
+    {
+        "UID": "Cell35",
+        "pr_OccupancyType": "Technical:Plant"
+    },
+    {
+        "UID": "Cell36",
+        "pr_OccupancyType": "Technical:Plant"
+    },
+    {
+        "UID": "Cell4",
+        "pr_OccupancyType": "Retail:Shop"
+    },
+    {
+        "UID": "Cell5",
+        "pr_OccupancyType": "Retail:Shop"
+    },
+    {
+        "UID": "Cell6",
+        "pr_OccupancyType": "Retail:Shop"
+    },
+    {
+        "UID": "Cell7",
+        "pr_OccupancyType": "Retail:Shop"
+    },
+    {
+        "UID": "Cell8",
+        "pr_OccupancyType": "Food:FoodCourt"
+    },
+    {
+        "UID": "Cell9",
+        "pr_OccupancyType": "Retail:Shop"
+    }
+]

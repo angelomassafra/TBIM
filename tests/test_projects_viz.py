@@ -73,3 +73,16 @@ def test_aperture_polygons_from_demo():
     assert all(len(loop) == 4 and d.get("rl_HasLocation_inFC") for d, loop in polygons)
     with open(path) as f:
         assert len(tbimjson.aperture_polygons(json.load(f))) == len(polygons)
+
+
+# Export ------------------------------------------------------------------------------
+def test_export_topologic_formats(tmp_path):
+    from tbim import export
+    path = os.path.join(os.path.dirname(__file__), os.pardir, "projects", "Demo_School", "json",
+                        "tbim_CellComplex_IBIM.json")
+    assert export.file_name("Informational Controllers", ".brep") == "tbim_InformationalControllers.brep"
+    for _, extension in export.FORMATS:
+        out = export.export_model("InstanceBIM", path, extension, str(tmp_path))
+        assert os.path.getsize(out) > 0
+    graph = json.load(open(str(tmp_path / "tbim_InstanceBIM_graph.json")))
+    assert len(graph["nodes"]) == 9 and graph["edges"]

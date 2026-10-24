@@ -1,0 +1,95 @@
+{
+    "windows": [
+        [
+            "Office",
+            "TBIM_Finestra_Legno_Arco_120x240",
+            120,
+            240,
+            90
+        ],
+        [
+            "Archive",
+            "TBIM_Finestra_Inferriata_80x100",
+            80,
+            100,
+            220
+        ],
+        [
+            "Assembly",
+            "TBIM_Finestrone_Sala_Consiliare_160x420",
+            160,
+            420,
+            200
+        ],
+        [
+            "EntranceHall",
+            "TBIM_Finestra_Legno_Arco_120x240",
+            120,
+            240,
+            90
+        ],
+        [
+            "Corridor",
+            "TBIM_Finestra_Corridoio_100x200",
+            100,
+            200,
+            100
+        ],
+        [
+            "ClockTower",
+            "TBIM_Quadrante_Orologio_200x200",
+            200,
+            200,
+            300
+        ],
+        [
+            "Belfry",
+            "TBIM_Bifora_Campanaria_200x350",
+            200,
+            350,
+            200
+        ]
+    ],
+    "external_doors": [
+        [
+            "EntranceHall",
+            "TBIM_Portone_Municipio_250x380",
+            250,
+            380
+        ]
+    ],
+    "doors": [
+        [
+            "EntranceHall",
+            "Corridor",
+            "TBIM_Porta_Vetri_Atrio_160x280",
+            160,
+            280
+        ],
+        [
+            "CouncilChamber",
+            "Corridor",
+            "TBIM_Porta_Sala_Consiliare_160x300",
+            160,
+            300
+        ],
+        [
+            "Corridor",
+            "",
+            "TBIM_Porta_Legno_Pannelli_100x240",
+            100,
+            240
+        ]
+    ],
+    "window_data": {
+        "pr_FrameMaterial": "Wood",
+        "pr_Glazing": "Single glazing",
+        "pr_ThermalTransmittance": 4.9,
+        "pr_SolarFactor": 0.85,
+        "pr_ConstructionYear": 1912
+    },
+    "door_data": {
+        "pr_Material": "Wood",
+        "pr_ConstructionYear": 1912
+    }
+}

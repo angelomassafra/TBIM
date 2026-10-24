@@ -1,0 +1,245 @@
+# TBIM - faces of the CellComplex (cm)
+v 0 800 0
+v 0 800 500
+v 800 800 500
+v 800 800 0
+g intVer_intVerFace0
+f 1 2 3 4
+v 800 0 500
+v 800 0 0
+g intVer_intVerFace1
+f 3 5 6 4
+v 800 1500 500
+v 0 1500 500
+v 0 1500 0
+v 800 1500 0
+g intVer_intVerFace2
+f 7 8 9 10
+v 1500 0 0
+v 1500 0 500
+v 1500 800 500
+v 1500 800 0
+g intVer_intVerFace3
+f 11 12 13 14
+v 0 2200 500
+v 0 2200 0
+v 800 2200 0
+v 800 2200 500
+v 750 2200 500
+g intVer_intVerFace4
+f 15 16 17 18 19
+v 2200 0 0
+v 2200 0 500
+v 2200 800 500
+v 2200 800 0
+g intVer_intVerFace5
+f 20 21 22 23
+v 1500 3000 500
+v 1500 3000 0
+v 1500 2200 0
+v 1500 2200 500
+g intVer_intVerFace6
+f 24 25 26 27
+v 3000 800 500
+v 3000 800 0
+g intVer_intVerFace7
+f 28 29 23 22
+v 1500 3000 900
+v 1500 2200 900
+g intVer_intVerFace10
+f 30 31 27 24
+v 750 3000 500
+v 750 2200 900
+v 750 3000 900
+g intVer_intVerFace9
+f 32 19 33 34
+v 2200 2200 0
+v 2200 2200 500
+v 2200 3000 500
+v 2200 3000 0
+g intVer_intVerFace8
+f 35 36 37 38
+v 3000 1500 500
+v 2200 1500 500
+v 2200 1500 0
+v 3000 1500 0
+g intVer_intVerFace11
+f 39 40 41 42
+v 2250 2200 500
+v 2250 3000 500
+v 2250 3000 900
+v 2250 2200 900
+g intVer_intVerFace13
+f 43 44 45 46
+v 3000 2200 500
+v 3000 2200 0
+g intVer_intVerFace12
+f 47 43 36 35 48
+v 0 0 500
+v 0 0 0
+g extVer_extVerFace0
+f 5 49 50 6
+g extVer_extVerFace1
+f 49 2 1 50
+g extVer_extVerFace3
+f 1 2 8 9
+g extVer_extVerFace2
+f 3 4 10 7
+g extVer_extVerFace5
+f 5 6 11 12
+g extVer_extVerFace4
+f 13 14 4 3
+g extVer_extVerFace7
+f 15 16 9 8
+g extVer_extVerFace6
+f 17 18 7 10
+g extVer_extVerFace9
+f 20 21 12 11
+g extVer_extVerFace8
+f 22 23 14 13
+v 0 3000 500
+v 0 3000 0
+g extVer_extVerFace12
+f 51 52 16 15
+g extVer_extVerFace11
+f 26 17 18 27
+g extVer_extVerFace10
+f 51 52 25 24 32
+v 3000 0 0
+v 3000 0 500
+g extVer_extVerFace14
+f 53 54 21 20
+g extVer_extVerFace13
+f 53 54 28 29
+g extVer_extVerFace20
+f 34 30 24 32
+g extVer_extVerFace21
+f 31 33 19 18 27
+v 0 3000 900
+g extVer_extVerFace17
+f 55 34 32 51
+v 0 2200 900
+g extVer_extVerFace19
+f 56 55 51 15
+g extVer_extVerFace18
+f 33 56 15 19
+g extVer_extVerFace15
+f 37 38 25 24
+g extVer_extVerFace16
+f 35 36 27 26
+v 3000 800 900
+v 3000 0 900
+g extVer_extVerFace25
+f 57 58 54 28
+v 2200 800 900
+g extVer_extVerFace24
+f 59 57 28 22
+v 2200 0 900
+g extVer_extVerFace27
+f 60 59 22 21
+g extVer_extVerFace26
+f 58 60 21 54
+g extVer_extVerFace22
+f 28 29 42 39
+g extVer_extVerFace23
+f 40 41 23 22
+g extVer_extVerFace31
+f 36 43 46 31 27
+g extVer_extVerFace30
+f 45 44 37 24 30
+v 3000 3000 500
+v 3000 3000 0
+g extVer_extVerFace28
+f 44 61 62 38 37
+g extVer_extVerFace29
+f 47 61 62 48
+v 2850 650 1250
+v 2850 150 1250
+v 2850 150 900
+v 2850 650 900
+g extVer_extVerFace35
+f 63 64 65 66
+v 2350 650 1250
+v 2350 650 900
+g extVer_extVerFace34
+f 67 63 66 68
+v 2350 150 1250
+v 2350 150 900
+g extVer_extVerFace37
+f 69 67 68 70
+g extVer_extVerFace36
+f 64 69 70 65
+g extVer_extVerFace33
+f 40 41 35 36
+g extVer_extVerFace32
+f 48 47 39 42
+v 3000 3000 900
+g extVer_extVerFace38
+f 71 61 44 45
+v 3000 2200 900
+g extVer_extVerFace40
+f 47 72 46 43
+g extVer_extVerFace39
+f 72 71 61 47
+g topHor_topHorFace0
+f 3 5 49 2
+g topHor_topHorFace1
+f 2 3 7 8
+g topHor_topHorFace2
+f 3 5 12 13
+g topHor_topHorFace3
+f 19 15 8 7 18
+g topHor_topHorFace4
+f 21 22 13 12
+g topHor_topHorFace6
+f 31 33 34 30
+g topHor_topHorFace5
+f 33 56 55 34
+g intHor_intHorFace4
+f 57 58 60 59
+g topHor_topHorFace7
+f 39 40 22 28
+g topHor_topHorFace9
+f 30 31 46 45
+g topHor_topHorFace11
+f 63 64 69 67
+g topHor_topHorFace10
+f 47 43 36 40 39
+g topHor_topHorFace12
+f 72 71 45 46
+g botHor_botHorFace0
+f 1 4 6 50
+g botHor_botHorFace1
+f 9 10 4 1
+g botHor_botHorFace2
+f 14 11 6 4
+g botHor_botHorFace3
+f 16 17 10 9
+g botHor_botHorFace4
+f 23 20 11 14
+g botHor_botHorFace5
+f 52 25 26 17 16
+g botHor_botHorFace6
+f 29 53 20 23
+g botHor_botHorFace7
+f 38 35 26 25
+g botHor_botHorFace8
+f 41 42 29 23
+g botHor_botHorFace9
+f 62 48 35 38
+g botHor_botHorFace10
+f 48 42 41 35
+g intHor_intHorFace1
+f 27 24 32 19 18
+g intHor_intHorFace0
+f 32 51 15 19
+g intHor_intHorFace2
+f 54 28 22 21
+g intHor_intHorFace3
+f 36 37 24 27
+g intHor_intHorFace4
+f 66 65 70 68
+g intHor_intHorFace5
+f 36 37 44 43
+g intHor_intHorFace6
+f 43 44 61 47

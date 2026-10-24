@@ -1,0 +1,17 @@
+[
+    {
+        "cnFC_equalTo_pr_TopologicalType": "extVer",
+        "stFC_WallTypeName": "TBIM_Muro_Laterizio_Isolato_350",
+        "stFC_ThermalTransmittance": 0.95,
+        "stFC_Layers": "Plaster / perforated brick 25 / polystyrene 3 / facing brick 6",
+        "stFC_ConstructionYear": 1978
+    },
+    {
+        "cnFC_equalTo_pr_TopologicalType": "extVer",
+        "cnFC_contains_pr_OccupancyType": "Gym",
+        "stFC_WallTypeName": "TBIM_Pannello_Prefabbricato_CA_300",
+        "stFC_ThermalTransmittance": 1.2,
+        "stFC_Layers": "Precast sandwich panel: RC 8 / polystyrene 4 / RC 12",
+        "stFC_ConstructionYear": 1978
+    }
+]

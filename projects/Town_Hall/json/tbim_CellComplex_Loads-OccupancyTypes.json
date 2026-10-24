@@ -1,0 +1,142 @@
+[
+    {
+        "UID": "Cell0",
+        "pr_OccupancyType": "Office:PublicDesk"
+    },
+    {
+        "UID": "Cell1",
+        "pr_OccupancyType": "Circulation:Corridor"
+    },
+    {
+        "UID": "Cell10",
+        "pr_OccupancyType": "Office:Administration"
+    },
+    {
+        "UID": "Cell11",
+        "pr_OccupancyType": "Office:Administration"
+    },
+    {
+        "UID": "Cell12",
+        "pr_OccupancyType": "Circulation:Corridor"
+    },
+    {
+        "UID": "Cell13",
+        "pr_OccupancyType": "Archive:Records"
+    },
+    {
+        "UID": "Cell14",
+        "pr_OccupancyType": "Office:PublicDesk"
+    },
+    {
+        "UID": "Cell15",
+        "pr_OccupancyType": "Assembly:CouncilChamber"
+    },
+    {
+        "UID": "Cell16",
+        "pr_OccupancyType": "Circulation:Corridor"
+    },
+    {
+        "UID": "Cell17",
+        "pr_OccupancyType": "Office:Administration"
+    },
+    {
+        "UID": "Cell18",
+        "pr_OccupancyType": "Unconditioned:Attic"
+    },
+    {
+        "UID": "Cell19",
+        "pr_OccupancyType": "Office:Administration"
+    },
+    {
+        "UID": "Cell2",
+        "pr_OccupancyType": "Office:Registry"
+    },
+    {
+        "UID": "Cell20",
+        "pr_OccupancyType": "Office:Administration"
+    },
+    {
+        "UID": "Cell21",
+        "pr_OccupancyType": "Archive:Records"
+    },
+    {
+        "UID": "Cell22",
+        "pr_OccupancyType": "Office:Registry"
+    },
+    {
+        "UID": "Cell23",
+        "pr_OccupancyType": "Circulation:Corridor"
+    },
+    {
+        "UID": "Cell24",
+        "pr_OccupancyType": "Office:Administration"
+    },
+    {
+        "UID": "Cell25",
+        "pr_OccupancyType": "Office:Private"
+    },
+    {
+        "UID": "Cell26",
+        "pr_OccupancyType": "Circulation:Corridor"
+    },
+    {
+        "UID": "Cell27",
+        "pr_OccupancyType": "Office:Administration"
+    },
+    {
+        "UID": "Cell28",
+        "pr_OccupancyType": "Office:Administration"
+    },
+    {
+        "UID": "Cell29",
+        "pr_OccupancyType": "Civic:ClockTower"
+    },
+    {
+        "UID": "Cell3",
+        "pr_OccupancyType": "Office:Private"
+    },
+    {
+        "UID": "Cell30",
+        "pr_OccupancyType": "Office:Administration"
+    },
+    {
+        "UID": "Cell31",
+        "pr_OccupancyType": "Office:Administration"
+    },
+    {
+        "UID": "Cell32",
+        "pr_OccupancyType": "Office:Administration"
+    },
+    {
+        "UID": "Cell33",
+        "pr_OccupancyType": "Office:Private"
+    },
+    {
+        "UID": "Cell34",
+        "pr_OccupancyType": "Civic:Belfry"
+    },
+    {
+        "UID": "Cell4",
+        "pr_OccupancyType": "Archive:Records"
+    },
+    {
+        "UID": "Cell5",
+        "pr_OccupancyType": "Archive:Records"
+    },
+    {
+        "UID": "Cell6",
+        "pr_OccupancyType": "Circulation:EntranceHall"
+    },
+    {
+        "UID": "Cell7",
+        "pr_OccupancyType": "Circulation:Corridor"
+    },
+    {
+        "UID": "Cell8",
+        "pr_OccupancyType": "Office:Private"
+    },
+    {
+        "UID": "Cell9",
+        "pr_OccupancyType": "Office:Administration"
+    }
+]

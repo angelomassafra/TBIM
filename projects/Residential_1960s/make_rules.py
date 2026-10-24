@@ -102,7 +102,8 @@ IRS = {
     ],
 }
 
-for name, data in [("tbim_ILDs.json", ILDS), ("tbim_InstanceBIM_byOccupancyType.json", BY_OCCUPANCY)] + list(IRS.items()):
+OUTPUTS = [("tbim_ILDs.json", ILDS), ("tbim_InstanceBIM_byOccupancyType.json", BY_OCCUPANCY)] + list(IRS.items())
+for name, data in OUTPUTS:
     with open(os.path.join(HERE, name), "w", encoding="utf-8") as f:
         json.dump(data, f, indent=4, ensure_ascii=False)
     print("written", name, len(data))

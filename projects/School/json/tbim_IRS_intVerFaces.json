@@ -1,0 +1,25 @@
+[
+    {
+        "cnFC_equalTo_pr_TopologicalType": "intVer",
+        "stFC_WallTypeName": "TBIM_Tramezzo_Forato_120",
+        "stFC_ThermalTransmittance": 2.1,
+        "stFC_Layers": "Plaster / hollow brick 10 / plaster",
+        "stFC_ConstructionYear": 1978
+    },
+    {
+        "cnFC_equalTo_pr_TopologicalType": "intVer",
+        "cnFC_contains_pr_OccupancyType": "Corridor",
+        "stFC_WallTypeName": "TBIM_Muro_Corridoio_250",
+        "stFC_ThermalTransmittance": 1.3,
+        "stFC_Layers": "Plaster / perforated brick 22 / plaster",
+        "stFC_ConstructionYear": 1978
+    },
+    {
+        "cnFC_equalTo_pr_TopologicalType": "intVer",
+        "cnFC_contains_pr_OccupancyType": "Gym",
+        "stFC_WallTypeName": "TBIM_Muro_Palestra_CA_300",
+        "stFC_ThermalTransmittance": 2.0,
+        "stFC_Layers": "Reinforced concrete 30",
+        "stFC_ConstructionYear": 1978
+    }
+]

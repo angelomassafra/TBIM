@@ -1,0 +1,9 @@
+[
+    {
+        "cnFC_equalTo_pr_TopologicalType": "topHor",
+        "stFC_RoofTypeName": "TBIM_Copertura_Rovescia_450",
+        "stFC_ThermalTransmittance": 0.22,
+        "stFC_Layers": "Gravel / XPS 16 / waterproofing / RC slab 30",
+        "stFC_ConstructionYear": 2022
+    }
+]

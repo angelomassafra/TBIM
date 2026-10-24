@@ -1,0 +1,17 @@
+[
+    {
+        "cnFC_equalTo_pr_TopologicalType": "extVer",
+        "stFC_WallTypeName": "TBIM_Muratura_Tufo_Scarpata_900",
+        "stFC_ThermalTransmittance": 0.95,
+        "stFC_Layers": "Lime plaster / tuff ashlar 85 with battered base / whitewash",
+        "stFC_ConstructionYear": 1760
+    },
+    {
+        "cnFC_equalTo_pr_TopologicalType": "extVer",
+        "cnFC_contains_pr_OccupancyType": "Dovecote",
+        "stFC_WallTypeName": "TBIM_Muratura_Tufo_400",
+        "stFC_ThermalTransmittance": 1.6,
+        "stFC_Layers": "Tuff ashlar 40 with nesting holes",
+        "stFC_ConstructionYear": 1760
+    }
+]

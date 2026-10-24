@@ -1,0 +1,17 @@
+[
+    {
+        "cnFC_equalTo_pr_TopologicalType": "intHor",
+        "stFC_FloorTypeName": "TBIM_Solaio_Putrelle_Voltine_350",
+        "stFC_ThermalTransmittance": 1.4,
+        "stFC_Layers": "Terrazzo / screed / steel I-beams with brick vaults",
+        "stFC_ConstructionYear": 1912
+    },
+    {
+        "cnFC_equalTo_pr_TopologicalType": "intHor",
+        "cnFC_contains_pr_OccupancyType": "Attic",
+        "stFC_FloorTypeName": "TBIM_Solaio_Sottotetto_Incannucciato_250",
+        "stFC_ThermalTransmittance": 1.6,
+        "stFC_Layers": "Timber floor / reed-and-plaster ceiling",
+        "stFC_ConstructionYear": 1912
+    }
+]

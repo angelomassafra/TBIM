@@ -1,0 +1,132 @@
+[
+    {
+        "pr_OccupancyType": "Residential:Bedroom",
+        "pr_OccupancyDensityOperation": 0.05,
+        "pr_OccupancyDensitySafety": 0.05,
+        "pr_MechanicalVentilationRatePerPerson": 0,
+        "pr_MechanicalVentilationRatePerVolume": 0,
+        "pr_NaturalVentilationRate": 0.5,
+        "pr_SpaceTemperatureWinterMin": 18,
+        "pr_SpaceTemperatureSummerMax": "NaN"
+    },
+    {
+        "pr_OccupancyType": "Residential:LivingRoom",
+        "pr_OccupancyDensityOperation": 0.05,
+        "pr_OccupancyDensitySafety": 0.05,
+        "pr_MechanicalVentilationRatePerPerson": 0,
+        "pr_MechanicalVentilationRatePerVolume": 0,
+        "pr_NaturalVentilationRate": 0.5,
+        "pr_SpaceTemperatureWinterMin": 18,
+        "pr_SpaceTemperatureSummerMax": "NaN"
+    },
+    {
+        "pr_OccupancyType": "Residential:Kitchen",
+        "pr_OccupancyDensityOperation": 0.05,
+        "pr_OccupancyDensitySafety": 0.05,
+        "pr_MechanicalVentilationRatePerPerson": 0,
+        "pr_MechanicalVentilationRatePerVolume": 0,
+        "pr_NaturalVentilationRate": 0.5,
+        "pr_SpaceTemperatureWinterMin": 18,
+        "pr_SpaceTemperatureSummerMax": "NaN"
+    },
+    {
+        "pr_OccupancyType": "Residential:Dwelling",
+        "pr_OccupancyDensityOperation": 0.05,
+        "pr_OccupancyDensitySafety": 0.05,
+        "pr_MechanicalVentilationRatePerPerson": 0,
+        "pr_MechanicalVentilationRatePerVolume": 0,
+        "pr_NaturalVentilationRate": 0.5,
+        "pr_SpaceTemperatureWinterMin": 18,
+        "pr_SpaceTemperatureSummerMax": "NaN"
+    },
+    {
+        "pr_OccupancyType": "Circulation:Passage",
+        "pr_OccupancyDensityOperation": 0,
+        "pr_OccupancyDensitySafety": 0,
+        "pr_MechanicalVentilationRatePerPerson": 0,
+        "pr_MechanicalVentilationRatePerVolume": 0,
+        "pr_NaturalVentilationRate": 0.5,
+        "pr_SpaceTemperatureWinterMin": "NaN",
+        "pr_SpaceTemperatureSummerMax": "NaN"
+    },
+    {
+        "pr_OccupancyType": "Religious:Chapel",
+        "pr_OccupancyDensityOperation": 0.05,
+        "pr_OccupancyDensitySafety": 0.05,
+        "pr_MechanicalVentilationRatePerPerson": 0,
+        "pr_MechanicalVentilationRatePerVolume": 0,
+        "pr_NaturalVentilationRate": 0.5,
+        "pr_SpaceTemperatureWinterMin": "NaN",
+        "pr_SpaceTemperatureSummerMax": "NaN"
+    },
+    {
+        "pr_OccupancyType": "Agricultural:Stable",
+        "pr_OccupancyDensityOperation": 0,
+        "pr_OccupancyDensitySafety": 0,
+        "pr_MechanicalVentilationRatePerPerson": 0,
+        "pr_MechanicalVentilationRatePerVolume": 0,
+        "pr_NaturalVentilationRate": 0.5,
+        "pr_SpaceTemperatureWinterMin": "NaN",
+        "pr_SpaceTemperatureSummerMax": "NaN"
+    },
+    {
+        "pr_OccupancyType": "Agricultural:Storage",
+        "pr_OccupancyDensityOperation": 0,
+        "pr_OccupancyDensitySafety": 0,
+        "pr_MechanicalVentilationRatePerPerson": 0,
+        "pr_MechanicalVentilationRatePerVolume": 0,
+        "pr_NaturalVentilationRate": 0.5,
+        "pr_SpaceTemperatureWinterMin": "NaN",
+        "pr_SpaceTemperatureSummerMax": "NaN"
+    },
+    {
+        "pr_OccupancyType": "Agricultural:Granary",
+        "pr_OccupancyDensityOperation": 0,
+        "pr_OccupancyDensitySafety": 0,
+        "pr_MechanicalVentilationRatePerPerson": 0,
+        "pr_MechanicalVentilationRatePerVolume": 0,
+        "pr_NaturalVentilationRate": 0.5,
+        "pr_SpaceTemperatureWinterMin": "NaN",
+        "pr_SpaceTemperatureSummerMax": "NaN"
+    },
+    {
+        "pr_OccupancyType": "Agricultural:OilMill",
+        "pr_OccupancyDensityOperation": 0.05,
+        "pr_OccupancyDensitySafety": 0.05,
+        "pr_MechanicalVentilationRatePerPerson": 0,
+        "pr_MechanicalVentilationRatePerVolume": 0,
+        "pr_NaturalVentilationRate": 0.5,
+        "pr_SpaceTemperatureWinterMin": "NaN",
+        "pr_SpaceTemperatureSummerMax": "NaN"
+    },
+    {
+        "pr_OccupancyType": "Agricultural:WineCellar",
+        "pr_OccupancyDensityOperation": 0,
+        "pr_OccupancyDensitySafety": 0,
+        "pr_MechanicalVentilationRatePerPerson": 0,
+        "pr_MechanicalVentilationRatePerVolume": 0,
+        "pr_NaturalVentilationRate": 0.5,
+        "pr_SpaceTemperatureWinterMin": "NaN",
+        "pr_SpaceTemperatureSummerMax": "NaN"
+    },
+    {
+        "pr_OccupancyType": "Defensive:Tower",
+        "pr_OccupancyDensityOperation": 0,
+        "pr_OccupancyDensitySafety": 0,
+        "pr_MechanicalVentilationRatePerPerson": 0,
+        "pr_MechanicalVentilationRatePerVolume": 0,
+        "pr_NaturalVentilationRate": 0.5,
+        "pr_SpaceTemperatureWinterMin": "NaN",
+        "pr_SpaceTemperatureSummerMax": "NaN"
+    },
+    {
+        "pr_OccupancyType": "Agricultural:Dovecote",
+        "pr_OccupancyDensityOperation": 0,
+        "pr_OccupancyDensitySafety": 0,
+        "pr_MechanicalVentilationRatePerPerson": 0,
+        "pr_MechanicalVentilationRatePerVolume": 0,
+        "pr_NaturalVentilationRate": 0.5,
+        "pr_SpaceTemperatureWinterMin": "NaN",
+        "pr_SpaceTemperatureSummerMax": "NaN"
+    }
+]

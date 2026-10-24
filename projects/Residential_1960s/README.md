@@ -38,6 +38,8 @@ Construction (typical of Italian 1960s condominiums), as Informational Rule Sets
   Copertura = roof), room list (`json/rooms.json`), table of spaces.
 - `make_rules.py`: ILDs (residential, 1960s: heated, naturally ventilated, not cooled), InstanceBIM data, IRSs.
 - `json/`: TBIM data of every step; `3d/`: BReps; `img/`: views exported from Revit.
+- `Residential_1960s.rvt`: Revit 2026 model at the end of the workflow.
+- `export/`: IFC4 with the TBIM property sets, InstanceBIM as topologicpy JSON, BREP, OBJ and dual graph.
 
 Room and space names are in Italian, as in the original drawings (soggiorno = living room, letto = bedroom,
 cucina = kitchen, bagno = bathroom, scala = stair, autorimessa/box = garage, sottotetto = attic).

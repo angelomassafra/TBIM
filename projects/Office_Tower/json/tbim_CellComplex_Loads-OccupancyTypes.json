@@ -1,0 +1,726 @@
+[
+    {
+        "UID": "Cell0",
+        "pr_OccupancyType": "Circulation:Core"
+    },
+    {
+        "UID": "Cell1",
+        "pr_OccupancyType": "Circulation:Lobby"
+    },
+    {
+        "UID": "Cell10",
+        "pr_OccupancyType": "Office:MeetingRoom"
+    },
+    {
+        "UID": "Cell100",
+        "pr_OccupancyType": "Office:MeetingRoom"
+    },
+    {
+        "UID": "Cell101",
+        "pr_OccupancyType": "Office:OpenPlan"
+    },
+    {
+        "UID": "Cell102",
+        "pr_OccupancyType": "Office:OpenPlan"
+    },
+    {
+        "UID": "Cell103",
+        "pr_OccupancyType": "Office:Private"
+    },
+    {
+        "UID": "Cell104",
+        "pr_OccupancyType": "Circulation:Core"
+    },
+    {
+        "UID": "Cell105",
+        "pr_OccupancyType": "Office:OpenPlan"
+    },
+    {
+        "UID": "Cell106",
+        "pr_OccupancyType": "Office:OpenPlan"
+    },
+    {
+        "UID": "Cell107",
+        "pr_OccupancyType": "Office:OpenPlan"
+    },
+    {
+        "UID": "Cell108",
+        "pr_OccupancyType": "Office:OpenPlan"
+    },
+    {
+        "UID": "Cell109",
+        "pr_OccupancyType": "Office:MeetingRoom"
+    },
+    {
+        "UID": "Cell11",
+        "pr_OccupancyType": "Food:Cafe"
+    },
+    {
+        "UID": "Cell110",
+        "pr_OccupancyType": "Office:OpenPlan"
+    },
+    {
+        "UID": "Cell111",
+        "pr_OccupancyType": "Office:OpenPlan"
+    },
+    {
+        "UID": "Cell112",
+        "pr_OccupancyType": "Office:Private"
+    },
+    {
+        "UID": "Cell113",
+        "pr_OccupancyType": "Circulation:Core"
+    },
+    {
+        "UID": "Cell114",
+        "pr_OccupancyType": "Office:OpenPlan"
+    },
+    {
+        "UID": "Cell115",
+        "pr_OccupancyType": "Office:OpenPlan"
+    },
+    {
+        "UID": "Cell116",
+        "pr_OccupancyType": "Office:OpenPlan"
+    },
+    {
+        "UID": "Cell117",
+        "pr_OccupancyType": "Office:OpenPlan"
+    },
+    {
+        "UID": "Cell118",
+        "pr_OccupancyType": "Office:MeetingRoom"
+    },
+    {
+        "UID": "Cell119",
+        "pr_OccupancyType": "Office:OpenPlan"
+    },
+    {
+        "UID": "Cell12",
+        "pr_OccupancyType": "Office:OpenPlan"
+    },
+    {
+        "UID": "Cell120",
+        "pr_OccupancyType": "Office:OpenPlan"
+    },
+    {
+        "UID": "Cell121",
+        "pr_OccupancyType": "Office:Private"
+    },
+    {
+        "UID": "Cell122",
+        "pr_OccupancyType": "Circulation:Core"
+    },
+    {
+        "UID": "Cell123",
+        "pr_OccupancyType": "Office:OpenPlan"
+    },
+    {
+        "UID": "Cell124",
+        "pr_OccupancyType": "Office:OpenPlan"
+    },
+    {
+        "UID": "Cell125",
+        "pr_OccupancyType": "Office:OpenPlan"
+    },
+    {
+        "UID": "Cell126",
+        "pr_OccupancyType": "Office:OpenPlan"
+    },
+    {
+        "UID": "Cell127",
+        "pr_OccupancyType": "Office:MeetingRoom"
+    },
+    {
+        "UID": "Cell128",
+        "pr_OccupancyType": "Office:OpenPlan"
+    },
+    {
+        "UID": "Cell129",
+        "pr_OccupancyType": "Office:OpenPlan"
+    },
+    {
+        "UID": "Cell13",
+        "pr_OccupancyType": "Office:Private"
+    },
+    {
+        "UID": "Cell130",
+        "pr_OccupancyType": "Office:Private"
+    },
+    {
+        "UID": "Cell131",
+        "pr_OccupancyType": "Circulation:Core"
+    },
+    {
+        "UID": "Cell132",
+        "pr_OccupancyType": "Office:OpenPlan"
+    },
+    {
+        "UID": "Cell133",
+        "pr_OccupancyType": "Office:OpenPlan"
+    },
+    {
+        "UID": "Cell134",
+        "pr_OccupancyType": "Office:OpenPlan"
+    },
+    {
+        "UID": "Cell135",
+        "pr_OccupancyType": "Office:OpenPlan"
+    },
+    {
+        "UID": "Cell136",
+        "pr_OccupancyType": "Office:MeetingRoom"
+    },
+    {
+        "UID": "Cell137",
+        "pr_OccupancyType": "Office:OpenPlan"
+    },
+    {
+        "UID": "Cell138",
+        "pr_OccupancyType": "Office:OpenPlan"
+    },
+    {
+        "UID": "Cell139",
+        "pr_OccupancyType": "Office:Private"
+    },
+    {
+        "UID": "Cell14",
+        "pr_OccupancyType": "Circulation:Core"
+    },
+    {
+        "UID": "Cell140",
+        "pr_OccupancyType": "Circulation:Core"
+    },
+    {
+        "UID": "Cell141",
+        "pr_OccupancyType": "Office:OpenPlan"
+    },
+    {
+        "UID": "Cell142",
+        "pr_OccupancyType": "Office:OpenPlan"
+    },
+    {
+        "UID": "Cell143",
+        "pr_OccupancyType": "Office:OpenPlan"
+    },
+    {
+        "UID": "Cell144",
+        "pr_OccupancyType": "Office:OpenPlan"
+    },
+    {
+        "UID": "Cell145",
+        "pr_OccupancyType": "Office:MeetingRoom"
+    },
+    {
+        "UID": "Cell146",
+        "pr_OccupancyType": "Office:OpenPlan"
+    },
+    {
+        "UID": "Cell147",
+        "pr_OccupancyType": "Office:OpenPlan"
+    },
+    {
+        "UID": "Cell148",
+        "pr_OccupancyType": "Office:Private"
+    },
+    {
+        "UID": "Cell149",
+        "pr_OccupancyType": "Circulation:Core"
+    },
+    {
+        "UID": "Cell15",
+        "pr_OccupancyType": "Office:OpenPlan"
+    },
+    {
+        "UID": "Cell150",
+        "pr_OccupancyType": "Office:OpenPlan"
+    },
+    {
+        "UID": "Cell151",
+        "pr_OccupancyType": "Office:OpenPlan"
+    },
+    {
+        "UID": "Cell152",
+        "pr_OccupancyType": "Office:OpenPlan"
+    },
+    {
+        "UID": "Cell153",
+        "pr_OccupancyType": "Office:OpenPlan"
+    },
+    {
+        "UID": "Cell154",
+        "pr_OccupancyType": "Office:MeetingRoom"
+    },
+    {
+        "UID": "Cell155",
+        "pr_OccupancyType": "Office:OpenPlan"
+    },
+    {
+        "UID": "Cell156",
+        "pr_OccupancyType": "Office:OpenPlan"
+    },
+    {
+        "UID": "Cell157",
+        "pr_OccupancyType": "Office:Private"
+    },
+    {
+        "UID": "Cell158",
+        "pr_OccupancyType": "Circulation:Core"
+    },
+    {
+        "UID": "Cell159",
+        "pr_OccupancyType": "Office:OpenPlan"
+    },
+    {
+        "UID": "Cell16",
+        "pr_OccupancyType": "Office:OpenPlan"
+    },
+    {
+        "UID": "Cell160",
+        "pr_OccupancyType": "Office:OpenPlan"
+    },
+    {
+        "UID": "Cell161",
+        "pr_OccupancyType": "Office:OpenPlan"
+    },
+    {
+        "UID": "Cell162",
+        "pr_OccupancyType": "Office:OpenPlan"
+    },
+    {
+        "UID": "Cell163",
+        "pr_OccupancyType": "Office:MeetingRoom"
+    },
+    {
+        "UID": "Cell164",
+        "pr_OccupancyType": "Office:OpenPlan"
+    },
+    {
+        "UID": "Cell165",
+        "pr_OccupancyType": "Office:OpenPlan"
+    },
+    {
+        "UID": "Cell166",
+        "pr_OccupancyType": "Office:Private"
+    },
+    {
+        "UID": "Cell167",
+        "pr_OccupancyType": "Circulation:Core"
+    },
+    {
+        "UID": "Cell168",
+        "pr_OccupancyType": "Office:OpenPlan"
+    },
+    {
+        "UID": "Cell169",
+        "pr_OccupancyType": "Office:OpenPlan"
+    },
+    {
+        "UID": "Cell17",
+        "pr_OccupancyType": "Office:OpenPlan"
+    },
+    {
+        "UID": "Cell170",
+        "pr_OccupancyType": "Office:OpenPlan"
+    },
+    {
+        "UID": "Cell171",
+        "pr_OccupancyType": "Office:OpenPlan"
+    },
+    {
+        "UID": "Cell172",
+        "pr_OccupancyType": "Office:MeetingRoom"
+    },
+    {
+        "UID": "Cell173",
+        "pr_OccupancyType": "Office:OpenPlan"
+    },
+    {
+        "UID": "Cell174",
+        "pr_OccupancyType": "Office:OpenPlan"
+    },
+    {
+        "UID": "Cell175",
+        "pr_OccupancyType": "Office:Private"
+    },
+    {
+        "UID": "Cell176",
+        "pr_OccupancyType": "Technical:Plant"
+    },
+    {
+        "UID": "Cell177",
+        "pr_OccupancyType": "Office:OpenPlan"
+    },
+    {
+        "UID": "Cell178",
+        "pr_OccupancyType": "Office:OpenPlan"
+    },
+    {
+        "UID": "Cell179",
+        "pr_OccupancyType": "Office:OpenPlan"
+    },
+    {
+        "UID": "Cell18",
+        "pr_OccupancyType": "Office:OpenPlan"
+    },
+    {
+        "UID": "Cell180",
+        "pr_OccupancyType": "Office:OpenPlan"
+    },
+    {
+        "UID": "Cell19",
+        "pr_OccupancyType": "Office:MeetingRoom"
+    },
+    {
+        "UID": "Cell2",
+        "pr_OccupancyType": "Circulation:Lobby"
+    },
+    {
+        "UID": "Cell20",
+        "pr_OccupancyType": "Office:OpenPlan"
+    },
+    {
+        "UID": "Cell21",
+        "pr_OccupancyType": "Office:OpenPlan"
+    },
+    {
+        "UID": "Cell22",
+        "pr_OccupancyType": "Office:Private"
+    },
+    {
+        "UID": "Cell23",
+        "pr_OccupancyType": "Circulation:Core"
+    },
+    {
+        "UID": "Cell24",
+        "pr_OccupancyType": "Office:OpenPlan"
+    },
+    {
+        "UID": "Cell25",
+        "pr_OccupancyType": "Office:OpenPlan"
+    },
+    {
+        "UID": "Cell26",
+        "pr_OccupancyType": "Office:OpenPlan"
+    },
+    {
+        "UID": "Cell27",
+        "pr_OccupancyType": "Office:OpenPlan"
+    },
+    {
+        "UID": "Cell28",
+        "pr_OccupancyType": "Office:MeetingRoom"
+    },
+    {
+        "UID": "Cell29",
+        "pr_OccupancyType": "Office:OpenPlan"
+    },
+    {
+        "UID": "Cell3",
+        "pr_OccupancyType": "Circulation:Lobby"
+    },
+    {
+        "UID": "Cell30",
+        "pr_OccupancyType": "Office:OpenPlan"
+    },
+    {
+        "UID": "Cell31",
+        "pr_OccupancyType": "Office:Private"
+    },
+    {
+        "UID": "Cell32",
+        "pr_OccupancyType": "Circulation:Core"
+    },
+    {
+        "UID": "Cell33",
+        "pr_OccupancyType": "Office:OpenPlan"
+    },
+    {
+        "UID": "Cell34",
+        "pr_OccupancyType": "Office:OpenPlan"
+    },
+    {
+        "UID": "Cell35",
+        "pr_OccupancyType": "Office:OpenPlan"
+    },
+    {
+        "UID": "Cell36",
+        "pr_OccupancyType": "Office:OpenPlan"
+    },
+    {
+        "UID": "Cell37",
+        "pr_OccupancyType": "Office:MeetingRoom"
+    },
+    {
+        "UID": "Cell38",
+        "pr_OccupancyType": "Office:OpenPlan"
+    },
+    {
+        "UID": "Cell39",
+        "pr_OccupancyType": "Office:OpenPlan"
+    },
+    {
+        "UID": "Cell4",
+        "pr_OccupancyType": "Circulation:Lobby"
+    },
+    {
+        "UID": "Cell40",
+        "pr_OccupancyType": "Office:Private"
+    },
+    {
+        "UID": "Cell41",
+        "pr_OccupancyType": "Circulation:Core"
+    },
+    {
+        "UID": "Cell42",
+        "pr_OccupancyType": "Office:OpenPlan"
+    },
+    {
+        "UID": "Cell43",
+        "pr_OccupancyType": "Office:OpenPlan"
+    },
+    {
+        "UID": "Cell44",
+        "pr_OccupancyType": "Office:OpenPlan"
+    },
+    {
+        "UID": "Cell45",
+        "pr_OccupancyType": "Office:OpenPlan"
+    },
+    {
+        "UID": "Cell46",
+        "pr_OccupancyType": "Office:MeetingRoom"
+    },
+    {
+        "UID": "Cell47",
+        "pr_OccupancyType": "Office:OpenPlan"
+    },
+    {
+        "UID": "Cell48",
+        "pr_OccupancyType": "Office:OpenPlan"
+    },
+    {
+        "UID": "Cell49",
+        "pr_OccupancyType": "Office:Private"
+    },
+    {
+        "UID": "Cell5",
+        "pr_OccupancyType": "Circulation:Core"
+    },
+    {
+        "UID": "Cell50",
+        "pr_OccupancyType": "Circulation:Core"
+    },
+    {
+        "UID": "Cell51",
+        "pr_OccupancyType": "Office:OpenPlan"
+    },
+    {
+        "UID": "Cell52",
+        "pr_OccupancyType": "Office:OpenPlan"
+    },
+    {
+        "UID": "Cell53",
+        "pr_OccupancyType": "Office:OpenPlan"
+    },
+    {
+        "UID": "Cell54",
+        "pr_OccupancyType": "Office:OpenPlan"
+    },
+    {
+        "UID": "Cell55",
+        "pr_OccupancyType": "Office:MeetingRoom"
+    },
+    {
+        "UID": "Cell56",
+        "pr_OccupancyType": "Office:OpenPlan"
+    },
+    {
+        "UID": "Cell57",
+        "pr_OccupancyType": "Office:OpenPlan"
+    },
+    {
+        "UID": "Cell58",
+        "pr_OccupancyType": "Office:Private"
+    },
+    {
+        "UID": "Cell59",
+        "pr_OccupancyType": "Circulation:Core"
+    },
+    {
+        "UID": "Cell6",
+        "pr_OccupancyType": "Retail:Shop"
+    },
+    {
+        "UID": "Cell60",
+        "pr_OccupancyType": "Office:OpenPlan"
+    },
+    {
+        "UID": "Cell61",
+        "pr_OccupancyType": "Office:OpenPlan"
+    },
+    {
+        "UID": "Cell62",
+        "pr_OccupancyType": "Office:OpenPlan"
+    },
+    {
+        "UID": "Cell63",
+        "pr_OccupancyType": "Office:OpenPlan"
+    },
+    {
+        "UID": "Cell64",
+        "pr_OccupancyType": "Office:MeetingRoom"
+    },
+    {
+        "UID": "Cell65",
+        "pr_OccupancyType": "Office:OpenPlan"
+    },
+    {
+        "UID": "Cell66",
+        "pr_OccupancyType": "Office:OpenPlan"
+    },
+    {
+        "UID": "Cell67",
+        "pr_OccupancyType": "Office:Private"
+    },
+    {
+        "UID": "Cell68",
+        "pr_OccupancyType": "Circulation:Core"
+    },
+    {
+        "UID": "Cell69",
+        "pr_OccupancyType": "Office:OpenPlan"
+    },
+    {
+        "UID": "Cell7",
+        "pr_OccupancyType": "Office:Reception"
+    },
+    {
+        "UID": "Cell70",
+        "pr_OccupancyType": "Office:OpenPlan"
+    },
+    {
+        "UID": "Cell71",
+        "pr_OccupancyType": "Office:OpenPlan"
+    },
+    {
+        "UID": "Cell72",
+        "pr_OccupancyType": "Office:OpenPlan"
+    },
+    {
+        "UID": "Cell73",
+        "pr_OccupancyType": "Office:MeetingRoom"
+    },
+    {
+        "UID": "Cell74",
+        "pr_OccupancyType": "Office:OpenPlan"
+    },
+    {
+        "UID": "Cell75",
+        "pr_OccupancyType": "Office:OpenPlan"
+    },
+    {
+        "UID": "Cell76",
+        "pr_OccupancyType": "Office:Private"
+    },
+    {
+        "UID": "Cell77",
+        "pr_OccupancyType": "Circulation:Core"
+    },
+    {
+        "UID": "Cell78",
+        "pr_OccupancyType": "Office:OpenPlan"
+    },
+    {
+        "UID": "Cell79",
+        "pr_OccupancyType": "Office:OpenPlan"
+    },
+    {
+        "UID": "Cell8",
+        "pr_OccupancyType": "Office:OpenPlan"
+    },
+    {
+        "UID": "Cell80",
+        "pr_OccupancyType": "Office:OpenPlan"
+    },
+    {
+        "UID": "Cell81",
+        "pr_OccupancyType": "Office:OpenPlan"
+    },
+    {
+        "UID": "Cell82",
+        "pr_OccupancyType": "Office:MeetingRoom"
+    },
+    {
+        "UID": "Cell83",
+        "pr_OccupancyType": "Office:OpenPlan"
+    },
+    {
+        "UID": "Cell84",
+        "pr_OccupancyType": "Office:OpenPlan"
+    },
+    {
+        "UID": "Cell85",
+        "pr_OccupancyType": "Office:Private"
+    },
+    {
+        "UID": "Cell86",
+        "pr_OccupancyType": "Circulation:Core"
+    },
+    {
+        "UID": "Cell87",
+        "pr_OccupancyType": "Office:OpenPlan"
+    },
+    {
+        "UID": "Cell88",
+        "pr_OccupancyType": "Office:OpenPlan"
+    },
+    {
+        "UID": "Cell89",
+        "pr_OccupancyType": "Office:OpenPlan"
+    },
+    {
+        "UID": "Cell9",
+        "pr_OccupancyType": "Retail:Shop"
+    },
+    {
+        "UID": "Cell90",
+        "pr_OccupancyType": "Office:OpenPlan"
+    },
+    {
+        "UID": "Cell91",
+        "pr_OccupancyType": "Office:MeetingRoom"
+    },
+    {
+        "UID": "Cell92",
+        "pr_OccupancyType": "Office:OpenPlan"
+    },
+    {
+        "UID": "Cell93",
+        "pr_OccupancyType": "Office:OpenPlan"
+    },
+    {
+        "UID": "Cell94",
+        "pr_OccupancyType": "Office:Private"
+    },
+    {
+        "UID": "Cell95",
+        "pr_OccupancyType": "Circulation:Core"
+    },
+    {
+        "UID": "Cell96",
+        "pr_OccupancyType": "Office:OpenPlan"
+    },
+    {
+        "UID": "Cell97",
+        "pr_OccupancyType": "Office:OpenPlan"
+    },
+    {
+        "UID": "Cell98",
+        "pr_OccupancyType": "Office:OpenPlan"
+    },
+    {
+        "UID": "Cell99",
+        "pr_OccupancyType": "Office:OpenPlan"
+    }
+]

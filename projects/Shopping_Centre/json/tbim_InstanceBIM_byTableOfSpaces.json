@@ -1,0 +1,261 @@
+[
+    {
+        "UID": "0S.01",
+        "pr_SpaceName": "Shop 0S01 (0S.01)",
+        "pr_NetArea": "ByModel",
+        "pr_FinishFloor": "Porcelain tiles",
+        "pr_ConstructionYear": 2008
+    },
+    {
+        "UID": "0S.02",
+        "pr_SpaceName": "Shop 0S02 (0S.02)",
+        "pr_NetArea": "ByModel",
+        "pr_FinishFloor": "Porcelain tiles",
+        "pr_ConstructionYear": 2008
+    },
+    {
+        "UID": "0S.03",
+        "pr_SpaceName": "Shop 0S03 (0S.03)",
+        "pr_NetArea": "ByModel",
+        "pr_FinishFloor": "Porcelain tiles",
+        "pr_ConstructionYear": 2008
+    },
+    {
+        "UID": "0S.04",
+        "pr_SpaceName": "Shop 0S04 (0S.04)",
+        "pr_NetArea": "ByModel",
+        "pr_FinishFloor": "Porcelain tiles",
+        "pr_ConstructionYear": 2008
+    },
+    {
+        "UID": "0S.05",
+        "pr_SpaceName": "Shop 0S05 (0S.05)",
+        "pr_NetArea": "ByModel",
+        "pr_FinishFloor": "Porcelain tiles",
+        "pr_ConstructionYear": 2008
+    },
+    {
+        "UID": "0S.06",
+        "pr_SpaceName": "Shop 0S06 (0S.06)",
+        "pr_NetArea": "ByModel",
+        "pr_FinishFloor": "Porcelain tiles",
+        "pr_ConstructionYear": 2008
+    },
+    {
+        "UID": "0S.07",
+        "pr_SpaceName": "Shop 0S07 (0S.07)",
+        "pr_NetArea": "ByModel",
+        "pr_FinishFloor": "Porcelain tiles",
+        "pr_ConstructionYear": 2008
+    },
+    {
+        "UID": "0S.08",
+        "pr_SpaceName": "Shop 0S08 (0S.08)",
+        "pr_NetArea": "ByModel",
+        "pr_FinishFloor": "Porcelain tiles",
+        "pr_ConstructionYear": 2008
+    },
+    {
+        "UID": "0N.01",
+        "pr_SpaceName": "Shop 0N01 (0N.01)",
+        "pr_NetArea": "ByModel",
+        "pr_FinishFloor": "Porcelain tiles",
+        "pr_ConstructionYear": 2008
+    },
+    {
+        "UID": "0N.02",
+        "pr_SpaceName": "Shop 0N02 (0N.02)",
+        "pr_NetArea": "ByModel",
+        "pr_FinishFloor": "Porcelain tiles",
+        "pr_ConstructionYear": 2008
+    },
+    {
+        "UID": "0N.03",
+        "pr_SpaceName": "Shop 0N03 (0N.03)",
+        "pr_NetArea": "ByModel",
+        "pr_FinishFloor": "Porcelain tiles",
+        "pr_ConstructionYear": 2008
+    },
+    {
+        "UID": "0N.04",
+        "pr_SpaceName": "Shop 0N04 (0N.04)",
+        "pr_NetArea": "ByModel",
+        "pr_FinishFloor": "Porcelain tiles",
+        "pr_ConstructionYear": 2008
+    },
+    {
+        "UID": "0N.05",
+        "pr_SpaceName": "Shop 0N05 (0N.05)",
+        "pr_NetArea": "ByModel",
+        "pr_FinishFloor": "Porcelain tiles",
+        "pr_ConstructionYear": 2008
+    },
+    {
+        "UID": "0N.06",
+        "pr_SpaceName": "Shop 0N06 (0N.06)",
+        "pr_NetArea": "ByModel",
+        "pr_FinishFloor": "Porcelain tiles",
+        "pr_ConstructionYear": 2008
+    },
+    {
+        "UID": "0N.07",
+        "pr_SpaceName": "Shop 0N07 (0N.07)",
+        "pr_NetArea": "ByModel",
+        "pr_FinishFloor": "Porcelain tiles",
+        "pr_ConstructionYear": 2008
+    },
+    {
+        "UID": "0N.08",
+        "pr_SpaceName": "Shop 0N08 (0N.08)",
+        "pr_NetArea": "ByModel",
+        "pr_FinishFloor": "Porcelain tiles",
+        "pr_ConstructionYear": 2008
+    },
+    {
+        "UID": "0.ANCHOR",
+        "pr_SpaceName": "Department store (0.ANCHOR)",
+        "pr_NetArea": "ByModel",
+        "pr_FinishFloor": "Porcelain tiles",
+        "pr_ConstructionYear": 2008
+    },
+    {
+        "UID": "1S.01",
+        "pr_SpaceName": "Shop 1S01 (1S.01)",
+        "pr_NetArea": "ByModel",
+        "pr_FinishFloor": "Porcelain tiles",
+        "pr_ConstructionYear": 2008
+    },
+    {
+        "UID": "1S.02",
+        "pr_SpaceName": "Shop 1S02 (1S.02)",
+        "pr_NetArea": "ByModel",
+        "pr_FinishFloor": "Porcelain tiles",
+        "pr_ConstructionYear": 2008
+    },
+    {
+        "UID": "1S.03",
+        "pr_SpaceName": "Shop 1S03 (1S.03)",
+        "pr_NetArea": "ByModel",
+        "pr_FinishFloor": "Porcelain tiles",
+        "pr_ConstructionYear": 2008
+    },
+    {
+        "UID": "1S.04",
+        "pr_SpaceName": "Shop 1S04 (1S.04)",
+        "pr_NetArea": "ByModel",
+        "pr_FinishFloor": "Porcelain tiles",
+        "pr_ConstructionYear": 2008
+    },
+    {
+        "UID": "1S.05",
+        "pr_SpaceName": "Shop 1S05 (1S.05)",
+        "pr_NetArea": "ByModel",
+        "pr_FinishFloor": "Porcelain tiles",
+        "pr_ConstructionYear": 2008
+    },
+    {
+        "UID": "1S.06",
+        "pr_SpaceName": "Shop 1S06 (1S.06)",
+        "pr_NetArea": "ByModel",
+        "pr_FinishFloor": "Porcelain tiles",
+        "pr_ConstructionYear": 2008
+    },
+    {
+        "UID": "1S.07",
+        "pr_SpaceName": "Shop 1S07 (1S.07)",
+        "pr_NetArea": "ByModel",
+        "pr_FinishFloor": "Porcelain tiles",
+        "pr_ConstructionYear": 2008
+    },
+    {
+        "UID": "1S.08",
+        "pr_SpaceName": "Shop 1S08 (1S.08)",
+        "pr_NetArea": "ByModel",
+        "pr_FinishFloor": "Porcelain tiles",
+        "pr_ConstructionYear": 2008
+    },
+    {
+        "UID": "1N.04",
+        "pr_SpaceName": "Shop 1N04 (1N.04)",
+        "pr_NetArea": "ByModel",
+        "pr_FinishFloor": "Porcelain tiles",
+        "pr_ConstructionYear": 2008
+    },
+    {
+        "UID": "1N.05",
+        "pr_SpaceName": "Shop 1N05 (1N.05)",
+        "pr_NetArea": "ByModel",
+        "pr_FinishFloor": "Porcelain tiles",
+        "pr_ConstructionYear": 2008
+    },
+    {
+        "UID": "1N.06",
+        "pr_SpaceName": "Shop 1N06 (1N.06)",
+        "pr_NetArea": "ByModel",
+        "pr_FinishFloor": "Porcelain tiles",
+        "pr_ConstructionYear": 2008
+    },
+    {
+        "UID": "1N.07",
+        "pr_SpaceName": "Shop 1N07 (1N.07)",
+        "pr_NetArea": "ByModel",
+        "pr_FinishFloor": "Porcelain tiles",
+        "pr_ConstructionYear": 2008
+    },
+    {
+        "UID": "1N.08",
+        "pr_SpaceName": "Shop 1N08 (1N.08)",
+        "pr_NetArea": "ByModel",
+        "pr_FinishFloor": "Porcelain tiles",
+        "pr_ConstructionYear": 2008
+    },
+    {
+        "UID": "1.ANCHOR",
+        "pr_SpaceName": "Department store (1.ANCHOR)",
+        "pr_NetArea": "ByModel",
+        "pr_FinishFloor": "Porcelain tiles",
+        "pr_ConstructionYear": 2008
+    },
+    {
+        "UID": "1.FOOD",
+        "pr_SpaceName": "Food court (1.FOOD)",
+        "pr_NetArea": "ByModel",
+        "pr_FinishFloor": "Porcelain tiles",
+        "pr_ConstructionYear": 2008
+    },
+    {
+        "UID": "G.W",
+        "pr_SpaceName": "Gallery west (G.W)",
+        "pr_NetArea": "ByModel",
+        "pr_FinishFloor": "Porcelain tiles",
+        "pr_ConstructionYear": 2008
+    },
+    {
+        "UID": "G.E",
+        "pr_SpaceName": "Gallery east (G.E)",
+        "pr_NetArea": "ByModel",
+        "pr_FinishFloor": "Porcelain tiles",
+        "pr_ConstructionYear": 2008
+    },
+    {
+        "UID": "G.ENTRY",
+        "pr_SpaceName": "Entrance hall (G.ENTRY)",
+        "pr_NetArea": "ByModel",
+        "pr_FinishFloor": "Porcelain tiles",
+        "pr_ConstructionYear": 2008
+    },
+    {
+        "UID": "R.P1",
+        "pr_SpaceName": "Plant room 1 (R.P1)",
+        "pr_NetArea": "ByModel",
+        "pr_FinishFloor": "Porcelain tiles",
+        "pr_ConstructionYear": 2008
+    },
+    {
+        "UID": "R.P2",
+        "pr_SpaceName": "Plant room 2 (R.P2)",
+        "pr_NetArea": "ByModel",
+        "pr_FinishFloor": "Porcelain tiles",
+        "pr_ConstructionYear": 2008
+    }
+]

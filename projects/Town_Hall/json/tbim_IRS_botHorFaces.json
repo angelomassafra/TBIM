@@ -1,0 +1,9 @@
+[
+    {
+        "cnFC_equalTo_pr_TopologicalType": "botHor",
+        "stFC_FloorTypeName": "TBIM_Vespaio_Pavimento_Graniglia_450",
+        "stFC_ThermalTransmittance": 1.7,
+        "stFC_Layers": "Terrazzo / lime screed / brick vault crawl space (vespaio)",
+        "stFC_ConstructionYear": 1912
+    }
+]

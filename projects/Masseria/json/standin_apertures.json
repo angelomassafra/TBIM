@@ -1,0 +1,99 @@
+{
+    "windows": [
+        [
+            "Residential",
+            "TBIM_Finestra_Legno_Scuri_90x140",
+            90,
+            140,
+            90
+        ],
+        [
+            "Chapel",
+            "TBIM_Finestra_Cappella_80x200",
+            80,
+            200,
+            200
+        ],
+        [
+            "Tower",
+            "TBIM_Feritoia_30x100",
+            30,
+            100,
+            150
+        ],
+        [
+            "Dovecote",
+            "TBIM_Feritoia_30x100",
+            30,
+            100,
+            150
+        ],
+        [
+            "Agricultural",
+            "TBIM_Finestrella_Areazione_60x60",
+            60,
+            60,
+            300
+        ]
+    ],
+    "external_doors": [
+        [
+            "Passage",
+            "TBIM_Portale_Ligneo_300x400",
+            300,
+            400
+        ],
+        [
+            "Chapel",
+            "TBIM_Portale_Cappella_150x280",
+            150,
+            280
+        ],
+        [
+            "Agricultural",
+            "TBIM_Portone_Rustico_220x300",
+            220,
+            300
+        ],
+        [
+            "Residential",
+            "TBIM_Porta_Legno_100x230",
+            100,
+            230
+        ]
+    ],
+    "doors": [
+        [
+            "Residential",
+            "Residential",
+            "TBIM_Porta_Interna_Legno_90x220",
+            90,
+            220
+        ],
+        [
+            "Agricultural",
+            "Agricultural",
+            "TBIM_Arco_Passaggio_200x300",
+            200,
+            300
+        ],
+        [
+            "Tower",
+            "Residential",
+            "TBIM_Porta_Interna_Legno_90x220",
+            90,
+            220
+        ]
+    ],
+    "window_data": {
+        "pr_FrameMaterial": "Wood with shutters",
+        "pr_Glazing": "Single glazing",
+        "pr_ThermalTransmittance": 5.0,
+        "pr_SolarFactor": 0.85,
+        "pr_ConstructionYear": 1760
+    },
+    "door_data": {
+        "pr_Material": "Wood",
+        "pr_ConstructionYear": 1760
+    }
+}

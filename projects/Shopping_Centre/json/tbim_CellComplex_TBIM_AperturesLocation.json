@@ -1,0 +1,762 @@
+[
+    {
+        "UID": "door0",
+        "Location": {
+            "Revit": {
+                "X": 500,
+                "Y": 1600,
+                "Z": 0
+            }
+        }
+    },
+    {
+        "UID": "door1",
+        "Location": {
+            "Revit": {
+                "X": 0,
+                "Y": 2000,
+                "Z": 0
+            }
+        }
+    },
+    {
+        "UID": "door2",
+        "Location": {
+            "Revit": {
+                "X": 500,
+                "Y": 1600,
+                "Z": 500
+            }
+        }
+    },
+    {
+        "UID": "door3",
+        "Location": {
+            "Revit": {
+                "X": 1500,
+                "Y": 1600,
+                "Z": 0
+            }
+        }
+    },
+    {
+        "UID": "door4",
+        "Location": {
+            "Revit": {
+                "X": 1500,
+                "Y": 2400,
+                "Z": 500
+            }
+        }
+    },
+    {
+        "UID": "door5",
+        "Location": {
+            "Revit": {
+                "X": 500,
+                "Y": 2400,
+                "Z": 0
+            }
+        }
+    },
+    {
+        "UID": "door6",
+        "Location": {
+            "Revit": {
+                "X": 1500,
+                "Y": 1600,
+                "Z": 500
+            }
+        }
+    },
+    {
+        "UID": "door7",
+        "Location": {
+            "Revit": {
+                "X": 2500,
+                "Y": 1600,
+                "Z": 0
+            }
+        }
+    },
+    {
+        "UID": "door8",
+        "Location": {
+            "Revit": {
+                "X": 1500,
+                "Y": 2400,
+                "Z": 0
+            }
+        }
+    },
+    {
+        "UID": "door9",
+        "Location": {
+            "Revit": {
+                "X": 2500,
+                "Y": 2400,
+                "Z": 0
+            }
+        }
+    },
+    {
+        "UID": "door10",
+        "Location": {
+            "Revit": {
+                "X": 3500,
+                "Y": 2400,
+                "Z": 0
+            }
+        }
+    },
+    {
+        "UID": "door11",
+        "Location": {
+            "Revit": {
+                "X": 3500,
+                "Y": 1600,
+                "Z": 0
+            }
+        }
+    },
+    {
+        "UID": "door12",
+        "Location": {
+            "Revit": {
+                "X": 3500,
+                "Y": 2400,
+                "Z": 500
+            }
+        }
+    },
+    {
+        "UID": "door13",
+        "Location": {
+            "Revit": {
+                "X": 3500,
+                "Y": 1600,
+                "Z": 500
+            }
+        }
+    },
+    {
+        "UID": "door14",
+        "Location": {
+            "Revit": {
+                "X": 2500,
+                "Y": 1600,
+                "Z": 500
+            }
+        }
+    },
+    {
+        "UID": "door15",
+        "Location": {
+            "Revit": {
+                "X": 4500,
+                "Y": 2400,
+                "Z": 500
+            }
+        }
+    },
+    {
+        "UID": "door16",
+        "Location": {
+            "Revit": {
+                "X": 4500,
+                "Y": 1600,
+                "Z": 500
+            }
+        }
+    },
+    {
+        "UID": "door17",
+        "Location": {
+            "Revit": {
+                "X": 4500,
+                "Y": 1600,
+                "Z": 0
+            }
+        }
+    },
+    {
+        "UID": "door18",
+        "Location": {
+            "Revit": {
+                "X": 4500,
+                "Y": 2400,
+                "Z": 0
+            }
+        }
+    },
+    {
+        "UID": "door19",
+        "Location": {
+            "Revit": {
+                "X": 5500,
+                "Y": 2400,
+                "Z": 500
+            }
+        }
+    },
+    {
+        "UID": "door20",
+        "Location": {
+            "Revit": {
+                "X": 5500,
+                "Y": 1600,
+                "Z": 500
+            }
+        }
+    },
+    {
+        "UID": "door21",
+        "Location": {
+            "Revit": {
+                "X": 6500,
+                "Y": 1600,
+                "Z": 500
+            }
+        }
+    },
+    {
+        "UID": "door22",
+        "Location": {
+            "Revit": {
+                "X": 7500,
+                "Y": 1600,
+                "Z": 500
+            }
+        }
+    },
+    {
+        "UID": "door23",
+        "Location": {
+            "Revit": {
+                "X": 8000,
+                "Y": 2000,
+                "Z": 500
+            }
+        }
+    },
+    {
+        "UID": "door24",
+        "Location": {
+            "Revit": {
+                "X": 7500,
+                "Y": 2400,
+                "Z": 500
+            }
+        }
+    },
+    {
+        "UID": "door25",
+        "Location": {
+            "Revit": {
+                "X": 6500,
+                "Y": 2400,
+                "Z": 500
+            }
+        }
+    },
+    {
+        "UID": "door26",
+        "Location": {
+            "Revit": {
+                "X": 5500,
+                "Y": 1600,
+                "Z": 0
+            }
+        }
+    },
+    {
+        "UID": "door27",
+        "Location": {
+            "Revit": {
+                "X": 5500,
+                "Y": 2400,
+                "Z": 0
+            }
+        }
+    },
+    {
+        "UID": "door28",
+        "Location": {
+            "Revit": {
+                "X": 6500,
+                "Y": 2400,
+                "Z": 0
+            }
+        }
+    },
+    {
+        "UID": "door29",
+        "Location": {
+            "Revit": {
+                "X": 7500,
+                "Y": 2400,
+                "Z": 0
+            }
+        }
+    },
+    {
+        "UID": "door30",
+        "Location": {
+            "Revit": {
+                "X": 8000,
+                "Y": 2000,
+                "Z": 0
+            }
+        }
+    },
+    {
+        "UID": "door31",
+        "Location": {
+            "Revit": {
+                "X": 7500,
+                "Y": 1600,
+                "Z": 0
+            }
+        }
+    },
+    {
+        "UID": "door32",
+        "Location": {
+            "Revit": {
+                "X": 6500,
+                "Y": 1600,
+                "Z": 0
+            }
+        }
+    },
+    {
+        "UID": "window0",
+        "Location": {
+            "Revit": {
+                "X": 500,
+                "Y": 0,
+                "Z": 40
+            }
+        }
+    },
+    {
+        "UID": "window1",
+        "Location": {
+            "Revit": {
+                "X": 0,
+                "Y": 700,
+                "Z": 40
+            }
+        }
+    },
+    {
+        "UID": "window2",
+        "Location": {
+            "Revit": {
+                "X": 1500,
+                "Y": 0,
+                "Z": 40
+            }
+        }
+    },
+    {
+        "UID": "door33",
+        "Location": {
+            "Revit": {
+                "X": -400,
+                "Y": 1400,
+                "Z": 0
+            }
+        }
+    },
+    {
+        "UID": "window3",
+        "Location": {
+            "Revit": {
+                "X": -400,
+                "Y": 2600,
+                "Z": 50
+            }
+        }
+    },
+    {
+        "UID": "window4",
+        "Location": {
+            "Revit": {
+                "X": -800,
+                "Y": 2000,
+                "Z": 50
+            }
+        }
+    },
+    {
+        "UID": "window5",
+        "Location": {
+            "Revit": {
+                "X": 500,
+                "Y": 0,
+                "Z": 540
+            }
+        }
+    },
+    {
+        "UID": "window6",
+        "Location": {
+            "Revit": {
+                "X": 0,
+                "Y": 700,
+                "Z": 540
+            }
+        }
+    },
+    {
+        "UID": "window7",
+        "Location": {
+            "Revit": {
+                "X": 1500,
+                "Y": 4000,
+                "Z": 600
+            }
+        }
+    },
+    {
+        "UID": "window8",
+        "Location": {
+            "Revit": {
+                "X": 0,
+                "Y": 3300,
+                "Z": 600
+            }
+        }
+    },
+    {
+        "UID": "window9",
+        "Location": {
+            "Revit": {
+                "X": 0,
+                "Y": 3300,
+                "Z": 40
+            }
+        }
+    },
+    {
+        "UID": "window10",
+        "Location": {
+            "Revit": {
+                "X": 500,
+                "Y": 4000,
+                "Z": 40
+            }
+        }
+    },
+    {
+        "UID": "window11",
+        "Location": {
+            "Revit": {
+                "X": 1500,
+                "Y": 0,
+                "Z": 540
+            }
+        }
+    },
+    {
+        "UID": "window12",
+        "Location": {
+            "Revit": {
+                "X": 2500,
+                "Y": 0,
+                "Z": 40
+            }
+        }
+    },
+    {
+        "UID": "window13",
+        "Location": {
+            "Revit": {
+                "X": 1500,
+                "Y": 4000,
+                "Z": 40
+            }
+        }
+    },
+    {
+        "UID": "window14",
+        "Location": {
+            "Revit": {
+                "X": 2500,
+                "Y": 4000,
+                "Z": 40
+            }
+        }
+    },
+    {
+        "UID": "window15",
+        "Location": {
+            "Revit": {
+                "X": 3500,
+                "Y": 4000,
+                "Z": 40
+            }
+        }
+    },
+    {
+        "UID": "window16",
+        "Location": {
+            "Revit": {
+                "X": 3500,
+                "Y": 0,
+                "Z": 40
+            }
+        }
+    },
+    {
+        "UID": "window17",
+        "Location": {
+            "Revit": {
+                "X": 3500,
+                "Y": 4000,
+                "Z": 540
+            }
+        }
+    },
+    {
+        "UID": "window18",
+        "Location": {
+            "Revit": {
+                "X": 3500,
+                "Y": 0,
+                "Z": 540
+            }
+        }
+    },
+    {
+        "UID": "window19",
+        "Location": {
+            "Revit": {
+                "X": 2500,
+                "Y": 0,
+                "Z": 540
+            }
+        }
+    },
+    {
+        "UID": "window20",
+        "Location": {
+            "Revit": {
+                "X": 4500,
+                "Y": 4000,
+                "Z": 40
+            }
+        }
+    },
+    {
+        "UID": "window21",
+        "Location": {
+            "Revit": {
+                "X": 4500,
+                "Y": 4000,
+                "Z": 540
+            }
+        }
+    },
+    {
+        "UID": "window22",
+        "Location": {
+            "Revit": {
+                "X": 4500,
+                "Y": 0,
+                "Z": 540
+            }
+        }
+    },
+    {
+        "UID": "window23",
+        "Location": {
+            "Revit": {
+                "X": 4500,
+                "Y": 0,
+                "Z": 40
+            }
+        }
+    },
+    {
+        "UID": "window24",
+        "Location": {
+            "Revit": {
+                "X": 5500,
+                "Y": 4000,
+                "Z": 540
+            }
+        }
+    },
+    {
+        "UID": "window25",
+        "Location": {
+            "Revit": {
+                "X": 5500,
+                "Y": 0,
+                "Z": 540
+            }
+        }
+    },
+    {
+        "UID": "window26",
+        "Location": {
+            "Revit": {
+                "X": 6500,
+                "Y": 0,
+                "Z": 540
+            }
+        }
+    },
+    {
+        "UID": "window27",
+        "Location": {
+            "Revit": {
+                "X": 7500,
+                "Y": 0,
+                "Z": 540
+            }
+        }
+    },
+    {
+        "UID": "window28",
+        "Location": {
+            "Revit": {
+                "X": 9500,
+                "Y": 0,
+                "Z": 550
+            }
+        }
+    },
+    {
+        "UID": "window29",
+        "Location": {
+            "Revit": {
+                "X": 11000,
+                "Y": 2000,
+                "Z": 550
+            }
+        }
+    },
+    {
+        "UID": "window30",
+        "Location": {
+            "Revit": {
+                "X": 9500,
+                "Y": 4000,
+                "Z": 550
+            }
+        }
+    },
+    {
+        "UID": "window31",
+        "Location": {
+            "Revit": {
+                "X": 7500,
+                "Y": 4000,
+                "Z": 540
+            }
+        }
+    },
+    {
+        "UID": "window32",
+        "Location": {
+            "Revit": {
+                "X": 6500,
+                "Y": 4000,
+                "Z": 540
+            }
+        }
+    },
+    {
+        "UID": "window33",
+        "Location": {
+            "Revit": {
+                "X": 5500,
+                "Y": 0,
+                "Z": 40
+            }
+        }
+    },
+    {
+        "UID": "window34",
+        "Location": {
+            "Revit": {
+                "X": 5500,
+                "Y": 4000,
+                "Z": 40
+            }
+        }
+    },
+    {
+        "UID": "window35",
+        "Location": {
+            "Revit": {
+                "X": 6500,
+                "Y": 4000,
+                "Z": 40
+            }
+        }
+    },
+    {
+        "UID": "window36",
+        "Location": {
+            "Revit": {
+                "X": 7500,
+                "Y": 4000,
+                "Z": 40
+            }
+        }
+    },
+    {
+        "UID": "door34",
+        "Location": {
+            "Revit": {
+                "X": 9500,
+                "Y": 4000,
+                "Z": 0
+            }
+        }
+    },
+    {
+        "UID": "window37",
+        "Location": {
+            "Revit": {
+                "X": 11000,
+                "Y": 2000,
+                "Z": 50
+            }
+        }
+    },
+    {
+        "UID": "window38",
+        "Location": {
+            "Revit": {
+                "X": 9500,
+                "Y": 0,
+                "Z": 50
+            }
+        }
+    },
+    {
+        "UID": "window39",
+        "Location": {
+            "Revit": {
+                "X": 7500,
+                "Y": 0,
+                "Z": 40
+            }
+        }
+    },
+    {
+        "UID": "window40",
+        "Location": {
+            "Revit": {
+                "X": 6500,
+                "Y": 0,
+                "Z": 40
+            }
+        }
+    }
+]

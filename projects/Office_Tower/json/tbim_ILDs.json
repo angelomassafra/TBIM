@@ -1,0 +1,102 @@
+[
+    {
+        "pr_OccupancyType": "Default",
+        "pr_CirculationType": "NoCirculation",
+        "pr_IsOccupied": false,
+        "pr_IsHeated": false,
+        "pr_IsCooled": false,
+        "pr_IsNaturallyVentilated": false,
+        "pr_IsMechanicallyVentilated": false,
+        "pr_AreaPerOccupantPeak": 0
+    },
+    {
+        "pr_OccupancyType": "Office:OpenPlan",
+        "pr_CirculationType": "NoCirculation",
+        "pr_IsOccupied": true,
+        "pr_IsHeated": true,
+        "pr_IsCooled": true,
+        "pr_IsNaturallyVentilated": false,
+        "pr_IsMechanicallyVentilated": true,
+        "pr_AreaPerOccupantPeak": 10.0
+    },
+    {
+        "pr_OccupancyType": "Office:Private",
+        "pr_CirculationType": "NoCirculation",
+        "pr_IsOccupied": true,
+        "pr_IsHeated": true,
+        "pr_IsCooled": true,
+        "pr_IsNaturallyVentilated": false,
+        "pr_IsMechanicallyVentilated": true,
+        "pr_AreaPerOccupantPeak": 12.0
+    },
+    {
+        "pr_OccupancyType": "Office:MeetingRoom",
+        "pr_CirculationType": "NoCirculation",
+        "pr_IsOccupied": true,
+        "pr_IsHeated": true,
+        "pr_IsCooled": true,
+        "pr_IsNaturallyVentilated": false,
+        "pr_IsMechanicallyVentilated": true,
+        "pr_AreaPerOccupantPeak": 3.0
+    },
+    {
+        "pr_OccupancyType": "Office:Reception",
+        "pr_CirculationType": "NoCirculation",
+        "pr_IsOccupied": true,
+        "pr_IsHeated": true,
+        "pr_IsCooled": true,
+        "pr_IsNaturallyVentilated": false,
+        "pr_IsMechanicallyVentilated": true,
+        "pr_AreaPerOccupantPeak": 8.0
+    },
+    {
+        "pr_OccupancyType": "Circulation:Core",
+        "pr_CirculationType": "PublicCirculation",
+        "pr_IsOccupied": false,
+        "pr_IsHeated": true,
+        "pr_IsCooled": false,
+        "pr_IsNaturallyVentilated": false,
+        "pr_IsMechanicallyVentilated": true,
+        "pr_AreaPerOccupantPeak": 0
+    },
+    {
+        "pr_OccupancyType": "Circulation:Lobby",
+        "pr_CirculationType": "PublicCirculation",
+        "pr_IsOccupied": true,
+        "pr_IsHeated": true,
+        "pr_IsCooled": true,
+        "pr_IsNaturallyVentilated": false,
+        "pr_IsMechanicallyVentilated": true,
+        "pr_AreaPerOccupantPeak": 5.0
+    },
+    {
+        "pr_OccupancyType": "Food:Cafe",
+        "pr_CirculationType": "NoCirculation",
+        "pr_IsOccupied": true,
+        "pr_IsHeated": true,
+        "pr_IsCooled": true,
+        "pr_IsNaturallyVentilated": false,
+        "pr_IsMechanicallyVentilated": true,
+        "pr_AreaPerOccupantPeak": 1.5
+    },
+    {
+        "pr_OccupancyType": "Retail:Shop",
+        "pr_CirculationType": "NoCirculation",
+        "pr_IsOccupied": true,
+        "pr_IsHeated": true,
+        "pr_IsCooled": true,
+        "pr_IsNaturallyVentilated": false,
+        "pr_IsMechanicallyVentilated": true,
+        "pr_AreaPerOccupantPeak": 4.0
+    },
+    {
+        "pr_OccupancyType": "Technical:Plant",
+        "pr_CirculationType": "NoCirculation",
+        "pr_IsOccupied": false,
+        "pr_IsHeated": false,
+        "pr_IsCooled": false,
+        "pr_IsNaturallyVentilated": true,
+        "pr_IsMechanicallyVentilated": false,
+        "pr_AreaPerOccupantPeak": 0
+    }
+]

@@ -1,0 +1,1689 @@
+# TBIM - faces of the CellComplex (cm)
+v 1000 2000 0
+v 1000 2000 500
+v 2000 2000 500
+v 2000 2000 0
+g intVer_intVerFace0
+f 1 2 3 4
+v 2000 1000 500
+v 2000 1000 0
+g intVer_intVerFace1
+f 3 5 6 4
+v 1000 1000 500
+v 1000 1000 0
+g intVer_intVerFace2
+f 5 7 8 6
+g intVer_intVerFace3
+f 7 2 1 8
+v 1000 3000 500
+v 1000 3000 0
+g intVer_intVerFace5
+f 1 2 9 10
+v 2000 3000 0
+v 2000 3000 500
+g intVer_intVerFace4
+f 11 12 3 4
+v 3000 1000 0
+v 3000 1000 500
+g intVer_intVerFace7
+f 13 14 5 6
+v 3000 2000 500
+v 3000 2000 0
+g intVer_intVerFace6
+f 15 16 4 3
+v 1000 0 0
+v 1000 0 500
+g intVer_intVerFace9
+f 17 18 7 8
+v 2000 0 500
+v 2000 0 0
+g intVer_intVerFace8
+f 19 20 6 5
+v 0 2000 0
+v 0 2000 500
+g intVer_intVerFace10
+f 21 22 2 1
+v 0 1000 500
+v 0 1000 0
+g intVer_intVerFace11
+f 23 24 8 7
+v 2000 2000 860
+v 2000 1000 860
+g intVer_intVerFace13
+f 25 26 5 3
+v 1000 1000 860
+g intVer_intVerFace14
+f 26 27 7 5
+v 1000 2000 860
+g intVer_intVerFace15
+f 27 28 2 7
+g intVer_intVerFace12
+f 28 25 3 2
+v 2000 3000 860
+g intVer_intVerFace16
+f 29 25 3 12
+v 1000 3000 860
+g intVer_intVerFace17
+f 28 30 9 2
+v 3000 1000 860
+g intVer_intVerFace19
+f 14 31 26 5
+v 3000 2000 860
+g intVer_intVerFace18
+f 25 32 15 3
+v 1000 0 860
+g intVer_intVerFace21
+f 18 33 27 7
+v 2000 0 860
+g intVer_intVerFace20
+f 26 34 19 5
+v 0 1000 860
+g intVer_intVerFace23
+f 27 35 23 7
+v 0 2000 860
+g intVer_intVerFace22
+f 36 28 2 22
+v 2000 2000 1220
+v 2000 1000 1220
+g intVer_intVerFace25
+f 37 38 26 25
+v 1000 1000 1220
+g intVer_intVerFace26
+f 38 39 27 26
+v 1000 2000 1220
+g intVer_intVerFace27
+f 39 40 28 27
+g intVer_intVerFace24
+f 40 37 25 28
+v 2000 3000 1220
+g intVer_intVerFace28
+f 41 37 25 29
+v 1000 3000 1220
+g intVer_intVerFace29
+f 40 42 30 28
+v 3000 1000 1220
+g intVer_intVerFace31
+f 31 43 38 26
+v 3000 2000 1220
+g intVer_intVerFace30
+f 37 44 32 25
+v 1000 0 1220
+g intVer_intVerFace33
+f 33 45 39 27
+v 2000 0 1220
+g intVer_intVerFace32
+f 38 46 34 26
+v 0 2000 1220
+g intVer_intVerFace34
+f 47 40 28 36
+v 0 1000 1220
+g intVer_intVerFace35
+f 39 48 35 27
+v 2000 2000 1580
+v 2000 1000 1580
+g intVer_intVerFace37
+f 49 50 38 37
+v 1000 1000 1580
+g intVer_intVerFace38
+f 50 51 39 38
+v 1000 2000 1580
+g intVer_intVerFace39
+f 51 52 40 39
+g intVer_intVerFace36
+f 52 49 37 40
+v 2000 3000 1580
+g intVer_intVerFace40
+f 53 49 37 41
+v 1000 3000 1580
+g intVer_intVerFace41
+f 52 54 42 40
+v 3000 1000 1580
+g intVer_intVerFace43
+f 43 55 50 38
+v 3000 2000 1580
+g intVer_intVerFace42
+f 49 56 44 37
+v 1000 0 1580
+g intVer_intVerFace45
+f 45 57 51 39
+v 2000 0 1580
+g intVer_intVerFace44
+f 50 58 46 38
+v 0 2000 1580
+g intVer_intVerFace46
+f 59 52 40 47
+v 0 1000 1580
+g intVer_intVerFace47
+f 51 60 48 39
+v 2000 2000 1940
+v 2000 1000 1940
+g intVer_intVerFace49
+f 61 62 50 49
+v 1000 1000 1940
+g intVer_intVerFace50
+f 62 63 51 50
+v 1000 2000 1940
+g intVer_intVerFace51
+f 63 64 52 51
+g intVer_intVerFace48
+f 64 61 49 52
+v 2000 3000 1940
+g intVer_intVerFace52
+f 65 61 49 53
+v 1000 3000 1940
+g intVer_intVerFace53
+f 64 66 54 52
+v 3000 1000 1940
+g intVer_intVerFace55
+f 55 67 62 50
+v 3000 2000 1940
+g intVer_intVerFace54
+f 61 68 56 49
+v 1000 0 1940
+g intVer_intVerFace57
+f 57 69 63 51
+v 2000 0 1940
+g intVer_intVerFace56
+f 62 70 58 50
+v 0 2000 1940
+g intVer_intVerFace58
+f 71 64 52 59
+v 0 1000 1940
+g intVer_intVerFace59
+f 63 72 60 51
+v 2000 2000 2300
+v 2000 1000 2300
+g intVer_intVerFace61
+f 73 74 62 61
+v 1000 1000 2300
+g intVer_intVerFace62
+f 74 75 63 62
+v 1000 2000 2300
+g intVer_intVerFace63
+f 75 76 64 63
+g intVer_intVerFace60
+f 76 73 61 64
+v 2000 3000 2300
+g intVer_intVerFace64
+f 77 73 61 65
+v 1000 3000 2300
+g intVer_intVerFace65
+f 76 78 66 64
+v 3000 1000 2300
+g intVer_intVerFace67
+f 67 79 74 62
+v 3000 2000 2300
+g intVer_intVerFace66
+f 73 80 68 61
+v 1000 0 2300
+g intVer_intVerFace69
+f 69 81 75 63
+v 2000 0 2300
+g intVer_intVerFace68
+f 74 82 70 62
+v 0 2000 2300
+g intVer_intVerFace70
+f 83 76 64 71
+v 0 1000 2300
+g intVer_intVerFace71
+f 75 84 72 63
+v 2000 2000 2660
+v 2000 1000 2660
+g intVer_intVerFace73
+f 85 86 74 73
+v 1000 1000 2660
+g intVer_intVerFace74
+f 86 87 75 74
+v 1000 2000 2660
+g intVer_intVerFace75
+f 87 88 76 75
+g intVer_intVerFace72
+f 88 85 73 76
+v 2000 3000 2660
+g intVer_intVerFace76
+f 89 85 73 77
+v 1000 3000 2660
+g intVer_intVerFace77
+f 88 90 78 76
+v 3000 1000 2660
+g intVer_intVerFace79
+f 79 91 86 74
+v 3000 2000 2660
+g intVer_intVerFace78
+f 85 92 80 73
+v 1000 0 2660
+g intVer_intVerFace81
+f 81 93 87 75
+v 2000 0 2660
+g intVer_intVerFace80
+f 86 94 82 74
+v 0 2000 2660
+g intVer_intVerFace82
+f 95 88 76 83
+v 0 1000 2660
+g intVer_intVerFace83
+f 87 96 84 75
+v 2000 2000 3020
+v 2000 1000 3020
+g intVer_intVerFace85
+f 97 98 86 85
+v 1000 1000 3020
+g intVer_intVerFace86
+f 98 99 87 86
+v 1000 2000 3020
+g intVer_intVerFace87
+f 99 100 88 87
+g intVer_intVerFace84
+f 100 97 85 88
+v 2000 3000 3020
+g intVer_intVerFace88
+f 101 97 85 89
+v 1000 3000 3020
+g intVer_intVerFace89
+f 100 102 90 88
+v 3000 1000 3020
+g intVer_intVerFace91
+f 91 103 98 86
+v 3000 2000 3020
+g intVer_intVerFace90
+f 97 104 92 85
+v 1000 0 3020
+g intVer_intVerFace93
+f 93 105 99 87
+v 2000 0 3020
+g intVer_intVerFace92
+f 98 106 94 86
+v 0 2000 3020
+g intVer_intVerFace94
+f 107 100 88 95
+v 0 1000 3020
+g intVer_intVerFace95
+f 99 108 96 87
+v 2000 2000 3380
+v 2000 1000 3380
+g intVer_intVerFace97
+f 109 110 98 97
+v 1000 1000 3380
+g intVer_intVerFace98
+f 110 111 99 98
+v 1000 2000 3380
+g intVer_intVerFace99
+f 111 112 100 99
+g intVer_intVerFace96
+f 112 109 97 100
+v 2000 3000 3380
+g intVer_intVerFace100
+f 113 109 97 101
+v 1000 3000 3380
+g intVer_intVerFace101
+f 112 114 102 100
+v 3000 1000 3380
+g intVer_intVerFace103
+f 103 115 110 98
+v 3000 2000 3380
+g intVer_intVerFace102
+f 109 116 104 97
+v 1000 0 3380
+g intVer_intVerFace105
+f 105 117 111 99
+v 2000 0 3380
+g intVer_intVerFace104
+f 110 118 106 98
+v 0 2000 3380
+g intVer_intVerFace106
+f 119 112 100 107
+v 0 1000 3380
+g intVer_intVerFace107
+f 111 120 108 99
+v 2000 2000 3740
+v 2000 1000 3740
+g intVer_intVerFace109
+f 121 122 110 109
+v 1000 1000 3740
+g intVer_intVerFace110
+f 122 123 111 110
+v 1000 2000 3740
+g intVer_intVerFace111
+f 123 124 112 111
+g intVer_intVerFace108
+f 124 121 109 112
+v 2000 3000 3740
+g intVer_intVerFace112
+f 125 121 109 113
+v 1000 3000 3740
+g intVer_intVerFace113
+f 124 126 114 112
+v 3000 1000 3740
+g intVer_intVerFace115
+f 115 127 122 110
+v 3000 2000 3740
+g intVer_intVerFace114
+f 121 128 116 109
+v 1000 0 3740
+g intVer_intVerFace117
+f 117 129 123 111
+v 2000 0 3740
+g intVer_intVerFace116
+f 122 130 118 110
+v 0 2000 3740
+g intVer_intVerFace118
+f 131 124 112 119
+v 0 1000 3740
+g intVer_intVerFace119
+f 123 132 120 111
+v 2000 2000 4100
+v 2000 1000 4100
+g intVer_intVerFace121
+f 133 134 122 121
+v 1000 1000 4100
+g intVer_intVerFace122
+f 134 135 123 122
+v 1000 2000 4100
+g intVer_intVerFace123
+f 135 136 124 123
+g intVer_intVerFace120
+f 136 133 121 124
+v 2000 3000 4100
+g intVer_intVerFace124
+f 137 133 121 125
+v 1000 3000 4100
+g intVer_intVerFace125
+f 136 138 126 124
+v 3000 1000 4100
+g intVer_intVerFace127
+f 127 139 134 122
+v 3000 2000 4100
+g intVer_intVerFace126
+f 133 140 128 121
+v 1000 0 4100
+g intVer_intVerFace129
+f 129 141 135 123
+v 2000 0 4100
+g intVer_intVerFace128
+f 134 142 130 122
+v 0 2000 4100
+g intVer_intVerFace130
+f 143 136 124 131
+v 0 1000 4100
+g intVer_intVerFace131
+f 135 144 132 123
+v 2000 2000 4460
+v 2000 1000 4460
+g intVer_intVerFace133
+f 145 146 134 133
+v 1000 1000 4460
+g intVer_intVerFace134
+f 146 147 135 134
+v 1000 2000 4460
+g intVer_intVerFace135
+f 147 148 136 135
+g intVer_intVerFace132
+f 148 145 133 136
+v 2000 3000 4460
+g intVer_intVerFace136
+f 149 145 133 137
+v 1000 3000 4460
+g intVer_intVerFace137
+f 148 150 138 136
+v 3000 1000 4460
+g intVer_intVerFace139
+f 139 151 146 134
+v 3000 2000 4460
+g intVer_intVerFace138
+f 145 152 140 133
+v 1000 0 4460
+g intVer_intVerFace141
+f 141 153 147 135
+v 2000 0 4460
+g intVer_intVerFace140
+f 146 154 142 134
+v 0 2000 4460
+g intVer_intVerFace142
+f 155 148 136 143
+v 0 1000 4460
+g intVer_intVerFace143
+f 147 156 144 135
+v 2000 2000 4820
+v 2000 1000 4820
+g intVer_intVerFace145
+f 157 158 146 145
+v 1000 1000 4820
+g intVer_intVerFace146
+f 158 159 147 146
+v 1000 2000 4820
+g intVer_intVerFace147
+f 159 160 148 147
+g intVer_intVerFace144
+f 160 157 145 148
+v 2000 3000 4820
+g intVer_intVerFace148
+f 161 157 145 149
+v 1000 3000 4820
+g intVer_intVerFace149
+f 160 162 150 148
+v 3000 1000 4820
+g intVer_intVerFace151
+f 151 163 158 146
+v 3000 2000 4820
+g intVer_intVerFace150
+f 157 164 152 145
+v 1000 0 4820
+g intVer_intVerFace153
+f 153 165 159 147
+v 2000 0 4820
+g intVer_intVerFace152
+f 158 166 154 146
+v 0 2000 4820
+g intVer_intVerFace154
+f 167 160 148 155
+v 0 1000 4820
+g intVer_intVerFace155
+f 159 168 156 147
+v 2000 2000 5180
+v 2000 1000 5180
+g intVer_intVerFace157
+f 169 170 158 157
+v 1000 1000 5180
+g intVer_intVerFace158
+f 170 171 159 158
+v 1000 2000 5180
+g intVer_intVerFace159
+f 171 172 160 159
+g intVer_intVerFace156
+f 172 169 157 160
+v 2000 3000 5180
+g intVer_intVerFace160
+f 173 169 157 161
+v 1000 3000 5180
+g intVer_intVerFace161
+f 172 174 162 160
+v 3000 1000 5180
+g intVer_intVerFace163
+f 163 175 170 158
+v 3000 2000 5180
+g intVer_intVerFace162
+f 169 176 164 157
+v 1000 0 5180
+g intVer_intVerFace165
+f 165 177 171 159
+v 2000 0 5180
+g intVer_intVerFace164
+f 170 178 166 158
+v 0 2000 5180
+g intVer_intVerFace166
+f 179 172 160 167
+v 0 1000 5180
+g intVer_intVerFace167
+f 171 180 168 159
+v 2000 2000 5540
+v 2000 1000 5540
+g intVer_intVerFace169
+f 181 182 170 169
+v 1000 1000 5540
+g intVer_intVerFace170
+f 182 183 171 170
+v 1000 2000 5540
+g intVer_intVerFace171
+f 183 184 172 171
+g intVer_intVerFace168
+f 184 181 169 172
+v 2000 3000 5540
+g intVer_intVerFace172
+f 185 181 169 173
+v 1000 3000 5540
+g intVer_intVerFace173
+f 184 186 174 172
+v 3000 1000 5540
+g intVer_intVerFace175
+f 175 187 182 170
+v 3000 2000 5540
+g intVer_intVerFace174
+f 181 188 176 169
+v 1000 0 5540
+g intVer_intVerFace177
+f 177 189 183 171
+v 2000 0 5540
+g intVer_intVerFace176
+f 182 190 178 170
+v 0 2000 5540
+g intVer_intVerFace178
+f 191 184 172 179
+v 0 1000 5540
+g intVer_intVerFace179
+f 183 192 180 171
+v 2000 2000 5900
+v 2000 1000 5900
+g intVer_intVerFace181
+f 193 194 182 181
+v 1000 1000 5900
+g intVer_intVerFace182
+f 194 195 183 182
+v 1000 2000 5900
+g intVer_intVerFace183
+f 195 196 184 183
+g intVer_intVerFace180
+f 196 193 181 184
+v 2000 3000 5900
+g intVer_intVerFace184
+f 197 193 181 185
+v 1000 3000 5900
+g intVer_intVerFace185
+f 196 198 186 184
+v 3000 1000 5900
+g intVer_intVerFace187
+f 187 199 194 182
+v 3000 2000 5900
+g intVer_intVerFace186
+f 193 200 188 181
+v 1000 0 5900
+g intVer_intVerFace189
+f 189 201 195 183
+v 2000 0 5900
+g intVer_intVerFace188
+f 194 202 190 182
+v 0 2000 5900
+g intVer_intVerFace190
+f 203 196 184 191
+v 0 1000 5900
+g intVer_intVerFace191
+f 195 204 192 183
+v 2000 2000 6260
+v 2000 1000 6260
+g intVer_intVerFace193
+f 205 206 194 193
+v 1000 1000 6260
+g intVer_intVerFace194
+f 206 207 195 194
+v 1000 2000 6260
+g intVer_intVerFace195
+f 207 208 196 195
+g intVer_intVerFace192
+f 208 205 193 196
+v 2000 3000 6260
+g intVer_intVerFace196
+f 209 205 193 197
+v 1000 3000 6260
+g intVer_intVerFace197
+f 208 210 198 196
+v 3000 1000 6260
+g intVer_intVerFace199
+f 199 211 206 194
+v 3000 2000 6260
+g intVer_intVerFace198
+f 205 212 200 193
+v 1000 0 6260
+g intVer_intVerFace201
+f 201 213 207 195
+v 2000 0 6260
+g intVer_intVerFace200
+f 206 214 202 194
+v 0 2000 6260
+g intVer_intVerFace202
+f 215 208 196 203
+v 0 1000 6260
+g intVer_intVerFace203
+f 207 216 204 195
+v 2000 2000 6620
+v 2000 1000 6620
+g intVer_intVerFace205
+f 217 218 206 205
+v 1000 1000 6620
+g intVer_intVerFace206
+f 218 219 207 206
+v 1000 2000 6620
+g intVer_intVerFace207
+f 219 220 208 207
+g intVer_intVerFace204
+f 220 217 205 208
+v 2000 3000 6620
+g intVer_intVerFace208
+f 221 217 205 209
+v 1000 3000 6620
+g intVer_intVerFace209
+f 220 222 210 208
+v 3000 1000 6620
+g intVer_intVerFace211
+f 211 223 218 206
+v 3000 2000 6620
+g intVer_intVerFace210
+f 217 224 212 205
+v 1000 0 6620
+g intVer_intVerFace213
+f 213 225 219 207
+v 2000 0 6620
+g intVer_intVerFace212
+f 218 226 214 206
+v 0 2000 6620
+g intVer_intVerFace214
+f 227 220 208 215
+v 0 1000 6620
+g intVer_intVerFace215
+f 219 228 216 207
+v 2000 2000 6980
+v 2000 1000 6980
+g intVer_intVerFace217
+f 229 230 218 217
+v 1000 1000 6980
+g intVer_intVerFace218
+f 230 231 219 218
+v 1000 2000 6980
+g intVer_intVerFace219
+f 231 232 220 219
+g intVer_intVerFace216
+f 232 229 217 220
+v 2000 3000 6980
+g intVer_intVerFace220
+f 233 229 217 221
+v 1000 3000 6980
+g intVer_intVerFace221
+f 232 234 222 220
+v 3000 1000 6980
+g intVer_intVerFace223
+f 223 235 230 218
+v 3000 2000 6980
+g intVer_intVerFace222
+f 229 236 224 217
+v 1000 0 6980
+g intVer_intVerFace225
+f 225 237 231 219
+v 2000 0 6980
+g intVer_intVerFace224
+f 230 238 226 218
+v 0 2000 6980
+g intVer_intVerFace226
+f 239 232 220 227
+v 0 1000 6980
+g intVer_intVerFace227
+f 231 240 228 219
+v 2000 2000 7340
+v 2000 1000 7340
+g intVer_intVerFace229
+f 241 242 230 229
+v 1000 1000 7340
+g intVer_intVerFace230
+f 242 243 231 230
+v 1000 2000 7340
+g intVer_intVerFace231
+f 243 244 232 231
+g intVer_intVerFace228
+f 244 241 229 232
+v 2000 3000 7340
+g intVer_intVerFace232
+f 245 241 229 233
+v 1000 3000 7340
+g intVer_intVerFace233
+f 244 246 234 232
+v 3000 1000 7340
+g intVer_intVerFace235
+f 235 247 242 230
+v 3000 2000 7340
+g intVer_intVerFace234
+f 241 248 236 229
+v 1000 0 7340
+g intVer_intVerFace237
+f 237 249 243 231
+v 2000 0 7340
+g intVer_intVerFace236
+f 242 250 238 230
+v 0 2000 7340
+g intVer_intVerFace238
+f 251 244 232 239
+v 0 1000 7340
+g intVer_intVerFace239
+f 243 252 240 231
+g extVer_extVerFace0
+f 12 9 10 11
+g extVer_extVerFace1
+f 13 14 15 16
+g extVer_extVerFace2
+f 17 18 19 20
+g extVer_extVerFace3
+f 21 22 23 24
+v 0 3000 0
+v 0 3000 500
+g extVer_extVerFace6
+f 253 254 9 10
+g extVer_extVerFace7
+f 21 22 254 253
+g extVer_extVerFace8
+f 30 29 12 9
+v 3000 3000 500
+v 3000 3000 0
+g extVer_extVerFace4
+f 255 256 11 12
+g extVer_extVerFace5
+f 15 16 256 255
+g extVer_extVerFace11
+f 32 31 14 15
+v 3000 0 500
+v 3000 0 0
+g extVer_extVerFace9
+f 257 258 13 14
+g extVer_extVerFace10
+f 19 20 258 257
+g extVer_extVerFace14
+f 34 33 18 19
+v 0 0 500
+v 0 0 0
+g extVer_extVerFace12
+f 259 260 17 18
+g extVer_extVerFace13
+f 23 24 260 259
+g extVer_extVerFace15
+f 35 36 22 23
+v 0 3000 860
+g extVer_extVerFace18
+f 261 30 9 254
+g extVer_extVerFace19
+f 36 261 254 22
+v 3000 3000 860
+g extVer_extVerFace16
+f 262 255 12 29
+g extVer_extVerFace17
+f 15 255 262 32
+g extVer_extVerFace20
+f 42 41 29 30
+v 3000 0 860
+g extVer_extVerFace21
+f 31 263 257 14
+g extVer_extVerFace22
+f 19 257 263 34
+g extVer_extVerFace23
+f 44 43 31 32
+v 0 0 860
+g extVer_extVerFace24
+f 33 264 259 18
+g extVer_extVerFace25
+f 23 259 264 35
+g extVer_extVerFace26
+f 46 45 33 34
+g extVer_extVerFace27
+f 48 47 36 35
+v 0 3000 1220
+g extVer_extVerFace30
+f 265 42 30 261
+g extVer_extVerFace31
+f 47 265 261 36
+v 3000 3000 1220
+g extVer_extVerFace29
+f 266 44 32 262
+g extVer_extVerFace28
+f 41 266 262 29
+g extVer_extVerFace32
+f 54 53 41 42
+v 3000 0 1220
+g extVer_extVerFace34
+f 267 46 34 263
+g extVer_extVerFace33
+f 43 267 263 31
+g extVer_extVerFace35
+f 56 55 43 44
+v 0 0 1220
+g extVer_extVerFace37
+f 268 48 35 264
+g extVer_extVerFace36
+f 45 268 264 33
+g extVer_extVerFace38
+f 58 57 45 46
+g extVer_extVerFace39
+f 60 59 47 48
+v 0 3000 1580
+g extVer_extVerFace42
+f 269 54 42 265
+g extVer_extVerFace43
+f 59 269 265 47
+v 3000 3000 1580
+g extVer_extVerFace41
+f 270 56 44 266
+g extVer_extVerFace40
+f 53 270 266 41
+g extVer_extVerFace44
+f 66 65 53 54
+v 3000 0 1580
+g extVer_extVerFace46
+f 271 58 46 267
+g extVer_extVerFace45
+f 55 271 267 43
+g extVer_extVerFace47
+f 68 67 55 56
+v 0 0 1580
+g extVer_extVerFace49
+f 272 60 48 268
+g extVer_extVerFace48
+f 57 272 268 45
+g extVer_extVerFace50
+f 70 69 57 58
+g extVer_extVerFace51
+f 72 71 59 60
+v 0 3000 1940
+g extVer_extVerFace54
+f 273 66 54 269
+g extVer_extVerFace55
+f 71 273 269 59
+v 3000 3000 1940
+g extVer_extVerFace53
+f 274 68 56 270
+g extVer_extVerFace52
+f 65 274 270 53
+g extVer_extVerFace56
+f 78 77 65 66
+v 3000 0 1940
+g extVer_extVerFace58
+f 275 70 58 271
+g extVer_extVerFace57
+f 67 275 271 55
+g extVer_extVerFace59
+f 80 79 67 68
+v 0 0 1940
+g extVer_extVerFace61
+f 276 72 60 272
+g extVer_extVerFace60
+f 69 276 272 57
+g extVer_extVerFace62
+f 82 81 69 70
+g extVer_extVerFace63
+f 84 83 71 72
+v 0 3000 2300
+g extVer_extVerFace66
+f 277 78 66 273
+g extVer_extVerFace67
+f 83 277 273 71
+v 3000 3000 2300
+g extVer_extVerFace65
+f 278 80 68 274
+g extVer_extVerFace64
+f 77 278 274 65
+g extVer_extVerFace68
+f 90 89 77 78
+v 3000 0 2300
+g extVer_extVerFace70
+f 279 82 70 275
+g extVer_extVerFace69
+f 79 279 275 67
+g extVer_extVerFace71
+f 92 91 79 80
+v 0 0 2300
+g extVer_extVerFace73
+f 280 84 72 276
+g extVer_extVerFace72
+f 81 280 276 69
+g extVer_extVerFace74
+f 94 93 81 82
+g extVer_extVerFace75
+f 96 95 83 84
+v 0 3000 2660
+g extVer_extVerFace78
+f 281 90 78 277
+g extVer_extVerFace79
+f 95 281 277 83
+v 3000 3000 2660
+g extVer_extVerFace77
+f 282 92 80 278
+g extVer_extVerFace76
+f 89 282 278 77
+g extVer_extVerFace80
+f 102 101 89 90
+v 3000 0 2660
+g extVer_extVerFace82
+f 283 94 82 279
+g extVer_extVerFace81
+f 91 283 279 79
+g extVer_extVerFace83
+f 104 103 91 92
+v 0 0 2660
+g extVer_extVerFace85
+f 284 96 84 280
+g extVer_extVerFace84
+f 93 284 280 81
+g extVer_extVerFace86
+f 106 105 93 94
+g extVer_extVerFace87
+f 108 107 95 96
+v 0 3000 3020
+g extVer_extVerFace90
+f 285 102 90 281
+g extVer_extVerFace91
+f 107 285 281 95
+v 3000 3000 3020
+g extVer_extVerFace89
+f 286 104 92 282
+g extVer_extVerFace88
+f 101 286 282 89
+g extVer_extVerFace92
+f 114 113 101 102
+v 3000 0 3020
+g extVer_extVerFace94
+f 287 106 94 283
+g extVer_extVerFace93
+f 103 287 283 91
+g extVer_extVerFace95
+f 116 115 103 104
+v 0 0 3020
+g extVer_extVerFace97
+f 288 108 96 284
+g extVer_extVerFace96
+f 105 288 284 93
+g extVer_extVerFace98
+f 118 117 105 106
+g extVer_extVerFace99
+f 120 119 107 108
+v 0 3000 3380
+g extVer_extVerFace102
+f 289 114 102 285
+g extVer_extVerFace103
+f 119 289 285 107
+v 3000 3000 3380
+g extVer_extVerFace101
+f 290 116 104 286
+g extVer_extVerFace100
+f 113 290 286 101
+g extVer_extVerFace104
+f 126 125 113 114
+v 3000 0 3380
+g extVer_extVerFace106
+f 291 118 106 287
+g extVer_extVerFace105
+f 115 291 287 103
+g extVer_extVerFace107
+f 128 127 115 116
+v 0 0 3380
+g extVer_extVerFace109
+f 292 120 108 288
+g extVer_extVerFace108
+f 117 292 288 105
+g extVer_extVerFace110
+f 130 129 117 118
+g extVer_extVerFace111
+f 132 131 119 120
+v 0 3000 3740
+g extVer_extVerFace114
+f 293 126 114 289
+g extVer_extVerFace115
+f 131 293 289 119
+v 3000 3000 3740
+g extVer_extVerFace113
+f 294 128 116 290
+g extVer_extVerFace112
+f 125 294 290 113
+g extVer_extVerFace116
+f 138 137 125 126
+v 3000 0 3740
+g extVer_extVerFace118
+f 295 130 118 291
+g extVer_extVerFace117
+f 127 295 291 115
+g extVer_extVerFace119
+f 140 139 127 128
+v 0 0 3740
+g extVer_extVerFace121
+f 296 132 120 292
+g extVer_extVerFace120
+f 129 296 292 117
+g extVer_extVerFace122
+f 142 141 129 130
+g extVer_extVerFace123
+f 144 143 131 132
+v 0 3000 4100
+g extVer_extVerFace126
+f 297 138 126 293
+g extVer_extVerFace127
+f 143 297 293 131
+v 3000 3000 4100
+g extVer_extVerFace125
+f 298 140 128 294
+g extVer_extVerFace124
+f 137 298 294 125
+g extVer_extVerFace128
+f 150 149 137 138
+v 3000 0 4100
+g extVer_extVerFace130
+f 299 142 130 295
+g extVer_extVerFace129
+f 139 299 295 127
+g extVer_extVerFace131
+f 152 151 139 140
+v 0 0 4100
+g extVer_extVerFace133
+f 300 144 132 296
+g extVer_extVerFace132
+f 141 300 296 129
+g extVer_extVerFace134
+f 154 153 141 142
+g extVer_extVerFace135
+f 156 155 143 144
+v 0 3000 4460
+g extVer_extVerFace138
+f 301 150 138 297
+g extVer_extVerFace139
+f 155 301 297 143
+v 3000 3000 4460
+g extVer_extVerFace137
+f 302 152 140 298
+g extVer_extVerFace136
+f 149 302 298 137
+g extVer_extVerFace140
+f 162 161 149 150
+v 3000 0 4460
+g extVer_extVerFace142
+f 303 154 142 299
+g extVer_extVerFace141
+f 151 303 299 139
+g extVer_extVerFace143
+f 164 163 151 152
+v 0 0 4460
+g extVer_extVerFace145
+f 304 156 144 300
+g extVer_extVerFace144
+f 153 304 300 141
+g extVer_extVerFace146
+f 166 165 153 154
+g extVer_extVerFace147
+f 168 167 155 156
+v 0 3000 4820
+g extVer_extVerFace150
+f 305 162 150 301
+g extVer_extVerFace151
+f 167 305 301 155
+v 3000 3000 4820
+g extVer_extVerFace149
+f 306 164 152 302
+g extVer_extVerFace148
+f 161 306 302 149
+g extVer_extVerFace152
+f 174 173 161 162
+v 3000 0 4820
+g extVer_extVerFace154
+f 307 166 154 303
+g extVer_extVerFace153
+f 163 307 303 151
+g extVer_extVerFace155
+f 176 175 163 164
+v 0 0 4820
+g extVer_extVerFace157
+f 308 168 156 304
+g extVer_extVerFace156
+f 165 308 304 153
+g extVer_extVerFace158
+f 178 177 165 166
+g extVer_extVerFace159
+f 180 179 167 168
+v 0 3000 5180
+g extVer_extVerFace162
+f 309 174 162 305
+g extVer_extVerFace163
+f 179 309 305 167
+v 3000 3000 5180
+g extVer_extVerFace161
+f 310 176 164 306
+g extVer_extVerFace160
+f 173 310 306 161
+g extVer_extVerFace164
+f 186 185 173 174
+v 3000 0 5180
+g extVer_extVerFace166
+f 311 178 166 307
+g extVer_extVerFace165
+f 175 311 307 163
+g extVer_extVerFace167
+f 188 187 175 176
+v 0 0 5180
+g extVer_extVerFace169
+f 312 180 168 308
+g extVer_extVerFace168
+f 177 312 308 165
+g extVer_extVerFace170
+f 190 189 177 178
+g extVer_extVerFace171
+f 192 191 179 180
+v 0 3000 5540
+g extVer_extVerFace174
+f 313 186 174 309
+g extVer_extVerFace175
+f 191 313 309 179
+v 3000 3000 5540
+g extVer_extVerFace173
+f 314 188 176 310
+g extVer_extVerFace172
+f 185 314 310 173
+g extVer_extVerFace176
+f 198 197 185 186
+v 3000 0 5540
+g extVer_extVerFace178
+f 315 190 178 311
+g extVer_extVerFace177
+f 187 315 311 175
+g extVer_extVerFace179
+f 200 199 187 188
+v 0 0 5540
+g extVer_extVerFace181
+f 316 192 180 312
+g extVer_extVerFace180
+f 189 316 312 177
+g extVer_extVerFace182
+f 202 201 189 190
+g extVer_extVerFace183
+f 204 203 191 192
+v 0 3000 5900
+g extVer_extVerFace186
+f 317 198 186 313
+g extVer_extVerFace187
+f 203 317 313 191
+v 3000 3000 5900
+g extVer_extVerFace185
+f 318 200 188 314
+g extVer_extVerFace184
+f 197 318 314 185
+g extVer_extVerFace188
+f 210 209 197 198
+v 3000 0 5900
+g extVer_extVerFace190
+f 319 202 190 315
+g extVer_extVerFace189
+f 199 319 315 187
+g extVer_extVerFace191
+f 212 211 199 200
+v 0 0 5900
+g extVer_extVerFace193
+f 320 204 192 316
+g extVer_extVerFace192
+f 201 320 316 189
+g extVer_extVerFace194
+f 214 213 201 202
+g extVer_extVerFace195
+f 216 215 203 204
+v 0 3000 6260
+g extVer_extVerFace198
+f 321 210 198 317
+g extVer_extVerFace199
+f 215 321 317 203
+v 3000 3000 6260
+g extVer_extVerFace197
+f 322 212 200 318
+g extVer_extVerFace196
+f 209 322 318 197
+g extVer_extVerFace200
+f 222 221 209 210
+v 3000 0 6260
+g extVer_extVerFace202
+f 323 214 202 319
+g extVer_extVerFace201
+f 211 323 319 199
+g extVer_extVerFace203
+f 224 223 211 212
+v 0 0 6260
+g extVer_extVerFace205
+f 324 216 204 320
+g extVer_extVerFace204
+f 213 324 320 201
+g extVer_extVerFace206
+f 226 225 213 214
+g extVer_extVerFace207
+f 228 227 215 216
+v 0 3000 6620
+g extVer_extVerFace210
+f 325 222 210 321
+g extVer_extVerFace211
+f 227 325 321 215
+v 3000 3000 6620
+g extVer_extVerFace209
+f 326 224 212 322
+g extVer_extVerFace208
+f 221 326 322 209
+g extVer_extVerFace212
+f 234 233 221 222
+v 3000 0 6620
+g extVer_extVerFace214
+f 327 226 214 323
+g extVer_extVerFace213
+f 223 327 323 211
+g extVer_extVerFace215
+f 236 235 223 224
+v 0 0 6620
+g extVer_extVerFace217
+f 328 228 216 324
+g extVer_extVerFace216
+f 225 328 324 213
+g extVer_extVerFace218
+f 238 237 225 226
+g extVer_extVerFace219
+f 240 239 227 228
+v 0 3000 6980
+g extVer_extVerFace222
+f 329 234 222 325
+g extVer_extVerFace223
+f 239 329 325 227
+v 3000 3000 6980
+g extVer_extVerFace221
+f 330 236 224 326
+g extVer_extVerFace220
+f 233 330 326 221
+g extVer_extVerFace224
+f 246 245 233 234
+v 3000 0 6980
+g extVer_extVerFace226
+f 331 238 226 327
+g extVer_extVerFace225
+f 235 331 327 223
+g extVer_extVerFace227
+f 248 247 235 236
+v 0 0 6980
+g extVer_extVerFace229
+f 332 240 228 328
+g extVer_extVerFace228
+f 237 332 328 225
+g extVer_extVerFace230
+f 250 249 237 238
+g extVer_extVerFace231
+f 252 251 239 240
+v 2000 2000 7840
+v 2000 1000 7840
+g extVer_extVerFace233
+f 333 334 242 241
+v 1000 1000 7840
+g extVer_extVerFace234
+f 334 335 243 242
+v 1000 2000 7840
+g extVer_extVerFace235
+f 335 336 244 243
+g extVer_extVerFace232
+f 336 333 241 244
+v 0 3000 7340
+g extVer_extVerFace238
+f 337 246 234 329
+g extVer_extVerFace239
+f 251 337 329 239
+v 3000 3000 7340
+g extVer_extVerFace237
+f 338 248 236 330
+g extVer_extVerFace236
+f 245 338 330 233
+v 3000 0 7340
+g extVer_extVerFace241
+f 339 250 238 331
+g extVer_extVerFace240
+f 247 339 331 235
+v 0 0 7340
+g extVer_extVerFace243
+f 340 252 240 332
+g extVer_extVerFace242
+f 249 340 332 237
+g topHor_topHorFace0
+f 244 241 245 246
+g topHor_topHorFace1
+f 241 242 247 248
+g topHor_topHorFace2
+f 242 243 249 250
+g topHor_topHorFace3
+f 243 244 251 252
+g topHor_topHorFace4
+f 333 334 335 336
+g topHor_topHorFace6
+f 251 244 246 337
+g topHor_topHorFace5
+f 245 241 248 338
+g topHor_topHorFace7
+f 242 250 339 247
+g topHor_topHorFace8
+f 249 243 252 340
+g botHor_botHorFace0
+f 1 4 6 8
+g botHor_botHorFace1
+f 10 11 4 1
+g botHor_botHorFace2
+f 16 13 6 4
+g botHor_botHorFace3
+f 20 17 8 6
+g botHor_botHorFace4
+f 24 21 1 8
+g botHor_botHorFace6
+f 10 1 21 253
+g botHor_botHorFace5
+f 256 16 4 11
+g botHor_botHorFace7
+f 258 20 6 13
+g botHor_botHorFace8
+f 260 24 8 17
+g intHor_intHorFace0
+f 3 5 7 2
+g intHor_intHorFace1
+f 2 3 12 9
+g intHor_intHorFace2
+f 3 5 14 15
+g intHor_intHorFace3
+f 5 7 18 19
+g intHor_intHorFace4
+f 22 23 7 2
+g intHor_intHorFace5
+f 25 26 27 28
+g intHor_intHorFace7
+f 2 9 254 22
+g intHor_intHorFace8
+f 28 25 29 30
+g intHor_intHorFace6
+f 15 255 12 3
+g intHor_intHorFace10
+f 25 26 31 32
+g intHor_intHorFace9
+f 19 257 14 5
+g intHor_intHorFace12
+f 26 27 33 34
+g intHor_intHorFace11
+f 23 259 18 7
+g intHor_intHorFace13
+f 27 28 36 35
+g intHor_intHorFace14
+f 37 38 39 40
+g intHor_intHorFace16
+f 36 28 30 261
+g intHor_intHorFace15
+f 29 25 32 262
+g intHor_intHorFace17
+f 40 37 41 42
+g intHor_intHorFace18
+f 26 34 263 31
+g intHor_intHorFace19
+f 37 38 43 44
+g intHor_intHorFace20
+f 33 27 35 264
+g intHor_intHorFace21
+f 38 39 45 46
+g intHor_intHorFace22
+f 39 40 47 48
+g intHor_intHorFace23
+f 49 50 51 52
+g intHor_intHorFace25
+f 47 40 42 265
+g intHor_intHorFace24
+f 41 37 44 266
+g intHor_intHorFace26
+f 52 49 53 54
+g intHor_intHorFace27
+f 38 46 267 43
+g intHor_intHorFace28
+f 49 50 55 56
+g intHor_intHorFace29
+f 45 39 48 268
+g intHor_intHorFace30
+f 50 51 57 58
+g intHor_intHorFace31
+f 51 52 59 60
+g intHor_intHorFace32
+f 61 62 63 64
+g intHor_intHorFace34
+f 59 52 54 269
+g intHor_intHorFace33
+f 53 49 56 270
+g intHor_intHorFace35
+f 64 61 65 66
+g intHor_intHorFace36
+f 50 58 271 55
+g intHor_intHorFace37
+f 61 62 67 68
+g intHor_intHorFace38
+f 57 51 60 272
+g intHor_intHorFace39
+f 62 63 69 70
+g intHor_intHorFace40
+f 63 64 71 72
+g intHor_intHorFace41
+f 73 74 75 76
+g intHor_intHorFace43
+f 71 64 66 273
+g intHor_intHorFace42
+f 65 61 68 274
+g intHor_intHorFace44
+f 76 73 77 78
+g intHor_intHorFace45
+f 62 70 275 67
+g intHor_intHorFace46
+f 73 74 79 80
+g intHor_intHorFace47
+f 69 63 72 276
+g intHor_intHorFace48
+f 74 75 81 82
+g intHor_intHorFace49
+f 75 76 83 84
+g intHor_intHorFace50
+f 85 86 87 88
+g intHor_intHorFace52
+f 83 76 78 277
+g intHor_intHorFace51
+f 77 73 80 278
+g intHor_intHorFace53
+f 88 85 89 90
+g intHor_intHorFace54
+f 74 82 279 79
+g intHor_intHorFace55
+f 85 86 91 92
+g intHor_intHorFace56
+f 81 75 84 280
+g intHor_intHorFace57
+f 86 87 93 94
+g intHor_intHorFace58
+f 87 88 95 96
+g intHor_intHorFace59
+f 97 98 99 100
+g intHor_intHorFace61
+f 95 88 90 281
+g intHor_intHorFace60
+f 89 85 92 282
+g intHor_intHorFace62
+f 100 97 101 102
+g intHor_intHorFace63
+f 86 94 283 91
+g intHor_intHorFace64
+f 97 98 103 104
+g intHor_intHorFace65
+f 93 87 96 284
+g intHor_intHorFace66
+f 98 99 105 106
+g intHor_intHorFace67
+f 99 100 107 108
+g intHor_intHorFace68
+f 109 110 111 112
+g intHor_intHorFace70
+f 107 100 102 285
+g intHor_intHorFace69
+f 101 97 104 286
+g intHor_intHorFace71
+f 112 109 113 114
+g intHor_intHorFace72
+f 98 106 287 103
+g intHor_intHorFace73
+f 109 110 115 116
+g intHor_intHorFace74
+f 105 99 108 288
+g intHor_intHorFace75
+f 110 111 117 118
+g intHor_intHorFace76
+f 111 112 119 120
+g intHor_intHorFace77
+f 121 122 123 124
+g intHor_intHorFace79
+f 119 112 114 289
+g intHor_intHorFace78
+f 113 109 116 290
+g intHor_intHorFace80
+f 124 121 125 126
+g intHor_intHorFace81
+f 110 118 291 115
+g intHor_intHorFace82
+f 121 122 127 128
+g intHor_intHorFace83
+f 117 111 120 292
+g intHor_intHorFace84
+f 122 123 129 130
+g intHor_intHorFace85
+f 123 124 131 132
+g intHor_intHorFace86
+f 133 134 135 136
+g intHor_intHorFace88
+f 131 124 126 293
+g intHor_intHorFace87
+f 125 121 128 294
+g intHor_intHorFace89
+f 136 133 137 138
+g intHor_intHorFace90
+f 122 130 295 127
+g intHor_intHorFace91
+f 133 134 139 140
+g intHor_intHorFace92
+f 129 123 132 296
+g intHor_intHorFace93
+f 134 135 141 142
+g intHor_intHorFace94
+f 135 136 143 144
+g intHor_intHorFace95
+f 145 146 147 148
+g intHor_intHorFace97
+f 143 136 138 297
+g intHor_intHorFace96
+f 137 133 140 298
+g intHor_intHorFace98
+f 148 145 149 150
+g intHor_intHorFace99
+f 134 142 299 139
+g intHor_intHorFace100
+f 145 146 151 152
+g intHor_intHorFace101
+f 141 135 144 300
+g intHor_intHorFace102
+f 146 147 153 154
+g intHor_intHorFace103
+f 147 148 155 156
+g intHor_intHorFace104
+f 157 158 159 160
+g intHor_intHorFace106
+f 155 148 150 301
+g intHor_intHorFace105
+f 149 145 152 302
+g intHor_intHorFace107
+f 160 157 161 162
+g intHor_intHorFace108
+f 146 154 303 151
+g intHor_intHorFace109
+f 157 158 163 164
+g intHor_intHorFace110
+f 153 147 156 304
+g intHor_intHorFace111
+f 158 159 165 166
+g intHor_intHorFace112
+f 159 160 167 168
+g intHor_intHorFace113
+f 169 170 171 172
+g intHor_intHorFace115
+f 167 160 162 305
+g intHor_intHorFace114
+f 161 157 164 306
+g intHor_intHorFace116
+f 172 169 173 174
+g intHor_intHorFace117
+f 158 166 307 163
+g intHor_intHorFace118
+f 169 170 175 176
+g intHor_intHorFace119
+f 165 159 168 308
+g intHor_intHorFace120
+f 170 171 177 178
+g intHor_intHorFace121
+f 171 172 179 180
+g intHor_intHorFace122
+f 181 182 183 184
+g intHor_intHorFace124
+f 179 172 174 309
+g intHor_intHorFace123
+f 173 169 176 310
+g intHor_intHorFace125
+f 184 181 185 186
+g intHor_intHorFace126
+f 170 178 311 175
+g intHor_intHorFace127
+f 181 182 187 188
+g intHor_intHorFace128
+f 177 171 180 312
+g intHor_intHorFace129
+f 182 183 189 190
+g intHor_intHorFace130
+f 183 184 191 192
+g intHor_intHorFace131
+f 193 194 195 196
+g intHor_intHorFace133
+f 191 184 186 313
+g intHor_intHorFace132
+f 185 181 188 314
+g intHor_intHorFace134
+f 196 193 197 198
+g intHor_intHorFace135
+f 182 190 315 187
+g intHor_intHorFace136
+f 193 194 199 200
+g intHor_intHorFace137
+f 189 183 192 316
+g intHor_intHorFace138
+f 194 195 201 202
+g intHor_intHorFace139
+f 195 196 203 204
+g intHor_intHorFace140
+f 205 206 207 208
+g intHor_intHorFace142
+f 203 196 198 317
+g intHor_intHorFace141
+f 197 193 200 318
+g intHor_intHorFace143
+f 208 205 209 210
+g intHor_intHorFace144
+f 194 202 319 199
+g intHor_intHorFace145
+f 205 206 211 212
+g intHor_intHorFace146
+f 201 195 204 320
+g intHor_intHorFace147
+f 206 207 213 214
+g intHor_intHorFace148
+f 207 208 215 216
+g intHor_intHorFace149
+f 217 218 219 220
+g intHor_intHorFace151
+f 215 208 210 321
+g intHor_intHorFace150
+f 209 205 212 322
+g intHor_intHorFace152
+f 220 217 221 222
+g intHor_intHorFace153
+f 206 214 323 211
+g intHor_intHorFace154
+f 217 218 223 224
+g intHor_intHorFace155
+f 213 207 216 324
+g intHor_intHorFace156
+f 218 219 225 226
+g intHor_intHorFace157
+f 219 220 227 228
+g intHor_intHorFace158
+f 229 230 231 232
+g intHor_intHorFace160
+f 227 220 222 325
+g intHor_intHorFace159
+f 221 217 224 326
+g intHor_intHorFace161
+f 232 229 233 234
+g intHor_intHorFace162
+f 218 226 327 223
+g intHor_intHorFace163
+f 229 230 235 236
+g intHor_intHorFace164
+f 225 219 228 328
+g intHor_intHorFace165
+f 230 231 237 238
+g intHor_intHorFace166
+f 231 232 239 240
+g intHor_intHorFace167
+f 241 242 243 244
+g intHor_intHorFace169
+f 239 232 234 329
+g intHor_intHorFace168
+f 233 229 236 330
+g intHor_intHorFace170
+f 230 238 331 235
+g intHor_intHorFace171
+f 237 231 240 332

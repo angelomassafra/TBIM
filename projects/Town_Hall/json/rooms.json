@@ -1,0 +1,352 @@
+[
+    {
+        "center": [
+            375.0,
+            400.0,
+            225.0
+        ],
+        "pr_OccupancyType": "Office:PublicDesk",
+        "space": "0W.F1",
+        "name": "Public desk"
+    },
+    {
+        "center": [
+            375.0,
+            1400.0,
+            225.0
+        ],
+        "pr_OccupancyType": "Archive:Records",
+        "space": "0W.B1",
+        "name": "Archive"
+    },
+    {
+        "center": [
+            1125.0,
+            400.0,
+            225.0
+        ],
+        "pr_OccupancyType": "Office:Registry",
+        "space": "0W.F2",
+        "name": "Registry office"
+    },
+    {
+        "center": [
+            1125.0,
+            1400.0,
+            225.0
+        ],
+        "pr_OccupancyType": "Archive:Records",
+        "space": "0W.B2",
+        "name": "Archive"
+    },
+    {
+        "center": [
+            750.0,
+            900.0,
+            225.0
+        ],
+        "pr_OccupancyType": "Circulation:Corridor",
+        "space": "0W.COR",
+        "name": "Corridor"
+    },
+    {
+        "center": [
+            2875.0,
+            400.0,
+            225.0
+        ],
+        "pr_OccupancyType": "Office:PublicDesk",
+        "space": "0E.F1",
+        "name": "Public desk"
+    },
+    {
+        "center": [
+            2875.0,
+            1400.0,
+            225.0
+        ],
+        "pr_OccupancyType": "Archive:Records",
+        "space": "0E.B1",
+        "name": "Archive"
+    },
+    {
+        "center": [
+            3625.0,
+            400.0,
+            225.0
+        ],
+        "pr_OccupancyType": "Office:Registry",
+        "space": "0E.F2",
+        "name": "Registry office"
+    },
+    {
+        "center": [
+            3625.0,
+            1400.0,
+            225.0
+        ],
+        "pr_OccupancyType": "Archive:Records",
+        "space": "0E.B2",
+        "name": "Archive"
+    },
+    {
+        "center": [
+            3250.0,
+            900.0,
+            225.0
+        ],
+        "pr_OccupancyType": "Circulation:Corridor",
+        "space": "0E.COR",
+        "name": "Corridor"
+    },
+    {
+        "center": [
+            375.0,
+            400.0,
+            675.0
+        ],
+        "pr_OccupancyType": "Office:Private",
+        "space": "1W.F1",
+        "name": "Councillor office"
+    },
+    {
+        "center": [
+            375.0,
+            1400.0,
+            675.0
+        ],
+        "pr_OccupancyType": "Office:Administration",
+        "space": "1W.B1",
+        "name": "Secretariat"
+    },
+    {
+        "center": [
+            1125.0,
+            400.0,
+            675.0
+        ],
+        "pr_OccupancyType": "Office:Private",
+        "space": "1W.F2",
+        "name": "Mayor office"
+    },
+    {
+        "center": [
+            1125.0,
+            1400.0,
+            675.0
+        ],
+        "pr_OccupancyType": "Office:Administration",
+        "space": "1W.B2",
+        "name": "Secretariat"
+    },
+    {
+        "center": [
+            750.0,
+            900.0,
+            675.0
+        ],
+        "pr_OccupancyType": "Circulation:Corridor",
+        "space": "1W.COR",
+        "name": "Corridor"
+    },
+    {
+        "center": [
+            2875.0,
+            400.0,
+            675.0
+        ],
+        "pr_OccupancyType": "Office:Private",
+        "space": "1E.F1",
+        "name": "Councillor office"
+    },
+    {
+        "center": [
+            2875.0,
+            1400.0,
+            675.0
+        ],
+        "pr_OccupancyType": "Office:Administration",
+        "space": "1E.B1",
+        "name": "Secretariat"
+    },
+    {
+        "center": [
+            3625.0,
+            400.0,
+            675.0
+        ],
+        "pr_OccupancyType": "Office:Private",
+        "space": "1E.F2",
+        "name": "Mayor office"
+    },
+    {
+        "center": [
+            3625.0,
+            1400.0,
+            675.0
+        ],
+        "pr_OccupancyType": "Office:Administration",
+        "space": "1E.B2",
+        "name": "Secretariat"
+    },
+    {
+        "center": [
+            3250.0,
+            900.0,
+            675.0
+        ],
+        "pr_OccupancyType": "Circulation:Corridor",
+        "space": "1E.COR",
+        "name": "Corridor"
+    },
+    {
+        "center": [
+            375.0,
+            400.0,
+            1100.0
+        ],
+        "pr_OccupancyType": "Office:Administration",
+        "space": "2W.F1",
+        "name": "Technical office"
+    },
+    {
+        "center": [
+            375.0,
+            1400.0,
+            1100.0
+        ],
+        "pr_OccupancyType": "Office:Administration",
+        "space": "2W.B1",
+        "name": "Planning office"
+    },
+    {
+        "center": [
+            1125.0,
+            400.0,
+            1100.0
+        ],
+        "pr_OccupancyType": "Office:Administration",
+        "space": "2W.F2",
+        "name": "Accounts office"
+    },
+    {
+        "center": [
+            1125.0,
+            1400.0,
+            1100.0
+        ],
+        "pr_OccupancyType": "Office:Administration",
+        "space": "2W.B2",
+        "name": "Planning office"
+    },
+    {
+        "center": [
+            750.0,
+            900.0,
+            1100.0
+        ],
+        "pr_OccupancyType": "Circulation:Corridor",
+        "space": "2W.COR",
+        "name": "Corridor"
+    },
+    {
+        "center": [
+            2875.0,
+            400.0,
+            1100.0
+        ],
+        "pr_OccupancyType": "Office:Administration",
+        "space": "2E.F1",
+        "name": "Technical office"
+    },
+    {
+        "center": [
+            2875.0,
+            1400.0,
+            1100.0
+        ],
+        "pr_OccupancyType": "Office:Administration",
+        "space": "2E.B1",
+        "name": "Planning office"
+    },
+    {
+        "center": [
+            3625.0,
+            400.0,
+            1100.0
+        ],
+        "pr_OccupancyType": "Office:Administration",
+        "space": "2E.F2",
+        "name": "Accounts office"
+    },
+    {
+        "center": [
+            3625.0,
+            1400.0,
+            1100.0
+        ],
+        "pr_OccupancyType": "Office:Administration",
+        "space": "2E.B2",
+        "name": "Planning office"
+    },
+    {
+        "center": [
+            3250.0,
+            900.0,
+            1100.0
+        ],
+        "pr_OccupancyType": "Circulation:Corridor",
+        "space": "2E.COR",
+        "name": "Corridor"
+    },
+    {
+        "center": [
+            2000.0,
+            900.0,
+            225.0
+        ],
+        "pr_OccupancyType": "Circulation:EntranceHall",
+        "space": "0.HALL",
+        "name": "Entrance hall"
+    },
+    {
+        "center": [
+            2000.0,
+            900.0,
+            875.0
+        ],
+        "pr_OccupancyType": "Assembly:CouncilChamber",
+        "space": "1.CHAMBER",
+        "name": "Council chamber"
+    },
+    {
+        "center": [
+            2000.0,
+            913.1587095176174,
+            1382.8032695522945
+        ],
+        "pr_OccupancyType": "Unconditioned:Attic",
+        "space": "R.ATTIC",
+        "name": "Attic"
+    },
+    {
+        "center": [
+            2000.0,
+            250.0,
+            1650.0
+        ],
+        "pr_OccupancyType": "Civic:ClockTower",
+        "space": "T.CLOCK",
+        "name": "Clock room"
+    },
+    {
+        "center": [
+            2000.0,
+            250.0,
+            2350.0
+        ],
+        "pr_OccupancyType": "Civic:Belfry",
+        "space": "T.BELFRY",
+        "name": "Belfry"
+    }
+]

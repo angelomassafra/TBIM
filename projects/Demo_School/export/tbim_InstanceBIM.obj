@@ -1,0 +1,121 @@
+# TBIM - faces of the CellComplex (cm)
+v 0 600 0
+v 0 600 300
+v 500 600 300
+v 500 600 0
+g intVer_intVerFace0
+f 1 2 3 4
+v 500 0 300
+v 500 0 0
+g intVer_intVerFace1
+f 3 5 6 4
+v 1000 600 0
+v 1000 600 300
+g intVer_intVerFace2
+f 7 8 3 4
+v 1500 600 0
+v 1500 600 300
+g intVer_intVerFace4
+f 9 10 8 7
+v 1500 800 300
+v 1500 800 0
+g intVer_intVerFace3
+f 10 11 12 9
+v 1000 0 300
+v 1000 0 0
+g intVer_intVerFace5
+f 7 8 13 14
+v 500 600 600
+v 500 0 600
+g intVer_intVerFace7
+f 15 16 5 3
+v 0 600 600
+g intVer_intVerFace6
+f 17 15 3 2
+v 1000 600 600
+g intVer_intVerFace9
+f 18 15 3 8
+v 1500 600 600
+g intVer_intVerFace8
+f 8 10 19 18
+v 1500 0 0
+v 1500 0 300
+g intVer_intVerFace10
+f 9 20 21 10
+v 1000 0 600
+g intVer_intVerFace11
+f 18 22 13 8
+v 0 0 300
+v 0 0 0
+g extVer_extVerFace0
+f 5 23 24 6
+g extVer_extVerFace1
+f 23 2 1 24
+v 0 800 300
+v 0 800 0
+g extVer_extVerFace2
+f 1 2 25 26
+g extVer_extVerFace3
+f 11 12 26 25
+g extVer_extVerFace4
+f 14 13 5 6
+v 0 0 600
+g extVer_extVerFace5
+f 16 27 23 5
+g extVer_extVerFace6
+f 27 17 2 23
+v 1500 800 600
+g extVer_extVerFace8
+f 28 19 10 11
+v 0 800 600
+g extVer_extVerFace7
+f 29 28 11 25
+g extVer_extVerFace9
+f 17 29 25 2
+g extVer_extVerFace13
+f 13 21 20 14
+v 2300 800 300
+v 2300 800 0
+g extVer_extVerFace10
+f 30 31 12 11
+v 2300 0 300
+v 2300 0 0
+g extVer_extVerFace12
+f 21 32 33 20
+g extVer_extVerFace11
+f 32 30 31 33
+g extVer_extVerFace14
+f 22 16 5 13
+v 1500 0 600
+g extVer_extVerFace15
+f 19 34 21 10
+g extVer_extVerFace16
+f 13 21 34 22
+g topHor_topHorFace0
+f 15 16 27 17
+g topHor_topHorFace1
+f 17 15 18 19 28 29
+g topHor_topHorFace2
+f 21 32 30 11 10
+g topHor_topHorFace3
+f 15 16 22 18
+g topHor_topHorFace4
+f 18 22 34 19
+g botHor_botHorFace0
+f 1 4 6 24
+g botHor_botHorFace1
+f 26 12 9 7 4 1
+g botHor_botHorFace2
+f 7 14 6 4
+g botHor_botHorFace4
+f 20 14 7 9
+g botHor_botHorFace3
+f 31 33 20 9 12
+g intHor_intHorFace0
+f 3 5 23 2
+g intHor_intHorFace1
+f 2 3 8 10 11 25
+g intHor_intHorFace2
+f 3 5 13 8
+g intHor_intHorFace3
+f 13 21 10 8

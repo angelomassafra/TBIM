@@ -1,10 +1,15 @@
 """Tests of the topologicpy based pipeline (skipped if topologicpy/topologic_core are missing)."""
+import json
+import os
+import sys
+
 import pytest
 
 pytest.importorskip("topologic_core")
 
 from topologicpy.Cell import Cell  # noqa: E402
 from topologicpy.CellComplex import CellComplex  # noqa: E402
+from topologicpy.Topology import Topology  # noqa: E402
 from topologicpy.Vertex import Vertex  # noqa: E402
 
 from tbim import irs, loads, scene, styles, topo  # noqa: E402
@@ -80,3 +85,23 @@ def test_scene_graph_and_geometry(cc):
     shrunk = scene.cells(cc, shrink=0.5)
     xs = [p[0] for loop in shrunk[0][2] for p in loop]
     assert max(xs) - min(xs) == pytest.approx(250)
+
+
+def test_building_kit_writes_a_project(tmp_path):
+    """Two rooms side by side and a gable attic: BRep, rooms and the inputs of every step."""
+    sys.path.insert(0, os.path.join(os.path.dirname(__file__), os.pardir, "tools"))
+    import building_kit as kit
+
+    rooms = [kit.Room(0, 400, 0, 500, 0, 300, "Office:Private", "A", "Office A"),
+             kit.Room(400, 800, 0, 500, 0, 300, "Office:Private", "B", "Office B")]
+    attic = kit.Room(0, 1, 0, 1, 0, 1, "Unconditioned:Attic", "R", "Attic")
+    attic.cell = kit.gable_attic(0, 800, 0, 500, 300, 150)
+    ilds = [kit.ild("Office:Private", "NoCirculation", True, True, False, True, False, 10),
+            kit.ild("Unconditioned:Attic", "NoCirculation", False, False, False, True, False, 0)]
+    kit.write_project(str(tmp_path), "Test", "", rooms + [attic], 0, ilds, [], {}, {})
+    cc = Topology.ByBREPPath(str(tmp_path / "3d" / "Block.brep"))
+    assert len(Topology.Cells(cc)) == 3
+    data = json.load(open(str(tmp_path / "json" / "rooms.json")))
+    assert [r["space"] for r in data] == ["A", "B", "R"]
+    assert 300 < data[2]["center"][2] < 450  # inside the attic
+    assert (tmp_path / "json" / "tbim_IRS_extVerFaces.json").exists()

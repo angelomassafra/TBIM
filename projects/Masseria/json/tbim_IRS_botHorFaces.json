@@ -1,0 +1,9 @@
+[
+    {
+        "cnFC_equalTo_pr_TopologicalType": "botHor",
+        "stFC_FloorTypeName": "TBIM_Battuto_Chianche_300",
+        "stFC_ThermalTransmittance": 2.0,
+        "stFC_Layers": "Limestone slabs (chianche) / lime mortar / compacted earth",
+        "stFC_ConstructionYear": 1760
+    }
+]

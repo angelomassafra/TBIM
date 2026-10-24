@@ -9,6 +9,8 @@ site-packages/
 tbim_settings.json
 tbim_SharedParameters.txt
 *.log
+space_names.txt
+standin_placement.txt
 
 # Case-study data (not anonymized), source drawings and legacy scripts
 /json/
@@ -21,10 +23,11 @@ examples/demo/json/tbim__FaceProperties.json
 examples/demo/json/tbim_BRepFilePaths.json
 examples/demo/json/demo_space_names.json
 
-# Revit models and backups (they store local paths; the projects keep only the TBIM data)
+# Revit models: only the example projects (no backups)
 *.rvt
 *.rfa
-*.0*.rvt
+!projects/*/*.rvt
+projects/*/*.0*.rvt
 
 # OS / editors
 Thumbs.db
@@ -32,3 +35,6 @@ desktop.ini
 .DS_Store
 .vscode/
 .idea/
+
+# Generated exports (the example projects keep theirs)
+examples/*/export/

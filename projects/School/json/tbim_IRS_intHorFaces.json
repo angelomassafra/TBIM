@@ -1,0 +1,17 @@
+[
+    {
+        "cnFC_equalTo_pr_TopologicalType": "intHor",
+        "stFC_FloorTypeName": "TBIM_Solaio_Laterocemento_300",
+        "stFC_ThermalTransmittance": 1.4,
+        "stFC_Layers": "Linoleum / screed / clay-concrete 20+4",
+        "stFC_ConstructionYear": 1978
+    },
+    {
+        "cnFC_equalTo_pr_TopologicalType": "intHor",
+        "cnFC_contains_pr_OccupancyType": "Attic",
+        "stFC_FloorTypeName": "TBIM_Controsoffitto_Palestra_150",
+        "stFC_ThermalTransmittance": 0.8,
+        "stFC_Layers": "Suspended ceiling / mineral wool 6",
+        "stFC_ConstructionYear": 1978
+    }
+]

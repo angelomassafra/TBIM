@@ -1,0 +1,18 @@
+[
+    "UID",
+    "pr_Area",
+    "pr_AreaPerOccupantPeak",
+    "pr_CirculationType",
+    "pr_FaceExposure",
+    "pr_IsCooled",
+    "pr_IsHeated",
+    "pr_IsMechanicallyVentilated",
+    "pr_IsNaturallyVentilated",
+    "pr_IsOccupied",
+    "pr_OccupancyType",
+    "pr_TopologicalType",
+    "rl_HasLocation_tpBB",
+    "rl_HasLocation_tpBS",
+    "rl_HasLocation_tpSP",
+    "rl_HasLocation_tpZN"
+]

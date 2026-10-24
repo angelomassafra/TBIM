@@ -1,0 +1,94 @@
+[
+    {
+        "UID": "Cell0",
+        "pr_OccupancyType": "Circulation:EntranceHall"
+    },
+    {
+        "UID": "Cell1",
+        "pr_OccupancyType": "Circulation:Corridor"
+    },
+    {
+        "UID": "Cell10",
+        "pr_OccupancyType": "Education:Classroom"
+    },
+    {
+        "UID": "Cell11",
+        "pr_OccupancyType": "Circulation:Corridor"
+    },
+    {
+        "UID": "Cell12",
+        "pr_OccupancyType": "Education:Laboratory"
+    },
+    {
+        "UID": "Cell13",
+        "pr_OccupancyType": "Circulation:Stair"
+    },
+    {
+        "UID": "Cell14",
+        "pr_OccupancyType": "Support:Restroom"
+    },
+    {
+        "UID": "Cell15",
+        "pr_OccupancyType": "Support:ChangingRoom"
+    },
+    {
+        "UID": "Cell16",
+        "pr_OccupancyType": "Support:ChangingRoom"
+    },
+    {
+        "UID": "Cell17",
+        "pr_OccupancyType": "Storage:Equipment"
+    },
+    {
+        "UID": "Cell18",
+        "pr_OccupancyType": "Education:Classroom"
+    },
+    {
+        "UID": "Cell19",
+        "pr_OccupancyType": "Unconditioned:Attic"
+    },
+    {
+        "UID": "Cell2",
+        "pr_OccupancyType": "Office:Administration"
+    },
+    {
+        "UID": "Cell20",
+        "pr_OccupancyType": "Education:Classroom"
+    },
+    {
+        "UID": "Cell21",
+        "pr_OccupancyType": "Education:Classroom"
+    },
+    {
+        "UID": "Cell22",
+        "pr_OccupancyType": "Education:Classroom"
+    },
+    {
+        "UID": "Cell3",
+        "pr_OccupancyType": "Education:Library"
+    },
+    {
+        "UID": "Cell4",
+        "pr_OccupancyType": "Circulation:Stair"
+    },
+    {
+        "UID": "Cell5",
+        "pr_OccupancyType": "Support:Restroom"
+    },
+    {
+        "UID": "Cell6",
+        "pr_OccupancyType": "Sports:Gym"
+    },
+    {
+        "UID": "Cell7",
+        "pr_OccupancyType": "Education:Classroom"
+    },
+    {
+        "UID": "Cell8",
+        "pr_OccupancyType": "Education:Classroom"
+    },
+    {
+        "UID": "Cell9",
+        "pr_OccupancyType": "Education:Classroom"
+    }
+]

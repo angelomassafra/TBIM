@@ -1,0 +1,9 @@
+[
+    {
+        "cnFC_equalTo_pr_TopologicalType": "intVer",
+        "stFC_WallTypeName": "TBIM_Muratura_Tufo_500",
+        "stFC_ThermalTransmittance": 1.4,
+        "stFC_Layers": "Lime plaster / tuff ashlar 45 / lime plaster",
+        "stFC_ConstructionYear": 1760
+    }
+]

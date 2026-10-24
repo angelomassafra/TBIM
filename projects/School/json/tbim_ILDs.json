@@ -1,0 +1,132 @@
+[
+    {
+        "pr_OccupancyType": "Default",
+        "pr_CirculationType": "NoCirculation",
+        "pr_IsOccupied": false,
+        "pr_IsHeated": false,
+        "pr_IsCooled": false,
+        "pr_IsNaturallyVentilated": false,
+        "pr_IsMechanicallyVentilated": false,
+        "pr_AreaPerOccupantPeak": 0
+    },
+    {
+        "pr_OccupancyType": "Education:Classroom",
+        "pr_CirculationType": "NoCirculation",
+        "pr_IsOccupied": true,
+        "pr_IsHeated": true,
+        "pr_IsCooled": false,
+        "pr_IsNaturallyVentilated": true,
+        "pr_IsMechanicallyVentilated": false,
+        "pr_AreaPerOccupantPeak": 1.8
+    },
+    {
+        "pr_OccupancyType": "Education:Library",
+        "pr_CirculationType": "NoCirculation",
+        "pr_IsOccupied": true,
+        "pr_IsHeated": true,
+        "pr_IsCooled": false,
+        "pr_IsNaturallyVentilated": true,
+        "pr_IsMechanicallyVentilated": false,
+        "pr_AreaPerOccupantPeak": 4.0
+    },
+    {
+        "pr_OccupancyType": "Education:Laboratory",
+        "pr_CirculationType": "NoCirculation",
+        "pr_IsOccupied": true,
+        "pr_IsHeated": true,
+        "pr_IsCooled": false,
+        "pr_IsNaturallyVentilated": true,
+        "pr_IsMechanicallyVentilated": true,
+        "pr_AreaPerOccupantPeak": 2.5
+    },
+    {
+        "pr_OccupancyType": "Office:Administration",
+        "pr_CirculationType": "NoCirculation",
+        "pr_IsOccupied": true,
+        "pr_IsHeated": true,
+        "pr_IsCooled": false,
+        "pr_IsNaturallyVentilated": true,
+        "pr_IsMechanicallyVentilated": false,
+        "pr_AreaPerOccupantPeak": 10.0
+    },
+    {
+        "pr_OccupancyType": "Circulation:EntranceHall",
+        "pr_CirculationType": "PublicCirculation",
+        "pr_IsOccupied": false,
+        "pr_IsHeated": true,
+        "pr_IsCooled": false,
+        "pr_IsNaturallyVentilated": true,
+        "pr_IsMechanicallyVentilated": false,
+        "pr_AreaPerOccupantPeak": 0
+    },
+    {
+        "pr_OccupancyType": "Circulation:Corridor",
+        "pr_CirculationType": "PublicCirculation",
+        "pr_IsOccupied": false,
+        "pr_IsHeated": true,
+        "pr_IsCooled": false,
+        "pr_IsNaturallyVentilated": true,
+        "pr_IsMechanicallyVentilated": false,
+        "pr_AreaPerOccupantPeak": 0
+    },
+    {
+        "pr_OccupancyType": "Circulation:Stair",
+        "pr_CirculationType": "PublicCirculation",
+        "pr_IsOccupied": false,
+        "pr_IsHeated": true,
+        "pr_IsCooled": false,
+        "pr_IsNaturallyVentilated": true,
+        "pr_IsMechanicallyVentilated": false,
+        "pr_AreaPerOccupantPeak": 0
+    },
+    {
+        "pr_OccupancyType": "Support:Restroom",
+        "pr_CirculationType": "NoCirculation",
+        "pr_IsOccupied": false,
+        "pr_IsHeated": true,
+        "pr_IsCooled": false,
+        "pr_IsNaturallyVentilated": false,
+        "pr_IsMechanicallyVentilated": true,
+        "pr_AreaPerOccupantPeak": 0
+    },
+    {
+        "pr_OccupancyType": "Sports:Gym",
+        "pr_CirculationType": "NoCirculation",
+        "pr_IsOccupied": true,
+        "pr_IsHeated": true,
+        "pr_IsCooled": false,
+        "pr_IsNaturallyVentilated": true,
+        "pr_IsMechanicallyVentilated": true,
+        "pr_AreaPerOccupantPeak": 6.0
+    },
+    {
+        "pr_OccupancyType": "Support:ChangingRoom",
+        "pr_CirculationType": "NoCirculation",
+        "pr_IsOccupied": true,
+        "pr_IsHeated": true,
+        "pr_IsCooled": false,
+        "pr_IsNaturallyVentilated": false,
+        "pr_IsMechanicallyVentilated": true,
+        "pr_AreaPerOccupantPeak": 3.0
+    },
+    {
+        "pr_OccupancyType": "Storage:Equipment",
+        "pr_CirculationType": "NoCirculation",
+        "pr_IsOccupied": false,
+        "pr_IsHeated": false,
+        "pr_IsCooled": false,
+        "pr_IsNaturallyVentilated": true,
+        "pr_IsMechanicallyVentilated": false,
+        "pr_AreaPerOccupantPeak": 0
+    },
+    {
+        "pr_OccupancyType": "Unconditioned:Attic",
+        "pr_CirculationType": "NoCirculation",
+        "pr_IsOccupied": false,
+        "pr_IsHeated": false,
+        "pr_IsCooled": false,
+        "pr_IsNaturallyVentilated": true,
+        "pr_IsMechanicallyVentilated": false,
+        "pr_AreaPerOccupantPeak": 0
+    }
+]

@@ -1,0 +1,73 @@
+{
+    "windows": [
+        [
+            "Office",
+            "TBIM_Vetrata_Ufficio_800x280",
+            800,
+            280,
+            30
+        ],
+        [
+            "Lobby",
+            "TBIM_Vetrata_Atrio_800x400",
+            800,
+            400,
+            40
+        ],
+        [
+            "Cafe",
+            "TBIM_Vetrata_Atrio_800x400",
+            800,
+            400,
+            40
+        ],
+        [
+            "Shop",
+            "TBIM_Vetrina_800x400",
+            800,
+            400,
+            40
+        ]
+    ],
+    "external_doors": [
+        [
+            "Lobby",
+            "TBIM_Ingresso_Girevole_300x300",
+            300,
+            300
+        ]
+    ],
+    "doors": [
+        [
+            "Core",
+            "",
+            "TBIM_Porta_REI120_100x220",
+            100,
+            220
+        ],
+        [
+            "Lobby",
+            "",
+            "TBIM_Porta_Vetro_200x250",
+            200,
+            250
+        ],
+        [
+            "Office",
+            "Office",
+            "TBIM_Porta_Ufficio_90x220",
+            90,
+            220
+        ]
+    ],
+    "window_data": {
+        "pr_FrameMaterial": "Aluminium, thermal break",
+        "pr_Glazing": "Triple glazing, low-e",
+        "pr_ThermalTransmittance": 1.0,
+        "pr_SolarFactor": 0.3,
+        "pr_ConstructionYear": 2022
+    },
+    "door_data": {
+        "pr_ConstructionYear": 2022
+    }
+}
