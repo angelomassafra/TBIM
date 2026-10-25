@@ -96,8 +96,8 @@ topologicpy JSON, BREP, OBJ, dual (adjacency) and passage graphs.
 The last five are invented: their `make_model.py` describes the floor plans as rooms with
 [`tools/building_kit.py`](tools/building_kit.py), so new test buildings take a few dozen lines.
 
-The walls, floors and roofs of every project are layered Revit types with real materials, different for each
-building type: facing-brick cavity walls and clay-tile roofs (1960s housing), a unitised curtain wall and an
+Except for the Demo School, the walls, floors and roofs of every project are layered Revit types with real
+materials, different for each building type: facing-brick cavity walls and clay-tile roofs (1960s housing), a unitised curtain wall and an
 inverted flat roof (tower), facing brick, precast panels and a steel-sheet gym roof (school), a ventilated
 metal and terracotta facade with a glazed skylight (mall), whitewashed tuff walls on vaulted roof terraces
 (farmhouse), rusticated render, exposed brick and lead (town hall). The layers are written in the

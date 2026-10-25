@@ -2,10 +2,14 @@
 
 Shared library of the TBIM pyRevit extension. Modules are split in:
 
-- engine-agnostic, pure Python (``paths``, ``jsonio``, ``units``, ``ild``, ``irs``,
-  ``analysis``, ``zoning``, ``tbimjson``): importable from IronPython and CPython;
-- topologicpy based (``topo``, ``loads``, ``styles``, ``instancebim``): CPython only;
-- Revit API based (``revit``): requires the Revit API (pyRevit runtime).
+- engine-agnostic, pure Python (``paths``, ``projects``, ``jsonio``, ``units``, ``colors``, ``ild``,
+  ``irs``, ``ibim``, ``analysis``, ``zoning``, ``tbimjson``, ``materials``): importable from
+  IronPython and CPython, and outside Revit;
+- topologicpy based, no Revit (``topo``, ``controllers``, ``loads``, ``styles``, ``apertures``,
+  ``rooms``, ``instancebim``, ``scene``, ``export``): CPython only, used by the offline demo and tests;
+- Revit API based (``revit``, ``ui``, ``assignment``, ``ifc``, ``collectors``, ``revit_types``,
+  ``visualize``, ``check``, ``pipeline``): require the Revit API (pyRevit runtime); ``pipeline`` holds
+  the steps of the workflow shared by the ribbon commands and Project > Run.
 
 Modules keep Python 2.7 compatible syntax where they may be imported by
 IronPython scripts.

@@ -1,4 +1,4 @@
-"""Construction materials and layered constructions of the example projects.
+"""Material library of TBIM: construction materials and layered constructions (U-values).
 
 A construction is a list of layers ``(material, thickness in mm)`` from the outside (or the top) to the
 inside (or the bottom), the order of the layers of a Revit compound structure. In the Informational Rule

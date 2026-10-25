@@ -158,7 +158,9 @@ style, duplicated UIDs, spaces not enclosed (area 0) and apertures without host.
 The repository ships seven complete projects. Each one has its inputs, the TBIM data of every step (`json/`),
 the Revit 2026 model at the end of the workflow and its exports (`export/`: IFC and Topologic models). Open the
 `.rvt` to explore the result, or start from an empty model, **Project > Open** the folder and press
-**Project > Run** (a few minutes for the largest buildings).
+**Project > Run** (a few minutes for the largest buildings). The `.rvt` files store the project folder of the
+machine that saved them: after cloning the repository, use **Project > Open** once on each model to link it
+to its folder.
 
 | Project | Cells | |
 |---|---|---|
@@ -293,9 +295,10 @@ A rule with a property that the face does not have never matches. In the demo th
 A rule can also describe the construction of its type in `stFC_Layers`, from the outside (or the top) to the
 inside, with the materials of the TBIM material library and their thicknesses, e.g.
 `"Facing brick 60 mm / EPS insulation 30 mm / Perforated clay brick 250 mm / Lime-cement plaster 15 mm"`.
-Styles > Update then creates (or updates) a layered Revit wall, floor or roof type for each style, with the
-materials and their thermal assets (so Revit computes the U-value of the type too), and assigns it to the
-Revit elements of the faces.
+Styles > Update then gives the Revit walls, floors and roofs the type of their style. A type the model does
+not have yet is created: with the layers of `stFC_Layers`, materials and thermal assets included (so Revit
+computes the U-value of the type too), or, without layers, with one structure layer as thick as the number
+ending its name (`TBIM_Partition_100`: 100 mm), as in the demo. Existing types are used as they are.
 
 ### Step 5 - TopologicalBIM
 
@@ -317,8 +320,10 @@ model with the element types of the styles. **TopologicalBIM > By Rules** reads 
 
 The first matching rule wins, and a rule with a `null` type places nothing: put the exceptions first (above,
 no windows in the circulation spaces, no doors between two corridors). An empty occupancy matches every cell;
-sizes are in centimetres. The windows and doors are then placed in Revit, in the walls of their faces, with
-types of the given sizes (created if missing). Running By Rules again replaces the apertures it placed before.
+sizes are in centimetres. A face too narrow or too low for its aperture gets none. `window_data` and
+`door_data` add properties to every window or door (e.g. `pr_ThermalTransmittance`). The windows and doors
+are then placed in Revit, in the walls of their faces, with types of the given sizes (created if missing).
+Running By Rules again replaces the apertures it placed before.
 
 The demo gets 12 windows on the external walls of the occupied rooms and 7 doors towards the corridors (and
 between the corridor and the gym).
@@ -333,9 +338,10 @@ between the corridor and the gym).
 
 ### Step 6 - InstanceBIM
 
-The designer now develops the model in Revit, as usual: here the window of the ground-floor office was moved
-by 1.86 m and the spaces were named after the rows of the table of spaces (`A0.01`, ..., `A0.04a; A0.04b`
-for the corridor that groups two rows). The **InstanceBIM** brings these changes and the instance data back
+The designer now develops the model in Revit, as usual: for example, the window of the ground-floor office
+is moved by 1.86 m. The spaces carry the ids of their rows of the table of spaces in their name (`A0.01`, ...,
+`A0.04a; A0.04b` for the corridor that groups two rows): Loads > Assignment > From Table wrote them in step 3,
+otherwise type them in the space names. The **InstanceBIM** brings these changes and the instance data back
 into the topological model, then into Revit:
 
 1. **Move Apertures**: windows and doors moved in Revit by more than 20 cm are moved in the TBIM too.

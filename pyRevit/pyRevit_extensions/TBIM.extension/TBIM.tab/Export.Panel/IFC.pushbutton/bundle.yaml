@@ -1,2 +1,2 @@
 title: "IFC"
-tooltip: "Export the Revit model to IFC (IFC4 or IFC2x3) in the export folder of the TBIM project. The TBIM parameters (UID, pr_ properties, styles) are exported as property sets, with base quantities and space boundaries."
+tooltip: "Export the Revit model to IFC (IFC4 Reference View or Design Transfer View, IFC2x3 Coordination View 2.0, IFC4x3) in the export folder of the TBIM project. The TBIM parameters (UID, pr_ properties, styles) are exported as property sets, with base quantities and space boundaries."
