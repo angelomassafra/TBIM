@@ -13,6 +13,8 @@ to <tbim>), by default <tbim>/projects. New projects start from the data files
 of <tbim>/templates/json. The active project is the 'data_dir' of the settings;
 the Revit model stores its project folder in the 'tbim_ProjectFolder' project
 parameter, so that opening the model activates its project (hooks/doc-opened.py).
+The folder is stored relative to <tbim> when inside it (e.g. 'projects/School'),
+so the models of the example projects find their folder on any machine.
 """
 import datetime
 import os
@@ -133,6 +135,18 @@ def active_project():
     """Folder of the active project, or None if the data folder is not in a project."""
     folder = os.path.dirname(os.path.normpath(paths.data_dir()))
     return folder if is_project(folder) else None
+
+
+def model_link(folder):
+    """Value of the Revit parameter for ``folder``: relative to <tbim> when inside it, else absolute."""
+    return _relative_to(folder, paths.tbim_root())
+
+
+def resolve_link(value):
+    """Project folder of a stored link (relative links are relative to <tbim>), or None."""
+    if not value:
+        return None
+    return os.path.normpath(value if os.path.isabs(value) else os.path.join(paths.tbim_root(), value))
 
 
 def resolve(path):

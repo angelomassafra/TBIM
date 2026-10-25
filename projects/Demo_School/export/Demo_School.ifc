@@ -52,7 +52,7 @@ DATA;
 #44=IFCPROPERTYSINGLEVALUE('Project Name',$,IFCTEXT('Project Name'),$);
 #45=IFCPROPERTYSINGLEVALUE('Project Number',$,IFCTEXT('Project Number'),$);
 #46=IFCPROPERTYSINGLEVALUE('Project Status',$,IFCTEXT('Project Status'),$);
-#47=IFCPROPERTYSINGLEVALUE('tbim_ProjectFolder',$,IFCTEXT('projects\\Demo_School'),$);
+#47=IFCPROPERTYSINGLEVALUE('tbim_ProjectFolder',$,IFCTEXT('projects/Demo_School'),$);
 #48=IFCPROPERTYSET('1XcKzrzPXqIiAb_DDiV8VI',#6,'Other',$,(#40,#41,#42,#43,#44,#45,#46));
 #49=IFCPROPERTYSET('12HO$AV7BJUPnj0IRvTRSg',#6,'Data',$,(#47));
 #52=IFCAXIS2PLACEMENT3D(#82,$,$);

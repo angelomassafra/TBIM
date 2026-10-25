@@ -44,6 +44,15 @@ def test_project_relative_paths(tbim_home, tmp_path):
     assert projects.relative(outside) == os.path.abspath(outside)
 
 
+def test_model_link_is_relative_inside_tbim(tbim_home, tmp_path):
+    folder = projects.create_project("P")
+    assert projects.model_link(folder) == "projects/P"
+    assert os.path.normcase(projects.resolve_link("projects/P")) == os.path.normcase(folder)
+    outside = str(tmp_path.parent / "elsewhere")
+    assert projects.model_link(outside) == os.path.abspath(outside)
+    assert projects.resolve_link(outside) == os.path.normpath(outside) and projects.resolve_link("") is None
+
+
 def test_any_folder_becomes_a_project(tbim_home, tmp_path):
     folder = str(tmp_path / "external")
     projects.activate(folder)

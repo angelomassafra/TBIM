@@ -72,7 +72,7 @@ DATA;
 #64=IFCPROPERTYSINGLEVALUE('Project Name',$,IFCTEXT('Project Name'),$);
 #65=IFCPROPERTYSINGLEVALUE('Project Number',$,IFCTEXT('Project Number'),$);
 #66=IFCPROPERTYSINGLEVALUE('Project Status',$,IFCTEXT('Project Status'),$);
-#67=IFCPROPERTYSINGLEVALUE('tbim_ProjectFolder',$,IFCTEXT('projects\\Residential_1960s'),$);
+#67=IFCPROPERTYSINGLEVALUE('tbim_ProjectFolder',$,IFCTEXT('projects/Residential_1960s'),$);
 #68=IFCPROPERTYSET('1XcKzrzPXqIiAb_DDiV8VI',#6,'Other',$,(#60,#61,#62,#63,#64,#65,#66));
 #69=IFCPROPERTYSET('12HO$AV7BJUPnj0IRvTRSg',#6,'Data',$,(#67));
 #72=IFCAXIS2PLACEMENT3D(#112,$,$);

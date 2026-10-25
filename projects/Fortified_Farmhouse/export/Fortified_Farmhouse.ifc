@@ -56,7 +56,7 @@ DATA;
 #48=IFCPROPERTYSINGLEVALUE('Project Name',$,IFCTEXT('Project Name'),$);
 #49=IFCPROPERTYSINGLEVALUE('Project Number',$,IFCTEXT('Project Number'),$);
 #50=IFCPROPERTYSINGLEVALUE('Project Status',$,IFCTEXT('Project Status'),$);
-#51=IFCPROPERTYSINGLEVALUE('tbim_ProjectFolder',$,IFCTEXT('projects\\Fortified_Farmhouse'),$);
+#51=IFCPROPERTYSINGLEVALUE('tbim_ProjectFolder',$,IFCTEXT('projects/Fortified_Farmhouse'),$);
 #52=IFCPROPERTYSET('1XcKzrzPXqIiAb_DDiV8VI',#6,'Other',$,(#44,#45,#46,#47,#48,#49,#50));
 #53=IFCPROPERTYSET('12HO$AV7BJUPnj0IRvTRSg',#6,'Data',$,(#51));
 #56=IFCAXIS2PLACEMENT3D(#10,$,$);

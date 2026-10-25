@@ -128,7 +128,7 @@ DATA;
 #120=IFCPROPERTYSINGLEVALUE('Project Name',$,IFCTEXT('Project Name'),$);
 #121=IFCPROPERTYSINGLEVALUE('Project Number',$,IFCTEXT('Project Number'),$);
 #122=IFCPROPERTYSINGLEVALUE('Project Status',$,IFCTEXT('Project Status'),$);
-#123=IFCPROPERTYSINGLEVALUE('tbim_ProjectFolder',$,IFCTEXT('projects\\Office_Tower'),$);
+#123=IFCPROPERTYSINGLEVALUE('tbim_ProjectFolder',$,IFCTEXT('projects/Office_Tower'),$);
 #124=IFCPROPERTYSET('1XcKzrzPXqIiAb_DDiV8VI',#6,'Other',$,(#116,#117,#118,#119,#120,#121,#122));
 #125=IFCPROPERTYSET('12HO$AV7BJUPnj0IRvTRSg',#6,'Data',$,(#123));
 #128=IFCAXIS2PLACEMENT3D(#10,$,$);

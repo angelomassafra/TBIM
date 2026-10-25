@@ -328,18 +328,18 @@ def occupancy_assignments(doc):
 # --------------------------------------------------------------------------------------
 # Projects
 def project_folder(doc):
-    """TBIM project folder stored in the Project Information of ``doc`` (or None)."""
-    from tbim.projects import REVIT_PARAMETER
+    """TBIM project folder stored in the Project Information of ``doc`` (absolute path, or None)."""
+    from tbim.projects import REVIT_PARAMETER, resolve_link
     value = get_text(doc.ProjectInformation, REVIT_PARAMETER)
-    return value if value and value != NAN else None
+    return resolve_link(value) if value and value != NAN else None
 
 
 def link_project(ctx, folder):
-    """Store the TBIM project folder in the Project Information of the model."""
-    from tbim.projects import REVIT_PARAMETER
+    """Store the TBIM project folder in the Project Information of the model (relative to <tbim> when inside)."""
+    from tbim.projects import REVIT_PARAMETER, model_link
     ensure_parameters(ctx, [REVIT_PARAMETER], "Project", [BuiltInCategory.OST_ProjectInformation])
     with transaction(ctx.doc, "Link TBIM project"):
-        set_by_name(ctx.doc.ProjectInformation, REVIT_PARAMETER, folder)
+        set_by_name(ctx.doc.ProjectInformation, REVIT_PARAMETER, model_link(folder))
 
 
 def delete_controllers(doc):

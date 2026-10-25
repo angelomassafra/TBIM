@@ -133,7 +133,8 @@ Each TBIM project lives in its own folder, so that different buildings never mix
 ![Project > New](img/console_project_new.png)
 
 The project folder is stored in the **Project Information** of the Revit model (parameter
-`tbim_ProjectFolder`): when you open a linked model, TBIM activates its project automatically.
+`tbim_ProjectFolder`; relative to the TBIM folder when inside it, e.g. `projects/School`): when you open a
+linked model, TBIM activates its project automatically.
 BRep paths inside the project folder are stored relative to it, so a project can be moved or shared.
 
 ![Project > Info: active project, link with the model and workflow progress](img/console_project_info.png)
@@ -158,9 +159,8 @@ style, duplicated UIDs, spaces not enclosed (area 0) and apertures without host.
 The repository ships seven complete projects. Each one has its inputs, the TBIM data of every step (`json/`),
 the Revit 2026 model at the end of the workflow and its exports (`export/`: IFC and Topologic models). Open the
 `.rvt` to explore the result, or start from an empty model, **Project > Open** the folder and press
-**Project > Run** (a few minutes for the largest buildings). The `.rvt` files store the project folder of the
-machine that saved them: after cloning the repository, use **Project > Open** once on each model to link it
-to its folder.
+**Project > Run** (a few minutes for the largest buildings). Each `.rvt` is linked to its folder relative to
+the TBIM folder (`projects/<name>`), so opening it activates its project wherever the repository is cloned.
 
 | Project | Cells | |
 |---|---|---|
