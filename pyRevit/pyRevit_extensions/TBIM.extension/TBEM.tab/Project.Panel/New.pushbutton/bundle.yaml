@@ -1,0 +1,2 @@
+title: "New"
+tooltip: "Create a new TBIM project folder from the templates, make it the active project and link it to the open Revit model. The project is shared with the TBIM tab: its TBEM files go in the bem folder."

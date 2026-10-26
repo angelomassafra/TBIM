@@ -1,13 +1,14 @@
 #! python3
 """Check the TBIM installation: Python engine, libraries and data folder.
 
-Also reloads the TBIM library: the CPython engine of pyRevit keeps imported
-modules in memory, so run Check after updating TBIM.
+Also reloads the TBIM library and topologicpy (pure Python): the CPython engine of pyRevit keeps imported
+modules in memory, so run Check after updating TBIM or topologicpy (topologic_core needs a Revit restart).
 """
 import os
 import sys
 
-for _name in [m for m in sys.modules if m == "tbim" or m.startswith("tbim.")]:
+_RELOADED = ("tbim", "tbem", "topologicpy")
+for _name in [m for m in sys.modules if m in _RELOADED or m.startswith(tuple(p + "." for p in _RELOADED))]:
     del sys.modules[_name]
 
 from tbim import __version__, paths  # noqa: E402
@@ -29,6 +30,15 @@ if ok:
     from topologicpy.Vertex import Vertex
     ok = Vertex.ByCoordinates(0, 0, 0) is not None
     lines.append("Topologic kernel: %s" % ("ok" if ok else "NOT WORKING"))
+try:  # TBEM tab (optional): Honeybee and EnergyPlus
+    from importlib.metadata import version
+
+    from tbem import settings as tbem_settings
+    folder = tbem_settings.energyplus_folder(tbem_settings.DEFAULTS)
+    lines.append("TBEM: honeybee-energy %s, EnergyPlus %s" % (
+        version("honeybee-energy"), folder or "NOT FOUND (install EnergyPlus 24.2)"))
+except Exception as e:
+    lines.append("TBEM: honeybee-energy NOT AVAILABLE (%s)" % e)
 print("\n".join(lines))
 alert("Installation", ("Python libraries are successfully imported!\n\n" if ok else "Installation incomplete.\n\n")
       + "\n".join(lines))

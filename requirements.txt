@@ -2,6 +2,8 @@
 # Install them for the same Python version used by pyRevit, e.g.:
 #   py -3.12 -m pip install -r requirements.txt --target site-packages
 # TBIM adds <tbim>/site-packages to sys.path automatically.
-topologicpy==0.9.86
+topologicpy==0.9.87
 # Since topologicpy 0.9 the geometry kernel is optional: TBIM needs it (BRep import, CellComplex)
 topologic_core==8.0.4
+# TBEM tab (BIM-to-BEM): Honeybee models and EnergyPlus 24.2 input files
+honeybee-energy==1.126.6

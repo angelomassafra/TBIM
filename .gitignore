@@ -36,5 +36,8 @@ desktop.ini
 .vscode/
 .idea/
 
+# EnergyPlus outputs of the TBEM tab (the models and the results summary are kept)
+projects/*/bem/simulation/
+
 # Generated exports (the example projects keep theirs)
 examples/*/export/

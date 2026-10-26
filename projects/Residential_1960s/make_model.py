@@ -27,6 +27,7 @@ from topologicpy.Topology import Topology  # noqa: E402
 from topologicpy.Vertex import Vertex  # noqa: E402
 
 import tbim  # noqa: E402,F401  (adds the TBIM site-packages)
+from tbim import topo  # noqa: E402,F401  (CellComplex.ByCells with the face fallback)
 
 W, D = 2200.0, 1430.0                  # footprint
 Z_BASEMENT, Z_RAISED, H = 0.0, 280.0, 300.0

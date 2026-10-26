@@ -1,0 +1,109 @@
+{
+    "Zone0_BS0": {
+        "cells": [
+            "Cell0",
+            "Cell1",
+            "Cell3"
+        ],
+        "floor_area": 176.0,
+        "volume": 880.0,
+        "pr_OccupancyType": "Agricultural:Storage",
+        "heated": false,
+        "cooled": false
+    },
+    "Zone1_BS0": {
+        "cells": [
+            "Cell4",
+            "Cell6",
+            "Cell10"
+        ],
+        "floor_area": 176.0,
+        "volume": 880.0,
+        "pr_OccupancyType": "Agricultural:Stable",
+        "heated": false,
+        "cooled": false
+    },
+    "Zone2_BS500": {
+        "cells": [
+            "Cell11"
+        ],
+        "floor_area": 64.0,
+        "volume": 256.0,
+        "pr_OccupancyType": "Defensive:Tower",
+        "heated": false,
+        "cooled": false
+    },
+    "Zone3_BS0": {
+        "cells": [
+            "Cell12"
+        ],
+        "floor_area": 64.0,
+        "volume": 320.0,
+        "pr_OccupancyType": "Agricultural:WineCellar",
+        "heated": false,
+        "cooled": false
+    },
+    "Zone4_BS900": {
+        "cells": [
+            "Cell15"
+        ],
+        "floor_area": 36.0,
+        "volume": 126.0,
+        "pr_OccupancyType": "Agricultural:Dovecote",
+        "heated": false,
+        "cooled": false
+    },
+    "Zone5_BS0": {
+        "cells": [
+            "Cell5"
+        ],
+        "floor_area": 120.0,
+        "volume": 600.0,
+        "pr_OccupancyType": "Agricultural:OilMill",
+        "heated": false,
+        "cooled": false
+    },
+    "Zone6_BS500": {
+        "cells": [
+            "Cell9",
+            "Cell8",
+            "Cell13",
+            "Cell16"
+        ],
+        "floor_area": 240.0,
+        "volume": 960.0,
+        "pr_OccupancyType": "Residential:LivingRoom",
+        "heated": true,
+        "cooled": true
+    },
+    "Zone7_BS0": {
+        "cells": [
+            "Cell14"
+        ],
+        "floor_area": 56.0,
+        "volume": 280.0,
+        "pr_OccupancyType": "Residential:Dwelling",
+        "heated": true,
+        "cooled": true
+    },
+    "Zone8_BS0": {
+        "cells": [
+            "Cell7"
+        ],
+        "floor_area": 56.0,
+        "volume": 280.0,
+        "pr_OccupancyType": "Religious:Chapel",
+        "heated": false,
+        "cooled": false
+    },
+    "Zone9_BS0": {
+        "cells": [
+            "Cell2"
+        ],
+        "floor_area": 56.0,
+        "volume": 280.0,
+        "pr_OccupancyType": "Circulation:Passage",
+        "heated": false,
+        "cooled": false
+    }
+}

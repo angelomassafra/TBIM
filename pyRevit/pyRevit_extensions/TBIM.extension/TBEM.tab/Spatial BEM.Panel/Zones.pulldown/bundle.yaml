@@ -1,0 +1,8 @@
+title: "Zones"
+tooltip: "Thermal zones of the energy model: the TBIM zones (Loads > Clusterize), a new clustering or zones changed by hand."
+layout:
+  - Clusterize
+  - FromTBIM
+  - Merge
+  - Exclude
+  - Include

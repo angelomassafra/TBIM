@@ -17,7 +17,7 @@ IronPython scripts.
 import os
 import sys
 
-__version__ = "3.0.0"
+__version__ = "3.1.0"
 
 
 def site_packages_dirs():
@@ -34,12 +34,19 @@ def site_packages_dirs():
     return [os.path.join(paths.tbim_root(), c) for c in candidates if c]
 
 
-def _add_site_packages():
+def add_site_packages():
+    """Put the third-party folders on sys.path for the packages imported later (e.g. honeybee by the TBEM).
+
+    The CPython engine of pyRevit lives as long as Revit: the finders keep the folder listings they read
+    first, and a package not imported yet is reported missing until their caches are invalidated.
+    """
     if sys.version_info[0] < 3:
         return  # IronPython 2.7 commands do not use binary packages
+    import importlib
     for site in site_packages_dirs():
         if os.path.isdir(site) and site not in sys.path:
             sys.path.append(site)
+    importlib.invalidate_caches()
 
 
-_add_site_packages()
+add_site_packages()

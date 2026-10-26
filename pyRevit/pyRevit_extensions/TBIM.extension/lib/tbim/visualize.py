@@ -3,7 +3,8 @@
 - Topologic models and graphs are DirectShapes (Generic Models) colored with
   'TBIM #RRGGBB' materials, so they keep their colors in every view;
 - Revit elements are colored with view overrides in dedicated 3D views;
-- legends are drafting views 'TBIM Legend - <title>' (filled regions + labels).
+- legends are drafting views 'TBIM Legend - <title>' (filled regions + labels);
+- 2D maps are floor plans 'TBIM - <title> - <level>' with the spaces filled by color, labels and a legend.
 Every visualization replaces the previous one with the same tag.
 """
 import math
@@ -34,6 +35,7 @@ from Autodesk.Revit.DB import (  # noqa: E402
     OverrideGraphicSettings,
     Plane,
     SolidOptions,
+    SpatialElementBoundaryOptions,
     TessellatedFace,
     TessellatedShapeBuilder,
     TessellatedShapeBuilderFallback,
@@ -46,6 +48,7 @@ from Autodesk.Revit.DB import (  # noqa: E402
     ViewFamily,
     ViewFamilyType,
     ViewOrientation3D,
+    ViewPlan,
 )
 from System.Collections.Generic import List  # noqa: E402
 
@@ -271,22 +274,67 @@ def legend(doc, title, entries, note=None):
     view = ViewDrafting.Create(doc, vft.Id)
     view.Name = name
     view.Scale = 50
+    draw_legend(doc, view, XYZ(0, 0, 0), title, entries, note)
+    return view
+
+
+def draw_legend(doc, view, origin, title, entries, note=None):
+    """Title, note and a colored box with a label per (label, rgb) in ``view``, from ``origin`` (top left)."""
     text_type = FilteredElementCollector(doc).OfClass(TextNoteType).FirstElementId()
-    m = 1 / 0.3048  # feet per metre
-    TextNote.Create(doc, view.Id, XYZ(0, 0.9 * m, 0), title, text_type)
+    m = view.Scale / 50.0 / 0.3048  # feet per metre at 1:50, scaled with the view
+    TextNote.Create(doc, view.Id, origin + XYZ(0, 0.9 * m, 0), title, text_type)
     if note:
-        TextNote.Create(doc, view.Id, XYZ(0, 0.45 * m, 0), note, text_type)
+        TextNote.Create(doc, view.Id, origin + XYZ(0, 0.45 * m, 0), note, text_type)
     for i, (label, rgb) in enumerate(entries):
         y = -i * 0.6 * m
+        corners = [origin + XYZ(x, y + dy, 0) for x, dy in ((0, 0), (0.8 * m, 0), (0.8 * m, -0.4 * m), (0, -0.4 * m))]
         box = CurveLoop()
-        corners = [XYZ(0, y, 0), XYZ(0.8 * m, y, 0), XYZ(0.8 * m, y - 0.4 * m, 0), XYZ(0, y - 0.4 * m, 0)]
         for p, q in zip(corners, corners[1:] + corners[:1]):
             box.Append(Line.CreateBound(p, q))
         loops = List[CurveLoop]()
         loops.Add(box)
         FilledRegion.Create(doc, filled_region_type(doc, rgb), view.Id, loops)
-        TextNote.Create(doc, view.Id, XYZ(1.0 * m, y - 0.05 * m, 0), str(label), text_type)
+        TextNote.Create(doc, view.Id, origin + XYZ(1.0 * m, y - 0.05 * m, 0), str(label), text_type)
+
+
+# --------------------------------------------------------------------------------------
+# 2D maps
+def view_plan(doc, name, level):
+    """Floor plan 'TBIM - <name>' of ``level``, emptied of its filled regions and text notes."""
+    full = VIEW_PREFIX + name
+    view = next((v for v in FilteredElementCollector(doc).OfClass(ViewPlan) if not v.IsTemplate and v.Name == full),
+                None)
+    if view is None:
+        view = ViewPlan.Create(doc, revit.floor_plan_type_id(doc), level.Id)
+        view.Name = full
+        view.DetailLevel = ViewDetailLevel.Fine
+    owned = [e.Id for cls in (FilledRegion, TextNote) for e in FilteredElementCollector(doc, view.Id).OfClass(cls)
+             if e.OwnerViewId == view.Id]
+    for element_id in owned:
+        doc.Delete(element_id)
     return view
+
+
+def fill_space(doc, view, space, rgb):
+    """Fill the boundary of ``space`` with ``rgb`` in ``view``. Return False if its boundary is not a region."""
+    loops = List[CurveLoop]()
+    for segments in space.GetBoundarySegments(SpatialElementBoundaryOptions()) or []:
+        loop = CurveLoop()
+        for segment in segments:
+            loop.Append(segment.GetCurve())
+        loops.Add(loop)
+    if not loops.Count:
+        return False
+    try:
+        FilledRegion.Create(doc, filled_region_type(doc, rgb), view.Id, loops)
+    except Exception:  # open or self-intersecting boundary
+        return False
+    return True
+
+
+def note_at(doc, view, point, text):
+    TextNote.Create(doc, view.Id, XYZ(point.X, point.Y, 0), text,
+                    FilteredElementCollector(doc).OfClass(TextNoteType).FirstElementId())
 
 
 # --------------------------------------------------------------------------------------
@@ -337,11 +385,14 @@ def show_graph(ctx, kind, title):
         title, label, len(nodes), len(edges), counts, view.Name, note))
 
 
-def delete_all(doc):
-    """Delete every TBIM visualization: DirectShapes, 'TBIM - ' views and legends."""
-    count = clear(doc)
-    views = [v.Id for v in FilteredElementCollector(doc).OfClass(View3D) if v.Name.startswith(VIEW_PREFIX)]
-    views += [v.Id for v in FilteredElementCollector(doc).OfClass(ViewDrafting) if v.Name.startswith(LEGEND_PREFIX)]
+def delete_all(doc, tag=None, title=""):
+    """Delete the TBIM visualizations: DirectShapes (of ``tag`` only, if given), 'TBIM - ' views and legends
+    (whose title starts with ``title``)."""
+    count = clear(doc, tag)
+    views = [v.Id for cls in (View3D, ViewPlan) for v in FilteredElementCollector(doc).OfClass(cls)
+             if not v.IsTemplate and v.Name.startswith(VIEW_PREFIX + title)]
+    views += [v.Id for v in FilteredElementCollector(doc).OfClass(ViewDrafting)
+              if v.Name.startswith(LEGEND_PREFIX + title)]
     for view_id in views:
         doc.Delete(view_id)
     return count, len(views)

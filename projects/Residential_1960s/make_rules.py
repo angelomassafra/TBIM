@@ -22,7 +22,7 @@ from tbim import materials  # noqa: E402
 
 def ild(occupancy, circulation, occupied, heated, area_per_occupant):
     return {"pr_OccupancyType": occupancy, "pr_CirculationType": circulation, "pr_IsOccupied": occupied,
-            "pr_IsHeated": heated, "pr_IsCooled": False, "pr_IsNaturallyVentilated": True,
+            "pr_IsHeated": heated, "pr_IsCooled": heated, "pr_IsNaturallyVentilated": True,
             "pr_IsMechanicallyVentilated": False, "pr_AreaPerOccupantPeak": area_per_occupant}
 
 
@@ -41,19 +41,19 @@ ILDS = [
 ]
 
 
-def occupancy_data(occupancy, density, ventilation, winter):
+def occupancy_data(occupancy, density, ventilation, winter, summer="NaN"):
     return {"pr_OccupancyType": occupancy, "pr_OccupancyDensityOperation": density,
             "pr_OccupancyDensitySafety": density, "pr_MechanicalVentilationRatePerPerson": 0,
             "pr_MechanicalVentilationRatePerVolume": 0, "pr_NaturalVentilationRate": ventilation,
-            "pr_SpaceTemperatureWinterMin": winter, "pr_SpaceTemperatureSummerMax": "NaN"}
+            "pr_SpaceTemperatureWinterMin": winter, "pr_SpaceTemperatureSummerMax": summer}
 
 
 BY_OCCUPANCY = [
-    occupancy_data("Residential:LivingRoom", 0.04, 0.5, 20),
-    occupancy_data("Residential:Bedroom", 0.04, 0.5, 20),
-    occupancy_data("Residential:Kitchen", 0.04, 1.0, 20),
-    occupancy_data("Support:Bathroom", 0, 1.0, 20),
-    occupancy_data("Circulation:PrivateHallway", 0, 0.5, 18),
+    occupancy_data("Residential:LivingRoom", 0.04, 0.5, 20, 26),
+    occupancy_data("Residential:Bedroom", 0.04, 0.5, 20, 26),
+    occupancy_data("Residential:Kitchen", 0.04, 1.0, 20, 26),
+    occupancy_data("Support:Bathroom", 0, 1.0, 20, 26),
+    occupancy_data("Circulation:PrivateHallway", 0, 0.5, 18, 28),
     occupancy_data("Circulation:Stair", 0, 0.5, "NaN"),
     occupancy_data("Circulation:EntranceHall", 0, 0.5, "NaN"),
     occupancy_data("Parking:Garage", 0, 2.0, "NaN"),

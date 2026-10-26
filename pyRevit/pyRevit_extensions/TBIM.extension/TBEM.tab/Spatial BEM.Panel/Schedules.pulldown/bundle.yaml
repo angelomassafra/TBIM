@@ -1,0 +1,5 @@
+title: "Schedules"
+tooltip: "Library of schedules (Honeybee ScheduleRuleset JSON, tbem_Schedules.json)."
+layout:
+  - Import
+  - Check

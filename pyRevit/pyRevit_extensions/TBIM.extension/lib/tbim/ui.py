@@ -44,6 +44,27 @@ def ask_text(key, title, prompt, default=""):
     return box.Text if form.ShowDialog() == DialogResult.OK else None
 
 
+def open_files(key, title, file_filter, multiple=False):
+    """Pick existing files (``file_filter`` e.g. 'EnergyPlus weather (*.epw)|*.epw'). Return a list of paths
+    (empty if cancelled). Without dialogs, the paths are the ``"choices"`` value (a path or a list of paths)."""
+    settings = paths.read_settings()
+    if not settings.get("dialogs", True):
+        choice = settings.get("choices", {}).get(key) or []
+        return [choice] if isinstance(choice, str) else list(choice)
+
+    import clr
+    clr.AddReference("System.Windows.Forms")
+    from System.Windows.Forms import DialogResult, OpenFileDialog
+
+    dialog = OpenFileDialog()
+    dialog.Title = "TBIM - " + title
+    dialog.Filter = file_filter
+    dialog.Multiselect = multiple
+    if dialog.ShowDialog() != DialogResult.OK:
+        return []
+    return [str(name) for name in dialog.FileNames]
+
+
 def select(key, title, options, default=None):
     """Pick one of ``options`` (strings). Return None if cancelled."""
     options = list(options)

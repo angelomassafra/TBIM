@@ -1,0 +1,5 @@
+title: "Programs"
+tooltip: "BEM programs by occupancy type (tbem_Programs.json): lighting and equipment power, set-points, outdoor air and schedules filling the gaps of the TBIM data."
+layout:
+  - Check
+  - Edit

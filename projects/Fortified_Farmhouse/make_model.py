@@ -51,10 +51,10 @@ def rooms():
 
 ILDS = [
     ild("Default", "NoCirculation", False, False, False, False, False, 0),
-    ild("Residential:Bedroom", "NoCirculation", True, True, False, True, False, 15.0),
-    ild("Residential:LivingRoom", "NoCirculation", True, True, False, True, False, 15.0),
-    ild("Residential:Kitchen", "NoCirculation", True, True, False, True, False, 15.0),
-    ild("Residential:Dwelling", "NoCirculation", True, True, False, True, False, 15.0),
+    ild("Residential:Bedroom", "NoCirculation", True, True, True, True, False, 15.0),
+    ild("Residential:LivingRoom", "NoCirculation", True, True, True, True, False, 15.0),
+    ild("Residential:Kitchen", "NoCirculation", True, True, True, True, False, 15.0),
+    ild("Residential:Dwelling", "NoCirculation", True, True, True, True, False, 15.0),
     ild("Circulation:Passage", "PublicCirculation", False, False, False, True, False, 0),
     ild("Religious:Chapel", "NoCirculation", True, False, False, True, False, 1.5),
     ild("Agricultural:Stable", "NoCirculation", False, False, False, True, False, 0),
@@ -66,7 +66,8 @@ ILDS = [
     ild("Agricultural:Dovecote", "NoCirculation", False, False, False, True, False, 0),
 ]
 BY_OCCUPANCY = [occupancy_data(i["pr_OccupancyType"], 0.05 if i["pr_IsOccupied"] else 0, 0, 0.5,
-                               18 if i["pr_IsHeated"] else "NaN", "NaN") for i in ILDS[1:]]
+                               18 if i["pr_IsHeated"] else "NaN", 26 if i["pr_IsCooled"] else "NaN")
+                for i in ILDS[1:]]
 IRS = {
     "botHor": [rule("botHor", {}, "TBIM_Limestone_Slab_Paving", [
         ("Limestone paving slabs", 60), ("Lime mortar bed", 40), ("Compacted earth", 200)], YEAR, FLOOR)],

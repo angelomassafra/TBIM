@@ -1,0 +1,235 @@
+{
+    "Zone0_BS0": {
+        "cells": [
+            "Cell0"
+        ],
+        "floor_area": 60.0,
+        "volume": 270.0,
+        "pr_OccupancyType": "Office:PublicDesk",
+        "heated": true,
+        "cooled": true
+    },
+    "Zone10_BS900": {
+        "cells": [
+            "Cell19",
+            "Cell20"
+        ],
+        "floor_area": 120.0,
+        "volume": 480.0,
+        "pr_OccupancyType": "Office:Administration",
+        "heated": true,
+        "cooled": true
+    },
+    "Zone11_BS450": {
+        "cells": [
+            "Cell24",
+            "Cell32"
+        ],
+        "floor_area": 120.0,
+        "volume": 540.0,
+        "pr_OccupancyType": "Office:Administration",
+        "heated": true,
+        "cooled": true
+    },
+    "Zone12_BS900": {
+        "cells": [
+            "Cell28",
+            "Cell30"
+        ],
+        "floor_area": 120.0,
+        "volume": 480.0,
+        "pr_OccupancyType": "Office:Administration",
+        "heated": true,
+        "cooled": true
+    },
+    "Zone13_BS900": {
+        "cells": [
+            "Cell27",
+            "Cell31"
+        ],
+        "floor_area": 120.0,
+        "volume": 480.0,
+        "pr_OccupancyType": "Office:Administration",
+        "heated": true,
+        "cooled": true
+    },
+    "Zone14_BS450": {
+        "cells": [
+            "Cell15"
+        ],
+        "floor_area": 180.0,
+        "volume": 1530.0,
+        "pr_OccupancyType": "Assembly:CouncilChamber",
+        "heated": true,
+        "cooled": true
+    },
+    "Zone15_BS1300": {
+        "cells": [
+            "Cell18",
+            "Cell29"
+        ],
+        "floor_area": 720.0,
+        "volume": 982.45,
+        "pr_OccupancyType": "Unconditioned:Attic",
+        "heated": false,
+        "cooled": false
+    },
+    "Zone16_BS2000": {
+        "cells": [
+            "Cell34"
+        ],
+        "floor_area": 25.0,
+        "volume": 175.0,
+        "pr_OccupancyType": "Civic:Belfry",
+        "heated": false,
+        "cooled": false
+    },
+    "Zone17_BS0": {
+        "cells": [
+            "Cell1",
+            "Cell6",
+            "Cell12"
+        ],
+        "floor_area": 240.0,
+        "volume": 1080.0,
+        "pr_OccupancyType": "Circulation:EntranceHall",
+        "heated": true,
+        "cooled": false
+    },
+    "Zone18_BS450": {
+        "cells": [
+            "Cell7"
+        ],
+        "floor_area": 30.0,
+        "volume": 135.0,
+        "pr_OccupancyType": "Circulation:Corridor",
+        "heated": true,
+        "cooled": false
+    },
+    "Zone19_BS900": {
+        "cells": [
+            "Cell16"
+        ],
+        "floor_area": 30.0,
+        "volume": 120.0,
+        "pr_OccupancyType": "Circulation:Corridor",
+        "heated": true,
+        "cooled": false
+    },
+    "Zone1_BS0": {
+        "cells": [
+            "Cell14"
+        ],
+        "floor_area": 60.0,
+        "volume": 270.0,
+        "pr_OccupancyType": "Office:PublicDesk",
+        "heated": true,
+        "cooled": true
+    },
+    "Zone20_BS450": {
+        "cells": [
+            "Cell23"
+        ],
+        "floor_area": 30.0,
+        "volume": 135.0,
+        "pr_OccupancyType": "Circulation:Corridor",
+        "heated": true,
+        "cooled": false
+    },
+    "Zone21_BS900": {
+        "cells": [
+            "Cell26"
+        ],
+        "floor_area": 30.0,
+        "volume": 120.0,
+        "pr_OccupancyType": "Circulation:Corridor",
+        "heated": true,
+        "cooled": false
+    },
+    "Zone2_BS0": {
+        "cells": [
+            "Cell2"
+        ],
+        "floor_area": 60.0,
+        "volume": 270.0,
+        "pr_OccupancyType": "Office:Registry",
+        "heated": true,
+        "cooled": true
+    },
+    "Zone3_BS0": {
+        "cells": [
+            "Cell22"
+        ],
+        "floor_area": 60.0,
+        "volume": 270.0,
+        "pr_OccupancyType": "Office:Registry",
+        "heated": true,
+        "cooled": true
+    },
+    "Zone4_BS450": {
+        "cells": [
+            "Cell3",
+            "Cell8"
+        ],
+        "floor_area": 120.0,
+        "volume": 540.0,
+        "pr_OccupancyType": "Office:Private",
+        "heated": true,
+        "cooled": true
+    },
+    "Zone5_BS450": {
+        "cells": [
+            "Cell25",
+            "Cell33"
+        ],
+        "floor_area": 120.0,
+        "volume": 540.0,
+        "pr_OccupancyType": "Office:Private",
+        "heated": true,
+        "cooled": true
+    },
+    "Zone6_BS0": {
+        "cells": [
+            "Cell5",
+            "Cell4"
+        ],
+        "floor_area": 120.0,
+        "volume": 540.0,
+        "pr_OccupancyType": "Archive:Records",
+        "heated": true,
+        "cooled": false
+    },
+    "Zone7_BS0": {
+        "cells": [
+            "Cell13",
+            "Cell21"
+        ],
+        "floor_area": 120.0,
+        "volume": 540.0,
+        "pr_OccupancyType": "Archive:Records",
+        "heated": true,
+        "cooled": false
+    },
+    "Zone8_BS900": {
+        "cells": [
+            "Cell9",
+            "Cell17"
+        ],
+        "floor_area": 120.0,
+        "volume": 480.0,
+        "pr_OccupancyType": "Office:Administration",
+        "heated": true,
+        "cooled": true
+    },
+    "Zone9_BS450": {
+        "cells": [
+            "Cell10",
+            "Cell11"
+        ],
+        "floor_area": 120.0,
+        "volume": 540.0,
+        "pr_OccupancyType": "Office:Administration",
+        "heated": true,
+        "cooled": true
+    }
+}

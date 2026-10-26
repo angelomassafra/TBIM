@@ -1,0 +1,2 @@
+title: "Run"
+tooltip: "Run the whole TBEM workflow on the active project: Build the Spatial BEM, the Topological BEM and the Full TBEM, then run EnergyPlus on all of them, on the Full TBEM only or on none, waiting for the results."

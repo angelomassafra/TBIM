@@ -1,0 +1,167 @@
+[
+    {
+        "pr_OccupancyType": "Default",
+        "pr_LightingPowerDensity": 5.0,
+        "pr_EquipmentPowerDensity": 2.0,
+        "rl_IsScheduledBy_Occupancy": "OccSch_Circulation",
+        "rl_IsScheduledBy_Lighting": "LghSch_Circulation",
+        "rl_IsScheduledBy_Equipment": "EqpSch_Circulation",
+        "rl_IsScheduledBy_Heating": "HtnSch_Season",
+        "rl_IsScheduledBy_Cooling": "ClnSch_Season",
+        "rl_IsScheduledBy_Ventilation": "VntSch_Weekdays_7-18"
+    },
+    {
+        "pr_OccupancyType": "Education",
+        "pr_LightingPowerDensity": 10.0,
+        "pr_EquipmentPowerDensity": 4.0,
+        "rl_IsScheduledBy_Occupancy": "OccSch_Education",
+        "rl_IsScheduledBy_Lighting": "LghSch_Education",
+        "rl_IsScheduledBy_Equipment": "EqpSch_Education",
+        "rl_IsScheduledBy_Heating": "HtnSch_Season_Weekdays_7-18",
+        "rl_IsScheduledBy_Cooling": "ClnSch_Season_Weekdays_7-18",
+        "rl_IsScheduledBy_Ventilation": "VntSch_Weekdays_7-18"
+    },
+    {
+        "pr_OccupancyType": "Education:Laboratory",
+        "pr_LightingPowerDensity": 12.0,
+        "pr_EquipmentPowerDensity": 10.0,
+        "rl_IsScheduledBy_Occupancy": "OccSch_Education",
+        "rl_IsScheduledBy_Lighting": "LghSch_Education",
+        "rl_IsScheduledBy_Equipment": "EqpSch_Education",
+        "rl_IsScheduledBy_Heating": "HtnSch_Season_Weekdays_7-18",
+        "rl_IsScheduledBy_Cooling": "ClnSch_Season_Weekdays_7-18",
+        "rl_IsScheduledBy_Ventilation": "VntSch_Weekdays_7-18"
+    },
+    {
+        "pr_OccupancyType": "Office",
+        "pr_LightingPowerDensity": 10.0,
+        "pr_EquipmentPowerDensity": 10.0,
+        "rl_IsScheduledBy_Occupancy": "OccSch_Office",
+        "rl_IsScheduledBy_Lighting": "LghSch_Office",
+        "rl_IsScheduledBy_Equipment": "EqpSch_Office",
+        "rl_IsScheduledBy_Heating": "HtnSch_Season_Weekdays_7-18",
+        "rl_IsScheduledBy_Cooling": "ClnSch_Season_Weekdays_7-18",
+        "rl_IsScheduledBy_Ventilation": "VntSch_Weekdays_7-18"
+    },
+    {
+        "pr_OccupancyType": "Office:MeetingRoom",
+        "pr_LightingPowerDensity": 10.0,
+        "pr_EquipmentPowerDensity": 4.0,
+        "rl_IsScheduledBy_Occupancy": "OccSch_Office",
+        "rl_IsScheduledBy_Lighting": "LghSch_Office",
+        "rl_IsScheduledBy_Equipment": "EqpSch_Office",
+        "rl_IsScheduledBy_Heating": "HtnSch_Season_Weekdays_7-18",
+        "rl_IsScheduledBy_Cooling": "ClnSch_Season_Weekdays_7-18",
+        "rl_IsScheduledBy_Ventilation": "VntSch_Weekdays_7-18"
+    },
+    {
+        "pr_OccupancyType": "Residential",
+        "pr_LightingPowerDensity": 5.0,
+        "pr_EquipmentPowerDensity": 4.0,
+        "rl_IsScheduledBy_Occupancy": "OccSch_Residential",
+        "rl_IsScheduledBy_Lighting": "LghSch_Residential",
+        "rl_IsScheduledBy_Equipment": "EqpSch_Residential",
+        "rl_IsScheduledBy_Heating": "HtnSch_Season",
+        "rl_IsScheduledBy_Cooling": "ClnSch_Season",
+        "rl_IsScheduledBy_Ventilation": "AlwaysOn"
+    },
+    {
+        "pr_OccupancyType": "Retail",
+        "pr_LightingPowerDensity": 15.0,
+        "pr_EquipmentPowerDensity": 5.0,
+        "rl_IsScheduledBy_Occupancy": "OccSch_Retail",
+        "rl_IsScheduledBy_Lighting": "LghSch_Retail",
+        "rl_IsScheduledBy_Equipment": "EqpSch_Retail",
+        "rl_IsScheduledBy_Heating": "HtnSch_Season_Mon-Sat_8-21",
+        "rl_IsScheduledBy_Cooling": "ClnSch_Season_Mon-Sat_8-21",
+        "rl_IsScheduledBy_Ventilation": "VntSch_Mon-Sat_8-21"
+    },
+    {
+        "pr_OccupancyType": "Food",
+        "pr_LightingPowerDensity": 12.0,
+        "pr_EquipmentPowerDensity": 20.0,
+        "rl_IsScheduledBy_Occupancy": "OccSch_Retail",
+        "rl_IsScheduledBy_Lighting": "LghSch_Retail",
+        "rl_IsScheduledBy_Equipment": "EqpSch_Retail",
+        "rl_IsScheduledBy_Heating": "HtnSch_Season_Mon-Sat_8-21",
+        "rl_IsScheduledBy_Cooling": "ClnSch_Season_Mon-Sat_8-21",
+        "rl_IsScheduledBy_Ventilation": "VntSch_Mon-Sat_8-21"
+    },
+    {
+        "pr_OccupancyType": "Assembly",
+        "pr_LightingPowerDensity": 10.0,
+        "pr_EquipmentPowerDensity": 2.0,
+        "rl_IsScheduledBy_Occupancy": "OccSch_Assembly",
+        "rl_IsScheduledBy_Lighting": "LghSch_Assembly",
+        "rl_IsScheduledBy_Equipment": "EqpSch_Assembly",
+        "rl_IsScheduledBy_Heating": "HtnSch_Season_Weekdays_7-18",
+        "rl_IsScheduledBy_Cooling": "ClnSch_Season_Weekdays_7-18",
+        "rl_IsScheduledBy_Ventilation": "VntSch_Weekdays_7-18"
+    },
+    {
+        "pr_OccupancyType": "Religious",
+        "pr_LightingPowerDensity": 8.0,
+        "pr_EquipmentPowerDensity": 1.0,
+        "rl_IsScheduledBy_Occupancy": "OccSch_Assembly",
+        "rl_IsScheduledBy_Lighting": "LghSch_Assembly",
+        "rl_IsScheduledBy_Equipment": "EqpSch_Assembly",
+        "rl_IsScheduledBy_Heating": "HtnSch_Season_Weekdays_7-18",
+        "rl_IsScheduledBy_Cooling": "ClnSch_Season_Weekdays_7-18",
+        "rl_IsScheduledBy_Ventilation": "VntSch_Weekdays_7-18"
+    },
+    {
+        "pr_OccupancyType": "Sport",
+        "pr_LightingPowerDensity": 10.0,
+        "pr_EquipmentPowerDensity": 2.0,
+        "rl_IsScheduledBy_Occupancy": "OccSch_Education",
+        "rl_IsScheduledBy_Lighting": "LghSch_Education",
+        "rl_IsScheduledBy_Equipment": "EqpSch_Education",
+        "rl_IsScheduledBy_Heating": "HtnSch_Season_Weekdays_7-18",
+        "rl_IsScheduledBy_Cooling": "ClnSch_Season_Weekdays_7-18",
+        "rl_IsScheduledBy_Ventilation": "VntSch_Weekdays_7-18"
+    },
+    {
+        "pr_OccupancyType": "Sports",
+        "pr_LightingPowerDensity": 10.0,
+        "pr_EquipmentPowerDensity": 2.0,
+        "rl_IsScheduledBy_Occupancy": "OccSch_Education",
+        "rl_IsScheduledBy_Lighting": "LghSch_Education",
+        "rl_IsScheduledBy_Equipment": "EqpSch_Education",
+        "rl_IsScheduledBy_Heating": "HtnSch_Season_Weekdays_7-18",
+        "rl_IsScheduledBy_Cooling": "ClnSch_Season_Weekdays_7-18",
+        "rl_IsScheduledBy_Ventilation": "VntSch_Weekdays_7-18"
+    },
+    {
+        "pr_OccupancyType": "Circulation",
+        "pr_LightingPowerDensity": 6.0,
+        "pr_EquipmentPowerDensity": 1.0,
+        "rl_IsScheduledBy_Occupancy": "OccSch_Circulation",
+        "rl_IsScheduledBy_Lighting": "LghSch_Circulation",
+        "rl_IsScheduledBy_Equipment": "EqpSch_Circulation",
+        "rl_IsScheduledBy_Heating": "HtnSch_Season_Weekdays_7-18",
+        "rl_IsScheduledBy_Cooling": "ClnSch_Season_Weekdays_7-18",
+        "rl_IsScheduledBy_Ventilation": "VntSch_Weekdays_7-18"
+    },
+    {
+        "pr_OccupancyType": "Support",
+        "pr_LightingPowerDensity": 6.0,
+        "pr_EquipmentPowerDensity": 1.0,
+        "rl_IsScheduledBy_Occupancy": "OccSch_Circulation",
+        "rl_IsScheduledBy_Lighting": "LghSch_Circulation",
+        "rl_IsScheduledBy_Equipment": "EqpSch_Circulation",
+        "rl_IsScheduledBy_Heating": "HtnSch_Season_Weekdays_7-18",
+        "rl_IsScheduledBy_Cooling": "ClnSch_Season_Weekdays_7-18",
+        "rl_IsScheduledBy_Ventilation": "VntSch_Weekdays_7-18"
+    },
+    {
+        "pr_OccupancyType": "Technical",
+        "pr_LightingPowerDensity": 3.0,
+        "pr_EquipmentPowerDensity": 5.0,
+        "rl_IsScheduledBy_Occupancy": "AlwaysOff",
+        "rl_IsScheduledBy_Lighting": "LghSch_Circulation",
+        "rl_IsScheduledBy_Equipment": "AlwaysOn",
+        "rl_IsScheduledBy_Heating": "HtnSch_Season",
+        "rl_IsScheduledBy_Cooling": "ClnSch_Season",
+        "rl_IsScheduledBy_Ventilation": "VntSch_Weekdays_7-18"
+    }
+]

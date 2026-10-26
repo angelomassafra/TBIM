@@ -19,6 +19,7 @@ import time
 from Autodesk.Revit.DB import BuiltInParameter
 from topologicpy.CellComplex import CellComplex
 
+import tbim
 from tbim import (
     apertures,
     collectors,
@@ -55,6 +56,7 @@ class StepError(Exception):
 
 def command(title, step):
     """Run one step for a ribbon command: report (or what is missing) in the TBIM alert."""
+    tbim.add_site_packages()  # for the packages the step imports when it runs
     try:
         lines = step()
     except StepError as e:
@@ -134,7 +136,9 @@ def loads(ctx, clusterize=True):
     saved = [topo.save_cellcomplex(cc, paths.data_file(name)) for name in outputs]
     report = ["Informational Loads assigned to %d cells (%d spaces updated)" % (len(cells), updated)]
     if clusterize:
-        report.insert(0, "Thermal zones: %d" % len(set(p.get("rl_HasLocation_tpZN") for p in cells.values())))
+        zone_of = dict((uid, p.get("rl_HasLocation_tpZN")) for uid, p in cells.items())
+        report.insert(0, "Thermal zones: %d (%d Revit HVAC zones)" % (
+            len(set(zone_of.values())), revit.sync_hvac_zones(ctx, zone_of)))
     return report + ["Exported to: %s" % ", ".join(saved)]
 
 
@@ -309,6 +313,11 @@ def run(ctx, log=print, export_too=True):
               ("InstanceBIM > Revit > UpdateData", lambda: update_revit(ctx))]
     if export_too:
         steps.append(("Export > IFC and Topologic", lambda: export(ctx)))
+    return run_steps(steps, log)
+
+
+def run_steps(steps, log=print):
+    """Run the (title, step) pairs until one stops. Return (completed steps, report lines)."""
     done, report = [], []
     for title, step in steps:
         start = time.time()

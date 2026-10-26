@@ -1,0 +1,129 @@
+{
+    "Zone0_BS0": {
+        "cells": [
+            "Cell0",
+            "Cell2",
+            "Cell12",
+            "Cell13",
+            "Cell32",
+            "Cell29",
+            "Cell28",
+            "Cell27"
+        ],
+        "floor_area": 1280.0,
+        "volume": 6400.0,
+        "pr_OccupancyType": "Retail:Shop",
+        "heated": true,
+        "cooled": true
+    },
+    "Zone1_BS500": {
+        "cells": [
+            "Cell4",
+            "Cell16",
+            "Cell14",
+            "Cell15",
+            "Cell34",
+            "Cell33",
+            "Cell30",
+            "Cell31"
+        ],
+        "floor_area": 1280.0,
+        "volume": 6400.0,
+        "pr_OccupancyType": "Retail:Shop",
+        "heated": true,
+        "cooled": true
+    },
+    "Zone2_BS0": {
+        "cells": [
+            "Cell6",
+            "Cell5",
+            "Cell7",
+            "Cell9",
+            "Cell17",
+            "Cell19",
+            "Cell20",
+            "Cell22"
+        ],
+        "floor_area": 1280.0,
+        "volume": 6400.0,
+        "pr_OccupancyType": "Retail:Shop",
+        "heated": true,
+        "cooled": true
+    },
+    "Zone3_BS500": {
+        "cells": [
+            "Cell10",
+            "Cell18",
+            "Cell21",
+            "Cell24",
+            "Cell23"
+        ],
+        "floor_area": 800.0,
+        "volume": 4000.0,
+        "pr_OccupancyType": "Retail:Shop",
+        "heated": true,
+        "cooled": true
+    },
+    "Zone4_BS500": {
+        "cells": [
+            "Cell8"
+        ],
+        "floor_area": 480.0,
+        "volume": 2400.0,
+        "pr_OccupancyType": "Food:FoodCourt",
+        "heated": true,
+        "cooled": true
+    },
+    "Zone5_BS1000": {
+        "cells": [
+            "Cell35"
+        ],
+        "floor_area": 200.0,
+        "volume": 800.0,
+        "pr_OccupancyType": "Technical:Plant",
+        "heated": false,
+        "cooled": false
+    },
+    "Zone6_BS1000": {
+        "cells": [
+            "Cell36"
+        ],
+        "floor_area": 150.0,
+        "volume": 600.0,
+        "pr_OccupancyType": "Technical:Plant",
+        "heated": false,
+        "cooled": false
+    },
+    "Zone7_BS0": {
+        "cells": [
+            "Cell25"
+        ],
+        "floor_area": 1200.0,
+        "volume": 6000.0,
+        "pr_OccupancyType": "Retail:DepartmentStore",
+        "heated": true,
+        "cooled": true
+    },
+    "Zone8_BS500": {
+        "cells": [
+            "Cell26"
+        ],
+        "floor_area": 1200.0,
+        "volume": 6000.0,
+        "pr_OccupancyType": "Retail:DepartmentStore",
+        "heated": true,
+        "cooled": true
+    },
+    "Zone9_BS0": {
+        "cells": [
+            "Cell1",
+            "Cell3",
+            "Cell11"
+        ],
+        "floor_area": 736.0,
+        "volume": 7360.0,
+        "pr_OccupancyType": "Circulation:Gallery",
+        "heated": true,
+        "cooled": true
+    }
+}

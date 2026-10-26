@@ -1,0 +1,2 @@
+title: "Settings"
+tooltip: "Open the TBEM settings (tbem_Settings.json): zoning, boundary conditions, glazing, blinds, HVAC, run period, timestep, output variables, EnergyPlus folder."

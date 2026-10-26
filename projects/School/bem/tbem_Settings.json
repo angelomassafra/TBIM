@@ -1,0 +1,6 @@
+{
+    "simulation": {
+        "epw": "weather/ITA_ER_Bologna-Marconi.AP.161400_TMYx.2011-2025.epw",
+        "ddy": "weather/ITA_ER_Bologna-Marconi.AP.161400_TMYx.2011-2025.ddy"
+    }
+}

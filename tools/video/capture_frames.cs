@@ -1,17 +1,25 @@
 // Capture the frames of a TBIM workflow video from the open Revit model (Revit 2024+ API, C#).
 //
 // Run it with a C# script runner that calls McpDynamicScript.Run(UIApplication), e.g. the
-// revit_send_code_to_revit tool of rvt-mcp, after the TBIM commands have produced their views:
-//   Visualize > Model (InstanceBIM), Passage Graph, Data (cells, rl_HasLocation_tpZN), Types,
-//   Data (faces, stFC_ThermalTransmittance).
-// The frames go to %TEMP%\tbim_frames\<model name>####*.png with phases.txt; the model is saved at
-// the end. Then compose the video with tools/video/video.py.
+// revit_send_code_to_revit tool of rvt-mcp, once per group of phases (RUN), after the commands that
+// produce their views:
+//   faces..data  TBIM tab: Visualize > Model (InstanceBIM), Passage Graph, Data (cells, rl_HasLocation_tpZN),
+//                Types, Data (faces, stFC_ThermalTransmittance)
+//   zones        TBEM tab: Visualize > Zones > 3D Map
+//   boundaries   TBEM tab: Visualize > Boundaries
+//   heating      TBEM tab: Visualize > 3D Map (Heating need)
+//   cooling      TBEM tab: Visualize > 3D Map (Cooling need)
+//   orbit        (the Revit model)
+// The frames go to %TEMP%\tbim_frames\<model name>\f####.png with phases.txt: a RUN starting with "faces"
+// starts again, the others append. tools/video/charts_frame.py adds the "charts" phase; then compose the video
+// with tools/video/video.py.
 using System;
 using System.Linq;
 using System.Collections.Generic;
 using Autodesk.Revit.DB;
 using Autodesk.Revit.UI;
 public class McpDynamicScript {
+ static readonly string[] RUN = {"faces", "controllers", "cells", "types", "apertures", "graph", "data"};
  static string DIR;
  const int PX = 1280;
  static Document doc; static View3D v; static string PHASE;
@@ -62,7 +70,15 @@ public class McpDynamicScript {
      case "graph": s.Add(() => Ghost(85, H)); s.Add(() => Show(nodes)); foreach (var ch in Steps(edges, 20)) { var c = ch; s.Add(() => Show(c)); } for (int i = 0; i < 4; i++) s.Add(hold); break;
      case "data": s.Add(() => { Hide(graph); Ghost(0, H); CopyOverrides("TBIM - Faces by data", hosts); Clear(openings); }); for (int i = 0; i < 5; i++) s.Add(hold);
                   s.Add(() => { Clear(hosts); Clear(openings); }); for (int i = 0; i < 4; i++) s.Add(hold); break;
-     case "orbit": for (int i = 1; i <= 72; i++) { var a = i * 5.0; s.Add(() => Orbit(a)); } break;
+     case "zones": case "heating": case "cooling":
+       var tbem = Shapes("TBEM");
+       s.Add(() => { Show(hosts); Show(openings); Ghost(80, H); }); foreach (var ch in Steps(tbem, 16)) { var c = ch; s.Add(() => Show(c)); }
+       for (int i = 0; i < 5; i++) s.Add(hold); break;
+     case "boundaries":
+       s.Add(() => { Show(hosts); Ghost(0, H); }); foreach (var ch in Steps(hosts, 16)) { var c = ch; s.Add(() => CopyOverrides("TBIM - BEM boundary conditions", c)); }
+       for (int i = 0; i < 5; i++) s.Add(hold); break;
+     case "orbit": s.Add(() => { Show(hosts); Show(openings); Ghost(0, H); Clear(hosts); Clear(openings); });
+       for (int i = 1; i <= 72; i++) { var a = i * 5.0; s.Add(() => Orbit(a)); } break;
    }
    return s;
  }
@@ -71,7 +87,11 @@ public class McpDynamicScript {
   DIR = System.IO.Path.Combine(System.IO.Path.GetTempPath(), "tbim_frames", System.IO.Path.GetFileNameWithoutExtension(doc.PathName));
   var theme = UIThemeManager.CurrentCanvasTheme; UIThemeManager.CurrentCanvasTheme = UITheme.Light;
   System.IO.Directory.CreateDirectory(DIR);
-  foreach (var f in System.IO.Directory.GetFiles(DIR, "f*.png")) System.IO.File.Delete(f);
+  var phasesFile = System.IO.Path.Combine(DIR, "phases.txt");
+  var log = new List<string>();
+  if (RUN[0] == "faces") { foreach (var f in System.IO.Directory.GetFiles(DIR, "f*.png")) System.IO.File.Delete(f); }
+  else if (System.IO.File.Exists(phasesFile)) log.AddRange(System.IO.File.ReadAllLines(phasesFile).Where(l => !RUN.Contains(l.Split(' ')[0])));
+  int frame = System.IO.Directory.GetFiles(DIR, "f*.png").Length;
   var hosts = Hosts();
   box = new BoundingBoxXYZ(); double[] mn = {1e9,1e9,1e9}, mx = {-1e9,-1e9,-1e9};
   foreach (var e in hosts) { var b = e.get_BoundingBox(null); if (b == null) continue; mn[0] = Math.Min(mn[0], b.Min.X); mn[1] = Math.Min(mn[1], b.Min.Y); mn[2] = Math.Min(mn[2], b.Min.Z); mx[0] = Math.Max(mx[0], b.Max.X); mx[1] = Math.Max(mx[1], b.Max.Y); mx[2] = Math.Max(mx[2], b.Max.Z); }
@@ -87,8 +107,8 @@ public class McpDynamicScript {
       var cat = Category.GetCategory(doc, c); if (cat != null && v.CanCategoryBeHidden(cat.Id)) v.SetCategoryHidden(cat.Id, true); }
     Hide(new FilteredElementCollector(doc).OfClass(typeof(DirectShape)).ToList()); Hide(hosts); Hide(Openings());
     Orbit(0); t.Commit(); }
-  var log = new List<string>(); int frame = 0; var sw = System.Diagnostics.Stopwatch.StartNew();
-  foreach (var phase in new[]{"faces","controllers","cells","types","apertures","graph","data","orbit"}) {
+  var sw = System.Diagnostics.Stopwatch.StartNew();
+  foreach (var phase in RUN) {
     PHASE = phase; var steps = Phase(); int first = frame;
     foreach (var step in steps) {
       using (var t = new Transaction(doc, "TBIM video - frame")) { t.Start(); step(); t.Commit(); }
@@ -98,10 +118,9 @@ public class McpDynamicScript {
     }
     log.Add(phase + " " + first + "-" + (frame - 1));
   }
-  System.IO.File.WriteAllLines(System.IO.Path.Combine(DIR, "phases.txt"), log);
+  System.IO.File.WriteAllLines(phasesFile, log);
   using (var t = new Transaction(doc, "TBIM video - reset")) { t.Start(); Ghost(0, BuiltInCategory.OST_Walls, BuiltInCategory.OST_Floors, BuiltInCategory.OST_Roofs, BuiltInCategory.OST_Windows, BuiltInCategory.OST_Doors); Orbit(0); t.Commit(); }
   UIThemeManager.CurrentCanvasTheme = theme;
-  doc.Save();
   return string.Join("; ", log) + " in " + sw.Elapsed.TotalSeconds.ToString("0.0") + " s";
  }
 }

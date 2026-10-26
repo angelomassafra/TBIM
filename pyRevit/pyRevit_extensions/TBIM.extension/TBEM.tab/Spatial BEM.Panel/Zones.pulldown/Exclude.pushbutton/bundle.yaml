@@ -1,0 +1,2 @@
+title: "Exclude Selected"
+tooltip: "Leave the selected Revit spaces out of the energy model (their faces towards modelled zones become adiabatic)."

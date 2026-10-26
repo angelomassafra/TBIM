@@ -1,15 +1,15 @@
 {
-    "header": "Topological BIM - six buildings building themselves",
+    "header": "Topological BIM and BEM - six buildings building themselves",
     "output": "docs/video/tbim_six_buildings",
     "opening": [
-        "Topological BIM",
-        "Six buildings, one workflow - TBIM for pyRevit",
-        "Massafra, Jabi, Gulli - Automation in Construction 166 (2024) 105628"
+        "Topological BIM + BEM",
+        "Six buildings, one workflow - from a massing model to BIM and energy models",
+        "TBIM for pyRevit - Massafra, Jabi, Gulli, Automation in Construction 166 (2024) 105628"
     ],
     "closing": [
         "TBIM for pyRevit",
-        "6 buildings - 405 cells - 930 windows and doors",
-        "Residential 1960s, office tower, school, shopping centre, fortified farmhouse, town hall"
+        "6 buildings - 405 cells - 930 windows and doors - 18 EnergyPlus models",
+        "TBIM and TBEM tabs: Revit, IFC (with IfcZones), Topologic, Honeybee and EnergyPlus models"
     ],
     "buildings": [
         {
@@ -48,7 +48,7 @@
         ],
         "cells": [
             "Step 3 - Informational Loads",
-            "Occupancy, internal loads and thermal zones of every cell"
+            "Occupancy types, internal loads and set-points of every cell"
         ],
         "types": [
             "Step 4 - Informational Styles",
@@ -66,9 +66,29 @@
             "Step 6 - InstanceBIM",
             "Data back to Revit - here the U-values of the envelope"
         ],
+        "zones": [
+            "TBEM - Thermal zones",
+            "Cells grouped in thermal zones - also Revit HVAC zones and IfcZones"
+        ],
+        "boundaries": [
+            "TBEM - Topological BEM",
+            "Boundary conditions from the topology: outdoors, ground, adjacent zones"
+        ],
+        "heating": [
+            "TBEM - Energy simulation",
+            "Heating need of the zones (Full TBEM, EnergyPlus, Bologna) - dark red is high"
+        ],
+        "cooling": [
+            "TBEM - Energy simulation",
+            "Cooling need of the zones - from pale yellow (low) to dark red (high)"
+        ],
+        "charts": [
+            "TBEM - Three levels of detail",
+            "Spatial BEM, Topological BEM and Full TBEM: same building, more information"
+        ],
         "orbit": [
             "Six buildings, one workflow",
-            "Exported as Revit, IFC (with the TBIM property sets) and Topologic models"
+            "Exported as Revit, IFC (property sets, IfcZones), Topologic, Honeybee and EnergyPlus models"
         ]
     },
     "gif": {

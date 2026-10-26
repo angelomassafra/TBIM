@@ -1,0 +1,5 @@
+title: "Zones"
+tooltip: "Grouping of the spaces in the thermal zones of the energy model (also the Revit HVAC zones and the IfcZones of the IFC export)."
+layout:
+  - Map3D
+  - Map2D

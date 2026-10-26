@@ -1,0 +1,249 @@
+{
+    "Zone0_BS0": {
+        "cells": [
+            "Cell0",
+            "Cell1",
+            "Cell3",
+            "Cell13"
+        ],
+        "floor_area": 280.83,
+        "volume": 786.31,
+        "pr_OccupancyType": "Parking:Garage",
+        "heated": false,
+        "cooled": false
+    },
+    "Zone10_BS580": {
+        "cells": [
+            "Cell37"
+        ],
+        "floor_area": 33.77,
+        "volume": 101.33,
+        "pr_OccupancyType": "Circulation:Stair",
+        "heated": false,
+        "cooled": false
+    },
+    "Zone11_BS880": {
+        "cells": [
+            "Cell58"
+        ],
+        "floor_area": 33.77,
+        "volume": 101.32,
+        "pr_OccupancyType": "Circulation:Stair",
+        "heated": false,
+        "cooled": false
+    },
+    "Zone12_BS1180": {
+        "cells": [
+            "Cell79"
+        ],
+        "floor_area": 33.77,
+        "volume": 101.32,
+        "pr_OccupancyType": "Circulation:Stair",
+        "heated": false,
+        "cooled": false
+    },
+    "Zone13_BS1480": {
+        "cells": [
+            "Cell100"
+        ],
+        "floor_area": 33.77,
+        "volume": 101.32,
+        "pr_OccupancyType": "Circulation:Stair",
+        "heated": false,
+        "cooled": false
+    },
+    "Zone14_BS1780": {
+        "cells": [
+            "Cell111"
+        ],
+        "floor_area": 33.77,
+        "volume": 101.32,
+        "pr_OccupancyType": "Circulation:Stair",
+        "heated": false,
+        "cooled": false
+    },
+    "Zone1_BS1780": {
+        "cells": [
+            "Cell105"
+        ],
+        "floor_area": 280.82,
+        "volume": 201.77,
+        "pr_OccupancyType": "Unconditioned:Attic",
+        "heated": false,
+        "cooled": false
+    },
+    "Zone2_BS280": {
+        "cells": [
+            "Cell9",
+            "Cell11"
+        ],
+        "floor_area": 21.33,
+        "volume": 63.99,
+        "pr_OccupancyType": "Residential:Kitchen",
+        "heated": true,
+        "cooled": true
+    },
+    "Zone3_BS280": {
+        "cells": [
+            "Cell6",
+            "Cell5",
+            "Cell4",
+            "Cell10",
+            "Cell12",
+            "Cell7",
+            "Cell14",
+            "Cell15",
+            "Cell20",
+            "Cell18",
+            "Cell19",
+            "Cell17",
+            "Cell23",
+            "Cell22",
+            "Cell32",
+            "Cell33",
+            "Cell34"
+        ],
+        "floor_area": 238.17,
+        "volume": 714.5,
+        "pr_OccupancyType": "Residential:LivingRoom",
+        "heated": true,
+        "cooled": true
+    },
+    "Zone4_BS580": {
+        "cells": [
+            "Cell25",
+            "Cell24",
+            "Cell21",
+            "Cell27",
+            "Cell28",
+            "Cell29",
+            "Cell31",
+            "Cell30",
+            "Cell26",
+            "Cell35",
+            "Cell36",
+            "Cell41",
+            "Cell39",
+            "Cell40",
+            "Cell38",
+            "Cell44",
+            "Cell43",
+            "Cell53",
+            "Cell54",
+            "Cell55"
+        ],
+        "floor_area": 280.82,
+        "volume": 842.48,
+        "pr_OccupancyType": "Residential:LivingRoom",
+        "heated": true,
+        "cooled": true
+    },
+    "Zone5_BS880": {
+        "cells": [
+            "Cell46",
+            "Cell45",
+            "Cell42",
+            "Cell48",
+            "Cell49",
+            "Cell50",
+            "Cell52",
+            "Cell51",
+            "Cell47",
+            "Cell56",
+            "Cell57",
+            "Cell62",
+            "Cell60",
+            "Cell61",
+            "Cell59",
+            "Cell65",
+            "Cell64",
+            "Cell74",
+            "Cell75",
+            "Cell76"
+        ],
+        "floor_area": 280.82,
+        "volume": 842.48,
+        "pr_OccupancyType": "Residential:LivingRoom",
+        "heated": true,
+        "cooled": true
+    },
+    "Zone6_BS1180": {
+        "cells": [
+            "Cell67",
+            "Cell66",
+            "Cell63",
+            "Cell69",
+            "Cell70",
+            "Cell71",
+            "Cell73",
+            "Cell72",
+            "Cell68",
+            "Cell77",
+            "Cell78",
+            "Cell83",
+            "Cell81",
+            "Cell82",
+            "Cell80",
+            "Cell86",
+            "Cell85",
+            "Cell95",
+            "Cell96",
+            "Cell97"
+        ],
+        "floor_area": 280.82,
+        "volume": 842.48,
+        "pr_OccupancyType": "Residential:LivingRoom",
+        "heated": true,
+        "cooled": true
+    },
+    "Zone7_BS1480": {
+        "cells": [
+            "Cell88",
+            "Cell87",
+            "Cell84",
+            "Cell90",
+            "Cell91",
+            "Cell92",
+            "Cell94",
+            "Cell93",
+            "Cell89",
+            "Cell98",
+            "Cell99",
+            "Cell104",
+            "Cell102",
+            "Cell103",
+            "Cell101",
+            "Cell107",
+            "Cell106",
+            "Cell108",
+            "Cell109",
+            "Cell110"
+        ],
+        "floor_area": 280.82,
+        "volume": 842.47,
+        "pr_OccupancyType": "Residential:LivingRoom",
+        "heated": true,
+        "cooled": true
+    },
+    "Zone8_BS0": {
+        "cells": [
+            "Cell2"
+        ],
+        "floor_area": 33.77,
+        "volume": 94.57,
+        "pr_OccupancyType": "Circulation:Stair",
+        "heated": false,
+        "cooled": false
+    },
+    "Zone9_BS280": {
+        "cells": [
+            "Cell8",
+            "Cell16"
+        ],
+        "floor_area": 55.1,
+        "volume": 165.31,
+        "pr_OccupancyType": "Circulation:Stair",
+        "heated": false,
+        "cooled": false
+    }
+}

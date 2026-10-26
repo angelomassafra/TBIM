@@ -32,11 +32,13 @@ from Autodesk.Revit.DB import (  # noqa: E402
     ViewFamilyType,
     ViewPlan,
 )
+from Autodesk.Revit.DB.Mechanical import SpaceSet, Zone  # noqa: E402
 from Autodesk.Revit.UI import TaskDialog  # noqa: E402
 
 from tbim import paths  # noqa: E402
 
 UID_PARAMETER = "UID"
+IFC_NAME = "IfcName"  # name override of the IFC exporter
 NAN = "NaN"
 
 SPACE_CATEGORIES = [BuiltInCategory.OST_MEPSpaces]
@@ -313,6 +315,54 @@ def ensure_parameters(ctx, names, group_name, categories):
 # Spaces
 def spaces(doc):
     return instances(doc, BuiltInCategory.OST_MEPSpaces)
+
+
+def hvac_zones(doc):
+    """HVAC zones of the model, without the default zone of each phase."""
+    return [z for z in FilteredElementCollector(doc).OfClass(Zone) if not z.IsDefaultZone]
+
+
+def sync_hvac_zones(ctx, zone_of_space):
+    """Revit HVAC zones matching the thermal zones ({space UID: zone name, None: default zone}): one zone per name,
+    on the level of its spaces (thermal zones never span storeys), so the IFC export writes an IfcZone each
+    (named by the IfcName parameter, else the exporter appends the element id). Zones with the same name are
+    reused (stable ids), the zones of other names deleted. Return the zone count."""
+    doc = ctx.doc
+    ensure_parameters(ctx, [IFC_NAME], "IFC", [BuiltInCategory.OST_HVAC_Zones])
+    groups = {}
+    for space in spaces(doc):
+        name = zone_of_space.get(uid(space))
+        if name and space.Area > 0:
+            groups.setdefault(name, []).append(space)
+    existing = dict((z.Name, z) for z in hvac_zones(doc))
+    with transaction(doc, "TBIM - HVAC zones"):
+        for name, zone in list(existing.items()):
+            members = groups.get(name)
+            if not members or zone.LevelId != members[0].LevelId:
+                doc.Delete(zone.Id)  # its spaces go back to the default zone
+                del existing[name]
+        for zone in existing.values():
+            keep = set(s.Id for s in groups[zone.Name])
+            leaving = SpaceSet()
+            for space in zone.Spaces:
+                if space.Id not in keep:
+                    leaving.Insert(space)
+            if not leaving.IsEmpty:
+                zone.RemoveSpaces(leaving)
+        for name, members in sorted(groups.items()):
+            zone = existing.get(name)
+            if zone is None:
+                phase = doc.GetElement(members[0].get_Parameter(BuiltInParameter.ROOM_PHASE).AsElementId())
+                zone = doc.Create.NewZone(doc.GetElement(members[0].LevelId), phase)
+                zone.Name = name
+            set_by_name(zone, IFC_NAME, name)
+            joining = SpaceSet()
+            for space in members:
+                if space.Zone is None or space.Zone.Id != zone.Id:
+                    joining.Insert(space)
+            if not joining.IsEmpty:
+                zone.AddSpaces(joining)
+    return len(groups)
 
 
 def occupancy_assignments(doc):

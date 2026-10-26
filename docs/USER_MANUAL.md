@@ -24,9 +24,10 @@ The method is described in:
 3. [Projects](#3-projects)
 4. [Tutorial: the Demo School, step by step](#4-tutorial-the-demo-school-step-by-step)
 5. [Visualize](#5-visualize)
-6. [Data files](#6-data-files)
-7. [Settings and automation](#7-settings-and-automation)
-8. [Troubleshooting](#8-troubleshooting)
+6. [TBEM: from TBIM to BEM](#6-tbem-from-tbim-to-bem)
+7. [Data files](#7-data-files)
+8. [Settings and automation](#8-settings-and-automation)
+9. [Troubleshooting](#9-troubleshooting)
 
 ---
 
@@ -38,7 +39,8 @@ The method is described in:
 |---|---|
 | Autodesk Revit | 2026 |
 | pyRevit | 7.0 with the CPython 3.12 engine |
-| topologicpy / topologic_core | 0.9.86 / 8.0.4 (see `requirements.txt`) |
+| topologicpy / topologic_core | 0.9.87 / 8.0.4 (see `requirements.txt`) |
+| honeybee-energy, EnergyPlus | 1.126.6, 24.2 (TBEM tab only) |
 
 **Steps**
 
@@ -55,7 +57,8 @@ The method is described in:
 3. Add the extension folder to pyRevit: *pyRevit > Settings > Custom Extension Directories* >
    `C:\tbim\pyRevit\pyRevit_extensions`, then *Reload*.
 4. In Revit open the **TBIM** tab and press **Installation > Check**: every library must be listed and
-   the message must end with *Topologic kernel: ok*.
+   the message must end with *Topologic kernel: ok*. For the TBEM tab it also lists honeybee-energy and
+   EnergyPlus 24.2 ([energyplus.net](https://energyplus.net/downloads), default folder `C:\EnergyPlusV24-2-0`).
 
 > Run **Check** again after updating TBIM: the CPython engine keeps the TBIM modules in memory and Check
 > reloads them.
@@ -77,7 +80,7 @@ hover on a button to read what it does.
 | <img src="../pyRevit/pyRevit_extensions/TBIM.extension/TBIM.tab/Project.Panel/CheckModel.pushbutton/icon.png" width="24"> | Project | Check Model | Check the project and the Revit model: missing inputs and outputs, faces with holes, cells without occupancy type or room, styles without layers, elements without UID or with the wrong type, duplicated UIDs, spaces not enclosed, apertures without host. |
 | <img src="../pyRevit/pyRevit_extensions/TBIM.extension/TBIM.tab/Project.Panel/Info.pushbutton/icon.png" width="24"> | Project | Info | Show the active project, the project linked to the Revit model and which steps of the TBIM workflow have already produced their data. |
 | <img src="../pyRevit/pyRevit_extensions/TBIM.extension/TBIM.tab/Project.Panel/Folder.pushbutton/icon.png" width="24"> | Project | Folder | Open the folder of the active project in Windows Explorer. |
-| <img src="../pyRevit/pyRevit_extensions/TBIM.extension/TBIM.tab/Installation.Panel/Check.pushbutton/icon.png" width="24"> | Installation | Check | Check the installation (Python engine, numpy, scipy, topologic_core, topologicpy, data folder) and reload the TBIM library. Run it after updating TBIM. |
+| <img src="../pyRevit/pyRevit_extensions/TBIM.extension/TBIM.tab/Installation.Panel/Check.pushbutton/icon.png" width="24"> | Installation | Check | Check the installation (Python engine, numpy, scipy, topologic_core, topologicpy, data folder; honeybee-energy and EnergyPlus for the TBEM tab) and reload the TBIM and TBEM libraries and topologicpy. Run it after updating TBIM. |
 | <img src="../pyRevit/pyRevit_extensions/TBIM.extension/TBIM.tab/3D%20Model.Panel/Import.pushbutton/icon.png" width="24"> | 3D Model | Import | Step 1 - Select the BRep files of the 3D model (one closed CellComplex per building block, in centimetres), e.g. exported from Rhino. |
 | <img src="../pyRevit/pyRevit_extensions/TBIM.extension/TBIM.tab/3D%20Model.Panel/North.pushbutton/icon.png" width="24"> | 3D Model | North | Step 1 - Set the angle of the Project North (degrees, counterclockwise). It is used to compute the exposure of the external faces. |
 | <img src="../pyRevit/pyRevit_extensions/TBIM.extension/TBIM.tab/Collectors.Panel/CellComplex.pulldown/Create.pushbutton/icon.png" width="24"> | Collectors | CellComplex > Create | Step 2 - Merge the BReps in a CellComplex and create its Revit counterpart: building storeys (levels), walls, floors, roofs and one space per cell, all tagged with the UID of their cell or face. |
@@ -140,7 +143,7 @@ BRep paths inside the project folder are stored relative to it, so a project can
 ![Project > Info: active project, link with the model and workflow progress](img/console_project_info.png)
 
 The projects folder is `<tbim>/projects` unless `projects_root` is set in `tbim_settings.json`
-(see [Settings](#7-settings-and-automation)).
+(see [Settings](#8-settings-and-automation)).
 
 **Project > Run** chains the commands of the ribbon, so that a project with all its inputs becomes a complete
 Revit model with one click: Collectors > Create (if the model has no TBIM spaces yet), Loads > Assignment >
@@ -157,7 +160,9 @@ style, duplicated UIDs, spaces not enclosed (area 0) and apertures without host.
 ### Example projects
 
 The repository ships seven complete projects. Each one has its inputs, the TBIM data of every step (`json/`),
-the Revit 2026 model at the end of the workflow and its exports (`export/`: IFC and Topologic models). Open the
+the Revit 2026 model at the end of the workflow (thermal zones as HVAC zones) and its exports (`export/`: IFC
+with the `IfcZone`s and Topologic models); the six buildings of the video also ship their energy models and
+results (`bem/`, see [TBEM](#6-tbem-from-tbim-to-bem)). Open the
 `.rvt` to explore the result, or start from an empty model, **Project > Open** the folder and press
 **Project > Run** (a few minutes for the largest buildings). Each `.rvt` is linked to its folder relative to
 the TBIM folder (`projects/<name>`), so opening it activates its project wherever the repository is cloned.
@@ -261,7 +266,9 @@ lets the next steps update the Revit model.
    - support spaces (e.g. storage) join the adjacent zone of the same storey;
    - zones never span storeys and are named `Zone<i>_BS<elevation>`.
 
-   *Update* does the same without the zoning.
+   Each space gets its zone in `rl_HasLocation_tpZN`, and every thermal zone becomes a Revit **HVAC zone** with
+   its spaces (same name, `IfcName` set), so the IFC export writes one `IfcZone` per thermal zone, grouping its
+   `IfcSpace`s. *Update* does the same without the zoning.
 
 The demo gets 8 thermal zones for 9 cells (the meeting room and the storage share a zone):
 
@@ -394,7 +401,133 @@ Place a legend next to its view on a sheet to document the model.
 
 ---
 
-## 6. Data files
+## 6. TBEM: from TBIM to BEM
+
+The **TBEM** tab turns the TBIM of the active project into a Building Energy Model (BEM): a
+[Honeybee](https://www.ladybug.tools/) model and an [EnergyPlus](https://energyplus.net) 24.2 model. It
+follows the BIM-to-BEM conversion of the DIGITMAN project (*Topology-Driven BIM-to-BEM for Occupancy-Based
+Energy Scenario Analysis in Higher-Education Buildings*, Massafra et al.): TBIM cells → thermal zones →
+Honeybee rooms → EnergyPlus. The source is the most complete TBIM model of the project (InstanceBIM, else
+TopologicalBIM, Styles or the clusterized Loads).
+
+The model is built in three levels of detail, one panel each; every level is a complete model that can be
+simulated, so the effect of each layer of information can be compared. The **Project** panel works as in the
+TBIM tab: the project is the same, and its TBEM files are in its `bem` folder.
+
+| Panel | Command | What it does |
+|---|---|---|
+| Project | New / Open | Same as in the TBIM tab: create or activate the project and link it to the Revit model |
+| | Run | Build the three levels, then run EnergyPlus on all of them, on the Full TBEM only or on none (waiting for the results) |
+| | Check Model | TBIM model, programs, schedules, constructions, shading files, weather file and EnergyPlus |
+| | Info | Active project, link with the Revit model, models, IDFs, simulations and results of each level |
+| | Folder | The `bem` folder of the project |
+| Spatial BEM | Zones > Clusterize / From TBIM | Thermal zones: a new clustering with the TBEM settings, or the zones of Loads > Clusterize. Every change of the zones (also Merge / Exclude / Include) updates the Revit HVAC zones, hence the `IfcZone`s |
+| | Zones > Merge / Exclude / Include Selected | Change the zones of the selected Revit spaces, or leave them out of the model |
+| | Programs > Check / Edit | Energy data by occupancy type (`tbem_Programs.json`) |
+| | Schedules > Import / Check | Library of schedules (`tbem_Schedules.json`, Honeybee ScheduleRuleset JSON) |
+| | Build | **Spatial BEM**: zones as closed volumes, programs, ideal loads; Honeybee face types and default constructions, no apertures |
+| Topological BEM | Boundaries > Adiabatic / Ground / Outdoors / Reset | Boundary condition of the selected walls, floors, roofs |
+| | Build | **Topological BEM**: faces typed by the topology, inter-zone adjacencies from the shared faces, windows and external doors |
+| Full TBEM | Constructions | Layered constructions of the styles (U-values) and glazing of the windows |
+| | Shading > Import / Clear | Context shading (BRep, cm) |
+| | Infiltration | Building airtightness |
+| | Build | **Full TBEM**: constructions from `stFC_Layers`, simple glazing, external blinds, context shading |
+| Energy Simulation | Weather | EPW file (and a `.ddy` with the same name for the design days) |
+| | Settings | `tbem_Settings.json` in the default editor |
+| | IDF / Run | Export a level to EnergyPlus; Run also starts EnergyPlus in the background |
+| | Results > Summary / Write to Spaces | Annual end uses by zone (kWh, kWh/m²), `rs_` parameters on the spaces |
+| Visualize | Zones > 3D Map / 2D Map | Grouping of the spaces in thermal zones: cells colored by zone in a 3D view, or a floor plan per storey with the spaces filled by zone, the zone names and the zones of the storey in the legend |
+| | Boundaries | 3D view: walls, floors and roofs colored by boundary condition |
+| | Charts | pyRevit output: end uses by month, heating and cooling need by zone, the simulated levels compared |
+| | 3D Map | Cells colored by a KPI (heating, cooling, lighting, equipment need, mean air temperature) or by any zone output variable of the run (annual kWh and kWh/m² of the energies, annual mean and maximum of the others), with a 10-band color scale |
+| | 2D Map | A floor plan per storey: spaces filled by the same KPIs or output variables, the value in each space and the 10-band color scale |
+| | Clear | Delete the TBEM shapes, the `TBIM - BEM ...` views and their legends |
+
+**Thermal zones.** The zones of the energy model are the thermal zones of the TBIM (Loads > Clusterize):
+classrooms on their own, public circulation and support spaces grouped by adjacency, the other cells clustered
+with K-Means on their loads and split by adjacency, never across storeys (see
+[step 3 of the tutorial](#4-tutorial-the-demo-school-step-by-step)). **Zones > Clusterize** clusters again with
+the settings of `tbem_Settings.json` (`zoning`: `n_clusters`, `kmeans_property_names`,
+`single_zone_occupancy_types`, `excluded_occupancy_types`); **Merge / Exclude / Include Selected** change the
+zones of the spaces selected in Revit (saved in `tbem_Zones.json`); **From TBIM** goes back to the TBIM zones.
+Every thermal zone is also a Revit **HVAC zone** with its spaces (on the level of its spaces, named as the
+zone, with `IfcName` set): the IFC export writes one `IfcZone` per thermal zone grouping its `IfcSpace`s, and
+Revit schedules and tags can use the zones. Loads > Clusterize creates them, every zone change in the TBEM tab
+updates them; spaces left out of the energy model go back to the default zone. **Visualize > Zones > 3D Map /
+2D Map** show the grouping.
+
+**From the cells to the zones.** Each cell takes its energy data from its own properties (the InstanceBIM
+values win) and, for what is missing, from the program of its occupancy type: the occupancy type itself
+(`Education:Classroom`), its category (`Education`) or `Default`. Zone values are aggregated as in DIGITMAN:
+densities weighted by area, air changes by volume, outdoor air per person by occupants; a zone is heated or
+cooled if any of its cells is; the heating set-point is the highest, the cooling set-point the lowest;
+occupancy type and schedules are those of the most occupied cell.
+
+| Cell property | Unit | BEM |
+|---|---|---|
+| `pr_OccupancyDensityOperation` (else 1 / `pr_AreaPerOccupantPeak`) | people/m² | People |
+| `pr_LightingPowerDensity`, `pr_EquipmentPowerDensity` | W/m² | Lights, ElectricEquipment |
+| `pr_SpaceTemperatureWinterMin`, `pr_SpaceTemperatureSummerMax` | °C | heating and cooling set-points |
+| `pr_HumidityMin`, `pr_HumidityMax` (optional) | % | humidifying and dehumidifying set-points |
+| `pr_MechanicalVentilationRatePerPerson` (mechanical ventilation) | L/s per person | outdoor air of the ideal loads |
+| `pr_MechanicalVentilationRate` / `pr_NaturalVentilationRate` (no rate per person) | 1/h | outdoor air (air changes) |
+| `pr_IsHeated`, `pr_IsCooled` | | ideal loads air system and its availability |
+| `rl_IsScheduledBy_<use>` | | schedules: Occupancy, Lighting, Equipment, Heating, Cooling, Ventilation |
+
+**Faces.** A face of the CellComplex between cells of different zones becomes an inter-zone surface in both
+rooms; a face between cells of the same zone is not modelled; a face towards a cell left out of the model is
+adiabatic. In the Topological BEM `botHor` faces are on the ground and external faces outdoors, unless set
+otherwise with Boundaries. Layers (`stFC_Layers`) run from the outside, or the top, to the inside: floors and
+the second side of internal walls get the reversed construction (`..._Rev`). Walls whose layers include
+glazing (curtain walls) get windows by ratio (`glazed_wall_ratio`).
+
+**Simulation.** EnergyPlus 24.2 (`C:\EnergyPlusV24-2-0`, or `energyplus_folder` in the settings) runs in
+`%LOCALAPPDATA%\tbim\energyplus\<project>\<level>`, outside synced folders (its post-processor fails on
+non-ASCII paths), while Revit stays usable; **Results > Summary** copies the outputs to
+`bem/simulation/<level>` when the run is over. Ground temperatures come from the EPW. Without design days the
+ideal loads have no capacity limit.
+
+| File (`bem` folder) | Content |
+|---|---|
+| `tbem_Settings.json` | Zoning, boundary conditions, apertures, glazing, blinds, shades, infiltration, HVAC, simulation |
+| `tbem_Programs.json`, `tbem_Schedules.json` | Programs and schedules (copied from `templates/bem` the first time) |
+| `tbem_Zones.json` | Zones changed in the TBEM tab (`{cell UID: zone}`, `null` = not modelled) |
+| `tbem_<level>.hbjson`, `tbem_<level>_Zones.json` | Honeybee model; cells, floor area and volume of its zones |
+| `tbem_<level>.idf`, `tbem_<level>_Results.json` | EnergyPlus model; annual results by zone, monthly end uses of the building and every zone output variable summarised (`metrics`) |
+| `tbem_<level>_Charts.html` | The charts of Visualize > Charts as a standalone page (SVG) |
+| `weather/`, `shades/`, `simulation/<level>/` | EPW and DDY files, shading BReps, EnergyPlus outputs (not kept in git) |
+
+**Visualize.** The TBEM views are named `TBIM - BEM ...` (3D views and floor plans), their legends
+`TBIM Legend - BEM ...`; **Clear** deletes them. **Zones > 2D Map** draws a floor plan per storey with the
+spaces filled by thermal zone and the zone name in each space (the School of the examples: the gym with its
+changing rooms and store is one zone, the entrance hall with the corridor and the stair another):
+
+![Thermal zones of the School, ground floor (Visualize > Zones > 2D Map)](img/tbem_zones_plan.png)
+
+**3D Map** and **2D Map** map a KPI (heating, cooling, lighting and equipment need in kWh/m² y, mean air
+temperature) or any zone output variable of the run: the energies as annual kWh and kWh/m², the other
+variables (operative temperature, occupant count, ...) as annual mean and maximum. The values are split in 10
+equal bands from pale yellow to dark red; the cells left out of the model are grey. Cooling need of the School
+in Bologna, south-facing classrooms first:
+
+![Cooling need of the School, ground floor (Visualize > 2D Map)](img/tbem_cooling_plan.png)
+
+![Maximum operative temperature of the School (Visualize > 3D Map, output variable)](img/tbem_operative_temperature_3d.png)
+
+**Charts** shows, in the pyRevit output and in `bem/tbem_<level>_Charts.html`, the annual end uses, the end
+uses by month, the heating and cooling need by zone and the simulated levels compared:
+
+![Charts of the School (Visualize > Charts)](img/tbem_charts.png)
+
+The schedule files of digitman_bim2bem (e.g. the occupancy schedules of the university booking service) can
+be added to the library with **Schedules > Import**: the use in the file name sets the identifier prefix
+(`OccSch_`, `LghSch_`, `EqpSch_`, `HtnSch_`, `ClnSch_`, `VntSch_`). The default library has neutral weekly
+profiles by category, with the heating season 15 October - 15 April and the cooling season 1 June -
+15 September.
+
+---
+
+## 7. Data files
 
 All the files are in the `json` folder of the project (the *data folder*).
 
@@ -433,7 +566,7 @@ Property names follow the paper: `pr_` properties (e.g. `pr_OccupancyType`, `pr_
 
 ---
 
-## 7. Settings and automation
+## 8. Settings and automation
 
 `<tbim>/tbim_settings.json` (created by Project > New/Open, optional otherwise):
 
@@ -443,7 +576,7 @@ Property names follow the paper: `pr_` properties (e.g. `pr_OccupancyType`, `pr_
 | `projects_root` | `projects` | Folder of the projects. |
 | `site_packages` | - | Extra folder with topologicpy and topologic_core. |
 | `dialogs` | `true` | `false`: no dialogs, messages go to `<data folder>/tbim.log` (batch runs, tests). |
-| `choices` | `{}` | Answers used when `dialogs` is `false`, e.g. `{"visualize_model": "InstanceBIM", "visualize_data_property": "pr_FaceExposure"}`. |
+| `choices` | `{}` | Answers used when `dialogs` is `false`, e.g. `{"visualize_model": "InstanceBIM", "visualize_data_property": "pr_FaceExposure"}`. TBEM: `tbem_weather_file` (EPW path), `tbem_run_workflow`, `tbem_results_level` (e.g. `Full TBEM`), `tbem_result` (a KPI or output variable label, e.g. `Cooling need (kWh/m2 y)`). |
 
 Inside Revit, **Project > Run** runs the whole workflow with the answers of `choices` (e.g. `run_workflow`,
 whether to export at the end). Outside Revit, `examples/demo/run_offline.py` runs it with the Revit-side
@@ -452,7 +585,7 @@ are the functions of `lib/tbim/pipeline.py`, which the commands, Run and the off
 
 ---
 
-## 8. Troubleshooting
+## 9. Troubleshooting
 
 | Problem | Solution |
 |---|---|
@@ -463,6 +596,10 @@ are the functions of `lib/tbim/pipeline.py`, which the commands, Run and the off
 | Check Model reports a space not enclosed (area 0) | Revit bounds a space where its level's *room computation height* cuts walls and roofs; Collectors lowers it until every space is enclosed. If you edit the model afterwards, lower the computation height of that level, or make the walls around the space room bounding. |
 | Roofs or floors look transparent | Collectors uses the first layered floor/roof type of the template: change their type afterwards or apply the styles. |
 | The Revit shared parameter file changed | TBIM uses its own `tbim_SharedParameters.txt` and restores yours after binding its parameters. |
+| TBEM: *No module named 'honeybee'* | Install the packages of `requirements.txt` (honeybee-energy) in the TBIM site-packages and run **Installation > Check**. |
+| TBEM: *EnergyPlus 24.2 not found* | Install EnergyPlus 24.2 in `C:\EnergyPlusV24-2-0` or set `energyplus_folder` in **Energy Simulation > Settings**. |
+| TBEM: no cooling in the results | The zones are cooled only if a cell is (`pr_IsCooled` in the ILDs or the InstanceBIM data); the cooling set-point is `pr_SpaceTemperatureSummerMax`, else the program. |
+| The new Visualize > Zones pulldown does not appear | A pyRevit *Reload* cannot turn a button into a pulldown: restart Revit after updating TBIM. |
 
 ---
 

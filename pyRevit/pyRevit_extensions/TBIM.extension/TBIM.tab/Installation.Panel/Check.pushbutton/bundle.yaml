@@ -1,2 +1,2 @@
 title: "Check"
-tooltip: "Check the installation (Python engine, numpy, scipy, topologic_core, topologicpy, data folder) and reload the TBIM library. Run it after updating TBIM."
+tooltip: "Check the installation (Python engine, numpy, scipy, topologic_core, topologicpy, data folder; honeybee-energy and EnergyPlus for the TBEM tab) and reload the TBIM and TBEM libraries and topologicpy. Run it after updating TBIM."

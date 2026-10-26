@@ -1,0 +1,5 @@
+title: "Shading"
+tooltip: "Context shading of the Full TBEM: BRep faces (cm) of surrounding buildings, balconies, vegetation."
+layout:
+  - Import
+  - Clear

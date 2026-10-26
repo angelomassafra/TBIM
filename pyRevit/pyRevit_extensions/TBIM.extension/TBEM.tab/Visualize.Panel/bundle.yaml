@@ -1,0 +1,7 @@
+layout:
+  - Zones
+  - Boundaries
+  - Charts
+  - Map3D
+  - Map2D
+  - Clear

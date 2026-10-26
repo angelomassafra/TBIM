@@ -14,7 +14,7 @@
         "pr_CirculationType": "NoCirculation",
         "pr_IsOccupied": true,
         "pr_IsHeated": true,
-        "pr_IsCooled": false,
+        "pr_IsCooled": true,
         "pr_IsNaturallyVentilated": true,
         "pr_IsMechanicallyVentilated": false,
         "pr_AreaPerOccupantPeak": 15.0
@@ -24,7 +24,7 @@
         "pr_CirculationType": "NoCirculation",
         "pr_IsOccupied": true,
         "pr_IsHeated": true,
-        "pr_IsCooled": false,
+        "pr_IsCooled": true,
         "pr_IsNaturallyVentilated": true,
         "pr_IsMechanicallyVentilated": false,
         "pr_AreaPerOccupantPeak": 15.0
@@ -34,7 +34,7 @@
         "pr_CirculationType": "NoCirculation",
         "pr_IsOccupied": true,
         "pr_IsHeated": true,
-        "pr_IsCooled": false,
+        "pr_IsCooled": true,
         "pr_IsNaturallyVentilated": true,
         "pr_IsMechanicallyVentilated": false,
         "pr_AreaPerOccupantPeak": 15.0
@@ -44,7 +44,7 @@
         "pr_CirculationType": "NoCirculation",
         "pr_IsOccupied": true,
         "pr_IsHeated": true,
-        "pr_IsCooled": false,
+        "pr_IsCooled": true,
         "pr_IsNaturallyVentilated": true,
         "pr_IsMechanicallyVentilated": false,
         "pr_AreaPerOccupantPeak": 15.0

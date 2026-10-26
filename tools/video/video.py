@@ -3,10 +3,10 @@
     python tools/video/video.py tools/video/six_buildings.json
     python tools/video/video.py tools/video/residential_1960s.json
 
-A configuration lists the buildings (folders of frames written by capture_frames.cs, each with its
-phases.txt), the captions of the phases and the output. One building gives a full-screen video, several
-buildings a grid whose phases are synchronised. Frames are looked for in ``frames_root`` of the
-configuration, else in the TBIM_FRAMES environment variable, else in %TEMP%/tbim_frames.
+A configuration lists the buildings (folders of frames written by capture_frames.cs and charts_frame.py, each
+with its phases.txt), the captions of the phases and the output; phases missing in every building are skipped.
+One building gives a full-screen video, several buildings a grid whose phases are synchronised. Frames are looked
+for in ``frames_root`` of the configuration, else in the TBIM_FRAMES environment variable, else in %TEMP%/tbim_frames.
 
 Requires Pillow and imageio-ffmpeg (``pip install pillow imageio-ffmpeg``).
 """
@@ -24,8 +24,11 @@ ROOT = os.path.abspath(os.path.join(os.path.dirname(os.path.abspath(__file__)), 
 W, H, FPS = 1920, 1080, 24
 FONTS = {"regular": "C:/Windows/Fonts/segoeui.ttf", "bold": "C:/Windows/Fonts/segoeuib.ttf"}
 ACCENT = (31, 163, 163)
-PHASES = ["faces", "controllers", "cells", "types", "apertures", "graph", "data", "orbit"]
-REPEAT = {"orbit": 2}  # output frames per captured frame (default 4: 6 frames per second for the build-up)
+PHASES = ["faces", "controllers", "cells", "types", "apertures", "graph", "data",  # TBIM tab
+          "zones", "boundaries", "heating", "cooling", "charts",  # TBEM tab
+          "orbit"]
+# output frames per captured frame (default 4: 6 frames per second for the build-up; charts: one frame, held)
+REPEAT = {"orbit": 2, "charts": 4 * FPS}
 CAPTION_BAND = 150
 
 
@@ -121,7 +124,7 @@ def compose(config):
         count[0] += 1
 
     emit(card(*config["opening"]), FPS * 3)
-    for phase in PHASES:
+    for phase in [p for p in PHASES if any(p in s for s in sets)]:
         title, text = config["captions"][phase]
         length = max(len(s[phase]) for s in sets)
         for i in range(length):

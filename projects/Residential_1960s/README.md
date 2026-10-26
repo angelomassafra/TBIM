@@ -47,7 +47,7 @@ Informational Rule Sets: each style is a layered Revit type whose materials (col
 
 - `make_model.py`: BReps of the three blocks (Basement, Storeys = the residential storeys, Roof = attic and stair
   turret), room table (`json/tbim_Rooms.json`), table of spaces.
-- `make_rules.py`: ILDs (residential, 1960s: heated, naturally ventilated, not cooled), InstanceBIM data, IRSs,
+- `make_rules.py`: ILDs (residential, 1960s: heated, cooled at 26 °C in the dwellings, naturally ventilated), InstanceBIM data, IRSs,
   window/door rules (`json/tbim_TopologicalBIM_Rules.json`).
 - `json/`: TBIM data of every step; `3d/`: BReps; `img/`: the model in Revit.
 - `Residential_1960s.rvt`: Revit 2026 model at the end of the workflow.

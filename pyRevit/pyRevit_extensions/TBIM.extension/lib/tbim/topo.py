@@ -25,6 +25,33 @@ EXTERNAL_TYPES = ("extVer", "topHor", "botHor", "extInc")
 
 
 # --------------------------------------------------------------------------------------
+# topologicpy compatibility
+def _by_cells_with_face_fallback():
+    """Since topologicpy 0.9.87 ``CellComplex.ByCells`` returns None when the native constructor fails, while
+    0.9.86 assembled the faces of the cells instead. topologic_core 8.0.4 raises on the CellComplexes of the TBIM
+    projects (cells sharing walls and slabs) that ``CellComplex.ByFaces`` assembles: the fallback is restored for
+    every caller, ``Topology.ByJSONDictionary`` (load_cellcomplex) included."""
+    native = CellComplex.ByCells
+    if getattr(native, "tbim_fallback", False):
+        return
+
+    def by_cells(cells, transferDictionaries=False, tolerance=0.0001, silent=False):
+        cc = native(cells, transferDictionaries=transferDictionaries, tolerance=tolerance, silent=True)
+        if cc is None and isinstance(cells, list):
+            faces = [f for c in cells if Topology.IsInstance(c, "Cell") for f in Topology.Faces(c)]
+            cc = CellComplex.ByFaces(faces, transferDictionaries=transferDictionaries, tolerance=tolerance,
+                                     silent=True) if faces else None
+        if cc is None and not silent:
+            print("CellComplex.ByCells - Error: Could not create a CellComplex from the input Cells. Returning None.")
+        return cc
+    by_cells.tbim_fallback = True
+    CellComplex.ByCells = staticmethod(by_cells)
+
+
+_by_cells_with_face_fallback()
+
+
+# --------------------------------------------------------------------------------------
 # Dictionaries
 def props(topology):
     """Topology dictionary as a python dict (without topologicpy internal keys)."""

@@ -7,7 +7,7 @@
         "pr_MechanicalVentilationRatePerVolume": 0,
         "pr_NaturalVentilationRate": 3.0,
         "pr_SpaceTemperatureWinterMin": 20,
-        "pr_SpaceTemperatureSummerMax": "NaN"
+        "pr_SpaceTemperatureSummerMax": 26
     },
     {
         "pr_OccupancyType": "Education:Library",
@@ -17,7 +17,7 @@
         "pr_MechanicalVentilationRatePerVolume": 0,
         "pr_NaturalVentilationRate": 2.0,
         "pr_SpaceTemperatureWinterMin": 20,
-        "pr_SpaceTemperatureSummerMax": "NaN"
+        "pr_SpaceTemperatureSummerMax": 26
     },
     {
         "pr_OccupancyType": "Education:Laboratory",
@@ -27,7 +27,7 @@
         "pr_MechanicalVentilationRatePerVolume": 0,
         "pr_NaturalVentilationRate": 3.0,
         "pr_SpaceTemperatureWinterMin": 20,
-        "pr_SpaceTemperatureSummerMax": "NaN"
+        "pr_SpaceTemperatureSummerMax": 26
     },
     {
         "pr_OccupancyType": "Office:Administration",
@@ -37,7 +37,7 @@
         "pr_MechanicalVentilationRatePerVolume": 0,
         "pr_NaturalVentilationRate": 1.5,
         "pr_SpaceTemperatureWinterMin": 20,
-        "pr_SpaceTemperatureSummerMax": "NaN"
+        "pr_SpaceTemperatureSummerMax": 26
     },
     {
         "pr_OccupancyType": "Circulation:EntranceHall",
@@ -47,7 +47,7 @@
         "pr_MechanicalVentilationRatePerVolume": 0,
         "pr_NaturalVentilationRate": 1.0,
         "pr_SpaceTemperatureWinterMin": 18,
-        "pr_SpaceTemperatureSummerMax": "NaN"
+        "pr_SpaceTemperatureSummerMax": 28
     },
     {
         "pr_OccupancyType": "Circulation:Corridor",
@@ -57,7 +57,7 @@
         "pr_MechanicalVentilationRatePerVolume": 0,
         "pr_NaturalVentilationRate": 1.0,
         "pr_SpaceTemperatureWinterMin": 18,
-        "pr_SpaceTemperatureSummerMax": "NaN"
+        "pr_SpaceTemperatureSummerMax": 28
     },
     {
         "pr_OccupancyType": "Circulation:Stair",
@@ -67,7 +67,7 @@
         "pr_MechanicalVentilationRatePerVolume": 0,
         "pr_NaturalVentilationRate": 1.0,
         "pr_SpaceTemperatureWinterMin": 18,
-        "pr_SpaceTemperatureSummerMax": "NaN"
+        "pr_SpaceTemperatureSummerMax": 28
     },
     {
         "pr_OccupancyType": "Support:Restroom",
@@ -77,7 +77,7 @@
         "pr_MechanicalVentilationRatePerVolume": 0,
         "pr_NaturalVentilationRate": 4.0,
         "pr_SpaceTemperatureWinterMin": 20,
-        "pr_SpaceTemperatureSummerMax": "NaN"
+        "pr_SpaceTemperatureSummerMax": 28
     },
     {
         "pr_OccupancyType": "Sports:Gym",
@@ -87,7 +87,7 @@
         "pr_MechanicalVentilationRatePerVolume": 0,
         "pr_NaturalVentilationRate": 2.0,
         "pr_SpaceTemperatureWinterMin": 18,
-        "pr_SpaceTemperatureSummerMax": "NaN"
+        "pr_SpaceTemperatureSummerMax": 26
     },
     {
         "pr_OccupancyType": "Support:ChangingRoom",
@@ -97,7 +97,7 @@
         "pr_MechanicalVentilationRatePerVolume": 0,
         "pr_NaturalVentilationRate": 4.0,
         "pr_SpaceTemperatureWinterMin": 22,
-        "pr_SpaceTemperatureSummerMax": "NaN"
+        "pr_SpaceTemperatureSummerMax": 26
     },
     {
         "pr_OccupancyType": "Storage:Equipment",

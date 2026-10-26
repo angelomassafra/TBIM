@@ -84,8 +84,8 @@ def assign_exposures(cc, groups, north_angle):
                            "pr_NumberOfExposures": len(set(e for e, _ in items))})
 
 
-def assign_zones(cc, groups):
-    cells = CellComplex.Cells(cc)
+def lateral_adjacency(cc, groups):
+    """{cell UID: set of the UIDs of the cells sharing an internal vertical face}."""
     lateral = {}
     for face_type, faces in groups:
         if face_type != "intVer":
@@ -96,6 +96,12 @@ def assign_zones(cc, groups):
                 for b in uids:
                     if a != b:
                         lateral.setdefault(a, set()).add(b)
+    return lateral
+
+
+def assign_zones(cc, groups):
+    cells = CellComplex.Cells(cc)
+    lateral = lateral_adjacency(cc, groups)
     cell_props = [(topo.cell_uid(c), topo.props(c)) for c in cells]
     clusters = zoning.zones(cell_props, lateral)
     for cell in cells:

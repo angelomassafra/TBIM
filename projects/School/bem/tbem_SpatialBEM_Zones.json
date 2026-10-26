@@ -1,0 +1,178 @@
+{
+    "Zone0_BS0": {
+        "cells": [
+            "Cell2"
+        ],
+        "floor_area": 45.5,
+        "volume": 159.25,
+        "pr_OccupancyType": "Office:Administration",
+        "heated": true,
+        "cooled": true
+    },
+    "Zone10_BS0": {
+        "cells": [
+            "Cell7"
+        ],
+        "floor_area": 45.5,
+        "volume": 159.25,
+        "pr_OccupancyType": "Education:Classroom",
+        "heated": true,
+        "cooled": true
+    },
+    "Zone11_BS0": {
+        "cells": [
+            "Cell9"
+        ],
+        "floor_area": 45.5,
+        "volume": 159.25,
+        "pr_OccupancyType": "Education:Classroom",
+        "heated": true,
+        "cooled": true
+    },
+    "Zone12_BS0": {
+        "cells": [
+            "Cell10"
+        ],
+        "floor_area": 45.5,
+        "volume": 159.25,
+        "pr_OccupancyType": "Education:Classroom",
+        "heated": true,
+        "cooled": true
+    },
+    "Zone13_BS350": {
+        "cells": [
+            "Cell18"
+        ],
+        "floor_area": 45.5,
+        "volume": 159.25,
+        "pr_OccupancyType": "Education:Classroom",
+        "heated": true,
+        "cooled": true
+    },
+    "Zone14_BS350": {
+        "cells": [
+            "Cell20"
+        ],
+        "floor_area": 45.5,
+        "volume": 159.25,
+        "pr_OccupancyType": "Education:Classroom",
+        "heated": true,
+        "cooled": true
+    },
+    "Zone15_BS350": {
+        "cells": [
+            "Cell21"
+        ],
+        "floor_area": 45.5,
+        "volume": 159.25,
+        "pr_OccupancyType": "Education:Classroom",
+        "heated": true,
+        "cooled": true
+    },
+    "Zone16_BS350": {
+        "cells": [
+            "Cell22"
+        ],
+        "floor_area": 45.5,
+        "volume": 159.25,
+        "pr_OccupancyType": "Education:Classroom",
+        "heated": true,
+        "cooled": true
+    },
+    "Zone1_BS350": {
+        "cells": [
+            "Cell3"
+        ],
+        "floor_area": 45.5,
+        "volume": 159.25,
+        "pr_OccupancyType": "Education:Library",
+        "heated": true,
+        "cooled": true
+    },
+    "Zone2_BS350": {
+        "cells": [
+            "Cell12"
+        ],
+        "floor_area": 45.5,
+        "volume": 159.25,
+        "pr_OccupancyType": "Education:Laboratory",
+        "heated": true,
+        "cooled": true
+    },
+    "Zone3_BS750": {
+        "cells": [
+            "Cell19"
+        ],
+        "floor_area": 216.0,
+        "volume": 194.4,
+        "pr_OccupancyType": "Unconditioned:Attic",
+        "heated": false,
+        "cooled": false
+    },
+    "Zone4_BS0": {
+        "cells": [
+            "Cell6",
+            "Cell15",
+            "Cell16",
+            "Cell17"
+        ],
+        "floor_area": 324.0,
+        "volume": 1998.0,
+        "pr_OccupancyType": "Sports:Gym",
+        "heated": true,
+        "cooled": true
+    },
+    "Zone5_BS0": {
+        "cells": [
+            "Cell5"
+        ],
+        "floor_area": 21.0,
+        "volume": 73.5,
+        "pr_OccupancyType": "Support:Restroom",
+        "heated": true,
+        "cooled": true
+    },
+    "Zone6_BS350": {
+        "cells": [
+            "Cell14"
+        ],
+        "floor_area": 21.0,
+        "volume": 73.5,
+        "pr_OccupancyType": "Support:Restroom",
+        "heated": true,
+        "cooled": true
+    },
+    "Zone7_BS0": {
+        "cells": [
+            "Cell0",
+            "Cell1",
+            "Cell4"
+        ],
+        "floor_area": 192.5,
+        "volume": 673.75,
+        "pr_OccupancyType": "Circulation:Corridor",
+        "heated": true,
+        "cooled": true
+    },
+    "Zone8_BS350": {
+        "cells": [
+            "Cell11",
+            "Cell13"
+        ],
+        "floor_area": 147.0,
+        "volume": 514.5,
+        "pr_OccupancyType": "Circulation:Corridor",
+        "heated": true,
+        "cooled": true
+    },
+    "Zone9_BS0": {
+        "cells": [
+            "Cell8"
+        ],
+        "floor_area": 45.5,
+        "volume": 159.25,
+        "pr_OccupancyType": "Education:Classroom",
+        "heated": true,
+        "cooled": true
+    }
+}

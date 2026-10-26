@@ -108,3 +108,13 @@ def test_building_kit_writes_a_project(tmp_path):
     assert [r["space"] for r in data] == ["A", "B", "R"]
     assert 300 < data[2]["center"][2] < 450  # inside the attic
     assert (tmp_path / "json" / "tbim_IRS_extVerFaces.json").exists()
+
+
+def test_cellcomplex_by_cells_falls_back_to_faces():
+    """topologicpy 0.9.87 returns None when the native ByCells fails; tbim.topo restores the face assembly."""
+    assert getattr(CellComplex.ByCells, "tbim_fallback", False)
+    path = os.path.join(os.path.dirname(__file__), os.pardir, "projects", "School", "json",
+                        "tbim_CellComplex_IBIM.json")
+    if not os.path.isfile(path):
+        pytest.skip("no School InstanceBIM")
+    assert len(CellComplex.Cells(topo.load_cellcomplex(path))) == 23

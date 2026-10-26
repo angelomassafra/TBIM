@@ -1,0 +1,2 @@
+title: "Clusterize"
+tooltip: "Cluster the cells in thermal zones with the TBEM zoning settings (K-Means of the free cells, zones split by storey and adjacency, classrooms and circulation as in Loads > Clusterize). Zones changed by hand are dropped."

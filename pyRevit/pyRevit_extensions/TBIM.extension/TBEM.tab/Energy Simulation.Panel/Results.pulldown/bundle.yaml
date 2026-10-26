@@ -1,0 +1,5 @@
+title: "Results"
+tooltip: "Annual results of the simulations by zone."
+layout:
+  - Summary
+  - WriteToSpaces

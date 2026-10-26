@@ -1,0 +1,2 @@
+title: "Write to Spaces"
+tooltip: "Write the annual results of the zones to their Revit spaces (rs_HeatingNeed, rs_CoolingNeed, ... in kWh/m2)."

@@ -1,0 +1,1092 @@
+{
+    "Zone0_BS0": {
+        "cells": [
+            "Cell7"
+        ],
+        "floor_area": 100.0,
+        "volume": 500.0,
+        "pr_OccupancyType": "Office:Reception",
+        "heated": true,
+        "cooled": true
+    },
+    "Zone100_BS6980": {
+        "cells": [
+            "Cell167"
+        ],
+        "floor_area": 100.0,
+        "volume": 360.0,
+        "pr_OccupancyType": "Circulation:Core",
+        "heated": true,
+        "cooled": false
+    },
+    "Zone10_BS1940": {
+        "cells": [
+            "Cell48",
+            "Cell54",
+            "Cell56"
+        ],
+        "floor_area": 300.0,
+        "volume": 1080.0,
+        "pr_OccupancyType": "Office:OpenPlan",
+        "heated": true,
+        "cooled": true
+    },
+    "Zone11_BS2300": {
+        "cells": [
+            "Cell53",
+            "Cell61",
+            "Cell60"
+        ],
+        "floor_area": 300.0,
+        "volume": 1080.0,
+        "pr_OccupancyType": "Office:OpenPlan",
+        "heated": true,
+        "cooled": true
+    },
+    "Zone12_BS2300": {
+        "cells": [
+            "Cell57",
+            "Cell63",
+            "Cell65"
+        ],
+        "floor_area": 300.0,
+        "volume": 1080.0,
+        "pr_OccupancyType": "Office:OpenPlan",
+        "heated": true,
+        "cooled": true
+    },
+    "Zone13_BS2660": {
+        "cells": [
+            "Cell62",
+            "Cell70",
+            "Cell69"
+        ],
+        "floor_area": 300.0,
+        "volume": 1080.0,
+        "pr_OccupancyType": "Office:OpenPlan",
+        "heated": true,
+        "cooled": true
+    },
+    "Zone14_BS2660": {
+        "cells": [
+            "Cell66",
+            "Cell72",
+            "Cell74"
+        ],
+        "floor_area": 300.0,
+        "volume": 1080.0,
+        "pr_OccupancyType": "Office:OpenPlan",
+        "heated": true,
+        "cooled": true
+    },
+    "Zone15_BS3020": {
+        "cells": [
+            "Cell71",
+            "Cell79",
+            "Cell78"
+        ],
+        "floor_area": 300.0,
+        "volume": 1080.0,
+        "pr_OccupancyType": "Office:OpenPlan",
+        "heated": true,
+        "cooled": true
+    },
+    "Zone16_BS3020": {
+        "cells": [
+            "Cell75",
+            "Cell81",
+            "Cell83"
+        ],
+        "floor_area": 300.0,
+        "volume": 1080.0,
+        "pr_OccupancyType": "Office:OpenPlan",
+        "heated": true,
+        "cooled": true
+    },
+    "Zone17_BS3380": {
+        "cells": [
+            "Cell80",
+            "Cell88",
+            "Cell87"
+        ],
+        "floor_area": 300.0,
+        "volume": 1080.0,
+        "pr_OccupancyType": "Office:OpenPlan",
+        "heated": true,
+        "cooled": true
+    },
+    "Zone18_BS3380": {
+        "cells": [
+            "Cell84",
+            "Cell90",
+            "Cell92"
+        ],
+        "floor_area": 300.0,
+        "volume": 1080.0,
+        "pr_OccupancyType": "Office:OpenPlan",
+        "heated": true,
+        "cooled": true
+    },
+    "Zone19_BS3740": {
+        "cells": [
+            "Cell89",
+            "Cell97",
+            "Cell96"
+        ],
+        "floor_area": 300.0,
+        "volume": 1080.0,
+        "pr_OccupancyType": "Office:OpenPlan",
+        "heated": true,
+        "cooled": true
+    },
+    "Zone1_BS500": {
+        "cells": [
+            "Cell8",
+            "Cell16",
+            "Cell15"
+        ],
+        "floor_area": 300.0,
+        "volume": 1080.0,
+        "pr_OccupancyType": "Office:OpenPlan",
+        "heated": true,
+        "cooled": true
+    },
+    "Zone20_BS3740": {
+        "cells": [
+            "Cell93",
+            "Cell99",
+            "Cell101"
+        ],
+        "floor_area": 300.0,
+        "volume": 1080.0,
+        "pr_OccupancyType": "Office:OpenPlan",
+        "heated": true,
+        "cooled": true
+    },
+    "Zone21_BS4100": {
+        "cells": [
+            "Cell98",
+            "Cell106",
+            "Cell105"
+        ],
+        "floor_area": 300.0,
+        "volume": 1080.0,
+        "pr_OccupancyType": "Office:OpenPlan",
+        "heated": true,
+        "cooled": true
+    },
+    "Zone22_BS4100": {
+        "cells": [
+            "Cell102",
+            "Cell108",
+            "Cell110"
+        ],
+        "floor_area": 300.0,
+        "volume": 1080.0,
+        "pr_OccupancyType": "Office:OpenPlan",
+        "heated": true,
+        "cooled": true
+    },
+    "Zone23_BS4460": {
+        "cells": [
+            "Cell107",
+            "Cell115",
+            "Cell114"
+        ],
+        "floor_area": 300.0,
+        "volume": 1080.0,
+        "pr_OccupancyType": "Office:OpenPlan",
+        "heated": true,
+        "cooled": true
+    },
+    "Zone24_BS4460": {
+        "cells": [
+            "Cell111",
+            "Cell117",
+            "Cell119"
+        ],
+        "floor_area": 300.0,
+        "volume": 1080.0,
+        "pr_OccupancyType": "Office:OpenPlan",
+        "heated": true,
+        "cooled": true
+    },
+    "Zone25_BS4820": {
+        "cells": [
+            "Cell116",
+            "Cell124",
+            "Cell123"
+        ],
+        "floor_area": 300.0,
+        "volume": 1080.0,
+        "pr_OccupancyType": "Office:OpenPlan",
+        "heated": true,
+        "cooled": true
+    },
+    "Zone26_BS4820": {
+        "cells": [
+            "Cell120",
+            "Cell126",
+            "Cell128"
+        ],
+        "floor_area": 300.0,
+        "volume": 1080.0,
+        "pr_OccupancyType": "Office:OpenPlan",
+        "heated": true,
+        "cooled": true
+    },
+    "Zone27_BS5180": {
+        "cells": [
+            "Cell125",
+            "Cell133",
+            "Cell132"
+        ],
+        "floor_area": 300.0,
+        "volume": 1080.0,
+        "pr_OccupancyType": "Office:OpenPlan",
+        "heated": true,
+        "cooled": true
+    },
+    "Zone28_BS5180": {
+        "cells": [
+            "Cell129",
+            "Cell135",
+            "Cell137"
+        ],
+        "floor_area": 300.0,
+        "volume": 1080.0,
+        "pr_OccupancyType": "Office:OpenPlan",
+        "heated": true,
+        "cooled": true
+    },
+    "Zone29_BS5540": {
+        "cells": [
+            "Cell134",
+            "Cell142",
+            "Cell141"
+        ],
+        "floor_area": 300.0,
+        "volume": 1080.0,
+        "pr_OccupancyType": "Office:OpenPlan",
+        "heated": true,
+        "cooled": true
+    },
+    "Zone2_BS500": {
+        "cells": [
+            "Cell12",
+            "Cell18",
+            "Cell20"
+        ],
+        "floor_area": 300.0,
+        "volume": 1080.0,
+        "pr_OccupancyType": "Office:OpenPlan",
+        "heated": true,
+        "cooled": true
+    },
+    "Zone30_BS5540": {
+        "cells": [
+            "Cell138",
+            "Cell144",
+            "Cell146"
+        ],
+        "floor_area": 300.0,
+        "volume": 1080.0,
+        "pr_OccupancyType": "Office:OpenPlan",
+        "heated": true,
+        "cooled": true
+    },
+    "Zone31_BS5900": {
+        "cells": [
+            "Cell143",
+            "Cell151",
+            "Cell150"
+        ],
+        "floor_area": 300.0,
+        "volume": 1080.0,
+        "pr_OccupancyType": "Office:OpenPlan",
+        "heated": true,
+        "cooled": true
+    },
+    "Zone32_BS5900": {
+        "cells": [
+            "Cell147",
+            "Cell153",
+            "Cell155"
+        ],
+        "floor_area": 300.0,
+        "volume": 1080.0,
+        "pr_OccupancyType": "Office:OpenPlan",
+        "heated": true,
+        "cooled": true
+    },
+    "Zone33_BS6260": {
+        "cells": [
+            "Cell152",
+            "Cell160",
+            "Cell159"
+        ],
+        "floor_area": 300.0,
+        "volume": 1080.0,
+        "pr_OccupancyType": "Office:OpenPlan",
+        "heated": true,
+        "cooled": true
+    },
+    "Zone34_BS6260": {
+        "cells": [
+            "Cell156",
+            "Cell162",
+            "Cell164"
+        ],
+        "floor_area": 300.0,
+        "volume": 1080.0,
+        "pr_OccupancyType": "Office:OpenPlan",
+        "heated": true,
+        "cooled": true
+    },
+    "Zone35_BS6620": {
+        "cells": [
+            "Cell161",
+            "Cell169",
+            "Cell168"
+        ],
+        "floor_area": 300.0,
+        "volume": 1080.0,
+        "pr_OccupancyType": "Office:OpenPlan",
+        "heated": true,
+        "cooled": true
+    },
+    "Zone36_BS6620": {
+        "cells": [
+            "Cell165",
+            "Cell171",
+            "Cell173"
+        ],
+        "floor_area": 300.0,
+        "volume": 1080.0,
+        "pr_OccupancyType": "Office:OpenPlan",
+        "heated": true,
+        "cooled": true
+    },
+    "Zone37_BS6980": {
+        "cells": [
+            "Cell170",
+            "Cell178",
+            "Cell177"
+        ],
+        "floor_area": 300.0,
+        "volume": 1080.0,
+        "pr_OccupancyType": "Office:OpenPlan",
+        "heated": true,
+        "cooled": true
+    },
+    "Zone38_BS6980": {
+        "cells": [
+            "Cell174",
+            "Cell179",
+            "Cell180"
+        ],
+        "floor_area": 300.0,
+        "volume": 1080.0,
+        "pr_OccupancyType": "Office:OpenPlan",
+        "heated": true,
+        "cooled": true
+    },
+    "Zone39_BS0": {
+        "cells": [
+            "Cell6"
+        ],
+        "floor_area": 100.0,
+        "volume": 500.0,
+        "pr_OccupancyType": "Retail:Shop",
+        "heated": true,
+        "cooled": true
+    },
+    "Zone3_BS860": {
+        "cells": [
+            "Cell17",
+            "Cell25",
+            "Cell24"
+        ],
+        "floor_area": 300.0,
+        "volume": 1080.0,
+        "pr_OccupancyType": "Office:OpenPlan",
+        "heated": true,
+        "cooled": true
+    },
+    "Zone40_BS0": {
+        "cells": [
+            "Cell9"
+        ],
+        "floor_area": 100.0,
+        "volume": 500.0,
+        "pr_OccupancyType": "Retail:Shop",
+        "heated": true,
+        "cooled": true
+    },
+    "Zone41_BS500": {
+        "cells": [
+            "Cell10"
+        ],
+        "floor_area": 100.0,
+        "volume": 360.0,
+        "pr_OccupancyType": "Office:MeetingRoom",
+        "heated": true,
+        "cooled": true
+    },
+    "Zone42_BS860": {
+        "cells": [
+            "Cell19"
+        ],
+        "floor_area": 100.0,
+        "volume": 360.0,
+        "pr_OccupancyType": "Office:MeetingRoom",
+        "heated": true,
+        "cooled": true
+    },
+    "Zone43_BS1220": {
+        "cells": [
+            "Cell28"
+        ],
+        "floor_area": 100.0,
+        "volume": 360.0,
+        "pr_OccupancyType": "Office:MeetingRoom",
+        "heated": true,
+        "cooled": true
+    },
+    "Zone44_BS1580": {
+        "cells": [
+            "Cell37"
+        ],
+        "floor_area": 100.0,
+        "volume": 360.0,
+        "pr_OccupancyType": "Office:MeetingRoom",
+        "heated": true,
+        "cooled": true
+    },
+    "Zone45_BS1940": {
+        "cells": [
+            "Cell46"
+        ],
+        "floor_area": 100.0,
+        "volume": 360.0,
+        "pr_OccupancyType": "Office:MeetingRoom",
+        "heated": true,
+        "cooled": true
+    },
+    "Zone46_BS2300": {
+        "cells": [
+            "Cell55"
+        ],
+        "floor_area": 100.0,
+        "volume": 360.0,
+        "pr_OccupancyType": "Office:MeetingRoom",
+        "heated": true,
+        "cooled": true
+    },
+    "Zone47_BS2660": {
+        "cells": [
+            "Cell64"
+        ],
+        "floor_area": 100.0,
+        "volume": 360.0,
+        "pr_OccupancyType": "Office:MeetingRoom",
+        "heated": true,
+        "cooled": true
+    },
+    "Zone48_BS3020": {
+        "cells": [
+            "Cell73"
+        ],
+        "floor_area": 100.0,
+        "volume": 360.0,
+        "pr_OccupancyType": "Office:MeetingRoom",
+        "heated": true,
+        "cooled": true
+    },
+    "Zone49_BS3380": {
+        "cells": [
+            "Cell82"
+        ],
+        "floor_area": 100.0,
+        "volume": 360.0,
+        "pr_OccupancyType": "Office:MeetingRoom",
+        "heated": true,
+        "cooled": true
+    },
+    "Zone4_BS860": {
+        "cells": [
+            "Cell21",
+            "Cell27",
+            "Cell29"
+        ],
+        "floor_area": 300.0,
+        "volume": 1080.0,
+        "pr_OccupancyType": "Office:OpenPlan",
+        "heated": true,
+        "cooled": true
+    },
+    "Zone50_BS3740": {
+        "cells": [
+            "Cell91"
+        ],
+        "floor_area": 100.0,
+        "volume": 360.0,
+        "pr_OccupancyType": "Office:MeetingRoom",
+        "heated": true,
+        "cooled": true
+    },
+    "Zone51_BS4100": {
+        "cells": [
+            "Cell100"
+        ],
+        "floor_area": 100.0,
+        "volume": 360.0,
+        "pr_OccupancyType": "Office:MeetingRoom",
+        "heated": true,
+        "cooled": true
+    },
+    "Zone52_BS4460": {
+        "cells": [
+            "Cell109"
+        ],
+        "floor_area": 100.0,
+        "volume": 360.0,
+        "pr_OccupancyType": "Office:MeetingRoom",
+        "heated": true,
+        "cooled": true
+    },
+    "Zone53_BS4820": {
+        "cells": [
+            "Cell118"
+        ],
+        "floor_area": 100.0,
+        "volume": 360.0,
+        "pr_OccupancyType": "Office:MeetingRoom",
+        "heated": true,
+        "cooled": true
+    },
+    "Zone54_BS5180": {
+        "cells": [
+            "Cell127"
+        ],
+        "floor_area": 100.0,
+        "volume": 360.0,
+        "pr_OccupancyType": "Office:MeetingRoom",
+        "heated": true,
+        "cooled": true
+    },
+    "Zone55_BS5540": {
+        "cells": [
+            "Cell136"
+        ],
+        "floor_area": 100.0,
+        "volume": 360.0,
+        "pr_OccupancyType": "Office:MeetingRoom",
+        "heated": true,
+        "cooled": true
+    },
+    "Zone56_BS5900": {
+        "cells": [
+            "Cell145"
+        ],
+        "floor_area": 100.0,
+        "volume": 360.0,
+        "pr_OccupancyType": "Office:MeetingRoom",
+        "heated": true,
+        "cooled": true
+    },
+    "Zone57_BS6260": {
+        "cells": [
+            "Cell154"
+        ],
+        "floor_area": 100.0,
+        "volume": 360.0,
+        "pr_OccupancyType": "Office:MeetingRoom",
+        "heated": true,
+        "cooled": true
+    },
+    "Zone58_BS6620": {
+        "cells": [
+            "Cell163"
+        ],
+        "floor_area": 100.0,
+        "volume": 360.0,
+        "pr_OccupancyType": "Office:MeetingRoom",
+        "heated": true,
+        "cooled": true
+    },
+    "Zone59_BS6980": {
+        "cells": [
+            "Cell172"
+        ],
+        "floor_area": 100.0,
+        "volume": 360.0,
+        "pr_OccupancyType": "Office:MeetingRoom",
+        "heated": true,
+        "cooled": true
+    },
+    "Zone5_BS1220": {
+        "cells": [
+            "Cell26",
+            "Cell34",
+            "Cell33"
+        ],
+        "floor_area": 300.0,
+        "volume": 1080.0,
+        "pr_OccupancyType": "Office:OpenPlan",
+        "heated": true,
+        "cooled": true
+    },
+    "Zone60_BS0": {
+        "cells": [
+            "Cell11"
+        ],
+        "floor_area": 100.0,
+        "volume": 500.0,
+        "pr_OccupancyType": "Food:Cafe",
+        "heated": true,
+        "cooled": true
+    },
+    "Zone61_BS500": {
+        "cells": [
+            "Cell13"
+        ],
+        "floor_area": 100.0,
+        "volume": 360.0,
+        "pr_OccupancyType": "Office:Private",
+        "heated": true,
+        "cooled": true
+    },
+    "Zone62_BS860": {
+        "cells": [
+            "Cell22"
+        ],
+        "floor_area": 100.0,
+        "volume": 360.0,
+        "pr_OccupancyType": "Office:Private",
+        "heated": true,
+        "cooled": true
+    },
+    "Zone63_BS1220": {
+        "cells": [
+            "Cell31"
+        ],
+        "floor_area": 100.0,
+        "volume": 360.0,
+        "pr_OccupancyType": "Office:Private",
+        "heated": true,
+        "cooled": true
+    },
+    "Zone64_BS1580": {
+        "cells": [
+            "Cell40"
+        ],
+        "floor_area": 100.0,
+        "volume": 360.0,
+        "pr_OccupancyType": "Office:Private",
+        "heated": true,
+        "cooled": true
+    },
+    "Zone65_BS1940": {
+        "cells": [
+            "Cell49"
+        ],
+        "floor_area": 100.0,
+        "volume": 360.0,
+        "pr_OccupancyType": "Office:Private",
+        "heated": true,
+        "cooled": true
+    },
+    "Zone66_BS2300": {
+        "cells": [
+            "Cell58"
+        ],
+        "floor_area": 100.0,
+        "volume": 360.0,
+        "pr_OccupancyType": "Office:Private",
+        "heated": true,
+        "cooled": true
+    },
+    "Zone67_BS2660": {
+        "cells": [
+            "Cell67"
+        ],
+        "floor_area": 100.0,
+        "volume": 360.0,
+        "pr_OccupancyType": "Office:Private",
+        "heated": true,
+        "cooled": true
+    },
+    "Zone68_BS3020": {
+        "cells": [
+            "Cell76"
+        ],
+        "floor_area": 100.0,
+        "volume": 360.0,
+        "pr_OccupancyType": "Office:Private",
+        "heated": true,
+        "cooled": true
+    },
+    "Zone69_BS3380": {
+        "cells": [
+            "Cell85"
+        ],
+        "floor_area": 100.0,
+        "volume": 360.0,
+        "pr_OccupancyType": "Office:Private",
+        "heated": true,
+        "cooled": true
+    },
+    "Zone6_BS1220": {
+        "cells": [
+            "Cell30",
+            "Cell36",
+            "Cell38"
+        ],
+        "floor_area": 300.0,
+        "volume": 1080.0,
+        "pr_OccupancyType": "Office:OpenPlan",
+        "heated": true,
+        "cooled": true
+    },
+    "Zone70_BS3740": {
+        "cells": [
+            "Cell94"
+        ],
+        "floor_area": 100.0,
+        "volume": 360.0,
+        "pr_OccupancyType": "Office:Private",
+        "heated": true,
+        "cooled": true
+    },
+    "Zone71_BS4100": {
+        "cells": [
+            "Cell103"
+        ],
+        "floor_area": 100.0,
+        "volume": 360.0,
+        "pr_OccupancyType": "Office:Private",
+        "heated": true,
+        "cooled": true
+    },
+    "Zone72_BS4460": {
+        "cells": [
+            "Cell112"
+        ],
+        "floor_area": 100.0,
+        "volume": 360.0,
+        "pr_OccupancyType": "Office:Private",
+        "heated": true,
+        "cooled": true
+    },
+    "Zone73_BS4820": {
+        "cells": [
+            "Cell121"
+        ],
+        "floor_area": 100.0,
+        "volume": 360.0,
+        "pr_OccupancyType": "Office:Private",
+        "heated": true,
+        "cooled": true
+    },
+    "Zone74_BS5180": {
+        "cells": [
+            "Cell130"
+        ],
+        "floor_area": 100.0,
+        "volume": 360.0,
+        "pr_OccupancyType": "Office:Private",
+        "heated": true,
+        "cooled": true
+    },
+    "Zone75_BS5540": {
+        "cells": [
+            "Cell139"
+        ],
+        "floor_area": 100.0,
+        "volume": 360.0,
+        "pr_OccupancyType": "Office:Private",
+        "heated": true,
+        "cooled": true
+    },
+    "Zone76_BS5900": {
+        "cells": [
+            "Cell148"
+        ],
+        "floor_area": 100.0,
+        "volume": 360.0,
+        "pr_OccupancyType": "Office:Private",
+        "heated": true,
+        "cooled": true
+    },
+    "Zone77_BS6260": {
+        "cells": [
+            "Cell157"
+        ],
+        "floor_area": 100.0,
+        "volume": 360.0,
+        "pr_OccupancyType": "Office:Private",
+        "heated": true,
+        "cooled": true
+    },
+    "Zone78_BS6620": {
+        "cells": [
+            "Cell166"
+        ],
+        "floor_area": 100.0,
+        "volume": 360.0,
+        "pr_OccupancyType": "Office:Private",
+        "heated": true,
+        "cooled": true
+    },
+    "Zone79_BS6980": {
+        "cells": [
+            "Cell175"
+        ],
+        "floor_area": 100.0,
+        "volume": 360.0,
+        "pr_OccupancyType": "Office:Private",
+        "heated": true,
+        "cooled": true
+    },
+    "Zone7_BS1580": {
+        "cells": [
+            "Cell35",
+            "Cell43",
+            "Cell42"
+        ],
+        "floor_area": 300.0,
+        "volume": 1080.0,
+        "pr_OccupancyType": "Office:OpenPlan",
+        "heated": true,
+        "cooled": true
+    },
+    "Zone80_BS7340": {
+        "cells": [
+            "Cell176"
+        ],
+        "floor_area": 100.0,
+        "volume": 500.0,
+        "pr_OccupancyType": "Technical:Plant",
+        "heated": false,
+        "cooled": false
+    },
+    "Zone81_BS0": {
+        "cells": [
+            "Cell0",
+            "Cell1",
+            "Cell2",
+            "Cell3",
+            "Cell4"
+        ],
+        "floor_area": 500.0,
+        "volume": 2500.0,
+        "pr_OccupancyType": "Circulation:Lobby",
+        "heated": true,
+        "cooled": true
+    },
+    "Zone82_BS500": {
+        "cells": [
+            "Cell5"
+        ],
+        "floor_area": 100.0,
+        "volume": 360.0,
+        "pr_OccupancyType": "Circulation:Core",
+        "heated": true,
+        "cooled": false
+    },
+    "Zone83_BS860": {
+        "cells": [
+            "Cell14"
+        ],
+        "floor_area": 100.0,
+        "volume": 360.0,
+        "pr_OccupancyType": "Circulation:Core",
+        "heated": true,
+        "cooled": false
+    },
+    "Zone84_BS1220": {
+        "cells": [
+            "Cell23"
+        ],
+        "floor_area": 100.0,
+        "volume": 360.0,
+        "pr_OccupancyType": "Circulation:Core",
+        "heated": true,
+        "cooled": false
+    },
+    "Zone85_BS1580": {
+        "cells": [
+            "Cell32"
+        ],
+        "floor_area": 100.0,
+        "volume": 360.0,
+        "pr_OccupancyType": "Circulation:Core",
+        "heated": true,
+        "cooled": false
+    },
+    "Zone86_BS1940": {
+        "cells": [
+            "Cell41"
+        ],
+        "floor_area": 100.0,
+        "volume": 360.0,
+        "pr_OccupancyType": "Circulation:Core",
+        "heated": true,
+        "cooled": false
+    },
+    "Zone87_BS2300": {
+        "cells": [
+            "Cell50"
+        ],
+        "floor_area": 100.0,
+        "volume": 360.0,
+        "pr_OccupancyType": "Circulation:Core",
+        "heated": true,
+        "cooled": false
+    },
+    "Zone88_BS2660": {
+        "cells": [
+            "Cell59"
+        ],
+        "floor_area": 100.0,
+        "volume": 360.0,
+        "pr_OccupancyType": "Circulation:Core",
+        "heated": true,
+        "cooled": false
+    },
+    "Zone89_BS3020": {
+        "cells": [
+            "Cell68"
+        ],
+        "floor_area": 100.0,
+        "volume": 360.0,
+        "pr_OccupancyType": "Circulation:Core",
+        "heated": true,
+        "cooled": false
+    },
+    "Zone8_BS1580": {
+        "cells": [
+            "Cell39",
+            "Cell45",
+            "Cell47"
+        ],
+        "floor_area": 300.0,
+        "volume": 1080.0,
+        "pr_OccupancyType": "Office:OpenPlan",
+        "heated": true,
+        "cooled": true
+    },
+    "Zone90_BS3380": {
+        "cells": [
+            "Cell77"
+        ],
+        "floor_area": 100.0,
+        "volume": 360.0,
+        "pr_OccupancyType": "Circulation:Core",
+        "heated": true,
+        "cooled": false
+    },
+    "Zone91_BS3740": {
+        "cells": [
+            "Cell86"
+        ],
+        "floor_area": 100.0,
+        "volume": 360.0,
+        "pr_OccupancyType": "Circulation:Core",
+        "heated": true,
+        "cooled": false
+    },
+    "Zone92_BS4100": {
+        "cells": [
+            "Cell95"
+        ],
+        "floor_area": 100.0,
+        "volume": 360.0,
+        "pr_OccupancyType": "Circulation:Core",
+        "heated": true,
+        "cooled": false
+    },
+    "Zone93_BS4460": {
+        "cells": [
+            "Cell104"
+        ],
+        "floor_area": 100.0,
+        "volume": 360.0,
+        "pr_OccupancyType": "Circulation:Core",
+        "heated": true,
+        "cooled": false
+    },
+    "Zone94_BS4820": {
+        "cells": [
+            "Cell113"
+        ],
+        "floor_area": 100.0,
+        "volume": 360.0,
+        "pr_OccupancyType": "Circulation:Core",
+        "heated": true,
+        "cooled": false
+    },
+    "Zone95_BS5180": {
+        "cells": [
+            "Cell122"
+        ],
+        "floor_area": 100.0,
+        "volume": 360.0,
+        "pr_OccupancyType": "Circulation:Core",
+        "heated": true,
+        "cooled": false
+    },
+    "Zone96_BS5540": {
+        "cells": [
+            "Cell131"
+        ],
+        "floor_area": 100.0,
+        "volume": 360.0,
+        "pr_OccupancyType": "Circulation:Core",
+        "heated": true,
+        "cooled": false
+    },
+    "Zone97_BS5900": {
+        "cells": [
+            "Cell140"
+        ],
+        "floor_area": 100.0,
+        "volume": 360.0,
+        "pr_OccupancyType": "Circulation:Core",
+        "heated": true,
+        "cooled": false
+    },
+    "Zone98_BS6260": {
+        "cells": [
+            "Cell149"
+        ],
+        "floor_area": 100.0,
+        "volume": 360.0,
+        "pr_OccupancyType": "Circulation:Core",
+        "heated": true,
+        "cooled": false
+    },
+    "Zone99_BS6620": {
+        "cells": [
+            "Cell158"
+        ],
+        "floor_area": 100.0,
+        "volume": 360.0,
+        "pr_OccupancyType": "Circulation:Core",
+        "heated": true,
+        "cooled": false
+    },
+    "Zone9_BS1940": {
+        "cells": [
+            "Cell44",
+            "Cell52",
+            "Cell51"
+        ],
+        "floor_area": 300.0,
+        "volume": 1080.0,
+        "pr_OccupancyType": "Office:OpenPlan",
+        "heated": true,
+        "cooled": true
+    }
+}

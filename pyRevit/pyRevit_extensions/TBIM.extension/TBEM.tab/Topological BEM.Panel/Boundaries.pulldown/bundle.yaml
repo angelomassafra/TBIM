@@ -1,0 +1,7 @@
+title: "Boundaries"
+tooltip: "Boundary conditions of the faces: from the topology (outdoors, ground for botHor faces, adjacent zones) or set on the selected walls, floors and roofs."
+layout:
+  - Adiabatic
+  - Ground
+  - Outdoors
+  - Reset

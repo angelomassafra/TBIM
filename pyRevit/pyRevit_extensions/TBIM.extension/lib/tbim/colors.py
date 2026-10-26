@@ -11,6 +11,9 @@ PALETTE = [
 # Sequential palette (yellow to red) for numeric classes: readable in shaded views,
 # and high values (e.g. U-values, loads) read as "hot"
 SEQUENTIAL = [(255, 237, 160), (254, 204, 92), (253, 159, 61), (240, 101, 41), (215, 48, 31), (153, 0, 13)]
+# Color scale of the result maps: 10 bands from pale yellow to dark red
+SCALE = [(255, 255, 204), (255, 237, 160), (254, 217, 118), (254, 178, 76), (253, 141, 60), (252, 78, 42),
+         (227, 26, 28), (189, 0, 38), (128, 0, 38), (77, 0, 25)]
 
 # Face topological types and apertures, as in the figures of the paper
 TOPOLOGY_COLORS = {
@@ -29,6 +32,7 @@ TOPOLOGY_COLORS = {
 GRAPH_EDGE_COLORS = {"door": (227, 26, 28), "stair": (120, 94, 240), "entrance": (230, 159, 0),
                      "wall": (120, 120, 120), "slab": (51, 160, 44)}
 EXTERIOR_COLOR = (60, 60, 60)
+NO_DATA_COLOR = (200, 200, 200)
 
 
 def to_hex(rgb):
@@ -53,6 +57,22 @@ def classes(values, n=len(SEQUENTIAL)):
     step = (high - low) / float(n)
     return [("%g - %g" % (round(low + i * step, 2), round(low + (i + 1) * step, 2)),
              low + i * step, low + (i + 1) * step) for i in range(n)]
+
+
+def scale_for(values):
+    """Sequential color scale of numeric ``values`` (equal-interval classes); missing values are grey.
+    Return (color of a value function, [(label, rgb)])."""
+    bins = classes([v for v in values if number(v) is not None], len(SCALE))
+
+    def color_of(value):
+        x = number(value)
+        if x is None or not bins:
+            return NO_DATA_COLOR
+        return next(SCALE[i] for i, (_, _, high) in enumerate(bins) if x <= high or i == len(bins) - 1)
+    entries = [(label, SCALE[i]) for i, (label, _, _) in enumerate(bins)]
+    if any(number(v) is None for v in values):
+        entries.append(("No data", NO_DATA_COLOR))
+    return color_of, entries
 
 
 def legend_for(values, numeric_threshold=8):

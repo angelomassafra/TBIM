@@ -1,0 +1,2 @@
+title: "Weather"
+tooltip: "Pick the EnergyPlus weather file (EPW); a DDY file with the same name adds the design days."

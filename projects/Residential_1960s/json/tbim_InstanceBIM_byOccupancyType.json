@@ -7,7 +7,7 @@
         "pr_MechanicalVentilationRatePerVolume": 0,
         "pr_NaturalVentilationRate": 0.5,
         "pr_SpaceTemperatureWinterMin": 20,
-        "pr_SpaceTemperatureSummerMax": "NaN"
+        "pr_SpaceTemperatureSummerMax": 26
     },
     {
         "pr_OccupancyType": "Residential:Bedroom",
@@ -17,7 +17,7 @@
         "pr_MechanicalVentilationRatePerVolume": 0,
         "pr_NaturalVentilationRate": 0.5,
         "pr_SpaceTemperatureWinterMin": 20,
-        "pr_SpaceTemperatureSummerMax": "NaN"
+        "pr_SpaceTemperatureSummerMax": 26
     },
     {
         "pr_OccupancyType": "Residential:Kitchen",
@@ -27,7 +27,7 @@
         "pr_MechanicalVentilationRatePerVolume": 0,
         "pr_NaturalVentilationRate": 1.0,
         "pr_SpaceTemperatureWinterMin": 20,
-        "pr_SpaceTemperatureSummerMax": "NaN"
+        "pr_SpaceTemperatureSummerMax": 26
     },
     {
         "pr_OccupancyType": "Support:Bathroom",
@@ -37,7 +37,7 @@
         "pr_MechanicalVentilationRatePerVolume": 0,
         "pr_NaturalVentilationRate": 1.0,
         "pr_SpaceTemperatureWinterMin": 20,
-        "pr_SpaceTemperatureSummerMax": "NaN"
+        "pr_SpaceTemperatureSummerMax": 26
     },
     {
         "pr_OccupancyType": "Circulation:PrivateHallway",
@@ -47,7 +47,7 @@
         "pr_MechanicalVentilationRatePerVolume": 0,
         "pr_NaturalVentilationRate": 0.5,
         "pr_SpaceTemperatureWinterMin": 18,
-        "pr_SpaceTemperatureSummerMax": "NaN"
+        "pr_SpaceTemperatureSummerMax": 28
     },
     {
         "pr_OccupancyType": "Circulation:Stair",

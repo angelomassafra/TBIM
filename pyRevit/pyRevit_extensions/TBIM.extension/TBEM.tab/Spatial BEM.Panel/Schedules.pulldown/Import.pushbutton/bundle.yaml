@@ -1,0 +1,2 @@
+title: "Import"
+tooltip: "Add Honeybee ScheduleRuleset JSON files to the library, e.g. the occupancy schedules of a booking service (the schedule files of digitman_bim2bem). The use in the file name (Occupancy, Lighting, Equipment, Heating, Cooling, Ventilation) sets the identifier prefix."
