@@ -603,4 +603,4 @@ are the functions of `lib/tbim/pipeline.py`, which the commands, Run and the off
 
 ---
 
-*TBIM is released under the MIT license. If you use it in your research, please cite the paper above.*
+*TBIM is released under the GNU AGPL v3.0 or later. If you use it in your research, please cite the paper above.*

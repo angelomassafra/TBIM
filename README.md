@@ -170,4 +170,7 @@ If you use TBIM in your research, please cite the paper above (see also [`CITATI
 
 ## License
 
-[MIT](LICENSE)
+Copyright (c) 2026 Angelo Massafra. TBIM is free software released under the
+[GNU Affero General Public License v3.0 or later](LICENSE): free for research, teaching and any other use, provided
+that modified versions, also when offered as a service, are released with their source code under the same
+license. Versions up to 3.1.0 were released under the MIT license.
