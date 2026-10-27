@@ -26,9 +26,9 @@ def build_cellcomplex(brep_paths):
     for path in brep_paths:
         topology = Topology.ByBREPPath(path)
         if topology is None:
-            raise ValueError("Cannot read BRep %s (is topologic_core installed?)" % path)
+            raise ValueError("Cannot read BRep %s (is pythonocc-core installed? See Installation > Check)" % path)
         faces.extend(Topology.Faces(topology))
-        blocks.append((block_name(path), Topology.Cells(topology)))
+        blocks.append((block_name(path), Topology.Cells(topology, silent=True)))  # a one-cell BRep is a Cell
     # merging the cells is orders of magnitude faster than merging all their faces
     # (112 cells: 0.5 s instead of 5 min); faces are the fallback for open blocks
     cells = [c for _, block_cells in blocks for c in block_cells]

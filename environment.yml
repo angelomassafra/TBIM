@@ -1,0 +1,11 @@
+# Geometry kernel of topologicpy for TBIM: pythonocc-core (OpenCASCADE 8), published on conda-forge only.
+# Create it outside synced folders, where TBIM looks for it ('occ_env' of tbim_settings.json otherwise):
+#   micromamba create -y -p "%LOCALAPPDATA%\tbim\occ-env" -f environment.yml
+#   (or: conda env create -p "%LOCALAPPDATA%\tbim\occ-env" -f environment.yml)
+# The 'novtk' build leaves out VTK and Qt (1.2 GB instead of 2.5 GB). The other packages are in requirements.txt.
+name: tbim-occ
+channels:
+  - conda-forge
+dependencies:
+  - python=3.12
+  - pythonocc-core=8.0.1.2=novtk*

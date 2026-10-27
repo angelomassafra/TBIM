@@ -63,18 +63,24 @@ step on the Demo School.
 |---|---|
 | Autodesk Revit | 2026 |
 | pyRevit | 7.0 with the CPython 3.12 engine |
-| topologicpy / topologic_core | 0.9.87 / 8.0.4 |
+| topologicpy / pythonocc-core | 0.9.87 / 8.0.1.2 (OpenCASCADE 8, conda-forge) |
 | honeybee-energy, EnergyPlus | 1.126.6, 24.2 (TBEM tab: BIM-to-BEM) |
 
 ## Quick start
 
 1. Install [pyRevit](https://github.com/pyrevitlabs/pyRevit/releases) and download this repository
    (e.g. to `C:\tbim`).
-2. Install the Python packages for Python 3.12 in a local (not synced) folder:
+2. Install the Python packages for Python 3.12 in a local (not synced) folder, and the geometry kernel of
+   topologicpy, [pythonocc-core](https://github.com/tpaviot/pythonocc-core) (conda-forge only), with
+   [micromamba](https://mamba.readthedocs.io/en/latest/installation/micromamba-installation.html) or conda:
 
    ```bat
    py -3.12 -m pip install -r C:\tbim\requirements.txt --target "%LOCALAPPDATA%\tbim\site-packages"
+   micromamba create -y -p "%LOCALAPPDATA%\tbim\occ-env" -f C:\tbim\environment.yml
    ```
+
+   TBIM finds both folders by itself. Without conda, `topologic_core==8.0.4` installed in the same
+   site-packages is the legacy kernel (same results, models load about 3 times slower).
 
 3. *pyRevit > Settings > Custom Extension Directories*: add `C:\tbim\pyRevit\pyRevit_extensions`, then
    *Reload*.
@@ -149,6 +155,9 @@ installed, simulate one.
 py -3.12 -m pip install -r requirements.txt pytest
 py -3.12 -m pytest
 ```
+
+The tests use pythonocc from `%LOCALAPPDATA%\tbim\occ-env` (or `occ_env` of `tbim_settings.json`); set
+`TOPOLOGICPY_CORE_BACKEND=topologic_core` to run them on the legacy kernel.
 
 Lint with `ruff check .` (settings in `pyproject.toml`).
 

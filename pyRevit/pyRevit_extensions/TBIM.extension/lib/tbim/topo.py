@@ -28,9 +28,10 @@ EXTERNAL_TYPES = ("extVer", "topHor", "botHor", "extInc")
 # topologicpy compatibility
 def _by_cells_with_face_fallback():
     """Since topologicpy 0.9.87 ``CellComplex.ByCells`` returns None when the native constructor fails, while
-    0.9.86 assembled the faces of the cells instead. topologic_core 8.0.4 raises on the CellComplexes of the TBIM
-    projects (cells sharing walls and slabs) that ``CellComplex.ByFaces`` assembles: the fallback is restored for
-    every caller, ``Topology.ByJSONDictionary`` (load_cellcomplex) included."""
+    0.9.86 assembled the faces of the cells instead. The topologic_core backend (8.0.4) raises on the
+    CellComplexes of the TBIM projects (cells sharing walls and slabs) that ``CellComplex.ByFaces`` assembles;
+    the pythonocc backend builds them. The fallback is restored for every caller, whatever the backend,
+    ``Topology.ByJSONDictionary`` (load_cellcomplex) included."""
     native = CellComplex.ByCells
     if getattr(native, "tbim_fallback", False):
         return
@@ -58,7 +59,9 @@ def props(topology):
     d = Topology.Dictionary(topology, silent=True)
     if d is None:
         return {}
-    return clean(Dictionary.PythonDictionary(d) or {})
+    if not isinstance(d, dict):  # the pythonocc backend already returns a python dict
+        d = Dictionary.PythonDictionary(d)
+    return clean(d or {})
 
 
 def get(topology, key, default=None):

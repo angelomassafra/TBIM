@@ -39,7 +39,8 @@ The method is described in:
 |---|---|
 | Autodesk Revit | 2026 |
 | pyRevit | 7.0 with the CPython 3.12 engine |
-| topologicpy / topologic_core | 0.9.87 / 8.0.4 (see `requirements.txt`) |
+| topologicpy | 0.9.87 (see `requirements.txt`) |
+| pythonocc-core (geometry kernel) | 8.0.1.2, OpenCASCADE 8, from conda-forge (see `environment.yml`) |
 | honeybee-energy, EnergyPlus | 1.126.6, 24.2 (TBEM tab only) |
 
 **Steps**
@@ -54,14 +55,51 @@ The method is described in:
 
    Without a local Python 3.12 use `pip install ... --python-version 3.12 --only-binary=:all:`.
    TBIM also looks in `<tbim>\site-packages` and in the `site_packages` folder of `tbim_settings.json`.
-3. Add the extension folder to pyRevit: *pyRevit > Settings > Custom Extension Directories* >
+3. Install the geometry kernel of topologicpy, [pythonocc-core](https://github.com/tpaviot/pythonocc-core).
+   It is published on conda-forge only: create its environment with
+   [micromamba](https://mamba.readthedocs.io/en/latest/installation/micromamba-installation.html) (a single
+   executable) or conda, again outside synced folders:
+
+   ```bat
+   micromamba create -y -p "%LOCALAPPDATA%\tbim\occ-env" -f C:\tbim\environment.yml
+   ```
+
+   TBIM adds the OpenCASCADE DLLs and the `OCC` package of that environment by itself (another folder: key
+   `occ_env` of `tbim_settings.json`). Without conda, install `topologic_core==8.0.4` with pip in the
+   site-packages folder of step 2: topologicpy falls back to it (see [Topologic kernel](#topologic-kernel)).
+4. Add the extension folder to pyRevit: *pyRevit > Settings > Custom Extension Directories* >
    `C:\tbim\pyRevit\pyRevit_extensions`, then *Reload*.
-4. In Revit open the **TBIM** tab and press **Installation > Check**: every library must be listed and
-   the message must end with *Topologic kernel: ok*. For the TBEM tab it also lists honeybee-energy and
+5. In Revit open the **TBIM** tab and press **Installation > Check**: every library must be listed, with
+   *Topologic backend: PythonOCCBackend* and *Topologic kernel: ok*. For the TBEM tab it also lists honeybee-energy and
    EnergyPlus 24.2 ([energyplus.net](https://energyplus.net/downloads), default folder `C:\EnergyPlusV24-2-0`).
 
 > Run **Check** again after updating TBIM: the CPython engine keeps the TBIM modules in memory and Check
 > reloads them.
+
+### Topologic kernel
+
+topologicpy runs on one of two geometry kernels, both built on OpenCASCADE: **pythonocc-core** (the
+recommended one) or the legacy **topologic_core**. The key `topologic_backend` of `tbim_settings.json`
+chooses it: `auto` (default: pythonocc-core if installed, otherwise topologic_core), `pythonocc` or
+`topologic_core`; Check shows the active one. topologicpy picks it at its first use: press Check after
+changing it (Check reloads topologicpy).
+
+Both kernels give the same CellComplexes, face types and dictionaries on every example project;
+pythonocc-core loads the TBIM models about 3 times faster (topologicpy 0.9.87, Windows 11, seconds):
+
+| Case study | Cells | Faces | Load TBIM JSON, topologic_core | Load TBIM JSON, pythonocc-core | Speed-up |
+|---|---:|---:|---:|---:|---:|
+| Fortified_Farmhouse | 17 | 86 | 1.81 | 0.61 | 3.0× |
+| School | 23 | 111 | 2.54 | 0.96 | 2.6× |
+| Town_Hall | 35 | 161 | 3.57 | 1.32 | 2.7× |
+| Shopping_Centre | 37 | 181 | 4.06 | 1.27 | 3.2× |
+| Residential_1960s | 112 | 477 | 11.00 | 3.88 | 2.8× |
+| Office_Tower | 181 | 674 | 18.01 | 6.08 | 3.0× |
+| Residential_1960s, in Revit 2026 | 112 | 477 | 9.65 | 4.05 | 2.4× |
+| Office_Tower, in Revit 2026 | 181 | 674 | 16.67 | 5.73 | 2.9× |
+
+Building the CellComplex from the BReps takes under 0.5 s on both kernels; the test suite runs in 30 s
+instead of 45 s.
 
 ---
 
@@ -80,7 +118,7 @@ hover on a button to read what it does.
 | <img src="../pyRevit/pyRevit_extensions/TBIM.extension/TBIM.tab/Project.Panel/CheckModel.pushbutton/icon.png" width="24"> | Project | Check Model | Check the project and the Revit model: missing inputs and outputs, faces with holes, cells without occupancy type or room, styles without layers, elements without UID or with the wrong type, duplicated UIDs, spaces not enclosed, apertures without host. |
 | <img src="../pyRevit/pyRevit_extensions/TBIM.extension/TBIM.tab/Project.Panel/Info.pushbutton/icon.png" width="24"> | Project | Info | Show the active project, the project linked to the Revit model and which steps of the TBIM workflow have already produced their data. |
 | <img src="../pyRevit/pyRevit_extensions/TBIM.extension/TBIM.tab/Project.Panel/Folder.pushbutton/icon.png" width="24"> | Project | Folder | Open the folder of the active project in Windows Explorer. |
-| <img src="../pyRevit/pyRevit_extensions/TBIM.extension/TBIM.tab/Installation.Panel/Check.pushbutton/icon.png" width="24"> | Installation | Check | Check the installation (Python engine, numpy, scipy, topologic_core, topologicpy, data folder; honeybee-energy and EnergyPlus for the TBEM tab) and reload the TBIM and TBEM libraries and topologicpy. Run it after updating TBIM. |
+| <img src="../pyRevit/pyRevit_extensions/TBIM.extension/TBIM.tab/Installation.Panel/Check.pushbutton/icon.png" width="24"> | Installation | Check | Check the installation (Python engine, numpy, scipy, topologicpy, pythonocc-core and the active Topologic backend, data folder; honeybee-energy and EnergyPlus for the TBEM tab) and reload the TBIM and TBEM libraries and topologicpy. Run it after updating TBIM. |
 | <img src="../pyRevit/pyRevit_extensions/TBIM.extension/TBIM.tab/3D%20Model.Panel/Import.pushbutton/icon.png" width="24"> | 3D Model | Import | Step 1 - Select the BRep files of the 3D model (one closed CellComplex per building block, in centimetres), e.g. exported from Rhino. |
 | <img src="../pyRevit/pyRevit_extensions/TBIM.extension/TBIM.tab/3D%20Model.Panel/North.pushbutton/icon.png" width="24"> | 3D Model | North | Step 1 - Set the angle of the Project North (degrees, counterclockwise). It is used to compute the exposure of the external faces. |
 | <img src="../pyRevit/pyRevit_extensions/TBIM.extension/TBIM.tab/Collectors.Panel/CellComplex.pulldown/Create.pushbutton/icon.png" width="24"> | Collectors | CellComplex > Create | Step 2 - Merge the BReps in a CellComplex and create its Revit counterpart: building storeys (levels), walls, floors, roofs and one space per cell, all tagged with the UID of their cell or face. |
@@ -574,7 +612,9 @@ Property names follow the paper: `pr_` properties (e.g. `pr_OccupancyType`, `pr_
 |---|---|---|
 | `data_dir` | `json` | Data folder (absolute or relative to `<tbim>`); set by Project > New/Open. |
 | `projects_root` | `projects` | Folder of the projects. |
-| `site_packages` | - | Extra folder with topologicpy and topologic_core. |
+| `site_packages` | - | Extra folder with the packages of `requirements.txt`. |
+| `occ_env` | `%LOCALAPPDATA%\tbim\occ-env` | Conda environment with pythonocc-core (`environment.yml`). |
+| `topologic_backend` | `auto` | Geometry kernel of topologicpy: `auto`, `pythonocc` or `topologic_core` (see [Topologic kernel](#topologic-kernel)). |
 | `dialogs` | `true` | `false`: no dialogs, messages go to `<data folder>/tbim.log` (batch runs, tests). |
 | `choices` | `{}` | Answers used when `dialogs` is `false`, e.g. `{"visualize_model": "InstanceBIM", "visualize_data_property": "pr_FaceExposure"}`. TBEM: `tbem_weather_file` (EPW path), `tbem_run_workflow`, `tbem_results_level` (e.g. `Full TBEM`), `tbem_result` (a KPI or output variable label, e.g. `Cooling need (kWh/m2 y)`). |
 
@@ -589,7 +629,8 @@ are the functions of `lib/tbim/pipeline.py`, which the commands, Run and the off
 
 | Problem | Solution |
 |---|---|
-| *topologic_core NOT AVAILABLE* in Check | Install the packages for Python 3.12 (see [Installation](#1-installation)); since topologicpy 0.9 `topologic_core` must be installed explicitly. |
+| *pythonocc-core NOT AVAILABLE* or *Topologic backend: NONE* in Check | Create the conda environment of `environment.yml` in `%LOCALAPPDATA%\tbim\occ-env`, or set `occ_env` to its folder (see [Installation](#1-installation)); pip cannot install pythonocc-core. |
+| *PythonOCCBackend was requested, but pythonocc-core is not available* | `topologic_backend` is `pythonocc` but the environment is missing: create it or set `topologic_backend` to `auto`. |
 | A change to the TBIM code has no effect | Run **Installation > Check** (it reloads the TBIM modules) or restart Revit. |
 | Commands do nothing and nothing is logged | With `"dialogs": false` messages go to `tbim.log`; with `true` a dialog may be waiting behind another window. |
 | Walls/floors/roofs not updated by Update Data | Their `UID` must be the one written by Collectors > Create: re-run the workflow from step 2 after editing the BReps. |

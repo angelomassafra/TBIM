@@ -7,7 +7,10 @@ import sys
 
 import pytest
 
-pytest.importorskip("topologic_core")
+import tbim
+
+if tbim.topologic_backend() is None:
+    pytest.skip("no topologicpy backend (pythonocc-core or topologic_core)", allow_module_level=True)
 
 DEMO = os.path.join(os.path.dirname(__file__), os.pardir, "examples", "demo")
 

@@ -1,7 +1,7 @@
 cff-version: 1.2.0
 message: "If you use TBIM, please cite the paper below."
 title: "TBIM - Topological BIM for pyRevit"
-version: 3.1.1
+version: 3.2.0
 license: AGPL-3.0-or-later
 authors:
   - family-names: Massafra

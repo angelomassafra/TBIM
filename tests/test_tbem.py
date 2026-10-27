@@ -3,6 +3,7 @@ import os
 
 import pytest
 
+import tbim
 from tbem import programs, results, zones
 from tbem import settings as tbem_settings
 
@@ -134,7 +135,8 @@ def test_schedule_library_and_digitman_files():
 
 def build(project, level, settings=None):
     pytest.importorskip("honeybee_energy")
-    pytest.importorskip("topologic_core")
+    if tbim.topologic_backend() is None:
+        pytest.skip("no topologicpy backend (pythonocc-core or topologic_core)")
     from tbem import model, schedules
     from tbim import tbimjson, topo
     path = ibim(project)
